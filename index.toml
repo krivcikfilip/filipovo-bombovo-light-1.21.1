@@ -651,6 +651,10 @@ hash = "4c6384108531f9f867a2f5634e3dc50c5c91aec2846e23e53c53874cc45727ef"
 metafile = true
 
 [[files]]
+file = "mods/fossil-neoforge-1.21.1-9.3.4.0.jar"
+hash = "b7545114dd59ad4ea189edc4771cc4817de5f881c32b0603090dc0c620bc1d16"
+
+[[files]]
 file = "mods/fowlplay.pw.toml"
 hash = "549e72a053da13a50404bd0901b75ce25c6045e778d5a89afcf58e9b5e1945f5"
 metafile = true

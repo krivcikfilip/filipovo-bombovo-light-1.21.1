@@ -30,3 +30,9 @@ packwiz update --all      # aktualizovat mody
 packwiz refresh           # po ruční změně souborů
 git add -A && git commit -m "..." && git push
 ```
+
+## Poděkování a licence
+
+- **Fossils & Archeology Revival** – © Team Fossils & Archeology ([GitHub](https://github.com/TeamFossilsArcheology/FossilsArcheologyRevival)).
+  V packu je naše neoficiální úprava pro Minecraft 1.21.1 NeoForge. Kód je pod licencí MIT, grafika a modely
+  zůstávají autorům (licence dovoluje šíření celého projektu v rámci modpacku). Chyby v tomto portu nehlaste původním autorům.
