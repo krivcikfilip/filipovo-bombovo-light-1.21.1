@@ -1,0 +1,13 @@
+name = "Just-In NETHER"
+filename = "just_in_nether-1.2.4-neoforge-1.21.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/ZDpp5yKa/versions/KlfTLA5C/just_in_nether-1.2.4-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "b3a447388328967c82ad6654239afc4260a269389433531268fe5c6e04df37acab7eadb57dcf2caddf0b7ab5f534a5b35b573e69b99deed498f93f8c9381f4f8"
+
+[update]
+[update.modrinth]
+mod-id = "ZDpp5yKa"
+version = "KlfTLA5C"

@@ -1,0 +1,5 @@
+# Soubory, které nejsou součástí modpacku (packwiz je nedává do indexu)
+tools/
+README.md
+.gitignore
+.gitattributes

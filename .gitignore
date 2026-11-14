@@ -1,0 +1,9 @@
+# pomocné programy a výstupy kontrol – nepatří do repa
+tools/mpcheck
+tools/depcheck
+tools/report.json
+tools/report.tsv
+tools/build.log
+tools/failed.txt
+tools/depcheck.txt
+.DS_Store

@@ -1,0 +1,13 @@
+name = "Better Fishtanks"
+filename = "betterfishtanks-1.4.2-1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Aokk3vZE/versions/qjhbG5Ze/betterfishtanks-1.4.2-1.21.1-neoforge.jar"
+hash-format = "sha512"
+hash = "79d5c3f2bd47b593e4fcd65c47edf9eb7e4d2eaa0bce675d555456949c2064499ee7be2e98cb6647786dcc04bf7c8481dd27e94c55225a91fc6a3bb65fb1f69e"
+
+[update]
+[update.modrinth]
+mod-id = "Aokk3vZE"
+version = "qjhbG5Ze"

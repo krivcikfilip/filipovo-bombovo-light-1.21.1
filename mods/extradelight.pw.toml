@@ -1,0 +1,13 @@
+name = "ExtraDelight"
+filename = "extradelight-2.7.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/yRrY3XII/versions/qoAnW1in/extradelight-2.7.1.jar"
+hash-format = "sha512"
+hash = "e19765c76f6e8b6820c34a90243f1e06bf25fa2e653d754f9c3f115fc26236c508fafc0e45f6062f29129818fabb240d2e39a96c92b868b878913c4e10995b87"
+
+[update]
+[update.modrinth]
+mod-id = "yRrY3XII"
+version = "qoAnW1in"

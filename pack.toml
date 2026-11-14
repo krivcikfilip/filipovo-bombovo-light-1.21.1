@@ -1,0 +1,13 @@
+name = "Filipovo Bombovo 2"
+author = "Filip"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "f662b90732aabe6798692ee4f271900f73efa45ccab4c3beba91317dd65e81e2"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.266"

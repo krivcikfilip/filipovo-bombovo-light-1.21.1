@@ -1,0 +1,13 @@
+name = "Luminous: Overworld"
+filename = "Luminous Overworld V1.5.52 -NeoForge 1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/HT2F6lNL/versions/7gCLLt7C/Luminous%20Overworld%20V1.5.52%20-NeoForge%201.21.1.jar"
+hash-format = "sha512"
+hash = "4be8a62c1a50fdd485a47c83014d5feb958f79ea6151b676d3cf7705239aff0d73b2b92079fbd60b33d762364b78c15de811d7802a46985174d41e3bb01d3156"
+
+[update]
+[update.modrinth]
+mod-id = "HT2F6lNL"
+version = "7gCLLt7C"

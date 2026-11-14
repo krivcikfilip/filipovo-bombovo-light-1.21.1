@@ -1,0 +1,13 @@
+name = "More Hitboxes"
+filename = "morehitboxes-neoforge-1.21.1-1.9.4-alpha.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/BOVAW87Z/versions/1Cu922wS/morehitboxes-neoforge-1.21.1-1.9.4-alpha.jar"
+hash-format = "sha512"
+hash = "0025360f2960f420894ab12d1a070ca27814c7b2e09832cb4b57da581870216aa5234d620c31e71c5f3ccc4b942aeda028834a2a934a7fbd97117074f26520eb"
+
+[update]
+[update.modrinth]
+mod-id = "BOVAW87Z"
+version = "1Cu922wS"

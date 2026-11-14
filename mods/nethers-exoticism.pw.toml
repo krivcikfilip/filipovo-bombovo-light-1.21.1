@@ -1,0 +1,13 @@
+name = "Nether Exotics"
+filename = "netherexotics-1.21.1-1.3.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/3e4LaIlU/versions/rwh5rHiy/netherexotics-1.21.1-1.3.1.jar"
+hash-format = "sha512"
+hash = "bafb5e060fc50b78f52a2c62b9e6ed8aa21128f75c8b89ff2990dca81e67d429896c761c01ee6ea9e71cbb9cfc59ababee81a2ebfb0eca48e6d47dacc3342f9e"
+
+[update]
+[update.modrinth]
+mod-id = "3e4LaIlU"
+version = "rwh5rHiy"

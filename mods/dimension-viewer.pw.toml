@@ -1,0 +1,13 @@
+name = "Dimension Viewer"
+filename = "dimensionviewer-neoforge-1.21-2.2.1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/3aeFezQk/versions/gZEtZOY7/dimensionviewer-neoforge-1.21-2.2.1.jar"
+hash-format = "sha512"
+hash = "0401986bc48dd9d96613493f2dd8229da7b4292825a6b3359205263e3296d5081d3aab9dbba732882f6e1700ae59705138d037a0ebc146120ac727c54d98eabb"
+
+[update]
+[update.modrinth]
+mod-id = "3aeFezQk"
+version = "gZEtZOY7"

@@ -1,0 +1,13 @@
+name = "Replication Enchantment"
+filename = "replicationenchantment-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/cAHzWsm8/versions/5PsCccis/replicationenchantment-1.0.0.jar"
+hash-format = "sha512"
+hash = "a2ee521da05fdc6593336b566da999e878aaf6456f2e2fb2ee9287a499ca313ebe73fbef7ff2cfee98ac66fbfa1de4795ce56bde55caa814a3118509a06821fc"
+
+[update]
+[update.modrinth]
+mod-id = "cAHzWsm8"
+version = "5PsCccis"

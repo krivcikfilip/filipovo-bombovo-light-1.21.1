@@ -1,0 +1,13 @@
+name = "DEUF - Duplicate Entity UUID Fix [NeoForge]"
+filename = "deuf-1.21.1-1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/XBOwKwtt/versions/Xif1lnsl/deuf-1.21.1-1.0.jar"
+hash-format = "sha512"
+hash = "5561cfeb223765f07e86f80854f4c58926cc352e0c2d6cb7e636633df67f25e1313a69de1597e7fd89e8f5800e5be430ba700a123de01e95bcf9a4ea7ec7c53a"
+
+[update]
+[update.modrinth]
+mod-id = "XBOwKwtt"
+version = "Xif1lnsl"
