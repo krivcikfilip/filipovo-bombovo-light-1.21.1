@@ -1,0 +1,33 @@
+# Server pro Filipovo Bombovo 2 (Minecraft 1.21.1 + NeoForge)
+# Spuštění:  docker compose up -d      Logy:  docker compose logs -f
+services:
+  mc:
+    image: itzg/minecraft-server:java21
+    container_name: filipovo-bombovo
+    restart: unless-stopped
+    tty: true
+    stdin_open: true
+    ports:
+      - "25565:25565"
+    environment:
+      EULA: "TRUE"
+      TYPE: "NEOFORGE"
+      VERSION: "1.21.1"
+      NEOFORGE_VERSION: "21.1.266"
+      # pack se při každém startu aktualizuje z GitHubu (mody jen pro klienta se vynechají)
+      PACKWIZ_URL: "https://raw.githubusercontent.com/krivcikfilip/filipovo-bombovo-light-1.21.1/main/pack.toml"
+      MEMORY: "10G"              # na stroji s 16 GB RAM; s 12 GB dej 8G
+      USE_AIKAR_FLAGS: "true"
+      MOTD: "Filipovo Bombovo 2"
+      DIFFICULTY: "normal"
+      VIEW_DISTANCE: "10"
+      SIMULATION_DISTANCE: "8"
+      MAX_PLAYERS: "8"
+      ENABLE_WHITELIST: "true"
+      WHITELIST: "HRAC1,HRAC2,HRAC3,HRAC4"   # sem herní jména všech 4 hráčů
+      OPS: "HRAC1"                           # tvoje herní jméno
+      ALLOW_FLIGHT: "true"       # nutné kvůli létání (lodě, jetpacky) – jinak server vyhazuje za „fly hacking“
+      SPAWN_PROTECTION: "0"
+      TZ: "Europe/Prague"
+    volumes:
+      - ./data:/data
