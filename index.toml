@@ -1256,11 +1256,6 @@ hash = "921d02a072ec9644b1557eece1a090f0be59fae479e652b1ba9c5cd16afba8f7"
 metafile = true
 
 [[files]]
-file = "mods/smallcolonies.pw.toml"
-hash = "55b7956f5bdf88fa96c46b5e31a8856ad16f97826d43bb589f9ad38044b5c7bc"
-metafile = true
-
-[[files]]
 file = "mods/smartbrainlib.pw.toml"
 hash = "6e7ce9c2aee5bb72d2698eb89035c9b2458d20daa0782e1a03cfba7a6647621e"
 metafile = true
