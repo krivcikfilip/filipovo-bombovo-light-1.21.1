@@ -67,3 +67,9 @@ Pack se spravuje na Macu uživatele (packwiz) a pushuje na GitHub. Server si zm�
 - Nemazat ani nepřepisovat složku / svět starého serveru.
 - Neměnit systémovou Javu, na které běží starý server.
 - Nepřidávat ručně jary do `mods/` na serveru – při dalším startu je packwiz-installer může smazat/přepsat; změny dělat v repu packu.
+
+## Xaero – sledování hráčů (ikony hráčů ve světě)
+Modpack přes packwiz nahraje na server `config/xaero/lib/common.cfg` s `everyone_tracks_everyone = true`.
+Bez toho server neposílá pozice hráčů a ikony/směr ke vzdáleným hráčům se nezobrazí.
+Po prvním startu ověř: `grep everyone_tracks_everyone data/config/xaero/lib/common.cfg` → musí být `true`.
+Xaero's Minimap musí být i na serveru (v packu je side = both).

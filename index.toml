@@ -1,6 +1,61 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/iris.properties"
+hash = "86c84148dae9f245ffb90539f4adf7d21af34fa508b1d8c48970c82f45410ddb"
+preserve = true
+
+[[files]]
+file = "config/xaero/lib/client.cfg"
+hash = "43ed9dbfa5b4d6f0f3d2e8c2ced17ad298164b22c68ff11d415257a39b074336"
+
+[[files]]
+file = "config/xaero/lib/common.cfg"
+hash = "d46dfe4bfd416bfcdd2b757d33744b4e4595f489b6507eae3c62f5389b11a7c1"
+
+[[files]]
+file = "config/xaero/lib/profiles/default.cfg"
+hash = "34ae854b17d896d7cb853bdc28c27231a3947e91cb9f0991f372846ee3c2a907"
+
+[[files]]
+file = "config/xaero/minimap/client.cfg"
+hash = "e9f9ac04e5ff3b046e10ec6066906cfaa614751272aca6e11943fd33958f97ec"
+preserve = true
+
+[[files]]
+file = "config/xaero/minimap/common.cfg"
+hash = "2b49df024c03a369c62a303c72755e7fedeb4f4653ff53a12fd37bd83ccd4ed0"
+
+[[files]]
+file = "config/xaero/minimap/profiles/default.cfg"
+hash = "89c6968772bffe7490527401e7961de17bb3c515c78c65fbcee52cf522a8c8d6"
+preserve = true
+
+[[files]]
+file = "config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
+hash = "184e654fa1fc8ad09943c97c4e65ab78acb5b3cfca22417a831513d1b6d9bbc6"
+preserve = true
+
+[[files]]
+file = "config/xaero/world-map/client.cfg"
+hash = "cc1da24946bb13880316e1e706f401d34781e7392f179b3b50d18a6383823360"
+preserve = true
+
+[[files]]
+file = "config/xaero/world-map/common.cfg"
+hash = "0c229eb0daf85bd09af51f21eeeb99497a3bd50a825d5ab1ca695fb21bf6cf9d"
+
+[[files]]
+file = "config/xaero/world-map/profiles/default.cfg"
+hash = "7b24c882801bcc7f0a8aedc625d419f661fa490fa0e9d5ebe39599a1ce2dcbd5"
+preserve = true
+
+[[files]]
+file = "config/xaerohud.txt"
+hash = "14f64ca1fbd64798294700c10c3468f83a0b0b00348b913a9aae6692901a3d7b"
+preserve = true
+
+[[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "2dc498bd8a43a8e02fc9d08fe5846ac17f6eabbecbf38ae39aa7b1f23fe100b0"
 metafile = true
@@ -1512,4 +1567,24 @@ metafile = true
 [[files]]
 file = "mods/zeta.pw.toml"
 hash = "cb474b6c0dde741836ed4f796f3b6ab0b9d3cdc0453e651122cd002d5d1f8df8"
+metafile = true
+
+[[files]]
+file = "options.txt"
+hash = "b252de77e8602bf463c6d5dc2a5b053ec3608493e1d73287908bf7058c4e9e71"
+preserve = true
+
+[[files]]
+file = "servers.dat"
+hash = "033cdaaa7f30fb0def3dc107c37bc4d20eee8194d82120f4cbdf9d13ed2dc48f"
+preserve = true
+
+[[files]]
+file = "shaderpacks/ComplementaryUnbound_r5.9.3.zip.txt"
+hash = "c4f5ef0201b12e413851fd020d4254ab72e80934e44d19531f3babe47b94785c"
+preserve = true
+
+[[files]]
+file = "shaderpacks/complementary-unbound.pw.toml"
+hash = "d28a3f3e991a4d65cda9d18b37bc3672bc87f3e04aeeaf47b59d7e63581e3c3f"
 metafile = true
