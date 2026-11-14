@@ -110,7 +110,7 @@ mr waystones xaeros-minimap xaeros-world-map xaeros-minimap-world-map-waystones-
    kubejs almostunified spice-of-life-onion crash-assistant idas zeta
 
 echo ">> CurseForge (MineColonies a další)"
-cf minecolonies structurize blockui domum-ornamentum multi-piston towntalk stylecolonies smallcolonies \
+cf minecolonies structurize blockui domum-ornamentum multi-piston towntalk stylecolonies \
    christmascolonies jadecolonies the-twilight-forest building-gadgets refurbished-furniture catalogue \
    configured iron-chests ftb-essentials connectivity apothic-spawners ftb-quests-forge
 
