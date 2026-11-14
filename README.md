@@ -16,8 +16,8 @@ Create + Create Aeronautics, MineColonies, Mekanism, AE2, spousta jídla, zvíř
    Pokud Prism nabídne stažení Javy 21, potvrď.
 4. Ve hře je v seznamu serverů rovnou **Filipovo Bombovo 2** (play.filipkrivcik.cz).
 
-Každé další spuštění pack sám aktualizuje. Paměť je nastavená na 8 GB
-(*Edit → Settings → Java*, pokud máš málo RAM, dej min. 6 GB).
+Každé další spuštění pack sám aktualizuje. Paměť je nastavená na 10 GB
+(*Edit → Settings → Java*, pokud máš jen 16 GB RAM nebo míň, dej 6–8 GB).
 Shadery se vypínají/zapínají klávesou **K**.
 
 Ruční varianta bez zipu: nová instance 1.21.1 + NeoForge 21.1.266, do `.minecraft` dát
