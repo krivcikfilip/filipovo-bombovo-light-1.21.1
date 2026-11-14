@@ -891,7 +891,7 @@ metafile = true
 
 [[files]]
 file = "mods/just-in-nether.pw.toml"
-hash = "600965a35e3fdc80437dab4386c5776e02a9c8ae8eb0b3142026ce3c76f4b825"
+hash = "2fd08e933a0d314eb2b70f039674b9d595e29c551f01e8eaf1958dd873180395"
 metafile = true
 
 [[files]]
