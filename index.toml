@@ -712,7 +712,7 @@ metafile = true
 
 [[files]]
 file = "mods/fossil-neoforge-1.21.1-9.3.4.0.jar"
-hash = "b7545114dd59ad4ea189edc4771cc4817de5f881c32b0603090dc0c620bc1d16"
+hash = "e38aaacee739e59756bc8532254bd91182672823588d02f605d81b6c93c5eed0"
 
 [[files]]
 file = "mods/fowlplay.pw.toml"
