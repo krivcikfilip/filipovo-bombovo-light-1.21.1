@@ -1605,3 +1605,7 @@ hash = "315af74cf80b087800d9af3fd707a6beb04706df72aaa7cc3c25ed78b83edfad"
 [[files]]
 file = "config/bcc-common.toml"
 hash = "2f50da80d5c7f404a4b166cce110ff7a676bea9ea0d0010324d552b8e847fe2f"
+
+[[files]]
+file = "config/inventoryhud-client.toml"
+hash = "924501ae5f216db190474f6b169e677a87ad921d16b22235b3ac00abb644ac28"
