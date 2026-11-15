@@ -18,7 +18,7 @@ Create + Create Aeronautics, MineColonies, Mekanism, AE2, spousta jídla, zvíř
 
 Každé další spuštění pack sám aktualizuje. Paměť je nastavená na 10 GB
 (*Edit → Settings → Java*, pokud máš jen 16 GB RAM nebo míň, dej 6–8 GB).
-Shadery se vypínají/zapínají klávesou **K**.
+Shadery se zapínají a vypínají v menu na klávese **O**.
 
 Ruční varianta bez zipu: nová instance 1.21.1 + NeoForge 21.1.266, do `.minecraft` dát
 [packwiz-installer-bootstrap.jar](https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest)
