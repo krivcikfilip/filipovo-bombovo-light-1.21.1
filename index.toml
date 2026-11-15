@@ -1593,3 +1593,7 @@ preserve = true
 file = "shaderpacks/complementary-unbound.pw.toml"
 hash = "d28a3f3e991a4d65cda9d18b37bc3672bc87f3e04aeeaf47b59d7e63581e3c3f"
 metafile = true
+
+[[files]]
+file = "config/adorablehamsterpets/ui.toml"
+hash = "315af74cf80b087800d9af3fd707a6beb04706df72aaa7cc3c25ed78b83edfad"
