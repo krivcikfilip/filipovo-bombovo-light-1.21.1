@@ -6,6 +6,10 @@ hash = "86c84148dae9f245ffb90539f4adf7d21af34fa508b1d8c48970c82f45410ddb"
 preserve = true
 
 [[files]]
+file = "config/simulated-server.toml"
+hash = "c9b7432a837af079e0b58427bfe13daaff1155a5e67e651556ba57673a299bff"
+
+[[files]]
 file = "config/xaero/lib/client.cfg"
 hash = "43ed9dbfa5b4d6f0f3d2e8c2ced17ad298164b22c68ff11d415257a39b074336"
 
