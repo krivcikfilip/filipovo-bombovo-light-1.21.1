@@ -410,8 +410,6 @@
 	quest.2CF92FE6E201E0A2.title: "Copy \\& Paste"
 	quest.2D525CB474749D76.quest_desc: ["Gives a redstone signal when a train passes - open gates, ring bells, light lamps."]
 	quest.2D525CB474749D76.title: "Track observer"
-	quest.2D7763842E9D89D0.quest_desc: ["Show off your best catches in a glass tank."]
-	quest.2D7763842E9D89D0.title: "Fish tank"
 	quest.2DBEAD3058872A11.quest_desc: ["&bBells \\& Whistles&r adds train details: headlights, grab rails, steps, pilots and metro panels."]
 	quest.2DBEAD3058872A11.title: "Bells \\& Whistles"
 	quest.2DDA09607F9DF746.quest_desc: ["Build a frame from &eglowstone&r (like a Nether portal) and light it with a &ewater bucket&r."]

@@ -193,26 +193,6 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["27A43D68759F5362"]
-			id: "2D7763842E9D89D0"
-			rewards: [
-				{
-					id: "3F520A2309791B8B"
-					type: "xp"
-					xp: 20
-				}
-			]
-			tasks: [
-				{
-					id: "0415E7AB49FD4E6C"
-					item: { count: 1, id: "betterfishtanks:glass_container" }
-					type: "item"
-				}
-			]
-			x: 3.125d
-			y: 9.0d
-		}
-		{
 			dependencies: ["35C85C4E476C056F"]
 			id: "11B86A6D7D25FD23"
 			rewards: [

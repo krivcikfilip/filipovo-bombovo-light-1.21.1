@@ -62,7 +62,7 @@ hash = "f4318feab6f8a0eb9d59f2fe2b34be6c460249bb60340aa727cee9ea66f16eae"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fishing.snbt"
-hash = "3ca87a14948bbfa1a9c02242bd2289d7a84f6e048eded250f94c37c0272d7f74"
+hash = "1b15f9a1cc6650e142e1c5daed188b5b4434173f34e7af35faa5c40ab9a25c1e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fossils.snbt"
@@ -126,7 +126,7 @@ hash = "adf903a7caf4a65cf85964d76683a7814b6290bcc46146a060b45621ad1e337c"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "4403bcbead957d8a1885bd9e923d563d3dc7963992ea6329da7626a1a5343a98"
+hash = "84fdf4a9644f5344eb3d67ee87a094c9988809678bf56f4066d32465ac2e4cfe"
 
 [[files]]
 file = "config/inventoryhud-client.toml"
@@ -368,11 +368,6 @@ metafile = true
 [[files]]
 file = "mods/better-compatibility-checker.pw.toml"
 hash = "7c3b1f4819e8a3b88cadd8ed968d74491c71f504738dd0f2cd60f3ff40d80f72"
-metafile = true
-
-[[files]]
-file = "mods/better-fishtanks.pw.toml"
-hash = "6dc15ecea75abc93e4cf68e023cab9f008a1660bfa01785c26c076cc9dd178f4"
 metafile = true
 
 [[files]]
@@ -1227,11 +1222,6 @@ metafile = true
 [[files]]
 file = "mods/miners-delight.pw.toml"
 hash = "13481133d139f134bd3407983e29f86df835ff66bacb013d9d43e14f155241f4"
-metafile = true
-
-[[files]]
-file = "mods/mint-lib.pw.toml"
-hash = "a9053c9b763dc2868baadb406e7ed12c3594ade4d9f4985d3723dbb51d500100"
 metafile = true
 
 [[files]]
