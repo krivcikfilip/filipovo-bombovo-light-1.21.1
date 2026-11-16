@@ -1,6 +1,18 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/adorablehamsterpets/ui.toml"
+hash = "315af74cf80b087800d9af3fd707a6beb04706df72aaa7cc3c25ed78b83edfad"
+
+[[files]]
+file = "config/bcc-common.toml"
+hash = "2f50da80d5c7f404a4b166cce110ff7a676bea9ea0d0010324d552b8e847fe2f"
+
+[[files]]
+file = "config/inventoryhud-client.toml"
+hash = "924501ae5f216db190474f6b169e677a87ad921d16b22235b3ac00abb644ac28"
+
+[[files]]
 file = "config/iris.properties"
 hash = "b0f7590c6ff72369c25282d42c50bfebc7a58b43ad894d5352fed829a401f939"
 preserve = true
@@ -1409,6 +1421,11 @@ hash = "f04f42b37c442cb9eaa46bb6f3577b6409c052cfb1b29d534b07aed88278fcbd"
 metafile = true
 
 [[files]]
+file = "mods/subtle-effects.pw.toml"
+hash = "712b0b5289a61d43661f1fe5c527cb70d79a9d886dd7c37d60abd90c482c7942"
+metafile = true
+
+[[files]]
 file = "mods/supermartijn642s-config-lib.pw.toml"
 hash = "62bd7012826fdcccf17a089055be67f87fb7335c88e73efc52bc9e51a1bf3188"
 metafile = true
@@ -1494,8 +1511,8 @@ hash = "2dad5577c5ec5e73bb3d5cec8da606e3b72e384207c9291a25e1ae96fd20bb70"
 metafile = true
 
 [[files]]
-file = "mods/xaeros-minimap-world-map-waystones-compatibility-forge.pw.toml"
-hash = "637bc567eb5260d55ce89e6471c31e4369d454607f3d6f40139f7f7bdef90af9"
+file = "mods/xaeros-maps-x-waystones.pw.toml"
+hash = "bf54d2b807e458a4f2d3ac6ac7f5d7008d63dc033e098f56b75104908ff0cd78"
 metafile = true
 
 [[files]]
@@ -1597,15 +1614,3 @@ preserve = true
 file = "shaderpacks/complementary-unbound.pw.toml"
 hash = "d28a3f3e991a4d65cda9d18b37bc3672bc87f3e04aeeaf47b59d7e63581e3c3f"
 metafile = true
-
-[[files]]
-file = "config/adorablehamsterpets/ui.toml"
-hash = "315af74cf80b087800d9af3fd707a6beb04706df72aaa7cc3c25ed78b83edfad"
-
-[[files]]
-file = "config/bcc-common.toml"
-hash = "2f50da80d5c7f404a4b166cce110ff7a676bea9ea0d0010324d552b8e847fe2f"
-
-[[files]]
-file = "config/inventoryhud-client.toml"
-hash = "924501ae5f216db190474f6b169e677a87ad921d16b22235b3ac00abb644ac28"
