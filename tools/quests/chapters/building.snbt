@@ -1,0 +1,259 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "building"
+	group: "C29879DE8D393374"
+	icon: {
+		id: "mcwroofs:oak_roof"
+	}
+	id: "BF317967CDFC610F"
+	order_index: 16
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:bricks"
+			}
+			id: "D07C57FB4FC23E2B"
+			rewards: [
+				{
+					id: "F7E082339EEA2F82"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "F4D24099F6EA4EF0"
+					stat: "minecraft:play_time"
+					type: "stat"
+					value: 1
+				}
+			]
+			x: 0.0d
+			y: 6.75d
+		}
+		{
+			dependencies: ["D07C57FB4FC23E2B"]
+			id: "FF44078A5ECCB447"
+			rewards: [
+				{
+					id: "F0B134D0578F65FB"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "3000156546ACF5F3"
+					item: { count: 1, id: "chipped:botanist_workbench" }
+					type: "item"
+				}
+				{
+					id: "2A22AC6AC1C15F65"
+					item: { count: 1, id: "chipped:mason_table" }
+					type: "item"
+				}
+				{
+					id: "7D05927E521CC963"
+					item: { count: 1, id: "chipped:carpenters_table" }
+					type: "item"
+				}
+			]
+			x: 3.875d
+			y: 0.0d
+		}
+		{
+			dependencies: ["D07C57FB4FC23E2B"]
+			id: "A5BA58C7E5732811"
+			rewards: [
+				{
+					id: "CB3CDDA1F02A8B82"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "EE1B4CBE2F54D752"
+					item: { count: 1, id: "rechiseled:chisel" }
+					type: "item"
+				}
+			]
+			x: 3.875d
+			y: 1.5d
+		}
+		{
+			dependencies: ["D07C57FB4FC23E2B"]
+			id: "7C84CDEA0D79A2B8"
+			rewards: [
+				{
+					id: "207F17E91943BFB4"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "7A88FFEF1E4641B2"
+					item: { count: 1, id: "mcwwindows:hammer" }
+					type: "item"
+				}
+			]
+			x: 3.875d
+			y: 3.0d
+		}
+		{
+			dependencies: ["D07C57FB4FC23E2B"]
+			id: "2134C2200F0418B5"
+			rewards: [
+				{
+					id: "CD79AFE17BE4BAD6"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "4ECFA0638FE9703C"
+					item: { count: 1, id: "handcrafted:hammer" }
+					type: "item"
+				}
+			]
+			x: 3.875d
+			y: 4.5d
+		}
+		{
+			dependencies: ["D07C57FB4FC23E2B"]
+			id: "D0425844F94F6E18"
+			rewards: [
+				{
+					id: "F90F1BB23EFCD111"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "DFEFE7BEE5B87EB4"
+					item: { count: 1, id: "refurbished_furniture:workbench" }
+					type: "item"
+				}
+			]
+			x: 3.875d
+			y: 6.0d
+		}
+		{
+			dependencies: ["D07C57FB4FC23E2B"]
+			id: "B094DA8711BD1EF4"
+			rewards: [
+				{
+					id: "D20422C87C3ACA60"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "9748EE2DF6356CBE"
+					item: { count: 1, id: "domum_ornamentum:architectscutter" }
+					type: "item"
+				}
+			]
+			x: 3.875d
+			y: 7.5d
+		}
+		{
+			dependencies: ["D07C57FB4FC23E2B"]
+			id: "B39C0897F750F0DA"
+			rewards: [
+				{
+					id: "7FB1CCDEA92BD4EE"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "B331F837B9BC1BB2"
+					item: { count: 1, id: "supplementaries:rope" }
+					type: "item"
+				}
+				{
+					id: "5D78AA54CBCF06C5"
+					item: { count: 1, id: "supplementaries:sack" }
+					type: "item"
+				}
+				{
+					id: "DDD38F6ABD65B9BA"
+					item: { count: 1, id: "supplementaries:jar" }
+					type: "item"
+				}
+			]
+			x: 3.875d
+			y: 9.0d
+		}
+		{
+			dependencies: ["D07C57FB4FC23E2B"]
+			id: "8CD0E9F38624059C"
+			rewards: [
+				{
+					id: "796EBEA473D56CCC"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "61121F0C2F0711AE"
+					item: { count: 1, id: "createdeco:industrial_iron_ingot" }
+					type: "item"
+				}
+			]
+			x: 3.875d
+			y: 10.5d
+		}
+		{
+			dependencies: ["D07C57FB4FC23E2B"]
+			id: "3BD86699630ED67D"
+			rewards: [
+				{
+					id: "B37DD7750323A79A"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "414F31DDCF6D4F4F"
+					item: { count: 1, id: "etched:etching_table" }
+					type: "item"
+				}
+			]
+			x: 3.875d
+			y: 12.0d
+		}
+		{
+			dependencies: ["D07C57FB4FC23E2B"]
+			id: "75030E0A40D2A068"
+			rewards: [
+				{
+					id: "04FD177D9CA3D254"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "128741CA88D65408"
+					item: { count: 1, id: "immersive_paintings:painting" }
+					type: "item"
+				}
+			]
+			x: 3.875d
+			y: 13.5d
+		}
+	]
+}

@@ -1,0 +1,366 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "twilight"
+	group: "76581968F62E459A"
+	icon: {
+		id: "twilightforest:naga_trophy"
+	}
+	id: "B75AE59F12D2E91D"
+	order_index: 21
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6DE18E99A754A231"
+			rewards: [
+				{
+					id: "2B371BA476DAD009"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "15CC47E04BC21709"
+					item: { count: 1, id: "minecraft:diamond" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["6DE18E99A754A231"]
+			icon: {
+				id: "twilightforest:magic_map"
+			}
+			id: "83A51D5C27EF7E8C"
+			rewards: [
+				{
+					id: "01A6DD1597B68ADA"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					dimension: "twilightforest:twilight_forest"
+					id: "8C9CF159BD446516"
+					type: "dimension"
+				}
+			]
+			x: 1.75d
+			y: 3.75d
+		}
+		{
+			dependencies: ["83A51D5C27EF7E8C"]
+			id: "B002526E88C933DB"
+			rewards: [
+				{
+					id: "05435C39A88E03A2"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "7C665592672DA11E"
+					item: { count: 1, id: "twilightforest:naga_trophy" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["B002526E88C933DB"]
+			id: "528B3E77711E941F"
+			rewards: [
+				{
+					id: "3B2B3C84ED001D88"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "506424B61BEE6763"
+					item: { count: 1, id: "twilightforest:lich_trophy" }
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: 0.75d
+		}
+		{
+			dependencies: ["B002526E88C933DB"]
+			id: "EEC575EC5405BBA1"
+			rewards: [
+				{
+					id: "EC71EF3E07A4C2B0"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "6D0112813EA0D583"
+					item: { count: 1, id: "twilightforest:steeleaf_ingot" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "F8EB7F6B269C57F4"
+					item: { count: 1, id: "twilightforest:ironwood_ingot" }
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: 2.25d
+		}
+		{
+			dependencies: ["528B3E77711E941F"]
+			id: "3646048B16BCED73"
+			rewards: [
+				{
+					id: "993470A8314CBC49"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "E945DA7CCD8301DA"
+					item: { count: 1, id: "twilightforest:minoshroom_trophy" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3646048B16BCED73"]
+			id: "ACC9432A1DACBAA8"
+			rewards: [
+				{
+					id: "AC7C301B6AE79797"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					id: "450145A387CA2A9B"
+					item: { count: 1, id: "twilightforest:hydra_trophy" }
+					type: "item"
+				}
+			]
+			x: 8.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["ACC9432A1DACBAA8"]
+			id: "6D24FE3EA5B73247"
+			rewards: [
+				{
+					id: "36E41A86D60A3FBE"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "062F1DC747A9F401"
+					item: { count: 1, id: "twilightforest:fiery_ingot" }
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["528B3E77711E941F"]
+			id: "D6CB72AB7F148E92"
+			rewards: [
+				{
+					id: "E991492552B7F66B"
+					type: "xp"
+					xp: 120
+				}
+			]
+			tasks: [
+				{
+					id: "17DB1086FC957691"
+					item: { count: 1, id: "twilightforest:knight_phantom_trophy" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["D6CB72AB7F148E92"]
+			id: "E65194F22DE46F15"
+			rewards: [
+				{
+					id: "902A7598C9544655"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "BDACE73341104626"
+					item: { count: 1, id: "twilightforest:knightmetal_ingot" }
+					type: "item"
+				}
+			]
+			x: 8.75d
+			y: 1.5d
+		}
+		{
+			dependencies: ["D6CB72AB7F148E92"]
+			id: "ABA4DA1562241157"
+			rewards: [
+				{
+					id: "12D484358322E304"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					id: "0A537D28BD967B8E"
+					item: { count: 1, id: "twilightforest:ur_ghast_trophy" }
+					type: "item"
+				}
+			]
+			x: 8.75d
+			y: 3.0d
+		}
+		{
+			dependencies: ["ABA4DA1562241157"]
+			id: "407BED3177E66905"
+			rewards: [
+				{
+					id: "4289B19694CEDB5F"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "4290688D504DA658"
+					item: { count: 1, id: "twilightforest:carminite" }
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["ABA4DA1562241157"]
+			id: "B8AD3C812DC54AF2"
+			rewards: [
+				{
+					id: "224DAF786A41F8AB"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					id: "39F8BF086D3C6519"
+					item: { count: 1, id: "twilightforest:alpha_yeti_trophy" }
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["B8AD3C812DC54AF2"]
+			id: "34FB2E5CBA0F0BB9"
+			rewards: [
+				{
+					id: "5D6DCF56CB4C7FFC"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [
+				{
+					id: "742E77EB8B0FE34A"
+					item: { count: 1, id: "twilightforest:snow_queen_trophy" }
+					type: "item"
+				}
+			]
+			x: 12.25d
+			y: 3.75d
+		}
+		{
+			dependencies: ["83A51D5C27EF7E8C"]
+			id: "40D228147AE39E3C"
+			rewards: [
+				{
+					id: "FCA390C41354F436"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "294456F22B106A0C"
+					item: { count: 1, id: "twilightforest:uncrafting_table" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["83A51D5C27EF7E8C"]
+			id: "654AF12A1440277B"
+			rewards: [
+				{
+					id: "1423586073D7CE5B"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "3A0F57D3B0CD756C"
+					item: { count: 1, id: "twilightforest:charm_of_life_1" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["83A51D5C27EF7E8C"]
+			id: "18E22BCDB12A379F"
+			rewards: [
+				{
+					id: "52D6A280C646DD08"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "FB696BF77CF7B741"
+					item: { count: 1, id: "twilightforest:quest_ram_trophy" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 6.0d
+		}
+	]
+}

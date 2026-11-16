@@ -1,0 +1,250 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "vehicles"
+	group: "AEAA9718BAF5A32A"
+	icon: {
+		id: "immersive_aircraft:biplane"
+	}
+	id: "30D7688A69F58ABB"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "609D3C2E04A14B68"
+			rewards: [
+				{
+					id: "D35AAFA30A8ADCBE"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "2B5F9BA9E6D29A77"
+					item: { count: 1, id: "immersive_aircraft:hull" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "85EE8D696CD1DEA9"
+					item: { count: 1, id: "immersive_aircraft:sail" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["609D3C2E04A14B68"]
+			id: "C2313C7F139CF77B"
+			rewards: [
+				{
+					id: "CE93091F4F8276FD"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "51A71B465ACB30EE"
+					item: { count: 1, id: "immersive_aircraft:engine" }
+					type: "item"
+				}
+				{
+					id: "4A2E0BE2AC682847"
+					item: { count: 1, id: "immersive_aircraft:propeller" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 2.25d
+		}
+		{
+			dependencies: ["C2313C7F139CF77B"]
+			id: "A271FC4269645CC3"
+			rewards: [
+				{
+					id: "2EF3EFABF11B0031"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "1C6E18A7D6523E7D"
+					item: { count: 1, id: "immersive_aircraft:airship" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["A271FC4269645CC3"]
+			id: "D92419D304B54525"
+			rewards: [
+				{
+					id: "80959C89077F73C4"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "90AEB67D814918B5"
+					item: { count: 1, id: "immersive_aircraft:cargo_airship" }
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["C2313C7F139CF77B"]
+			id: "72843CCC09A07012"
+			rewards: [
+				{
+					id: "4F1EAFFBD336B12A"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					id: "36FA88BAB1BA6412"
+					item: { count: 1, id: "immersive_aircraft:biplane" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["C2313C7F139CF77B"]
+			id: "88CF0C24381BE472"
+			rewards: [
+				{
+					id: "097264CFE9847F5D"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "CD9C0ED7AB4393C0"
+					item: { count: 1, id: "immersive_aircraft:gyrodyne" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["C2313C7F139CF77B"]
+			id: "608F6AE8B9940F47"
+			rewards: [
+				{
+					id: "D012C45CCD71C9B0"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "238BAD9B8982A5D3"
+					item: { count: 1, id: "immersive_aircraft:quadrocopter" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["72843CCC09A07012"]
+			id: "8E81085B01C431D0"
+			rewards: [
+				{
+					id: "ECED00BA06CB5D51"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "CF42E75CC5870C20"
+					item: { count: 1, id: "immersive_aircraft:enhanced_propeller" }
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: 1.5d
+		}
+		{
+			id: "F9D88CC55EDDBEA8"
+			rewards: [
+				{
+					id: "BD6117DF9F106346"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "B327DA4A4167E0F5"
+					item: { count: 1, id: "smallships:cotton_sails" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["F9D88CC55EDDBEA8"]
+			id: "C9103EBCD927E6CE"
+			rewards: [
+				{
+					id: "EB26A9CABF04E2E3"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "C61455F9D3475537"
+					item: { count: 1, id: "smallships:cannon" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "734F1AADD9AF6217"
+					item: { count: 1, id: "smallships:cannon_ball" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 3.75d
+		}
+		{
+			dependencies: ["D92419D304B54525"]
+			id: "E54F81C691BA4045"
+			rewards: [
+				{
+					id: "369AF94887CBCACF"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "AA53C14260EA458C"
+					item: { count: 1, id: "immersive_aircraft:warship" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 0.0d
+		}
+	]
+}

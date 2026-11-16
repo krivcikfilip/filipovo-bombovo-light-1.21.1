@@ -1,0 +1,123 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pams"
+	group: "A7F7BE0CA4D022F8"
+	icon: {
+		id: "pamhc2foodcore:potitem"
+	}
+	id: "3237BCEF48FA56FF"
+	order_index: 13
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5176C47A9CB5A0E5"
+			rewards: [
+				{
+					id: "B426A2DD218C929E"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "35974E4A88EE4F07"
+					item: { count: 1, id: "pamhc2foodcore:cuttingboarditem" }
+					type: "item"
+				}
+				{
+					id: "E9BD1F61E19F7AEC"
+					item: { count: 1, id: "pamhc2foodcore:potitem" }
+					type: "item"
+				}
+				{
+					id: "CE6B9D9A5EAE86C5"
+					item: { count: 1, id: "pamhc2foodcore:skilletitem" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["5176C47A9CB5A0E5"]
+			id: "790A44A82804BD25"
+			rewards: [
+				{
+					id: "95DCA4EFE3E5B092"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "AE2818E295FD91DE"
+					item: { count: 1, id: "pamhc2foodcore:saucepanitem" }
+					type: "item"
+				}
+				{
+					id: "56A60C199264427B"
+					item: { count: 1, id: "pamhc2foodcore:mixingbowlitem" }
+					type: "item"
+				}
+				{
+					id: "39C92D1D934F002F"
+					item: { count: 1, id: "pamhc2foodcore:bakewareitem" }
+					type: "item"
+				}
+				{
+					id: "32B1E9C57D4CBED7"
+					item: { count: 1, id: "pamhc2foodcore:juiceritem" }
+					type: "item"
+				}
+				{
+					id: "40A882B479A1A1DE"
+					item: { count: 1, id: "pamhc2foodcore:grinderitem" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 0.75d
+		}
+		{
+			dependencies: ["790A44A82804BD25"]
+			id: "1C48601519B5B200"
+			rewards: [
+				{
+					id: "DFFDC04905C4D872"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "3A56AF0579BD244B"
+					item: { count: 1, id: "pamhc2foodcore:chickenpotpieitem" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["790A44A82804BD25"]
+			id: "3B8CEDE612DE5D82"
+			rewards: [
+				{
+					id: "508B6D46C9198067"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "8EBB0AFB344AC711"
+					item: { count: 1, id: "pamhc2foodcore:potroastitem" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 1.5d
+		}
+	]
+}

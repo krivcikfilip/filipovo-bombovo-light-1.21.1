@@ -1,0 +1,245 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_food"
+	group: "A7F7BE0CA4D022F8"
+	icon: {
+		id: "sliceanddice:slicer"
+	}
+	id: "FE14D4EE6821AA6F"
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "create:mechanical_mixer"
+			}
+			id: "04B7C8F9C5669640"
+			rewards: [
+				{
+					id: "8A98B75AD8B1E571"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "A8812F0E487F706C"
+					stat: "minecraft:play_time"
+					type: "stat"
+					value: 1
+				}
+			]
+			x: 0.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["04B7C8F9C5669640"]
+			id: "E77709DB54F26BCA"
+			rewards: [
+				{
+					id: "3A85CC854F14A88C"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "E6CC46F37EDC6482"
+					item: { count: 1, id: "create:dough" }
+					type: "item"
+				}
+			]
+			x: 2.375d
+			y: 0.0d
+		}
+		{
+			dependencies: ["04B7C8F9C5669640"]
+			id: "4618B1C536A3F3CF"
+			rewards: [
+				{
+					id: "8A579AC1ED8DB4D9"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "32FDB1189199B0A7"
+					item: { count: 1, id: "create:bar_of_chocolate" }
+					type: "item"
+				}
+			]
+			x: 2.375d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4618B1C536A3F3CF"]
+			id: "2C56F980713D3F51"
+			rewards: [
+				{
+					id: "0EE96FA6A0DEDA6F"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "3EE6030C290C5FB0"
+					item: { count: 1, id: "create_confectionery:marshmallow" }
+					type: "item"
+				}
+				{
+					id: "EA7EB0A954F2B148"
+					item: { count: 1, id: "create_confectionery:bar_of_caramel" }
+					type: "item"
+				}
+			]
+			x: 4.125d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2C56F980713D3F51"]
+			id: "F2FE716A87035676"
+			rewards: [
+				{
+					id: "AF4C6255AF8DC789"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "022D44DD1A52D47F"
+					item: { count: 1, id: "create_confectionery:hot_chocolate_bottle" }
+					type: "item"
+				}
+			]
+			x: 5.875d
+			y: 1.5d
+		}
+		{
+			dependencies: ["E77709DB54F26BCA"]
+			id: "8B470F01E40566A0"
+			rewards: [
+				{
+					id: "1C50A723ED35BCD0"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "68405FE4CC9C1265"
+					item: { count: 1, id: "createfood:piping_bag" }
+					type: "item"
+				}
+			]
+			x: 4.125d
+			y: 0.0d
+		}
+		{
+			dependencies: ["04B7C8F9C5669640"]
+			id: "7CC50F3EDA01CCC0"
+			rewards: [
+				{
+					id: "5BCC5889DC947839"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "25254FC0D514FF5C"
+					item: { count: 1, id: "createcafe:coffee_bucket" }
+					type: "item"
+				}
+			]
+			x: 2.375d
+			y: 3.0d
+		}
+		{
+			dependencies: ["04B7C8F9C5669640"]
+			id: "C91802A4420DB4B8"
+			rewards: [
+				{
+					id: "8CD84A63FE4519D4"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "CD9EAD695CF1D950"
+					item: { count: 1, id: "create_winery:wine_cellar" }
+					type: "item"
+				}
+			]
+			x: 2.375d
+			y: 4.5d
+		}
+		{
+			dependencies: ["04B7C8F9C5669640"]
+			id: "AAEBE01A3EDB2B09"
+			rewards: [
+				{
+					id: "CC069F2795722131"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "D8A4A0652595B9FC"
+					item: { count: 1, id: "sliceanddice:slicer" }
+					type: "item"
+				}
+			]
+			x: 2.375d
+			y: 6.0d
+		}
+		{
+			dependencies: ["AAEBE01A3EDB2B09"]
+			id: "B9B357B4E049960F"
+			rewards: [
+				{
+					id: "D88AF45E762CCC92"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "483A0CB8AF11D377"
+					item: { count: 1, id: "sliceanddice:sprinkler" }
+					type: "item"
+				}
+			]
+			x: 4.125d
+			y: 6.0d
+		}
+		{
+			dependencies: ["04B7C8F9C5669640"]
+			id: "F15EED262FA26428"
+			rewards: [
+				{
+					id: "ED49A06989E99628"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "BF4E70CE4490C3F1"
+					item: { count: 1, id: "solonion:lunchbag" }
+					type: "item"
+				}
+			]
+			x: 2.375d
+			y: 7.5d
+		}
+	]
+}

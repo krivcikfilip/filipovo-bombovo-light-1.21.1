@@ -1,0 +1,149 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "exploration"
+	group: "76581968F62E459A"
+	icon: {
+		id: "minecraft:compass"
+	}
+	id: "FF3312C40747F84E"
+	order_index: 17
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:filled_map"
+			}
+			id: "34DBBB9B7C4D7D98"
+			rewards: [
+				{
+					id: "8214DF8912C31D04"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "52D9D6D2A5F39A69"
+					stat: "minecraft:play_time"
+					type: "stat"
+					value: 1
+				}
+			]
+			x: 0.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["34DBBB9B7C4D7D98"]
+			id: "7EA1E022DCE68CC8"
+			rewards: [
+				{
+					id: "FDB84410BC552A24"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					id: "E8D240DA5E4B218A"
+					item: { count: 1, id: "minecraft:spawner" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34DBBB9B7C4D7D98"]
+			icon: {
+				id: "minecraft:sand"
+			}
+			id: "55662470D094F96F"
+			rewards: [
+				{
+					id: "707E2322EE58D924"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "88FA186ACB56C50D"
+					structure: "betterdeserttemples:desert_temple"
+					type: "structure"
+				}
+			]
+			x: 1.75d
+			y: 1.5d
+		}
+		{
+			dependencies: ["34DBBB9B7C4D7D98"]
+			icon: {
+				id: "minecraft:prismarine"
+			}
+			id: "D18FB39A7930462C"
+			rewards: [
+				{
+					id: "4C42CFFAC990D48B"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					id: "6EB38AC45890C72B"
+					structure: "betteroceanmonuments:ocean_monument"
+					type: "structure"
+				}
+			]
+			x: 1.75d
+			y: 3.0d
+		}
+		{
+			dependencies: ["34DBBB9B7C4D7D98"]
+			icon: {
+				id: "minecraft:ender_eye"
+			}
+			id: "8549973DEA4119FD"
+			rewards: [
+				{
+					id: "1BEBF984BB08CF92"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					id: "E42075E35693B0D8"
+					structure: "betterstrongholds:stronghold"
+					type: "structure"
+				}
+			]
+			x: 1.75d
+			y: 4.5d
+		}
+		{
+			dependencies: ["8549973DEA4119FD"]
+			icon: {
+				id: "minecraft:sculk_catalyst"
+			}
+			id: "F6FC0D7AD98086BF"
+			rewards: [
+				{
+					id: "5D4EA125F9B907FE"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "E2B0E52C95D068E6"
+					structure: "minecraft:ancient_city"
+					type: "structure"
+				}
+			]
+			x: 3.5d
+			y: 4.5d
+		}
+	]
+}

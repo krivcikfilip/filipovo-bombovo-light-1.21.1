@@ -1,0 +1,332 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nether_end"
+	group: "76581968F62E459A"
+	icon: {
+		id: "minecraft:netherrack"
+	}
+	id: "78D286BD28862E44"
+	order_index: 19
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:obsidian"
+			}
+			id: "241C32F9DFF5B7FE"
+			rewards: [
+				{
+					id: "6F4C2ABEF56BB2DF"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					dimension: "minecraft:the_nether"
+					id: "D140FF1987C6B618"
+					type: "dimension"
+				}
+			]
+			x: 0.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["241C32F9DFF5B7FE"]
+			id: "34C580629BB07E51"
+			rewards: [
+				{
+					id: "9641A8817F1BCEAF"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					count: 6L
+					id: "CA208197370216AB"
+					item: { count: 1, id: "minecraft:blaze_rod" }
+					type: "item"
+				}
+			]
+			x: 2.75d
+			y: 0.75d
+		}
+		{
+			dependencies: ["241C32F9DFF5B7FE"]
+			icon: {
+				id: "minecraft:gilded_blackstone"
+			}
+			id: "E0230DA63B6145CE"
+			rewards: [
+				{
+					id: "7255031DD1AF8917"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "D7D870E2829B2596"
+					structure: "minecraft:bastion_remnant"
+					type: "structure"
+				}
+			]
+			x: 2.75d
+			y: 2.25d
+		}
+		{
+			dependencies: ["241C32F9DFF5B7FE"]
+			id: "10EB7CF79B8049BF"
+			rewards: [
+				{
+					id: "401A5711F3350EDB"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "94BBE10C9618E3A9"
+					item: { count: 1, id: "netherexotics:kiwano" }
+					type: "item"
+				}
+				{
+					id: "090423A280BDD976"
+					item: { count: 1, id: "netherexotics:pitaya" }
+					type: "item"
+				}
+			]
+			x: 2.75d
+			y: 3.75d
+		}
+		{
+			dependencies: ["241C32F9DFF5B7FE"]
+			id: "D4AB96FF89E0902E"
+			rewards: [
+				{
+					id: "EF2E058CBA194831"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "023485BECB4D9FA4"
+					item: { count: 1, id: "just_in_nether:cruorite" }
+					type: "item"
+				}
+			]
+			x: 2.75d
+			y: 5.25d
+		}
+		{
+			dependencies: ["241C32F9DFF5B7FE"]
+			id: "53D20AC90968C967"
+			rewards: [
+				{
+					id: "6B48B3E190F8ABA6"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "A7080A4E89218FF3"
+					item: { count: 1, id: "minecraft:ancient_debris" }
+					type: "item"
+				}
+			]
+			x: 2.75d
+			y: 6.75d
+		}
+		{
+			dependencies: ["53D20AC90968C967"]
+			id: "BCE14D97441773CB"
+			rewards: [
+				{
+					id: "74A9630FE28F22B9"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "130C3E4792EFD7A0"
+					item: { count: 1, id: "minecraft:netherite_ingot" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 6.75d
+		}
+		{
+			dependencies: ["241C32F9DFF5B7FE"]
+			id: "3D34BA6051ED0CB1"
+			rewards: [
+				{
+					id: "1C01AB5FD5FCC73C"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "2C0EC5474ECFC771"
+					item: { count: 1, id: "netherexp:soul_glass" }
+					type: "item"
+				}
+			]
+			x: 2.75d
+			y: 8.25d
+		}
+		{
+			dependencies: ["241C32F9DFF5B7FE"]
+			id: "CDD50C3B0147A801"
+			rewards: [
+				{
+					id: "F9E7B83F6EE51103"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					count: 3L
+					id: "59D02C4EE559E2A2"
+					item: { count: 1, id: "minecraft:wither_skeleton_skull" }
+					type: "item"
+				}
+			]
+			x: 2.75d
+			y: 9.75d
+		}
+		{
+			dependencies: ["CDD50C3B0147A801"]
+			id: "19936261DDBD3E53"
+			rewards: [
+				{
+					id: "636EA10E34D287F3"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					id: "599E09BA4F867EA1"
+					item: { count: 1, id: "minecraft:nether_star" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 9.75d
+		}
+		{
+			dependencies: ["34C580629BB07E51"]
+			id: "CFC538FD8A71F351"
+			rewards: [
+				{
+					id: "52432C31A554563A"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					count: 12L
+					id: "2CD45DFA3F68016B"
+					item: { count: 1, id: "minecraft:ender_eye" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["CFC538FD8A71F351"]
+			icon: {
+				id: "minecraft:end_stone"
+			}
+			id: "90FBA5D8E433987F"
+			rewards: [
+				{
+					id: "C302085C71CC25F3"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					dimension: "minecraft:the_end"
+					id: "E0C149174289D582"
+					type: "dimension"
+				}
+			]
+			x: 6.25d
+			y: 0.75d
+		}
+		{
+			dependencies: ["90FBA5D8E433987F"]
+			id: "6D63CC2383ECC6BB"
+			rewards: [
+				{
+					id: "F8823E15140E6F97"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					id: "56339019C5CF93EE"
+					item: { count: 1, id: "minecraft:dragon_breath" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D63CC2383ECC6BB"]
+			id: "564FF7F92E6DF685"
+			rewards: [
+				{
+					id: "3063BB278F86F86F"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					id: "C21C8BCEDEDD1991"
+					item: { count: 1, id: "minecraft:elytra" }
+					type: "item"
+				}
+			]
+			x: 9.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["90FBA5D8E433987F"]
+			id: "02E51EF413620CED"
+			rewards: [
+				{
+					id: "590BF91BE7A73003"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "2A1C115BE66DADBE"
+					item: { count: 1, id: "unusualend:shiny_crystal" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 1.5d
+		}
+	]
+}

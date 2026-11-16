@@ -1,0 +1,213 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "alexs_caves"
+	group: "76581968F62E459A"
+	icon: {
+		id: "alexscaves:cave_tablet"
+	}
+	id: "2F990D9D4C6EA8F1"
+	order_index: 22
+	quest_links: [ ]
+	quests: [
+		{
+			id: "07B497A2C6975754"
+			rewards: [
+				{
+					id: "39107C9F94E6F2BC"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "3D23F0FBD4DE939C"
+					item: { count: 1, id: "alexscaves:cave_tablet" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["07B497A2C6975754"]
+			id: "5CCACD10386AD84E"
+			rewards: [
+				{
+					id: "3A964A9FDFC6C890"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "C429866B4821D27F"
+					item: { count: 1, id: "alexscaves:cave_book" }
+					type: "item"
+				}
+			]
+			x: 2.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["07B497A2C6975754"]
+			id: "5108FA81183881B5"
+			rewards: [
+				{
+					id: "A7E269F9D7936646"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					id: "DF9D79205C666EB3"
+					item: { count: 1, id: "alexscaves:raw_scarlet_neodymium" }
+					type: "item"
+				}
+				{
+					id: "118744ABAF45F3E1"
+					item: { count: 1, id: "alexscaves:raw_azure_neodymium" }
+					type: "item"
+				}
+			]
+			x: 2.75d
+			y: 1.5d
+		}
+		{
+			dependencies: ["07B497A2C6975754"]
+			id: "9A7BA8E9D9FF9F38"
+			rewards: [
+				{
+					id: "B8D51A02945551C9"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					id: "A817DEA68D7DEF97"
+					item: { count: 1, id: "alexscaves:amber" }
+					type: "item"
+				}
+				{
+					id: "9314C21D7347B575"
+					item: { count: 1, id: "alexscaves:dinosaur_chop" }
+					type: "item"
+				}
+			]
+			x: 2.75d
+			y: 3.0d
+		}
+		{
+			dependencies: ["07B497A2C6975754"]
+			id: "FE9A1228539E8975"
+			rewards: [
+				{
+					id: "2B299EFF62A26F26"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					id: "008C7DD0DA8B1CD7"
+					item: { count: 1, id: "alexscaves:uranium" }
+					type: "item"
+				}
+			]
+			x: 2.75d
+			y: 4.5d
+		}
+		{
+			dependencies: ["07B497A2C6975754"]
+			id: "D021195E9AB3352E"
+			rewards: [
+				{
+					id: "D72EA6286EE35FCC"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					id: "9708AFF96878AC08"
+					item: { count: 1, id: "alexscaves:sea_glass_shards" }
+					type: "item"
+				}
+			]
+			x: 2.75d
+			y: 6.0d
+		}
+		{
+			dependencies: ["D021195E9AB3352E"]
+			id: "0720C76EBA6006F1"
+			rewards: [
+				{
+					id: "1246A552B9A42407"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "724C3C88A5955CE1"
+					item: { count: 1, id: "alexscaves:submarine" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["07B497A2C6975754"]
+			id: "C6485DCF7D8233E3"
+			rewards: [
+				{
+					id: "A3549C36B7AC6CB9"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "73F34522D1E7942C"
+					item: { count: 1, id: "alexscaves:guanostone" }
+					type: "item"
+				}
+				{
+					id: "AA04B400391F9027"
+					item: { count: 1, id: "alexscaves:pure_darkness" }
+					type: "item"
+				}
+			]
+			x: 2.75d
+			y: 7.5d
+		}
+		{
+			dependencies: ["07B497A2C6975754"]
+			id: "54F856051CB82798"
+			rewards: [
+				{
+					id: "D164B8BB16599FA7"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					id: "A8B1AFAF53AFB585"
+					item: { count: 1, id: "alexscaves:candy_cane" }
+					type: "item"
+				}
+				{
+					id: "FC7EA1A60030F06D"
+					item: { count: 1, id: "alexscaves:block_of_chocolate" }
+					type: "item"
+				}
+			]
+			x: 2.75d
+			y: 9.0d
+		}
+	]
+}

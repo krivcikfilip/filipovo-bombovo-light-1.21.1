@@ -1,0 +1,236 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fishing"
+	group: "A7F7BE0CA4D022F8"
+	icon: {
+		id: "aquaculture:iron_fishing_rod"
+	}
+	id: "C7D27CD163EA5FE4"
+	order_index: 14
+	quest_links: [ ]
+	quests: [
+		{
+			id: "A7A43D68759F5362"
+			rewards: [
+				{
+					id: "2893FBE16757E94A"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "722056331B283998"
+					item: { count: 1, id: "aquaculture:iron_fishing_rod" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["A7A43D68759F5362"]
+			id: "C6DEA49E467B6702"
+			rewards: [
+				{
+					id: "5D044C57C2D2A3CA"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "1724E3217C62096E"
+					item: { count: 1, id: "aquaculture:tackle_box" }
+					type: "item"
+				}
+			]
+			x: 2.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["A7A43D68759F5362"]
+			id: "62E84420FB5F7325"
+			rewards: [
+				{
+					id: "9C5DDCAB94327E96"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "A3AA41536DF00191"
+					item: { count: 1, id: "aquaculture:worm" }
+					type: "item"
+				}
+			]
+			x: 2.75d
+			y: 1.5d
+		}
+		{
+			dependencies: ["A7A43D68759F5362"]
+			id: "B5C85C4E476C056F"
+			rewards: [
+				{
+					id: "2AE8166C917B3DD1"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "51A3540F90D6F4BE"
+					item: { count: 1, id: "aquaculture:fish_fillet_raw" }
+					type: "item"
+				}
+			]
+			x: 2.75d
+			y: 3.0d
+		}
+		{
+			dependencies: ["B5C85C4E476C056F"]
+			id: "87225C11BC70DCB4"
+			rewards: [
+				{
+					id: "F14CC3497A379463"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "43368A3462FF87DC"
+					item: { count: 1, id: "aquaculture:sushi" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["A7A43D68759F5362"]
+			id: "EF9E5FEF03BB4570"
+			rewards: [
+				{
+					id: "0DDC62D3C6A7923F"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "01CF0EE8D1B08B63"
+					item: { count: 1, id: "aquaculture:treasure_chest" }
+					type: "item"
+				}
+			]
+			x: 2.75d
+			y: 4.5d
+		}
+		{
+			dependencies: ["EF9E5FEF03BB4570"]
+			id: "E32313DD4D38B62C"
+			rewards: [
+				{
+					id: "8395248B0BCB052D"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					id: "0F0F8A00C1CFD66A"
+					item: { count: 1, id: "aquaculture:neptunium_ingot" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["A7A43D68759F5362"]
+			id: "43E6A695B18EE4DD"
+			rewards: [
+				{
+					id: "38F42D9E3E57FFB3"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "0181C232D16F97BD"
+					item: { count: 1, id: "unusualfishmod:lobster_roll" }
+					type: "item"
+				}
+			]
+			x: 2.75d
+			y: 6.0d
+		}
+		{
+			dependencies: ["A7A43D68759F5362"]
+			id: "AAC35C9341CB4233"
+			rewards: [
+				{
+					id: "627380DB7DB4E278"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "61EFA275AF1A97F7"
+					item: { count: 1, id: "upgrade_aquatic:driftwood" }
+					type: "item"
+				}
+			]
+			x: 2.75d
+			y: 7.5d
+		}
+		{
+			dependencies: ["A7A43D68759F5362"]
+			id: "AD7763842E9D89D0"
+			rewards: [
+				{
+					id: "3F520A2309791B8B"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "0415E7AB49FD4E6C"
+					item: { count: 1, id: "betterfishtanks:glass_container" }
+					type: "item"
+				}
+			]
+			x: 2.75d
+			y: 9.0d
+		}
+		{
+			dependencies: ["B5C85C4E476C056F"]
+			id: "91B86A6D7D25FD23"
+			rewards: [
+				{
+					id: "BB002F1A10084F19"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "21D832AAD3B9F61B"
+					item: { count: 1, id: "aquaculturedelight:fish_and_chips" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 3.75d
+		}
+	]
+}
