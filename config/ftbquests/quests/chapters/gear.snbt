@@ -1,0 +1,249 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "gear"
+	group: "76581968F62E459A"
+	icon: {
+		id: "spartanshieldsunofficial:iron_tower_shield"
+	}
+	id: "459194B83D1E22FC"
+	order_index: 26
+	quest_links: [ ]
+	quests: [
+		{
+			id: "28147E35103238FC"
+			rewards: [
+				{
+					id: "1CAB65BF71D7067A"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "28663AE1BC7D5FE4"
+					item: { count: 1, id: "spartanshieldsunofficial:iron_basic_shield" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["28147E35103238FC"]
+			id: "7B400666C2BE7F7A"
+			rewards: [
+				{
+					id: "0AB4EC89BA2F268D"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "4AA268AFD77086A7"
+					item: { count: 1, id: "spartanshieldsunofficial:iron_tower_shield" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7B400666C2BE7F7A"]
+			id: "788327B17F0A09FF"
+			rewards: [
+				{
+					id: "3B0ADFD1090FF24B"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "2C617209BD2E08D7"
+					item: { count: 1, id: "spartanshieldsunofficial:diamond_tower_shield" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			id: "023AF47BB34DE51D"
+			rewards: [
+				{
+					id: "667EB6DDC7954241"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "6AFB3B41D8D04C5D"
+					item: { count: 1, id: "minecraft:netherite_ingot" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["023AF47BB34DE51D"]
+			id: "67CF1D6C34601F93"
+			rewards: [
+				{
+					id: "481FFD7B5F4976EF"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					id: "4F2053507CB7C306"
+					item: { count: 1, id: "advancednetherite:netherite_iron_ingot" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 1.5d
+		}
+		{
+			dependencies: ["67CF1D6C34601F93"]
+			id: "54D390AF6F950D40"
+			rewards: [
+				{
+					id: "0868B8BB23D2F575"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "7DAC4524C282E628"
+					item: { count: 1, id: "advancednetherite:netherite_gold_ingot" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["54D390AF6F950D40"]
+			id: "1ADF4E050B7F36F4"
+			rewards: [
+				{
+					id: "467E2187291304F0"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "068E8E35C6A75AC8"
+					item: { count: 1, id: "advancednetherite:netherite_emerald_ingot" }
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1ADF4E050B7F36F4"]
+			id: "370357136636F139"
+			rewards: [
+				{
+					id: "4489795C7D0FC935"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					id: "61676AD048CDA194"
+					item: { count: 1, id: "advancednetherite:netherite_diamond_ingot" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			id: "5ACFF749530A9E0E"
+			rewards: [
+				{
+					id: "3D2CF221C9A600DD"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "0D5148590070A9C1"
+					item: { count: 1, id: "just_in_nether:cruorite" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5ACFF749530A9E0E"]
+			id: "737EE8DE14563959"
+			rewards: [
+				{
+					id: "5D35A67DFF173FC1"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "0D815224335310DA"
+					item: { count: 1, id: "just_in_nether:devourite" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 3.0d
+		}
+		{
+			id: "3CEE744AA57E29F5"
+			rewards: [
+				{
+					id: "44C18F06E8CE8555"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "1A41C4F5AE191F5E"
+					item: { count: 1, id: "netherexotics:kiwano_chestplate" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			id: "49B18C523BD3A2C0"
+			rewards: [
+				{
+					id: "5BAC6BE6B127751A"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "618C716EC5250630"
+					item: { count: 1, id: "create_sa:brass_chestplate" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
+		}
+	]
+}

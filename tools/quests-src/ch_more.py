@@ -1,4 +1,4 @@
-from engine import Q
+from engine import Q, dim
 
 TRAINS = dict(
     key="trains", group="tech", title="Trains",
@@ -120,8 +120,33 @@ LUMINOUS = dict(
             "A beast of the cold lands."]),
         Q("phoenix", "Phoenix", dep=["bestiary"], items=[("luminous_beasts:phoenix_trophy", 1)], xp=120, d=[
             "A fiery bird and one of the toughest Luminous beasts."]),
-        Q("executioner", "Executioner", dep=["bestiary"], items=[("luminous_beasts:executioner_trophy", 1)], xp=120, d=[
+        Q("executioner", "Executioner", dep=["lnether"], items=[("luminous_beasts:executioner_trophy", 1)], xp=120, d=[
             "A dangerous brute - bring good armour."]),
+        Q("gator", "Vile Gator", dep=["bestiary"], items=[("luminous_beasts:vile_gator_trophy", 1)], xp=80, d=[
+            "A huge alligator lurking in swamp water. Don't fight it while swimming."]),
+        Q("stalker", "Bone Stalker", dep=["bestiary"], items=[("luminous_beasts:bone_stalker_trophy", 1)], xp=80, d=[
+            "A skeletal hunter that stalks its prey. Keep an eye on what's behind you."]),
+        Q("witchdoctor", "Witch Doctor", dep=["bestiary"], items=[("luminous_beasts:witch_doctor_trophy", 1)], xp=80, d=[
+            "A jungle shaman that fights with curses and magic. Bring milk."]),
+        Q("viper", "Sea Viper", dep=["bestiary"], items=[("luminous_beasts:sea_viper_trophy", 1)], xp=100, d=[
+            "A sea serpent hunting in the oceans. Water breathing gives you a fair chance."]),
+        Q("scarecrow", "The Scarecrow", dep=["bestiary"], items=[("luminous_beasts:scarecrow_trophy", 1)], xp=80, d=[
+            "It looks like a harmless scarecrow - until it moves. It calls pumpkin minions to help."]),
+        Q("headsman", "Horseless Headsman", dep=["bestiary"], items=[("luminous_beasts:horseless_headsman_trophy", 1)], xp=120, d=[
+            "A spooky headless knight. One of the tougher Luminous beasts."]),
+        Q("moth", "Luminous Moth", dep=["bestiary"], items=[("luminous_beasts:luminous_moth_trophy", 1)], xp=80, d=[
+            "A giant glowing moth. It hatches from a big cocoon - look for one in dark forests."]),
+        Q("lnether", "Luminous Nether", dep=["bestiary"], tasks=[dim("minecraft:the_nether")], icon="luminous_nether:ghost_lantern", xp=20, d=[
+            "&bLuminous Nether&r adds piglin cults, ghosts, ash biomes and several Nether beasts.",
+            "The quests below are all found in the Nether."]),
+        Q("furnace", "The Furnace", dep=["lnether"], items=[("luminous_beasts:furnace_trophy", 1)], xp=120, d=[
+            "A living furnace full of fire. Fire resistance is a must."]),
+        Q("soulfurnace", "Soul Furnace", dep=["furnace"], items=[("luminous_beasts:soul_furnace_trophy", 1)], xp=150, d=[
+            "The stronger version of the Furnace, burning with soul fire."]),
+        Q("mushlin", "Mushlin King", dep=["lnether"], items=[("luminous_beasts:crimson_mushlin_king_trophy", 1)], xp=120, d=[
+            "The ruler of the mushlins - mushroom creatures of the Nether forests."]),
+        Q("gilded", "Gilded Piglin", dep=["lnether"], items=[("luminous_nether:gilded_piglin_trophy", 1)], xp=150, d=[
+            "A golden piglin cult leader. Its cultists won't make it easy."]),
         Q("scrap", "Legendary scrap", dep=["ent", "hermit", "mummy", "yeti"], items=[("luminous_beasts:legendary_scrap", 1)], xp=80, d=[
             "Used to make smithing augments - upgrades that add special effects to your gear."]),
     ],

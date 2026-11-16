@@ -2,11 +2,11 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "create_food"
-	group: "A7F7BE0CA4D022F8"
+	group: "27F7BE0CA4D022F8"
 	icon: {
 		id: "sliceanddice:slicer"
 	}
-	id: "FE14D4EE6821AA6F"
+	id: "7E14D4EE6821AA6F"
 	order_index: 12
 	quest_links: [ ]
 	quests: [
@@ -17,14 +17,14 @@
 			id: "04B7C8F9C5669640"
 			rewards: [
 				{
-					id: "8A98B75AD8B1E571"
+					id: "0A98B75AD8B1E571"
 					type: "xp"
 					xp: 10
 				}
 			]
 			tasks: [
 				{
-					id: "A8812F0E487F706C"
+					id: "28812F0E487F706C"
 					stat: "minecraft:play_time"
 					type: "stat"
 					value: 1
@@ -35,7 +35,7 @@
 		}
 		{
 			dependencies: ["04B7C8F9C5669640"]
-			id: "E77709DB54F26BCA"
+			id: "677709DB54F26BCA"
 			rewards: [
 				{
 					id: "3A85CC854F14A88C"
@@ -46,7 +46,7 @@
 			tasks: [
 				{
 					count: 8L
-					id: "E6CC46F37EDC6482"
+					id: "66CC46F37EDC6482"
 					item: { count: 1, id: "create:dough" }
 					type: "item"
 				}
@@ -59,7 +59,7 @@
 			id: "4618B1C536A3F3CF"
 			rewards: [
 				{
-					id: "8A579AC1ED8DB4D9"
+					id: "0A579AC1ED8DB4D9"
 					type: "xp"
 					xp: 20
 				}
@@ -93,7 +93,7 @@
 					type: "item"
 				}
 				{
-					id: "EA7EB0A954F2B148"
+					id: "6A7EB0A954F2B148"
 					item: { count: 1, id: "create_confectionery:bar_of_caramel" }
 					type: "item"
 				}
@@ -103,10 +103,10 @@
 		}
 		{
 			dependencies: ["2C56F980713D3F51"]
-			id: "F2FE716A87035676"
+			id: "72FE716A87035676"
 			rewards: [
 				{
-					id: "AF4C6255AF8DC789"
+					id: "2F4C6255AF8DC789"
 					type: "xp"
 					xp: 25
 				}
@@ -122,8 +122,8 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["E77709DB54F26BCA"]
-			id: "8B470F01E40566A0"
+			dependencies: ["677709DB54F26BCA"]
+			id: "0B470F01E40566A0"
 			rewards: [
 				{
 					id: "1C50A723ED35BCD0"
@@ -163,17 +163,17 @@
 		}
 		{
 			dependencies: ["04B7C8F9C5669640"]
-			id: "C91802A4420DB4B8"
+			id: "491802A4420DB4B8"
 			rewards: [
 				{
-					id: "8CD84A63FE4519D4"
+					id: "0CD84A63FE4519D4"
 					type: "xp"
 					xp: 30
 				}
 			]
 			tasks: [
 				{
-					id: "CD9EAD695CF1D950"
+					id: "4D9EAD695CF1D950"
 					item: { count: 1, id: "create_winery:wine_cellar" }
 					type: "item"
 				}
@@ -183,17 +183,17 @@
 		}
 		{
 			dependencies: ["04B7C8F9C5669640"]
-			id: "AAEBE01A3EDB2B09"
+			id: "2AEBE01A3EDB2B09"
 			rewards: [
 				{
-					id: "CC069F2795722131"
+					id: "4C069F2795722131"
 					type: "xp"
 					xp: 25
 				}
 			]
 			tasks: [
 				{
-					id: "D8A4A0652595B9FC"
+					id: "58A4A0652595B9FC"
 					item: { count: 1, id: "sliceanddice:slicer" }
 					type: "item"
 				}
@@ -202,11 +202,11 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["AAEBE01A3EDB2B09"]
-			id: "B9B357B4E049960F"
+			dependencies: ["2AEBE01A3EDB2B09"]
+			id: "39B357B4E049960F"
 			rewards: [
 				{
-					id: "D88AF45E762CCC92"
+					id: "588AF45E762CCC92"
 					type: "xp"
 					xp: 20
 				}
@@ -223,17 +223,17 @@
 		}
 		{
 			dependencies: ["04B7C8F9C5669640"]
-			id: "F15EED262FA26428"
+			id: "715EED262FA26428"
 			rewards: [
 				{
-					id: "ED49A06989E99628"
+					id: "6D49A06989E99628"
 					type: "xp"
 					xp: 30
 				}
 			]
 			tasks: [
 				{
-					id: "BF4E70CE4490C3F1"
+					id: "3F4E70CE4490C3F1"
 					item: { count: 1, id: "solonion:lunchbag" }
 					type: "item"
 				}

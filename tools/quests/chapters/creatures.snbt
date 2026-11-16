@@ -14,14 +14,14 @@
 			id: "1ECA32B112D22771"
 			rewards: [
 				{
-					id: "FE7030DBFAEEA992"
+					id: "7E7030DBFAEEA992"
 					type: "xp"
 					xp: 20
 				}
 			]
 			tasks: [
 				{
-					id: "DB7F27A8F27A3C15"
+					id: "5B7F27A8F27A3C15"
 					item: { count: 1, id: "alexsmobs:animal_dictionary" }
 					type: "item"
 				}
@@ -34,14 +34,14 @@
 			id: "175163EF3C19610D"
 			rewards: [
 				{
-					id: "A8EABA4DC2F4A163"
+					id: "28EABA4DC2F4A163"
 					type: "xp"
 					xp: 15
 				}
 			]
 			tasks: [
 				{
-					id: "BA42D079F5D61217"
+					id: "3A42D079F5D61217"
 					item: { count: 1, id: "alexsmobs:banana" }
 					type: "item"
 				}
@@ -71,7 +71,7 @@
 		}
 		{
 			dependencies: ["1ECA32B112D22771"]
-			id: "FF587B04E8DE96F8"
+			id: "7F587B04E8DE96F8"
 			rewards: [
 				{
 					id: "75BE49FA358B071B"
@@ -81,7 +81,7 @@
 			]
 			tasks: [
 				{
-					id: "A0CE8851EEF5BBD2"
+					id: "20CE8851EEF5BBD2"
 					item: { count: 1, id: "alexsmobs:roadrunner_feather" }
 					type: "item"
 				}
@@ -91,17 +91,17 @@
 		}
 		{
 			dependencies: ["1ECA32B112D22771"]
-			id: "F7E8B646A0048E38"
+			id: "77E8B646A0048E38"
 			rewards: [
 				{
-					id: "B4AE0F93B1C74840"
+					id: "34AE0F93B1C74840"
 					type: "xp"
 					xp: 30
 				}
 			]
 			tasks: [
 				{
-					id: "D490B744032355BA"
+					id: "5490B744032355BA"
 					item: { count: 1, id: "alexsmobs:bear_fur" }
 					type: "item"
 				}
@@ -110,10 +110,10 @@
 			y: 4.5d
 		}
 		{
-			id: "C65B3BBDB3340722"
+			id: "465B3BBDB3340722"
 			rewards: [
 				{
-					id: "D253A9B1B2BC2C2E"
+					id: "5253A9B1B2BC2C2E"
 					type: "xp"
 					xp: 15
 				}
@@ -129,7 +129,7 @@
 			y: 3.75d
 		}
 		{
-			dependencies: ["C65B3BBDB3340722"]
+			dependencies: ["465B3BBDB3340722"]
 			id: "6E29AC6B6663CFA1"
 			rewards: [
 				{
@@ -140,7 +140,7 @@
 			]
 			tasks: [
 				{
-					id: "FEDDBAFE5A61ABBB"
+					id: "7EDDBAFE5A61ABBB"
 					item: { count: 1, id: "naturalist:butterfly" }
 					type: "item"
 				}
@@ -149,8 +149,8 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["C65B3BBDB3340722"]
-			id: "ED1CDC40980D9EA3"
+			dependencies: ["465B3BBDB3340722"]
+			id: "6D1CDC40980D9EA3"
 			rewards: [
 				{
 					id: "790FC453B13A0AAD"
@@ -169,7 +169,7 @@
 			y: 7.5d
 		}
 		{
-			id: "AE82E1E9C5E6B5A0"
+			id: "2E82E1E9C5E6B5A0"
 			rewards: [
 				{
 					id: "31FBADC2A4561BD8"
@@ -179,7 +179,7 @@
 			]
 			tasks: [
 				{
-					id: "A5E84366AF7753A9"
+					id: "25E84366AF7753A9"
 					item: { count: 1, id: "crittersandcompanions:dragonfly_wing" }
 					type: "item"
 				}
@@ -191,7 +191,7 @@
 			id: "630858BC4F2894A2"
 			rewards: [
 				{
-					id: "F5D071A26C12B655"
+					id: "75D071A26C12B655"
 					type: "xp"
 					xp: 20
 				}
@@ -217,7 +217,7 @@
 			]
 			tasks: [
 				{
-					id: "CBFF6D0868DCD973"
+					id: "4BFF6D0868DCD973"
 					item: { count: 1, id: "benssharks:shark_tooth" }
 					type: "item"
 				}

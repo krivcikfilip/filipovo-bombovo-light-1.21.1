@@ -1,7 +1,8 @@
 import sys, importlib, glob, os
+import descs
 from engine import build
 
-ITEMS = set(open(os.path.join(os.path.dirname(__file__), "..", "items.txt")).read().split())
+ITEMS = set(open(os.path.join(os.path.dirname(__file__), "items.txt")).read().split())
 
 MODULES = ["ch_start", "ch_tech", "ch_tech2", "ch_food", "ch_build", "ch_explore"]
 ORDER = [
@@ -21,7 +22,11 @@ for mod, name in ORDER:
     except ModuleNotFoundError:
         continue
     if hasattr(m, name):
-        chapters.append(getattr(m, name))
+        ch = getattr(m, name)
+        for q in ch["quests"]:
+            if not q.d and (name, q.k) in descs.D:
+                q.d = [descs.D[(name, q.k)]]
+        chapters.append(ch)
 
 out = sys.argv[1] if len(sys.argv) > 1 else "/home/claude/quests/out"
 used = build(chapters, out, "Filipovo Bombovo 2")

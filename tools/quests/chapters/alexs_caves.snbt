@@ -41,7 +41,7 @@
 			]
 			tasks: [
 				{
-					id: "C429866B4821D27F"
+					id: "4429866B4821D27F"
 					item: { count: 1, id: "alexscaves:cave_book" }
 					type: "item"
 				}
@@ -54,14 +54,14 @@
 			id: "5108FA81183881B5"
 			rewards: [
 				{
-					id: "A7E269F9D7936646"
+					id: "27E269F9D7936646"
 					type: "xp"
 					xp: 60
 				}
 			]
 			tasks: [
 				{
-					id: "DF9D79205C666EB3"
+					id: "5F9D79205C666EB3"
 					item: { count: 1, id: "alexscaves:raw_scarlet_neodymium" }
 					type: "item"
 				}
@@ -76,22 +76,22 @@
 		}
 		{
 			dependencies: ["07B497A2C6975754"]
-			id: "9A7BA8E9D9FF9F38"
+			id: "1A7BA8E9D9FF9F38"
 			rewards: [
 				{
-					id: "B8D51A02945551C9"
+					id: "38D51A02945551C9"
 					type: "xp"
 					xp: 60
 				}
 			]
 			tasks: [
 				{
-					id: "A817DEA68D7DEF97"
+					id: "2817DEA68D7DEF97"
 					item: { count: 1, id: "alexscaves:amber" }
 					type: "item"
 				}
 				{
-					id: "9314C21D7347B575"
+					id: "1314C21D7347B575"
 					item: { count: 1, id: "alexscaves:dinosaur_chop" }
 					type: "item"
 				}
@@ -101,7 +101,7 @@
 		}
 		{
 			dependencies: ["07B497A2C6975754"]
-			id: "FE9A1228539E8975"
+			id: "7E9A1228539E8975"
 			rewards: [
 				{
 					id: "2B299EFF62A26F26"
@@ -121,17 +121,17 @@
 		}
 		{
 			dependencies: ["07B497A2C6975754"]
-			id: "D021195E9AB3352E"
+			id: "5021195E9AB3352E"
 			rewards: [
 				{
-					id: "D72EA6286EE35FCC"
+					id: "572EA6286EE35FCC"
 					type: "xp"
 					xp: 60
 				}
 			]
 			tasks: [
 				{
-					id: "9708AFF96878AC08"
+					id: "1708AFF96878AC08"
 					item: { count: 1, id: "alexscaves:sea_glass_shards" }
 					type: "item"
 				}
@@ -140,7 +140,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["D021195E9AB3352E"]
+			dependencies: ["5021195E9AB3352E"]
 			id: "0720C76EBA6006F1"
 			rewards: [
 				{
@@ -156,15 +156,15 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: 6.0d
+			x: 4.75d
+			y: 7.5d
 		}
 		{
 			dependencies: ["07B497A2C6975754"]
-			id: "C6485DCF7D8233E3"
+			id: "46485DCF7D8233E3"
 			rewards: [
 				{
-					id: "A3549C36B7AC6CB9"
+					id: "23549C36B7AC6CB9"
 					type: "xp"
 					xp: 80
 				}
@@ -176,7 +176,7 @@
 					type: "item"
 				}
 				{
-					id: "AA04B400391F9027"
+					id: "2A04B400391F9027"
 					item: { count: 1, id: "alexscaves:pure_darkness" }
 					type: "item"
 				}
@@ -189,25 +189,187 @@
 			id: "54F856051CB82798"
 			rewards: [
 				{
-					id: "D164B8BB16599FA7"
+					id: "5164B8BB16599FA7"
 					type: "xp"
 					xp: 60
 				}
 			]
 			tasks: [
 				{
-					id: "A8B1AFAF53AFB585"
+					id: "28B1AFAF53AFB585"
 					item: { count: 1, id: "alexscaves:candy_cane" }
 					type: "item"
 				}
 				{
-					id: "FC7EA1A60030F06D"
+					id: "7C7EA1A60030F06D"
 					item: { count: 1, id: "alexscaves:block_of_chocolate" }
 					type: "item"
 				}
 			]
 			x: 2.75d
 			y: 9.0d
+		}
+		{
+			dependencies: ["1A7BA8E9D9FF9F38"]
+			icon: {
+				id: "alexscaves:tectonic_shard"
+			}
+			id: "1B0C81A88186DBA9"
+			rewards: [
+				{
+					id: "2C506868A55F3828"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [
+				{
+					entity: "alexscaves:luxtructosaurus"
+					id: "51AD884AC93DB3CB"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 4.75d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7E9A1228539E8975"]
+			id: "7F62B7EAE5617B32"
+			rewards: [
+				{
+					id: "7A383BA9D26240DA"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "6C95DA22FCF49B5D"
+					item: { count: 1, id: "alexscaves:hazmat_mask" }
+					type: "item"
+				}
+				{
+					id: "03C1248B414D5CDD"
+					item: { count: 1, id: "alexscaves:hazmat_chestplate" }
+					type: "item"
+				}
+				{
+					id: "16A2CA4AFCB31FA6"
+					item: { count: 1, id: "alexscaves:hazmat_leggings" }
+					type: "item"
+				}
+				{
+					id: "4832D9BAA4577D3C"
+					item: { count: 1, id: "alexscaves:hazmat_boots" }
+					type: "item"
+				}
+			]
+			x: 4.75d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7E9A1228539E8975"]
+			id: "5BFB641C2EC1276D"
+			rewards: [
+				{
+					id: "0347C33D455A9C69"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "291B0FA02C8E82FF"
+					item: { count: 1, id: "alexscaves:raygun" }
+					type: "item"
+				}
+			]
+			x: 4.75d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5021195E9AB3352E"]
+			id: "0C9E4FA661E99592"
+			rewards: [
+				{
+					id: "5A84728CD2C28407"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "5B92B3A9A9EC40B2"
+					item: { count: 1, id: "alexscaves:diving_helmet" }
+					type: "item"
+				}
+				{
+					id: "721E963E53314CCA"
+					item: { count: 1, id: "alexscaves:diving_chestplate" }
+					type: "item"
+				}
+				{
+					id: "30438C25776FAA57"
+					item: { count: 1, id: "alexscaves:diving_leggings" }
+					type: "item"
+				}
+				{
+					id: "3D49721A2388C727"
+					item: { count: 1, id: "alexscaves:diving_boots" }
+					type: "item"
+				}
+			]
+			x: 4.75d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0720C76EBA6006F1"]
+			icon: {
+				id: "alexscaves:spawn_egg_hullbreaker"
+			}
+			id: "6CF5C1251809287C"
+			rewards: [
+				{
+					id: "1B535CDF20F93657"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [
+				{
+					entity: "alexscaves:hullbreaker"
+					id: "51E72DC51C4B14FF"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 6.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["46485DCF7D8233E3"]
+			icon: {
+				id: "alexscaves:forsaken_idol"
+			}
+			id: "72111BA2231D5F6F"
+			rewards: [
+				{
+					id: "1A34F3533434B6F0"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [
+				{
+					entity: "alexscaves:forsaken"
+					id: "58EBC3F04088DD3B"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 4.75d
+			y: 10.5d
 		}
 	]
 }

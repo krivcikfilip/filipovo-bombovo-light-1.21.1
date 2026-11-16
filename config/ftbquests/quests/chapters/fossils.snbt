@@ -1,0 +1,274 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fossils"
+	group: "76581968F62E459A"
+	icon: {
+		id: "fossil:analyzer"
+	}
+	id: "72B8266E2135E925"
+	order_index: 24
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7042903AB74FBC54"
+			rewards: [
+				{
+					id: "30D114CA56E0ED84"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "64F2B62C41A23A35"
+					item: { count: 1, id: "fossil:fossil_bio" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["7042903AB74FBC54"]
+			id: "07EB4C85AB05F9E7"
+			rewards: [
+				{
+					id: "35B4EAD362FC657B"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "61328CFE6F1C7167"
+					item: { count: 1, id: "fossil:relic_scrap" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7042903AB74FBC54"]
+			id: "64698EEED5C07C34"
+			rewards: [
+				{
+					id: "4AB9809998583C7F"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "27E1F94439628A4F"
+					item: { count: 1, id: "fossil:dinopedia" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7042903AB74FBC54"]
+			id: "192E963AA4039C95"
+			rewards: [
+				{
+					id: "3C6BF24331C16F96"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "4D33497CB5601F14"
+					item: { count: 1, id: "fossil:sifter" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7042903AB74FBC54"]
+			id: "0B791AA9C750974C"
+			rewards: [
+				{
+					id: "0A62716E3EF433B0"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "634ACCBA113763EE"
+					item: { count: 1, id: "fossil:analyzer" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0B791AA9C750974C"]
+			id: "2B1A08CB82494159"
+			rewards: [
+				{
+					id: "58C05013BDB9C41A"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "7729CD033E8E4B83"
+					item: { count: 1, id: "fossil:bio_goo" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2B1A08CB82494159"]
+			id: "55A662AB1364AF69"
+			rewards: [
+				{
+					id: "74CBBEB027E947F3"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "78FEF8EBE08F505F"
+					item: { count: 1, id: "fossil:culture_vat" }
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: 4.5d
+		}
+		{
+			dependencies: ["55A662AB1364AF69"]
+			id: "4E4F50D2CA031B06"
+			rewards: [
+				{
+					id: "4AA2871744245989"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "3166B02C351EABD7"
+					item: { count: 1, id: "fossil:feeder" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["55A662AB1364AF69"]
+			id: "0D35853BB456C50C"
+			rewards: [
+				{
+					id: "46B69CD7DD5F17C6"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "5E8B99052671329E"
+					item: { count: 1, id: "fossil:whip" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["07EB4C85AB05F9E7"]
+			id: "79F4290B8B690C82"
+			rewards: [
+				{
+					id: "5B9450109F2B7E6B"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "7B2320D9ED96B764"
+					item: { count: 1, id: "fossil:worktable" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["79F4290B8B690C82"]
+			id: "45559542136D7874"
+			rewards: [
+				{
+					id: "29441974AFD5C7AB"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					id: "3BE749021E869211"
+					item: { count: 1, id: "fossil:ancient_sword" }
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["192E963AA4039C95"]
+			id: "6D668EB648F9F994"
+			rewards: [
+				{
+					id: "091C0C8035DE0BD2"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					id: "5FF8E08129BF11E5"
+					item: { count: 1, id: "fossil:amber_chunk_mosquito" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["45559542136D7874"]
+			id: "7EF6C1C06B44339E"
+			rewards: [
+				{
+					id: "53889E72359B7AE0"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "3CD2D4570FB63541"
+					item: { count: 1, id: "fossil:ancient_key" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 0.0d
+		}
+	]
+}

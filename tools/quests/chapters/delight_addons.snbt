@@ -2,11 +2,11 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "delight_addons"
-	group: "A7F7BE0CA4D022F8"
+	group: "27F7BE0CA4D022F8"
 	icon: {
 		id: "culturaldelights:avocado"
 	}
-	id: "8747A8AC02EDC1BC"
+	id: "0747A8AC02EDC1BC"
 	order_index: 10
 	quest_links: [ ]
 	quests: [
@@ -14,10 +14,10 @@
 			icon: {
 				id: "farmersdelight:iron_knife"
 			}
-			id: "9612DECA357B9384"
+			id: "1612DECA357B9384"
 			rewards: [
 				{
-					id: "E48F4D1E1CB533E2"
+					id: "648F4D1E1CB533E2"
 					type: "xp"
 					xp: 10
 				}
@@ -34,7 +34,7 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["9612DECA357B9384"]
+			dependencies: ["1612DECA357B9384"]
 			id: "3F852D0F0D775A1D"
 			rewards: [
 				{
@@ -55,7 +55,7 @@
 					type: "item"
 				}
 				{
-					id: "A358C8EE81890503"
+					id: "2358C8EE81890503"
 					item: { count: 1, id: "culturaldelights:eggplant" }
 					type: "item"
 				}
@@ -64,11 +64,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["9612DECA357B9384"]
+			dependencies: ["1612DECA357B9384"]
 			id: "6426D8E6AD2A2068"
 			rewards: [
 				{
-					id: "91042D29FBC6C341"
+					id: "11042D29FBC6C341"
 					type: "xp"
 					xp: 25
 				}
@@ -76,12 +76,12 @@
 			tasks: [
 				{
 					count: 4L
-					id: "8E1DDEE99603FEB9"
+					id: "0E1DDEE99603FEB9"
 					item: { count: 1, id: "corn_delight:corn" }
 					type: "item"
 				}
 				{
-					id: "B2E3072850A71100"
+					id: "32E3072850A71100"
 					item: { count: 1, id: "corn_delight:popcorn" }
 					type: "item"
 				}
@@ -91,7 +91,7 @@
 		}
 		{
 			dependencies: ["6426D8E6AD2A2068"]
-			id: "E27198E9961E854B"
+			id: "627198E9961E854B"
 			rewards: [
 				{
 					id: "52743C083F2446C0"
@@ -101,7 +101,7 @@
 			]
 			tasks: [
 				{
-					id: "C1A5244091AF8AA6"
+					id: "41A5244091AF8AA6"
 					item: { count: 1, id: "corn_delight:taco" }
 					type: "item"
 				}
@@ -110,8 +110,8 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["9612DECA357B9384"]
-			id: "B8DE1467C9121C43"
+			dependencies: ["1612DECA357B9384"]
+			id: "38DE1467C9121C43"
 			rewards: [
 				{
 					id: "624A5B6114A4B4E3"
@@ -121,12 +121,12 @@
 			]
 			tasks: [
 				{
-					id: "C5AB68706C8ADFDF"
+					id: "45AB68706C8ADFDF"
 					item: { count: 1, id: "expandeddelight:juicer" }
 					type: "item"
 				}
 				{
-					id: "B588B6CCF704A4B6"
+					id: "3588B6CCF704A4B6"
 					item: { count: 1, id: "expandeddelight:cinnamon" }
 					type: "item"
 				}
@@ -135,7 +135,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["B8DE1467C9121C43"]
+			dependencies: ["38DE1467C9121C43"]
 			id: "2FFF72D75547DA55"
 			rewards: [
 				{
@@ -146,7 +146,7 @@
 			]
 			tasks: [
 				{
-					id: "BEDF90748BD77302"
+					id: "3EDF90748BD77302"
 					item: { count: 1, id: "expandeddelight:cheese_wheel" }
 					type: "item"
 				}
@@ -155,8 +155,8 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["9612DECA357B9384"]
-			id: "FADFC7A5F2888D81"
+			dependencies: ["1612DECA357B9384"]
+			id: "7ADFC7A5F2888D81"
 			rewards: [
 				{
 					id: "3CA34DBD1600ED71"
@@ -175,7 +175,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["9612DECA357B9384"]
+			dependencies: ["1612DECA357B9384"]
 			id: "7654D76F0DEF51D2"
 			rewards: [
 				{
@@ -186,7 +186,7 @@
 			]
 			tasks: [
 				{
-					id: "FAB11AE27477F2CF"
+					id: "7AB11AE27477F2CF"
 					item: { count: 1, id: "oceansdelight:fugu_roll" }
 					type: "item"
 				}
@@ -195,18 +195,18 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["9612DECA357B9384"]
-			id: "DFC1BE1A7605F82F"
+			dependencies: ["1612DECA357B9384"]
+			id: "5FC1BE1A7605F82F"
 			rewards: [
 				{
-					id: "C6C1800A834AF391"
+					id: "46C1800A834AF391"
 					type: "xp"
 					xp: 25
 				}
 			]
 			tasks: [
 				{
-					id: "E960F0A4587BB921"
+					id: "6960F0A4587BB921"
 					item: { count: 1, id: "rusticdelight:cotton_boll" }
 					type: "item"
 				}
@@ -215,8 +215,8 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["9612DECA357B9384"]
-			id: "CDCF55F11F67BEFF"
+			dependencies: ["1612DECA357B9384"]
+			id: "4DCF55F11F67BEFF"
 			rewards: [
 				{
 					id: "77149A67CD01F2D1"
@@ -226,7 +226,7 @@
 			]
 			tasks: [
 				{
-					id: "902AFB4377096939"
+					id: "102AFB4377096939"
 					item: { count: 1, id: "farmersrespite:kettle" }
 					type: "item"
 				}
@@ -240,8 +240,8 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["9612DECA357B9384"]
-			id: "C0ECA47E46E32C70"
+			dependencies: ["1612DECA357B9384"]
+			id: "40ECA47E46E32C70"
 			rewards: [
 				{
 					id: "6691CF67EA09707B"
@@ -251,7 +251,7 @@
 			]
 			tasks: [
 				{
-					id: "DCE1EBC52DB3DC5F"
+					id: "5CE1EBC52DB3DC5F"
 					item: { count: 1, id: "brewinandchewin:keg" }
 					type: "item"
 				}
@@ -260,18 +260,18 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["C0ECA47E46E32C70"]
+			dependencies: ["40ECA47E46E32C70"]
 			id: "18E46CDD1738ED1D"
 			rewards: [
 				{
-					id: "A6F869F56FD57D71"
+					id: "26F869F56FD57D71"
 					type: "xp"
 					xp: 30
 				}
 			]
 			tasks: [
 				{
-					id: "FE0144148B12C744"
+					id: "7E0144148B12C744"
 					item: { count: 1, id: "brewinandchewin:pizza" }
 					type: "item"
 				}
@@ -280,8 +280,8 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["9612DECA357B9384"]
-			id: "C54174B9AF268664"
+			dependencies: ["1612DECA357B9384"]
+			id: "454174B9AF268664"
 			rewards: [
 				{
 					id: "3EA9DB4570C622FF"
@@ -291,7 +291,7 @@
 			]
 			tasks: [
 				{
-					id: "A7E58E981BD7E924"
+					id: "27E58E981BD7E924"
 					item: { count: 1, id: "mynethersdelight:hoglin_loin" }
 					type: "item"
 				}
@@ -300,8 +300,8 @@
 			y: 12.0d
 		}
 		{
-			dependencies: ["9612DECA357B9384"]
-			id: "C965FE56BDA54CAC"
+			dependencies: ["1612DECA357B9384"]
+			id: "4965FE56BDA54CAC"
 			rewards: [
 				{
 					id: "6FC41D966B31C393"
@@ -320,7 +320,7 @@
 			y: 13.5d
 		}
 		{
-			dependencies: ["C965FE56BDA54CAC"]
+			dependencies: ["4965FE56BDA54CAC"]
 			id: "48AFF40DFF70B0F2"
 			rewards: [
 				{
@@ -340,7 +340,7 @@
 			y: 13.5d
 		}
 		{
-			dependencies: ["9612DECA357B9384"]
+			dependencies: ["1612DECA357B9384"]
 			id: "3334E1BF315C1F0D"
 			rewards: [
 				{
@@ -360,11 +360,11 @@
 			y: 15.0d
 		}
 		{
-			dependencies: ["9612DECA357B9384"]
+			dependencies: ["1612DECA357B9384"]
 			id: "2BF0C9C9375B44EE"
 			rewards: [
 				{
-					id: "8D61A451A646E331"
+					id: "0D61A451A646E331"
 					type: "xp"
 					xp: 25
 				}
@@ -385,8 +385,8 @@
 			y: 16.5d
 		}
 		{
-			dependencies: ["9612DECA357B9384"]
-			id: "C17A0B58BAD06B21"
+			dependencies: ["1612DECA357B9384"]
+			id: "417A0B58BAD06B21"
 			rewards: [
 				{
 					id: "0C51B20AF92A453F"
@@ -396,7 +396,7 @@
 			]
 			tasks: [
 				{
-					id: "CFA48D9558564103"
+					id: "4FA48D9558564103"
 					item: { count: 1, id: "extradelight:mixing_bowl" }
 					type: "item"
 				}

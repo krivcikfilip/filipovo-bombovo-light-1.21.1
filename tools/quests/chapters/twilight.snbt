@@ -6,7 +6,7 @@
 	icon: {
 		id: "twilightforest:naga_trophy"
 	}
-	id: "B75AE59F12D2E91D"
+	id: "375AE59F12D2E91D"
 	order_index: 21
 	quest_links: [ ]
 	quests: [
@@ -34,7 +34,7 @@
 			icon: {
 				id: "twilightforest:magic_map"
 			}
-			id: "83A51D5C27EF7E8C"
+			id: "03A51D5C27EF7E8C"
 			rewards: [
 				{
 					id: "01A6DD1597B68ADA"
@@ -45,7 +45,7 @@
 			tasks: [
 				{
 					dimension: "twilightforest:twilight_forest"
-					id: "8C9CF159BD446516"
+					id: "0C9CF159BD446516"
 					type: "dimension"
 				}
 			]
@@ -53,8 +53,8 @@
 			y: 3.75d
 		}
 		{
-			dependencies: ["83A51D5C27EF7E8C"]
-			id: "B002526E88C933DB"
+			dependencies: ["03A51D5C27EF7E8C"]
+			id: "3002526E88C933DB"
 			rewards: [
 				{
 					id: "05435C39A88E03A2"
@@ -73,7 +73,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["B002526E88C933DB"]
+			dependencies: ["3002526E88C933DB"]
 			id: "528B3E77711E941F"
 			rewards: [
 				{
@@ -93,11 +93,11 @@
 			y: 0.75d
 		}
 		{
-			dependencies: ["B002526E88C933DB"]
-			id: "EEC575EC5405BBA1"
+			dependencies: ["3002526E88C933DB"]
+			id: "6EC575EC5405BBA1"
 			rewards: [
 				{
-					id: "EC71EF3E07A4C2B0"
+					id: "6C71EF3E07A4C2B0"
 					type: "xp"
 					xp: 30
 				}
@@ -111,7 +111,7 @@
 				}
 				{
 					count: 4L
-					id: "F8EB7F6B269C57F4"
+					id: "78EB7F6B269C57F4"
 					item: { count: 1, id: "twilightforest:ironwood_ingot" }
 					type: "item"
 				}
@@ -124,14 +124,14 @@
 			id: "3646048B16BCED73"
 			rewards: [
 				{
-					id: "993470A8314CBC49"
+					id: "193470A8314CBC49"
 					type: "xp"
 					xp: 100
 				}
 			]
 			tasks: [
 				{
-					id: "E945DA7CCD8301DA"
+					id: "6945DA7CCD8301DA"
 					item: { count: 1, id: "twilightforest:minoshroom_trophy" }
 					type: "item"
 				}
@@ -141,10 +141,10 @@
 		}
 		{
 			dependencies: ["3646048B16BCED73"]
-			id: "ACC9432A1DACBAA8"
+			id: "2CC9432A1DACBAA8"
 			rewards: [
 				{
-					id: "AC7C301B6AE79797"
+					id: "2C7C301B6AE79797"
 					type: "xp"
 					xp: 150
 				}
@@ -160,7 +160,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["ACC9432A1DACBAA8"]
+			dependencies: ["2CC9432A1DACBAA8"]
 			id: "6D24FE3EA5B73247"
 			rewards: [
 				{
@@ -182,10 +182,10 @@
 		}
 		{
 			dependencies: ["528B3E77711E941F"]
-			id: "D6CB72AB7F148E92"
+			id: "56CB72AB7F148E92"
 			rewards: [
 				{
-					id: "E991492552B7F66B"
+					id: "6991492552B7F66B"
 					type: "xp"
 					xp: 120
 				}
@@ -201,11 +201,11 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["D6CB72AB7F148E92"]
-			id: "E65194F22DE46F15"
+			dependencies: ["56CB72AB7F148E92"]
+			id: "665194F22DE46F15"
 			rewards: [
 				{
-					id: "902A7598C9544655"
+					id: "102A7598C9544655"
 					type: "xp"
 					xp: 40
 				}
@@ -213,7 +213,7 @@
 			tasks: [
 				{
 					count: 4L
-					id: "BDACE73341104626"
+					id: "3DACE73341104626"
 					item: { count: 1, id: "twilightforest:knightmetal_ingot" }
 					type: "item"
 				}
@@ -222,8 +222,8 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["D6CB72AB7F148E92"]
-			id: "ABA4DA1562241157"
+			dependencies: ["56CB72AB7F148E92"]
+			id: "2BA4DA1562241157"
 			rewards: [
 				{
 					id: "12D484358322E304"
@@ -242,7 +242,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["ABA4DA1562241157"]
+			dependencies: ["2BA4DA1562241157"]
 			id: "407BED3177E66905"
 			rewards: [
 				{
@@ -263,8 +263,8 @@
 			y: 2.25d
 		}
 		{
-			dependencies: ["ABA4DA1562241157"]
-			id: "B8AD3C812DC54AF2"
+			dependencies: ["2BA4DA1562241157"]
+			id: "38AD3C812DC54AF2"
 			rewards: [
 				{
 					id: "224DAF786A41F8AB"
@@ -283,7 +283,7 @@
 			y: 3.75d
 		}
 		{
-			dependencies: ["B8AD3C812DC54AF2"]
+			dependencies: ["38AD3C812DC54AF2"]
 			id: "34FB2E5CBA0F0BB9"
 			rewards: [
 				{
@@ -303,11 +303,11 @@
 			y: 3.75d
 		}
 		{
-			dependencies: ["83A51D5C27EF7E8C"]
+			dependencies: ["03A51D5C27EF7E8C"]
 			id: "40D228147AE39E3C"
 			rewards: [
 				{
-					id: "FCA390C41354F436"
+					id: "7CA390C41354F436"
 					type: "xp"
 					xp: 40
 				}
@@ -323,7 +323,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["83A51D5C27EF7E8C"]
+			dependencies: ["03A51D5C27EF7E8C"]
 			id: "654AF12A1440277B"
 			rewards: [
 				{
@@ -343,7 +343,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["83A51D5C27EF7E8C"]
+			dependencies: ["03A51D5C27EF7E8C"]
 			id: "18E22BCDB12A379F"
 			rewards: [
 				{
@@ -354,7 +354,7 @@
 			]
 			tasks: [
 				{
-					id: "FB696BF77CF7B741"
+					id: "7B696BF77CF7B741"
 					item: { count: 1, id: "twilightforest:quest_ram_trophy" }
 					type: "item"
 				}

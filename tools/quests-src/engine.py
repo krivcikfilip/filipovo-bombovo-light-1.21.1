@@ -1,3 +1,4 @@
+import re
 """Generator FTB Quests (1.21.1 / ftbquests 2101.x) ze specifikace v Pythonu.
 
 Specifikace kapitoly:
@@ -18,10 +19,13 @@ GROUPS = [
 
 
 def hid(*parts):
-    h = hashlib.sha1("/".join(parts).encode()).hexdigest()[:16].upper()
+    n = int(hashlib.sha1("/".join(parts).encode()).hexdigest()[:16], 16)
+    # FTB parsuje ID jako signed long: první hex číslice musí být 0-7
+    n &= 0x7FFFFFFFFFFFFFFF
+    h = f"{n:016X}"
     # FTB nesnese ID složené jen z číslic (bralo by se jako long) – pojistka
     if h.isdigit():
-        h = "A" + h[1:]
+        h = "1A" + h[2:]
     return h
 
 
@@ -67,6 +71,17 @@ def adv(a):
 
 
 # ---------- SNBT writer ----------
+def esc_amp(v):
+    # '&' je ve FTB formátovací kód; holé '&' (ne &a, &r...) musí být '\\&'
+    if isinstance(v, str):
+        return re.sub(r"&(?![0-9a-fk-or])", r"\\&", v)
+    if isinstance(v, list):
+        return [esc_amp(i) for i in v]
+    if isinstance(v, dict):
+        return {k: esc_amp(x) for k, x in v.items()}
+    return v
+
+
 def snbt(v, ind=0):
     t = "\t"
     if isinstance(v, bool):
@@ -321,5 +336,5 @@ def build(chapters, outdir, file_title):
             f.write(snbt(chd) + "\n")
 
     with open(os.path.join(qdir, "lang", "en_us.snbt"), "w") as f:
-        f.write(snbt(lang) + "\n")
+        f.write(snbt(esc_amp(lang)) + "\n")
     return used_items

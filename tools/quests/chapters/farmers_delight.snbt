@@ -2,11 +2,11 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "farmers_delight"
-	group: "A7F7BE0CA4D022F8"
+	group: "27F7BE0CA4D022F8"
 	icon: {
 		id: "farmersdelight:cooking_pot"
 	}
-	id: "E02A10CDAD1A40BF"
+	id: "602A10CDAD1A40BF"
 	order_index: 9
 	quest_links: [ ]
 	quests: [
@@ -21,7 +21,7 @@
 			]
 			tasks: [
 				{
-					id: "BD39678D935A3945"
+					id: "3D39678D935A3945"
 					item: { count: 1, id: "farmersdelight:flint_knife" }
 					type: "item"
 				}
@@ -31,7 +31,7 @@
 		}
 		{
 			dependencies: ["6C09E821C47BD8DA"]
-			id: "87AE2E38F5D24BAE"
+			id: "07AE2E38F5D24BAE"
 			rewards: [
 				{
 					id: "036A49C9D0730882"
@@ -41,7 +41,7 @@
 			]
 			tasks: [
 				{
-					id: "CA378A8738DD6A09"
+					id: "4A378A8738DD6A09"
 					item: { count: 1, id: "farmersdelight:cutting_board" }
 					type: "item"
 				}
@@ -50,7 +50,7 @@
 			y: 1.5d
 		}
 		{
-			id: "C15BA16357CD55B4"
+			id: "415BA16357CD55B4"
 			rewards: [
 				{
 					id: "5A2107C8EAFF05F5"
@@ -60,7 +60,7 @@
 			]
 			tasks: [
 				{
-					id: "ECF072B85278C335"
+					id: "6CF072B85278C335"
 					item: { count: 1, id: "farmersdelight:cabbage" }
 					type: "item"
 				}
@@ -70,7 +70,7 @@
 					type: "item"
 				}
 				{
-					id: "8FD167A4B2AF1B03"
+					id: "0FD167A4B2AF1B03"
 					item: { count: 1, id: "farmersdelight:onion" }
 					type: "item"
 				}
@@ -79,11 +79,11 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["C15BA16357CD55B4"]
-			id: "F6F9ACD74D91A641"
+			dependencies: ["415BA16357CD55B4"]
+			id: "76F9ACD74D91A641"
 			rewards: [
 				{
-					id: "F669E52921FEF7DB"
+					id: "7669E52921FEF7DB"
 					type: "xp"
 					xp: 15
 				}
@@ -91,7 +91,7 @@
 			tasks: [
 				{
 					count: 4L
-					id: "DBBF98239A88B796"
+					id: "5BBF98239A88B796"
 					item: { count: 1, id: "farmersdelight:rice" }
 					type: "item"
 				}
@@ -100,7 +100,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["87AE2E38F5D24BAE"]
+			dependencies: ["07AE2E38F5D24BAE"]
 			id: "3FFB90425DE23E6A"
 			rewards: [
 				{
@@ -121,7 +121,7 @@
 		}
 		{
 			dependencies: ["3FFB90425DE23E6A"]
-			id: "A359A21812B76933"
+			id: "2359A21812B76933"
 			rewards: [
 				{
 					id: "33A2BCD56E044C3D"
@@ -131,7 +131,7 @@
 			]
 			tasks: [
 				{
-					id: "E75DD4F27BFE3104"
+					id: "675DD4F27BFE3104"
 					item: { count: 1, id: "farmersdelight:cooking_pot" }
 					type: "item"
 				}
@@ -160,7 +160,7 @@
 			y: 2.25d
 		}
 		{
-			dependencies: ["A359A21812B76933"]
+			dependencies: ["2359A21812B76933"]
 			id: "3E5C6167A3E2DE2D"
 			rewards: [
 				{
@@ -171,7 +171,7 @@
 			]
 			tasks: [
 				{
-					id: "8FBD8CD22127E752"
+					id: "0FBD8CD22127E752"
 					item: { count: 1, id: "farmersdelight:beef_stew" }
 					type: "item"
 				}
@@ -181,8 +181,8 @@
 		}
 		{
 			dependencies: [
-				"A359A21812B76933"
-				"C15BA16357CD55B4"
+				"2359A21812B76933"
+				"415BA16357CD55B4"
 			]
 			id: "1932A1E98A5367D7"
 			rewards: [
@@ -194,7 +194,7 @@
 			]
 			tasks: [
 				{
-					id: "86A6C4D4EA92F2A6"
+					id: "06A6C4D4EA92F2A6"
 					item: { count: 1, id: "farmersdelight:mixed_salad" }
 					type: "item"
 				}
@@ -204,10 +204,10 @@
 		}
 		{
 			dependencies: [
-				"87AE2E38F5D24BAE"
-				"C15BA16357CD55B4"
+				"07AE2E38F5D24BAE"
+				"415BA16357CD55B4"
 			]
-			id: "B7BE1970E7DE09C2"
+			id: "37BE1970E7DE09C2"
 			rewards: [
 				{
 					id: "6F5FF908B40CD65B"
@@ -227,7 +227,7 @@
 		}
 		{
 			dependencies: ["3E5C6167A3E2DE2D"]
-			id: "EA41D4E12AE7321F"
+			id: "6A41D4E12AE7321F"
 			rewards: [
 				{
 					id: "5F643D4C042578DD"
@@ -246,7 +246,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["C15BA16357CD55B4"]
+			dependencies: ["415BA16357CD55B4"]
 			id: "2833C0B4A3AC7833"
 			rewards: [
 				{
@@ -257,7 +257,7 @@
 			]
 			tasks: [
 				{
-					id: "BF779D5C1E06D410"
+					id: "3F779D5C1E06D410"
 					item: { count: 1, id: "farmersdelight:organic_compost" }
 					type: "item"
 				}
@@ -272,11 +272,11 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["A359A21812B76933"]
+			dependencies: ["2359A21812B76933"]
 			id: "6364AB15E1C4A780"
 			rewards: [
 				{
-					id: "C5369D8C0A916F72"
+					id: "45369D8C0A916F72"
 					type: "xp"
 					xp: 20
 				}

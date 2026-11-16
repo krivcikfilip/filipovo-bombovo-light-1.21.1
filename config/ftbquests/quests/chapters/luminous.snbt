@@ -1,0 +1,460 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "luminous"
+	group: "76581968F62E459A"
+	icon: {
+		id: "luminous_beasts:ultimate_bestiary"
+	}
+	id: "5EF3E51DFF088748"
+	order_index: 25
+	quest_links: [ ]
+	quests: [
+		{
+			id: "02F0724FBC56D9AE"
+			rewards: [
+				{
+					id: "5198C9BC571F72EC"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "426F1788D992417A"
+					item: { count: 1, id: "luminous_beasts:ultimate_bestiary" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			id: "5A0A79D67A15456D"
+			rewards: [
+				{
+					id: "61E916AB33A6E8E8"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "554831C21EDADF9A"
+					item: { count: 1, id: "luminous_butterflies:butterfly_net" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5A0A79D67A15456D"]
+			id: "24C9A0CB3EB5832B"
+			rewards: [
+				{
+					id: "001B75D4380A684C"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "7F06D35BE15B5C62"
+					item: { count: 1, id: "luminous_butterflies:butterfly_encyclopedia" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["02F0724FBC56D9AE"]
+			id: "33FC7CF39965C41D"
+			rewards: [
+				{
+					id: "3AD2BA2EE5FFD661"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "650B609BC925AED5"
+					item: { count: 1, id: "luminous_beasts:tree_ent_trophy" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["02F0724FBC56D9AE"]
+			id: "54BF44687F30D3C9"
+			rewards: [
+				{
+					id: "34A4CDC56EE2EC83"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "353FFBA06A03D5C1"
+					item: { count: 1, id: "luminous_beasts:hermit_king_trophy" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["02F0724FBC56D9AE"]
+			id: "1A1B9479A0E6A955"
+			rewards: [
+				{
+					id: "798A15B5CA6C956B"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "178E6381C17A7CB0"
+					item: { count: 1, id: "luminous_beasts:mummy_trophy" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["02F0724FBC56D9AE"]
+			id: "5F41818EF64B1854"
+			rewards: [
+				{
+					id: "756848F44D6104AD"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "75496588E5F70FEF"
+					item: { count: 1, id: "luminous_beasts:yeti_trophy" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["02F0724FBC56D9AE"]
+			id: "0ED17982949F025D"
+			rewards: [
+				{
+					id: "3FDCBB59849FE628"
+					type: "xp"
+					xp: 120
+				}
+			]
+			tasks: [
+				{
+					id: "26E902666173EEA3"
+					item: { count: 1, id: "luminous_beasts:phoenix_trophy" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6D850A6BDA9784EC"]
+			id: "292AE2FBE9208159"
+			rewards: [
+				{
+					id: "57BC0B267580118B"
+					type: "xp"
+					xp: 120
+				}
+			]
+			tasks: [
+				{
+					id: "18BAD0E3C1AB1F8C"
+					item: { count: 1, id: "luminous_beasts:executioner_trophy" }
+					type: "item"
+				}
+			]
+			x: 6.75d
+			y: 15.75d
+		}
+		{
+			dependencies: ["02F0724FBC56D9AE"]
+			id: "09CF090107880D7A"
+			rewards: [
+				{
+					id: "4AB38BDCA614ADC2"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "71FC400C9600B30E"
+					item: { count: 1, id: "luminous_beasts:vile_gator_trophy" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["02F0724FBC56D9AE"]
+			id: "37F54E989E00FA25"
+			rewards: [
+				{
+					id: "6393ABEFA30B06EF"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "6A6B48BF422E3696"
+					item: { count: 1, id: "luminous_beasts:bone_stalker_trophy" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["02F0724FBC56D9AE"]
+			id: "469E408A753994E2"
+			rewards: [
+				{
+					id: "59763FD326D2DE92"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "348B9339EC8731D8"
+					item: { count: 1, id: "luminous_beasts:witch_doctor_trophy" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["02F0724FBC56D9AE"]
+			id: "45EAB78EF35AB0A5"
+			rewards: [
+				{
+					id: "43598228BF011F51"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "68B79D33DD55ED60"
+					item: { count: 1, id: "luminous_beasts:sea_viper_trophy" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["02F0724FBC56D9AE"]
+			id: "7CD52C8A11AA9CC5"
+			rewards: [
+				{
+					id: "2C8F9B2FC220CEC1"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "566F5C38E12F0398"
+					item: { count: 1, id: "luminous_beasts:scarecrow_trophy" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["02F0724FBC56D9AE"]
+			id: "103D2A9D5072E683"
+			rewards: [
+				{
+					id: "50A7B5F83211F1EA"
+					type: "xp"
+					xp: 120
+				}
+			]
+			tasks: [
+				{
+					id: "08739FB121E71203"
+					item: { count: 1, id: "luminous_beasts:horseless_headsman_trophy" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["02F0724FBC56D9AE"]
+			id: "7DEB64FA8836D876"
+			rewards: [
+				{
+					id: "6AA64537A3BDF22D"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "347C011750D43AC5"
+					item: { count: 1, id: "luminous_beasts:luminous_moth_trophy" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["02F0724FBC56D9AE"]
+			icon: {
+				id: "luminous_nether:ghost_lantern"
+			}
+			id: "6D850A6BDA9784EC"
+			rewards: [
+				{
+					id: "29B96B887A39C1C3"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					dimension: "minecraft:the_nether"
+					id: "6A673744915D3138"
+					type: "dimension"
+				}
+			]
+			x: 5.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["6D850A6BDA9784EC"]
+			id: "09F9F20A7E95E771"
+			rewards: [
+				{
+					id: "5F662EFE5AC4916A"
+					type: "xp"
+					xp: 120
+				}
+			]
+			tasks: [
+				{
+					id: "6245FF933CD9E30E"
+					item: { count: 1, id: "luminous_beasts:furnace_trophy" }
+					type: "item"
+				}
+			]
+			x: 6.75d
+			y: 17.25d
+		}
+		{
+			dependencies: ["09F9F20A7E95E771"]
+			id: "7C5823FBD81C89A3"
+			rewards: [
+				{
+					id: "5535AFA2004FD8A9"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					id: "0D290492879862D3"
+					item: { count: 1, id: "luminous_beasts:soul_furnace_trophy" }
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 17.25d
+		}
+		{
+			dependencies: ["6D850A6BDA9784EC"]
+			id: "1494BD5722A7C284"
+			rewards: [
+				{
+					id: "2B285F7FC9D729E2"
+					type: "xp"
+					xp: 120
+				}
+			]
+			tasks: [
+				{
+					id: "51F29BFDBEBF0B94"
+					item: { count: 1, id: "luminous_beasts:crimson_mushlin_king_trophy" }
+					type: "item"
+				}
+			]
+			x: 6.75d
+			y: 18.75d
+		}
+		{
+			dependencies: ["6D850A6BDA9784EC"]
+			id: "38C754449DA1D832"
+			rewards: [
+				{
+					id: "2F8EC30A59261235"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					id: "2AC36E44356DE729"
+					item: { count: 1, id: "luminous_nether:gilded_piglin_trophy" }
+					type: "item"
+				}
+			]
+			x: 6.75d
+			y: 20.25d
+		}
+		{
+			dependencies: [
+				"33FC7CF39965C41D"
+				"54BF44687F30D3C9"
+				"1A1B9479A0E6A955"
+				"5F41818EF64B1854"
+			]
+			id: "0463B34D316CC6C6"
+			rewards: [
+				{
+					id: "2F014C05B3DDF5D7"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "174358BDF84CD485"
+					item: { count: 1, id: "luminous_beasts:legendary_scrap" }
+					type: "item"
+				}
+			]
+			x: 6.75d
+			y: 2.25d
+		}
+	]
+}

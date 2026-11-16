@@ -6,7 +6,7 @@
 	icon: {
 		id: "aether:golden_parachute"
 	}
-	id: "AF776931D0304949"
+	id: "2F776931D0304949"
 	order_index: 20
 	quest_links: [ ]
 	quests: [
@@ -14,7 +14,7 @@
 			id: "2DDA09607F9DF746"
 			rewards: [
 				{
-					id: "E8C1B6003622BE09"
+					id: "68C1B6003622BE09"
 					type: "xp"
 					xp: 15
 				}
@@ -46,7 +46,7 @@
 			tasks: [
 				{
 					dimension: "aether:the_aether"
-					id: "AE04FFF252E9A7ED"
+					id: "2E04FFF252E9A7ED"
 					type: "dimension"
 				}
 			]
@@ -55,10 +55,10 @@
 		}
 		{
 			dependencies: ["732282577FD84F89"]
-			id: "B976A15C80404CE2"
+			id: "3976A15C80404CE2"
 			rewards: [
 				{
-					id: "FCE7CC1E36F7DD87"
+					id: "7CE7CC1E36F7DD87"
 					type: "xp"
 					xp: 20
 				}
@@ -66,7 +66,7 @@
 			tasks: [
 				{
 					count: 8L
-					id: "8B725F892E60DDAF"
+					id: "0B725F892E60DDAF"
 					item: { count: 1, id: "aether:skyroot_log" }
 					type: "item"
 				}
@@ -81,11 +81,11 @@
 			y: 0.75d
 		}
 		{
-			dependencies: ["B976A15C80404CE2"]
-			id: "CB97BC3580748EFF"
+			dependencies: ["3976A15C80404CE2"]
+			id: "4B97BC3580748EFF"
 			rewards: [
 				{
-					id: "F3360C8B17DCD7E9"
+					id: "73360C8B17DCD7E9"
 					type: "xp"
 					xp: 20
 				}
@@ -102,23 +102,23 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["CB97BC3580748EFF"]
-			id: "C0B73277F0D1A7FC"
+			dependencies: ["4B97BC3580748EFF"]
+			id: "40B73277F0D1A7FC"
 			rewards: [
 				{
-					id: "825428E49E0E5B37"
+					id: "025428E49E0E5B37"
 					type: "xp"
 					xp: 30
 				}
 			]
 			tasks: [
 				{
-					id: "B440CEAEB0794F9F"
+					id: "3440CEAEB0794F9F"
 					item: { count: 1, id: "aether:altar" }
 					type: "item"
 				}
 				{
-					id: "8806B5B58E6C9470"
+					id: "0806B5B58E6C9470"
 					item: { count: 1, id: "aether:freezer" }
 					type: "item"
 				}
@@ -127,11 +127,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["B976A15C80404CE2"]
+			dependencies: ["3976A15C80404CE2"]
 			id: "43F3BBECFB68ACC4"
 			rewards: [
 				{
-					id: "9815A157F01D331D"
+					id: "1815A157F01D331D"
 					type: "xp"
 					xp: 30
 				}
@@ -149,10 +149,10 @@
 		}
 		{
 			dependencies: ["732282577FD84F89"]
-			id: "C4C1BBBCE0E6C548"
+			id: "44C1BBBCE0E6C548"
 			rewards: [
 				{
-					id: "E7B1DFC71A980E80"
+					id: "67B1DFC71A980E80"
 					type: "xp"
 					xp: 20
 				}
@@ -168,18 +168,18 @@
 			y: 2.25d
 		}
 		{
-			dependencies: ["C0B73277F0D1A7FC"]
+			dependencies: ["40B73277F0D1A7FC"]
 			id: "079EB31754CF6EEE"
 			rewards: [
 				{
-					id: "A922AA5AD4020371"
+					id: "2922AA5AD4020371"
 					type: "xp"
 					xp: 40
 				}
 			]
 			tasks: [
 				{
-					id: "9EFB9F8D51ABB87C"
+					id: "1EFB9F8D51ABB87C"
 					item: { count: 1, id: "aether:incubator" }
 					type: "item"
 				}
@@ -189,7 +189,7 @@
 		}
 		{
 			dependencies: ["43F3BBECFB68ACC4"]
-			id: "82BF723CE4303798"
+			id: "02BF723CE4303798"
 			rewards: [
 				{
 					id: "6D49D24F39F7A1D0"
@@ -199,7 +199,7 @@
 			]
 			tasks: [
 				{
-					id: "E630ACBDBC55A4E9"
+					id: "6630ACBDBC55A4E9"
 					item: { count: 1, id: "aether:bronze_dungeon_key" }
 					type: "item"
 				}
@@ -208,11 +208,11 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["82BF723CE4303798"]
+			dependencies: ["02BF723CE4303798"]
 			id: "315F7E3269F1CDF3"
 			rewards: [
 				{
-					id: "C37B3129FDF0E0DF"
+					id: "437B3129FDF0E0DF"
 					type: "xp"
 					xp: 60
 				}
@@ -229,11 +229,11 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["82BF723CE4303798"]
-			id: "AA8C437262AA3434"
+			dependencies: ["02BF723CE4303798"]
+			id: "2A8C437262AA3434"
 			rewards: [
 				{
-					id: "D63CB8F526206874"
+					id: "563CB8F526206874"
 					type: "xp"
 					xp: 100
 				}
@@ -249,11 +249,11 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["AA8C437262AA3434"]
+			dependencies: ["2A8C437262AA3434"]
 			id: "3AC74DFF7F405AB6"
 			rewards: [
 				{
-					id: "BDACFF306E30569B"
+					id: "3DACFF306E30569B"
 					type: "xp"
 					xp: 150
 				}
@@ -273,14 +273,14 @@
 			id: "0CFD5A588BD8DA42"
 			rewards: [
 				{
-					id: "83304B5A422488C2"
+					id: "03304B5A422488C2"
 					type: "xp"
 					xp: 20
 				}
 			]
 			tasks: [
 				{
-					id: "8192FE0C9CECBC62"
+					id: "0192FE0C9CECBC62"
 					item: { count: 1, id: "aether:zanite_ring" }
 					type: "item"
 				}
@@ -293,14 +293,14 @@
 			id: "2B130A00EEB13DBE"
 			rewards: [
 				{
-					id: "8DD8013014BC27C2"
+					id: "0DD8013014BC27C2"
 					type: "xp"
 					xp: 30
 				}
 			]
 			tasks: [
 				{
-					id: "E8603F0501BCE0F8"
+					id: "68603F0501BCE0F8"
 					item: { count: 1, id: "deep_aether:skyjade" }
 					type: "item"
 				}

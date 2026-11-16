@@ -1,0 +1,245 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: "520042A0F9159BC8"
+	icon: {
+		id: "ftbquests:book"
+	}
+	id: "793E32936A23A83E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "ftbquests:book"
+			}
+			id: "6C6506A05B72E622"
+			rewards: [
+				{
+					id: "38E7E7D82BD37AF4"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "4F757E80F878A159"
+					stat: "minecraft:play_time"
+					type: "stat"
+					value: 1
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6C6506A05B72E622"]
+			id: "54149DF58C0CF8B8"
+			rewards: [
+				{
+					id: "5307BD8E8AE722AE"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "582DA216F222AE1A"
+					item: { count: 1, id: "waystones:waystone" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["54149DF58C0CF8B8"]
+			id: "79E87B93462C806A"
+			rewards: [
+				{
+					id: "3660044A305A9BD1"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "6E65D8405EB9EC8D"
+					item: { count: 1, id: "waystones:warp_stone" }
+					type: "item"
+				}
+			]
+			x: 3.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C6506A05B72E622"]
+			id: "09B7476C05882565"
+			rewards: [
+				{
+					id: "346B1D02ED5D3FBB"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "202CDFD9FD3022C3"
+					item: { count: 1, id: "sophisticatedbackpacks:backpack" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["09B7476C05882565"]
+			id: "6222D3EA28471A09"
+			rewards: [
+				{
+					id: "134B5778506B293A"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "2D294A722E3F7615"
+					item: { count: 1, id: "sophisticatedbackpacks:pickup_upgrade" }
+					type: "item"
+				}
+			]
+			x: 3.75d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6222D3EA28471A09"]
+			id: "2B03B4A0BBF02287"
+			rewards: [
+				{
+					id: "1AC9958FFE1DD436"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "63BB1C1079C66FBC"
+					item: { count: 1, id: "sophisticatedbackpacks:feeding_upgrade" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6C6506A05B72E622"]
+			icon: {
+				id: "minecraft:skeleton_skull"
+			}
+			id: "62F7B17F7FAC5054"
+			rewards: [
+				{
+					id: "63D77A01E9B4E239"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "16FF57666B201BCD"
+					stat: "minecraft:play_time"
+					type: "stat"
+					value: 1
+				}
+			]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6C6506A05B72E622"]
+			icon: {
+				id: "minecraft:bell"
+			}
+			id: "0B7C5FD61AD7DAA6"
+			rewards: [
+				{
+					id: "73BDB04DE740794A"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "026D31413B71A545"
+					stat: "minecraft:play_time"
+					type: "stat"
+					value: 1
+				}
+			]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6C6506A05B72E622"]
+			id: "60EAE74AD522424D"
+			rewards: [
+				{
+					id: "49BFB6E230C2DCA0"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "40744220F43BC7B1"
+					item: { count: 1, id: "solonion:food_book" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["60EAE74AD522424D"]
+			id: "600C5C3E85823812"
+			rewards: [
+				{
+					id: "19E39BDAE69DF0F8"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "2DD9CD53E19AA7B1"
+					item: { count: 1, id: "solonion:lunchbox" }
+					type: "item"
+				}
+			]
+			x: 3.75d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0B7C5FD61AD7DAA6"]
+			id: "666A0A06E79D4CFF"
+			rewards: [
+				{
+					id: "036F58267771437B"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "31CDD596B11E2C52"
+					item: { count: 1, id: "chunkloaders:single_chunk_loader" }
+					type: "item"
+				}
+			]
+			x: 3.75d
+			y: 4.5d
+		}
+	]
+}

@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "aeronautics"
-	group: "AEAA9718BAF5A32A"
+	group: "2EAA9718BAF5A32A"
 	icon: {
 		id: "aeronautics:propeller_bearing"
 	}
@@ -38,7 +38,7 @@
 			id: "79E7751F5A52DEBD"
 			rewards: [
 				{
-					id: "A55220095F4164F2"
+					id: "255220095F4164F2"
 					type: "xp"
 					xp: 40
 				}
@@ -55,10 +55,10 @@
 		}
 		{
 			dependencies: ["1DF14DEAF5C79808"]
-			id: "F37BE59B311EAF17"
+			id: "737BE59B311EAF17"
 			rewards: [
 				{
-					id: "D4A7F7523524325F"
+					id: "54A7F7523524325F"
 					type: "xp"
 					xp: 40
 				}
@@ -66,7 +66,7 @@
 			tasks: [
 				{
 					count: 8L
-					id: "94C749730ABA00F3"
+					id: "14C749730ABA00F3"
 					item: { count: 1, id: "aeronautics:levitite" }
 					type: "item"
 				}
@@ -86,7 +86,7 @@
 			]
 			tasks: [
 				{
-					id: "FB6806D9B3C42580"
+					id: "7B6806D9B3C42580"
 					item: { count: 1, id: "aeronautics:adjustable_burner" }
 					type: "item"
 				}
@@ -99,14 +99,14 @@
 			id: "6117A72CBB15361C"
 			rewards: [
 				{
-					id: "FAE56485F30317FF"
+					id: "7AE56485F30317FF"
 					type: "xp"
 					xp: 40
 				}
 			]
 			tasks: [
 				{
-					id: "C41A9A8F4E7581EF"
+					id: "441A9A8F4E7581EF"
 					item: { count: 1, id: "aeronautics:propeller_bearing" }
 					type: "item"
 				}
@@ -131,7 +131,7 @@
 			]
 			tasks: [
 				{
-					id: "D6348BC8CD76C256"
+					id: "56348BC8CD76C256"
 					item: { count: 1, id: "aeronautics:smart_propeller" }
 					type: "item"
 				}
@@ -141,10 +141,10 @@
 		}
 		{
 			dependencies: ["6117A72CBB15361C"]
-			id: "FD09691C28E05501"
+			id: "7D09691C28E05501"
 			rewards: [
 				{
-					id: "DECE2573FA62783F"
+					id: "5ECE2573FA62783F"
 					type: "xp"
 					xp: 60
 				}
@@ -164,7 +164,7 @@
 			id: "502BF10FD13C4EA5"
 			rewards: [
 				{
-					id: "E63D5CF0D8CE13DF"
+					id: "663D5CF0D8CE13DF"
 					type: "xp"
 					xp: 40
 				}
@@ -196,7 +196,7 @@
 					type: "item"
 				}
 				{
-					id: "868028BF6D12D884"
+					id: "068028BF6D12D884"
 					item: { count: 1, id: "simulated:throttle_lever" }
 					type: "item"
 				}
@@ -216,12 +216,12 @@
 			]
 			tasks: [
 				{
-					id: "FD513C25E47DA00B"
+					id: "7D513C25E47DA00B"
 					item: { count: 1, id: "simulated:altitude_sensor" }
 					type: "item"
 				}
 				{
-					id: "A6C5199E25C48F8C"
+					id: "26C5199E25C48F8C"
 					item: { count: 1, id: "simulated:velocity_sensor" }
 					type: "item"
 				}
@@ -251,17 +251,17 @@
 		}
 		{
 			dependencies: ["79E7751F5A52DEBD"]
-			id: "FDEF0C580DB08144"
+			id: "7DEF0C580DB08144"
 			rewards: [
 				{
-					id: "AB55DAB56A4127AD"
+					id: "2B55DAB56A4127AD"
 					type: "xp"
 					xp: 40
 				}
 			]
 			tasks: [
 				{
-					id: "83A68E3DAACD9FEF"
+					id: "03A68E3DAACD9FEF"
 					item: { count: 1, id: "simulated:rope_winch" }
 					type: "item"
 				}
@@ -276,8 +276,8 @@
 			y: 5.25d
 		}
 		{
-			dependencies: ["FDEF0C580DB08144"]
-			id: "EAA2742E6DA0E59E"
+			dependencies: ["7DEF0C580DB08144"]
+			id: "6AA2742E6DA0E59E"
 			rewards: [
 				{
 					id: "26D1B730FC2B887F"
@@ -288,7 +288,7 @@
 			tasks: [
 				{
 					count: 2L
-					id: "E9D9E94394D2D5DC"
+					id: "69D9E94394D2D5DC"
 					item: { count: 1, id: "simulated:docking_connector" }
 					type: "item"
 				}
@@ -301,7 +301,7 @@
 			id: "300293F855AB765B"
 			rewards: [
 				{
-					id: "F053ECD6AEF1E3CE"
+					id: "7053ECD6AEF1E3CE"
 					type: "xp"
 					xp: 50
 				}
@@ -309,13 +309,13 @@
 			tasks: [
 				{
 					count: 2L
-					id: "A4DC8657BDC30B6A"
+					id: "24DC8657BDC30B6A"
 					item: { count: 1, id: "offroad:wheel_mount" }
 					type: "item"
 				}
 				{
 					count: 2L
-					id: "C9501A98F1EA312E"
+					id: "49501A98F1EA312E"
 					item: { count: 1, id: "offroad:tire" }
 					type: "item"
 				}
@@ -325,17 +325,17 @@
 		}
 		{
 			dependencies: ["6117A72CBB15361C"]
-			id: "C9421439F3BC2FC4"
+			id: "49421439F3BC2FC4"
 			rewards: [
 				{
-					id: "B6F98558B1080CB3"
+					id: "36F98558B1080CB3"
 					type: "xp"
 					xp: 30
 				}
 			]
 			tasks: [
 				{
-					id: "E7A24EDA26385DFD"
+					id: "67A24EDA26385DFD"
 					item: { count: 1, id: "aeronautics:aviators_goggles" }
 					type: "item"
 				}
@@ -344,8 +344,8 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["F37BE59B311EAF17"]
-			id: "A2E4E0531E537739"
+			dependencies: ["737BE59B311EAF17"]
+			id: "22E4E0531E537739"
 			rewards: [
 				{
 					id: "7885771CD155CCF9"
@@ -366,7 +366,7 @@
 		}
 		{
 			dependencies: ["6117A72CBB15361C"]
-			id: "9DAD7B6372D9A028"
+			id: "1DAD7B6372D9A028"
 			rewards: [
 				{
 					id: "45CAECA5D4142316"

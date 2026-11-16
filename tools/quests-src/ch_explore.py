@@ -1,21 +1,30 @@
-from engine import Q, check, dim, structure, auto
+from engine import Q, check, dim, structure, auto, kill
 
 EXPLORE = dict(
     key="exploration", group="explore", title="Exploring the Overworld",
     subtitle="Structures, dungeons and loot", icon="minecraft:compass",
     quests=[
         Q("start", "A bigger world", icon="minecraft:filled_map", tasks=[auto()], xp=10, d=[
-            "&bTectonic&r and &bTerralith&r make huge mountains and new biomes. Structures from &bYUNG's&r, &bTowns and Towers&r, &bMoog's&r, &bRepurposed Structures&r and &bIDAS&r are everywhere.",
+            "&bTectonic&r and &bTerralith&r make huge mountains and new biomes. Structures from &bYUNG's&r, &bTowns and Towers&r, &bMoog's&r, &bRepurposed Structures&r, &bExplorify&r and &bIDAS&r are everywhere.",
             "Chests are &bLootr&r chests - each player gets their own loot."]),
-        Q("dungeon", "Take a spawner home", dep=["start"], items=[("minecraft:spawner", 1)], xp=60, d=[
-            "YUNG's catacombs, spider caves and skeleton dungeons replace the old tiny dungeons.",
-            "A pickaxe with the &bReplication&r enchantment can pick up a spawner. &bApothic Spawners&r lets you upgrade it with items."]),
+        Q("dungeon", "Catacombs", dep=["start"], tasks=[structure("betterdungeons:skeleton_dungeon")], icon="minecraft:bone", xp=50, d=[
+            "&bYUNG's Better Dungeons&r replaces the old tiny dungeons with catacombs, spider caves and zombie dungeons.",
+            "The skeleton catacombs are big, dark and full of spawners - and loot."]),
+        Q("spawner", "Take a spawner home", dep=["dungeon"], items=[("minecraft:spawner", 1)], xp=60, d=[
+            "Thanks to &bApothic Spawners&r, a pickaxe with &bSilk Touch&r picks up a spawner.",
+            "Place it at home and upgrade it with items - more mobs, faster spawning, no light needed and more."]),
         Q("desert", "Desert temple", dep=["start"], tasks=[structure("betterdeserttemples:desert_temple")], icon="minecraft:sand", xp=30),
         Q("monument", "Ocean monument", dep=["start"], tasks=[structure("betteroceanmonuments:ocean_monument")], icon="minecraft:prismarine", xp=60),
+        Q("elder", "Elder Guardian", dep=["monument"], tasks=[kill("minecraft:elder_guardian")], icon="minecraft:wet_sponge", xp=120, d=[
+            "Every ocean monument has elder guardians. They give you Mining Fatigue, so you can't just dig through the walls.",
+            "Defeat them to lift the curse - the monument's gold and sponge rooms are yours."]),
         Q("stronghold", "Stronghold", dep=["start"], tasks=[structure("betterstrongholds:stronghold")], icon="minecraft:ender_eye", xp=60, d=[
             "Throw eyes of ender to find it. YUNG's stronghold is a real maze."]),
         Q("ancient", "Ancient City", dep=["stronghold"], tasks=[structure("minecraft:ancient_city")], icon="minecraft:sculk_catalyst", xp=100, d=[
             "Deep below in the deep dark. Be quiet - the Warden hears everything."]),
+        Q("warden", "The Warden", dep=["ancient"], tasks=[kill("minecraft:warden")], icon="minecraft:sculk_shrieker", xp=250, d=[
+            "The strongest mob in the Overworld. It is blind but hears every step and smells you nearby.",
+            "Most players sneak past it. Beating it is a real achievement - bring your best gear."]),
     ],
 )
 
@@ -71,6 +80,11 @@ NETHER_END = dict(
         Q("elytra", "Elytra", dep=["dragon"], items=[("minecraft:elytra", 1)], xp=150, d=[
             "Find an End City ship. &bElytra Slot&r lets you wear it together with a chestplate."]),
         Q("crystal", "Unusual End", dep=["end"], items=[("unusualend:shiny_crystal", 1)], xp=40),
+        Q("voidworm", "Void Worm", dep=["end"], tasks=[kill("alexsmobs:void_worm")], icon="alexsmobs:void_worm_eye", xp=250, d=[
+            "A giant boss from &bAlex's Mobs&r that lives in the void below the End islands.",
+            "It tears portals in the air and dives through them. Fight it on a big platform and bring ranged weapons."]),
+        Q("mosco", "Warped Mosco", dep=["nether"], tasks=[kill("alexsmobs:warped_mosco")], icon="alexsmobs:spawn_egg_warped_mosco", xp=200, d=[
+            "A huge mutated mosquito and one of the bosses of &bAlex's Mobs&r. It hits hard and drains your health."]),
     ],
 )
 
@@ -157,6 +171,19 @@ ALEXSCAVES = dict(
             "Scary bats and the darkest place in the game."]),
         Q("candy", "Candy Cavity", dep=["tablet"], items=[("alexscaves:candy_cane", 1), ("alexscaves:block_of_chocolate", 1)], xp=60, d=[
             "Everything is made of sweets. Some of it is alive."]),
+        Q("luxtructosaurus", "Luxtructosaurus", dep=["primordial"], tasks=[kill("alexscaves:luxtructosaurus")], icon="alexscaves:tectonic_shard", xp=250, d=[
+            "The giant volcanic dinosaur of the Primordial Caves. It sleeps in a volcano and wakes up angry.",
+            "Fire resistance helps a lot. It drops tectonic shards, used for strong items."]),
+        Q("hazmat", "Hazmat suit", dep=["toxic"], items=[("alexscaves:hazmat_mask", 1), ("alexscaves:hazmat_chestplate", 1), ("alexscaves:hazmat_leggings", 1), ("alexscaves:hazmat_boots", 1)], xp=80, d=[
+            "The full suit protects you from radiation in the Toxic Caves. Without it, irradiation slowly hurts you."]),
+        Q("raygun", "Raygun", dep=["toxic"], items=[("alexscaves:raygun", 1)], xp=80, d=[
+            "A radioactive laser weapon powered by uranium. Very strong, but use it carefully."]),
+        Q("diving", "Diving suit", dep=["abyssal"], items=[("alexscaves:diving_helmet", 1), ("alexscaves:diving_chestplate", 1), ("alexscaves:diving_leggings", 1), ("alexscaves:diving_boots", 1)], xp=80, d=[
+            "Lets you breathe and walk on the bottom of the Abyssal Chasm. It works without a submarine."]),
+        Q("hullbreaker", "Hullbreaker", dep=["submarine"], tasks=[kill("alexscaves:hullbreaker")], icon="alexscaves:spawn_egg_hullbreaker", xp=250, d=[
+            "A gigantic deep-sea monster hunting in the darkest part of the Abyssal Chasm. Its name is a warning for submarines."]),
+        Q("forsaken", "Forsaken", dep=["forlorn"], tasks=[kill("alexscaves:forsaken")], icon="alexscaves:forsaken_idol", xp=250, d=[
+            "A terrifying creature summoned in the Forlorn Hollows. It's blind but hears everything - stay quiet and keep your distance."]),
     ],
 )
 

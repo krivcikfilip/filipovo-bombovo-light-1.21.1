@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "pams"
-	group: "A7F7BE0CA4D022F8"
+	group: "27F7BE0CA4D022F8"
 	icon: {
 		id: "pamhc2foodcore:potitem"
 	}
@@ -14,7 +14,7 @@
 			id: "5176C47A9CB5A0E5"
 			rewards: [
 				{
-					id: "B426A2DD218C929E"
+					id: "3426A2DD218C929E"
 					type: "xp"
 					xp: 20
 				}
@@ -26,12 +26,12 @@
 					type: "item"
 				}
 				{
-					id: "E9BD1F61E19F7AEC"
+					id: "69BD1F61E19F7AEC"
 					item: { count: 1, id: "pamhc2foodcore:potitem" }
 					type: "item"
 				}
 				{
-					id: "CE6B9D9A5EAE86C5"
+					id: "4E6B9D9A5EAE86C5"
 					item: { count: 1, id: "pamhc2foodcore:skilletitem" }
 					type: "item"
 				}
@@ -44,14 +44,14 @@
 			id: "790A44A82804BD25"
 			rewards: [
 				{
-					id: "95DCA4EFE3E5B092"
+					id: "15DCA4EFE3E5B092"
 					type: "xp"
 					xp: 30
 				}
 			]
 			tasks: [
 				{
-					id: "AE2818E295FD91DE"
+					id: "2E2818E295FD91DE"
 					item: { count: 1, id: "pamhc2foodcore:saucepanitem" }
 					type: "item"
 				}
@@ -84,7 +84,7 @@
 			id: "1C48601519B5B200"
 			rewards: [
 				{
-					id: "DFFDC04905C4D872"
+					id: "5FFDC04905C4D872"
 					type: "xp"
 					xp: 25
 				}
@@ -111,7 +111,7 @@
 			]
 			tasks: [
 				{
-					id: "8EBB0AFB344AC711"
+					id: "0EBB0AFB344AC711"
 					item: { count: 1, id: "pamhc2foodcore:potroastitem" }
 					type: "item"
 				}

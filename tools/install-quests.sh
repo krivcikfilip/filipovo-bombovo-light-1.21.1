@@ -9,6 +9,6 @@ mkdir -p config/ftbquests
 cp -R tools/quests config/ftbquests/quests
 "$PW" refresh
 git add -A
-git commit -m "FTB Quests: 27 tutoriálových kapitol, 421 questů"
+git commit -m "FTB Quests: 27 tutoriálových kapitol, 447 questů"
 git push
 echo "HOTOVO - restartuj server, questy se načtou při startu."

@@ -165,5 +165,11 @@ FISHING = dict(
             "&bUpgrade Aquatic&r adds new ocean life, corals, jellyfish and driftwood washed up on beaches."]),
         Q("tank", "Fish tank", dep=["rod"], items=[("betterfishtanks:glass_container", 1)], xp=20),
         Q("aquadelight", "Aquaculture Delight", dep=["knife"], items=[("aquaculturedelight:fish_and_chips", 1)], xp=20),
+        Q("splashtail", "Fish of Thieves", dep=["rod"], items=[("fishofthieves:splashtail", 1)], xp=15, d=[
+            "&bFish of Thieves&r adds the fish from Sea of Thieves. Each species has several colour variants that depend on the biome, time and weather."]),
+        Q("stormfish", "Stormfish", dep=["splashtail"], items=[("fishofthieves:stormfish", 1)], xp=40, d=[
+            "Only bites during a thunderstorm. Grab your rod when the sky goes dark."]),
+        Q("wrecker", "Wrecker", dep=["splashtail"], items=[("fishofthieves:wrecker", 1)], xp=40, d=[
+            "Wreckers live around shipwrecks and ocean ruins. Fish near a wreck to find one."]),
     ],
 )

@@ -2,16 +2,16 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "minecolonies"
-	group: "C29879DE8D393374"
+	group: "429879DE8D393374"
 	icon: {
 		id: "minecolonies:blockhuttownhall"
 	}
-	id: "848819506C41A408"
+	id: "048819506C41A408"
 	order_index: 15
 	quest_links: [ ]
 	quests: [
 		{
-			id: "ECAD7393A0ABE08F"
+			id: "6CAD7393A0ABE08F"
 			rewards: [
 				{
 					id: "184FE56738528D3D"
@@ -30,11 +30,11 @@
 			y: 5.25d
 		}
 		{
-			dependencies: ["ECAD7393A0ABE08F"]
-			id: "A00C1A8BE1D1081B"
+			dependencies: ["6CAD7393A0ABE08F"]
+			id: "200C1A8BE1D1081B"
 			rewards: [
 				{
-					id: "91751DCFDC2E6113"
+					id: "11751DCFDC2E6113"
 					type: "xp"
 					xp: 40
 				}
@@ -50,11 +50,11 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["ECAD7393A0ABE08F"]
+			dependencies: ["6CAD7393A0ABE08F"]
 			id: "3DE2CC05B558207D"
 			rewards: [
 				{
-					id: "9ABE3075B8E5D1EA"
+					id: "1ABE3075B8E5D1EA"
 					type: "xp"
 					xp: 20
 				}
@@ -71,10 +71,10 @@
 		}
 		{
 			dependencies: [
-				"A00C1A8BE1D1081B"
+				"200C1A8BE1D1081B"
 				"3DE2CC05B558207D"
 			]
-			id: "AB676C6E27D0DDA2"
+			id: "2B676C6E27D0DDA2"
 			rewards: [
 				{
 					id: "1E4D4BF422D20023"
@@ -93,7 +93,7 @@
 			y: 5.25d
 		}
 		{
-			dependencies: ["AB676C6E27D0DDA2"]
+			dependencies: ["2B676C6E27D0DDA2"]
 			id: "1B5F5A5EEF3D8840"
 			rewards: [
 				{
@@ -104,7 +104,7 @@
 			]
 			tasks: [
 				{
-					id: "B94070078BE1D159"
+					id: "394070078BE1D159"
 					item: { count: 1, id: "minecolonies:resourcescroll" }
 					type: "item"
 				}
@@ -113,11 +113,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["AB676C6E27D0DDA2"]
+			dependencies: ["2B676C6E27D0DDA2"]
 			id: "272D595C8A6C5B4C"
 			rewards: [
 				{
-					id: "DD5847965D6A6483"
+					id: "5D5847965D6A6483"
 					type: "xp"
 					xp: 30
 				}
@@ -125,7 +125,7 @@
 			tasks: [
 				{
 					count: 2L
-					id: "F6022A8EDE3CF286"
+					id: "76022A8EDE3CF286"
 					item: { count: 1, id: "minecolonies:blockhutcitizen" }
 					type: "item"
 				}
@@ -134,7 +134,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["AB676C6E27D0DDA2"]
+			dependencies: ["2B676C6E27D0DDA2"]
 			id: "750C87019AF8ADCA"
 			rewards: [
 				{
@@ -158,14 +158,14 @@
 			id: "5F7AE4589415AC7D"
 			rewards: [
 				{
-					id: "F85F5254EE8727AF"
+					id: "785F5254EE8727AF"
 					type: "xp"
 					xp: 40
 				}
 			]
 			tasks: [
 				{
-					id: "8F062E127599D8C0"
+					id: "0F062E127599D8C0"
 					item: { count: 1, id: "minecolonies:blockhutfarmer" }
 					type: "item"
 				}
@@ -180,7 +180,7 @@
 		}
 		{
 			dependencies: ["750C87019AF8ADCA"]
-			id: "AB20D90E96A04453"
+			id: "2B20D90E96A04453"
 			rewards: [
 				{
 					id: "20A1BAA692430263"
@@ -199,11 +199,11 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["AB676C6E27D0DDA2"]
-			id: "95FE4F13185BE886"
+			dependencies: ["2B676C6E27D0DDA2"]
+			id: "15FE4F13185BE886"
 			rewards: [
 				{
-					id: "CE52FA047DB90F60"
+					id: "4E52FA047DB90F60"
 					type: "xp"
 					xp: 40
 				}
@@ -219,18 +219,18 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["95FE4F13185BE886"]
+			dependencies: ["15FE4F13185BE886"]
 			id: "7A509B20CCB43C29"
 			rewards: [
 				{
-					id: "D80152AA752C6554"
+					id: "580152AA752C6554"
 					type: "xp"
 					xp: 60
 				}
 			]
 			tasks: [
 				{
-					id: "FE913A8064753C9D"
+					id: "7E913A8064753C9D"
 					item: { count: 1, id: "minecolonies:blockhutwarehouse" }
 					type: "item"
 				}
@@ -239,8 +239,8 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["AB676C6E27D0DDA2"]
-			id: "E631E7593AB46BA5"
+			dependencies: ["2B676C6E27D0DDA2"]
+			id: "6631E7593AB46BA5"
 			rewards: [
 				{
 					id: "5D5F4A6B9B7894EA"
@@ -259,7 +259,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["AB676C6E27D0DDA2"]
+			dependencies: ["2B676C6E27D0DDA2"]
 			id: "4F7F6E7E48610A7F"
 			rewards: [
 				{
@@ -270,7 +270,7 @@
 			]
 			tasks: [
 				{
-					id: "E74060940242C57F"
+					id: "674060940242C57F"
 					item: { count: 1, id: "minecolonies:blockhutminer" }
 					type: "item"
 				}
@@ -279,18 +279,18 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["AB676C6E27D0DDA2"]
+			dependencies: ["2B676C6E27D0DDA2"]
 			id: "3CBAB1EE3B70E4BA"
 			rewards: [
 				{
-					id: "C2A7A132AE14E90B"
+					id: "42A7A132AE14E90B"
 					type: "xp"
 					xp: 40
 				}
 			]
 			tasks: [
 				{
-					id: "D13964F9D4DAC65E"
+					id: "513964F9D4DAC65E"
 					item: { count: 1, id: "minecolonies:blockhutguardtower" }
 					type: "item"
 				}
@@ -310,7 +310,7 @@
 			]
 			tasks: [
 				{
-					id: "A0EF94B9376CFC67"
+					id: "20EF94B9376CFC67"
 					item: { count: 1, id: "minecolonies:blockhutbarracks" }
 					type: "item"
 				}
@@ -339,18 +339,18 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["E631E7593AB46BA5"]
-			id: "D1D3672B33165EAB"
+			dependencies: ["6631E7593AB46BA5"]
+			id: "51D3672B33165EAB"
 			rewards: [
 				{
-					id: "EA6AE85ED0CB9F08"
+					id: "6A6AE85ED0CB9F08"
 					type: "xp"
 					xp: 30
 				}
 			]
 			tasks: [
 				{
-					id: "A2FCCA55059AC7D6"
+					id: "22FCCA55059AC7D6"
 					item: { count: 1, id: "minecolonies:blockhutsawmill" }
 					type: "item"
 				}
@@ -360,17 +360,17 @@
 		}
 		{
 			dependencies: ["4F7F6E7E48610A7F"]
-			id: "CEF2F282B8BACADA"
+			id: "4EF2F282B8BACADA"
 			rewards: [
 				{
-					id: "EA44A59F24F4B2AC"
+					id: "6A44A59F24F4B2AC"
 					type: "xp"
 					xp: 30
 				}
 			]
 			tasks: [
 				{
-					id: "AB27AF458D423BDA"
+					id: "2B27AF458D423BDA"
 					item: { count: 1, id: "minecolonies:blockhutstonemason" }
 					type: "item"
 				}
@@ -423,14 +423,14 @@
 			id: "307BBCE6E338273B"
 			rewards: [
 				{
-					id: "C7E24AC0C156AF23"
+					id: "47E24AC0C156AF23"
 					type: "xp"
 					xp: 80
 				}
 			]
 			tasks: [
 				{
-					id: "BF167D6A71DF2757"
+					id: "3F167D6A71DF2757"
 					item: { count: 1, id: "minecolonies:blockhutuniversity" }
 					type: "item"
 				}
@@ -440,7 +440,7 @@
 		}
 		{
 			dependencies: ["272D595C8A6C5B4C"]
-			id: "DF756CC64F7473BF"
+			id: "5F756CC64F7473BF"
 			rewards: [
 				{
 					id: "6D87E0D3C94CB5EE"
@@ -450,7 +450,7 @@
 			]
 			tasks: [
 				{
-					id: "A8B928ECE8B0AEAB"
+					id: "28B928ECE8B0AEAB"
 					item: { count: 1, id: "minecolonies:blockhuthospital" }
 					type: "item"
 				}
@@ -459,8 +459,8 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["AB676C6E27D0DDA2"]
-			id: "DE77FAA5F69EDCBD"
+			dependencies: ["2B676C6E27D0DDA2"]
+			id: "5E77FAA5F69EDCBD"
 			rewards: [
 				{
 					id: "58C9220726BE2512"
@@ -470,7 +470,7 @@
 			]
 			tasks: [
 				{
-					id: "8F62BD660B3399BC"
+					id: "0F62BD660B3399BC"
 					item: { count: 1, id: "minecolonies:build_goggles" }
 					type: "item"
 				}

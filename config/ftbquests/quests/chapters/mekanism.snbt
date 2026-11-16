@@ -1,0 +1,633 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanism"
+	group: "2EAA9718BAF5A32A"
+	icon: {
+		id: "mekanism:metallurgic_infuser"
+	}
+	id: "10138904D2605D92"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1AA1223E5333EA03"
+			rewards: [
+				{
+					id: "49B37BC8E89F2DEB"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "5F373987D28AE533"
+					item: { count: 1, id: "mekanism:raw_osmium" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["1AA1223E5333EA03"]
+			id: "6C4F838C1079AFFB"
+			rewards: [
+				{
+					id: "6677636A2C5A374E"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "0AA0BB22632EDE01"
+					item: { count: 1, id: "mekanism:metallurgic_infuser" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6C4F838C1079AFFB"]
+			id: "682143834F309275"
+			rewards: [
+				{
+					id: "11D77AA1719F61D8"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "1EADDA9E74BFB928"
+					item: { count: 1, id: "mekanism:ingot_steel" }
+					type: "item"
+				}
+			]
+			x: 4.125d
+			y: 0.75d
+		}
+		{
+			dependencies: ["6C4F838C1079AFFB"]
+			id: "42A695A19BD76174"
+			rewards: [
+				{
+					id: "1738870E7BAA2F37"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "0B0A2CFAFD4D7A4D"
+					item: { count: 1, id: "mekanism:basic_control_circuit" }
+					type: "item"
+				}
+			]
+			x: 4.125d
+			y: 2.25d
+		}
+		{
+			dependencies: ["682143834F309275"]
+			id: "6E4713E15FE7F816"
+			rewards: [
+				{
+					id: "77FA15EE11EA9AA5"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "0721EADD1A337908"
+					item: { count: 1, id: "mekanism:steel_casing" }
+					type: "item"
+				}
+			]
+			x: 7.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1AA1223E5333EA03"]
+			id: "1F1F4ABB800C30BA"
+			rewards: [
+				{
+					id: "0CDB660BC46B4F58"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "019C3B28157914B4"
+					item: { count: 1, id: "mekanismgenerators:heat_generator" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1F1F4ABB800C30BA"]
+			id: "20306B10C2AEC952"
+			rewards: [
+				{
+					id: "1126EA70CB33CBA3"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "5A5E75935EA9A30D"
+					item: { count: 1, id: "mekanismgenerators:solar_generator" }
+					type: "item"
+				}
+			]
+			x: 4.125d
+			y: 3.75d
+		}
+		{
+			dependencies: ["1F1F4ABB800C30BA"]
+			id: "0416DBEF41E814E7"
+			rewards: [
+				{
+					id: "5FFA139AF184E1EF"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "039B9F534D9FE80D"
+					item: { count: 1, id: "mekanismgenerators:wind_generator" }
+					type: "item"
+				}
+			]
+			x: 4.125d
+			y: 5.25d
+		}
+		{
+			dependencies: ["1F1F4ABB800C30BA"]
+			id: "64F102DA9C452E34"
+			rewards: [
+				{
+					id: "1FDF65F13BDB0D77"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "3E8C85561145EAA5"
+					item: { count: 1, id: "mekanism:basic_universal_cable" }
+					type: "item"
+				}
+			]
+			x: 4.125d
+			y: 6.75d
+		}
+		{
+			dependencies: [
+				"64F102DA9C452E34"
+				"42A695A19BD76174"
+			]
+			id: "0F011EE8B29279EC"
+			rewards: [
+				{
+					id: "2C2E4855D8B35EE5"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "2298D80A83E7E621"
+					item: { count: 1, id: "mekanism:basic_energy_cube" }
+					type: "item"
+				}
+			]
+			x: 7.25d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"6E4713E15FE7F816"
+				"42A695A19BD76174"
+			]
+			id: "7EFA5FC12A0C877F"
+			rewards: [
+				{
+					id: "7ECF4B77039ACC6A"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "2920307C26738D62"
+					item: { count: 1, id: "mekanism:enrichment_chamber" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7EFA5FC12A0C877F"]
+			id: "077C48CC2333F037"
+			rewards: [
+				{
+					id: "1DDCAA93CBA97D1F"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "540BB3071B002F3C"
+					item: { count: 1, id: "mekanism:energized_smelter" }
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7EFA5FC12A0C877F"]
+			id: "3D39D58490ECDCDF"
+			rewards: [
+				{
+					id: "19C21DF3EB9AB5F9"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "6A862957BB45296F"
+					item: { count: 1, id: "mekanism:crusher" }
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7EFA5FC12A0C877F"]
+			id: "6140318807E907C5"
+			rewards: [
+				{
+					id: "21FEECDF046DEC54"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					id: "142C3293BCD0E9AF"
+					item: { count: 1, id: "mekanism:purification_chamber" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "43EF09614E6E62F3"
+					item: { count: 1, id: "mekanism:advanced_control_circuit" }
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6140318807E907C5"]
+			id: "13C22BC2B5928A44"
+			rewards: [
+				{
+					id: "7D9D8C51ADB0575F"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "04EF2454BB1DB05F"
+					item: { count: 1, id: "mekanism:electrolytic_separator" }
+					type: "item"
+				}
+			]
+			x: 14.25d
+			y: 3.75d
+		}
+		{
+			dependencies: ["6140318807E907C5"]
+			id: "19DF9F56491C83F0"
+			rewards: [
+				{
+					id: "2FC8CFCBF1B89E63"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "009D6E92F21F61FF"
+					item: { count: 1, id: "mekanism:chemical_injection_chamber" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4684F0C5E742FB2A"
+					item: { count: 1, id: "mekanism:elite_control_circuit" }
+					type: "item"
+				}
+			]
+			x: 14.25d
+			y: 5.25d
+		}
+		{
+			dependencies: ["19DF9F56491C83F0"]
+			id: "33CEF45BCB79EC5F"
+			rewards: [
+				{
+					id: "0AA147CE50C2B65F"
+					type: "xp"
+					xp: 120
+				}
+			]
+			tasks: [
+				{
+					id: "49322CA78EFE7045"
+					item: { count: 1, id: "mekanism:chemical_dissolution_chamber" }
+					type: "item"
+				}
+				{
+					id: "3471D5B897D6E996"
+					item: { count: 1, id: "mekanism:chemical_washer" }
+					type: "item"
+				}
+				{
+					id: "492847C1920AB7B1"
+					item: { count: 1, id: "mekanism:chemical_crystallizer" }
+					type: "item"
+				}
+			]
+			x: 16.25d
+			y: 5.25d
+		}
+		{
+			dependencies: ["7EFA5FC12A0C877F"]
+			id: "2270C4D43A5F9FF3"
+			rewards: [
+				{
+					id: "2E4793E6115ED2B1"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "45B69D6BBFF40773"
+					item: { count: 1, id: "mekanism:basic_smelting_factory" }
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7EFA5FC12A0C877F"]
+			id: "31A8FB77C4AAFE9B"
+			rewards: [
+				{
+					id: "3B66C2163985E9B8"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "6B277C8ED604EE6E"
+					item: { count: 1, id: "mekanism:upgrade_speed" }
+					type: "item"
+				}
+				{
+					id: "308164C5AC0B4919"
+					item: { count: 1, id: "mekanism:upgrade_energy" }
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6E4713E15FE7F816"]
+			id: "2363AB666B892877"
+			rewards: [
+				{
+					id: "5E2DC73BFABC5BC4"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "271820EFDF8084C5"
+					item: { count: 1, id: "mekanism:configurator" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2363AB666B892877"]
+			id: "47E126AFA6E34334"
+			rewards: [
+				{
+					id: "4EE2DEA402B3859B"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "387F0E6E284F2F2A"
+					item: { count: 1, id: "mekanism:basic_logistical_transporter" }
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["42A695A19BD76174"]
+			id: "3DFF40290DEF19EB"
+			rewards: [
+				{
+					id: "0F8DBE345D593BF4"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "2A85C61E9BBF8C00"
+					item: { count: 1, id: "mekanism:atomic_disassembler" }
+					type: "item"
+				}
+			]
+			x: 7.25d
+			y: 4.5d
+		}
+		{
+			dependencies: ["13C22BC2B5928A44"]
+			id: "226910D90DB810B4"
+			rewards: [
+				{
+					id: "15B191BDC719376F"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					id: "3D84ABF7998ADF7E"
+					item: { count: 1, id: "mekanism:jetpack" }
+					type: "item"
+				}
+			]
+			x: 16.25d
+			y: 3.75d
+		}
+		{
+			dependencies: ["19DF9F56491C83F0"]
+			id: "561E6B7F8FEF77EB"
+			rewards: [
+				{
+					id: "41F02D22A5C68165"
+					type: "xp"
+					xp: 120
+				}
+			]
+			tasks: [
+				{
+					id: "3474942393CC5B61"
+					item: { count: 1, id: "mekanism:digital_miner" }
+					type: "item"
+				}
+			]
+			x: 16.25d
+			y: 6.75d
+		}
+		{
+			dependencies: ["19DF9F56491C83F0"]
+			id: "29D8A152629539DA"
+			rewards: [
+				{
+					id: "148262959DF21789"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "2C108994B846B10E"
+					item: { count: 1, id: "mekanism:teleporter" }
+					type: "item"
+				}
+			]
+			x: 16.25d
+			y: 8.25d
+		}
+		{
+			dependencies: ["682143834F309275"]
+			id: "6DFD41C194A0DF40"
+			rewards: [
+				{
+					id: "2C81EDF9BAB403E5"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "32F6E7FA9D2C5F27"
+					item: { count: 1, id: "mekanismtools:steel_paxel" }
+					type: "item"
+				}
+			]
+			x: 7.25d
+			y: 3.0d
+		}
+		{
+			dependencies: ["42A695A19BD76174"]
+			id: "666DAAD1D99676AA"
+			rewards: [
+				{
+					id: "0108C99F634E5485"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "57D181728B6B0DE0"
+					item: { count: 1, id: "mekanismadditions:walkie_talkie" }
+					type: "item"
+				}
+			]
+			x: 7.25d
+			y: 6.0d
+		}
+		{
+			dependencies: ["666DAAD1D99676AA"]
+			id: "59244C08FE6AAB33"
+			rewards: [
+				{
+					id: "5F19E06517520971"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "53427B1EDAF6DB74"
+					item: { count: 1, id: "mekanismadditions:obsidian_tnt" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["561E6B7F8FEF77EB"]
+			id: "6394AD2269AF2E36"
+			rewards: [
+				{
+					id: "4B3DB2AE567FA896"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [
+				{
+					id: "6D2ECBF42AA091F3"
+					item: { count: 1, id: "mekanism:mekasuit_bodyarmor" }
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 6.75d
+		}
+	]
+}

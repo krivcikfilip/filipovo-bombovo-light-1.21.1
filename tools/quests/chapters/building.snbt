@@ -2,11 +2,11 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "building"
-	group: "C29879DE8D393374"
+	group: "429879DE8D393374"
 	icon: {
 		id: "mcwroofs:oak_roof"
 	}
-	id: "BF317967CDFC610F"
+	id: "3F317967CDFC610F"
 	order_index: 16
 	quest_links: [ ]
 	quests: [
@@ -14,17 +14,17 @@
 			icon: {
 				id: "minecraft:bricks"
 			}
-			id: "D07C57FB4FC23E2B"
+			id: "507C57FB4FC23E2B"
 			rewards: [
 				{
-					id: "F7E082339EEA2F82"
+					id: "77E082339EEA2F82"
 					type: "xp"
 					xp: 10
 				}
 			]
 			tasks: [
 				{
-					id: "F4D24099F6EA4EF0"
+					id: "74D24099F6EA4EF0"
 					stat: "minecraft:play_time"
 					type: "stat"
 					value: 1
@@ -34,11 +34,11 @@
 			y: 6.75d
 		}
 		{
-			dependencies: ["D07C57FB4FC23E2B"]
-			id: "FF44078A5ECCB447"
+			dependencies: ["507C57FB4FC23E2B"]
+			id: "7F44078A5ECCB447"
 			rewards: [
 				{
-					id: "F0B134D0578F65FB"
+					id: "70B134D0578F65FB"
 					type: "xp"
 					xp: 20
 				}
@@ -64,18 +64,18 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["D07C57FB4FC23E2B"]
-			id: "A5BA58C7E5732811"
+			dependencies: ["507C57FB4FC23E2B"]
+			id: "25BA58C7E5732811"
 			rewards: [
 				{
-					id: "CB3CDDA1F02A8B82"
+					id: "4B3CDDA1F02A8B82"
 					type: "xp"
 					xp: 15
 				}
 			]
 			tasks: [
 				{
-					id: "EE1B4CBE2F54D752"
+					id: "6E1B4CBE2F54D752"
 					item: { count: 1, id: "rechiseled:chisel" }
 					type: "item"
 				}
@@ -84,7 +84,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["D07C57FB4FC23E2B"]
+			dependencies: ["507C57FB4FC23E2B"]
 			id: "7C84CDEA0D79A2B8"
 			rewards: [
 				{
@@ -104,11 +104,11 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["D07C57FB4FC23E2B"]
+			dependencies: ["507C57FB4FC23E2B"]
 			id: "2134C2200F0418B5"
 			rewards: [
 				{
-					id: "CD79AFE17BE4BAD6"
+					id: "4D79AFE17BE4BAD6"
 					type: "xp"
 					xp: 20
 				}
@@ -124,18 +124,18 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["D07C57FB4FC23E2B"]
-			id: "D0425844F94F6E18"
+			dependencies: ["507C57FB4FC23E2B"]
+			id: "50425844F94F6E18"
 			rewards: [
 				{
-					id: "F90F1BB23EFCD111"
+					id: "790F1BB23EFCD111"
 					type: "xp"
 					xp: 20
 				}
 			]
 			tasks: [
 				{
-					id: "DFEFE7BEE5B87EB4"
+					id: "5FEFE7BEE5B87EB4"
 					item: { count: 1, id: "refurbished_furniture:workbench" }
 					type: "item"
 				}
@@ -144,18 +144,18 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["D07C57FB4FC23E2B"]
-			id: "B094DA8711BD1EF4"
+			dependencies: ["507C57FB4FC23E2B"]
+			id: "3094DA8711BD1EF4"
 			rewards: [
 				{
-					id: "D20422C87C3ACA60"
+					id: "520422C87C3ACA60"
 					type: "xp"
 					xp: 20
 				}
 			]
 			tasks: [
 				{
-					id: "9748EE2DF6356CBE"
+					id: "1748EE2DF6356CBE"
 					item: { count: 1, id: "domum_ornamentum:architectscutter" }
 					type: "item"
 				}
@@ -164,8 +164,8 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["D07C57FB4FC23E2B"]
-			id: "B39C0897F750F0DA"
+			dependencies: ["507C57FB4FC23E2B"]
+			id: "339C0897F750F0DA"
 			rewards: [
 				{
 					id: "7FB1CCDEA92BD4EE"
@@ -176,7 +176,7 @@
 			tasks: [
 				{
 					count: 8L
-					id: "B331F837B9BC1BB2"
+					id: "3331F837B9BC1BB2"
 					item: { count: 1, id: "supplementaries:rope" }
 					type: "item"
 				}
@@ -186,7 +186,7 @@
 					type: "item"
 				}
 				{
-					id: "DDD38F6ABD65B9BA"
+					id: "5DD38F6ABD65B9BA"
 					item: { count: 1, id: "supplementaries:jar" }
 					type: "item"
 				}
@@ -195,8 +195,8 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["D07C57FB4FC23E2B"]
-			id: "8CD0E9F38624059C"
+			dependencies: ["507C57FB4FC23E2B"]
+			id: "0CD0E9F38624059C"
 			rewards: [
 				{
 					id: "796EBEA473D56CCC"
@@ -216,11 +216,11 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["D07C57FB4FC23E2B"]
+			dependencies: ["507C57FB4FC23E2B"]
 			id: "3BD86699630ED67D"
 			rewards: [
 				{
-					id: "B37DD7750323A79A"
+					id: "337DD7750323A79A"
 					type: "xp"
 					xp: 25
 				}
@@ -236,7 +236,7 @@
 			y: 12.0d
 		}
 		{
-			dependencies: ["D07C57FB4FC23E2B"]
+			dependencies: ["507C57FB4FC23E2B"]
 			id: "75030E0A40D2A068"
 			rewards: [
 				{

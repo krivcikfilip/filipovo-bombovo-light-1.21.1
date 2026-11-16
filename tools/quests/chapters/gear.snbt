@@ -14,14 +14,14 @@
 			id: "28147E35103238FC"
 			rewards: [
 				{
-					id: "9CAB65BF71D7067A"
+					id: "1CAB65BF71D7067A"
 					type: "xp"
 					xp: 20
 				}
 			]
 			tasks: [
 				{
-					id: "A8663AE1BC7D5FE4"
+					id: "28663AE1BC7D5FE4"
 					item: { count: 1, id: "spartanshieldsunofficial:iron_basic_shield" }
 					type: "item"
 				}
@@ -34,14 +34,14 @@
 			id: "7B400666C2BE7F7A"
 			rewards: [
 				{
-					id: "8AB4EC89BA2F268D"
+					id: "0AB4EC89BA2F268D"
 					type: "xp"
 					xp: 25
 				}
 			]
 			tasks: [
 				{
-					id: "CAA268AFD77086A7"
+					id: "4AA268AFD77086A7"
 					item: { count: 1, id: "spartanshieldsunofficial:iron_tower_shield" }
 					type: "item"
 				}
@@ -51,17 +51,17 @@
 		}
 		{
 			dependencies: ["7B400666C2BE7F7A"]
-			id: "F88327B17F0A09FF"
+			id: "788327B17F0A09FF"
 			rewards: [
 				{
-					id: "BB0ADFD1090FF24B"
+					id: "3B0ADFD1090FF24B"
 					type: "xp"
 					xp: 40
 				}
 			]
 			tasks: [
 				{
-					id: "AC617209BD2E08D7"
+					id: "2C617209BD2E08D7"
 					item: { count: 1, id: "spartanshieldsunofficial:diamond_tower_shield" }
 					type: "item"
 				}
@@ -70,10 +70,10 @@
 			y: 0.0d
 		}
 		{
-			id: "823AF47BB34DE51D"
+			id: "023AF47BB34DE51D"
 			rewards: [
 				{
-					id: "E67EB6DDC7954241"
+					id: "667EB6DDC7954241"
 					type: "xp"
 					xp: 40
 				}
@@ -89,18 +89,18 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["823AF47BB34DE51D"]
-			id: "E7CF1D6C34601F93"
+			dependencies: ["023AF47BB34DE51D"]
+			id: "67CF1D6C34601F93"
 			rewards: [
 				{
-					id: "C81FFD7B5F4976EF"
+					id: "481FFD7B5F4976EF"
 					type: "xp"
 					xp: 60
 				}
 			]
 			tasks: [
 				{
-					id: "CF2053507CB7C306"
+					id: "4F2053507CB7C306"
 					item: { count: 1, id: "advancednetherite:netherite_iron_ingot" }
 					type: "item"
 				}
@@ -109,11 +109,11 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["E7CF1D6C34601F93"]
-			id: "D4D390AF6F950D40"
+			dependencies: ["67CF1D6C34601F93"]
+			id: "54D390AF6F950D40"
 			rewards: [
 				{
-					id: "8868B8BB23D2F575"
+					id: "0868B8BB23D2F575"
 					type: "xp"
 					xp: 80
 				}
@@ -129,7 +129,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["D4D390AF6F950D40"]
+			dependencies: ["54D390AF6F950D40"]
 			id: "1ADF4E050B7F36F4"
 			rewards: [
 				{
@@ -140,7 +140,7 @@
 			]
 			tasks: [
 				{
-					id: "868E8E35C6A75AC8"
+					id: "068E8E35C6A75AC8"
 					item: { count: 1, id: "advancednetherite:netherite_emerald_ingot" }
 					type: "item"
 				}
@@ -150,7 +150,7 @@
 		}
 		{
 			dependencies: ["1ADF4E050B7F36F4"]
-			id: "B70357136636F139"
+			id: "370357136636F139"
 			rewards: [
 				{
 					id: "4489795C7D0FC935"
@@ -160,7 +160,7 @@
 			]
 			tasks: [
 				{
-					id: "E1676AD048CDA194"
+					id: "61676AD048CDA194"
 					item: { count: 1, id: "advancednetherite:netherite_diamond_ingot" }
 					type: "item"
 				}
@@ -169,7 +169,7 @@
 			y: 1.5d
 		}
 		{
-			id: "DACFF749530A9E0E"
+			id: "5ACFF749530A9E0E"
 			rewards: [
 				{
 					id: "3D2CF221C9A600DD"
@@ -179,7 +179,7 @@
 			]
 			tasks: [
 				{
-					id: "8D5148590070A9C1"
+					id: "0D5148590070A9C1"
 					item: { count: 1, id: "just_in_nether:cruorite" }
 					type: "item"
 				}
@@ -188,11 +188,11 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["DACFF749530A9E0E"]
-			id: "F37EE8DE14563959"
+			dependencies: ["5ACFF749530A9E0E"]
+			id: "737EE8DE14563959"
 			rewards: [
 				{
-					id: "DD35A67DFF173FC1"
+					id: "5D35A67DFF173FC1"
 					type: "xp"
 					xp: 50
 				}
@@ -208,17 +208,17 @@
 			y: 3.0d
 		}
 		{
-			id: "BCEE744AA57E29F5"
+			id: "3CEE744AA57E29F5"
 			rewards: [
 				{
-					id: "C4C18F06E8CE8555"
+					id: "44C18F06E8CE8555"
 					type: "xp"
 					xp: 40
 				}
 			]
 			tasks: [
 				{
-					id: "9A41C4F5AE191F5E"
+					id: "1A41C4F5AE191F5E"
 					item: { count: 1, id: "netherexotics:kiwano_chestplate" }
 					type: "item"
 				}
@@ -227,17 +227,17 @@
 			y: 4.5d
 		}
 		{
-			id: "C9B18C523BD3A2C0"
+			id: "49B18C523BD3A2C0"
 			rewards: [
 				{
-					id: "DBAC6BE6B127751A"
+					id: "5BAC6BE6B127751A"
 					type: "xp"
 					xp: 30
 				}
 			]
 			tasks: [
 				{
-					id: "E18C716EC5250630"
+					id: "618C716EC5250630"
 					item: { count: 1, id: "create_sa:brass_chestplate" }
 					type: "item"
 				}

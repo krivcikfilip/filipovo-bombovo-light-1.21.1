@@ -1,0 +1,1094 @@
+{
+	chapter.048819506C41A408.chapter_subtitle: ["Found a town that builds itself"]
+	chapter.048819506C41A408.title: "MineColonies"
+	chapter.0747A8AC02EDC1BC.chapter_subtitle: ["Farmer's Delight addons"]
+	chapter.0747A8AC02EDC1BC.title: "More Delights"
+	chapter.0C1846FAB1F67B50.chapter_subtitle: ["Rockets and other planets"]
+	chapter.0C1846FAB1F67B50.title: "Ad Astra"
+	chapter.0E77E388D0A9F0D1.chapter_subtitle: ["Chests, drawers and digital storage"]
+	chapter.0E77E388D0A9F0D1.title: "Storage"
+	chapter.10138904D2605D92.chapter_subtitle: ["Ore processing, machines and power suits"]
+	chapter.10138904D2605D92.title: "Mekanism"
+	chapter.14747A1BF6564DF9.chapter_subtitle: ["Build ships that really fly"]
+	chapter.14747A1BF6564DF9.title: "Create Aeronautics"
+	chapter.213CD2B6F880FAFF.chapter_subtitle: ["Alex's Mobs, Naturalist and friends"]
+	chapter.213CD2B6F880FAFF.title: "Creatures"
+	chapter.22342087C3E31DF2.chapter_subtitle: ["Gears, belts and contraptions"]
+	chapter.22342087C3E31DF2.title: "Create: The Basics"
+	chapter.26491C9EA53E3D09.chapter_subtitle: ["Farm \\& Charm, Vinery, Bakery, Brewery, Meadow..."]
+	chapter.26491C9EA53E3D09.title: "[Let's Do] Collection"
+	chapter.2BE3562A22DFA19F.chapter_subtitle: ["Electricity, cannons, oil and more"]
+	chapter.2BE3562A22DFA19F.title: "Create: Addons"
+	chapter.2F776931D0304949.chapter_subtitle: ["The heaven dimension"]
+	chapter.2F776931D0304949.title: "The Aether"
+	chapter.2F990D9D4C6EA8F1.chapter_subtitle: ["Six rare underground biomes"]
+	chapter.2F990D9D4C6EA8F1.title: "Alex's Caves"
+	chapter.30D7688A69F58ABB.chapter_subtitle: ["Immersive Aircraft and Small Ships"]
+	chapter.30D7688A69F58ABB.title: "Planes \\& Ships"
+	chapter.3237BCEF48FA56FF.chapter_subtitle: ["Hundreds of crops and trees"]
+	chapter.3237BCEF48FA56FF.title: "Pam's HarvestCraft"
+	chapter.375AE59F12D2E91D.chapter_subtitle: ["A world of bosses"]
+	chapter.375AE59F12D2E91D.title: "The Twilight Forest"
+	chapter.3F317967CDFC610F.chapter_subtitle: ["Make it beautiful"]
+	chapter.3F317967CDFC610F.title: "Building \\& Decoration"
+	chapter.40C19C24A6777050.chapter_subtitle: ["Create trains and Steam 'n' Rails"]
+	chapter.40C19C24A6777050.title: "Trains"
+	chapter.459194B83D1E22FC.chapter_subtitle: ["Weapons, armour and shields"]
+	chapter.459194B83D1E22FC.title: "Gear \\& Combat"
+	chapter.47D27CD163EA5FE4.chapter_subtitle: ["Aquaculture, Fish of Thieves and more"]
+	chapter.47D27CD163EA5FE4.title: "Fishing"
+	chapter.52426F5F19A93D19.chapter_subtitle: ["Small improvements you might miss"]
+	chapter.52426F5F19A93D19.title: "Quark"
+	chapter.5EF3E51DFF088748.chapter_subtitle: ["Creatures, bosses and butterflies"]
+	chapter.5EF3E51DFF088748.title: "Luminous"
+	chapter.602A10CDAD1A40BF.chapter_subtitle: ["Real cooking"]
+	chapter.602A10CDAD1A40BF.title: "Farmer's Delight"
+	chapter.72B8266E2135E925.chapter_subtitle: ["Bring dinosaurs back to life"]
+	chapter.72B8266E2135E925.title: "Fossils \\& Archeology"
+	chapter.78D286BD28862E44.chapter_subtitle: ["Hot, dark and far away"]
+	chapter.78D286BD28862E44.title: "The Nether \\& The End"
+	chapter.793E32936A23A83E.chapter_subtitle: ["Read this first - the pack in five minutes"]
+	chapter.793E32936A23A83E.title: "Welcome to Filipovo Bombovo 2"
+	chapter.7E14D4EE6821AA6F.chapter_subtitle: ["Automate your food"]
+	chapter.7E14D4EE6821AA6F.title: "Create Kitchen"
+	chapter.7F3312C40747F84E.chapter_subtitle: ["Structures, dungeons and loot"]
+	chapter.7F3312C40747F84E.title: "Exploring the Overworld"
+	chapter_group.27F7BE0CA4D022F8.title: "Food \\& Farming"
+	chapter_group.2EAA9718BAF5A32A.title: "Technology"
+	chapter_group.429879DE8D393374.title: "Colonies \\& Building"
+	chapter_group.520042A0F9159BC8.title: "Getting Started"
+	chapter_group.76581968F62E459A.title: "Exploration \\& Dimensions"
+	file.0000000000000001.title: "Filipovo Bombovo 2"
+	quest.00EB9BE4780EAA4D.quest_desc: ["Pneumatic tubes that shoot players through them. Fast travel around your base."]
+	quest.00EB9BE4780EAA4D.title: "Hypertubes"
+	quest.02132D7A3FE5C4FD.quest_desc: ["Desh is found on the Moon. It's needed for the Tier 2 rocket and better machines."]
+	quest.02132D7A3FE5C4FD.title: "Desh"
+	quest.023AF47BB34DE51D.quest_desc: ["Netherite is not the end. &bAdvanced Netherite&r upgrades it further in four tiers."]
+	quest.023AF47BB34DE51D.title: "Netherite"
+	quest.0267E6B81389853E.quest_desc: [
+		"A giant boss from &bAlex's Mobs&r that lives in the void below the End islands."
+		"It tears portals in the air and dives through them. Fight it on a big platform and bring ranged weapons."
+	]
+	quest.0267E6B81389853E.title: "Void Worm"
+	quest.02BF723CE4303798.quest_desc: ["Defeat the Slider in the bronze dungeon."]
+	quest.02BF723CE4303798.title: "Bronze dungeon"
+	quest.02E51EF413620CED.quest_desc: ["Unusual End adds new biomes and creatures to the outer End islands."]
+	quest.02E51EF413620CED.title: "Unusual End"
+	quest.02F0724FBC56D9AE.quest_desc: [
+		"The &bLuminous&r mods add new creatures, big boss-like beasts and structures in the Overworld and the Nether."
+		"The bestiary describes the beasts you meet."
+	]
+	quest.02F0724FBC56D9AE.title: "Ultimate Bestiary"
+	quest.03A51D5C27EF7E8C.quest_desc: ["Bosses must be beaten in order - areas are locked by curses until you do. A magic map shows the bosses' locations."]
+	quest.03A51D5C27EF7E8C.title: "Into the twilight"
+	quest.0416DBEF41E814E7.quest_desc: ["Works better the higher you place it."]
+	quest.0416DBEF41E814E7.title: "Wind power"
+	quest.041DC559B39F9318.quest_desc: ["Zinc ore generates in the overworld, often in large veins."]
+	quest.041DC559B39F9318.title: "Zinc"
+	quest.0463B34D316CC6C6.quest_desc: ["Used to make smithing augments - upgrades that add special effects to your gear."]
+	quest.0463B34D316CC6C6.title: "Legendary scrap"
+	quest.04B7C8F9C5669640.quest_desc: [
+		"&bCreate: Central Kitchen&r lets Create machines make Farmer's Delight food: the mixer cooks, the deployer cuts, the spout fills."
+		"&bCreate Food&r, &bConfectionery&r, &bCafe&r and &bWinery&r add hundreds of recipes made only with Create machines."
+	]
+	quest.04B7C8F9C5669640.title: "Food meets machines"
+	quest.04D28ABAB66EA4C1.quest_desc: ["Scan for oil chunks, then pump crude oil out with a pumpjack."]
+	quest.04D28ABAB66EA4C1.title: "Find oil"
+	quest.0541B5302D997256.quest_desc: ["A small, cheap, human-powered rail vehicle - perfect for quick trips along the line."]
+	quest.0541B5302D997256.title: "Handcar"
+	quest.0549973DEA4119FD.quest_desc: ["Throw eyes of ender to find it. YUNG's stronghold is a real maze."]
+	quest.0549973DEA4119FD.title: "Stronghold"
+	quest.05BEB2E003546064.quest_desc: ["Overcharges metals using electricity."]
+	quest.05BEB2E003546064.title: "Energiser"
+	quest.06A9229F989167A6.quest_desc: ["&bCreate Power Loader&r keeps chunks loaded while it is powered by rotation."]
+	quest.06A9229F989167A6.title: "Contraption chunk loading"
+	quest.06F5669E0FB186D7.quest_desc: ["It believes in you."]
+	quest.06F5669E0FB186D7.title: "Tiny Potato"
+	quest.0720C76EBA6006F1.quest_desc: ["Explore the Abyssal Chasm safely. The submarine has lights and protects you from the pressure."]
+	quest.0720C76EBA6006F1.title: "Submarine"
+	quest.07225C11BC70DCB4.quest_desc: ["Sushi is a quick, tasty snack made from your catch."]
+	quest.07225C11BC70DCB4.title: "Sushi"
+	quest.077C48CC2333F037.quest_desc: ["An electric furnace. Fast, needs no fuel and can be sped up with upgrades."]
+	quest.077C48CC2333F037.title: "Energized Smelter"
+	quest.079EB31754CF6EEE.quest_desc: ["Moa eggs come in several colours. Incubate one and ride your own giant bird."]
+	quest.079EB31754CF6EEE.title: "Moa egg"
+	quest.07AE2E38F5D24BAE.quest_desc: ["Place an item on it and right-click with a knife (or axe / pickaxe for other recipes)."]
+	quest.07AE2E38F5D24BAE.title: "Cutting Board"
+	quest.07B497A2C6975754.quest_desc: [
+		"&bAlex's Caves&r biomes are rare and deep. Cave tablets from cave structures point you to one."
+		"Combine a tablet with a map in a cartography table to make a cave map."
+	]
+	quest.07B497A2C6975754.title: "Cave Tablet"
+	quest.07EB4C85AB05F9E7.quest_desc: ["Relic scraps come from analysing fossils. Collect them for decorative ancient items."]
+	quest.07EB4C85AB05F9E7.title: "Relic scrap"
+	quest.0834CBF4ADB3BB94.quest_desc: ["A pan you can cook in directly on a stove or campfire - and also a decent weapon."]
+	quest.0834CBF4ADB3BB94.title: "Skillet"
+	quest.08872A8CC4E76912.quest_desc: ["&bCreate Diesel Generators&r - engines that burn fuel for strong, compact rotation."]
+	quest.08872A8CC4E76912.title: "Diesel power"
+	quest.08CF0C24381BE472.quest_desc: ["Human-powered helicopter - pedal by pressing forward!"]
+	quest.08CF0C24381BE472.title: "Gyrodyne"
+	quest.09B7476C05882565.quest_desc: [
+		"&bSophisticated Backpacks&r - wear it on your back or carry it, and open it anywhere."
+		"Upgrades make it great: &epickup&r (auto-collects items), &emagnet&r, &efeeding&r (eats for you), &erefill&r and many more."
+		"Backpacks can be upgraded to iron, gold, diamond and netherite for more slots."
+	]
+	quest.09B7476C05882565.title: "More pockets"
+	quest.09CF090107880D7A.quest_desc: ["A huge alligator lurking in swamp water. Don't fight it while swimming."]
+	quest.09CF090107880D7A.title: "Vile Gator"
+	quest.09F9F20A7E95E771.quest_desc: ["A living furnace full of fire. Fire resistance is a must."]
+	quest.09F9F20A7E95E771.title: "The Furnace"
+	quest.09FC33824A470023.quest_desc: ["Right-click two shafts with a belt to connect them. Belts move items and also carry rotation."]
+	quest.09FC33824A470023.title: "Conveyor Belts"
+	quest.0A0A4B1BA3463AA0.quest_desc: ["A thorium reactor that heats boilers. Read the ponder carefully - it can melt down."]
+	quest.0A0A4B1BA3463AA0.title: "Nuclear!"
+	quest.0A2AB0FB7111C443.quest_desc: ["Big cannons need a projectile and powder charges behind it. More charges means more range."]
+	quest.0A2AB0FB7111C443.title: "Ammunition"
+	quest.0AF4D762993A34E5.quest_desc: ["Create trains run on their own tracks. &bSteam 'n' Rails&r adds tracks in every wood type, wide and narrow gauge, monorail and even invisible phantom tracks."]
+	quest.0AF4D762993A34E5.title: "Lay the tracks"
+	quest.0B350F67A1EF82EF.quest_desc: ["Automates Farmer's Delight cutting board recipes. The sprinkler waters crops."]
+	quest.0B350F67A1EF82EF.title: "Slice \\& Dice"
+	quest.0B470F01E40566A0.quest_desc: ["Pizzas, cakes, donuts, ice cream... JEI lists all of them under Create Food."]
+	quest.0B470F01E40566A0.title: "Create Food"
+	quest.0B791AA9C750974C.quest_desc: ["Analyzes bio fossils, relics and frozen meat into &eDNA&r. Needs fuel."]
+	quest.0B791AA9C750974C.title: "Analyzer"
+	quest.0B7C5FD61AD7DAA6.quest_desc: [
+		"Chests in dungeons are &bLootr&r chests - every player gets their own loot, so nobody steals it from the others."
+		"&bCarry On&r lets you pick up chests (with their contents) and animals with empty hands while sneaking."
+	]
+	quest.0B7C5FD61AD7DAA6.title: "Playing together"
+	quest.0BDF92643A52CF5E.quest_desc: ["Catch a small slime. It gets excited when you are in a slime chunk."]
+	quest.0BDF92643A52CF5E.title: "Slime in a bucket"
+	quest.0BEF30D1EB408631.quest_desc: ["A multiblock battery for Forge Energy. Store power from your alternators and use it when you need it."]
+	quest.0BEF30D1EB408631.title: "Store energy"
+	quest.0C9E4FA661E99592.quest_desc: ["Lets you breathe and walk on the bottom of the Abyssal Chasm. It works without a submarine."]
+	quest.0C9E4FA661E99592.title: "Diving suit"
+	quest.0CD0E9F38624059C.quest_desc: ["Industrial decoration: lamps, catwalks, bars and metal sheets. Industrial iron is its main material."]
+	quest.0CD0E9F38624059C.title: "Create Deco"
+	quest.0CFD5A588BD8DA42.quest_desc: ["Aether rings, pendants and gloves go in the accessory slots (inventory button)."]
+	quest.0CFD5A588BD8DA42.title: "Accessories"
+	quest.0D35853BB456C50C.quest_desc: ["Command and ride your dinosaurs."]
+	quest.0D35853BB456C50C.title: "Whip"
+	quest.0E13FAA3AE690562.quest_desc: ["&bCreate Big Cannons&r - build cannons from barrels, chambers and a breech on a mount."]
+	quest.0E13FAA3AE690562.title: "Big Cannons"
+	quest.0E81085B01C431D0.quest_desc: ["Upgrades go into the aircraft's inventory: better propellers, engines, boilers and landing gear."]
+	quest.0E81085B01C431D0.title: "Upgrades"
+	quest.0EC5A2BE4F669CA2.quest_desc: [
+		"&bAd Astra&r takes you to the Moon, Mars, Venus, Mercury and Glacio."
+		"Start with steel - smelt iron in the Etrionic Blast Furnace (or use steel from other mods via tags)."
+	]
+	quest.0EC5A2BE4F669CA2.title: "Steel"
+	quest.0ED17982949F025D.quest_desc: ["A fiery bird and one of the toughest Luminous beasts."]
+	quest.0ED17982949F025D.title: "Phoenix"
+	quest.0F011EE8B29279EC.quest_desc: ["A battery for your base. Cubes can be upgraded to higher tiers later without losing the stored energy."]
+	quest.0F011EE8B29279EC.title: "Energy Cube"
+	quest.0F1C32B812A6A232.quest_desc: ["Bread, cakes, tarts and jams."]
+	quest.0F1C32B812A6A232.title: "Bakery"
+	quest.0F31C8552DD5E2FC.quest_desc: ["Large diesel engines produce much more stress than the small ones."]
+	quest.0F31C8552DD5E2FC.title: "Bigger engines"
+	quest.103D2A9D5072E683.quest_desc: ["A spooky headless knight. One of the tougher Luminous beasts."]
+	quest.103D2A9D5072E683.title: "Horseless Headsman"
+	quest.106214D113B10ACB.quest_desc: ["Crocodiles live in swamps and rivers. Their scutes make strong armour."]
+	quest.106214D113B10ACB.title: "Crocodile scute"
+	quest.10EB7CF79B8049BF.quest_desc: ["&bNether Exotics&r grows strange fruit trees in the Nether. Their juices give useful effects."]
+	quest.10EB7CF79B8049BF.title: "Nether fruit"
+	quest.10FBA5D8E433987F.quest_desc: ["&bNullscape&r and &bUnusual End&r change the outer islands completely, &bYUNG's Better End Island&r improves the dragon fight."]
+	quest.10FBA5D8E433987F.title: "The End"
+	quest.112F5B3F213A69D5.quest_desc: ["Wash crushed ores or gravel with a fan through water for extra nuggets."]
+	quest.112F5B3F213A69D5.title: "Wash some gravel"
+	quest.115B43D6B4C08A36.quest_desc: ["The charger turns certus quartz into charged quartz, which you need for fluix crystals - the core AE2 material."]
+	quest.115B43D6B4C08A36.title: "Charger \\& Fluix"
+	quest.11AF66399ED0C45B.quest_desc: ["Teach the autocrafter recipes with patterns and let the system craft for you."]
+	quest.11AF66399ED0C45B.title: "RS Autocrafting"
+	quest.11B86A6D7D25FD23.quest_desc: ["Aquaculture Delight connects fishing with Farmer's Delight cooking. Fish and chips is a classic."]
+	quest.11B86A6D7D25FD23.title: "Aquaculture Delight"
+	quest.1237EF8B25F399B0.quest_desc: ["&bIron Chests&r: bigger chests in copper, iron, gold, diamond, crystal and obsidian. Upgrade items convert chests in place."]
+	quest.1237EF8B25F399B0.title: "A better chest"
+	quest.1279320F05578C4E.quest_desc: ["Copycat blocks take the look of any block you click into them. &bCopycats+&r adds many more shapes."]
+	quest.1279320F05578C4E.title: "Copycats"
+	quest.12FF04C83E462717.quest_desc: [
+		"&bVinery&r: grapes grow wild in many biomes (red and white, with biome variants). Plant the seeds next to a grapevine stem."
+		"The apple press turns grapes and apples into juice."
+	]
+	quest.12FF04C83E462717.title: "Vinery"
+	quest.1304B5921B40BC01.quest_desc: ["No air in space! Fill the suit with oxygen in an oxygen loader."]
+	quest.1304B5921B40BC01.title: "Space suit"
+	quest.1378DD3144B79FFB.quest_desc: ["Access your ME network from anywhere within range of the access point."]
+	quest.1378DD3144B79FFB.title: "Wireless terminal"
+	quest.13C22BC2B5928A44.quest_desc: ["Splits water into hydrogen and oxygen. Both are needed for fuels and the higher ore processing tiers."]
+	quest.13C22BC2B5928A44.title: "Electrolytic Separator"
+	quest.1494BD5722A7C284.quest_desc: ["The ruler of the mushlins - mushroom creatures of the Nether forests."]
+	quest.1494BD5722A7C284.title: "Mushlin King"
+	quest.15FE4F13185BE886.quest_desc: ["Couriers carry items between huts and the warehouse."]
+	quest.15FE4F13185BE886.title: "Courier"
+	quest.1612DECA357B9384.quest_desc: [
+		"These addons extend Farmer's Delight with new crops, drinks and dishes."
+		"Remember &bSpice of Life&r - every new food you eat gives you more max health!"
+	]
+	quest.1612DECA357B9384.title: "Even more food"
+	quest.175163EF3C19610D.quest_desc: ["Bananas drop from jungle leaves. Gorillas love them."]
+	quest.175163EF3C19610D.title: "Bananas!"
+	quest.17F8A6E5CE08C8F9.quest_desc: ["Children learn here and grow up with better skills."]
+	quest.17F8A6E5CE08C8F9.title: "School"
+	quest.1824D157B51A373E.quest_desc: ["Grow grapes, press them and let the juice ferment in a fermentation barrel."]
+	quest.1824D157B51A373E.title: "Your first wine"
+	quest.184A1714E7677BFB.quest_desc: ["Chests and barrels that take the same upgrades as backpacks (sorting, compacting, void...)."]
+	quest.184A1714E7677BFB.title: "Sophisticated Storage"
+	quest.1895A796885301F6.quest_desc: ["Place it above an oil deposit to pump crude oil, then refine it into fuel."]
+	quest.1895A796885301F6.title: "Pumpjack"
+	quest.18E22BCDB12A379F.quest_desc: ["Feed the ram all 16 colours of wool."]
+	quest.18E22BCDB12A379F.title: "Questing Ram"
+	quest.18E46CDD1738ED1D.quest_desc: ["Brewin' and Chewin' adds cheese, pizza and fermented drinks made in the keg."]
+	quest.18E46CDD1738ED1D.title: "Pizza party"
+	quest.18FFBBAA6C5B544A.quest_desc: ["Barracks house guards in towers around it. A big step up in defence against raids."]
+	quest.18FFBBAA6C5B544A.title: "Barracks"
+	quest.192E963AA4039C95.quest_desc: ["Sift sand and gravel for fossils, amber and pottery."]
+	quest.192E963AA4039C95.title: "Sifter"
+	quest.1932A1E98A5367D7.quest_desc: ["A cheap, healthy meal from fresh vegetables. Good for early saturation."]
+	quest.1932A1E98A5367D7.title: "Mixed Salad"
+	quest.197A35FB09EDEE74.quest_desc: ["The base of the &bLet's Do&r mods: new crops (barley, oat, corn, lettuce, strawberry) and a cozy kitchen."]
+	quest.197A35FB09EDEE74.title: "Farm \\& Charm"
+	quest.19936261DDBD3E53.quest_desc: ["Fight it underground or far from your base!"]
+	quest.19936261DDBD3E53.title: "The Wither"
+	quest.19DF9F56491C83F0.quest_desc: ["Tier 3: ore + hydrogen chloride into 4 shards."]
+	quest.19DF9F56491C83F0.title: "4x ore: Chemical Injection"
+	quest.1A08153DA1E42C9B.quest_desc: ["A frozen planet in another solar system."]
+	quest.1A08153DA1E42C9B.title: "Glacio"
+	quest.1A1B9479A0E6A955.quest_desc: ["A beast of the desert."]
+	quest.1A1B9479A0E6A955.title: "Mummy"
+	quest.1A6C8FD8A0D3C1E1.quest_desc: ["Uses the presses from meteorites to make processors."]
+	quest.1A6C8FD8A0D3C1E1.title: "Inscriber"
+	quest.1A760F58BAC41BD4.quest_desc: ["Ore through crushing wheels gives &ecrushed ore&r plus bonus outputs - more ingots per ore."]
+	quest.1A760F58BAC41BD4.title: "Crushing Wheels"
+	quest.1A7BA8E9D9FF9F38.quest_desc: ["A lost world with real dinosaurs! Bring friends."]
+	quest.1A7BA8E9D9FF9F38.title: "Primordial Caves"
+	quest.1AA1223E5333EA03.quest_desc: ["Mekanism starts with &eosmium&r ore, found deep underground. Smelt it into ingots."]
+	quest.1AA1223E5333EA03.title: "Osmium"
+	quest.1ADF4E050B7F36F4.quest_desc: ["Another Advanced Netherite tier with a different bonus. Pick the one that suits your play style."]
+	quest.1ADF4E050B7F36F4.title: "Emerald-infused netherite"
+	quest.1B09069D85D56ADE.quest_desc: ["A disk drive with storage disks and a grid to browse them - the heart of a Refined Storage system."]
+	quest.1B09069D85D56ADE.title: "Disks \\& Grid"
+	quest.1B0C81A88186DBA9.quest_desc: [
+		"The giant volcanic dinosaur of the Primordial Caves. It sleeps in a volcano and wakes up angry."
+		"Fire resistance helps a lot. It drops tectonic shards, used for strong items."
+	]
+	quest.1B0C81A88186DBA9.title: "Luxtructosaurus"
+	quest.1B5F5A5EEF3D8840.quest_desc: ["Shows what materials the builder still needs for his current job."]
+	quest.1B5F5A5EEF3D8840.title: "Resource Scroll"
+	quest.1B79F1EED8E99AA2.quest_desc: ["Blocks for building real-looking locomotives: boilers, smokeboxes, vents. Paint them with the paint brush."]
+	quest.1B79F1EED8E99AA2.title: "Locometal"
+	quest.1C48601519B5B200.quest_desc: ["A filling pie that combines meat and vegetables."]
+	quest.1C48601519B5B200.title: "Pot pie"
+	quest.1C6FF91D4AC58B74.quest_desc: [
+		"A steam engine on top of a fluid tank with water and blaze burners below it gives a lot of stress capacity."
+		"Bigger boilers and more burners give more power."
+	]
+	quest.1C6FF91D4AC58B74.title: "Steam Engine"
+	quest.1D57C8E7CA0E63C1.quest_desc: ["A minecart with a crafting table. There is also a jukebox cart."]
+	quest.1D57C8E7CA0E63C1.title: "Benchcart"
+	quest.1D7A5D198B0058FC.quest_desc: ["Put it in front of a villager and it trades automatically."]
+	quest.1D7A5D198B0058FC.title: "Trading Floor"
+	quest.1DAD7B6372D9A028.quest_desc: ["A potato cannon mounted on your ship. Load it with ammo and defend yourself in the air."]
+	quest.1DAD7B6372D9A028.title: "Armed airship"
+	quest.1DF14DEAF5C79808.quest_desc: [
+		"&bCreate Aeronautics&r turns Create contraptions into real physical objects that fly, float and drive."
+		"You should know the Create basics first (shafts, bearings, glue)."
+		"The server allows flight, so don't worry about being kicked while riding a ship."
+	]
+	quest.1DF14DEAF5C79808.quest_subtitle: "Create Aeronautics + Simulated"
+	quest.1DF14DEAF5C79808.title: "Physics!"
+	quest.1E7CFD8C2165F2B1.quest_desc: ["The three processors are made in an Inscriber and are needed for almost every AE2 device."]
+	quest.1E7CFD8C2165F2B1.title: "Processors"
+	quest.1E91A4D045624FE0.quest_desc: ["Alpine life: cheese making, buffalo and water buffalo, wooden cauldrons."]
+	quest.1E91A4D045624FE0.title: "Meadow"
+	quest.1ECA32B112D22771.quest_desc: ["&bAlex's Mobs&r adds about 90 animals. The dictionary explains each one, including what it drops and how to tame it."]
+	quest.1ECA32B112D22771.title: "Animal Dictionary"
+	quest.1F1F4ABB800C30BA.quest_desc: ["Burns fuel or sits next to lava for power. Solar and wind generators are free power later."]
+	quest.1F1F4ABB800C30BA.title: "Power: Heat Generator"
+	quest.200C1A8BE1D1081B.quest_desc: [
+		"Placing the town hall founds your colony. Pick a style (Stylecolonies and others add many)."
+		"The colony claims land around it. Friends can be added as officers in the town hall GUI."
+	]
+	quest.200C1A8BE1D1081B.title: "Town Hall"
+	quest.20306B10C2AEC952.quest_desc: ["Free power during the day. Put a few on the roof to keep simple machines running."]
+	quest.20306B10C2AEC952.title: "Solar power"
+	quest.2031402DF8DA5288.quest_desc: ["Encode patterns, put them in a pattern provider next to a molecular assembler and build a crafting CPU."]
+	quest.2031402DF8DA5288.title: "Autocrafting"
+	quest.20E6D71E52C6ECE0.quest_desc: ["Fine dining: plated meals, furniture and decorations for a restaurant."]
+	quest.20E6D71E52C6ECE0.title: "Candlelight"
+	quest.2134C2200F0418B5.quest_desc: ["Furniture in every wood type that you can sit on. The hammer changes shapes and colours."]
+	quest.2134C2200F0418B5.title: "Handcrafted"
+	quest.21F0992BCF690C6B.quest_desc: ["A vehicle for driving around other planets. Much faster than walking on the Moon."]
+	quest.21F0992BCF690C6B.title: "Rover"
+	quest.226910D90DB810B4.quest_desc: ["Fill it with hydrogen. It has normal and hover modes."]
+	quest.226910D90DB810B4.title: "Jetpack"
+	quest.2270C4D43A5F9FF3.quest_desc: ["Factories process several items at once. Upgrade machines into factories with tier installers."]
+	quest.2270C4D43A5F9FF3.title: "Factories"
+	quest.2271FC4269645CC3.quest_desc: ["Slow and steady. Put fuel (coal, wood) in its inventory."]
+	quest.2271FC4269645CC3.title: "Airship"
+	quest.22D2094C2218685E.quest_desc: ["&bCreate Crafts \\& Additions&r brings electricity (FE). The rolling mill makes rods and wires."]
+	quest.22D2094C2218685E.title: "Copper wire"
+	quest.22E4E0531E537739.quest_desc: ["&bAero Islands&r adds floating islands in the sky. Fly up and explore them for aerolite and selenite."]
+	quest.22E4E0531E537739.title: "Sky islands"
+	quest.2359A21812B76933.quest_desc: ["Soups, stews and meals. Put the ingredients in, keep it heated and wait. Meals need a bowl."]
+	quest.2359A21812B76933.title: "Cooking Pot"
+	quest.2363AB666B892877.quest_desc: ["Sets which side of a machine inputs and outputs. It has several modes."]
+	quest.2363AB666B892877.title: "Configurator"
+	quest.241C32F9DFF5B7FE.quest_desc: ["The Nether is overhauled by &bIncendium&r, &bNether Exotics&r, &bJaden's Nether Expansion&r and &bJust-In Nether&r. New biomes, mobs and structures."]
+	quest.241C32F9DFF5B7FE.title: "Welcome to hell"
+	quest.243C9CD339138611.quest_desc: ["Tea gives small useful effects. Different leaves make different teas."]
+	quest.243C9CD339138611.title: "A cup of tea"
+	quest.246226A6919CF5ED.quest_desc: ["Apply andesite alloy to stripped logs to make casings - they are the base of many machines."]
+	quest.246226A6919CF5ED.title: "Casings"
+	quest.247DCD80771AE99F.quest_desc: ["Land on Mars. Look for ostrum ore - you'll need it for the next rocket."]
+	quest.247DCD80771AE99F.title: "Mars"
+	quest.24C9A0CB3EB5832B.quest_desc: ["Tracks every butterfly species you have found. Try to fill it completely."]
+	quest.24C9A0CB3EB5832B.title: "Butterfly Encyclopedia"
+	quest.258C41DC54629FC2.quest_desc: ["A small flying drone you can control remotely - scout the area or reach places that are hard to get to."]
+	quest.258C41DC54629FC2.title: "Drone"
+	quest.25BA58C7E5732811.quest_desc: ["Put blocks in the chisel to pick a different pattern. Many variants connect into larger textures."]
+	quest.25BA58C7E5732811.title: "Rechiseled"
+	quest.25C749FBB31AD3CD.quest_desc: ["Electron tubes are used in smart blocks like observers, deployers and the mechanical arm."]
+	quest.25C749FBB31AD3CD.title: "Electron Tube"
+	quest.272D595C8A6C5B4C.quest_desc: ["Citizens need beds. Each residence level adds more room."]
+	quest.272D595C8A6C5B4C.title: "Homes"
+	quest.27A43D68759F5362.quest_desc: ["&bAquaculture 2&r: new rods, hooks, bait and dozens of fish depending on biome."]
+	quest.27A43D68759F5362.title: "Better rods"
+	quest.27DDECAD836CD91D.quest_desc: ["Build a brewing station multiblock and brew beer and whiskey."]
+	quest.27DDECAD836CD91D.title: "Brewery"
+	quest.28147E35103238FC.quest_desc: [
+		"&bSpartan Shields&r adds shields from many materials. Basic shields are light, tower shields block more but slow you down."
+		"Most metals in the pack work - iron is just the first milestone."
+	]
+	quest.28147E35103238FC.title: "A real shield"
+	quest.281652550AB417EB.quest_desc: ["A free and endless source of rotation. The more sails you attach, the more stress capacity you get."]
+	quest.281652550AB417EB.title: "Windmill"
+	quest.2833C0B4A3AC7833.quest_desc: ["Rich soil makes mushrooms grow into colonies and boosts crops."]
+	quest.2833C0B4A3AC7833.title: "Rich Soil"
+	quest.28B0FE898EF00ADE.quest_desc: ["The electric motor does the opposite - FE into rotation."]
+	quest.28B0FE898EF00ADE.title: "Power to rotation"
+	quest.292AE2FBE9208159.quest_desc: ["A dangerous brute - bring good armour."]
+	quest.292AE2FBE9208159.title: "Executioner"
+	quest.296D7A7FF5E8C659.quest_desc: ["Candlelight adds fancy dinners. Serve them on a plate for the full effect."]
+	quest.296D7A7FF5E8C659.title: "Lasagne"
+	quest.29D8A152629539DA.quest_desc: ["A portal frame plus a teleporter block. Set a frequency and travel between your bases, even across dimensions."]
+	quest.29D8A152629539DA.title: "Teleporter"
+	quest.2A8C437262AA3434.quest_desc: ["The Valkyrie Queen waits at the top. Collect victory medals from valkyries first."]
+	quest.2A8C437262AA3434.title: "Silver dungeon"
+	quest.2AAD58D70F5DBEB8.quest_desc: ["A blast furnace that turns iron into steel - your first step towards space."]
+	quest.2AAD58D70F5DBEB8.title: "Etrionic Blast Furnace"
+	quest.2AC35C9341CB4233.quest_desc: ["&bUpgrade Aquatic&r adds new ocean life, corals, jellyfish and driftwood washed up on beaches."]
+	quest.2AC35C9341CB4233.title: "Upgrade Aquatic"
+	quest.2AEBE01A3EDB2B09.quest_desc: ["Automates Farmer's Delight cutting board recipes. Power it with rotation and put a knife in it."]
+	quest.2AEBE01A3EDB2B09.title: "Slice \\& Dice"
+	quest.2B03B4A0BBF02287.quest_desc: ["The feeding upgrade eats food from the backpack when you get hungry. Very handy with &bSpice of Life&r."]
+	quest.2B03B4A0BBF02287.title: "Never starve again"
+	quest.2B130A00EEB13DBE.quest_desc: ["&bDeep Aether&r adds new biomes, mobs and a boss to the Aether. Skyjade is its first new material."]
+	quest.2B130A00EEB13DBE.title: "Deep Aether"
+	quest.2B1A08CB82494159.quest_desc: ["The analyzer turns fossils into random &eDNA&r. Bio goo feeds the embryo in the culture vat."]
+	quest.2B1A08CB82494159.title: "Bio Goo"
+	quest.2B20D90E96A04453.quest_desc: ["The fisherman needs to be near water and gives your colony a steady supply of fish."]
+	quest.2B20D90E96A04453.title: "Fisherman"
+	quest.2B63BDD79EEBA111.quest_desc: ["Controller + drive + cells + terminal = all your items in one searchable screen. Connect with fluix cables."]
+	quest.2B63BDD79EEBA111.title: "ME Network"
+	quest.2B676C6E27D0DDA2.quest_desc: [
+		"Your first and most important worker. The builder builds and upgrades everything."
+		"He asks for materials in his hut GUI - give them to him or put them in the warehouse."
+		"The &eclipboard&r shows everything your citizens are waiting for."
+	]
+	quest.2B676C6E27D0DDA2.title: "Builder's Hut"
+	quest.2BA4DA1562241157.quest_desc: ["In the Dark Tower."]
+	quest.2BA4DA1562241157.title: "Ur-Ghast"
+	quest.2BF0C9C9375B44EE.quest_desc: ["Fruits Delight adds fruit trees and juices. Look for fruit bushes and trees in warm biomes."]
+	quest.2BF0C9C9375B44EE.title: "Fruits Delight"
+	quest.2C56F980713D3F51.quest_desc: ["Create Confectionery adds sweets like marshmallows and caramel made with Create machines."]
+	quest.2C56F980713D3F51.title: "Confectionery"
+	quest.2CBF7FF3B2F783CD.quest_desc: ["Chests linked by a 3-colour code. Same colours = same inventory, even across dimensions. Share a code with friends!"]
+	quest.2CBF7FF3B2F783CD.title: "Ender Storage"
+	quest.2CC9432A1DACBAA8.quest_desc: ["In the fire swamp."]
+	quest.2CC9432A1DACBAA8.title: "Hydra"
+	quest.2CF92FE6E201E0A2.quest_desc: ["Copy an area and paste it somewhere else, using items from your inventory. Ideal for repeating builds."]
+	quest.2CF92FE6E201E0A2.title: "Copy \\& Paste"
+	quest.2D525CB474749D76.quest_desc: ["Gives a redstone signal when a train passes - open gates, ring bells, light lamps."]
+	quest.2D525CB474749D76.title: "Track observer"
+	quest.2D7763842E9D89D0.quest_desc: ["Show off your best catches in a glass tank."]
+	quest.2D7763842E9D89D0.title: "Fish tank"
+	quest.2DBEAD3058872A11.quest_desc: ["&bBells \\& Whistles&r adds train details: headlights, grab rails, steps, pilots and metro panels."]
+	quest.2DBEAD3058872A11.title: "Bells \\& Whistles"
+	quest.2DDA09607F9DF746.quest_desc: ["Build a frame from &eglowstone&r (like a Nether portal) and light it with a &ewater bucket&r."]
+	quest.2DDA09607F9DF746.title: "A portal to the sky"
+	quest.2E82E1E9C5E6B5A0.quest_desc: ["Otters, ferrets, red pandas, koi, dragonflies and more."]
+	quest.2E82E1E9C5E6B5A0.title: "Critters and Companions"
+	quest.2EB9E28995E4A151.quest_desc: ["&bFish of Thieves&r adds the fish from Sea of Thieves. Each species has several colour variants that depend on the biome, time and weather."]
+	quest.2EB9E28995E4A151.title: "Fish of Thieves"
+	quest.2FFF72D75547DA55.quest_desc: ["Milk in a cask slowly turns into cheese."]
+	quest.2FFF72D75547DA55.title: "Cheese!"
+	quest.3002526E88C933DB.quest_desc: ["The giant snake in the courtyard."]
+	quest.3002526E88C933DB.title: "Naga"
+	quest.300293F855AB765B.quest_desc: ["&bOffroad&r adds wheels and tires - build cars, trucks and rovers."]
+	quest.300293F855AB765B.title: "Ground vehicles"
+	quest.307BBCE6E338273B.quest_desc: ["Research unlocks new buildings, better workers and colony bonuses."]
+	quest.307BBCE6E338273B.title: "University"
+	quest.3094DA8711BD1EF4.quest_desc: ["Domum Ornamentum combines two blocks into one textured block - used by many MineColonies styles."]
+	quest.3094DA8711BD1EF4.title: "Architect's Cutter"
+	quest.312549E37E66FDF5.quest_desc: [
+		"The heart of early Create. Mix andesite with iron nuggets (or zinc nuggets) in a crafting table."
+		"Almost every Create item has a &eponder&r scene - an animated tutorial shown from its tooltip."
+	]
+	quest.312549E37E66FDF5.title: "Andesite Alloy"
+	quest.315F7E3269F1CDF3.quest_desc: ["Gravitite ore floats up when mined. Enchant it at the altar."]
+	quest.315F7E3269F1CDF3.title: "Gravitite"
+	quest.31A8FB77C4AAFE9B.quest_desc: ["Speed upgrades make machines faster, energy upgrades lower their power use. Put them in the machine's upgrade slot."]
+	quest.31A8FB77C4AAFE9B.title: "Speed \\& Energy upgrades"
+	quest.32D7711CE16D2166.quest_desc: ["A huge mutated mosquito and one of the bosses of &bAlex's Mobs&r. It hits hard and drains your health."]
+	quest.32D7711CE16D2166.title: "Warped Mosco"
+	quest.3334E1BF315C1F0D.quest_desc: ["Cook with Twilight Forest ingredients. The maze stove is its themed cooking block."]
+	quest.3334E1BF315C1F0D.title: "Twilight's Flavor \\& Delight"
+	quest.339C0897F750F0DA.quest_desc: ["Lots of small useful blocks: ropes, sacks, jars, globes, signposts, pedestals..."]
+	quest.339C0897F750F0DA.title: "Supplementaries"
+	quest.33CEF45BCB79EC5F.quest_desc: ["Tier 4: the full chain gives 5 ingots per ore. JEI shows every step."]
+	quest.33CEF45BCB79EC5F.title: "5x ore: Dissolution"
+	quest.33FC7CF39965C41D.quest_desc: ["One of the big Luminous beasts. Defeat it and keep its trophy."]
+	quest.33FC7CF39965C41D.title: "Tree Ent"
+	quest.34C580629BB07E51.quest_desc: ["Blazes live in Nether fortresses - with YUNG's Better Nether Fortresses they are much bigger and full of loot."]
+	quest.34C580629BB07E51.title: "Blaze rods"
+	quest.34DBBB9B7C4D7D98.quest_desc: [
+		"&bTectonic&r and &bTerralith&r make huge mountains and new biomes. Structures from &bYUNG's&r, &bTowns and Towers&r, &bMoog's&r, &bRepurposed Structures&r, &bExplorify&r and &bIDAS&r are everywhere."
+		"Chests are &bLootr&r chests - each player gets their own loot."
+	]
+	quest.34DBBB9B7C4D7D98.title: "A bigger world"
+	quest.34FB2E5CBA0F0BB9.quest_desc: ["Top of the Aurora Palace."]
+	quest.34FB2E5CBA0F0BB9.title: "Snow Queen"
+	quest.351131BFC29EA916.quest_desc: ["Places a temporary block in mid-air, so you can start building where there is nothing to build on. Fill a bottle high up in the clouds."]
+	quest.351131BFC29EA916.title: "Bottled cloud"
+	quest.35318D85DBDBF88B.quest_desc: ["Rotate blocks with right-click, pick them up with shift + right-click."]
+	quest.35318D85DBDBF88B.title: "The Wrench"
+	quest.358EE95E5EF85F32.quest_desc: ["Catch a blaze with an empty blaze burner. Feed it fuel to heat basins. Blaze cakes make it superheated."]
+	quest.358EE95E5EF85F32.title: "Blaze Burner"
+	quest.35C85C4E476C056F.quest_desc: ["Fillet any fish with a fillet knife. &bAquaculture&r fish depend on the biome, &bFish of Thieves&r adds Sea of Thieves fish with variants by time and weather."]
+	quest.35C85C4E476C056F.title: "Fish fillets"
+	quest.35E7FB9BFAB4A8C0.quest_desc: ["A mixer above a basin makes alloys, doughs and shapeless recipes in bulk."]
+	quest.35E7FB9BFAB4A8C0.title: "Mixer \\& Basin"
+	quest.3646048B16BCED73.quest_desc: ["At the bottom of the labyrinth."]
+	quest.3646048B16BCED73.title: "Minoshroom"
+	quest.364C776C66B0B097.quest_desc: ["Link two teleporters and travel between them instantly. Handy for bases that are far apart."]
+	quest.364C776C66B0B097.title: "Quantum teleporters"
+	quest.364D5A55055E6CC0.quest_desc: ["Presses ingots into plates. Rockets and space machines are made mostly from plates."]
+	quest.364D5A55055E6CC0.title: "Compressor"
+	quest.367BAA9CAEEA5812.quest_desc: ["&bCreate Enchantment Industry&r turns XP into a fluid you can pump and store."]
+	quest.367BAA9CAEEA5812.title: "Liquid experience"
+	quest.370357136636F139.quest_desc: ["The best netherite tier."]
+	quest.370357136636F139.title: "Diamond-infused netherite"
+	quest.371AE69B18B23F12.quest_desc: ["Place the station on a track. Trains are assembled at a station: put a bogey on the track, glue blocks onto it and add controls."]
+	quest.371AE69B18B23F12.title: "Train station"
+	quest.3722988AC8CF4FD4.quest_desc: ["Measures the distance between two blocks."]
+	quest.3722988AC8CF4FD4.title: "Abacus"
+	quest.37BE1970E7DE09C2.quest_desc: ["A full meal: bun, beef patty, cabbage, tomato and onion. Very filling."]
+	quest.37BE1970E7DE09C2.title: "Hamburger"
+	quest.37F54E989E00FA25.quest_desc: ["A skeletal hunter that stalks its prey. Keep an eye on what's behind you."]
+	quest.37F54E989E00FA25.title: "Bone Stalker"
+	quest.38AD3C812DC54AF2.quest_desc: ["The Alpha Yeti lives in a cave in the Snowy Forest. Defeat it to clear the blizzard."]
+	quest.38AD3C812DC54AF2.title: "Alpha Yeti"
+	quest.38C754449DA1D832.quest_desc: ["A golden piglin cult leader. Its cultists won't make it easy."]
+	quest.38C754449DA1D832.title: "Gilded Piglin"
+	quest.38DE1467C9121C43.quest_desc: ["Juicer, cheese casks, cinnamon, peanuts, chili peppers and more."]
+	quest.38DE1467C9121C43.title: "Expanded Delight"
+	quest.3940988AD938A2FF.quest_desc: ["Wrap items into gifts and make festive sweets."]
+	quest.3940988AD938A2FF.title: "Create: Wrapped"
+	quest.3976A15C80404CE2.quest_desc: ["Aether tools are made of skyroot and holystone. Normal tools work worse here."]
+	quest.3976A15C80404CE2.title: "Skyroot \\& Holystone"
+	quest.398876E1DCE7F037.quest_desc: ["The backtank stores air for underwater work and powers tools like the extendo grip."]
+	quest.398876E1DCE7F037.title: "Diving gear"
+	quest.39B357B4E049960F.quest_desc: ["Fill it with water through pipes to water crops - faster growth."]
+	quest.39B357B4E049960F.title: "Sprinkler"
+	quest.39B8F8A441598265.quest_desc: ["Steering wheel and throttle let you control your craft from the inside."]
+	quest.39B8F8A441598265.title: "Take the wheel"
+	quest.3A0F97042370EA0C.quest_desc: [
+		"&eRotation&r is Create's power. Shafts carry it in a straight line, cogwheels carry it sideways."
+		"Small cog to large cog changes the speed - faster or slower."
+	]
+	quest.3A0F97042370EA0C.title: "Shafts \\& Cogs"
+	quest.3A4D264B38434C38.quest_desc: ["The Tier 4 rocket can fly to other solar systems, like Glacio."]
+	quest.3A4D264B38434C38.title: "Tier 4 Rocket"
+	quest.3A66462861B4969E.quest_desc: ["Big automated crafting grids. Needed for some large recipes."]
+	quest.3A66462861B4969E.title: "Mechanical Crafter"
+	quest.3AC74DFF7F405AB6.quest_desc: ["The Sun Spirit. Bring fire resistance."]
+	quest.3AC74DFF7F405AB6.title: "Gold dungeon"
+	quest.3AD43811C8DC0EF1.quest_desc: ["A motorised switch that changes the direction of a junction, controlled by redstone or by the train's schedule."]
+	quest.3AD43811C8DC0EF1.title: "Track switch"
+	quest.3B8CEDE612DE5D82.quest_desc: ["One of Pam's best meals - meat and vegetables slow-cooked together."]
+	quest.3B8CEDE612DE5D82.title: "Pot roast"
+	quest.3BD86699630ED67D.quest_desc: ["&bEtched&r lets you burn your own songs onto music discs and play them for everyone on the server."]
+	quest.3BD86699630ED67D.title: "Make your own music"
+	quest.3C6B28CEBE6B307D.quest_desc: ["Desh ore is found on the Moon."]
+	quest.3C6B28CEBE6B307D.title: "The Moon"
+	quest.3CBAB1EE3B70E4BA.quest_desc: ["Guards protect citizens at night and fight off raids. Barracks hold many guards later."]
+	quest.3CBAB1EE3B70E4BA.title: "Guard Tower"
+	quest.3CE14D97441773CB.quest_desc: ["&bAdvanced Netherite&r lets you upgrade netherite further with iron, gold, emerald and diamond."]
+	quest.3CE14D97441773CB.title: "Netherite"
+	quest.3CEE744AA57E29F5.quest_desc: ["&bNether Exotics&r adds armour and tools made from Nether fruit."]
+	quest.3CEE744AA57E29F5.title: "Kiwano armour"
+	quest.3CFD936F658EFFBC.quest_desc: ["The alternator turns rotation into FE energy for Mekanism, AE2 or Refined Storage."]
+	quest.3CFD936F658EFFBC.title: "Rotation to power"
+	quest.3D0ACE59BA4B9DDD.quest_desc: ["Wreckers live around shipwrecks and ocean ruins. Fish near a wreck to find one."]
+	quest.3D0ACE59BA4B9DDD.title: "Wrecker"
+	quest.3D34BA6051ED0CB1.quest_desc: ["Nether Expansion adds new blocks, biomes and mobs to the Nether."]
+	quest.3D34BA6051ED0CB1.title: "Nether Expansion"
+	quest.3D39D58490ECDCDF.quest_desc: ["Crushes ingots into dust and makes sand, gravel and other useful materials."]
+	quest.3D39D58490ECDCDF.title: "Crusher"
+	quest.3D51399C97F3C37F.quest_desc: ["The Tier 2 rocket can reach Mars."]
+	quest.3D51399C97F3C37F.title: "Tier 2 Rocket"
+	quest.3D8A84366753A8E9.quest_desc: ["Nixie displays, flanged cogwheels, chain pulleys, lamps and industrial decoration."]
+	quest.3D8A84366753A8E9.title: "Bits 'n' Bobs"
+	quest.3DE2CC05B558207D.quest_desc: ["The build tool places every hut. Choose the building, its style and level, then confirm."]
+	quest.3DE2CC05B558207D.title: "Build Tool"
+	quest.3DFF40290DEF19EB.quest_desc: ["Pickaxe, axe and shovel in one, powered by energy. Has vein mining modes."]
+	quest.3DFF40290DEF19EB.title: "Atomic Disassembler"
+	quest.3E13CE882E876E3A.quest_desc: ["Harvesters on a moving contraption harvest crops and replant them."]
+	quest.3E13CE882E876E3A.title: "Automatic farming"
+	quest.3E5C6167A3E2DE2D.quest_desc: ["Meals give the &eNourishment&r (no hunger loss while healing) or &eComfort&r effect."]
+	quest.3E5C6167A3E2DE2D.title: "First stew"
+	quest.3EA87B6B8C8EA5F2.quest_desc: ["Rockets are built here from nose cones, plates, fins and engines."]
+	quest.3EA87B6B8C8EA5F2.title: "NASA Workbench"
+	quest.3F452D140A574530.quest_desc: ["Machines that break blocks or cut trees. Put them on a contraption to make them move."]
+	quest.3F452D140A574530.title: "Drill \\& Saw"
+	quest.3F852D0F0D775A1D.quest_desc: ["Avocados grow on trees; cucumbers, eggplants and corn grow wild."]
+	quest.3F852D0F0D775A1D.title: "Cultural Delights"
+	quest.3FD1E196C8480A68.quest_desc: ["Your first power source. Place it in flowing water - more water on the blades means more power."]
+	quest.3FD1E196C8480A68.title: "Water Wheel"
+	quest.3FFB90425DE23E6A.quest_desc: ["A heat source for the cooking pot and skillet. A campfire also works."]
+	quest.3FFB90425DE23E6A.title: "Stove"
+	quest.4016DC04770BC921.quest_desc: ["A propeller you can control and throttle, so steering your ship becomes much easier."]
+	quest.4016DC04770BC921.title: "Smart Propeller"
+	quest.407BED3177E66905.quest_desc: ["Carminite comes from the creatures of the Dark Tower and powers the tower's machines."]
+	quest.407BED3177E66905.title: "Carminite"
+	quest.40B2312141C15A22.quest_desc: ["Places a random block from your hotbar - great for natural-looking walls and paths."]
+	quest.40B2312141C15A22.title: "Trowel"
+	quest.40B73277F0D1A7FC.quest_desc: ["The altar enchants and repairs Aether items, the freezer turns things into ice."]
+	quest.40B73277F0D1A7FC.title: "Altar \\& Freezer"
+	quest.40D228147AE39E3C.quest_desc: ["Breaks items back into ingredients."]
+	quest.40D228147AE39E3C.title: "Uncrafting Table"
+	quest.40ECA47E46E32C70.quest_desc: ["Ferment drinks and age cheese in a keg."]
+	quest.40ECA47E46E32C70.title: "Brewin' and Chewin'"
+	quest.415BA16357CD55B4.quest_desc: ["Wild cabbages, tomatoes and onions grow in the world. Break them for seeds."]
+	quest.415BA16357CD55B4.title: "Wild crops"
+	quest.417A0B58BAD06B21.quest_desc: ["Mixing bowl, oven, mortar and many more kitchen machines."]
+	quest.417A0B58BAD06B21.title: "ExtraDelight"
+	quest.41B89DC3CE373DEA.quest_desc: ["Presses ingots into &esheets&r. Put a depot or belt under it."]
+	quest.41B89DC3CE373DEA.title: "Mechanical Press"
+	quest.422F25920638EE28.quest_desc: ["Powered by redstone, it pushes or pulls metal blocks - a new kind of redstone contraption."]
+	quest.422F25920638EE28.title: "Magnet"
+	quest.42313C7F139CF77B.quest_desc: ["Every Immersive Aircraft plane needs engines and propellers. Craft a few - bigger aircraft need more."]
+	quest.42313C7F139CF77B.title: "Engine \\& propeller"
+	quest.4233AD5385C33849.quest_desc: ["&bCreate Jetpack&r uses the air stored in a backtank. It has a normal and a hover mode."]
+	quest.4233AD5385C33849.title: "Fly with Create"
+	quest.427CC13C184E98DB.quest_desc: ["Troughs feed animals automatically, chicken coops collect eggs."]
+	quest.427CC13C184E98DB.title: "Animal care"
+	quest.42A695A19BD76174.quest_desc: ["The first circuit. Almost every Mekanism machine needs one, so make a stack."]
+	quest.42A695A19BD76174.title: "Basic Control Circuit"
+	quest.42B061EE29CDD872.quest_desc: ["Connects all touching sophisticated storages into one - put items in the controller and they go where they fit."]
+	quest.42B061EE29CDD872.title: "Storage Controller"
+	quest.42F6A305042CC66C.quest_desc: ["Dragons Plus adds handy fluid blocks for Create, like the fluid hatch for moving fluids in and out of contraptions."]
+	quest.42F6A305042CC66C.title: "Dragons Plus"
+	quest.4328CD94686BFEBA.quest_desc: ["Fills items on a belt or depot: water bottles, honey bottles and lots of food recipes."]
+	quest.4328CD94686BFEBA.title: "Spout"
+	quest.43E6A695B18EE4DD.quest_desc: ["&bUnusual Fish Mod&r adds strange sea creatures - some are dangerous, some taste great."]
+	quest.43E6A695B18EE4DD.title: "Unusual fish"
+	quest.43F3BBECFB68ACC4.quest_desc: ["Zanite tools get stronger the more damaged they are."]
+	quest.43F3BBECFB68ACC4.title: "Zanite"
+	quest.44C1BBBCE0E6C548.quest_desc: ["Made from cold aerclouds. Saves you from a long fall."]
+	quest.44C1BBBCE0E6C548.title: "Parachute"
+	quest.454174B9AF268664.quest_desc: ["My Nether's Delight brings food from the Nether. Hoglin loin is dropped by hoglins."]
+	quest.454174B9AF268664.title: "My Nether's Delight"
+	quest.45559542136D7874.quest_desc: ["Broken ancient swords can be restored in the archaeology workbench into a powerful weapon."]
+	quest.45559542136D7874.title: "Ancient sword"
+	quest.45EAB78EF35AB0A5.quest_desc: ["A sea serpent hunting in the oceans. Water breathing gives you a fair chance."]
+	quest.45EAB78EF35AB0A5.title: "Sea Viper"
+	quest.4618B1C536A3F3CF.quest_desc: ["Mix sugar, cocoa and milk into liquid chocolate, then turn it into bars."]
+	quest.4618B1C536A3F3CF.title: "Chocolate"
+	quest.463007E46BAE9555.quest_desc: ["&bCreate Stuff \\& Additions&r: jetpacks, exoskeletons, drones, flamethrowers and metal tools."]
+	quest.463007E46BAE9555.title: "Brass jetpack"
+	quest.46485DCF7D8233E3.quest_desc: ["Scary bats and the darkest place in the game."]
+	quest.46485DCF7D8233E3.title: "Forlorn Hollows"
+	quest.465B3BBDB3340722.quest_desc: ["&bNaturalist&r: deer, bears, snails, butterflies, lions and more. The net catches small animals."]
+	quest.465B3BBDB3340722.title: "Catch a critter"
+	quest.469E408A753994E2.quest_desc: ["A jungle shaman that fights with curses and magic. Bring milk."]
+	quest.469E408A753994E2.title: "Witch Doctor"
+	quest.46DEA49E467B6702.quest_desc: ["Stores hooks, bait and fishing line. Hooks change how the rod behaves."]
+	quest.46DEA49E467B6702.title: "Tackle box"
+	quest.47E126AFA6E34334.quest_desc: ["Moves items between inventories and machines. Colour the transporters to sort items into different routes."]
+	quest.47E126AFA6E34334.title: "Logistical Transporter"
+	quest.47E272DB2DB104B0.quest_desc: ["Moves items between inputs and outputs. Right-click blocks with the arm in hand before placing to set targets."]
+	quest.47E272DB2DB104B0.title: "Mechanical Arm"
+	quest.4802CD65474C31EB.quest_desc: ["Copies written books, enchanted books and name tags."]
+	quest.4802CD65474C31EB.title: "Printer"
+	quest.482DBDD335577C37.quest_desc: ["The mincer makes minced meat for many recipes, the roaster cooks big roast dishes."]
+	quest.482DBDD335577C37.title: "Mincer \\& Roaster"
+	quest.48AFF40DFF70B0F2.quest_desc: ["Ender's Delight adds cooking with End ingredients. The endstone stove is its main cooking block."]
+	quest.48AFF40DFF70B0F2.title: "Ender's Delight"
+	quest.48BBC37B15115268.quest_desc: ["Meadow lets you make cheese from milk in a cheese form. Wheels ripen over time."]
+	quest.48BBC37B15115268.title: "Cheese wheel"
+	quest.49103EBCD927E6CE.quest_desc: ["Mount cannons on your ship and load them with cannonballs to fight other ships or monsters."]
+	quest.49103EBCD927E6CE.title: "Ship cannons"
+	quest.491802A4420DB4B8.quest_desc: ["Create Winery lets you make and age wine using Create machines."]
+	quest.491802A4420DB4B8.title: "Create Winery"
+	quest.49421439F3BC2FC4.quest_desc: ["Proper gear for a pilot. Wear them while building and flying your airships."]
+	quest.49421439F3BC2FC4.title: "Aviator's Goggles"
+	quest.4965FE56BDA54CAC.quest_desc: ["Cook dragon, shulker and chorus food in the End."]
+	quest.4965FE56BDA54CAC.title: "End's Delight"
+	quest.4978B86F57E43FCE.quest_desc: ["Grinds items: gravel to flint, wheat to flour, flowers to dye. Feed it from the top."]
+	quest.4978B86F57E43FCE.title: "Millstone"
+	quest.49B18C523BD3A2C0.quest_desc: ["&bCreate Stuff \\& Additions&r adds copper, zinc and brass tools and armour."]
+	quest.49B18C523BD3A2C0.title: "Brass armour"
+	quest.4B97BC3580748EFF.quest_desc: ["Ambrosium powers the altar, freezer and incubator."]
+	quest.4B97BC3580748EFF.title: "Ambrosium"
+	quest.4BEE7D1D676FAFC2.quest_desc: ["A hearty breakfast that keeps you full for a long time."]
+	quest.4BEE7D1D676FAFC2.title: "Farmer's Breakfast"
+	quest.4CFE4ED9523B94A0.quest_desc: [
+		"The strongest mob in the Overworld. It is blind but hears every step and smells you nearby."
+		"Most players sneak past it. Beating it is a real achievement - bring your best gear."
+	]
+	quest.4CFE4ED9523B94A0.title: "The Warden"
+	quest.4D11985D5BC55021.quest_desc: ["Drops items straight down - a cheap hopper alternative."]
+	quest.4D11985D5BC55021.title: "Chute"
+	quest.4DCF55F11F67BEFF.quest_desc: ["Tea and coffee from a kettle - drinks with nice buffs."]
+	quest.4DCF55F11F67BEFF.title: "Farmer's Respite"
+	quest.4DD50C3B0147A801.quest_desc: ["Wither skeletons live in Nether fortresses. Collect three skulls to summon the Wither."]
+	quest.4DD50C3B0147A801.title: "Wither skull"
+	quest.4E4F50D2CA031B06.quest_desc: ["Dinosaurs eat from a feeder (plants on one side, meat on the other)."]
+	quest.4E4F50D2CA031B06.title: "Feeder"
+	quest.4EF2F282B8BACADA.quest_desc: ["Crafts stone items like stone bricks and slabs for colony buildings."]
+	quest.4EF2F282B8BACADA.title: "Stonemason"
+	quest.4F7F6E7E48610A7F.quest_desc: ["Builds a mineshaft and mines ores for you."]
+	quest.4F7F6E7E48610A7F.title: "Miner"
+	quest.4FC538FD8A71F351.quest_desc: ["Eyes of Ender lead you to the stronghold and activate the End portal. You need twelve."]
+	quest.4FC538FD8A71F351.title: "Eyes of Ender"
+	quest.501D897C36FF7A8E.quest_desc: ["Refine crude oil into diesel and gasoline in a distillation tower."]
+	quest.501D897C36FF7A8E.title: "Distillation"
+	quest.5021195E9AB3352E.quest_desc: ["Deep under the ocean, total darkness. A submarine is the best way to explore it."]
+	quest.5021195E9AB3352E.title: "Abyssal Chasm"
+	quest.502BF10FD13C4EA5.quest_desc: [
+		"The engine assembly is the heart of the portable engine (it comes in all colours)."
+		"A small engine that burns fuel and gives rotation on a moving ship."
+	]
+	quest.502BF10FD13C4EA5.title: "Portable Engine"
+	quest.50425844F94F6E18.quest_desc: ["MrCrayfish's furniture - working fridges, stoves, TVs, mailboxes and more. Everything is crafted in the workbench."]
+	quest.50425844F94F6E18.title: "Furniture: Refurbished"
+	quest.507C57FB4FC23E2B.quest_desc: ["This pack has a huge amount of decoration. Here are the main tools to find it all."]
+	quest.507C57FB4FC23E2B.title: "Builder's paradise"
+	quest.5108FA81183881B5.quest_desc: ["Floating magnetic rocks and robots. Neodymium makes magnets and the galena gauntlet."]
+	quest.5108FA81183881B5.title: "Magnetic Caves"
+	quest.5176C47A9CB5A0E5.quest_desc: [
+		"&bPam's HarvestCraft 2&r crops come from wild gardens and fruit trees in matching biomes."
+		"Its recipes use kitchen tools that stay in the crafting grid."
+	]
+	quest.5176C47A9CB5A0E5.title: "Kitchen tools"
+	quest.518FB39A7930462C.quest_desc: ["Ocean monuments have been rebuilt into huge underwater palaces. Bring water breathing."]
+	quest.518FB39A7930462C.title: "Ocean monument"
+	quest.519DC7EB567A6482.quest_desc: [
+		"A bearing or piston moves a whole structure. Glue blocks together with super glue."
+		"Windmills are a bearing + sails - great free power."
+	]
+	quest.519DC7EB567A6482.title: "Contraptions"
+	quest.51D3672B33165EAB.quest_desc: ["Crafts wooden items like planks, sticks, doors and stairs for the builders."]
+	quest.51D3672B33165EAB.title: "Sawmill"
+	quest.525E98A131F9C8DD.quest_desc: ["Extra kinetic parts: clutches, gearboxes, brakes, a kinetic battery that stores rotation and fan catalysts for new bulk-processing types."]
+	quest.525E98A131F9C8DD.title: "Create: Connected"
+	quest.528B3E77711E941F.quest_desc: ["Top of the Lich Tower. Reflect his fireballs."]
+	quest.528B3E77711E941F.title: "Lich"
+	quest.52DEAB5285BE0490.quest_desc: ["Calorite is found on Venus. It's the material for the strongest rocket."]
+	quest.52DEAB5285BE0490.title: "Calorite"
+	quest.532780D9DB293403.quest_desc: ["Copper + zinc in a heated basin (blaze burner, or a lit fire below) makes brass."]
+	quest.532780D9DB293403.title: "Brass"
+	quest.53D20AC90968C967.quest_desc: ["Ancient debris is found deep in the Nether, around Y 15. Beds and TNT help you find it faster."]
+	quest.53D20AC90968C967.title: "Ancient Debris"
+	quest.54149DF58C0CF8B8.quest_desc: [
+		"Waystones spawn in villages and you can craft your own."
+		"Right-click one to activate it, then teleport between all activated waystones for a bit of XP."
+		"A &ewarp stone&r or &ereturn scroll&r lets you travel without standing at a waystone."
+	]
+	quest.54149DF58C0CF8B8.title: "Waystones"
+	quest.547BDD25E6F2E120.quest_desc: ["A pickaxe you throw like a boomerang. It mines the block it hits and comes back."]
+	quest.547BDD25E6F2E120.title: "Pickarang"
+	quest.548067B1AEEA6446.quest_desc: ["Sensors give redstone signals based on height or speed - autopilot material."]
+	quest.548067B1AEEA6446.title: "Instruments"
+	quest.548EA9BC7C820D63.quest_desc: ["Found in dungeon loot. Combine it at an anvil with a maxed-out enchanted book to go one level above the normal maximum."]
+	quest.548EA9BC7C820D63.title: "Ancient Tome"
+	quest.54AB96FF89E0902E.quest_desc: ["New Nether mobs and materials. Cruorite makes modular weapons - see Gear \\& Combat."]
+	quest.54AB96FF89E0902E.title: "Just-In Nether"
+	quest.54BF44687F30D3C9.quest_desc: ["Another big beast - its trophy proves you beat it."]
+	quest.54BF44687F30D3C9.title: "Hermit King"
+	quest.54D390AF6F950D40.quest_desc: ["One of the Advanced Netherite tiers. Each tier gives your gear its own special bonus - check the tooltip."]
+	quest.54D390AF6F950D40.title: "Gold-infused netherite"
+	quest.54F856051CB82798.quest_desc: ["Everything is made of sweets. Some of it is alive."]
+	quest.54F856051CB82798.title: "Candy Cavity"
+	quest.55625BFA5DD44551.quest_desc: ["Pumps move fluids through pipes. Tanks merge when you place them next to each other."]
+	quest.55625BFA5DD44551.title: "Fluids"
+	quest.55662470D094F96F.quest_desc: ["Desert temples are bigger and more dangerous in this pack - full of traps and puzzles, with good loot."]
+	quest.55662470D094F96F.title: "Desert temple"
+	quest.55A662AB1364AF69.quest_desc: [
+		"DNA + bio goo in the culture vat grows an egg (dinosaurs) or an embryo (mammals, injected into an animal with a syringe). Watch out - sometimes it fails and something nasty comes out."
+		"Place eggs somewhere warm and wait for them to hatch. Babies imprint on the first player they see."
+	]
+	quest.55A662AB1364AF69.title: "Culture Vat"
+	quest.55C53E418A4CE4F3.quest_desc: ["A schedule tells the train where to go and how long to wait. Give it to a mob seated at the controls and the train drives by itself."]
+	quest.55C53E418A4CE4F3.title: "Timetable"
+	quest.55ED5A9B989E3E22.quest_desc: ["Barley and oats are new grains from Farm \\& Charm, used for bread, beer and animal feed."]
+	quest.55ED5A9B989E3E22.title: "Barley \\& Oats"
+	quest.561E6B7F8FEF77EB.quest_desc: ["Mines ores in a large radius without digging tunnels. Set filters for what to mine."]
+	quest.561E6B7F8FEF77EB.title: "Digital Miner"
+	quest.564FF7F92E6DF685.quest_desc: ["Find an End City ship. &bElytra Slot&r lets you wear it together with a chestplate."]
+	quest.564FF7F92E6DF685.title: "Elytra"
+	quest.56CB72AB7F148E92.quest_desc: ["Inside the goblin stronghold."]
+	quest.56CB72AB7F148E92.title: "Knight Phantoms"
+	quest.5758FCAE6CBC0873.quest_desc: ["Train doors open when the train stops at a station, so passengers can get in and out."]
+	quest.5758FCAE6CBC0873.title: "Train doors"
+	quest.57D26374CE323468.quest_desc: ["Shows the way to a specific biome."]
+	quest.57D26374CE323468.title: "Pathfinder's Quill"
+	quest.592419D304B54525.quest_desc: ["A slow but steady airship with a lot of storage. Perfect for moving building materials around."]
+	quest.592419D304B54525.title: "Cargo Airship"
+	quest.59244C08FE6AAB33.quest_desc: ["A much stronger TNT. Use it far away from your base."]
+	quest.59244C08FE6AAB33.title: "Obsidian TNT"
+	quest.59ABC3840F7542C8.quest_desc: [
+		"&bAE2&r - digital storage and autocrafting. Start by finding a &emeteorite&r: it has a mysterious cube with the inscriber presses."
+		"AE2 has a built-in guide book that explains everything in detail."
+	]
+	quest.59ABC3840F7542C8.title: "Applied Energistics 2"
+	quest.5A0A79D67A15456D.quest_desc: ["Catch butterflies and keep them in jars. There are many species to find."]
+	quest.5A0A79D67A15456D.title: "Butterfly net"
+	quest.5A179C358C71DE51.quest_desc: ["Automatic enchanting with liquid experience and enchanting templates."]
+	quest.5A179C358C71DE51.title: "Blaze Enchanter"
+	quest.5A47488E5A05A688.quest_desc: ["Refine oil into rocket fuel. Diesel Generators' crude oil works."]
+	quest.5A47488E5A05A688.title: "Fuel"
+	quest.5ACFF749530A9E0E.quest_desc: ["&bJust-In Nether&r materials make modular weapons: swords, katanas, spears, hammers, bows and more."]
+	quest.5ACFF749530A9E0E.title: "Cruorite"
+	quest.5AD2ACD78CF935A7.quest_desc: ["Build a mechanical wolf that follows you and can be upgraded with modules (radar, crossbow, light...)."]
+	quest.5AD2ACD78CF935A7.title: "Mechanical companion"
+	quest.5B351B1845BC8BA7.quest_desc: ["Place the launch pad, put the rocket on it and fuel it. The Tier 1 rocket can fly to the Moon."]
+	quest.5B351B1845BC8BA7.title: "Tier 1 Rocket"
+	quest.5BDED47FCDF71F3A.quest_desc: [
+		"&bRefined Storage&r is the simpler alternative to AE2 - no channels, everything just connects."
+		"Pick one of the two systems for your base; both work well."
+	]
+	quest.5BDED47FCDF71F3A.title: "Refined Storage"
+	quest.5BFB641C2EC1276D.quest_desc: ["A radioactive laser weapon powered by uranium. Very strong, but use it carefully."]
+	quest.5BFB641C2EC1276D.title: "Raygun"
+	quest.5C7D899028DFA6C1.quest_desc: ["Stores many different items in one block. Handy for mixed materials."]
+	quest.5C7D899028DFA6C1.title: "Crate"
+	quest.5CCACD10386AD84E.quest_desc: ["An in-game guide to the cave biomes. Read it to learn what each biome has to offer."]
+	quest.5CCACD10386AD84E.title: "Cave Book"
+	quest.5CD64687DC1F0763.quest_desc: ["&bCreate Ore Excavation&r: find ore veins deep below and mine them forever with a drilling machine."]
+	quest.5CD64687DC1F0763.title: "Endless ore"
+	quest.5D4A432770504ED0.quest_desc: ["&bStorage Drawers&r hold lots of one item and show it on the front. The compacting drawer also converts nuggets / ingots / blocks automatically."]
+	quest.5D4A432770504ED0.title: "Compacting Drawer"
+	quest.5DF99CD6DF55B725.quest_desc: [
+		"&bQuark&r adds hundreds of small vanilla-style improvements. This chapter shows the useful items."
+		"The seed pouch holds a lot of one kind of seed or crop, so they take only one slot."
+	]
+	quest.5DF99CD6DF55B725.title: "Seed Pouch"
+	quest.5E77FAA5F69EDCBD.quest_desc: ["Show building outlines and the work orders of builders."]
+	quest.5E77FAA5F69EDCBD.title: "Build Goggles"
+	quest.5E88D30D06B5DD0E.quest_desc: ["Connects all nearby drawers into one network. Insert items into the controller and they go to the right drawer."]
+	quest.5E88D30D06B5DD0E.title: "Drawer Controller"
+	quest.5F41818EF64B1854.quest_desc: ["A beast of the cold lands."]
+	quest.5F41818EF64B1854.title: "Yeti"
+	quest.5F71DBB1A5D94585.quest_desc: ["A &esequenced assembly&r: press, deploy and deploy again on a belt. JEI shows the steps."]
+	quest.5F71DBB1A5D94585.title: "Precision Mechanism"
+	quest.5F756CC64F7473BF.quest_desc: ["Sick citizens get treated here. Keep it stocked with the cures they ask for."]
+	quest.5F756CC64F7473BF.title: "Hospital"
+	quest.5F7AE4589415AC7D.quest_desc: ["Place field blocks, assign seeds and the farmer takes care of the crops."]
+	quest.5F7AE4589415AC7D.title: "Farmer"
+	quest.5FC1BE1A7605F82F.quest_desc: ["Rustic Delight adds cotton, bell peppers and coffee, plus many new dishes."]
+	quest.5FC1BE1A7605F82F.title: "Rustic Delight"
+	quest.600C5C3E85823812.quest_desc: ["A lunchbox automatically feeds you the food you haven't eaten recently."]
+	quest.600C5C3E85823812.title: "Packed lunch"
+	quest.60230DA63B6145CE.quest_desc: ["Bastions are full of piglins and gold - and the best loot in the Nether. Wear some gold armour."]
+	quest.60230DA63B6145CE.title: "Bastion"
+	quest.6052A4851C1F7E64.quest_desc: ["Visitors arrive at the tavern. Hire them with items - they often have great skills."]
+	quest.6052A4851C1F7E64.title: "Tavern"
+	quest.608F6AE8B9940F47.quest_desc: ["A tiny, easy-to-fly copter. Great for quick hops and reaching high places."]
+	quest.608F6AE8B9940F47.title: "Quadrocopter"
+	quest.609D3C2E04A14B68.quest_desc: ["&bImmersive Aircraft&r - simple planes you craft as an item and place. Hull, sails and engines are the parts."]
+	quest.609D3C2E04A14B68.title: "Aircraft parts"
+	quest.60EAE74AD522424D.quest_desc: [
+		"&bSpice of Life&r rewards variety: every new food you eat increases your maximum health."
+		"The food book shows what you have already eaten. Lunchboxes let you carry many different meals."
+		"The pack has hundreds of foods - see the Food \\& Farming chapters."
+	]
+	quest.60EAE74AD522424D.title: "Eat a varied diet"
+	quest.6117A72CBB15361C.quest_desc: ["A propeller bearing spins a propeller and pushes your ship. Faster rotation = more thrust."]
+	quest.6117A72CBB15361C.title: "Propellers"
+	quest.6140318807E907C5.quest_desc: ["Tier 2: ore + oxygen into 3 clumps. Make oxygen with an electrolytic separator from water."]
+	quest.6140318807E907C5.title: "3x ore: Purification Chamber"
+	quest.61CEEBDE48044DB9.quest_desc: [
+		"Thanks to &bApothic Spawners&r, a pickaxe with &bSilk Touch&r picks up a spawner."
+		"Place it at home and upgrade it with items - more mobs, faster spawning, no light needed and more."
+	]
+	quest.61CEEBDE48044DB9.title: "Take a spawner home"
+	quest.61D37C5FF56EE84F.quest_desc: ["Helps you navigate your ship over long distances."]
+	quest.61D37C5FF56EE84F.title: "Navigation table"
+	quest.6222D3EA28471A09.quest_desc: ["Put the upgrade into the backpack's upgrade slots. Set a filter so it only collects what you want."]
+	quest.6222D3EA28471A09.title: "Let the backpack do the work"
+	quest.626187BA2A63CB7B.quest_desc: ["Bakery cakes can be placed on a table and eaten slice by slice."]
+	quest.626187BA2A63CB7B.title: "A real cake"
+	quest.627198E9961E854B.quest_desc: ["Tortillas from corn plus meat and vegetables - one of the most filling snacks."]
+	quest.627198E9961E854B.title: "Taco night"
+	quest.62E84420FB5F7325.quest_desc: ["Worms come from breaking dirt and grass. Put bait in the rod's GUI."]
+	quest.62E84420FB5F7325.title: "Bait"
+	quest.62F7B17F7FAC5054.quest_desc: [
+		"Your items stay in a &ecorpse&r where you died - nothing despawns. Walk back and open it."
+		"&e/back&r takes you back to where you died, &e/sethome&r and &e/home&r save your favourite places."
+	]
+	quest.62F7B17F7FAC5054.title: "If you die"
+	quest.630858BC4F2894A2.quest_desc: ["Tame a hamster with food mix. Hamsters sit on your shoulder and can sniff out ores!"]
+	quest.630858BC4F2894A2.title: "Adorable Hamsters"
+	quest.632313DD4D38B62C.quest_desc: ["A rare metal from treasure - makes great tools."]
+	quest.632313DD4D38B62C.title: "Neptunium"
+	quest.635B0D72ABE52140.quest_desc: ["HerbalBrews adds tea and coffee. Boil water in the tea kettle and add leaves."]
+	quest.635B0D72ABE52140.title: "HerbalBrews"
+	quest.6364AB15E1C4A780.quest_desc: ["Feed it to your dog for a big buff."]
+	quest.6364AB15E1C4A780.title: "Dog Food"
+	quest.6394AD2269AF2E36.quest_desc: ["The endgame power armor. Install modules with the module tweaker."]
+	quest.6394AD2269AF2E36.title: "MekaSuit"
+	quest.6426D8E6AD2A2068.quest_desc: ["Corn Delight adds corn and lots of dishes made from it, including popcorn."]
+	quest.6426D8E6AD2A2068.title: "Corn Delight"
+	quest.64698EEED5C07C34.quest_desc: ["Right-click a creature to see its age, hunger and mood."]
+	quest.64698EEED5C07C34.title: "Dinopedia"
+	quest.64F102DA9C452E34.quest_desc: ["Universal cables move energy between generators, cubes and machines. Higher tiers carry more power."]
+	quest.64F102DA9C452E34.title: "Cables"
+	quest.650FE79DEC5FAAFB.quest_desc: ["Places many blocks at once. The exchanging and copy-paste gadgets are amazing for big builds."]
+	quest.650FE79DEC5FAAFB.title: "Building Gadgets"
+	quest.654AF12A1440277B.quest_desc: ["Keep it in your inventory - it saves you from death once and is used up."]
+	quest.654AF12A1440277B.title: "Charm of Life"
+	quest.654F81C691BA4045.quest_desc: ["A big armed aircraft for the end game - lots of armour, weapons and space."]
+	quest.654F81C691BA4045.title: "Warship"
+	quest.65C9DB5800A3BED8.quest_desc: ["Coffee gives you a quick energy boost. Brewed from roasted coffee beans."]
+	quest.65C9DB5800A3BED8.title: "Coffee"
+	quest.6631E7593AB46BA5.quest_desc: ["The forester cuts trees and replants saplings. Mark the area he should work in."]
+	quest.6631E7593AB46BA5.title: "Forester"
+	quest.665194F22DE46F15.quest_desc: ["Knightmetal is made from armor shards dropped by goblin knights. It makes tough armour and weapons."]
+	quest.665194F22DE46F15.title: "Knightmetal"
+	quest.666A0A06E79D4CFF.quest_desc: [
+		"Farms and machines only work while a player is nearby. A chunk loader keeps its area running even when you are away."
+		"Use them sparingly - every loaded chunk costs server performance."
+	]
+	quest.666A0A06E79D4CFF.title: "Keep your machines running"
+	quest.666DAAD1D99676AA.quest_desc: ["&bMekanism Additions&r: walkie-talkies, balloons, coloured plastic blocks and obsidian TNT."]
+	quest.666DAAD1D99676AA.title: "Walkie-talkie"
+	quest.67633A169217F971.quest_desc: ["Juice + time in a fermentation barrel = wine. Each wine gives a different effect."]
+	quest.67633A169217F971.title: "Fermentation"
+	quest.677709DB54F26BCA.quest_desc: ["Flour (millstone) + water in a mixer."]
+	quest.677709DB54F26BCA.title: "Dough"
+	quest.67CF1D6C34601F93.quest_desc: ["Each tier is stronger than the last and adds its own bonus. JEI shows how to upgrade tools and armour."]
+	quest.67CF1D6C34601F93.title: "Iron-infused netherite"
+	quest.682143834F309275.quest_desc: ["Iron + carbon in the infuser gives steel. Lots of Mekanism needs it."]
+	quest.682143834F309275.title: "Steel"
+	quest.685DB26599ECD1D2.quest_desc: ["Ostrum is found on Mars and is used for the Tier 3 rocket."]
+	quest.685DB26599ECD1D2.title: "Ostrum"
+	quest.6A41D4E12AE7321F.quest_desc: ["Feasts are placed as a block and served with bowls - one meal for the whole team."]
+	quest.6A41D4E12AE7321F.title: "A feast"
+	quest.6A7A863777ED7392.quest_desc: ["A multiblock item storage that grows when you place more vaults next to each other. Great for big farms."]
+	quest.6A7A863777ED7392.title: "Item Vault"
+	quest.6AA2742E6DA0E59E.quest_desc: ["Docking connectors join two contraptions together or to the ground."]
+	quest.6AA2742E6DA0E59E.title: "Docking"
+	quest.6B4CCAC6770F1404.quest_desc: ["The controls make the train drivable. Assemble the train in the station screen."]
+	quest.6B4CCAC6770F1404.title: "Train controls"
+	quest.6BCF555370BC9CDE.quest_desc: ["Palm trees, coconuts and cocktails. Find palm beaches."]
+	quest.6BCF555370BC9CDE.title: "Beachparty"
+	quest.6C09E821C47BD8DA.quest_desc: ["&bFarmer's Delight&r is the base of most food mods here. Knives harvest straw from grass and cut food on a cutting board."]
+	quest.6C09E821C47BD8DA.title: "A knife"
+	quest.6C4F838C1079AFFB.quest_desc: [
+		"Infuses metals with carbon, redstone and more. Your first machine."
+		"Mekanism machines need FE power - Create alternators or Mekanism generators."
+	]
+	quest.6C4F838C1079AFFB.title: "Metallurgic Infuser"
+	quest.6C6506A05B72E622.quest_desc: [
+		"This quest book is a &etutorial&r for the mods in this pack."
+		"Every chapter walks you through one mod (or a group of similar mods) from the first step to the cool stuff."
+		""
+		"Item quests complete as soon as the item is in your inventory - nothing gets taken. If you already made something, just open the book and claim it."
+		"Rewards are small on purpose: the pack is already being played, so they are a thank-you, not a shortcut."
+	]
+	quest.6C6506A05B72E622.title: "Welcome!"
+	quest.6CAD7393A0ABE08F.quest_desc: [
+		"&bMineColonies&r: you are the mayor, your citizens do the work."
+		"Start with a &esupply camp&r (on land) or a &esupply ship&r (on water). Right-click to preview, rotate it and confirm."
+		"It gives you a chest with starting supplies, including the town hall."
+	]
+	quest.6CAD7393A0ABE08F.title: "Supply Camp"
+	quest.6CF5C1251809287C.quest_desc: ["A gigantic deep-sea monster hunting in the darkest part of the Abyssal Chasm. Its name is a warning for submarines."]
+	quest.6CF5C1251809287C.title: "Hullbreaker"
+	quest.6D1CDC40980D9EA3.quest_desc: ["Deer roam forests and plains. They are quick to flee, so sneak up on them."]
+	quest.6D1CDC40980D9EA3.title: "Venison"
+	quest.6D24FE3EA5B73247.quest_desc: ["Fiery ingots are made from the Hydra's fiery blood. Fiery armour makes you immune to fire."]
+	quest.6D24FE3EA5B73247.title: "Fiery ingot"
+	quest.6D63CC2383ECC6BB.quest_desc: ["Defeat the Ender Dragon and collect its breath with a bottle."]
+	quest.6D63CC2383ECC6BB.title: "Free the End"
+	quest.6D668EB648F9F994.quest_desc: ["Just like in the movies."]
+	quest.6D668EB648F9F994.title: "Mosquito in amber"
+	quest.6D850A6BDA9784EC.quest_desc: [
+		"&bLuminous Nether&r adds piglin cults, ghosts, ash biomes and several Nether beasts."
+		"The quests below are all found in the Nether."
+	]
+	quest.6D850A6BDA9784EC.title: "Luminous Nether"
+	quest.6DE18E99A754A231.quest_desc: ["Dig a 2x2 water pool, surround it with flowers and grass, then throw a &ediamond&r in. Lightning opens the portal."]
+	quest.6DE18E99A754A231.title: "Portal"
+	quest.6DFCD844C6EFF560.quest_desc: ["Platform blocks make your stations look real. They fill the gap between the train and the platform."]
+	quest.6DFCD844C6EFF560.title: "Station platform"
+	quest.6DFD41C194A0DF40.quest_desc: ["&bMekanism Tools&r: paxels (pickaxe+axe+shovel) and armor from osmium, bronze, steel, refined glowstone and refined obsidian."]
+	quest.6DFD41C194A0DF40.title: "Mekanism Tools"
+	quest.6E29AC6B6663CFA1.quest_desc: ["Catch a butterfly with a bug net. They spawn around flowers."]
+	quest.6E29AC6B6663CFA1.title: "Butterfly"
+	quest.6E4713E15FE7F816.quest_desc: ["The frame of every Mekanism machine. Steel is made with the Metallurgic Infuser."]
+	quest.6E4713E15FE7F816.title: "Steel Casing"
+	quest.6EC575EC5405BBA1.quest_desc: ["Steeleaf drops from steeleaf plants, ironwood is crafted from liveroot. Both make good early tools."]
+	quest.6EC575EC5405BBA1.title: "Steeleaf \\& Ironwood"
+	quest.6EC809EC0971B208.quest_desc: ["Trains can carry their own liquid fuel instead of needing a blaze burner refill."]
+	quest.6EC809EC0971B208.title: "Fuel tank"
+	quest.6F9E5FEF03BB4570.quest_desc: ["Sometimes the rod pulls up a lockbox or treasure chest."]
+	quest.6F9E5FEF03BB4570.title: "Treasure"
+	quest.7042903AB74FBC54.quest_desc: [
+		"&bFossils and Archeology Revival&r - ported to 1.21.1 just for this pack!"
+		"Fossil blocks are found underground. They drop bio fossils, plant fossils and relic scraps."
+	]
+	quest.7042903AB74FBC54.title: "Dig up a fossil"
+	quest.705E53EE145EE994.quest_desc: [
+		"Every ocean monument has elder guardians. They give you Mining Fatigue, so you can't just dig through the walls."
+		"Defeat them to lift the curse - the monument's gold and sponge rooms are yours."
+	]
+	quest.705E53EE145EE994.title: "Elder Guardian"
+	quest.70C1E7953703AFFF.quest_desc: ["Charges items and can be used for 'charging' recipes."]
+	quest.70C1E7953703AFFF.title: "Tesla Coil"
+	quest.715D76E51DFBFDE6.quest_desc: ["&bSteam 'n' Rails&r adds conductors - little helpers for your trains - and the conductor whistle to command them."]
+	quest.715D76E51DFBFDE6.title: "Train crew"
+	quest.715EED262FA26428.quest_desc: ["The more different foods you eat, the more hearts you get. Automate a menu!"]
+	quest.715EED262FA26428.title: "Food variety"
+	quest.72111BA2231D5F6F.quest_desc: ["A terrifying creature summoned in the Forlorn Hollows. It's blind but hears everything - stay quiet and keep your distance."]
+	quest.72111BA2231D5F6F.title: "Forsaken"
+	quest.7221C1A6BB8D2815.quest_desc: ["The Tier 3 rocket can reach Mercury and Venus."]
+	quest.7221C1A6BB8D2815.title: "Tier 3 Rocket"
+	quest.723048BF1737D4ED.quest_desc: ["A robotic hand. It can use, place and click - needed for many sequenced recipes."]
+	quest.723048BF1737D4ED.title: "Deployer"
+	quest.72843CCC09A07012.quest_desc: ["Fast but needs a runway to take off."]
+	quest.72843CCC09A07012.title: "Biplane"
+	quest.72FE716A87035676.quest_desc: ["A warm chocolate drink from Create Confectionery with good saturation."]
+	quest.72FE716A87035676.title: "Hot chocolate"
+	quest.732282577FD84F89.quest_desc: ["Floating islands, friendly moas and dangerous dungeons. Falling off an island drops you back in the overworld - a parachute helps."]
+	quest.732282577FD84F89.title: "Enter the Aether"
+	quest.7366DE742C5F25A0.quest_desc: ["Beachparty adds tropical drinks. Coconuts grow on palm trees near beaches."]
+	quest.7366DE742C5F25A0.title: "Cocktail"
+	quest.737BE59B311EAF17.quest_desc: [
+		"A block that floats. Enough levitite and your ship lifts off without any engine."
+		"Pearlescent levitite is even stronger."
+	]
+	quest.737BE59B311EAF17.title: "Levitite"
+	quest.737EE8DE14563959.quest_desc: ["A rare material from Just In Nether, used to craft strong gear."]
+	quest.737EE8DE14563959.title: "Devourite"
+	quest.742B38091D6A60E7.quest_desc: ["Sharks hunt in warm oceans. Be careful in the water - they hit hard."]
+	quest.742B38091D6A60E7.title: "Ben's Sharks"
+	quest.74FE0680D74B8599.quest_desc: ["Only bites during a thunderstorm. Grab your rod when the sky goes dark."]
+	quest.74FE0680D74B8599.title: "Stormfish"
+	quest.75030E0A40D2A068.quest_desc: ["&bImmersive Paintings&r lets you upload any image and hang it on the wall."]
+	quest.75030E0A40D2A068.title: "Your own paintings"
+	quest.750C87019AF8ADCA.quest_desc: ["Hungry citizens work slowly. A restaurant with a cook keeps everyone fed."]
+	quest.750C87019AF8ADCA.title: "Feed the town"
+	quest.752F057EBF13CB4B.quest_desc: ["A classic semaphore arm that shows a signal's state."]
+	quest.752F057EBF13CB4B.title: "Semaphore"
+	quest.7615ABDBEAE46F0B.quest_desc: ["Brewery beer is brewed from grain and hops. Drink responsibly!"]
+	quest.7615ABDBEAE46F0B.title: "Cheers!"
+	quest.762A77D23FC0C4D7.quest_desc: ["Very hot - you need a netherite space suit."]
+	quest.762A77D23FC0C4D7.title: "Venus"
+	quest.7654D76F0DEF51D2.quest_desc: ["Ocean's Delight turns sea creatures into food. Fugu rolls are made from carefully prepared pufferfish."]
+	quest.7654D76F0DEF51D2.title: "Ocean's Delight"
+	quest.76F9ACD74D91A641.quest_desc: ["Wild rice grows in shallow water in swamps and jungles. Plant it in water."]
+	quest.76F9ACD74D91A641.title: "Rice"
+	quest.76FC0D7AD98086BF.quest_desc: ["Deep below in the deep dark. Be quiet - the Warden hears everything."]
+	quest.76FC0D7AD98086BF.title: "Ancient City"
+	quest.77255D3C2EA07E44.quest_desc: [
+		"Engineer's goggles show speed and &estress&r. Every machine uses stress units (SU); sources provide capacity."
+		"If a network is overstressed, everything stops."
+	]
+	quest.77255D3C2EA07E44.title: "See the stress"
+	quest.77390EEB15023315.quest_desc: ["An oxygen distributor fills a sealed room with air."]
+	quest.77390EEB15023315.title: "Moon base"
+	quest.776438D2CFD81BB2.quest_desc: ["Iron sheets are pressed from ingots by a Mechanical Press. Many Create parts need them."]
+	quest.776438D2CFD81BB2.title: "Iron Sheets"
+	quest.77E8B646A0048E38.quest_desc: ["Grizzly bears live in forests. Be careful - they are strong when angry."]
+	quest.77E8B646A0048E38.title: "Bear fur"
+	quest.788327B17F0A09FF.quest_desc: ["A stronger shield that lasts much longer and blocks more damage."]
+	quest.788327B17F0A09FF.title: "Diamond shield"
+	quest.790A44A82804BD25.quest_desc: ["More cooking tools for Pam's recipes. Craft each one once - they are not used up when cooking."]
+	quest.790A44A82804BD25.title: "More tools"
+	quest.79D8069DA8C3D0CA.quest_desc: ["This pack has many Create addons. Each branch here introduces one of them."]
+	quest.79D8069DA8C3D0CA.quest_subtitle: "Finish the basics first"
+	quest.79D8069DA8C3D0CA.title: "More Create"
+	quest.79D88CC55EDDBEA8.quest_desc: [
+		"&bSmall Ships&r - real sailing ships (cog, brigg, galley, drakkar and more) in every wood type."
+		"Wind direction and the sail matter; galleys and drakkars can also be rowed."
+		"Every ship needs sails - start here."
+	]
+	quest.79D88CC55EDDBEA8.title: "Sail away"
+	quest.79E7751F5A52DEBD.quest_desc: ["Turns a glued structure into a &ephysics contraption&r. Everything glued to it moves together and has real weight."]
+	quest.79E7751F5A52DEBD.title: "Physics Assembler"
+	quest.79E87B93462C806A.quest_desc: ["The warp stone opens the waystone menu from anywhere. It needs to recharge after each use."]
+	quest.79E87B93462C806A.title: "Teleport from anywhere"
+	quest.79F4290B8B690C82.quest_desc: ["Repairs ancient tools and restores broken swords."]
+	quest.79F4290B8B690C82.title: "Worktable"
+	quest.7A2AE46FF50DDAC7.quest_desc: ["Another electricity addon with magnets, generators and motors."]
+	quest.7A2AE46FF50DDAC7.title: "Create: New Age"
+	quest.7A509B20CCB43C29.quest_desc: ["The colony's central storage. Put materials here and couriers deliver them where needed."]
+	quest.7A509B20CCB43C29.title: "Warehouse"
+	quest.7AD8CF5B0FCB81D7.quest_desc: ["The stove is the main cooking block of the Let's Do mods. Put the cooking pot on top for soups and stews."]
+	quest.7AD8CF5B0FCB81D7.title: "Stove \\& Cooking Pot"
+	quest.7ADFC7A5F2888D81.quest_desc: ["Cave food - bat wings, squid, cave carrots. The copper pot cooks in a cup."]
+	quest.7ADFC7A5F2888D81.title: "Miner's Delight"
+	quest.7B400666C2BE7F7A.quest_desc: ["Tower shields cover more of your body and block better than a normal shield."]
+	quest.7B400666C2BE7F7A.title: "Tower shield"
+	quest.7BAE5A98D0EA2865.quest_desc: [
+		"Blows items along. Put &elava&r behind it to smelt, &efire&r to smoke, &ewater&r to wash and &esoul fire&r to haunt."
+		"Bulk processing on a belt is one of Create's best tricks."
+	]
+	quest.7BAE5A98D0EA2865.title: "Encased Fan"
+	quest.7BFD3898333F54FD.quest_desc: ["Simple item pipes that push items forward. Encased pipes look tidier."]
+	quest.7BFD3898333F54FD.title: "Pipes"
+	quest.7C319C3D0115308E.quest_desc: ["Envelope blocks (in every colour) form a balloon. The adjustable burner heats the air inside - control it with redstone to go up or down."]
+	quest.7C319C3D0115308E.title: "Hot air balloons"
+	quest.7C5823FBD81C89A3.quest_desc: ["The stronger version of the Furnace, burning with soul fire."]
+	quest.7C5823FBD81C89A3.title: "Soul Furnace"
+	quest.7C84CDEA0D79A2B8.quest_desc: ["Roofs, windows, doors, fences, bridges, lights, furniture - in every wood and stone type. The hammer changes the shape of placed Macaw's blocks."]
+	quest.7C84CDEA0D79A2B8.title: "Macaw's mods"
+	quest.7CC50F3EDA01CCC0.quest_desc: ["Bubble tea, coffee and syrups."]
+	quest.7CC50F3EDA01CCC0.title: "Create Cafe"
+	quest.7CD52C8A11AA9CC5.quest_desc: ["It looks like a harmless scarecrow - until it moves. It calls pumpkin minions to help."]
+	quest.7CD52C8A11AA9CC5.title: "The Scarecrow"
+	quest.7D09691C28E05501.quest_desc: ["A gyroscopic bearing keeps the ship stable and stops it from tipping over."]
+	quest.7D09691C28E05501.title: "Stay level"
+	quest.7DEB64FA8836D876.quest_desc: ["A giant glowing moth. It hatches from a big cocoon - look for one in dark forests."]
+	quest.7DEB64FA8836D876.title: "Luminous Moth"
+	quest.7DEF0C580DB08144.quest_desc: ["Hang cargo or tow things with ropes. &bClimbable Ropes&r lets you climb them."]
+	quest.7DEF0C580DB08144.title: "Ropes \\& winches"
+	quest.7E09C58499854EF8.quest_desc: ["The blacksmith makes tools and armour for your citizens, so you don't have to."]
+	quest.7E09C58499854EF8.title: "Blacksmith"
+	quest.7E9A1228539E8975.quest_desc: ["Radioactive. Wear protection - and stay away from the nuclear bombs."]
+	quest.7E9A1228539E8975.title: "Toxic Caves"
+	quest.7EA1E022DCE68CC8.quest_desc: [
+		"&bYUNG's Better Dungeons&r replaces the old tiny dungeons with catacombs, spider caves and zombie dungeons."
+		"The skeleton catacombs are big, dark and full of spawners - and loot."
+	]
+	quest.7EA1E022DCE68CC8.title: "Catacombs"
+	quest.7EF2794D7DA3B5CE.quest_desc: ["Couples or decouples train cars at a point on the track - automate freight trains that drop off wagons."]
+	quest.7EF2794D7DA3B5CE.title: "Track coupler"
+	quest.7EF6C1C06B44339E.quest_desc: ["Opens the way to Anu, the Nether boss of the mod."]
+	quest.7EF6C1C06B44339E.title: "Ancient key"
+	quest.7EFA5FC12A0C877F.quest_desc: ["Ore processing tier 1: ore into 2 dusts. Smelt the dust."]
+	quest.7EFA5FC12A0C877F.title: "2x ore: Enrichment Chamber"
+	quest.7F218C900B720D34.quest_desc: ["Signals split the network into blocks so trains don't crash into each other. Needed as soon as two trains share a track."]
+	quest.7F218C900B720D34.title: "Signals"
+	quest.7F44078A5ECCB447.quest_desc: ["Chipped workbenches turn one block into dozens of variants."]
+	quest.7F44078A5ECCB447.title: "Chipped"
+	quest.7F587B04E8DE96F8.quest_desc: ["Roadrunner feathers on boots make you faster on sand."]
+	quest.7F587B04E8DE96F8.title: "Meep meep"
+	quest.7F62B7EAE5617B32.quest_desc: ["The full suit protects you from radiation in the Toxic Caves. Without it, irradiation slowly hurts you."]
+	quest.7F62B7EAE5617B32.title: "Hazmat suit"
+	quest.7FF60CA28E5EEEAD.quest_desc: ["Fills tanks and space suits with oxygen. Without it you won't survive on other planets."]
+	quest.7FF60CA28E5EEEAD.title: "Oxygen Loader"
+}

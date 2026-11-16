@@ -22,7 +22,7 @@
 			tasks: [
 				{
 					count: 8L
-					id: "EAB09626600D7A27"
+					id: "6AB09626600D7A27"
 					item: { count: 1, id: "ad_astra:steel_ingot" }
 					type: "item"
 				}
@@ -41,7 +41,7 @@
 			]
 			tasks: [
 				{
-					id: "F5AACABBC1A15CA5"
+					id: "75AACABBC1A15CA5"
 					item: { count: 1, id: "ad_astra:etrionic_blast_furnace" }
 					type: "item"
 				}
@@ -51,23 +51,23 @@
 		}
 		{
 			dependencies: ["0EC5A2BE4F669CA2"]
-			id: "B64D5A55055E6CC0"
+			id: "364D5A55055E6CC0"
 			rewards: [
 				{
-					id: "A1E24E0AC6B24BE7"
+					id: "21E24E0AC6B24BE7"
 					type: "xp"
 					xp: 25
 				}
 			]
 			tasks: [
 				{
-					id: "B24F45E89FD92814"
+					id: "324F45E89FD92814"
 					item: { count: 1, id: "ad_astra:compressor" }
 					type: "item"
 				}
 				{
 					count: 8L
-					id: "90A1A61F95769F1B"
+					id: "10A1A61F95769F1B"
 					item: { count: 1, id: "ad_astra:steel_plate" }
 					type: "item"
 				}
@@ -76,7 +76,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["B64D5A55055E6CC0"]
+			dependencies: ["364D5A55055E6CC0"]
 			id: "3EA87B6B8C8EA5F2"
 			rewards: [
 				{
@@ -96,11 +96,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["B64D5A55055E6CC0"]
+			dependencies: ["364D5A55055E6CC0"]
 			id: "5A47488E5A05A688"
 			rewards: [
 				{
-					id: "A2E2A4FC909D18CC"
+					id: "22E2A4FC909D18CC"
 					type: "xp"
 					xp: 40
 				}
@@ -121,7 +121,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["B64D5A55055E6CC0"]
+			dependencies: ["364D5A55055E6CC0"]
 			id: "1304B5921B40BC01"
 			rewards: [
 				{
@@ -142,7 +142,7 @@
 					type: "item"
 				}
 				{
-					id: "94CF5E32C232CD56"
+					id: "14CF5E32C232CD56"
 					item: { count: 1, id: "ad_astra:space_pants" }
 					type: "item"
 				}
@@ -167,7 +167,7 @@
 			]
 			tasks: [
 				{
-					id: "BD3CED8858A76801"
+					id: "3D3CED8858A76801"
 					item: { count: 1, id: "ad_astra:oxygen_loader" }
 					type: "item"
 				}
@@ -180,7 +180,7 @@
 				"3EA87B6B8C8EA5F2"
 				"5A47488E5A05A688"
 			]
-			id: "DB351B1845BC8BA7"
+			id: "5B351B1845BC8BA7"
 			rewards: [
 				{
 					id: "55D1941CBB150ACB"
@@ -190,12 +190,12 @@
 			]
 			tasks: [
 				{
-					id: "D4094FD7DEB73C52"
+					id: "54094FD7DEB73C52"
 					item: { count: 1, id: "ad_astra:tier_1_rocket" }
 					type: "item"
 				}
 				{
-					id: "B85094E5A4159AE6"
+					id: "385094E5A4159AE6"
 					item: { count: 1, id: "ad_astra:launch_pad" }
 					type: "item"
 				}
@@ -205,16 +205,16 @@
 		}
 		{
 			dependencies: [
-				"DB351B1845BC8BA7"
+				"5B351B1845BC8BA7"
 				"7FF60CA28E5EEEAD"
 			]
 			icon: {
 				id: "ad_astra:desh_ingot"
 			}
-			id: "BC6B28CEBE6B307D"
+			id: "3C6B28CEBE6B307D"
 			rewards: [
 				{
-					id: "820C62FC0FDC2AB2"
+					id: "020C62FC0FDC2AB2"
 					type: "xp"
 					xp: 150
 				}
@@ -222,7 +222,7 @@
 			tasks: [
 				{
 					dimension: "ad_astra:moon"
-					id: "F285F62A4107AE8A"
+					id: "7285F62A4107AE8A"
 					type: "dimension"
 				}
 			]
@@ -230,8 +230,8 @@
 			y: 1.875d
 		}
 		{
-			dependencies: ["BC6B28CEBE6B307D"]
-			id: "82132D7A3FE5C4FD"
+			dependencies: ["3C6B28CEBE6B307D"]
+			id: "02132D7A3FE5C4FD"
 			rewards: [
 				{
 					id: "355CE4C650A75362"
@@ -242,7 +242,7 @@
 			tasks: [
 				{
 					count: 8L
-					id: "CF7FAAB7CBF465D1"
+					id: "4F7FAAB7CBF465D1"
 					item: { count: 1, id: "ad_astra:desh_ingot" }
 					type: "item"
 				}
@@ -251,8 +251,8 @@
 			y: 0.375d
 		}
 		{
-			dependencies: ["BC6B28CEBE6B307D"]
-			id: "F7390EEB15023315"
+			dependencies: ["3C6B28CEBE6B307D"]
+			id: "77390EEB15023315"
 			rewards: [
 				{
 					id: "3060FDF78F9FCA10"
@@ -268,7 +268,7 @@
 				}
 				{
 					count: 2L
-					id: "9AAEF05B218FC457"
+					id: "1AAEF05B218FC457"
 					item: { count: 1, id: "ad_astra:solar_panel" }
 					type: "item"
 				}
@@ -277,8 +277,8 @@
 			y: 1.875d
 		}
 		{
-			dependencies: ["82132D7A3FE5C4FD"]
-			id: "BD51399C97F3C37F"
+			dependencies: ["02132D7A3FE5C4FD"]
+			id: "3D51399C97F3C37F"
 			rewards: [
 				{
 					id: "60178FAD867A8783"
@@ -297,14 +297,14 @@
 			y: 0.375d
 		}
 		{
-			dependencies: ["BD51399C97F3C37F"]
+			dependencies: ["3D51399C97F3C37F"]
 			icon: {
 				id: "ad_astra:ostrum_ingot"
 			}
-			id: "A47DCD80771AE99F"
+			id: "247DCD80771AE99F"
 			rewards: [
 				{
-					id: "8F3938A7BB6627FB"
+					id: "0F3938A7BB6627FB"
 					type: "xp"
 					xp: 200
 				}
@@ -312,7 +312,7 @@
 			tasks: [
 				{
 					dimension: "ad_astra:mars"
-					id: "F000E051F8121060"
+					id: "7000E051F8121060"
 					type: "dimension"
 				}
 			]
@@ -320,7 +320,7 @@
 			y: 0.375d
 		}
 		{
-			dependencies: ["A47DCD80771AE99F"]
+			dependencies: ["247DCD80771AE99F"]
 			id: "685DB26599ECD1D2"
 			rewards: [
 				{
@@ -332,7 +332,7 @@
 			tasks: [
 				{
 					count: 8L
-					id: "A3B79496D1378F7A"
+					id: "23B79496D1378F7A"
 					item: { count: 1, id: "ad_astra:ostrum_ingot" }
 					type: "item"
 				}
@@ -345,14 +345,14 @@
 			id: "7221C1A6BB8D2815"
 			rewards: [
 				{
-					id: "F2EFD9D9E26E26BC"
+					id: "72EFD9D9E26E26BC"
 					type: "xp"
 					xp: 150
 				}
 			]
 			tasks: [
 				{
-					id: "AF486E33F87B733F"
+					id: "2F486E33F87B733F"
 					item: { count: 1, id: "ad_astra:tier_3_rocket" }
 					type: "item"
 				}
@@ -368,7 +368,7 @@
 			id: "762A77D23FC0C4D7"
 			rewards: [
 				{
-					id: "87D41A94432372C4"
+					id: "07D41A94432372C4"
 					type: "xp"
 					xp: 250
 				}
@@ -406,7 +406,7 @@
 		}
 		{
 			dependencies: ["52DEAB5285BE0490"]
-			id: "BA4D264B38434C38"
+			id: "3A4D264B38434C38"
 			rewards: [
 				{
 					id: "2A92D3B8EB0A650A"
@@ -425,14 +425,14 @@
 			y: 0.375d
 		}
 		{
-			dependencies: ["BA4D264B38434C38"]
+			dependencies: ["3A4D264B38434C38"]
 			icon: {
 				id: "ad_astra:jet_suit"
 			}
-			id: "9A08153DA1E42C9B"
+			id: "1A08153DA1E42C9B"
 			rewards: [
 				{
-					id: "A8AB18138125123C"
+					id: "28AB18138125123C"
 					type: "xp"
 					xp: 300
 				}
@@ -440,7 +440,7 @@
 			tasks: [
 				{
 					dimension: "ad_astra:glacio"
-					id: "F0B03841A6A2BF66"
+					id: "70B03841A6A2BF66"
 					type: "dimension"
 				}
 			]
@@ -448,18 +448,18 @@
 			y: 0.375d
 		}
 		{
-			dependencies: ["BC6B28CEBE6B307D"]
-			id: "A1F0992BCF690C6B"
+			dependencies: ["3C6B28CEBE6B307D"]
+			id: "21F0992BCF690C6B"
 			rewards: [
 				{
-					id: "AFA54A719225CF85"
+					id: "2FA54A719225CF85"
 					type: "xp"
 					xp: 60
 				}
 			]
 			tasks: [
 				{
-					id: "FB177D1A48CF3C23"
+					id: "7B177D1A48CF3C23"
 					item: { count: 1, id: "ad_astra:tier_1_rover" }
 					type: "item"
 				}

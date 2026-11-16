@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "lets_do"
-	group: "A7F7BE0CA4D022F8"
+	group: "27F7BE0CA4D022F8"
 	icon: {
 		id: "vinery:wine_bottle"
 	}
@@ -11,10 +11,10 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "997A35FB09EDEE74"
+			id: "197A35FB09EDEE74"
 			rewards: [
 				{
-					id: "CBD61E8B6A8578E2"
+					id: "4BD61E8B6A8578E2"
 					type: "xp"
 					xp: 20
 				}
@@ -26,7 +26,7 @@
 					type: "item"
 				}
 				{
-					id: "9FD0BC36210FD387"
+					id: "1FD0BC36210FD387"
 					item: { count: 1, id: "farm_and_charm:cutting_board" }
 					type: "item"
 				}
@@ -35,7 +35,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["997A35FB09EDEE74"]
+			dependencies: ["197A35FB09EDEE74"]
 			id: "55ED5A9B989E3E22"
 			rewards: [
 				{
@@ -53,7 +53,7 @@
 				}
 				{
 					count: 4L
-					id: "EDA7ACE0BF8D3518"
+					id: "6DA7ACE0BF8D3518"
 					item: { count: 1, id: "farm_and_charm:oat" }
 					type: "item"
 				}
@@ -62,7 +62,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["997A35FB09EDEE74"]
+			dependencies: ["197A35FB09EDEE74"]
 			id: "7AD8CF5B0FCB81D7"
 			rewards: [
 				{
@@ -88,22 +88,22 @@
 		}
 		{
 			dependencies: ["7AD8CF5B0FCB81D7"]
-			id: "C82DBDD335577C37"
+			id: "482DBDD335577C37"
 			rewards: [
 				{
-					id: "BF0D441AE43711C4"
+					id: "3F0D441AE43711C4"
 					type: "xp"
 					xp: 25
 				}
 			]
 			tasks: [
 				{
-					id: "EA75643E2D48D4C6"
+					id: "6A75643E2D48D4C6"
 					item: { count: 1, id: "farm_and_charm:mincer" }
 					type: "item"
 				}
 				{
-					id: "D0BBE0BD1E6D7809"
+					id: "50BBE0BD1E6D7809"
 					item: { count: 1, id: "farm_and_charm:roaster" }
 					type: "item"
 				}
@@ -123,7 +123,7 @@
 			]
 			tasks: [
 				{
-					id: "E03C65BEA0F4D85C"
+					id: "603C65BEA0F4D85C"
 					item: { count: 1, id: "farm_and_charm:farmers_breakfast" }
 					type: "item"
 				}
@@ -132,7 +132,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["997A35FB09EDEE74"]
+			dependencies: ["197A35FB09EDEE74"]
 			id: "427CC13C184E98DB"
 			rewards: [
 				{
@@ -143,12 +143,12 @@
 			]
 			tasks: [
 				{
-					id: "F14D9DF4A8D65758"
+					id: "714D9DF4A8D65758"
 					item: { count: 1, id: "farm_and_charm:feeding_trough" }
 					type: "item"
 				}
 				{
-					id: "AFFE6B62C0B4DC25"
+					id: "2FFE6B62C0B4DC25"
 					item: { count: 1, id: "farm_and_charm:chicken_coop" }
 					type: "item"
 				}
@@ -157,7 +157,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["997A35FB09EDEE74"]
+			dependencies: ["197A35FB09EDEE74"]
 			id: "12FF04C83E462717"
 			rewards: [
 				{
@@ -188,7 +188,7 @@
 			]
 			tasks: [
 				{
-					id: "CBC6CCB176E96052"
+					id: "4BC6CCB176E96052"
 					item: { count: 1, id: "vinery:fermentation_barrel" }
 					type: "item"
 				}
@@ -201,7 +201,7 @@
 			id: "1824D157B51A373E"
 			rewards: [
 				{
-					id: "A811025358A4A1AD"
+					id: "2811025358A4A1AD"
 					type: "xp"
 					xp: 30
 				}
@@ -217,8 +217,8 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["997A35FB09EDEE74"]
-			id: "8F1C32B812A6A232"
+			dependencies: ["197A35FB09EDEE74"]
+			id: "0F1C32B812A6A232"
 			rewards: [
 				{
 					id: "2E2082900B95BAAB"
@@ -242,11 +242,11 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["8F1C32B812A6A232"]
-			id: "E26187BA2A63CB7B"
+			dependencies: ["0F1C32B812A6A232"]
+			id: "626187BA2A63CB7B"
 			rewards: [
 				{
-					id: "80AC6B42AF69305A"
+					id: "00AC6B42AF69305A"
 					type: "xp"
 					xp: 30
 				}
@@ -262,11 +262,11 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["997A35FB09EDEE74"]
+			dependencies: ["197A35FB09EDEE74"]
 			id: "27DDECAD836CD91D"
 			rewards: [
 				{
-					id: "DDDA15063393866A"
+					id: "5DDA15063393866A"
 					type: "xp"
 					xp: 30
 				}
@@ -289,7 +289,7 @@
 		}
 		{
 			dependencies: ["27DDECAD836CD91D"]
-			id: "F615ABDBEAE46F0B"
+			id: "7615ABDBEAE46F0B"
 			rewards: [
 				{
 					id: "7BA1F4081C3A1D21"
@@ -309,7 +309,7 @@
 		}
 		{
 			dependencies: ["7AD8CF5B0FCB81D7"]
-			id: "A0E6D71E52C6ECE0"
+			id: "20E6D71E52C6ECE0"
 			rewards: [
 				{
 					id: "5EC8F4114330649E"
@@ -319,7 +319,7 @@
 			]
 			tasks: [
 				{
-					id: "F7DFF58BF382A567"
+					id: "77DFF58BF382A567"
 					item: { count: 1, id: "candlelight:cooking_pan" }
 					type: "item"
 				}
@@ -333,8 +333,8 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["A0E6D71E52C6ECE0"]
-			id: "A96D7A7FF5E8C659"
+			dependencies: ["20E6D71E52C6ECE0"]
+			id: "296D7A7FF5E8C659"
 			rewards: [
 				{
 					id: "4D37D5CC8345D476"
@@ -344,7 +344,7 @@
 			]
 			tasks: [
 				{
-					id: "E2C6252442D99662"
+					id: "62C6252442D99662"
 					item: { count: 1, id: "candlelight:lasagne" }
 					type: "item"
 				}
@@ -353,7 +353,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["997A35FB09EDEE74"]
+			dependencies: ["197A35FB09EDEE74"]
 			id: "1E91A4D045624FE0"
 			rewards: [
 				{
@@ -364,7 +364,7 @@
 			]
 			tasks: [
 				{
-					id: "A1987C63FCC4E126"
+					id: "21987C63FCC4E126"
 					item: { count: 1, id: "meadow:cheese_form" }
 					type: "item"
 				}
@@ -379,10 +379,10 @@
 		}
 		{
 			dependencies: ["1E91A4D045624FE0"]
-			id: "C8BBC37B15115268"
+			id: "48BBC37B15115268"
 			rewards: [
 				{
-					id: "F8A4A03A339C7A9C"
+					id: "78A4A03A339C7A9C"
 					type: "xp"
 					xp: 30
 				}
@@ -398,8 +398,8 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["997A35FB09EDEE74"]
-			id: "EBCF555370BC9CDE"
+			dependencies: ["197A35FB09EDEE74"]
+			id: "6BCF555370BC9CDE"
 			rewards: [
 				{
 					id: "7E3BC95124035BF2"
@@ -410,7 +410,7 @@
 			tasks: [
 				{
 					count: 2L
-					id: "D7DD5BA48E1E665B"
+					id: "57DD5BA48E1E665B"
 					item: { count: 1, id: "beachparty:coconut" }
 					type: "item"
 				}
@@ -424,8 +424,8 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["EBCF555370BC9CDE"]
-			id: "F366DE742C5F25A0"
+			dependencies: ["6BCF555370BC9CDE"]
+			id: "7366DE742C5F25A0"
 			rewards: [
 				{
 					id: "1C7D493BD74D543B"
@@ -444,7 +444,7 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["997A35FB09EDEE74"]
+			dependencies: ["197A35FB09EDEE74"]
 			id: "635B0D72ABE52140"
 			rewards: [
 				{
@@ -481,7 +481,7 @@
 			]
 			tasks: [
 				{
-					id: "821A719B86B21A4C"
+					id: "021A719B86B21A4C"
 					item: { count: 1, id: "herbalbrews:green_tea" }
 					type: "item"
 				}
@@ -491,10 +491,10 @@
 		}
 		{
 			dependencies: ["635B0D72ABE52140"]
-			id: "E5C9DB5800A3BED8"
+			id: "65C9DB5800A3BED8"
 			rewards: [
 				{
-					id: "F84AA50497FD7B20"
+					id: "784AA50497FD7B20"
 					type: "xp"
 					xp: 25
 				}

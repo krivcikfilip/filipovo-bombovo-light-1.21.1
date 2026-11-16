@@ -6,7 +6,7 @@
 	icon: {
 		id: "ftbquests:book"
 	}
-	id: "F93E32936A23A83E"
+	id: "793E32936A23A83E"
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -14,7 +14,7 @@
 			icon: {
 				id: "ftbquests:book"
 			}
-			id: "EC6506A05B72E622"
+			id: "6C6506A05B72E622"
 			rewards: [
 				{
 					id: "38E7E7D82BD37AF4"
@@ -24,7 +24,7 @@
 			]
 			tasks: [
 				{
-					id: "CF757E80F878A159"
+					id: "4F757E80F878A159"
 					stat: "minecraft:play_time"
 					type: "stat"
 					value: 1
@@ -34,8 +34,8 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["EC6506A05B72E622"]
-			id: "D4149DF58C0CF8B8"
+			dependencies: ["6C6506A05B72E622"]
+			id: "54149DF58C0CF8B8"
 			rewards: [
 				{
 					id: "5307BD8E8AE722AE"
@@ -45,7 +45,7 @@
 			]
 			tasks: [
 				{
-					id: "D82DA216F222AE1A"
+					id: "582DA216F222AE1A"
 					item: { count: 1, id: "waystones:waystone" }
 					type: "item"
 				}
@@ -54,7 +54,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["D4149DF58C0CF8B8"]
+			dependencies: ["54149DF58C0CF8B8"]
 			id: "79E87B93462C806A"
 			rewards: [
 				{
@@ -65,7 +65,7 @@
 			]
 			tasks: [
 				{
-					id: "EE65D8405EB9EC8D"
+					id: "6E65D8405EB9EC8D"
 					item: { count: 1, id: "waystones:warp_stone" }
 					type: "item"
 				}
@@ -74,8 +74,8 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["EC6506A05B72E622"]
-			id: "89B7476C05882565"
+			dependencies: ["6C6506A05B72E622"]
+			id: "09B7476C05882565"
 			rewards: [
 				{
 					id: "346B1D02ED5D3FBB"
@@ -85,7 +85,7 @@
 			]
 			tasks: [
 				{
-					id: "A02CDFD9FD3022C3"
+					id: "202CDFD9FD3022C3"
 					item: { count: 1, id: "sophisticatedbackpacks:backpack" }
 					type: "item"
 				}
@@ -94,7 +94,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["89B7476C05882565"]
+			dependencies: ["09B7476C05882565"]
 			id: "6222D3EA28471A09"
 			rewards: [
 				{
@@ -134,21 +134,21 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["EC6506A05B72E622"]
+			dependencies: ["6C6506A05B72E622"]
 			icon: {
 				id: "minecraft:skeleton_skull"
 			}
-			id: "E2F7B17F7FAC5054"
+			id: "62F7B17F7FAC5054"
 			rewards: [
 				{
-					id: "E3D77A01E9B4E239"
+					id: "63D77A01E9B4E239"
 					type: "xp"
 					xp: 10
 				}
 			]
 			tasks: [
 				{
-					id: "96FF57666B201BCD"
+					id: "16FF57666B201BCD"
 					stat: "minecraft:play_time"
 					type: "stat"
 					value: 1
@@ -158,21 +158,21 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["EC6506A05B72E622"]
+			dependencies: ["6C6506A05B72E622"]
 			icon: {
 				id: "minecraft:bell"
 			}
 			id: "0B7C5FD61AD7DAA6"
 			rewards: [
 				{
-					id: "F3BDB04DE740794A"
+					id: "73BDB04DE740794A"
 					type: "xp"
 					xp: 10
 				}
 			]
 			tasks: [
 				{
-					id: "826D31413B71A545"
+					id: "026D31413B71A545"
 					stat: "minecraft:play_time"
 					type: "stat"
 					value: 1
@@ -182,8 +182,8 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["EC6506A05B72E622"]
-			id: "E0EAE74AD522424D"
+			dependencies: ["6C6506A05B72E622"]
+			id: "60EAE74AD522424D"
 			rewards: [
 				{
 					id: "49BFB6E230C2DCA0"
@@ -202,8 +202,8 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["E0EAE74AD522424D"]
-			id: "E00C5C3E85823812"
+			dependencies: ["60EAE74AD522424D"]
+			id: "600C5C3E85823812"
 			rewards: [
 				{
 					id: "19E39BDAE69DF0F8"
@@ -233,7 +233,7 @@
 			]
 			tasks: [
 				{
-					id: "B1CDD596B11E2C52"
+					id: "31CDD596B11E2C52"
 					item: { count: 1, id: "chunkloaders:single_chunk_loader" }
 					type: "item"
 				}

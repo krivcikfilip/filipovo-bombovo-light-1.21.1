@@ -1,0 +1,263 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "quark"
+	group: "520042A0F9159BC8"
+	icon: {
+		id: "quark:seed_pouch"
+	}
+	id: "52426F5F19A93D19"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5DF99CD6DF55B725"
+			rewards: [
+				{
+					id: "372A13591F99CCE9"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "7C5F1F00A125937C"
+					item: { count: 1, id: "quark:seed_pouch" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "40B2312141C15A22"
+			rewards: [
+				{
+					id: "79E275D1B91CABA7"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "17EC62A32707BCA8"
+					item: { count: 1, id: "quark:trowel" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "5C7D899028DFA6C1"
+			rewards: [
+				{
+					id: "10DF80F45838B5BF"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "277EAF12E4FEAA97"
+					item: { count: 1, id: "quark:crate" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "7BFD3898333F54FD"
+			rewards: [
+				{
+					id: "049358E4D588315A"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "08210743E36AEF35"
+					item: { count: 1, id: "quark:pipe" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7BFD3898333F54FD"]
+			id: "4D11985D5BC55021"
+			rewards: [
+				{
+					id: "7FBC03E81EED1867"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "0844C1C08AE7E9AA"
+					item: { count: 1, id: "quark:chute" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 4.5d
+		}
+		{
+			id: "422F25920638EE28"
+			rewards: [
+				{
+					id: "60951247FB71A77F"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "2E808E0E9BC1A891"
+					item: { count: 1, id: "quark:magnet" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			id: "3722988AC8CF4FD4"
+			rewards: [
+				{
+					id: "3B1C1861218404E6"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "39E23853FFB07E62"
+					item: { count: 1, id: "quark:abacus" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			id: "351131BFC29EA916"
+			rewards: [
+				{
+					id: "464FC9249E626D5D"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "4288595F17E52005"
+					item: { count: 1, id: "quark:bottled_cloud" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			id: "547BDD25E6F2E120"
+			rewards: [
+				{
+					id: "57369787FCED4B0A"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "277D84CAF7AFFB02"
+					item: { count: 1, id: "quark:pickarang" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			id: "0BDF92643A52CF5E"
+			rewards: [
+				{
+					id: "73A21F28DA1B9DC0"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "64D9D31E3A388A3A"
+					item: { count: 1, id: "quark:slime_in_a_bucket" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			id: "548EA9BC7C820D63"
+			rewards: [
+				{
+					id: "62B27248F182A7D2"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					id: "0C87122054BC7F43"
+					item: { count: 1, id: "quark:ancient_tome" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 13.5d
+		}
+		{
+			id: "57D26374CE323468"
+			rewards: [
+				{
+					id: "2A1BC2868778828E"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "79D0593773FFD73A"
+					item: { count: 1, id: "quark:pathfinders_quill" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 15.0d
+		}
+		{
+			id: "06F5669E0FB186D7"
+			rewards: [
+				{
+					id: "2F1E51C1A8C8D225"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "56F5CE66067DB238"
+					item: { count: 1, id: "quark:tiny_potato" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 16.5d
+		}
+	]
+}

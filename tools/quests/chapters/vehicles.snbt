@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "vehicles"
-	group: "AEAA9718BAF5A32A"
+	group: "2EAA9718BAF5A32A"
 	icon: {
 		id: "immersive_aircraft:biplane"
 	}
@@ -14,7 +14,7 @@
 			id: "609D3C2E04A14B68"
 			rewards: [
 				{
-					id: "D35AAFA30A8ADCBE"
+					id: "535AAFA30A8ADCBE"
 					type: "xp"
 					xp: 20
 				}
@@ -28,7 +28,7 @@
 				}
 				{
 					count: 2L
-					id: "85EE8D696CD1DEA9"
+					id: "05EE8D696CD1DEA9"
 					item: { count: 1, id: "immersive_aircraft:sail" }
 					type: "item"
 				}
@@ -38,10 +38,10 @@
 		}
 		{
 			dependencies: ["609D3C2E04A14B68"]
-			id: "C2313C7F139CF77B"
+			id: "42313C7F139CF77B"
 			rewards: [
 				{
-					id: "CE93091F4F8276FD"
+					id: "4E93091F4F8276FD"
 					type: "xp"
 					xp: 25
 				}
@@ -62,8 +62,8 @@
 			y: 2.25d
 		}
 		{
-			dependencies: ["C2313C7F139CF77B"]
-			id: "A271FC4269645CC3"
+			dependencies: ["42313C7F139CF77B"]
+			id: "2271FC4269645CC3"
 			rewards: [
 				{
 					id: "2EF3EFABF11B0031"
@@ -82,18 +82,18 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["A271FC4269645CC3"]
-			id: "D92419D304B54525"
+			dependencies: ["2271FC4269645CC3"]
+			id: "592419D304B54525"
 			rewards: [
 				{
-					id: "80959C89077F73C4"
+					id: "00959C89077F73C4"
 					type: "xp"
 					xp: 50
 				}
 			]
 			tasks: [
 				{
-					id: "90AEB67D814918B5"
+					id: "10AEB67D814918B5"
 					item: { count: 1, id: "immersive_aircraft:cargo_airship" }
 					type: "item"
 				}
@@ -102,7 +102,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["C2313C7F139CF77B"]
+			dependencies: ["42313C7F139CF77B"]
 			id: "72843CCC09A07012"
 			rewards: [
 				{
@@ -122,8 +122,8 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["C2313C7F139CF77B"]
-			id: "88CF0C24381BE472"
+			dependencies: ["42313C7F139CF77B"]
+			id: "08CF0C24381BE472"
 			rewards: [
 				{
 					id: "097264CFE9847F5D"
@@ -133,7 +133,7 @@
 			]
 			tasks: [
 				{
-					id: "CD9C0ED7AB4393C0"
+					id: "4D9C0ED7AB4393C0"
 					item: { count: 1, id: "immersive_aircraft:gyrodyne" }
 					type: "item"
 				}
@@ -142,11 +142,11 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["C2313C7F139CF77B"]
+			dependencies: ["42313C7F139CF77B"]
 			id: "608F6AE8B9940F47"
 			rewards: [
 				{
-					id: "D012C45CCD71C9B0"
+					id: "5012C45CCD71C9B0"
 					type: "xp"
 					xp: 50
 				}
@@ -163,17 +163,17 @@
 		}
 		{
 			dependencies: ["72843CCC09A07012"]
-			id: "8E81085B01C431D0"
+			id: "0E81085B01C431D0"
 			rewards: [
 				{
-					id: "ECED00BA06CB5D51"
+					id: "6CED00BA06CB5D51"
 					type: "xp"
 					xp: 40
 				}
 			]
 			tasks: [
 				{
-					id: "CF42E75CC5870C20"
+					id: "4F42E75CC5870C20"
 					item: { count: 1, id: "immersive_aircraft:enhanced_propeller" }
 					type: "item"
 				}
@@ -182,17 +182,17 @@
 			y: 1.5d
 		}
 		{
-			id: "F9D88CC55EDDBEA8"
+			id: "79D88CC55EDDBEA8"
 			rewards: [
 				{
-					id: "BD6117DF9F106346"
+					id: "3D6117DF9F106346"
 					type: "xp"
 					xp: 40
 				}
 			]
 			tasks: [
 				{
-					id: "B327DA4A4167E0F5"
+					id: "3327DA4A4167E0F5"
 					item: { count: 1, id: "smallships:cotton_sails" }
 					type: "item"
 				}
@@ -201,18 +201,18 @@
 			y: 3.75d
 		}
 		{
-			dependencies: ["F9D88CC55EDDBEA8"]
-			id: "C9103EBCD927E6CE"
+			dependencies: ["79D88CC55EDDBEA8"]
+			id: "49103EBCD927E6CE"
 			rewards: [
 				{
-					id: "EB26A9CABF04E2E3"
+					id: "6B26A9CABF04E2E3"
 					type: "xp"
 					xp: 40
 				}
 			]
 			tasks: [
 				{
-					id: "C61455F9D3475537"
+					id: "461455F9D3475537"
 					item: { count: 1, id: "smallships:cannon" }
 					type: "item"
 				}
@@ -227,8 +227,8 @@
 			y: 3.75d
 		}
 		{
-			dependencies: ["D92419D304B54525"]
-			id: "E54F81C691BA4045"
+			dependencies: ["592419D304B54525"]
+			id: "654F81C691BA4045"
 			rewards: [
 				{
 					id: "369AF94887CBCACF"
@@ -238,7 +238,7 @@
 			]
 			tasks: [
 				{
-					id: "AA53C14260EA458C"
+					id: "2A53C14260EA458C"
 					item: { count: 1, id: "immersive_aircraft:warship" }
 					type: "item"
 				}
