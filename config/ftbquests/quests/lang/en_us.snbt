@@ -33,7 +33,7 @@
 	chapter.2BE3562A22DFA19F.title: "Create: doplňky"
 	chapter.2F776931D0304949.chapter_subtitle: ["Nebeská dimenze"]
 	chapter.2F776931D0304949.title: "Aether"
-	chapter.2F990D9D4C6EA8F1.chapter_subtitle: ["Šest vzácných jeskyní hluboko pod zemí"]
+	chapter.2F990D9D4C6EA8F1.chapter_subtitle: ["Vzácné jeskyně hluboko pod zemí"]
 	chapter.2F990D9D4C6EA8F1.title: "Alex's Caves"
 	chapter.30B8EFB28F81CA1A.chapter_subtitle: ["Ochočování a péče o zvířata"]
 	chapter.30B8EFB28F81CA1A.title: "Mazlíčci a chov"
@@ -685,13 +685,6 @@
 		"&aTip:&r Záložní karta (&eFallback Security Card&r) platí pro všechny hráče bez vlastní karty."
 	]
 	quest.070876E53DEB4AC0.title: "Zabezpečení sítě"
-	quest.0720C76EBA6006F1.quest_desc: [
-		"Ponorka (&eSubmarine&r) je kabina, ve které se dá dýchat. Má i světlomety. Quest splníš, když do ní nasedneš (pravé tlačítko)."
-		"Rozbitou ponorku najdeš v podvodních ruinách. Oprav ji měděnými ingoty, zelenou měď očisti sekerou."
-		"Novou postavíš: obal záhadný motor (&eEnigmatic Engine&r) kostkou z bloků mědi a na přední stranu dej 6 hlubinných skel."
-		"&cKdyž se blíží Hullbreaker, hned vypni světla!&r"
-	]
-	quest.0720C76EBA6006F1.title: "Ponorka"
 	quest.07225C11BC70DCB4.quest_desc: [
 		"Sushi (&eSushi&r) vyrobíš z filetu a mořské trávy."
 		"Mořskou trávu natrháš nůžkami pod vodou nebo ji občas vytáhneš prutem."
@@ -703,7 +696,8 @@
 	]
 	quest.074B763EA6F0CBBD.title: "Stratusová zbroj"
 	quest.07526533C5A0AB45.quest_desc: [
-		"&bAlex's Caves&r přidává šest vzácných jeskynních biomů hluboko pod zemí."
+		"&bAlex's Caves&r přidává vzácné jeskynní biomy hluboko pod zemí."
+		"V našem světě jich najdeš pět. Šestý, propastná rokle (&eAbyssal Chasm&r), vzniká jen pod hlubokým oceánem, a ten u nás uvnitř hranice světa není."
 		"Každý biom má vlastní tvory, suroviny, výbavu a bosse. Některé jsou velmi nebezpečné."
 		"Tady se naučíš jeskyně najít, přežít v nich a nakonec porazit jejich bosse."
 		"&aTip: Začni hledáním podzemní chatky. Jsou v ní kamenné tabulky, které tě k jeskyním dovedou.&r"
@@ -1179,23 +1173,11 @@
 	]
 	quest.0C5B481E58571E10.quest_subtitle: "Začátečník"
 	quest.0C5B481E58571E10.title: "Redstonová perla"
-	quest.0C7E14C106B26142.quest_desc: [
-		"Svítící červ (Gossamer Worm) upustí bioluminiscenci (&eBioluminesscence&r)."
-		"Z ní a tyčky vyrobíš 4 pochodně (&eBioluminescent Torch&r), které svítí i pod vodou."
-		"&aZ bioluminiscence a mořských hub (&ePing-Pong Sponge&r) je i plovák (&eFloater&r), který tě rychle vynese k hladině.&r"
-	]
-	quest.0C7E14C106B26142.title: "Podvodní pochodně"
 	quest.0C8AD702E64D0F5C.quest_desc: [
 		"&bTwilight's Flavor \\& Delight&r přidává jídla z dimenze Twilight Forest: z jelenů, hydry, ghastů i z rostlin."
 		"Pochodňové bobule (&eTorchberries&r) rostou v Twilight Forestu. Bobule mezi dvěma pšenicemi dá 8 sušenek (&eTorchberry Cookie&r)."
 	]
 	quest.0C8AD702E64D0F5C.title: "Sušenky z pochodňovníku"
-	quest.0C9E4FA661E99592.quest_desc: [
-		"Potápěčský oblek (&eDiving Helmet&r, &eDiving Chestplate&r, &eDiving Leggings&r, &eDiving Boots&r) nejde vyrobit."
-		"Nosí ho utopenci v rokli a najdeš ho v truhlách podvodních ruin."
-		"Helma prodlužuje dýchání pod vodou, kalhoty zrychlují plavání a boty chůzi po kalu."
-	]
-	quest.0C9E4FA661E99592.title: "Potápěčský oblek"
 	quest.0CB19429D18F7274.quest_desc: [
 		"Ozdoby brnění (trims) dáš na brnění na kovářském stole: šablona ozdoby + kus brnění + materiál (třeba zlato, smaragd nebo měď)."
 		"Šablony najdeš v truhlách různých staveb. Každá stavba má jiný vzor. Kopii šablony vyrobíš z 7 diamantů – recept ukáže JEI."
@@ -3002,12 +2984,6 @@
 		"&cPotřebuješ kolem volné místo.&r Nejlíp funguje na otevřeném prostranství."
 	]
 	quest.24A488E86EFC654A.title: "Jáma bestií"
-	quest.24A661EFD522B1B1.quest_desc: [
-		"Přes hlubinné sklo (&eDepth Glass&r) je ve vodě lépe vidět."
-		"Z 5 úlomků mořského skla a 4 železných ingotů vznikne 8 skel."
-		"Šest kusů budeš potřebovat na stavbu ponorky."
-	]
-	quest.24A661EFD522B1B1.title: "Hlubinné sklo"
 	quest.24AC0C3876E683EA.quest_desc: [
 		"Palačinka (&ePancake&r) se vyrábí ze sirupu, mléka, vajíčka a 2 pšenic."
 		"Je to dobré jídlo na cesty."
@@ -4002,12 +3978,6 @@
 		"Polévku (&eGuardian Soup&r) uvaříš v hrnci ze strážce, cibule, 2 vajec a 2 rajčat."
 	]
 	quest.323457D77D522225.title: "Polévka ze strážce"
-	quest.323D62A0CD65BF9E.quest_desc: [
-		"Vejce Tremorzilly (&eTremorzilla Egg&r) složíš z tektonických úlomků, nesmrtelného embrya (&eImmortal Embryo&r) a vejce Tremorsaura."
-		"Vejce Tremorsaura získáš, když dvěma ochočeným Tremorsaurům dáš dinosauří maso."
-		"Vejce se samo nikdy nevylíhne. Vylíhne se jen díky jadernému výbuchu poblíž."
-	]
-	quest.323D62A0CD65BF9E.title: "Vejce Tremorzilly"
 	quest.32411D3FA8AF1902.quest_desc: [
 		"Krystaltin (&eCrystaltine Ingot&r) je vzácný materiál z elitního stolu (&eElite Crafting Table&r) 7×7."
 		"Recept: diamanty, lazurit, železo, zlato a dvě netherové hvězdy. Vyjdou 4 ingoty."
@@ -4492,11 +4462,6 @@
 		"Střílí, dokud má signál v plošce s hořícím dělem. Silnější signál = rychlejší střelba."
 	]
 	quest.38842F59B8DAC18F.title: "Autokanón"
-	quest.388C3C25B0A3F964.quest_desc: [
-		"Perla (&ePearl&r) občas vypadne z mušle (&eMussel&r). Mušle rostou na pevných blocích na dně."
-		"Oltář (&eAbyssal Altar&r) vyrobíš z perly a 4 bloků &eAbyssmarine&r."
-	]
-	quest.388C3C25B0A3F964.title: "Propastný oltář"
 	quest.388D09DBFBF5C8CF.quest_desc: [
 		"Zanitová zbroj chrání stejně jako železná. Než půjdeš do dungeonu, vyrob si celou sadu."
 		"Do sady patří i zanitové rukavice (&eZanite Gloves&r). Nosí se ve slotu na doplňky."
@@ -5576,12 +5541,6 @@
 	]
 	quest.437C5E6E3F652DB5.quest_subtitle: "Expert"
 	quest.437C5E6E3F652DB5.title: "Kotel úrovně 4"
-	quest.439224282AD8A241.quest_desc: [
-		"Propastná rokle je obří příkop pod oceánem. Nad tebou jsou stovky bloků vody a skoro úplná tma."
-		"&cPotřebuješ dýchat pod vodou: lektvar dýchání pod vodou, potápěčskou helmu nebo ponorku.&r"
-		"Dno pokrývá kal (&eMuck&r), který tě zpomaluje."
-	]
-	quest.439224282AD8A241.title: "Propastná rokle"
 	quest.43D5C71489292DC7.quest_desc: [
 		"&bCreate Stuff 'N Additions&r přidává jetpacky, exoskelety, drony a další výbavu. Základem jsou malé motory a začíná se tím nejjednodušším."
 		""
@@ -6557,11 +6516,6 @@
 		"&aTip:&r Do jednoho dílu jde vložit víc stejných modulů – kolik, ukáže modifikační stanice."
 	]
 	quest.502028D8EC85A50B.title: "Modul energie"
-	quest.5021195E9AB3352E.quest_desc: [
-		"Úlomky mořského skla (&eSea Glass Shards&r) občas vypadnou při těžbě kalu."
-		"Spojíš je zpátky ve sklo, nebo z nich vyrobíš hlubinné sklo."
-	]
-	quest.5021195E9AB3352E.title: "Mořské sklo"
 	quest.50288924D216BDF3.quest_desc: ["Televize (&eTelevision&r) potřebuje elektřinu. Dálkovým ovladačem (&eTelevision Remote&r) ji ovládáš na dálku."]
 	quest.50288924D216BDF3.title: "Televize"
 	quest.502BF10FD13C4EA5.quest_desc: [
@@ -6630,13 +6584,6 @@
 		"&cPozor:&r Tohle jsou předměty z Pam's, ne bloky z Farmer's Delight. Prkénko a pánev se jmenují stejně, tak se v JEI dívej, z jakého jsou modu."
 	]
 	quest.5176C47A9CB5A0E5.title: "Kuchyňské nářadí"
-	quest.517867D4AE89B8EB.quest_desc: [
-		"Tremorzilla je obří radioaktivní dinosaurus s ničivým paprskem."
-		"Ochočíš ji krmením sudů s odpadem (&eWaste Drum&r). Ty vznikají v jaderné peci."
-		"Ochočenou Tremorzillu můžeš osedlat a ovládat její paprsek."
-	]
-	quest.517867D4AE89B8EB.quest_subtitle: "Expert"
-	quest.517867D4AE89B8EB.title: "Král příšer"
 	quest.5186B2ED963FDEFB.quest_desc: [
 		"Strážnice (&eGatehouse&r) ubytuje 2 strážné. Umí také propojit tvou kolonii s jinou kolonií."
 		"Blok budovy vyrobíš z prken, železného meče, luku a nástroje stavby."
@@ -7139,11 +7086,6 @@
 		"&aDo podlahy nebo střechy se hodí vlakový poklop (&eTrain Trapdoor&r).&r"
 	]
 	quest.5758FCAE6CBC0873.title: "Vlakové dveře"
-	quest.578F0104C2F8134F.quest_desc: [
-		"Rytíři hlubin nabízejí ve výměně kopí (&eOrtholance&r) a kouzelnou lasturu (&eMagic Conch&r). Mágové nabízejí hůl (&eSea Staff&r)."
-		"Kopí podržením nabiješ a vyrazíš vpřed s vlnou, která zraňuje. Lastura přivolá hlubinné na pomoc."
-	]
-	quest.578F0104C2F8134F.title: "Zbraně z hlubin"
 	quest.579935AC91050B3E.quest_desc: [
 		"Rudý magnet (&eScarlet Magnet&r) přitahuje kovové bloky, modrý (&eAzure Magnet&r) je odpuzuje."
 		"Pohne až 27 bloky najednou. Musí být kovové, nebo k nim přilepené slizovým blokem."
@@ -8853,13 +8795,6 @@
 		"Vyrábí se sekvenční montáží jako precizní strojek: na železný plát pokladače přidají ozubené kolečko, hřídel a mosazný nuget. Postup se opakuje 5×."
 	]
 	quest.6CEF27F130DEC054.title: "Gyroskopický mechanismus"
-	quest.6CF5C1251809287C.quest_desc: [
-		"Hullbreaker je obří ryba, delší než 15 bloků, se 400 body zdraví."
-		"Loví podle světla. Láká ho všechno, co svítí, i efekt Záře. Než zaútočí, krouží kolem a bliká."
-		"Po smrti vyplivne, co snědl: záhadný motor (&eEnigmatic Engine&r) i nesmrtelné embryo (&eImmortal Embryo&r)."
-	]
-	quest.6CF5C1251809287C.quest_subtitle: "Expert"
-	quest.6CF5C1251809287C.title: "Hullbreaker"
 	quest.6D06F4039E57FBF9.quest_desc: [
 		"Střelná bavlna (&eGuncotton&r) je silná výbušnina do granátů."
 		""
@@ -9360,13 +9295,6 @@
 		"&aTip:&r Z rafinovaného světlitu jsou i svítící nástroje a brnění z &bMekanism Tools&r."
 	]
 	quest.72930201846FF2AE.title: "Rafinovaný světlit"
-	quest.729618F11840BA96.quest_desc: [
-		"Hlubinní (Deep One) jsou tajemní obyvatelé rokle. Zpočátku tě sledují a utíkají před tebou."
-		"Když jsou blízko, polož na oltář perlu. Přinesou ti za ni něco na výměnu."
-		"Čím víc obchoduješ, tím víc tě mají rádi. Nakonec ti i pomáhají v boji."
-		"&cKdyž některého zraníš, všichni tě budou mít rádi míň a nakonec zaútočí.&r"
-	]
-	quest.729618F11840BA96.title: "Hlubinní"
 	quest.72B2259ABDADB3D8.quest_desc: [
 		"Pevnost je obrovská stavba z netherových cihel. Mod &bYUNG's Better Nether Fortresses&r ji přestavěl – je větší a má víc místností a truhel."
 		"Žijí v ní ohniváci (&eBlaze&r) a wither kostlivci (&eWither Skeleton&r). Roste tu i pekelná bradavice."

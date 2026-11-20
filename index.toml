@@ -46,7 +46,7 @@ hash = "cb6cc947c82758c04f205f5324d95706fc469884744ff1935e3ecaf9b3a2fb3a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/alexs_caves.snbt"
-hash = "fb90d6b9875437c9acb28ad3f194a74d47e0e1727b6f2a8638043c01fa75151b"
+hash = "5f71dbc00a03902d75388fa6e0c108cf0dfea5d10db727aaa6534ee688c23905"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/backpacks.snbt"
@@ -266,7 +266,7 @@ hash = "adf903a7caf4a65cf85964d76683a7814b6290bcc46146a060b45621ad1e337c"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "23c318f474d2def4fa38adbd7dc1b90572cfc4fa11ee58f5b988dc0c224b1144"
+hash = "cd56bc8cfabfce21759839ccfba2f1a87e7f22343d292cc798f23115175ace27"
 
 [[files]]
 file = "config/inventoryhud-client.toml"

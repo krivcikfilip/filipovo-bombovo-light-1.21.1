@@ -5064,32 +5064,6 @@
   ],
   "title": "Toxic Caves"
  },
- "alexs_caves/abyssal": {
-  "items": [
-   [
-    "alexscaves:sea_glass_shards",
-    1
-   ]
-  ],
-  "tasks": [],
-  "dep": [
-   "tablet"
-  ],
-  "title": "Abyssal Chasm"
- },
- "alexs_caves/submarine": {
-  "items": [
-   [
-    "alexscaves:submarine",
-    1
-   ]
-  ],
-  "tasks": [],
-  "dep": [
-   "abyssal"
-  ],
-  "title": "Submarine"
- },
  "alexs_caves/forlorn": {
   "items": [
    [
@@ -5175,45 +5149,6 @@
    "toxic"
   ],
   "title": "Raygun"
- },
- "alexs_caves/diving": {
-  "items": [
-   [
-    "alexscaves:diving_helmet",
-    1
-   ],
-   [
-    "alexscaves:diving_chestplate",
-    1
-   ],
-   [
-    "alexscaves:diving_leggings",
-    1
-   ],
-   [
-    "alexscaves:diving_boots",
-    1
-   ]
-  ],
-  "tasks": [],
-  "dep": [
-   "abyssal"
-  ],
-  "title": "Diving suit"
- },
- "alexs_caves/hullbreaker": {
-  "items": [],
-  "tasks": [
-   {
-    "type": "kill",
-    "entity": "alexscaves:hullbreaker",
-    "value": 1
-   }
-  ],
-  "dep": [
-   "submarine"
-  ],
-  "title": "Hullbreaker"
  },
  "alexs_caves/forsaken": {
   "items": [],

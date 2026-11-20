@@ -31,7 +31,6 @@ TASK_FIXES = {
     "aeronautics/levitite": "levitit nejde sebrat (noLootTable) -> advancement unidentified_floating_object",
     "aeronautics/islands": "aerolit padá jen jako větvička -> aeroscapes:quickslate z 9 větviček",
     "luminous/gilded": "gilded_piglin_trophy nejde získat (mob se nespawnuje) -> jiný získatelný předmět Luminous Nether",
-    "alexs_caves/submarine": "alexscaves:submarine nejde v survivalu získat jako předmět -> advancement ride_submarine",
 }
 ALLOWED_TASKS = {"item", "kill", "dimension", "biome", "structure", "advancement", "stat"}
 

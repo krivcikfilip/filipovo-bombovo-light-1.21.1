@@ -33,7 +33,7 @@
 				}
 			]
 			x: 0.0d
-			y: 10.868d
+			y: 9.641d
 		}
 		{
 			dependencies: ["07526533C5A0AB45"]
@@ -56,7 +56,7 @@
 				}
 			]
 			x: 1.75d
-			y: 10.868d
+			y: 9.641d
 		}
 		{
 			dependencies: ["03D668B7C5C5B07E"]
@@ -76,7 +76,7 @@
 				}
 			]
 			x: 3.5d
-			y: 10.118d
+			y: 8.891d
 		}
 		{
 			dependencies: ["03D668B7C5C5B07E"]
@@ -96,7 +96,7 @@
 				}
 			]
 			x: 3.5d
-			y: 11.618d
+			y: 10.391d
 		}
 		{
 			dependencies: [
@@ -123,7 +123,7 @@
 				}
 			]
 			x: 5.25d
-			y: 11.243d
+			y: 10.016d
 		}
 		{
 			dependencies: ["218C0CAE470E19F4"]
@@ -149,7 +149,7 @@
 				}
 			]
 			x: 7.0d
-			y: 11.243d
+			y: 10.016d
 		}
 		{
 			dependencies: ["07B497A2C6975754"]
@@ -169,7 +169,7 @@
 				}
 			]
 			x: 5.25d
-			y: 9.743d
+			y: 8.516d
 		}
 		{
 			dependencies: ["173A30ED082BF6DD"]
@@ -191,8 +191,8 @@
 					type: "biome"
 				}
 			]
-			x: 8.912d
-			y: 13.493d
+			x: 8.75d
+			y: 8.516d
 		}
 		{
 			dependencies: ["028A67D144062F9C"]
@@ -216,8 +216,8 @@
 					type: "item"
 				}
 			]
-			x: 11.893d
-			y: 16.193d
+			x: 11.188d
+			y: 7.766d
 		}
 		{
 			dependencies: ["5108FA81183881B5"]
@@ -241,8 +241,8 @@
 					type: "item"
 				}
 			]
-			x: 13.662d
-			y: 14.853d
+			x: 12.938d
+			y: 7.493d
 		}
 		{
 			dependencies: ["630C376A12E5FF6A"]
@@ -266,8 +266,8 @@
 					type: "item"
 				}
 			]
-			x: 15.889d
-			y: 13.5d
+			x: 14.688d
+			y: 4.5d
 		}
 		{
 			dependencies: ["630C376A12E5FF6A"]
@@ -288,8 +288,8 @@
 					type: "item"
 				}
 			]
-			x: 15.889d
-			y: 15.0d
+			x: 14.688d
+			y: 6.0d
 		}
 		{
 			dependencies: ["028A67D144062F9C"]
@@ -308,8 +308,8 @@
 					type: "item"
 				}
 			]
-			x: 11.893d
-			y: 17.693d
+			x: 11.188d
+			y: 9.266d
 		}
 		{
 			dependencies: [
@@ -331,8 +331,8 @@
 					type: "item"
 				}
 			]
-			x: 15.889d
-			y: 19.5d
+			x: 14.688d
+			y: 10.5d
 		}
 		{
 			dependencies: ["5108FA81183881B5"]
@@ -357,8 +357,8 @@
 					value: 1L
 				}
 			]
-			x: 13.662d
-			y: 16.353d
+			x: 12.938d
+			y: 8.993d
 		}
 		{
 			dependencies: [
@@ -380,8 +380,8 @@
 					type: "item"
 				}
 			]
-			x: 15.889d
-			y: 16.5d
+			x: 14.688d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -408,8 +408,8 @@
 					type: "item"
 				}
 			]
-			x: 15.889d
-			y: 18.0d
+			x: 14.688d
+			y: 9.0d
 		}
 		{
 			dependencies: ["173A30ED082BF6DD"]
@@ -431,8 +431,8 @@
 					type: "biome"
 				}
 			]
-			x: 8.912d
-			y: 7.493d
+			x: 8.75d
+			y: 7.016d
 		}
 		{
 			dependencies: ["7CE9B90F160FDF61"]
@@ -456,8 +456,8 @@
 					type: "item"
 				}
 			]
-			x: 11.893d
-			y: 4.193d
+			x: 11.188d
+			y: 1.766d
 		}
 		{
 			dependencies: ["7CE9B90F160FDF61"]
@@ -476,8 +476,8 @@
 					type: "item"
 				}
 			]
-			x: 11.893d
-			y: 0.693d
+			x: 11.188d
+			y: 3.266d
 		}
 		{
 			dependencies: ["1B5E779959EC8E19"]
@@ -496,8 +496,8 @@
 					type: "item"
 				}
 			]
-			x: 13.662d
-			y: 0.693d
+			x: 12.938d
+			y: 2.993d
 		}
 		{
 			dependencies: ["7CE9B90F160FDF61"]
@@ -521,8 +521,8 @@
 					type: "advancement"
 				}
 			]
-			x: 11.893d
-			y: 2.693d
+			x: 11.188d
+			y: 4.766d
 		}
 		{
 			dependencies: ["1A7BA8E9D9FF9F38"]
@@ -541,8 +541,8 @@
 					type: "item"
 				}
 			]
-			x: 13.662d
-			y: 2.45d
+			x: 12.938d
+			y: 1.493d
 		}
 		{
 			dependencies: ["03ADAED401D0C90A"]
@@ -571,7 +571,7 @@
 					type: "item"
 				}
 			]
-			x: 15.889d
+			x: 14.688d
 			y: 1.5d
 		}
 		{
@@ -591,7 +591,7 @@
 					type: "item"
 				}
 			]
-			x: 15.889d
+			x: 14.688d
 			y: 0.0d
 		}
 		{
@@ -617,7 +617,7 @@
 					value: 1L
 				}
 			]
-			x: 17.639d
+			x: 16.438d
 			y: 0.0d
 		}
 		{
@@ -637,7 +637,7 @@
 					type: "item"
 				}
 			]
-			x: 19.389d
+			x: 18.188d
 			y: 0.0d
 		}
 		{
@@ -660,8 +660,8 @@
 					type: "biome"
 				}
 			]
-			x: 8.912d
-			y: 8.993d
+			x: 8.75d
+			y: 11.516d
 		}
 		{
 			dependencies: ["2CBC7475AE21C488"]
@@ -680,8 +680,8 @@
 					type: "item"
 				}
 			]
-			x: 11.893d
-			y: 7.193d
+			x: 11.188d
+			y: 12.266d
 		}
 		{
 			dependencies: ["7E9A1228539E8975"]
@@ -701,8 +701,8 @@
 					type: "item"
 				}
 			]
-			x: 13.662d
-			y: 8.85d
+			x: 12.938d
+			y: 11.393d
 		}
 		{
 			dependencies: ["27EC6B1B36F86C2C"]
@@ -736,8 +736,8 @@
 					type: "item"
 				}
 			]
-			x: 15.889d
-			y: 10.5d
+			x: 14.688d
+			y: 12.0d
 		}
 		{
 			dependencies: ["2CBC7475AE21C488"]
@@ -756,8 +756,8 @@
 					type: "item"
 				}
 			]
-			x: 11.893d
-			y: 5.693d
+			x: 11.188d
+			y: 13.766d
 		}
 		{
 			dependencies: ["7E9A1228539E8975"]
@@ -776,8 +776,8 @@
 					type: "item"
 				}
 			]
-			x: 13.662d
-			y: 7.35d
+			x: 12.938d
+			y: 14.293d
 		}
 		{
 			dependencies: [
@@ -800,8 +800,8 @@
 					type: "item"
 				}
 			]
-			x: 15.889d
-			y: 7.5d
+			x: 14.688d
+			y: 13.5d
 		}
 		{
 			dependencies: ["00B57FB3254DE29B"]
@@ -826,8 +826,8 @@
 					type: "item"
 				}
 			]
-			x: 15.889d
-			y: 6.0d
+			x: 14.688d
+			y: 15.0d
 		}
 		{
 			dependencies: [
@@ -850,296 +850,8 @@
 					type: "item"
 				}
 			]
-			x: 15.889d
-			y: 3.0d
-		}
-		{
-			dependencies: [
-				"1B0C81A88186DBA9"
-				"6CF5C1251809287C"
-				"1CF15D4B968968A7"
-			]
-			id: "323D62A0CD65BF9E"
-			rewards: [
-				{
-					id: "3CE69B33D6BCD218"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [
-				{
-					id: "2220D64B17ED0A32"
-					item: { count: 1, id: "alexscaves:tremorzilla_egg" }
-					type: "item"
-				}
-			]
-			x: 19.389d
-			y: 2.5d
-		}
-		{
-			dependencies: [
-				"323D62A0CD65BF9E"
-				"6EAC1A844434D4AA"
-			]
-			icon: {
-				id: "alexscaves:waste_drum"
-			}
-			id: "517867D4AE89B8EB"
-			rewards: [
-				{
-					id: "220FF1ED950E0011"
-					type: "xp"
-					xp: 100
-				}
-			]
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [
-				{
-					advancement: "alexscaves:alexscaves/tame_tremorzilla"
-					criterion: ""
-					id: "1012BCE69524251B"
-					type: "advancement"
-				}
-			]
-			x: 21.139d
-			y: 4.25d
-		}
-		{
-			dependencies: ["173A30ED082BF6DD"]
-			icon: {
-				id: "alexscaves:abyssmarine"
-			}
-			id: "439224282AD8A241"
-			rewards: [
-				{
-					id: "76C9B4D45693001E"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [
-				{
-					biome: "alexscaves:abyssal_chasm"
-					id: "75369E3CCD3062DF"
-					type: "biome"
-				}
-			]
-			x: 8.912d
-			y: 10.493d
-		}
-		{
-			dependencies: ["439224282AD8A241"]
-			id: "5021195E9AB3352E"
-			rewards: [
-				{
-					id: "572EA6286EE35FCC"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [
-				{
-					id: "1708AFF96878AC08"
-					item: { count: 1, id: "alexscaves:sea_glass_shards" }
-					type: "item"
-				}
-			]
-			x: 11.893d
-			y: 8.693d
-		}
-		{
-			dependencies: ["5021195E9AB3352E"]
-			id: "24A661EFD522B1B1"
-			rewards: [
-				{
-					id: "1A26ABE12792875D"
-					type: "xp"
-					xp: 30
-				}
-			]
-			tasks: [
-				{
-					count: 6L
-					id: "1E6F10D7D9CDED6F"
-					item: { count: 1, id: "alexscaves:depth_glass" }
-					type: "item"
-				}
-			]
-			x: 13.662d
-			y: 5.35d
-		}
-		{
-			dependencies: ["439224282AD8A241"]
-			id: "0C9E4FA661E99592"
-			rewards: [
-				{
-					id: "5A84728CD2C28407"
-					type: "xp"
-					xp: 80
-				}
-			]
-			tasks: [
-				{
-					id: "5B92B3A9A9EC40B2"
-					item: { count: 1, id: "alexscaves:diving_helmet" }
-					type: "item"
-				}
-				{
-					id: "721E963E53314CCA"
-					item: { count: 1, id: "alexscaves:diving_chestplate" }
-					type: "item"
-				}
-				{
-					id: "30438C25776FAA57"
-					item: { count: 1, id: "alexscaves:diving_leggings" }
-					type: "item"
-				}
-				{
-					id: "3D49721A2388C727"
-					item: { count: 1, id: "alexscaves:diving_boots" }
-					type: "item"
-				}
-			]
-			x: 11.893d
-			y: 10.193d
-		}
-		{
-			dependencies: ["439224282AD8A241"]
-			id: "0C7E14C106B26142"
-			rewards: [
-				{
-					id: "09F155C6FB7856C8"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					count: 4L
-					id: "273F96A2EF4971F4"
-					item: { count: 1, id: "alexscaves:bioluminescent_torch" }
-					type: "item"
-				}
-			]
-			x: 11.893d
-			y: 11.693d
-		}
-		{
-			dependencies: ["5021195E9AB3352E"]
-			id: "388C3C25B0A3F964"
-			rewards: [
-				{
-					id: "18BB943AFC48C76C"
-					type: "xp"
-					xp: 30
-				}
-			]
-			tasks: [
-				{
-					id: "26E6D5C822587142"
-					item: { count: 1, id: "alexscaves:abyssal_altar" }
-					type: "item"
-				}
-			]
-			x: 13.662d
-			y: 10.35d
-		}
-		{
-			dependencies: ["388C3C25B0A3F964"]
-			icon: {
-				id: "alexscaves:pearl"
-			}
-			id: "729618F11840BA96"
-			rewards: [
-				{
-					id: "27DECE7D4DE7A87A"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					advancement: "alexscaves:alexscaves/trade_with_deep_one"
-					criterion: ""
-					id: "46EBF6A0ED12A254"
-					type: "advancement"
-				}
-			]
-			x: 15.889d
-			y: 9.0d
-		}
-		{
-			dependencies: ["729618F11840BA96"]
-			id: "578F0104C2F8134F"
-			optional: true
-			rewards: [
-				{
-					id: "62C07FDC56CCDDAD"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [
-				{
-					id: "6D7872542EE8E141"
-					item: { count: 1, id: "alexscaves:ortholance" }
-					type: "item"
-				}
-			]
-			x: 17.639d
-			y: 9.0d
-		}
-		{
-			dependencies: ["24A661EFD522B1B1"]
-			icon: {
-				id: "alexscaves:enigmatic_engine"
-			}
-			id: "0720C76EBA6006F1"
-			rewards: [
-				{
-					id: "1246A552B9A42407"
-					type: "xp"
-					xp: 60
-				}
-			]
-			tasks: [
-				{
-					advancement: "alexscaves:alexscaves/ride_submarine"
-					criterion: ""
-					id: "62AAFDB213943926"
-					type: "advancement"
-				}
-			]
-			x: 15.889d
-			y: 4.5d
-		}
-		{
-			dependencies: ["0720C76EBA6006F1"]
-			icon: {
-				id: "alexscaves:immortal_embryo"
-			}
-			id: "6CF5C1251809287C"
-			rewards: [
-				{
-					id: "1B535CDF20F93657"
-					type: "xp"
-					xp: 100
-				}
-			]
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [
-				{
-					entity: "alexscaves:hullbreaker"
-					id: "51E72DC51C4B14FF"
-					type: "kill"
-					value: 1L
-				}
-			]
-			x: 17.639d
-			y: 4.5d
+			x: 14.688d
+			y: 16.5d
 		}
 		{
 			dependencies: ["173A30ED082BF6DD"]
@@ -1161,8 +873,8 @@
 					type: "biome"
 				}
 			]
-			x: 8.912d
-			y: 14.993d
+			x: 8.75d
+			y: 13.016d
 		}
 		{
 			dependencies: ["4D70347F5FCEE26B"]
@@ -1181,8 +893,8 @@
 					type: "item"
 				}
 			]
-			x: 11.893d
-			y: 19.193d
+			x: 11.188d
+			y: 15.266d
 		}
 		{
 			dependencies: ["4D70347F5FCEE26B"]
@@ -1201,8 +913,8 @@
 					type: "item"
 				}
 			]
-			x: 11.893d
-			y: 20.693d
+			x: 11.188d
+			y: 16.766d
 		}
 		{
 			dependencies: ["4D70347F5FCEE26B"]
@@ -1227,8 +939,8 @@
 					value: 1L
 				}
 			]
-			x: 11.893d
-			y: 22.693d
+			x: 11.188d
+			y: 18.266d
 		}
 		{
 			dependencies: ["72111BA2231D5F6F"]
@@ -1252,8 +964,8 @@
 					type: "item"
 				}
 			]
-			x: 13.662d
-			y: 21.693d
+			x: 12.938d
+			y: 18.266d
 		}
 		{
 			dependencies: ["46485DCF7D8233E3"]
@@ -1272,8 +984,8 @@
 					type: "item"
 				}
 			]
-			x: 15.889d
-			y: 22.5d
+			x: 14.688d
+			y: 19.5d
 		}
 		{
 			dependencies: [
@@ -1300,8 +1012,8 @@
 					type: "item"
 				}
 			]
-			x: 15.889d
-			y: 21.0d
+			x: 14.688d
+			y: 18.0d
 		}
 		{
 			dependencies: ["173A30ED082BF6DD"]
@@ -1323,8 +1035,8 @@
 					type: "biome"
 				}
 			]
-			x: 8.912d
-			y: 11.993d
+			x: 8.75d
+			y: 10.016d
 		}
 		{
 			dependencies: ["2182B3E8FC048E0F"]
@@ -1348,8 +1060,8 @@
 					type: "item"
 				}
 			]
-			x: 11.893d
-			y: 13.193d
+			x: 11.188d
+			y: 6.266d
 		}
 		{
 			dependencies: ["54F856051CB82798"]
@@ -1368,8 +1080,8 @@
 					type: "item"
 				}
 			]
-			x: 13.662d
-			y: 11.853d
+			x: 12.938d
+			y: 4.493d
 		}
 		{
 			dependencies: ["54F856051CB82798"]
@@ -1388,8 +1100,8 @@
 					type: "item"
 				}
 			]
-			x: 13.662d
-			y: 13.353d
+			x: 12.938d
+			y: 5.993d
 		}
 		{
 			dependencies: ["2182B3E8FC048E0F"]
@@ -1408,8 +1120,8 @@
 					type: "item"
 				}
 			]
-			x: 11.893d
-			y: 14.693d
+			x: 11.188d
+			y: 10.766d
 		}
 		{
 			dependencies: [
@@ -1437,8 +1149,8 @@
 					value: 1L
 				}
 			]
-			x: 15.889d
-			y: 12.0d
+			x: 14.688d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4719FE669758E907"]
@@ -1457,8 +1169,8 @@
 					type: "item"
 				}
 			]
-			x: 17.639d
-			y: 12.0d
+			x: 16.438d
+			y: 3.0d
 		}
 	]
 }

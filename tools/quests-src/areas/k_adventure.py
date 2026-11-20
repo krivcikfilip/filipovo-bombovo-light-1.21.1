@@ -6,11 +6,12 @@ M = dict(shape="hexagon", size=1.5)
 # ---------------------------------------------------------------- ALEX'S CAVES
 ALEXSCAVES = dict(
     key="alexs_caves", group="explore", title="Alex's Caves",
-    subtitle="Šest vzácných jeskyní hluboko pod zemí", icon="alexscaves:cave_tablet",
+    subtitle="Vzácné jeskyně hluboko pod zemí", icon="alexscaves:cave_tablet",
     quests=[
         # ---------- Začátečník: jak jeskyně najít
         Q("intro", "Alex's Caves", tasks=[auto()], icon="alexscaves:cave_book", xp=10, s="Začátečník", **M, d=[
-            "&bAlex's Caves&r přidává šest vzácných jeskynních biomů hluboko pod zemí.",
+            "&bAlex's Caves&r přidává vzácné jeskynní biomy hluboko pod zemí.",
+            "V našem světě jich najdeš pět. Šestý, propastná rokle (&eAbyssal Chasm&r), vzniká jen pod hlubokým oceánem, a ten u nás uvnitř hranice světa není.",
             "Každý biom má vlastní tvory, suroviny, výbavu a bosse. Některé jsou velmi nebezpečné.",
             "Tady se naučíš jeskyně najít, přežít v nich a nakonec porazit jejich bosse.",
             "&aTip: Začni hledáním podzemní chatky. Jsou v ní kamenné tabulky, které tě k jeskyním dovedou.&r"]),
@@ -156,55 +157,6 @@ ALEXSCAVES = dict(
             "Jaderná bomba (&eNuclear Bomb&r) zničí obrovské okolí a všechny kolem ozáří.",
             "&cNikdy ji neodpaluj blízko své nebo cizí základny!&r",
             "&aZapálenou bombu ještě zneškodníš: klikni na ni pravým tlačítkem s nůžkami.&r"]),
-        Q("tremorzilla_egg", "Vejce Tremorzilly", dep=["luxtructosaurus", "hullbreaker", "nuclear_bomb"], items=[("alexscaves:tremorzilla_egg", 1)], xp=100, d=[
-            "Vejce Tremorzilly (&eTremorzilla Egg&r) složíš z tektonických úlomků, nesmrtelného embrya (&eImmortal Embryo&r) a vejce Tremorsaura.",
-            "Vejce Tremorsaura získáš, když dvěma ochočeným Tremorsaurům dáš dinosauří maso.",
-            "Vejce se samo nikdy nevylíhne. Vylíhne se jen díky jadernému výbuchu poblíž."]),
-        Q("tremorzilla", "Král příšer", dep=["tremorzilla_egg", "nuclear_furnace"], tasks=[adv("alexscaves:alexscaves/tame_tremorzilla")], icon="alexscaves:waste_drum", xp=100, s="Expert", **M, d=[
-            "Tremorzilla je obří radioaktivní dinosaurus s ničivým paprskem.",
-            "Ochočíš ji krmením sudů s odpadem (&eWaste Drum&r). Ty vznikají v jaderné peci.",
-            "Ochočenou Tremorzillu můžeš osedlat a ovládat její paprsek."]),
-
-        # ---------- Propastná rokle
-        Q("abyssal_enter", "Propastná rokle", dep=["map"], tasks=[biome("alexscaves:abyssal_chasm")], icon="alexscaves:abyssmarine", xp=40, d=[
-            "Propastná rokle je obří příkop pod oceánem. Nad tebou jsou stovky bloků vody a skoro úplná tma.",
-            "&cPotřebuješ dýchat pod vodou: lektvar dýchání pod vodou, potápěčskou helmu nebo ponorku.&r",
-            "Dno pokrývá kal (&eMuck&r), který tě zpomaluje."]),
-        Q("abyssal", "Mořské sklo", dep=["abyssal_enter"], items=[("alexscaves:sea_glass_shards", 1)], xp=40, d=[
-            "Úlomky mořského skla (&eSea Glass Shards&r) občas vypadnou při těžbě kalu.",
-            "Spojíš je zpátky ve sklo, nebo z nich vyrobíš hlubinné sklo."]),
-        Q("depth_glass", "Hlubinné sklo", dep=["abyssal"], items=[("alexscaves:depth_glass", 6)], xp=30, d=[
-            "Přes hlubinné sklo (&eDepth Glass&r) je ve vodě lépe vidět.",
-            "Z 5 úlomků mořského skla a 4 železných ingotů vznikne 8 skel.",
-            "Šest kusů budeš potřebovat na stavbu ponorky."]),
-        Q("diving", "Potápěčský oblek", dep=["abyssal_enter"], items=[("alexscaves:diving_helmet", 1), ("alexscaves:diving_chestplate", 1), ("alexscaves:diving_leggings", 1), ("alexscaves:diving_boots", 1)], xp=80, d=[
-            "Potápěčský oblek (&eDiving Helmet&r, &eDiving Chestplate&r, &eDiving Leggings&r, &eDiving Boots&r) nejde vyrobit.",
-            "Nosí ho utopenci v rokli a najdeš ho v truhlách podvodních ruin.",
-            "Helma prodlužuje dýchání pod vodou, kalhoty zrychlují plavání a boty chůzi po kalu."]),
-        Q("biolum", "Podvodní pochodně", dep=["abyssal_enter"], items=[("alexscaves:bioluminescent_torch", 4)], xp=25, d=[
-            "Svítící červ (Gossamer Worm) upustí bioluminiscenci (&eBioluminesscence&r).",
-            "Z ní a tyčky vyrobíš 4 pochodně (&eBioluminescent Torch&r), které svítí i pod vodou.",
-            "&aZ bioluminiscence a mořských hub (&ePing-Pong Sponge&r) je i plovák (&eFloater&r), který tě rychle vynese k hladině.&r"]),
-        Q("altar", "Propastný oltář", dep=["abyssal"], items=[("alexscaves:abyssal_altar", 1)], xp=30, d=[
-            "Perla (&ePearl&r) občas vypadne z mušle (&eMussel&r). Mušle rostou na pevných blocích na dně.",
-            "Oltář (&eAbyssal Altar&r) vyrobíš z perly a 4 bloků &eAbyssmarine&r."]),
-        Q("deep_ones", "Hlubinní", dep=["altar"], tasks=[adv("alexscaves:alexscaves/trade_with_deep_one")], icon="alexscaves:pearl", xp=50, d=[
-            "Hlubinní (Deep One) jsou tajemní obyvatelé rokle. Zpočátku tě sledují a utíkají před tebou.",
-            "Když jsou blízko, polož na oltář perlu. Přinesou ti za ni něco na výměnu.",
-            "Čím víc obchoduješ, tím víc tě mají rádi. Nakonec ti i pomáhají v boji.",
-            "&cKdyž některého zraníš, všichni tě budou mít rádi míň a nakonec zaútočí.&r"]),
-        Q("deep_gear", "Zbraně z hlubin", dep=["deep_ones"], items=[("alexscaves:ortholance", 1)], xp=40, optional=True, d=[
-            "Rytíři hlubin nabízejí ve výměně kopí (&eOrtholance&r) a kouzelnou lasturu (&eMagic Conch&r). Mágové nabízejí hůl (&eSea Staff&r).",
-            "Kopí podržením nabiješ a vyrazíš vpřed s vlnou, která zraňuje. Lastura přivolá hlubinné na pomoc."]),
-        Q("submarine", "Ponorka", dep=["depth_glass"], tasks=[adv("alexscaves:alexscaves/ride_submarine")], icon="alexscaves:enigmatic_engine", xp=60, d=[
-            "Ponorka (&eSubmarine&r) je kabina, ve které se dá dýchat. Má i světlomety. Quest splníš, když do ní nasedneš (pravé tlačítko).",
-            "Rozbitou ponorku najdeš v podvodních ruinách. Oprav ji měděnými ingoty, zelenou měď očisti sekerou.",
-            "Novou postavíš: obal záhadný motor (&eEnigmatic Engine&r) kostkou z bloků mědi a na přední stranu dej 6 hlubinných skel.",
-            "&cKdyž se blíží Hullbreaker, hned vypni světla!&r"]),
-        Q("hullbreaker", "Hullbreaker", dep=["submarine"], tasks=[kill("alexscaves:hullbreaker")], icon="alexscaves:immortal_embryo", xp=100, s="Expert", **M, d=[
-            "Hullbreaker je obří ryba, delší než 15 bloků, se 400 body zdraví.",
-            "Loví podle světla. Láká ho všechno, co svítí, i efekt Záře. Než zaútočí, krouží kolem a bliká.",
-            "Po smrti vyplivne, co snědl: záhadný motor (&eEnigmatic Engine&r) i nesmrtelné embryo (&eImmortal Embryo&r)."]),
 
         # ---------- Opuštěné dutiny
         Q("forlorn_enter", "Opuštěné dutiny", dep=["map"], tasks=[biome("alexscaves:forlorn_hollows")], icon="alexscaves:guanostone", xp=40, d=[
