@@ -1,0 +1,375 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "structures"
+	group: "76581968F62E459A"
+	icon: {
+		id: "minecraft:bell"
+	}
+	id: "4566D4B92928F04F"
+	order_index: 50
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:bell"
+			}
+			id: "2C56F56BB9D08CC8"
+			rewards: [
+				{
+					id: "729284F94EBDC682"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "7F366DC2DB10F84A"
+					stat: "minecraft:play_time"
+					type: "stat"
+					value: 1
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2C56F56BB9D08CC8"]
+			icon: {
+				id: "minecraft:bell"
+			}
+			id: "2A13571F48EAD5EC"
+			rewards: [
+				{
+					id: "090DDA953D21C4B6"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "5FAED1CBF14AB3FB"
+					structure: "#minecraft:village"
+					type: "structure"
+				}
+			]
+			x: 1.75d
+			y: 0.75d
+		}
+		{
+			dependencies: ["2A13571F48EAD5EC"]
+			icon: {
+				id: "minecraft:crossbow"
+			}
+			id: "484F9DC43F36C6B5"
+			rewards: [
+				{
+					id: "31E221FDAE8A5209"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "3B54F714FB4D0C5D"
+					structure: "#minecraft:pillager_outpost"
+					type: "structure"
+				}
+			]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C56F56BB9D08CC8"]
+			icon: {
+				id: "minecraft:barrel"
+			}
+			id: "7C030215012DC389"
+			rewards: [
+				{
+					id: "6CE657C99D6B736C"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "55C1BC61D2E1A182"
+					structure: "explorify:tavern"
+					type: "structure"
+				}
+			]
+			x: 1.75d
+			y: 2.25d
+		}
+		{
+			dependencies: ["2C56F56BB9D08CC8"]
+			icon: {
+				id: "create:white_sail"
+			}
+			id: "223568BB6E5E207E"
+			rewards: [
+				{
+					id: "2C51C393DA61816E"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "288DA0086D0E5A43"
+					structure: "create_structures_overhaul:oakwindmill"
+					type: "structure"
+				}
+			]
+			x: 1.75d
+			y: 5.25d
+		}
+		{
+			dependencies: ["2A13571F48EAD5EC"]
+			icon: {
+				id: "minecraft:stone_bricks"
+			}
+			id: "751D3AC6A075CB71"
+			rewards: [
+				{
+					id: "52803928BEF8ACBF"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "184CACF088D3E54F"
+					structure: "#terralith:fortified_villages"
+					type: "structure"
+				}
+			]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2C56F56BB9D08CC8"]
+			icon: {
+				id: "minecraft:cracked_stone_bricks"
+			}
+			id: "706EEB0644E303E5"
+			rewards: [
+				{
+					id: "2357B540E9A7A9B8"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "69D4CD3779392163"
+					structure: "mvs:castle_ruins"
+					type: "structure"
+				}
+			]
+			x: 1.75d
+			y: 3.75d
+		}
+		{
+			dependencies: [
+				"751D3AC6A075CB71"
+				"706EEB0644E303E5"
+			]
+			icon: {
+				id: "minecraft:iron_bars"
+			}
+			id: "196EBDD4F25169D0"
+			rewards: [
+				{
+					id: "31F7E1D2B00F926F"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "359EE815B02C4C56"
+					structure: "idas:castle"
+					type: "structure"
+				}
+			]
+			x: 5.25d
+			y: 2.625d
+		}
+		{
+			dependencies: ["196EBDD4F25169D0"]
+			icon: {
+				id: "minecraft:crossbow"
+			}
+			id: "1735099CA4BA0CD3"
+			rewards: [
+				{
+					id: "27B2DBB11B533A4E"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "334B0C33AC3ECC83"
+					structure: "idas:hunters_cabin"
+					type: "structure"
+				}
+			]
+			x: 7.0d
+			y: 0.703d
+		}
+		{
+			dependencies: ["196EBDD4F25169D0"]
+			icon: {
+				id: "minecraft:skeleton_skull"
+			}
+			id: "7E728C7FA23D8467"
+			rewards: [
+				{
+					id: "381E43AADFC65D34"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "3223FFEB246BC6A9"
+					structure: "idas:haunted_manor"
+					type: "structure"
+				}
+			]
+			x: 7.0d
+			y: 2.203d
+		}
+		{
+			dependencies: ["196EBDD4F25169D0"]
+			icon: {
+				id: "minecraft:enchanted_book"
+			}
+			id: "3CD80219E2F1CFD4"
+			rewards: [
+				{
+					id: "2506D65F8813710C"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "05F15DA659BE7AAB"
+					structure: "#terralith:mage_towers"
+					type: "structure"
+				}
+			]
+			x: 7.0d
+			y: 3.703d
+		}
+		{
+			dependencies: [
+				"223568BB6E5E207E"
+				"196EBDD4F25169D0"
+			]
+			icon: {
+				id: "create:railway_casing"
+			}
+			id: "734752DB74A8CBFD"
+			rewards: [
+				{
+					id: "694FB5BB8E7C40A5"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "28BA62BCD3D1CB08"
+					structure: "create_structures_arise:createlosttrainstation"
+					type: "structure"
+				}
+			]
+			x: 7.0d
+			y: 5.203d
+		}
+		{
+			dependencies: [
+				"1735099CA4BA0CD3"
+				"7E728C7FA23D8467"
+				"3CD80219E2F1CFD4"
+			]
+			icon: {
+				id: "minecraft:ominous_bottle"
+			}
+			id: "320B98A84E0B62FB"
+			rewards: [
+				{
+					id: "16D5C20CB4763D01"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "4B94F1753C5A76AA"
+					structure: "idas:pillager_fortress"
+					type: "structure"
+				}
+			]
+			x: 8.75d
+			y: 2.203d
+		}
+		{
+			dependencies: ["320B98A84E0B62FB"]
+			icon: {
+				id: "create:propeller"
+			}
+			id: "176851D13ABD371F"
+			rewards: [
+				{
+					id: "100405E6EE509090"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					id: "1B76F01B98BD08BE"
+					structure: "create_structures_arise:pillagersteampunkairship"
+					type: "structure"
+				}
+			]
+			x: 10.5d
+			y: 1.453d
+		}
+		{
+			dependencies: ["320B98A84E0B62FB"]
+			icon: {
+				id: "create:ochrum"
+			}
+			id: "734E10D61C4DC87F"
+			rewards: [
+				{
+					id: "48F46D7F4E88301A"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					id: "401DFF805D9FBF1A"
+					structure: "create_structures_arise:towerofochrum"
+					type: "structure"
+				}
+			]
+			x: 10.5d
+			y: 2.953d
+		}
+	]
+}

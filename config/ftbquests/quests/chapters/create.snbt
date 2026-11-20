@@ -2,15 +2,41 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "create"
-	group: "2EAA9718BAF5A32A"
+	group: "36387A651839BFDA"
 	icon: {
 		id: "create:cogwheel"
 	}
 	id: "22342087C3E31DF2"
-	order_index: 2
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
+			icon: {
+				id: "create:cogwheel"
+			}
+			id: "62AD74DB96E3E8CA"
+			rewards: [
+				{
+					id: "2D82206B87E7C6F2"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "0EF2E9DED94AB557"
+					stat: "minecraft:play_time"
+					type: "stat"
+					value: 1
+				}
+			]
+			x: 0.0d
+			y: 4.814d
+		}
+		{
+			dependencies: ["62AD74DB96E3E8CA"]
 			id: "312549E37E66FDF5"
 			rewards: [
 				{
@@ -27,8 +53,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 4.5d
+			x: 1.75d
+			y: 4.814d
 		}
 		{
 			dependencies: ["312549E37E66FDF5"]
@@ -59,8 +85,28 @@
 					type: "item"
 				}
 			]
-			x: 1.75d
-			y: 3.0d
+			x: 3.5d
+			y: 4.064d
+		}
+		{
+			dependencies: ["3A0F97042370EA0C"]
+			id: "58503B48E218D7A5"
+			rewards: [
+				{
+					id: "3977EBDFA26B5D7A"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "5DA73D302E283F8B"
+					item: { count: 1, id: "create:hand_crank" }
+					type: "item"
+				}
+			]
+			x: 5.942d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3A0F97042370EA0C"]
@@ -79,71 +125,35 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: 2.25d
+			x: 5.942d
+			y: 1.5d
 		}
 		{
-			dependencies: ["3FD1E196C8480A68"]
-			id: "77255D3C2EA07E44"
+			dependencies: ["312549E37E66FDF5"]
+			id: "246226A6919CF5ED"
 			rewards: [
 				{
-					id: "49E99300BB3810A6"
-					type: "xp"
-					xp: 20
-				}
-			]
-			tasks: [
-				{
-					id: "388FF9F1C2A1DBFB"
-					item: { count: 1, id: "create:goggles" }
-					type: "item"
-				}
-			]
-			x: 5.875d
-			y: 0.0d
-		}
-		{
-			dependencies: ["3A0F97042370EA0C"]
-			id: "35318D85DBDBF88B"
-			rewards: [
-				{
-					id: "73FD080F9EA10396"
+					id: "213B911380C4F348"
 					type: "xp"
 					xp: 15
 				}
 			]
 			tasks: [
 				{
-					id: "30BA5E631367D13A"
-					item: { count: 1, id: "create:wrench" }
+					count: 8L
+					id: "43E43950EED58961"
+					item: { count: 1, id: "create:andesite_casing" }
 					type: "item"
 				}
 			]
 			x: 3.5d
-			y: 3.75d
+			y: 7.564d
 		}
 		{
-			dependencies: ["3FD1E196C8480A68"]
-			id: "4978B86F57E43FCE"
-			rewards: [
-				{
-					id: "1B49DCDE264CDAD0"
-					type: "xp"
-					xp: 20
-				}
+			dependencies: [
+				"246226A6919CF5ED"
+				"3FD1E196C8480A68"
 			]
-			tasks: [
-				{
-					id: "48C1EFCB7B4D3FF6"
-					item: { count: 1, id: "create:millstone" }
-					type: "item"
-				}
-			]
-			x: 5.875d
-			y: 1.5d
-		}
-		{
-			dependencies: ["3FD1E196C8480A68"]
 			id: "41B89DC3CE373DEA"
 			rewards: [
 				{
@@ -159,8 +169,8 @@
 					type: "item"
 				}
 			]
-			x: 5.875d
-			y: 3.0d
+			x: 7.692d
+			y: 3.25d
 		}
 		{
 			dependencies: ["41B89DC3CE373DEA"]
@@ -180,11 +190,94 @@
 					type: "item"
 				}
 			]
-			x: 7.625d
-			y: 2.25d
+			x: 9.442d
+			y: 5.212d
 		}
 		{
-			dependencies: ["3FD1E196C8480A68"]
+			dependencies: ["41B89DC3CE373DEA"]
+			id: "77255D3C2EA07E44"
+			rewards: [
+				{
+					id: "49E99300BB3810A6"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "388FF9F1C2A1DBFB"
+					item: { count: 1, id: "create:goggles" }
+					type: "item"
+				}
+			]
+			x: 9.442d
+			y: 1.312d
+		}
+		{
+			dependencies: ["41B89DC3CE373DEA"]
+			id: "35318D85DBDBF88B"
+			rewards: [
+				{
+					id: "73FD080F9EA10396"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "30BA5E631367D13A"
+					item: { count: 1, id: "create:wrench" }
+					type: "item"
+				}
+			]
+			x: 9.442d
+			y: 3.312d
+		}
+		{
+			dependencies: ["246226A6919CF5ED"]
+			id: "141A49BCFA3B8B74"
+			rewards: [
+				{
+					id: "7C09C2FA4C8BCCE3"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "1C4A74900EAADDE6"
+					item: { count: 1, id: "create:depot" }
+					type: "item"
+				}
+			]
+			x: 5.942d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"246226A6919CF5ED"
+				"3FD1E196C8480A68"
+			]
+			id: "4978B86F57E43FCE"
+			rewards: [
+				{
+					id: "1B49DCDE264CDAD0"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "48C1EFCB7B4D3FF6"
+					item: { count: 1, id: "create:millstone" }
+					type: "item"
+				}
+			]
+			x: 7.692d
+			y: 4.75d
+		}
+		{
+			dependencies: ["3A0F97042370EA0C"]
 			id: "09FC33824A470023"
 			rewards: [
 				{
@@ -201,11 +294,11 @@
 					type: "item"
 				}
 			]
-			x: 5.875d
-			y: 6.0d
+			x: 5.942d
+			y: 8.0d
 		}
 		{
-			dependencies: ["09FC33824A470023"]
+			dependencies: ["776438D2CFD81BB2"]
 			id: "7BAE5A98D0EA2865"
 			rewards: [
 				{
@@ -221,8 +314,8 @@
 					type: "item"
 				}
 			]
-			x: 7.625d
-			y: 8.25d
+			x: 11.85d
+			y: 3.478d
 		}
 		{
 			dependencies: ["7BAE5A98D0EA2865"]
@@ -242,11 +335,11 @@
 					type: "item"
 				}
 			]
-			x: 9.375d
-			y: 6.75d
+			x: 13.78d
+			y: 4.878d
 		}
 		{
-			dependencies: ["41B89DC3CE373DEA"]
+			dependencies: ["776438D2CFD81BB2"]
 			id: "35E7FB9BFAB4A8C0"
 			rewards: [
 				{
@@ -267,8 +360,8 @@
 					type: "item"
 				}
 			]
-			x: 7.625d
-			y: 3.75d
+			x: 11.85d
+			y: 0.478d
 		}
 		{
 			dependencies: ["312549E37E66FDF5"]
@@ -288,35 +381,11 @@
 					type: "item"
 				}
 			]
-			x: 1.75d
-			y: 4.5d
+			x: 3.5d
+			y: 2.564d
 		}
 		{
-			dependencies: [
-				"35E7FB9BFAB4A8C0"
-				"041DC559B39F9318"
-			]
-			id: "532780D9DB293403"
-			rewards: [
-				{
-					id: "77849C0A428B5634"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [
-				{
-					count: 8L
-					id: "5000485110DD6245"
-					item: { count: 1, id: "create:brass_ingot" }
-					type: "item"
-				}
-			]
-			x: 9.375d
-			y: 5.25d
-		}
-		{
-			dependencies: ["35E7FB9BFAB4A8C0"]
+			dependencies: ["776438D2CFD81BB2"]
 			id: "358EE95E5EF85F32"
 			rewards: [
 				{
@@ -332,32 +401,220 @@
 					type: "item"
 				}
 			]
-			x: 9.375d
-			y: 3.75d
+			x: 11.85d
+			y: 4.978d
 		}
 		{
-			dependencies: ["312549E37E66FDF5"]
-			id: "246226A6919CF5ED"
+			dependencies: [
+				"35E7FB9BFAB4A8C0"
+				"041DC559B39F9318"
+				"358EE95E5EF85F32"
+			]
+			id: "532780D9DB293403"
 			rewards: [
 				{
-					id: "213B911380C4F348"
+					id: "77849C0A428B5634"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					count: 8L
+					id: "5000485110DD6245"
+					item: { count: 1, id: "create:brass_ingot" }
+					type: "item"
+				}
+			]
+			x: 13.78d
+			y: 2.378d
+		}
+		{
+			dependencies: ["246226A6919CF5ED"]
+			id: "606D7598F3CB0BAC"
+			rewards: [
+				{
+					id: "24E16B30EEF705C4"
 					type: "xp"
 					xp: 15
 				}
 			]
 			tasks: [
 				{
-					count: 8L
-					id: "43E43950EED58961"
-					item: { count: 1, id: "create:andesite_casing" }
+					count: 4L
+					id: "657EF94DDB8EF84F"
+					item: { count: 1, id: "create:copper_casing" }
 					type: "item"
 				}
 			]
-			x: 1.75d
-			y: 6.0d
+			x: 5.942d
+			y: 12.5d
 		}
 		{
-			dependencies: ["246226A6919CF5ED"]
+			dependencies: ["532780D9DB293403"]
+			id: "05C2800C8FB7FC81"
+			rewards: [
+				{
+					id: "656FE84A5FD38767"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "067A2CF2D1726BD4"
+					item: { count: 1, id: "create:brass_casing" }
+					type: "item"
+				}
+			]
+			x: 15.53d
+			y: 2.828d
+		}
+		{
+			dependencies: ["312549E37E66FDF5"]
+			id: "3C317427956C4A7A"
+			rewards: [
+				{
+					id: "3F61645A137B8152"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "500953D3B2FEA1A6"
+					item: { count: 1, id: "create:polished_rose_quartz" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 6.064d
+		}
+		{
+			dependencies: [
+				"3C317427956C4A7A"
+				"776438D2CFD81BB2"
+			]
+			id: "25C749FBB31AD3CD"
+			rewards: [
+				{
+					id: "12A9FCBE0CD655A0"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "74DF105F49AE6F4B"
+					item: { count: 1, id: "create:electron_tube" }
+					type: "item"
+				}
+			]
+			x: 11.85d
+			y: 6.478d
+		}
+		{
+			dependencies: [
+				"532780D9DB293403"
+				"25C749FBB31AD3CD"
+			]
+			id: "723048BF1737D4ED"
+			rewards: [
+				{
+					id: "69A743D485CE48A7"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "7AFCC06E45AB4893"
+					item: { count: 1, id: "create:deployer" }
+					type: "item"
+				}
+			]
+			x: 15.53d
+			y: 1.328d
+		}
+		{
+			dependencies: ["723048BF1737D4ED"]
+			id: "5F71DBB1A5D94585"
+			rewards: [
+				{
+					id: "48FD4C0AC005C37C"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "4C9184B7E053B900"
+					item: { count: 1, id: "create:precision_mechanism" }
+					type: "item"
+				}
+			]
+			x: 17.403d
+			y: 3.178d
+		}
+		{
+			dependencies: [
+				"05C2800C8FB7FC81"
+				"25C749FBB31AD3CD"
+			]
+			id: "3A66462861B4969E"
+			rewards: [
+				{
+					id: "14FEB3280F0458CD"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 9L
+					id: "5A2BEF9DA0A48CCC"
+					item: { count: 1, id: "create:mechanical_crafter" }
+					type: "item"
+				}
+			]
+			x: 17.403d
+			y: 6.465d
+		}
+		{
+			dependencies: [
+				"5F71DBB1A5D94585"
+				"05C2800C8FB7FC81"
+			]
+			id: "47E272DB2DB104B0"
+			rewards: [
+				{
+					id: "54CD87FB83645630"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "2FF73E02AF3E1B9A"
+					item: { count: 1, id: "create:mechanical_arm" }
+					type: "item"
+				}
+			]
+			x: 19.153d
+			y: 2.078d
+		}
+		{
+			dependencies: [
+				"246226A6919CF5ED"
+				"776438D2CFD81BB2"
+			]
 			id: "3F452D140A574530"
 			rewards: [
 				{
@@ -378,8 +635,8 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: 6.75d
+			x: 11.85d
+			y: 12.478d
 		}
 		{
 			dependencies: ["3F452D140A574530"]
@@ -403,8 +660,8 @@
 					type: "item"
 				}
 			]
-			x: 5.875d
-			y: 9.0d
+			x: 13.78d
+			y: 9.878d
 		}
 		{
 			dependencies: ["519DC7EB567A6482"]
@@ -429,8 +686,8 @@
 					type: "item"
 				}
 			]
-			x: 7.625d
-			y: 9.75d
+			x: 15.53d
+			y: 8.803d
 		}
 		{
 			dependencies: ["519DC7EB567A6482"]
@@ -450,92 +707,11 @@
 					type: "item"
 				}
 			]
-			x: 7.625d
-			y: 11.25d
+			x: 15.53d
+			y: 10.303d
 		}
 		{
-			dependencies: ["532780D9DB293403"]
-			id: "723048BF1737D4ED"
-			rewards: [
-				{
-					id: "69A743D485CE48A7"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [
-				{
-					id: "7AFCC06E45AB4893"
-					item: { count: 1, id: "create:deployer" }
-					type: "item"
-				}
-			]
-			x: 11.375d
-			y: 2.25d
-		}
-		{
-			dependencies: ["723048BF1737D4ED"]
-			id: "5F71DBB1A5D94585"
-			rewards: [
-				{
-					id: "48FD4C0AC005C37C"
-					type: "xp"
-					xp: 60
-				}
-			]
-			tasks: [
-				{
-					id: "4C9184B7E053B900"
-					item: { count: 1, id: "create:precision_mechanism" }
-					type: "item"
-				}
-			]
-			x: 13.125d
-			y: 2.25d
-		}
-		{
-			dependencies: ["532780D9DB293403"]
-			id: "25C749FBB31AD3CD"
-			rewards: [
-				{
-					id: "12A9FCBE0CD655A0"
-					type: "xp"
-					xp: 30
-				}
-			]
-			tasks: [
-				{
-					count: 4L
-					id: "74DF105F49AE6F4B"
-					item: { count: 1, id: "create:electron_tube" }
-					type: "item"
-				}
-			]
-			x: 11.375d
-			y: 3.75d
-		}
-		{
-			dependencies: ["5F71DBB1A5D94585"]
-			id: "47E272DB2DB104B0"
-			rewards: [
-				{
-					id: "54CD87FB83645630"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					id: "2FF73E02AF3E1B9A"
-					item: { count: 1, id: "create:mechanical_arm" }
-					type: "item"
-				}
-			]
-			x: 14.875d
-			y: 1.5d
-		}
-		{
-			dependencies: ["246226A6919CF5ED"]
+			dependencies: ["776438D2CFD81BB2"]
 			id: "55625BFA5DD44551"
 			rewards: [
 				{
@@ -563,11 +739,14 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: 8.25d
+			x: 11.85d
+			y: 10.478d
 		}
 		{
-			dependencies: ["55625BFA5DD44551"]
+			dependencies: [
+				"55625BFA5DD44551"
+				"606D7598F3CB0BAC"
+			]
 			id: "4328CD94686BFEBA"
 			rewards: [
 				{
@@ -583,8 +762,8 @@
 					type: "item"
 				}
 			]
-			x: 5.875d
-			y: 10.5d
+			x: 13.78d
+			y: 11.378d
 		}
 		{
 			dependencies: [
@@ -599,6 +778,8 @@
 					xp: 60
 				}
 			]
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [
 				{
 					id: "430E88A7E7850B82"
@@ -606,32 +787,11 @@
 					type: "item"
 				}
 			]
-			x: 11.375d
-			y: 5.25d
+			x: 13.78d
+			y: 8.378d
 		}
 		{
-			dependencies: ["5F71DBB1A5D94585"]
-			id: "3A66462861B4969E"
-			rewards: [
-				{
-					id: "14FEB3280F0458CD"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					count: 9L
-					id: "5A2BEF9DA0A48CCC"
-					item: { count: 1, id: "create:mechanical_crafter" }
-					type: "item"
-				}
-			]
-			x: 14.875d
-			y: 3.0d
-		}
-		{
-			dependencies: ["1C6FF91D4AC58B74"]
+			dependencies: ["3A66462861B4969E"]
 			id: "1A760F58BAC41BD4"
 			rewards: [
 				{
@@ -648,11 +808,11 @@
 					type: "item"
 				}
 			]
-			x: 13.125d
-			y: 5.25d
+			x: 19.153d
+			y: 6.465d
 		}
 		{
-			dependencies: ["532780D9DB293403"]
+			dependencies: ["776438D2CFD81BB2"]
 			id: "6A7A863777ED7392"
 			rewards: [
 				{
@@ -668,11 +828,11 @@
 					type: "item"
 				}
 			]
-			x: 11.375d
-			y: 6.75d
+			x: 11.85d
+			y: 8.978d
 		}
 		{
-			dependencies: ["532780D9DB293403"]
+			dependencies: ["3A0F97042370EA0C"]
 			id: "398876E1DCE7F037"
 			rewards: [
 				{
@@ -688,11 +848,15 @@
 					type: "item"
 				}
 			]
-			x: 11.375d
-			y: 8.25d
+			x: 5.942d
+			y: 11.0d
 		}
 		{
-			dependencies: ["398876E1DCE7F037"]
+			dependencies: [
+				"398876E1DCE7F037"
+				"5F71DBB1A5D94585"
+				"3A66462861B4969E"
+			]
 			id: "4233AD5385C33849"
 			rewards: [
 				{
@@ -708,8 +872,8 @@
 					type: "item"
 				}
 			]
-			x: 13.125d
-			y: 8.25d
+			x: 19.153d
+			y: 4.803d
 		}
 	]
 }

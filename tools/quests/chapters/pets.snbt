@@ -1,0 +1,371 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pets"
+	group: "76581968F62E459A"
+	icon: {
+		id: "minecraft:lead"
+	}
+	id: "30B8EFB28F81CA1A"
+	order_index: 52
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:lead"
+			}
+			id: "7D04401B64A23881"
+			rewards: [
+				{
+					id: "20CA89F4E294417C"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "5041A84A92AD045C"
+					stat: "minecraft:play_time"
+					type: "stat"
+					value: 1
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7D04401B64A23881"]
+			icon: {
+				id: "minecraft:bone"
+			}
+			id: "1FB7AE3697519BA6"
+			rewards: [
+				{
+					id: "041FA6273F3A8D75"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:husbandry/tame_an_animal"
+					criterion: ""
+					id: "41D7AE7BBB032FA0"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D04401B64A23881"]
+			id: "2F23EA8BB242092C"
+			rewards: [
+				{
+					id: "4C8D63E0BF50F3D6"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "3D6B5FCABC290E2D"
+					item: { count: 1, id: "adorablehamsterpets:cucumber_seeds" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2F23EA8BB242092C"]
+			id: "101E5568443CC3E1"
+			rewards: [
+				{
+					id: "315B5400404A42E2"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "6F779FECC8AF7061"
+					item: { count: 1, id: "adorablehamsterpets:sliced_cucumber" }
+					type: "item"
+				}
+			]
+			x: 3.75d
+			y: 1.5d
+		}
+		{
+			dependencies: ["101E5568443CC3E1"]
+			icon: {
+				id: "adorablehamsterpets:sliced_cucumber"
+			}
+			id: "545AE0121B265272"
+			rewards: [
+				{
+					id: "49C5325B0430D1AF"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					advancement: "adorablehamsterpets:husbandry/tame_hamster"
+					criterion: ""
+					id: "078CB43668F1720B"
+					type: "advancement"
+				}
+			]
+			x: 5.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["101E5568443CC3E1"]
+			id: "795A52315AC6E9AF"
+			rewards: [
+				{
+					id: "1785C1CF76362880"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "6DC467578A00DA21"
+					item: { count: 1, id: "adorablehamsterpets:hamster_guide_book" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 2.25d
+		}
+		{
+			dependencies: [
+				"545AE0121B265272"
+				"630858BC4F2894A2"
+			]
+			icon: {
+				id: "adorablehamsterpets:hamster_food_mix"
+			}
+			id: "3BB950357C9221AE"
+			rewards: [
+				{
+					id: "7865052E19C07B1C"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					advancement: "adorablehamsterpets:husbandry/cheeky_storage"
+					criterion: ""
+					id: "32175973A5808D29"
+					type: "advancement"
+				}
+			]
+			x: 7.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["545AE0121B265272"]
+			icon: {
+				id: "adorablehamsterpets:cheese"
+			}
+			id: "51B18ECE14000BC5"
+			rewards: [
+				{
+					id: "2BD4F409AFECE8EB"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "adorablehamsterpets:husbandry/shoulder_hamster"
+					criterion: ""
+					id: "3086C83F50878DB4"
+					type: "advancement"
+				}
+			]
+			x: 7.25d
+			y: 1.5d
+		}
+		{
+			dependencies: ["51B18ECE14000BC5"]
+			icon: {
+				id: "minecraft:diamond"
+			}
+			id: "64B0AD7BA9CC5D92"
+			rewards: [
+				{
+					id: "0C3C0D67D0299C0A"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					advancement: "adorablehamsterpets:husbandry/nose_for_treasure"
+					criterion: ""
+					id: "49E36DDE0CB96C7D"
+					type: "advancement"
+				}
+			]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7D04401B64A23881"]
+			id: "7C326FCD9109D543"
+			rewards: [
+				{
+					id: "1F57707F23EE4EA6"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "781E6E4E9003F0D8"
+					item: { count: 1, id: "crittersandcompanions:silk" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7C326FCD9109D543"]
+			id: "387545CBB8718513"
+			rewards: [
+				{
+					id: "7AADA3E82EACF259"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "2175327DE74FBD65"
+					item: { count: 1, id: "crittersandcompanions:grappling_hook" }
+					type: "item"
+				}
+			]
+			x: 3.75d
+			y: 3.0d
+		}
+		{
+			dependencies: ["387545CBB8718513"]
+			id: "2B031643B535337D"
+			rewards: [
+				{
+					id: "2DA49299D3372890"
+					type: "xp"
+					xp: 80
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "04A62D1032912756"
+					item: { count: 1, id: "crittersandcompanions:pearl_necklace_1" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["7D04401B64A23881"]
+			id: "084E7F48FADDED14"
+			rewards: [
+				{
+					id: "5488C043DF0B8738"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "2DC11FFB2914653C"
+					item: { count: 1, id: "fowlplay:scarecrow" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["084E7F48FADDED14"]
+			icon: {
+				id: "minecraft:arrow"
+			}
+			id: "388EB04250DC5886"
+			optional: true
+			rewards: [
+				{
+					id: "586BB525910B2ECC"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					advancement: "fowlplay:adventure/damage_flying_bird"
+					criterion: ""
+					id: "2F8F1E6692EF02D7"
+					type: "advancement"
+				}
+			]
+			x: 3.75d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7D04401B64A23881"]
+			id: "0EECD6E3DB70068B"
+			rewards: [
+				{
+					id: "34E2BAE9ADD6D6CC"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "71A1745874BEC4A9"
+					item: { count: 1, id: "autumnity:syrup_bottle" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0EECD6E3DB70068B"]
+			id: "24AC0C3876E683EA"
+			rewards: [
+				{
+					id: "5E8492BCCB9D366A"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "3C52A6E43BFCBD07"
+					item: { count: 1, id: "autumnity:pancake" }
+					type: "item"
+				}
+			]
+			x: 3.75d
+			y: 6.0d
+		}
+	]
+}

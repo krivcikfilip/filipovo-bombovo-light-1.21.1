@@ -1,14 +1,10 @@
 #!/usr/bin/env bash
-# Nainstaluje questy z tools/quests do packu (config/ftbquests/quests), přepočítá index a pushne.
+# Sestaví questy ze zdrojů (tools/quests-src/areas/*.py), zvaliduje je a nainstaluje do packu
+# (config/ftbquests/quests + kopie v tools/quests) a přepočítá packwiz index.
+# Commit a push dělej ručně až po kontrole.
 set -euo pipefail
 cd "$(dirname "$0")/.."
 PW="${PACKWIZ:-$(command -v packwiz || echo "$HOME/go/bin/packwiz")}"
-git pull --ff-only
-rm -rf config/ftbquests/quests
-mkdir -p config/ftbquests
-cp -R tools/quests config/ftbquests/quests
+python3 tools/quests-src/build.py --install
 "$PW" refresh
-git add -A
-git commit -m "FTB Quests: 27 tutoriálových kapitol, 447 questů"
-git push
-echo "HOTOVO - restartuj server, questy se načtou při startu."
+echo "HOTOVO - zkontroluj git diff, commitni a pushni; po restartu serveru se questy načtou."

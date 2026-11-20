@@ -1,0 +1,534 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "extradelight"
+	group: "27F7BE0CA4D022F8"
+	icon: {
+		id: "extradelight:oven"
+	}
+	id: "407988399B49B5F4"
+	order_index: 29
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["417A0B58BAD06B21"]
+			icon: {
+				id: "extradelight:mixing_bowl"
+			}
+			id: "2FE678C449C86B15"
+			rewards: [
+				{
+					id: "1245189FB016841C"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "2CEEAC9D32D90BF8"
+					stat: "minecraft:play_time"
+					type: "stat"
+					value: 1
+				}
+			]
+			x: 0.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["2FE678C449C86B15"]
+			id: "7E79CA5804E095EE"
+			rewards: [
+				{
+					id: "13CB50CA655A9CE5"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "57DE1C1516215765"
+					item: { count: 1, id: "extradelight:wooden_spoon" }
+					type: "item"
+				}
+				{
+					id: "4D0FF49A121FBBDB"
+					item: { count: 1, id: "extradelight:whisk" }
+					type: "item"
+				}
+			]
+			x: 2.438d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2FE678C449C86B15"]
+			id: "0A414D66DA9DA4EC"
+			rewards: [
+				{
+					id: "53DB06C49C36A787"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "567F6EEE7C7AF713"
+					item: { count: 1, id: "extradelight:mortar_stone" }
+					type: "item"
+				}
+				{
+					id: "62A74A578D7CC251"
+					item: { count: 1, id: "extradelight:pestle_stone" }
+					type: "item"
+				}
+			]
+			x: 2.438d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0A414D66DA9DA4EC"]
+			id: "40AB0739CF0F511D"
+			rewards: [
+				{
+					id: "67D47584CA97E96D"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "3127EF04DDACD55F"
+					item: { count: 1, id: "extradelight:flour" }
+					type: "item"
+				}
+			]
+			x: 4.188d
+			y: 5.54d
+		}
+		{
+			dependencies: [
+				"40AB0739CF0F511D"
+				"7E79CA5804E095EE"
+			]
+			id: "3E5844F576D286E5"
+			rewards: [
+				{
+					id: "20FC59165E0BE79B"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					count: 3L
+					id: "1C6C224E50229474"
+					item: { count: 1, id: "farmersdelight:wheat_dough" }
+					type: "item"
+				}
+			]
+			x: 5.938d
+			y: 3.197d
+		}
+		{
+			dependencies: ["40AB0739CF0F511D"]
+			id: "392705C4BFDED016"
+			optional: true
+			rewards: [
+				{
+					id: "368CDCC9783A192C"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "195B6DDD17DAB7E9"
+					item: { count: 1, id: "extradelight:dough_shaping" }
+					type: "item"
+				}
+			]
+			x: 5.938d
+			y: 6.197d
+		}
+		{
+			dependencies: ["2FE678C449C86B15"]
+			id: "1123DB6E908ABE34"
+			rewards: [
+				{
+					id: "0181514A08EDD25F"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "090E1FD1BF5A0EA5"
+					item: { count: 1, id: "extradelight:sheet" }
+					type: "item"
+				}
+				{
+					id: "49538AE60EA7AB9A"
+					item: { count: 1, id: "extradelight:tray" }
+					type: "item"
+				}
+				{
+					id: "3557FDE33549CE80"
+					item: { count: 1, id: "extradelight:loaf_pan" }
+					type: "item"
+				}
+			]
+			x: 2.438d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1123DB6E908ABE34"]
+			id: "0B1ABC78B4910DB6"
+			rewards: [
+				{
+					id: "0728D22C97FAF665"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "01CB250330A2E698"
+					item: { count: 1, id: "extradelight:egg_in_the_basket" }
+					type: "item"
+				}
+			]
+			x: 4.188d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2FE678C449C86B15"]
+			id: "3362A9FB7CFC6AA9"
+			rewards: [
+				{
+					id: "1D348ADF2A59F5A9"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "4AD9373A0F5F3B43"
+					item: { count: 1, id: "extradelight:evaporator" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7ADF0E5295E7662C"
+					item: { count: 1, id: "extradelight:salt" }
+					type: "item"
+				}
+			]
+			x: 2.438d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E79CA5804E095EE"]
+			id: "5C70DA530E408D14"
+			rewards: [
+				{
+					id: "04164F36B7201F1F"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "1D0D784F31972F73"
+					item: { count: 1, id: "extradelight:whipped_cream" }
+					type: "item"
+				}
+				{
+					id: "45F70935F544A72C"
+					item: { count: 1, id: "extradelight:butter" }
+					type: "item"
+				}
+			]
+			x: 4.188d
+			y: 4.04d
+		}
+		{
+			dependencies: [
+				"5C70DA530E408D14"
+				"40AB0739CF0F511D"
+				"0B1ABC78B4910DB6"
+			]
+			id: "1537A7BB912ACC66"
+			rewards: [
+				{
+					id: "626FE410D9C08EB2"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "7FBF2B94A5B1D2CF"
+					item: { count: 1, id: "extradelight:sugar_cookie" }
+					type: "item"
+				}
+			]
+			x: 5.938d
+			y: 4.697d
+		}
+		{
+			dependencies: ["2FE678C449C86B15"]
+			id: "55EF8C4102014A22"
+			optional: true
+			rewards: [
+				{
+					id: "62680A948CA2E3FB"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "1870CB0C28F3AF32"
+					item: { count: 1, id: "extradelight:drying_rack_item" }
+					type: "item"
+				}
+				{
+					id: "0EEC574C97E52362"
+					item: { count: 1, id: "extradelight:dried_fruit" }
+					type: "item"
+				}
+			]
+			x: 2.438d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2FE678C449C86B15"]
+			id: "4B7B1C9BAEB429C9"
+			rewards: [
+				{
+					id: "3BF0187184ABE60B"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "1CE267F7D2169A2F"
+					item: { count: 1, id: "extradelight:yeast_pot" }
+					type: "item"
+				}
+				{
+					id: "4EB0D88408CAC8D4"
+					item: { count: 1, id: "extradelight:yeast" }
+					type: "item"
+				}
+			]
+			x: 2.438d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4B7B1C9BAEB429C9"]
+			id: "5A039619F7F07405"
+			rewards: [
+				{
+					id: "1A6C62BE1D37DEE2"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "7450C5CF4A1F1388"
+					item: { count: 1, id: "extradelight:vinegar_pot" }
+					type: "item"
+				}
+				{
+					id: "1DAAE2092DF628E4"
+					item: { count: 1, id: "extradelight:vinegar" }
+					type: "item"
+				}
+			]
+			x: 4.188d
+			y: 1.14d
+		}
+		{
+			dependencies: [
+				"2FE678C449C86B15"
+				"2359A21812B76933"
+			]
+			id: "724FA60203D2F5B8"
+			rewards: [
+				{
+					id: "7DE01BDB9D42059B"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "6C530F1B0B8DB535"
+					item: { count: 1, id: "extradelight:melting_pot" }
+					type: "item"
+				}
+			]
+			x: 2.438d
+			y: 9.0d
+		}
+		{
+			dependencies: ["724FA60203D2F5B8"]
+			id: "746620FBEE0F8970"
+			rewards: [
+				{
+					id: "0489244F1643AF4F"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "6C0489B6528A4D98"
+					item: { count: 1, id: "extradelight:chiller" }
+					type: "item"
+				}
+				{
+					id: "63DE0E07146E31E6"
+					item: { count: 1, id: "extradelight:bar_mold" }
+					type: "item"
+				}
+			]
+			x: 4.188d
+			y: 9.0d
+		}
+		{
+			dependencies: ["746620FBEE0F8970"]
+			id: "71921454BEAD66FB"
+			rewards: [
+				{
+					id: "0B4EF6E74F0CFFEC"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "767E37190400D164"
+					item: { count: 1, id: "extradelight:milk_chocolate_bar" }
+					type: "item"
+				}
+			]
+			x: 5.938d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5A039619F7F07405"]
+			id: "17786125353785CC"
+			rewards: [
+				{
+					id: "3AC87621EA3D074C"
+					type: "xp"
+					xp: 35
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "52884D52BAE72F50"
+					item: { count: 1, id: "extradelight:vat" }
+					type: "item"
+				}
+				{
+					id: "3BF0C3E648497DD9"
+					item: { count: 1, id: "extradelight:lid" }
+					type: "item"
+				}
+			]
+			x: 5.938d
+			y: 1.14d
+		}
+		{
+			dependencies: [
+				"17786125353785CC"
+				"3362A9FB7CFC6AA9"
+			]
+			id: "61414051B4039DC0"
+			optional: true
+			rewards: [
+				{
+					id: "7D0E2E442136324E"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "3BDAF8CC44B5AB27"
+					item: { count: 1, id: "extradelight:kimchi_item" }
+					type: "item"
+				}
+			]
+			x: 7.688d
+			y: 0.09d
+		}
+		{
+			dependencies: ["2FE678C449C86B15"]
+			id: "591982ED21BD8D91"
+			optional: true
+			rewards: [
+				{
+					id: "5C96528077EBA1E1"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "64134EE92FBD96F4"
+					item: { count: 1, id: "extradelight:tap" }
+					type: "item"
+				}
+				{
+					id: "0148C7A4E52B36FE"
+					item: { count: 1, id: "extradelight:oak_sink" }
+					type: "item"
+				}
+			]
+			x: 2.438d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"17786125353785CC"
+				"57FFFCE7E7599421"
+			]
+			icon: {
+				id: "extradelight:netherite_spoon"
+			}
+			id: "245522639AA69B7C"
+			optional: true
+			rewards: [
+				{
+					id: "70DC5CAF072D6C94"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					advancement: "extradelight:hellskitchen"
+					criterion: ""
+					id: "477154488EBDFEB5"
+					type: "advancement"
+				}
+			]
+			x: 7.688d
+			y: 1.59d
+		}
+	]
+}

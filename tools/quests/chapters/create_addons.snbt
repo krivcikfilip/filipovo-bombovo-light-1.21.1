@@ -2,12 +2,12 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "create_addons"
-	group: "2EAA9718BAF5A32A"
+	group: "36387A651839BFDA"
 	icon: {
 		id: "createaddition:electric_motor"
 	}
 	id: "2BE3562A22DFA19F"
-	order_index: 3
+	order_index: 12
 	quest_links: [ ]
 	quests: [
 		{
@@ -31,10 +31,13 @@
 				}
 			]
 			x: 0.0d
-			y: 13.5d
+			y: 14.25d
 		}
 		{
-			dependencies: ["79D8069DA8C3D0CA"]
+			dependencies: [
+				"79D8069DA8C3D0CA"
+				"776438D2CFD81BB2"
+			]
 			id: "22D2094C2218685E"
 			rewards: [
 				{
@@ -56,11 +59,15 @@
 					type: "item"
 				}
 			]
-			x: 6.875d
+			x: 7.25d
 			y: 0.75d
 		}
 		{
-			dependencies: ["22D2094C2218685E"]
+			dependencies: [
+				"22D2094C2218685E"
+				"3A66462861B4969E"
+				"61F99C3720943661"
+			]
 			id: "3CFD936F658EFFBC"
 			rewards: [
 				{
@@ -69,6 +76,8 @@
 					xp: 40
 				}
 			]
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [
 				{
 					id: "7CC1F26A8F8C0F3B"
@@ -76,11 +85,16 @@
 					type: "item"
 				}
 			]
-			x: 8.625d
+			x: 9.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["22D2094C2218685E"]
+			dependencies: [
+				"22D2094C2218685E"
+				"3A66462861B4969E"
+				"61F99C3720943661"
+				"1DC9248C9E16C280"
+			]
 			id: "28B0FE898EF00ADE"
 			rewards: [
 				{
@@ -96,17 +110,20 @@
 					type: "item"
 				}
 			]
-			x: 8.625d
+			x: 9.0d
 			y: 1.5d
 		}
 		{
-			dependencies: ["3CFD936F658EFFBC"]
+			dependencies: [
+				"70C1E7953703AFFF"
+				"1966A23814567DDD"
+			]
 			id: "0BEF30D1EB408631"
 			rewards: [
 				{
 					id: "6C38CCA2D8C97902"
 					type: "xp"
-					xp: 30
+					xp: 40
 				}
 			]
 			tasks: [
@@ -117,17 +134,20 @@
 					type: "item"
 				}
 			]
-			x: 10.375d
+			x: 12.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["0BEF30D1EB408631"]
+			dependencies: [
+				"3CFD936F658EFFBC"
+				"1DC9248C9E16C280"
+			]
 			id: "70C1E7953703AFFF"
 			rewards: [
 				{
 					id: "6FCC2D9FCD4D5F66"
 					type: "xp"
-					xp: 30
+					xp: 40
 				}
 			]
 			tasks: [
@@ -137,11 +157,16 @@
 					type: "item"
 				}
 			]
-			x: 12.125d
+			x: 10.75d
 			y: 0.0d
 		}
 		{
-			dependencies: ["79D8069DA8C3D0CA"]
+			dependencies: [
+				"79D8069DA8C3D0CA"
+				"532780D9DB293403"
+				"55625BFA5DD44551"
+				"20C251FB37133E11"
+			]
 			id: "08872A8CC4E76912"
 			rewards: [
 				{
@@ -157,7 +182,7 @@
 					type: "item"
 				}
 			]
-			x: 6.875d
+			x: 7.25d
 			y: 2.25d
 		}
 		{
@@ -177,11 +202,15 @@
 					type: "item"
 				}
 			]
-			x: 8.625d
+			x: 9.0d
 			y: 3.0d
 		}
 		{
-			dependencies: ["04D28ABAB66EA4C1"]
+			dependencies: [
+				"04D28ABAB66EA4C1"
+				"519DC7EB567A6482"
+				"3A66462861B4969E"
+			]
 			id: "1895A796885301F6"
 			rewards: [
 				{
@@ -207,7 +236,7 @@
 					type: "item"
 				}
 			]
-			x: 10.375d
+			x: 10.75d
 			y: 3.0d
 		}
 		{
@@ -227,7 +256,7 @@
 					type: "item"
 				}
 			]
-			x: 12.125d
+			x: 12.5d
 			y: 3.0d
 		}
 		{
@@ -247,11 +276,14 @@
 					type: "item"
 				}
 			]
-			x: 13.875d
+			x: 14.25d
 			y: 3.0d
 		}
 		{
-			dependencies: ["79D8069DA8C3D0CA"]
+			dependencies: [
+				"79D8069DA8C3D0CA"
+				"312549E37E66FDF5"
+			]
 			id: "7A2AE46FF50DDAC7"
 			rewards: [
 				{
@@ -272,11 +304,14 @@
 					type: "item"
 				}
 			]
-			x: 6.875d
+			x: 7.25d
 			y: 3.75d
 		}
 		{
-			dependencies: ["7A2AE46FF50DDAC7"]
+			dependencies: [
+				"7A2AE46FF50DDAC7"
+				"246226A6919CF5ED"
+			]
 			id: "05BEB2E003546064"
 			rewards: [
 				{
@@ -292,11 +327,15 @@
 					type: "item"
 				}
 			]
-			x: 8.625d
+			x: 9.0d
 			y: 4.5d
 		}
 		{
-			dependencies: ["05BEB2E003546064"]
+			dependencies: [
+				"05BEB2E003546064"
+				"3A66462861B4969E"
+				"5CB7520DE09DB678"
+			]
 			id: "0A0A4B1BA3463AA0"
 			rewards: [
 				{
@@ -305,6 +344,8 @@
 					xp: 80
 				}
 			]
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [
 				{
 					count: 8L
@@ -318,11 +359,14 @@
 					type: "item"
 				}
 			]
-			x: 10.375d
+			x: 10.75d
 			y: 4.5d
 		}
 		{
-			dependencies: ["79D8069DA8C3D0CA"]
+			dependencies: [
+				"42F6A305042CC66C"
+				"1A760F58BAC41BD4"
+			]
 			id: "367BAA9CAEEA5812"
 			rewards: [
 				{
@@ -343,11 +387,14 @@
 					type: "item"
 				}
 			]
-			x: 6.875d
-			y: 5.25d
+			x: 9.0d
+			y: 21.75d
 		}
 		{
-			dependencies: ["367BAA9CAEEA5812"]
+			dependencies: [
+				"367BAA9CAEEA5812"
+				"358EE95E5EF85F32"
+			]
 			id: "5A179C358C71DE51"
 			rewards: [
 				{
@@ -356,6 +403,8 @@
 					xp: 60
 				}
 			]
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [
 				{
 					id: "02532814436462C5"
@@ -363,11 +412,14 @@
 					type: "item"
 				}
 			]
-			x: 8.625d
-			y: 6.0d
+			x: 10.75d
+			y: 21.0d
 		}
 		{
-			dependencies: ["367BAA9CAEEA5812"]
+			dependencies: [
+				"367BAA9CAEEA5812"
+				"4328CD94686BFEBA"
+			]
 			id: "4802CD65474C31EB"
 			rewards: [
 				{
@@ -383,11 +435,14 @@
 					type: "item"
 				}
 			]
-			x: 8.625d
-			y: 7.5d
+			x: 10.75d
+			y: 22.5d
 		}
 		{
-			dependencies: ["79D8069DA8C3D0CA"]
+			dependencies: [
+				"79D8069DA8C3D0CA"
+				"776438D2CFD81BB2"
+			]
 			id: "0E13FAA3AE690562"
 			rewards: [
 				{
@@ -403,11 +458,14 @@
 					type: "item"
 				}
 			]
-			x: 6.875d
-			y: 6.75d
+			x: 7.25d
+			y: 5.25d
 		}
 		{
-			dependencies: ["0E13FAA3AE690562"]
+			dependencies: [
+				"0E13FAA3AE690562"
+				"35E7FB9BFAB4A8C0"
+			]
 			id: "0A2AB0FB7111C443"
 			rewards: [
 				{
@@ -430,11 +488,14 @@
 					type: "item"
 				}
 			]
-			x: 8.625d
-			y: 9.0d
+			x: 9.0d
+			y: 6.0d
 		}
 		{
-			dependencies: ["79D8069DA8C3D0CA"]
+			dependencies: [
+				"79D8069DA8C3D0CA"
+				"246226A6919CF5ED"
+			]
 			id: "0B350F67A1EF82EF"
 			rewards: [
 				{
@@ -450,11 +511,16 @@
 					type: "item"
 				}
 			]
-			x: 6.875d
-			y: 8.25d
+			x: 7.25d
+			y: 6.75d
 		}
 		{
-			dependencies: ["79D8069DA8C3D0CA"]
+			dependencies: [
+				"79D8069DA8C3D0CA"
+				"3A66462861B4969E"
+				"5F71DBB1A5D94585"
+				"4328CD94686BFEBA"
+			]
 			id: "5CD64687DC1F0763"
 			rewards: [
 				{
@@ -475,11 +541,14 @@
 					type: "item"
 				}
 			]
-			x: 6.875d
-			y: 9.75d
+			x: 7.25d
+			y: 8.25d
 		}
 		{
-			dependencies: ["79D8069DA8C3D0CA"]
+			dependencies: [
+				"79D8069DA8C3D0CA"
+				"246226A6919CF5ED"
+			]
 			id: "06A9229F989167A6"
 			rewards: [
 				{
@@ -495,11 +564,17 @@
 					type: "item"
 				}
 			]
-			x: 6.875d
-			y: 11.25d
+			x: 7.25d
+			y: 9.75d
 		}
 		{
-			dependencies: ["79D8069DA8C3D0CA"]
+			dependencies: [
+				"79D8069DA8C3D0CA"
+				"532780D9DB293403"
+			]
+			icon: {
+				id: "create_hypertube:hypertube_entrance"
+			}
 			id: "00EB9BE4780EAA4D"
 			rewards: [
 				{
@@ -521,11 +596,18 @@
 					type: "item"
 				}
 			]
-			x: 6.875d
-			y: 12.75d
+			x: 7.25d
+			y: 11.25d
 		}
 		{
-			dependencies: ["79D8069DA8C3D0CA"]
+			dependencies: [
+				"79D8069DA8C3D0CA"
+				"723048BF1737D4ED"
+				"10376C3716ABC6C5"
+			]
+			icon: {
+				id: "createteleporters:teleporter"
+			}
 			id: "364C776C66B0B097"
 			rewards: [
 				{
@@ -541,11 +623,14 @@
 					type: "item"
 				}
 			]
-			x: 6.875d
-			y: 14.25d
+			x: 7.25d
+			y: 12.75d
 		}
 		{
-			dependencies: ["79D8069DA8C3D0CA"]
+			dependencies: [
+				"79D8069DA8C3D0CA"
+				"041DC559B39F9318"
+			]
 			id: "1279320F05578C4E"
 			rewards: [
 				{
@@ -562,11 +647,18 @@
 					type: "item"
 				}
 			]
-			x: 6.875d
-			y: 15.75d
+			x: 7.25d
+			y: 14.25d
 		}
 		{
-			dependencies: ["79D8069DA8C3D0CA"]
+			dependencies: [
+				"79D8069DA8C3D0CA"
+				"3A66462861B4969E"
+				"19E80DAA7656656D"
+			]
+			icon: {
+				id: "create_sa:brass_jetpack_chestplate"
+			}
 			id: "463007E46BAE9555"
 			rewards: [
 				{
@@ -582,11 +674,17 @@
 					type: "item"
 				}
 			]
-			x: 6.875d
-			y: 17.25d
+			x: 7.25d
+			y: 15.75d
 		}
 		{
-			dependencies: ["463007E46BAE9555"]
+			dependencies: [
+				"79D8069DA8C3D0CA"
+				"3A66462861B4969E"
+			]
+			icon: {
+				id: "create_sa:brass_drone_item"
+			}
 			id: "258C41DC54629FC2"
 			rewards: [
 				{
@@ -607,11 +705,14 @@
 					type: "item"
 				}
 			]
-			x: 8.625d
+			x: 7.25d
 			y: 17.25d
 		}
 		{
-			dependencies: ["79D8069DA8C3D0CA"]
+			dependencies: [
+				"79D8069DA8C3D0CA"
+				"532780D9DB293403"
+			]
 			id: "3D8A84366753A8E9"
 			rewards: [
 				{
@@ -632,11 +733,14 @@
 					type: "item"
 				}
 			]
-			x: 6.875d
+			x: 7.25d
 			y: 18.75d
 		}
 		{
-			dependencies: ["79D8069DA8C3D0CA"]
+			dependencies: [
+				"79D8069DA8C3D0CA"
+				"5F71DBB1A5D94585"
+			]
 			id: "525E98A131F9C8DD"
 			rewards: [
 				{
@@ -657,11 +761,14 @@
 					type: "item"
 				}
 			]
-			x: 6.875d
+			x: 7.25d
 			y: 20.25d
 		}
 		{
-			dependencies: ["79D8069DA8C3D0CA"]
+			dependencies: [
+				"79D8069DA8C3D0CA"
+				"55625BFA5DD44551"
+			]
 			id: "42F6A305042CC66C"
 			rewards: [
 				{
@@ -677,11 +784,17 @@
 					type: "item"
 				}
 			]
-			x: 6.875d
+			x: 7.25d
 			y: 21.75d
 		}
 		{
-			dependencies: ["79D8069DA8C3D0CA"]
+			dependencies: [
+				"79D8069DA8C3D0CA"
+				"723048BF1737D4ED"
+			]
+			icon: {
+				id: "createmechanicalcompanion:mechanical_wolf_link"
+			}
 			id: "5AD2ACD78CF935A7"
 			rewards: [
 				{
@@ -697,7 +810,7 @@
 					type: "item"
 				}
 			]
-			x: 6.875d
+			x: 7.25d
 			y: 23.25d
 		}
 		{
@@ -717,11 +830,14 @@
 					type: "item"
 				}
 			]
-			x: 6.875d
+			x: 7.25d
 			y: 24.75d
 		}
 		{
-			dependencies: ["79D8069DA8C3D0CA"]
+			dependencies: [
+				"79D8069DA8C3D0CA"
+				"25C749FBB31AD3CD"
+			]
 			id: "1D7A5D198B0058FC"
 			rewards: [
 				{
@@ -737,8 +853,158 @@
 					type: "item"
 				}
 			]
-			x: 6.875d
+			x: 7.25d
 			y: 26.25d
+		}
+		{
+			dependencies: ["3940988AD938A2FF"]
+			id: "1CC00E126A7BE00D"
+			optional: true
+			rewards: [
+				{
+					id: "46164A6257A78856"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "3CB0FF5F8435CDF3"
+					item: { count: 1, id: "create_wrapped:red_present" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 24.75d
+		}
+		{
+			dependencies: ["1D7A5D198B0058FC"]
+			icon: {
+				id: "minecraft:emerald"
+			}
+			id: "6E65828699E602E2"
+			rewards: [
+				{
+					id: "287541042389E3A3"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "trading_floor:money_money_money"
+					criterion: ""
+					id: "50B3C725AC594FF2"
+					type: "advancement"
+				}
+			]
+			x: 9.0d
+			y: 26.25d
+		}
+		{
+			dependencies: ["6E65828699E602E2"]
+			icon: {
+				id: "create:belt_connector"
+			}
+			id: "7162048B47B43800"
+			rewards: [
+				{
+					id: "664179A94E65EA29"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "trading_floor:drop_shipper"
+					criterion: ""
+					id: "53EFD256DF9E9B55"
+					type: "advancement"
+				}
+			]
+			x: 10.75d
+			y: 26.25d
+		}
+		{
+			dependencies: ["7162048B47B43800"]
+			icon: {
+				id: "minecraft:emerald_block"
+			}
+			id: "45A348495225D179"
+			rewards: [
+				{
+					id: "61A6E2EB292073C3"
+					type: "xp"
+					xp: 80
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "trading_floor:happy_jeff"
+					criterion: ""
+					id: "1724BBB4624E756A"
+					type: "advancement"
+				}
+			]
+			x: 12.5d
+			y: 26.25d
+		}
+		{
+			dependencies: ["79D8069DA8C3D0CA"]
+			icon: {
+				id: "minecraft:totem_of_undying"
+			}
+			id: "354F890F64451933"
+			optional: true
+			rewards: [
+				{
+					id: "3DBFF37C0AA00B76"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "3E185D3F168E0A1E"
+					structure: "create_ltab:kings_castle"
+					type: "structure"
+				}
+			]
+			x: 7.25d
+			y: 27.75d
+		}
+		{
+			dependencies: ["354F890F64451933"]
+			icon: {
+				id: "minecraft:goat_horn"
+			}
+			id: "7F51B2904EBC7F67"
+			optional: true
+			rewards: [
+				{
+					id: "321D6B8FF606AF13"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "create_ltab:evoker_king"
+					criterion: ""
+					id: "0336268699E23973"
+					type: "advancement"
+				}
+			]
+			x: 9.0d
+			y: 27.75d
 		}
 	]
 }

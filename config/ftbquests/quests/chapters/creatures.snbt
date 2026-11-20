@@ -7,10 +7,36 @@
 		id: "alexsmobs:animal_dictionary"
 	}
 	id: "213CD2B6F880FAFF"
-	order_index: 18
+	order_index: 51
 	quest_links: [ ]
 	quests: [
 		{
+			icon: {
+				id: "alexsmobs:animal_dictionary"
+			}
+			id: "20234661248DAEDE"
+			rewards: [
+				{
+					id: "376E4F7F88A04D83"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "517D9C79F0EE25D4"
+					stat: "minecraft:play_time"
+					type: "stat"
+					value: 1
+				}
+			]
+			x: 0.0d
+			y: 9.654d
+		}
+		{
+			dependencies: ["20234661248DAEDE"]
 			id: "1ECA32B112D22771"
 			rewards: [
 				{
@@ -26,8 +52,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 2.25d
+			x: 1.75d
+			y: 9.654d
 		}
 		{
 			dependencies: ["1ECA32B112D22771"]
@@ -46,8 +72,159 @@
 					type: "item"
 				}
 			]
-			x: 2.375d
+			x: 4.625d
+			y: 4.154d
+		}
+		{
+			dependencies: ["175163EF3C19610D"]
+			icon: {
+				id: "alexsmobs:banana"
+			}
+			id: "24AF5E7C455DC8DD"
+			rewards: [
+				{
+					id: "7B19188F19A69D51"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					advancement: "alexsmobs:alexsmobs/tame_capuchin"
+					criterion: ""
+					id: "279DCFA47CC06AC2"
+					type: "advancement"
+				}
+			]
+			x: 7.729d
 			y: 0.0d
+		}
+		{
+			dependencies: ["1ECA32B112D22771"]
+			id: "7F587B04E8DE96F8"
+			rewards: [
+				{
+					id: "75BE49FA358B071B"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "20CE8851EEF5BBD2"
+					item: { count: 1, id: "alexsmobs:roadrunner_feather" }
+					type: "item"
+				}
+			]
+			x: 4.625d
+			y: 5.654d
+		}
+		{
+			dependencies: ["7F587B04E8DE96F8"]
+			id: "35A3763D6EA7B449"
+			rewards: [
+				{
+					id: "0ECF85020976D0E9"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "20C1FE8B85D2405A"
+					item: { count: 1, id: "alexsmobs:roadrunner_boots" }
+					type: "item"
+				}
+			]
+			x: 7.729d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1ECA32B112D22771"]
+			id: "77E8B646A0048E38"
+			rewards: [
+				{
+					id: "34AE0F93B1C74840"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "5490B744032355BA"
+					item: { count: 1, id: "alexsmobs:bear_fur" }
+					type: "item"
+				}
+			]
+			x: 4.625d
+			y: 7.154d
+		}
+		{
+			dependencies: ["77E8B646A0048E38"]
+			icon: {
+				id: "minecraft:salmon"
+			}
+			id: "236A0E8A50259E25"
+			rewards: [
+				{
+					id: "0F21BEE3CDCEFC22"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					advancement: "alexsmobs:alexsmobs/tame_grizzly_bear"
+					criterion: ""
+					id: "6DBE6279BC7C014B"
+					type: "advancement"
+				}
+			]
+			x: 7.729d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1ECA32B112D22771"]
+			id: "46104BD3123B3DDD"
+			rewards: [
+				{
+					id: "7E16B37412ACDC15"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "0B95ACCBB05E06B5"
+					item: { count: 1, id: "alexsmobs:raccoon_tail" }
+					type: "item"
+				}
+			]
+			x: 4.625d
+			y: 10.654d
+		}
+		{
+			dependencies: [
+				"77E8B646A0048E38"
+				"46104BD3123B3DDD"
+			]
+			id: "0AE805B7023BEC43"
+			rewards: [
+				{
+					id: "0E5CF9C3AF556FF6"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "42D25F36CC356346"
+					item: { count: 1, id: "alexsmobs:frontier_cap" }
+					type: "item"
+				}
+			]
+			x: 7.729d
+			y: 9.5d
 		}
 		{
 			dependencies: ["1ECA32B112D22771"]
@@ -66,50 +243,350 @@
 					type: "item"
 				}
 			]
-			x: 2.375d
-			y: 1.5d
+			x: 4.625d
+			y: 15.154d
+		}
+		{
+			dependencies: ["106214D113B10ACB"]
+			id: "501216086ACF7A84"
+			rewards: [
+				{
+					id: "42BBED139D72D858"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "62198A3CAFD3E98C"
+					item: { count: 1, id: "alexsmobs:crocodile_chestplate" }
+					type: "item"
+				}
+			]
+			x: 7.729d
+			y: 17.0d
 		}
 		{
 			dependencies: ["1ECA32B112D22771"]
-			id: "7F587B04E8DE96F8"
+			id: "59EFCB07F0755BFC"
 			rewards: [
 				{
-					id: "75BE49FA358B071B"
+					id: "5A60DDBA2ECD3F18"
 					type: "xp"
 					xp: 25
 				}
 			]
 			tasks: [
 				{
-					id: "20CE8851EEF5BBD2"
-					item: { count: 1, id: "alexsmobs:roadrunner_feather" }
+					id: "48622ACDAB636176"
+					item: { count: 1, id: "alexsmobs:acacia_blossom" }
 					type: "item"
 				}
 			]
-			x: 2.375d
-			y: 3.0d
+			x: 4.625d
+			y: 17.654d
+		}
+		{
+			dependencies: ["59EFCB07F0755BFC"]
+			icon: {
+				id: "alexsmobs:acacia_blossom"
+			}
+			id: "7FBC76C000607A4D"
+			rewards: [
+				{
+					id: "501E34A941AD636B"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					advancement: "alexsmobs:alexsmobs/tame_elephant"
+					criterion: ""
+					id: "0591293013BF8633"
+					type: "advancement"
+				}
+			]
+			x: 7.729d
+			y: 18.5d
 		}
 		{
 			dependencies: ["1ECA32B112D22771"]
-			id: "77E8B646A0048E38"
+			icon: {
+				id: "alexsmobs:centipede_leg"
+			}
+			id: "689C65C0F1E4E1CE"
 			rewards: [
 				{
-					id: "34AE0F93B1C74840"
+					id: "4E9710FBD3EF27C4"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "alexsmobs:centipede_head"
+					id: "6939F963A799E7F6"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 4.625d
+			y: 9.154d
+		}
+		{
+			dependencies: ["689C65C0F1E4E1CE"]
+			id: "32338933224950A5"
+			rewards: [
+				{
+					id: "2285E0A0024939FB"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "3CFB22D6EAC7E6CE"
+					item: { count: 1, id: "alexsmobs:centipede_leggings" }
+					type: "item"
+				}
+			]
+			x: 7.729d
+			y: 11.0d
+		}
+		{
+			dependencies: ["689C65C0F1E4E1CE"]
+			id: "68CC08AA69654F63"
+			rewards: [
+				{
+					id: "0B526B9BE383E664"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "6FC839FF2DBCD85C"
+					item: { count: 1, id: "alexsmobs:emu_leggings" }
+					type: "item"
+				}
+			]
+			x: 7.729d
+			y: 1.5d
+		}
+		{
+			dependencies: ["689C65C0F1E4E1CE"]
+			id: "653B9B3580F4712E"
+			rewards: [
+				{
+					id: "46CC1FB842347635"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "61A67E6E6A62485E"
+					item: { count: 1, id: "alexsmobs:moose_headgear" }
+					type: "item"
+				}
+			]
+			x: 7.729d
+			y: 12.5d
+		}
+		{
+			dependencies: ["689C65C0F1E4E1CE"]
+			id: "65F904B3008C64EE"
+			rewards: [
+				{
+					id: "63C64CCA3E544849"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "7A02023B4C73FD46"
+					item: { count: 1, id: "alexsmobs:rocky_chestplate" }
+					type: "item"
+				}
+			]
+			x: 7.729d
+			y: 3.5d
+		}
+		{
+			dependencies: ["689C65C0F1E4E1CE"]
+			id: "5337CDC5DA3A13B5"
+			rewards: [
+				{
+					id: "0D5D92D6DE55C45F"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "2D564E0B5FF89B88"
+					item: { count: 1, id: "alexsmobs:froststalker_helmet" }
+					type: "item"
+				}
+			]
+			x: 7.729d
+			y: 14.0d
+		}
+		{
+			dependencies: ["689C65C0F1E4E1CE"]
+			id: "59DD68CCAC81C3E3"
+			rewards: [
+				{
+					id: "3A7C2FBD915BED6B"
 					type: "xp"
 					xp: 30
 				}
 			]
 			tasks: [
 				{
-					id: "5490B744032355BA"
-					item: { count: 1, id: "alexsmobs:bear_fur" }
+					id: "291C02A1E159710F"
+					item: { count: 1, id: "alexsmobs:fish_oil" }
 					type: "item"
 				}
 			]
-			x: 2.375d
-			y: 4.5d
+			x: 7.729d
+			y: 6.5d
 		}
 		{
+			dependencies: ["59DD68CCAC81C3E3"]
+			icon: {
+				id: "alexsmobs:falconry_glove"
+			}
+			id: "26DFF1520613ED2E"
+			rewards: [
+				{
+					id: "733880D5FE546B92"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					advancement: "alexsmobs:alexsmobs/tame_bald_eagle"
+					criterion: ""
+					id: "265BFDD1B9995834"
+					type: "advancement"
+				}
+			]
+			x: 9.479d
+			y: 6.0d
+		}
+		{
+			dependencies: ["689C65C0F1E4E1CE"]
+			id: "77DC14B5A033335A"
+			rewards: [
+				{
+					id: "41B27782FC2DE239"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "41C06F19289EF0C4"
+					item: { count: 1, id: "alexsmobs:rainbow_glass" }
+					type: "item"
+				}
+			]
+			x: 7.729d
+			y: 15.5d
+		}
+		{
+			dependencies: [
+				"68CC08AA69654F63"
+				"65F904B3008C64EE"
+			]
+			id: "79F70BE29DE7FA7C"
+			rewards: [
+				{
+					id: "2F5259B71601836E"
+					type: "xp"
+					xp: 80
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "7FE937AD3614AD32"
+					item: { count: 1, id: "alexsmobs:tarantula_hawk_wing" }
+					type: "item"
+				}
+			]
+			x: 9.479d
+			y: 2.25d
+		}
+		{
+			dependencies: ["79F70BE29DE7FA7C"]
+			id: "32D4803F81262D20"
+			rewards: [
+				{
+					id: "4BB2496C6A9BFDD1"
+					type: "xp"
+					xp: 120
+				}
+			]
+			tasks: [
+				{
+					id: "16255BF6F45C349F"
+					item: { count: 1, id: "alexsmobs:tarantula_hawk_elytra" }
+					type: "item"
+				}
+			]
+			x: 11.229d
+			y: 0.75d
+		}
+		{
+			dependencies: ["79F70BE29DE7FA7C"]
+			id: "01065B3FDB875A0D"
+			rewards: [
+				{
+					id: "10B79DACEB71D176"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "3D9D58A22EBAB69A"
+					item: { count: 1, id: "alexsmobs:enderiophage_rocket" }
+					type: "item"
+				}
+			]
+			x: 11.229d
+			y: 2.25d
+		}
+		{
+			dependencies: ["79F70BE29DE7FA7C"]
+			id: "5E69DFE167E8EB27"
+			rewards: [
+				{
+					id: "3D6AB30D69A094C1"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "676AA7449F82012E"
+					item: { count: 1, id: "alexsmobs:mimicream" }
+					type: "item"
+				}
+			]
+			x: 11.229d
+			y: 3.75d
+		}
+		{
+			dependencies: ["20234661248DAEDE"]
 			id: "465B3BBDB3340722"
 			rewards: [
 				{
@@ -125,8 +602,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 3.75d
+			x: 1.75d
+			y: 11.654d
 		}
 		{
 			dependencies: ["465B3BBDB3340722"]
@@ -145,11 +622,11 @@
 					type: "item"
 				}
 			]
-			x: 2.375d
-			y: 6.0d
+			x: 4.625d
+			y: 12.154d
 		}
 		{
-			dependencies: ["465B3BBDB3340722"]
+			dependencies: ["20234661248DAEDE"]
 			id: "6D1CDC40980D9EA3"
 			rewards: [
 				{
@@ -165,10 +642,35 @@
 					type: "item"
 				}
 			]
-			x: 2.375d
-			y: 7.5d
+			x: 1.75d
+			y: 13.154d
 		}
 		{
+			dependencies: ["6D1CDC40980D9EA3"]
+			icon: {
+				id: "minecraft:honeycomb"
+			}
+			id: "5EF91B5C3A70AF0F"
+			rewards: [
+				{
+					id: "77ABB1FF71460786"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					advancement: "naturalist:husbandry/feed_bear_honeycomb"
+					criterion: ""
+					id: "6739F0C4CADA6EC7"
+					type: "advancement"
+				}
+			]
+			x: 4.625d
+			y: 13.654d
+		}
+		{
+			dependencies: ["20234661248DAEDE"]
 			id: "2E82E1E9C5E6B5A0"
 			rewards: [
 				{
@@ -184,10 +686,11 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 5.25d
+			x: 1.75d
+			y: 6.654d
 		}
 		{
+			dependencies: ["20234661248DAEDE"]
 			id: "630858BC4F2894A2"
 			rewards: [
 				{
@@ -203,10 +706,11 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 6.75d
+			x: 1.75d
+			y: 8.154d
 		}
 		{
+			dependencies: ["54EEC7A1F47F8E29"]
 			id: "742B38091D6A60E7"
 			rewards: [
 				{
@@ -223,7 +727,7 @@
 				}
 			]
 			x: 0.0d
-			y: 8.25d
+			y: 6.829d
 		}
 	]
 }

@@ -1,0 +1,399 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_tools"
+	group: "36387A651839BFDA"
+	icon: {
+		id: "create:schematicannon"
+	}
+	id: "280E2CEF3853EB61"
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["35318D85DBDBF88B"]
+			icon: {
+				id: "create:wrench"
+			}
+			id: "5A0528F13AECD5F2"
+			rewards: [
+				{
+					id: "19C1CF49AB3991B2"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "1DD80A92646FE495"
+					stat: "minecraft:play_time"
+					type: "stat"
+					value: 1
+				}
+			]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"5A0528F13AECD5F2"
+				"77255D3C2EA07E44"
+			]
+			id: "4F4D5A7128B90C22"
+			rewards: [
+				{
+					id: "6421F3E5C40189C5"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "2A50052874C379A1"
+					item: { count: 1, id: "creategoggles:goggle_iron_helmet" }
+					type: "item"
+				}
+			]
+			x: 2.7d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A0528F13AECD5F2"]
+			id: "411F0CC31EA92442"
+			rewards: [
+				{
+					id: "3039032814A91568"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "0362946604E14955"
+					item: { count: 1, id: "create:clipboard" }
+					type: "item"
+				}
+			]
+			x: 2.7d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5A0528F13AECD5F2"]
+			id: "7054E71D7A76FCA7"
+			rewards: [
+				{
+					id: "539B47F05ECA746F"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "398574D0BB7EE199"
+					item: { count: 1, id: "create:crafting_blueprint" }
+					type: "item"
+				}
+			]
+			x: 2.7d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5A0528F13AECD5F2"]
+			id: "4CD4E7B4F1695920"
+			rewards: [
+				{
+					id: "6E72E2C63207778F"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "6A4FC24493ABFED1"
+					item: { count: 1, id: "create:brown_toolbox" }
+					type: "item"
+				}
+			]
+			x: 2.7d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"5A0528F13AECD5F2"
+				"398876E1DCE7F037"
+			]
+			id: "73592E38E1594132"
+			rewards: [
+				{
+					id: "6A9E78A8D09BF1D5"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "52E44EE6610EC812"
+					item: { count: 1, id: "create:copper_diving_helmet" }
+					type: "item"
+				}
+				{
+					id: "0B13396D088C979F"
+					item: { count: 1, id: "create:copper_diving_boots" }
+					type: "item"
+				}
+			]
+			x: 2.7d
+			y: 2.0d
+		}
+		{
+			dependencies: ["73592E38E1594132"]
+			id: "4C295028B86C89AD"
+			rewards: [
+				{
+					id: "0B628A236B78334C"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "4ED23663D8ECB67E"
+					item: { count: 1, id: "create:netherite_diving_helmet" }
+					type: "item"
+				}
+				{
+					id: "576D55853E4B6A68"
+					item: { count: 1, id: "create:netherite_backtank" }
+					type: "item"
+				}
+			]
+			x: 4.45d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"5A0528F13AECD5F2"
+				"398876E1DCE7F037"
+			]
+			id: "01348E95F8E0B8F7"
+			rewards: [
+				{
+					id: "3D7D6F0C453F5497"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "50609AC4637FD1FA"
+					item: { count: 1, id: "creategoggles:iron_backtank" }
+					type: "item"
+				}
+			]
+			x: 2.7d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"5A0528F13AECD5F2"
+				"5F71DBB1A5D94585"
+				"3A66462861B4969E"
+			]
+			id: "5E9EE09647AEC9B3"
+			rewards: [
+				{
+					id: "408C5CDDAB4C795D"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "257E10EE9DB51975"
+					item: { count: 1, id: "create:extendo_grip" }
+					type: "item"
+				}
+			]
+			x: 2.7d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"5E9EE09647AEC9B3"
+				"55625BFA5DD44551"
+			]
+			id: "6B4D06D4AB738B14"
+			rewards: [
+				{
+					id: "6243E94FC722E731"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "6096F1D9FA4D1881"
+					item: { count: 1, id: "create:potato_cannon" }
+					type: "item"
+				}
+			]
+			x: 4.45d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5E9EE09647AEC9B3"]
+			id: "404955A3B5027ACB"
+			optional: true
+			rewards: [
+				{
+					id: "77FD75542A136462"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "6FD2C2142CCC39AC"
+					item: { count: 1, id: "create:wand_of_symmetry" }
+					type: "item"
+				}
+			]
+			x: 4.45d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"5A0528F13AECD5F2"
+				"620C1C8B6F5E3201"
+			]
+			id: "42A129A821DA9AB1"
+			rewards: [
+				{
+					id: "2C94C046B26409E7"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "179F013C32455CDC"
+					item: { count: 1, id: "create:linked_controller" }
+					type: "item"
+				}
+			]
+			x: 2.7d
+			y: 13.0d
+		}
+		{
+			dependencies: ["5A0528F13AECD5F2"]
+			id: "47D3F3A0AB4C8C45"
+			rewards: [
+				{
+					id: "62A2CC67B23A9736"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "21A2D3DA355C6673"
+					item: { count: 1, id: "create:schematic_and_quill" }
+					type: "item"
+				}
+			]
+			x: 2.7d
+			y: 6.5d
+		}
+		{
+			dependencies: ["47D3F3A0AB4C8C45"]
+			id: "1D76860F67F0A92A"
+			rewards: [
+				{
+					id: "61E26D7E23C5DF57"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "77BE34378CF8DB0D"
+					item: { count: 1, id: "create:schematic_table" }
+					type: "item"
+				}
+			]
+			x: 4.45d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1D76860F67F0A92A"]
+			id: "0D5F99EF889EBD90"
+			rewards: [
+				{
+					id: "6DA4385D54425380"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "02DC739CE9870C3C"
+					item: { count: 1, id: "create:schematic" }
+					type: "item"
+				}
+			]
+			x: 6.2d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0D5F99EF889EBD90"]
+			id: "20F9DC538CC7BA8C"
+			rewards: [
+				{
+					id: "3E29ED6DE9F8516D"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "3A3F183902E36C0B"
+					item: { count: 1, id: "create:schematicannon" }
+					type: "item"
+				}
+			]
+			x: 7.95d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"4233AD5385C33849"
+				"4C295028B86C89AD"
+			]
+			id: "6B81F853DB48C92C"
+			rewards: [
+				{
+					id: "097D44F5D6579DA4"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "62C788D7B8F89406"
+					item: { count: 1, id: "create_jetpack:netherite_jetpack" }
+					type: "item"
+				}
+			]
+			x: 6.2d
+			y: 1.5d
+		}
+	]
+}

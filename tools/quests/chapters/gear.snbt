@@ -7,10 +7,56 @@
 		id: "spartanshieldsunofficial:iron_tower_shield"
 	}
 	id: "459194B83D1E22FC"
-	order_index: 26
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
+			icon: {
+				id: "minecraft:iron_sword"
+			}
+			id: "63BF2434DC52102E"
+			rewards: [
+				{
+					id: "21ACC774B6CFB86A"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "3C0F87F60EBC6944"
+					stat: "minecraft:play_time"
+					type: "stat"
+					value: 1
+				}
+			]
+			x: 0.0d
+			y: 6.75d
+		}
+		{
+			dependencies: ["63BF2434DC52102E"]
+			id: "2380CAF13A3E7EB4"
+			rewards: [
+				{
+					id: "64B3449DB83DCACD"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "2F3AD9971BBE9ACC"
+					item: { count: 1, id: "spartanshieldsunofficial:wooden_basic_shield" }
+					type: "item"
+				}
+			]
+			x: 2.175d
+			y: 2.25d
+		}
+		{
+			dependencies: ["2380CAF13A3E7EB4"]
 			id: "28147E35103238FC"
 			rewards: [
 				{
@@ -26,11 +72,34 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 0.0d
+			x: 3.925d
+			y: 1.25d
 		}
 		{
-			dependencies: ["28147E35103238FC"]
+			dependencies: ["2380CAF13A3E7EB4"]
+			id: "743AAF6C859F6819"
+			rewards: [
+				{
+					id: "5F9E0FEA4F39B7F0"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "7313B0F55B228A98"
+					item: { count: 1, id: "spartanshieldsunofficial:wooden_tower_shield" }
+					type: "item"
+				}
+			]
+			x: 3.925d
+			y: 2.75d
+		}
+		{
+			dependencies: [
+				"743AAF6C859F6819"
+				"28147E35103238FC"
+			]
 			id: "7B400666C2BE7F7A"
 			rewards: [
 				{
@@ -46,7 +115,31 @@
 					type: "item"
 				}
 			]
-			x: 1.75d
+			x: 5.675d
+			y: 1.5d
+		}
+		{
+			dependencies: ["28147E35103238FC"]
+			icon: {
+				id: "minecraft:arrow"
+			}
+			id: "501F475929CEBB59"
+			rewards: [
+				{
+					id: "62D0A6E50FE0FF99"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:story/deflect_arrow"
+					criterion: ""
+					id: "063163491A94258A"
+					type: "advancement"
+				}
+			]
+			x: 5.675d
 			y: 0.0d
 		}
 		{
@@ -66,10 +159,221 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: 0.0d
+			x: 7.425d
+			y: 1.5d
 		}
 		{
+			dependencies: ["28147E35103238FC"]
+			id: "4EDD2E1AB99F697A"
+			optional: true
+			rewards: [
+				{
+					id: "611F9D7EBCA48F4E"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "4DBC750D34A78C2C"
+					item: { count: 1, id: "spartanshieldsunofficial:obsidian_basic_shield" }
+					type: "item"
+				}
+			]
+			x: 5.675d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"788327B17F0A09FF"
+				"023AF47BB34DE51D"
+			]
+			id: "13707900F01BBA47"
+			rewards: [
+				{
+					id: "11B3EFED12FEE5ED"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "19A1847AF3660341"
+					item: { count: 1, id: "spartanshieldsunofficial:netherite_tower_shield" }
+					type: "item"
+				}
+			]
+			x: 9.175d
+			y: 2.925d
+		}
+		{
+			dependencies: ["63BF2434DC52102E"]
+			id: "47C13B6093DFBC98"
+			rewards: [
+				{
+					id: "4929C4CAB48DAB22"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "6FBDF4EBD58ED268"
+					item: { count: 1, id: "minecraft:bow" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "3E8C27FF865906F3"
+					item: { count: 1, id: "minecraft:arrow" }
+					type: "item"
+				}
+			]
+			x: 2.175d
+			y: 3.75d
+		}
+		{
+			dependencies: ["47C13B6093DFBC98"]
+			icon: {
+				id: "minecraft:crossbow"
+			}
+			id: "251BE5D224975F45"
+			optional: true
+			rewards: [
+				{
+					id: "5D8AF563840C81E6"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:adventure/ol_betsy"
+					criterion: ""
+					id: "49A06A62677ABAE9"
+					type: "advancement"
+				}
+			]
+			x: 3.925d
+			y: 4.25d
+		}
+		{
+			dependencies: ["63BF2434DC52102E"]
+			id: "65BFA83E471597EF"
+			rewards: [
+				{
+					id: "2A314515B21053A0"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "19211938ABC34D50"
+					item: { count: 1, id: "minecraft:golden_apple" }
+					type: "item"
+				}
+			]
+			x: 2.175d
+			y: 5.25d
+		}
+		{
+			dependencies: ["63BF2434DC52102E"]
+			id: "57D089E0D258B85B"
+			rewards: [
+				{
+					id: "28C9ADDF1C10C8BF"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "538CEE36E2BC19B8"
+					item: { count: 1, id: "minecraft:diamond_sword" }
+					type: "item"
+				}
+			]
+			x: 2.175d
+			y: 6.75d
+		}
+		{
+			dependencies: ["57D089E0D258B85B"]
+			icon: {
+				id: "minecraft:diamond_chestplate"
+			}
+			id: "7400D20955D7FBC3"
+			rewards: [
+				{
+					id: "7320A0214FF1653F"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "minecraft:story/shiny_gear"
+					criterion: ""
+					id: "194AECD13A8E9F02"
+					type: "advancement"
+				}
+			]
+			x: 3.925d
+			y: 6.75d
+		}
+		{
+			dependencies: ["7400D20955D7FBC3"]
+			icon: {
+				id: "minecraft:sentry_armor_trim_smithing_template"
+			}
+			id: "0CB19429D18F7274"
+			rewards: [
+				{
+					id: "0DBD994FC1D6CB16"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:adventure/trim_with_any_armor_pattern"
+					criterion: ""
+					id: "391ADFB3D272DCC2"
+					type: "advancement"
+				}
+			]
+			x: 5.675d
+			y: 5.25d
+		}
+		{
+			dependencies: ["0CB19429D18F7274"]
+			icon: {
+				id: "minecraft:silence_armor_trim_smithing_template"
+			}
+			id: "30AC080826CD4D00"
+			optional: true
+			rewards: [
+				{
+					id: "654F93A6448A1CB8"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:adventure/trim_with_all_exclusive_armor_patterns"
+					criterion: ""
+					id: "4A74EEEB4FC8EC49"
+					type: "advancement"
+				}
+			]
+			x: 7.425d
+			y: 6.05d
+		}
+		{
+			dependencies: ["7400D20955D7FBC3"]
 			id: "023AF47BB34DE51D"
 			rewards: [
 				{
@@ -85,8 +389,34 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 1.5d
+			x: 5.675d
+			y: 6.75d
+		}
+		{
+			dependencies: ["023AF47BB34DE51D"]
+			icon: {
+				id: "minecraft:netherite_chestplate"
+			}
+			id: "380CEDA0DCA34A90"
+			rewards: [
+				{
+					id: "2E9A075772894B7C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "minecraft:nether/netherite_armor"
+					criterion: ""
+					id: "739369B206B6A9AC"
+					type: "advancement"
+				}
+			]
+			x: 7.425d
+			y: 7.55d
 		}
 		{
 			dependencies: ["023AF47BB34DE51D"]
@@ -105,8 +435,28 @@
 					type: "item"
 				}
 			]
-			x: 1.75d
-			y: 1.5d
+			x: 7.425d
+			y: 9.05d
+		}
+		{
+			dependencies: ["67CF1D6C34601F93"]
+			id: "59780CB512650019"
+			rewards: [
+				{
+					id: "2CE20F8D8257C013"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					id: "7C60CD4488A30E4C"
+					item: { count: 1, id: "advancednetherite:netherite_iron_pickaxe" }
+					type: "item"
+				}
+			]
+			x: 9.175d
+			y: 11.09d
 		}
 		{
 			dependencies: ["67CF1D6C34601F93"]
@@ -125,8 +475,8 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: 1.5d
+			x: 9.175d
+			y: 6.09d
 		}
 		{
 			dependencies: ["54D390AF6F950D40"]
@@ -145,8 +495,8 @@
 					type: "item"
 				}
 			]
-			x: 5.25d
-			y: 1.5d
+			x: 10.925d
+			y: 7.59d
 		}
 		{
 			dependencies: ["1ADF4E050B7F36F4"]
@@ -158,6 +508,8 @@
 					xp: 150
 				}
 			]
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [
 				{
 					id: "61676AD048CDA194"
@@ -165,10 +517,159 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
-			y: 1.5d
+			x: 12.675d
+			y: 7.09d
 		}
 		{
+			dependencies: [
+				"370357136636F139"
+				"380CEDA0DCA34A90"
+			]
+			icon: {
+				id: "advancednetherite:netherite_diamond_chestplate"
+			}
+			id: "71405227009524EC"
+			optional: true
+			rewards: [
+				{
+					id: "26A2FF55AD6023D6"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [
+				{
+					advancement: "advancednetherite:nether/netherite_diamond_armor"
+					criterion: ""
+					id: "1DA7A06110EE6EC6"
+					type: "advancement"
+				}
+			]
+			x: 14.425d
+			y: 5.49d
+		}
+		{
+			dependencies: ["7400D20955D7FBC3"]
+			icon: {
+				id: "minecraft:totem_of_undying"
+			}
+			id: "1EE74F754E2B7C28"
+			optional: true
+			rewards: [
+				{
+					id: "44A8D41AFD9CC873"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:adventure/totem_of_undying"
+					criterion: ""
+					id: "5A11228804DDE18E"
+					type: "advancement"
+				}
+			]
+			x: 5.675d
+			y: 8.25d
+		}
+		{
+			dependencies: ["380CEDA0DCA34A90"]
+			id: "0B8681E4F15C2DA9"
+			optional: true
+			rewards: [
+				{
+					id: "1A9DAEB21E3B4F35"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "2AA639BEBBB666D6"
+					item: { count: 1, id: "minecraft:mace" }
+					type: "item"
+				}
+			]
+			x: 9.175d
+			y: 8.09d
+		}
+		{
+			dependencies: ["380CEDA0DCA34A90"]
+			icon: {
+				id: "minecraft:elytra"
+			}
+			id: "488B4B1BAA890626"
+			optional: true
+			rewards: [
+				{
+					id: "55AFC6F982176A50"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:end/elytra"
+					criterion: ""
+					id: "5922A4D88618147C"
+					type: "advancement"
+				}
+			]
+			x: 9.175d
+			y: 9.59d
+		}
+		{
+			dependencies: [
+				"63BF2434DC52102E"
+				"532780D9DB293403"
+			]
+			id: "49B18C523BD3A2C0"
+			rewards: [
+				{
+					id: "5BAC6BE6B127751A"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "618C716EC5250630"
+					item: { count: 1, id: "create_sa:brass_chestplate" }
+					type: "item"
+				}
+			]
+			x: 2.175d
+			y: 8.25d
+		}
+		{
+			dependencies: [
+				"63BF2434DC52102E"
+				"10EB7CF79B8049BF"
+			]
+			id: "3CEE744AA57E29F5"
+			rewards: [
+				{
+					id: "44C18F06E8CE8555"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "1A41C4F5AE191F5E"
+					item: { count: 1, id: "netherexotics:kiwano_chestplate" }
+					type: "item"
+				}
+			]
+			x: 2.175d
+			y: 11.25d
+		}
+		{
+			dependencies: [
+				"63BF2434DC52102E"
+				"54AB96FF89E0902E"
+			]
 			id: "5ACFF749530A9E0E"
 			rewards: [
 				{
@@ -184,8 +685,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 3.0d
+			x: 2.175d
+			y: 9.75d
 		}
 		{
 			dependencies: ["5ACFF749530A9E0E"]
@@ -204,46 +705,8 @@
 					type: "item"
 				}
 			]
-			x: 1.75d
-			y: 3.0d
-		}
-		{
-			id: "3CEE744AA57E29F5"
-			rewards: [
-				{
-					id: "44C18F06E8CE8555"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [
-				{
-					id: "1A41C4F5AE191F5E"
-					item: { count: 1, id: "netherexotics:kiwano_chestplate" }
-					type: "item"
-				}
-			]
-			x: 0.0d
-			y: 4.5d
-		}
-		{
-			id: "49B18C523BD3A2C0"
-			rewards: [
-				{
-					id: "5BAC6BE6B127751A"
-					type: "xp"
-					xp: 30
-				}
-			]
-			tasks: [
-				{
-					id: "618C716EC5250630"
-					item: { count: 1, id: "create_sa:brass_chestplate" }
-					type: "item"
-				}
-			]
-			x: 0.0d
-			y: 6.0d
+			x: 3.925d
+			y: 9.75d
 		}
 	]
 }

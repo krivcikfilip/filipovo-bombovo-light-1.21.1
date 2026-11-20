@@ -1,0 +1,370 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mc_defense"
+	group: "429879DE8D393374"
+	icon: {
+		id: "minecolonies:blockhutguardtower"
+	}
+	id: "43623260C25B18C0"
+	order_index: 38
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3CBAB1EE3B70E4BA"]
+			icon: {
+				id: "minecolonies:blockhutguardtower"
+			}
+			id: "6A98999506693395"
+			rewards: [
+				{
+					id: "07C9DAE0D15C7D96"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "7BA7E543260B17DE"
+					stat: "minecraft:play_time"
+					type: "stat"
+					value: 1
+				}
+			]
+			x: 0.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["6A98999506693395"]
+			icon: {
+				id: "minecolonies:blockhutguardtower"
+			}
+			id: "4DB2C042EA38EEC1"
+			rewards: [
+				{
+					id: "73126EB5DD46C03D"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "minecolonies:minecolonies/build_guard_tower"
+					criterion: ""
+					id: "7A04CA12065B0778"
+					type: "advancement"
+				}
+			]
+			x: 1.75d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"6A98999506693395"
+				"307BBCE6E338273B"
+			]
+			icon: {
+				id: "minecolonies:blockhutuniversity"
+			}
+			id: "3D1C356BDD7B05DB"
+			rewards: [
+				{
+					id: "2507ECEE09F1A907"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					count: 3L
+					id: "6DCA783D4925820B"
+					item: { count: 1, id: "minecraft:book" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4DB2C042EA38EEC1"]
+			id: "733D23273280AD9D"
+			optional: true
+			rewards: [
+				{
+					id: "75D3E649D1348C28"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "74B7201DFC9BBFCA"
+					item: { count: 1, id: "minecolonies:banner_rally_guards" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4DB2C042EA38EEC1"]
+			icon: {
+				id: "minecraft:iron_sword"
+			}
+			id: "7AABDA263E16A81B"
+			rewards: [
+				{
+					id: "3001EBD404F10D7C"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecolonies:military/army_8"
+					criterion: ""
+					id: "2258A5C74279E631"
+					type: "advancement"
+				}
+			]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7AABDA263E16A81B"]
+			id: "196F458F6FD8019D"
+			rewards: [
+				{
+					id: "4776543339E7FA38"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					id: "5522073D36F00FF4"
+					item: { count: 1, id: "minecolonies:ancienttome" }
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: 0.75d
+		}
+		{
+			dependencies: [
+				"7AABDA263E16A81B"
+				"18FFBBAA6C5B544A"
+			]
+			icon: {
+				id: "minecolonies:blockhutbarracks"
+			}
+			id: "2EC2B936B99A6DDA"
+			rewards: [
+				{
+					id: "6AF2C1BE39A05171"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "minecolonies:military/build_barracks"
+					criterion: ""
+					id: "73B4A8A8836B72CC"
+					type: "advancement"
+				}
+			]
+			x: 5.25d
+			y: 2.25d
+		}
+		{
+			dependencies: ["2EC2B936B99A6DDA"]
+			icon: {
+				id: "minecolonies:blockhutbarrackstower"
+			}
+			id: "34F4915BEA30683F"
+			rewards: [
+				{
+					id: "48F9573223ED59A2"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecolonies:military/build_barracks_tower"
+					criterion: ""
+					id: "1944B5135BA9D25D"
+					type: "advancement"
+				}
+			]
+			x: 7.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["34F4915BEA30683F"]
+			id: "495601C96EF1C2A2"
+			rewards: [
+				{
+					id: "6B7BF1A9CEE985BD"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "533FA341BA5B7157"
+					item: { count: 1, id: "minecolonies:blockhutcombatacademy" }
+					type: "item"
+				}
+			]
+			x: 8.75d
+			y: 0.75d
+		}
+		{
+			dependencies: ["34F4915BEA30683F"]
+			id: "691F720D92352757"
+			rewards: [
+				{
+					id: "379A18E27D44850F"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "5BA3B7AA2348D68B"
+					item: { count: 1, id: "minecolonies:blockhutarchery" }
+					type: "item"
+				}
+			]
+			x: 8.75d
+			y: 2.25d
+		}
+		{
+			dependencies: ["34F4915BEA30683F"]
+			id: "7041F9C5A2BC0D3A"
+			optional: true
+			rewards: [
+				{
+					id: "55AF847B27905265"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "663F279117FDBB37"
+					item: { count: 1, id: "minecolonies:blockhutstable" }
+					type: "item"
+				}
+			]
+			x: 8.75d
+			y: 3.75d
+		}
+		{
+			dependencies: ["4DB2C042EA38EEC1"]
+			id: "5186B2ED963FDEFB"
+			optional: true
+			rewards: [
+				{
+					id: "4847DC137204802D"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "112B3901C681CB8F"
+					item: { count: 1, id: "minecolonies:blockhutgatehouse" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"495601C96EF1C2A2"
+				"691F720D92352757"
+			]
+			icon: {
+				id: "minecolonies:blockhutbarracks"
+			}
+			id: "19A55250631AA143"
+			rewards: [
+				{
+					id: "23628666E77283C3"
+					type: "xp"
+					xp: 80
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "minecolonies:military/army_30"
+					criterion: ""
+					id: "00ED85088E58E003"
+					type: "advancement"
+				}
+			]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["19A55250631AA143"]
+			icon: {
+				id: "minecolonies:blockhutbarrackstower"
+			}
+			id: "2C01CB0FA140EADE"
+			optional: true
+			rewards: [
+				{
+					id: "19667BE9ED3039AE"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecolonies:military/build_all_barracks_towers"
+					criterion: ""
+					id: "5D23EEE45761CC75"
+					type: "advancement"
+				}
+			]
+			x: 12.25d
+			y: 0.75d
+		}
+		{
+			dependencies: ["19A55250631AA143"]
+			icon: {
+				id: "minecraft:netherite_sword"
+			}
+			id: "17DAB904B622395E"
+			optional: true
+			rewards: [
+				{
+					id: "7C36CEAA540EEE26"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecolonies:military/army_80"
+					criterion: ""
+					id: "49742724A64AB3A2"
+					type: "advancement"
+				}
+			]
+			x: 12.25d
+			y: 2.25d
+		}
+	]
+}

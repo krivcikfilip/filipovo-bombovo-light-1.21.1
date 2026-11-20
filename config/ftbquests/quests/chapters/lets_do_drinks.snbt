@@ -1,0 +1,614 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lets_do_drinks"
+	group: "27F7BE0CA4D022F8"
+	icon: {
+		id: "vinery:red_wine"
+	}
+	id: "30C1A8B5F3E7E2DD"
+	order_index: 32
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "brewery:beer_mug"
+			}
+			id: "3F06AB4B099762CA"
+			rewards: [
+				{
+					id: "4034535E980B30B5"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "6FEDD1780644F233"
+					stat: "minecraft:play_time"
+					type: "stat"
+					value: 1
+				}
+			]
+			x: 0.0d
+			y: 4.9d
+		}
+		{
+			dependencies: [
+				"3F06AB4B099762CA"
+				"106E035DA7025AB5"
+			]
+			id: "40D3D1E53C2BE89C"
+			rewards: [
+				{
+					id: "33DA85C316F0C2D2"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "623DC1C48145AB66"
+					item: { count: 1, id: "vinery:grapevine_stem" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "02C312D0377F6270"
+					item: { count: 1, id: "vinery:red_grape_seeds" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 1.9d
+		}
+		{
+			dependencies: ["40D3D1E53C2BE89C"]
+			id: "0515F989FEB30F97"
+			rewards: [
+				{
+					id: "51DB5C4A07DAA609"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "456CE729B044F11A"
+					item: { count: 1, id: "vinery:oak_lattice" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "1BF8458B0CD650D4"
+					item: { count: 1, id: "vinery:jungle_grapes_red" }
+					type: "item"
+				}
+			]
+			x: 3.575d
+			y: 1.5d
+		}
+		{
+			dependencies: ["40D3D1E53C2BE89C"]
+			id: "4A5769EA7094BF78"
+			rewards: [
+				{
+					id: "63CBF786704CE42C"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "122A61DB4F1BBD6E"
+					item: { count: 1, id: "vinery:savanna_grapes_red" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "500D10AFD37A250A"
+					item: { count: 1, id: "vinery:taiga_grapes_white" }
+					type: "item"
+				}
+			]
+			x: 3.575d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3F06AB4B099762CA"
+				"6D72B844FAEADD22"
+			]
+			id: "2B84F53E5BFE7866"
+			rewards: [
+				{
+					id: "2A4FCD99038F7603"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "4C77F8DB55A79E6F"
+					item: { count: 1, id: "vinery:oak_wine_rack_mid" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 4.9d
+		}
+		{
+			dependencies: ["2B84F53E5BFE7866"]
+			id: "086EA0845D4864E3"
+			rewards: [
+				{
+					id: "119D4C16C881AD29"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "1A286AC3644AA15A"
+					item: { count: 1, id: "vinery:cherry_wine" }
+					type: "item"
+				}
+			]
+			x: 3.575d
+			y: 4.4d
+		}
+		{
+			dependencies: [
+				"2B84F53E5BFE7866"
+				"0515F989FEB30F97"
+			]
+			id: "0DD8CE3E9C0975C8"
+			rewards: [
+				{
+					id: "0A91816D3335F6C3"
+					type: "xp"
+					xp: 35
+				}
+			]
+			tasks: [
+				{
+					id: "5340357725DFAAC0"
+					item: { count: 1, id: "vinery:magnetic_wine" }
+					type: "item"
+				}
+			]
+			x: 5.325d
+			y: 2.1d
+		}
+		{
+			dependencies: [
+				"0DD8CE3E9C0975C8"
+				"4A5769EA7094BF78"
+				"12FF04C83E462717"
+			]
+			id: "5390BC8A59B9FBFC"
+			rewards: [
+				{
+					id: "37634F1312876A11"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					id: "762258CE6B284A73"
+					item: { count: 1, id: "vinery:jellie_wine" }
+					type: "item"
+				}
+			]
+			x: 7.075d
+			y: 1.05d
+		}
+		{
+			dependencies: [
+				"5390BC8A59B9FBFC"
+				"086EA0845D4864E3"
+			]
+			id: "004F4917EDAB53F4"
+			rewards: [
+				{
+					id: "49F502A721A1636F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "0C5DF93504E735A4"
+					item: { count: 1, id: "vinery:vinery_standard" }
+					type: "item"
+				}
+			]
+			x: 8.825d
+			y: 2.25d
+		}
+		{
+			dependencies: [
+				"3F06AB4B099762CA"
+				"7615ABDBEAE46F0B"
+			]
+			id: "2B537CA0CE39D081"
+			rewards: [
+				{
+					id: "538935B1E626C798"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "66FDA995C9A569B1"
+					item: { count: 1, id: "brewery:dried_barley" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7F5A9EA2D6534E21"
+					item: { count: 1, id: "brewery:dried_corn" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "289088713BC238F3"
+					item: { count: 1, id: "brewery:dried_oat" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 7.9d
+		}
+		{
+			dependencies: ["2B537CA0CE39D081"]
+			id: "4EAB6C53A4439F01"
+			rewards: [
+				{
+					id: "6C3F1105198D74DD"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "200909AB104DC7EE"
+					item: { count: 1, id: "brewery:barrel_main" }
+					type: "item"
+				}
+			]
+			x: 3.575d
+			y: 8.9d
+		}
+		{
+			dependencies: ["2B537CA0CE39D081"]
+			id: "7E5DA9B492FBAC22"
+			rewards: [
+				{
+					id: "552844A958F9C445"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "464DC5F297194F74"
+					item: { count: 1, id: "brewery:copper_brewingstation" }
+					type: "item"
+				}
+			]
+			x: 3.575d
+			y: 11.9d
+		}
+		{
+			dependencies: ["7E5DA9B492FBAC22"]
+			id: "760B350D845A6689"
+			rewards: [
+				{
+					id: "573FF3CD34577E5E"
+					type: "xp"
+					xp: 35
+				}
+			]
+			tasks: [
+				{
+					id: "679BC2E4044CCE79"
+					item: { count: 1, id: "brewery:whiskey_jojannik" }
+					type: "item"
+				}
+			]
+			x: 5.325d
+			y: 11.4d
+		}
+		{
+			dependencies: ["2B537CA0CE39D081"]
+			id: "244925CF4F62B334"
+			optional: true
+			rewards: [
+				{
+					id: "5C4143D32F0B0E21"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "2CB8B992D0CA8284"
+					item: { count: 1, id: "brewery:breathalyzer" }
+					type: "item"
+				}
+			]
+			x: 3.575d
+			y: 10.4d
+		}
+		{
+			dependencies: ["3F06AB4B099762CA"]
+			icon: {
+				id: "brewery:brewfest_hat"
+			}
+			id: "1FEE6BF16DCA4AA8"
+			optional: true
+			rewards: [
+				{
+					id: "7AF52BB7186A018C"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "4AE2769AF44645CE"
+					structure: "brewery:brewfest_tent"
+					type: "structure"
+				}
+			]
+			x: 1.75d
+			y: 3.4d
+		}
+		{
+			dependencies: [
+				"760B350D845A6689"
+				"4EAB6C53A4439F01"
+			]
+			id: "25285995619DF2FA"
+			rewards: [
+				{
+					id: "70D70D2DD35546B7"
+					type: "xp"
+					xp: 80
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "3F8DE92C47E425AB"
+					item: { count: 1, id: "brewery:netherite_brewingstation" }
+					type: "item"
+				}
+			]
+			x: 7.075d
+			y: 9.9d
+		}
+		{
+			dependencies: ["25285995619DF2FA"]
+			id: "5D6EA2E0D3BF5031"
+			rewards: [
+				{
+					id: "0E7721D420ABBDCC"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "0BDD70DFFDBD2A9F"
+					item: { count: 1, id: "brewery:dark_brew" }
+					type: "item"
+				}
+			]
+			x: 8.825d
+			y: 9.9d
+		}
+		{
+			dependencies: [
+				"3F06AB4B099762CA"
+				"243C9CD339138611"
+			]
+			id: "15F418EF7AE7A697"
+			rewards: [
+				{
+					id: "2BDD4D03D283236A"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "03B9F75E1C4A0805"
+					item: { count: 1, id: "herbalbrews:stove" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 6.4d
+		}
+		{
+			dependencies: ["15F418EF7AE7A697"]
+			id: "2BE741FAC9DE31D8"
+			rewards: [
+				{
+					id: "6E0F8C58FCA5ABE0"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "3532A8640F1A0D8D"
+					item: { count: 1, id: "herbalbrews:black_tea" }
+					type: "item"
+				}
+			]
+			x: 3.575d
+			y: 5.9d
+		}
+		{
+			dependencies: ["2BE741FAC9DE31D8"]
+			id: "26C1E6461DA533FA"
+			rewards: [
+				{
+					id: "64CA59B4E754A537"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "71722272BDECFC6E"
+					item: { count: 1, id: "herbalbrews:oolong_tea" }
+					type: "item"
+				}
+			]
+			x: 5.325d
+			y: 4.65d
+		}
+		{
+			dependencies: ["15F418EF7AE7A697"]
+			id: "7DD4633C9701A3F7"
+			rewards: [
+				{
+					id: "67F9C80189B8212D"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "3561B15C56DBA888"
+					item: { count: 1, id: "herbalbrews:lavender_tea" }
+					type: "item"
+				}
+				{
+					id: "5C56143357DD9970"
+					item: { count: 1, id: "herbalbrews:hibiscus_tea" }
+					type: "item"
+				}
+			]
+			x: 3.575d
+			y: 7.4d
+		}
+		{
+			dependencies: ["2BE741FAC9DE31D8"]
+			id: "1485D33AAC76A723"
+			rewards: [
+				{
+					id: "119481BFB501EE4D"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "1BEF8BF19CA14DBD"
+					item: { count: 1, id: "herbalbrews:jug" }
+					type: "item"
+				}
+			]
+			x: 5.325d
+			y: 6.15d
+		}
+		{
+			dependencies: ["26C1E6461DA533FA"]
+			id: "07DBD3984A2C7CC1"
+			rewards: [
+				{
+					id: "203AC64150350AAF"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "61F6A8C8AB171858"
+					item: { count: 1, id: "herbalbrews:cauldron" }
+					type: "item"
+				}
+				{
+					id: "1DA34B80FFBDC8C3"
+					item: { count: 1, id: "herbalbrews:herbal_infusion" }
+					type: "item"
+				}
+			]
+			x: 7.075d
+			y: 4.65d
+		}
+		{
+			dependencies: [
+				"07DBD3984A2C7CC1"
+				"7DD4633C9701A3F7"
+				"1485D33AAC76A723"
+				"65C9DB5800A3BED8"
+			]
+			icon: {
+				id: "herbalbrews:flask"
+			}
+			id: "11386B75726DC221"
+			rewards: [
+				{
+					id: "5EC321B623A3A47F"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					advancement: "herbalbrews:main/all_effects"
+					criterion: ""
+					id: "2B3DCEC0BEDE6E8E"
+					type: "advancement"
+				}
+			]
+			x: 8.825d
+			y: 6.05d
+		}
+		{
+			dependencies: ["11386B75726DC221"]
+			id: "059E1862FD72887A"
+			rewards: [
+				{
+					id: "69ED6262D90A9338"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "649CE009C6F528A1"
+					item: { count: 1, id: "herbalbrews:herbalbrews_banner" }
+					type: "item"
+				}
+			]
+			x: 10.575d
+			y: 6.05d
+		}
+	]
+}

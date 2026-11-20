@@ -1,0 +1,506 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_end"
+	group: "76581968F62E459A"
+	icon: {
+		id: "minecraft:end_crystal"
+	}
+	id: "75980EB7BF20EBD4"
+	order_index: 43
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7D3370833EAF1BAD"]
+			icon: {
+				id: "minecraft:end_crystal"
+			}
+			id: "472E8D27CCEB7042"
+			rewards: [
+				{
+					id: "1732AE1E7C2D5B85"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "1710FAEDFB863218"
+					stat: "minecraft:play_time"
+					type: "stat"
+					value: 1
+				}
+			]
+			x: 0.0d
+			y: 8.25d
+		}
+		{
+			dependencies: ["472E8D27CCEB7042"]
+			icon: {
+				id: "minecraft:ender_pearl"
+			}
+			id: "1F8D32F7B0484959"
+			rewards: [
+				{
+					id: "0316280CF0AD2C46"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "minecraft:end/enter_end_gateway"
+					criterion: ""
+					id: "3930BF76837653FF"
+					type: "advancement"
+				}
+			]
+			x: 1.75d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1F8D32F7B0484959"]
+			icon: {
+				id: "minecraft:chorus_flower"
+			}
+			id: "08D3FC2382DE7B16"
+			rewards: [
+				{
+					id: "5DE52EDDEA237C0F"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					biome: "minecraft:end_highlands"
+					id: "7784A67D5180EAE0"
+					type: "biome"
+				}
+			]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["472E8D27CCEB7042"]
+			id: "7FE10A1B17B47871"
+			rewards: [
+				{
+					id: "524CD1E207DD1D83"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "59DBB6DFF91D897C"
+					item: { count: 1, id: "endermanoverhaul:enderman_tooth" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 7.5d
+		}
+		{
+			dependencies: ["08D3FC2382DE7B16"]
+			id: "485FCA5D78B8FBA1"
+			optional: true
+			rewards: [
+				{
+					id: "6DA9EC94E8F1D679"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "262C0D636A8B7EEB"
+					item: { count: 1, id: "endermanoverhaul:ancient_pearl" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["08D3FC2382DE7B16"]
+			icon: {
+				id: "minecraft:purpur_block"
+			}
+			id: "08115C7028F2DE4B"
+			rewards: [
+				{
+					id: "52E8E70CBBCCC5DA"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "5B9CE38FADB640F7"
+					structure: "minecraft:end_city"
+					type: "structure"
+				}
+			]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["08115C7028F2DE4B"]
+			icon: {
+				id: "minecraft:shulker_shell"
+			}
+			id: "2DB6FF5D23B03EFB"
+			optional: true
+			rewards: [
+				{
+					id: "563938EE05729FFC"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:end/levitate"
+					criterion: ""
+					id: "5D1D48E71BE5CBC9"
+					type: "advancement"
+				}
+			]
+			x: 8.75d
+			y: 0.75d
+		}
+		{
+			dependencies: ["08115C7028F2DE4B"]
+			id: "1BEFC0DE050F0E96"
+			rewards: [
+				{
+					id: "25F08B3A0639FDF0"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "0CACB54AC08939F1"
+					item: { count: 1, id: "minecraft:shulker_shell" }
+					type: "item"
+				}
+			]
+			x: 8.75d
+			y: 2.25d
+		}
+		{
+			dependencies: ["08D3FC2382DE7B16"]
+			icon: {
+				id: "minecraft:obsidian"
+			}
+			id: "79A51C9A2BDF1411"
+			rewards: [
+				{
+					id: "2A3859415910F622"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					advancement: "nullscape:root"
+					criterion: ""
+					id: "72C773F2080EF775"
+					type: "advancement"
+				}
+			]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["08D3FC2382DE7B16"]
+			icon: {
+				id: "minecraft:end_stone_bricks"
+			}
+			id: "646ED574763B4ED6"
+			optional: true
+			rewards: [
+				{
+					id: "7201C1A7BEDEB7F9"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "03048E1ACB19D391"
+					structure: "mes:enderwatch_tower"
+					type: "structure"
+				}
+			]
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["08D3FC2382DE7B16"]
+			icon: {
+				id: "minecraft:purpur_pillar"
+			}
+			id: "1B9A1BD470E4E831"
+			optional: true
+			rewards: [
+				{
+					id: "4665036F4E7735BA"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "07B423AC40973F1C"
+					structure: "medievalend:house"
+					type: "structure"
+				}
+			]
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["08D3FC2382DE7B16"]
+			icon: {
+				id: "unusualend:gloopstone"
+			}
+			id: "62FE52109B7A640B"
+			rewards: [
+				{
+					id: "0C4EB1D5610E8382"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					biome: "unusualend:gloopstone_lands"
+					id: "6CF8B6275C6DBC49"
+					type: "biome"
+				}
+			]
+			x: 7.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["08D3FC2382DE7B16"]
+			icon: {
+				id: "unusualend:warped_moss"
+			}
+			id: "642961BC6327F1E0"
+			rewards: [
+				{
+					id: "075421BBB09499FE"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					biome: "unusualend:warped_reef"
+					id: "0455F92CC82880C4"
+					type: "biome"
+				}
+			]
+			x: 7.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["642961BC6327F1E0"]
+			id: "75A24BA000D4B534"
+			rewards: [
+				{
+					id: "075D4CCC4B693190"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "10FB92BD1E3D105E"
+					item: { count: 1, id: "unusualend:citrine_chunk" }
+					type: "item"
+				}
+			]
+			x: 8.75d
+			y: 9.0d
+		}
+		{
+			dependencies: ["62FE52109B7A640B"]
+			id: "3058171C0B692A5F"
+			rewards: [
+				{
+					id: "0DB165084D15A0C6"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "12483B70724D76BB"
+					item: { count: 1, id: "unusualend:prismalite_gem" }
+					type: "item"
+				}
+			]
+			x: 8.75d
+			y: 7.5d
+		}
+		{
+			dependencies: ["08D3FC2382DE7B16"]
+			id: "2F7E05AA0E43016B"
+			rewards: [
+				{
+					id: "33A87D2E8FAC5904"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "2229E87233EBBB1D"
+					item: { count: 1, id: "unusualend:enderling_scrap" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"75A24BA000D4B534"
+				"3058171C0B692A5F"
+				"2F7E05AA0E43016B"
+				"02E51EF413620CED"
+			]
+			id: "5D9FAD78042F352D"
+			rewards: [
+				{
+					id: "729EC706D4492B4F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "36557500200C9D60"
+					item: { count: 1, id: "unusualend:pearlescent_ingot" }
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["08D3FC2382DE7B16"]
+			icon: {
+				id: "unusualend:ancient_encased_end_stone"
+			}
+			id: "0354CD4F07ACE793"
+			rewards: [
+				{
+					id: "68596BC756BF4EF4"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "025BC2F19D1F8D0E"
+					structure: "unusualend:ancient_end_tower"
+					type: "structure"
+				}
+			]
+			x: 7.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"0354CD4F07ACE793"
+				"6D63CC2383ECC6BB"
+			]
+			icon: {
+				id: "unusualend:golem_altar"
+			}
+			id: "55CB7CD09C642505"
+			rewards: [
+				{
+					id: "45C586AF0D6E2378"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [
+				{
+					entity: "unusualend:endstone_golem"
+					id: "415FF60C6F611965"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 8.75d
+			y: 12.0d
+		}
+		{
+			dependencies: ["472E8D27CCEB7042"]
+			icon: {
+				id: "minecraft:end_crystal"
+			}
+			id: "6946BDB9D5AB99DC"
+			optional: true
+			rewards: [
+				{
+					id: "18E8953782508DBE"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:end/respawn_dragon"
+					criterion: ""
+					id: "0FC32B16F61E2BCE"
+					type: "advancement"
+				}
+			]
+			x: 1.75d
+			y: 9.0d
+		}
+		{
+			dependencies: ["472E8D27CCEB7042"]
+			icon: {
+				id: "minecraft:dragon_egg"
+			}
+			id: "4F6F095C201A9182"
+			optional: true
+			rewards: [
+				{
+					id: "508D8171AC488A64"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:end/dragon_egg"
+					criterion: ""
+					id: "1BBA8DEEE2F9A42A"
+					type: "advancement"
+				}
+			]
+			x: 1.75d
+			y: 10.5d
+		}
+	]
+}

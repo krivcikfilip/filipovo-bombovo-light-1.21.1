@@ -7,7 +7,7 @@
 		id: "minecraft:compass"
 	}
 	id: "7F3312C40747F84E"
-	order_index: 17
+	order_index: 48
 	quest_links: [ ]
 	quests: [
 		{
@@ -22,6 +22,8 @@
 					xp: 10
 				}
 			]
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [
 				{
 					id: "52D9D6D2A5F39A69"
@@ -31,10 +33,80 @@
 				}
 			]
 			x: 0.0d
-			y: 2.25d
+			y: 7.406d
+		}
+		{
+			dependencies: ["1E65E80601757681"]
+			icon: {
+				id: "minecraft:chest_minecart"
+			}
+			id: "71ACF51C11C5757C"
+			rewards: [
+				{
+					id: "2F2B3DB67A0FB762"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					advancement: "lootr:1cart"
+					criterion: ""
+					id: "0394495E06C74B11"
+					type: "advancement"
+				}
+			]
+			x: 3.5d
+			y: 9.281d
 		}
 		{
 			dependencies: ["34DBBB9B7C4D7D98"]
+			icon: {
+				id: "minecraft:mossy_cobblestone"
+			}
+			id: "1F9F08E1CD995DFE"
+			rewards: [
+				{
+					id: "177B4E9E2F8E1B0A"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "582F32CC4F77019B"
+					structure: "betterdungeons:small_dungeon"
+					type: "structure"
+				}
+			]
+			x: 1.75d
+			y: 6.656d
+		}
+		{
+			dependencies: ["34DBBB9B7C4D7D98"]
+			icon: {
+				id: "minecraft:rail"
+			}
+			id: "1E65E80601757681"
+			rewards: [
+				{
+					id: "21B6AB9F092850DA"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "101DECB638E6F7C6"
+					structure: "#minecraft:mineshaft"
+					type: "structure"
+				}
+			]
+			x: 1.75d
+			y: 8.156d
+		}
+		{
+			dependencies: ["1F9F08E1CD995DFE"]
 			icon: {
 				id: "minecraft:bone"
 			}
@@ -46,6 +118,8 @@
 					xp: 50
 				}
 			]
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [
 				{
 					id: "6438C2C65C8ECB1C"
@@ -53,8 +127,54 @@
 					type: "structure"
 				}
 			]
-			x: 1.75d
-			y: 0.0d
+			x: 3.5d
+			y: 4.781d
+		}
+		{
+			dependencies: ["1F9F08E1CD995DFE"]
+			icon: {
+				id: "minecraft:rotten_flesh"
+			}
+			id: "06E5912FEDE5820E"
+			rewards: [
+				{
+					id: "6A3163FF0201C0B5"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "58E68E84B3F899CC"
+					structure: "betterdungeons:zombie_dungeon"
+					type: "structure"
+				}
+			]
+			x: 3.5d
+			y: 6.281d
+		}
+		{
+			dependencies: ["1F9F08E1CD995DFE"]
+			icon: {
+				id: "minecraft:cobweb"
+			}
+			id: "342BEB57BAE7A8B4"
+			rewards: [
+				{
+					id: "1F269392147CD9FB"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "6F7409F89E2F02BC"
+					structure: "betterdungeons:spider_dungeon"
+					type: "structure"
+				}
+			]
+			x: 3.5d
+			y: 7.781d
 		}
 		{
 			dependencies: ["7EA1E022DCE68CC8"]
@@ -73,11 +193,112 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
+			x: 6.102d
 			y: 0.0d
 		}
 		{
-			dependencies: ["34DBBB9B7C4D7D98"]
+			dependencies: ["61CEEBDE48044DB9"]
+			icon: {
+				id: "minecraft:soul_lantern"
+			}
+			id: "17F8EDD1CB3ED485"
+			rewards: [
+				{
+					id: "1EBB513D0438EB10"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					advancement: "apothic_spawners:light"
+					criterion: ""
+					id: "70E4151E0D9CFFA5"
+					type: "advancement"
+				}
+			]
+			x: 7.852d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17F8EDD1CB3ED485"]
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "706DDD55B20D74E3"
+			optional: true
+			rewards: [
+				{
+					id: "5CC500C44A7FBA69"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					advancement: "apothic_spawners:players"
+					criterion: ""
+					id: "0A739B00F39E9AEF"
+					type: "advancement"
+				}
+			]
+			x: 9.602d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"71ACF51C11C5757C"
+				"7EA1E022DCE68CC8"
+			]
+			icon: {
+				id: "minecraft:chest"
+			}
+			id: "2B5EF4CE0EBFB280"
+			rewards: [
+				{
+					id: "02A5FFE88B86A322"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					advancement: "lootr:25loot"
+					criterion: ""
+					id: "17760EC44C933D13"
+					type: "advancement"
+				}
+			]
+			x: 6.102d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2B5EF4CE0EBFB280"]
+			icon: {
+				id: "minecraft:gold_block"
+			}
+			id: "2EC104BAFD748A80"
+			optional: true
+			rewards: [
+				{
+					id: "30056492F1492ACA"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					advancement: "lootr:100loot"
+					criterion: ""
+					id: "3D1EA43116512B4A"
+					type: "advancement"
+				}
+			]
+			x: 7.852d
+			y: 10.5d
+		}
+		{
+			dependencies: ["7EA1E022DCE68CC8"]
 			icon: {
 				id: "minecraft:sand"
 			}
@@ -96,11 +317,154 @@
 					type: "structure"
 				}
 			]
-			x: 1.75d
+			x: 6.102d
 			y: 1.5d
 		}
 		{
-			dependencies: ["34DBBB9B7C4D7D98"]
+			dependencies: ["55662470D094F96F"]
+			icon: {
+				id: "minecraft:golden_sword"
+			}
+			id: "206C5A47BC3C3162"
+			rewards: [
+				{
+					id: "582E4D18C7286944"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					advancement: "betterdeserttemples:temple_clear"
+					criterion: ""
+					id: "3E1D8F4E2FE2D8D1"
+					type: "advancement"
+				}
+			]
+			x: 7.852d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7EA1E022DCE68CC8"]
+			icon: {
+				id: "minecraft:mossy_cobblestone"
+			}
+			id: "38E40DCADC9C6914"
+			rewards: [
+				{
+					id: "48F8B106CCA5BE46"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "7167F3DBC5BF1F57"
+					structure: "betterjungletemples:jungle_temple"
+					type: "structure"
+				}
+			]
+			x: 6.102d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7EA1E022DCE68CC8"]
+			icon: {
+				id: "minecraft:trial_key"
+			}
+			id: "1DD3E07AE2357B51"
+			rewards: [
+				{
+					id: "6ABD677D95153A42"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "3377EA426E14F804"
+					structure: "minecraft:trial_chambers"
+					type: "structure"
+				}
+			]
+			x: 6.102d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1DD3E07AE2357B51"]
+			icon: {
+				id: "minecraft:vault"
+			}
+			id: "4D5199BCE1608B31"
+			rewards: [
+				{
+					id: "20143FE1CDC04677"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:adventure/under_lock_and_key"
+					criterion: ""
+					id: "0E21E57F00C7D6A4"
+					type: "advancement"
+				}
+			]
+			x: 7.852d
+			y: 3.375d
+		}
+		{
+			dependencies: ["1DD3E07AE2357B51"]
+			id: "2F3C7FB3AFECCECA"
+			rewards: [
+				{
+					id: "70E07C471143A381"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "50FBDD7C8910D58F"
+					item: { count: 1, id: "minecraft:breeze_rod" }
+					type: "item"
+				}
+			]
+			x: 7.852d
+			y: 4.875d
+		}
+		{
+			dependencies: [
+				"4D5199BCE1608B31"
+				"2F3C7FB3AFECCECA"
+			]
+			icon: {
+				id: "minecraft:ominous_trial_key"
+			}
+			id: "0D5A06D9E10AD946"
+			rewards: [
+				{
+					id: "04DCC86FB0C4A6AE"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "minecraft:adventure/revaulting"
+					criterion: ""
+					id: "7B7A6FDCD8AFD892"
+					type: "advancement"
+				}
+			]
+			x: 9.602d
+			y: 4.125d
+		}
+		{
+			dependencies: ["7EA1E022DCE68CC8"]
 			icon: {
 				id: "minecraft:prismarine"
 			}
@@ -119,8 +483,8 @@
 					type: "structure"
 				}
 			]
-			x: 1.75d
-			y: 3.0d
+			x: 6.102d
+			y: 7.5d
 		}
 		{
 			dependencies: ["518FB39A7930462C"]
@@ -143,11 +507,11 @@
 					value: 1L
 				}
 			]
-			x: 3.5d
-			y: 3.0d
+			x: 7.852d
+			y: 7.875d
 		}
 		{
-			dependencies: ["34DBBB9B7C4D7D98"]
+			dependencies: ["7EA1E022DCE68CC8"]
 			icon: {
 				id: "minecraft:ender_eye"
 			}
@@ -159,6 +523,8 @@
 					xp: 60
 				}
 			]
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [
 				{
 					id: "642075E35693B0D8"
@@ -166,8 +532,8 @@
 					type: "structure"
 				}
 			]
-			x: 1.75d
-			y: 4.5d
+			x: 6.102d
+			y: 6.0d
 		}
 		{
 			dependencies: ["0549973DEA4119FD"]
@@ -189,8 +555,8 @@
 					type: "structure"
 				}
 			]
-			x: 3.5d
-			y: 4.5d
+			x: 7.852d
+			y: 6.375d
 		}
 		{
 			dependencies: ["76FC0D7AD98086BF"]
@@ -213,8 +579,37 @@
 					value: 1L
 				}
 			]
-			x: 5.25d
-			y: 4.5d
+			x: 9.602d
+			y: 6.375d
+		}
+		{
+			dependencies: [
+				"7EA1E022DCE68CC8"
+				"06E5912FEDE5820E"
+				"342BEB57BAE7A8B4"
+			]
+			icon: {
+				id: "minecraft:skeleton_skull"
+			}
+			id: "4845569A4A02253A"
+			optional: true
+			rewards: [
+				{
+					id: "500A1C24BEDA2FA9"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					advancement: "betterdungeons:all_dungeons"
+					criterion: ""
+					id: "124E55A64D9EBF51"
+					type: "advancement"
+				}
+			]
+			x: 6.102d
+			y: 9.0d
 		}
 	]
 }

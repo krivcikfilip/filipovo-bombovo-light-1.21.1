@@ -1,0 +1,6116 @@
+{
+ "welcome/hello": {
+  "items": [],
+  "tasks": [
+   {
+    "type": "stat",
+    "stat": "minecraft:play_time",
+    "value": 1
+   }
+  ],
+  "dep": [],
+  "title": "Welcome!"
+ },
+ "welcome/waystone": {
+  "items": [
+   [
+    "waystones:waystone",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "hello"
+  ],
+  "title": "Waystones"
+ },
+ "welcome/warpstone": {
+  "items": [
+   [
+    "waystones:warp_stone",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "waystone"
+  ],
+  "title": "Teleport from anywhere"
+ },
+ "welcome/backpack": {
+  "items": [
+   [
+    "sophisticatedbackpacks:backpack",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "hello"
+  ],
+  "title": "More pockets"
+ },
+ "welcome/pickup": {
+  "items": [
+   [
+    "sophisticatedbackpacks:pickup_upgrade",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "backpack"
+  ],
+  "title": "Let the backpack do the work"
+ },
+ "welcome/feeding": {
+  "items": [
+   [
+    "sophisticatedbackpacks:feeding_upgrade",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "pickup"
+  ],
+  "title": "Never starve again"
+ },
+ "welcome/death": {
+  "items": [],
+  "tasks": [
+   {
+    "type": "stat",
+    "stat": "minecraft:play_time",
+    "value": 1
+   }
+  ],
+  "dep": [
+   "hello"
+  ],
+  "title": "If you die"
+ },
+ "welcome/friends": {
+  "items": [],
+  "tasks": [
+   {
+    "type": "stat",
+    "stat": "minecraft:play_time",
+    "value": 1
+   }
+  ],
+  "dep": [
+   "hello"
+  ],
+  "title": "Playing together"
+ },
+ "welcome/food": {
+  "items": [
+   [
+    "solonion:food_book",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "hello"
+  ],
+  "title": "Eat a varied diet"
+ },
+ "welcome/lunchbox": {
+  "items": [
+   [
+    "solonion:lunchbox",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "food"
+  ],
+  "title": "Packed lunch"
+ },
+ "welcome/chunks": {
+  "items": [
+   [
+    "chunkloaders:single_chunk_loader",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "friends"
+  ],
+  "title": "Keep your machines running"
+ },
+ "quark/pouch": {
+  "items": [
+   [
+    "quark:seed_pouch",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [],
+  "title": "Seed Pouch"
+ },
+ "quark/trowel": {
+  "items": [
+   [
+    "quark:trowel",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [],
+  "title": "Trowel"
+ },
+ "quark/crate": {
+  "items": [
+   [
+    "quark:crate",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [],
+  "title": "Crate"
+ },
+ "quark/pipe": {
+  "items": [
+   [
+    "quark:pipe",
+    8
+   ]
+  ],
+  "tasks": [],
+  "dep": [],
+  "title": "Pipes"
+ },
+ "quark/chute": {
+  "items": [
+   [
+    "quark:chute",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "pipe"
+  ],
+  "title": "Chute"
+ },
+ "quark/magnet": {
+  "items": [
+   [
+    "quark:magnet",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [],
+  "title": "Magnet"
+ },
+ "quark/abacus": {
+  "items": [
+   [
+    "quark:abacus",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [],
+  "title": "Abacus"
+ },
+ "quark/cloud": {
+  "items": [
+   [
+    "quark:bottled_cloud",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [],
+  "title": "Bottled cloud"
+ },
+ "quark/pickarang": {
+  "items": [
+   [
+    "quark:pickarang",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [],
+  "title": "Pickarang"
+ },
+ "quark/slime": {
+  "items": [
+   [
+    "quark:slime_in_a_bucket",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [],
+  "title": "Slime in a bucket"
+ },
+ "quark/tome": {
+  "items": [
+   [
+    "quark:ancient_tome",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [],
+  "title": "Ancient Tome"
+ },
+ "quark/quill": {
+  "items": [
+   [
+    "quark:pathfinders_quill",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [],
+  "title": "Pathfinder's Quill"
+ },
+ "quark/potato": {
+  "items": [
+   [
+    "quark:tiny_potato",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [],
+  "title": "Tiny Potato"
+ },
+ "create/alloy": {
+  "items": [
+   [
+    "create:andesite_alloy",
+    8
+   ]
+  ],
+  "tasks": [],
+  "dep": [],
+  "title": "Andesite Alloy"
+ },
+ "create/shaft": {
+  "items": [
+   [
+    "create:shaft",
+    4
+   ],
+   [
+    "create:cogwheel",
+    2
+   ],
+   [
+    "create:large_cogwheel",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "alloy"
+  ],
+  "title": "Shafts & Cogs"
+ },
+ "create/wheel": {
+  "items": [
+   [
+    "create:water_wheel",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "shaft"
+  ],
+  "title": "Water Wheel"
+ },
+ "create/goggles": {
+  "items": [
+   [
+    "create:goggles",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "wheel"
+  ],
+  "title": "See the stress"
+ },
+ "create/wrench": {
+  "items": [
+   [
+    "create:wrench",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "shaft"
+  ],
+  "title": "The Wrench"
+ },
+ "create/millstone": {
+  "items": [
+   [
+    "create:millstone",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "wheel"
+  ],
+  "title": "Millstone"
+ },
+ "create/press": {
+  "items": [
+   [
+    "create:mechanical_press",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "wheel"
+  ],
+  "title": "Mechanical Press"
+ },
+ "create/sheets": {
+  "items": [
+   [
+    "create:iron_sheet",
+    8
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "press"
+  ],
+  "title": "Iron Sheets"
+ },
+ "create/belt": {
+  "items": [
+   [
+    "create:belt_connector",
+    4
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "wheel"
+  ],
+  "title": "Conveyor Belts"
+ },
+ "create/fan": {
+  "items": [
+   [
+    "create:encased_fan",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "belt"
+  ],
+  "title": "Encased Fan"
+ },
+ "create/washing": {
+  "items": [
+   [
+    "minecraft:iron_nugget",
+    16
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "fan"
+  ],
+  "title": "Wash some gravel"
+ },
+ "create/mixer": {
+  "items": [
+   [
+    "create:mechanical_mixer",
+    1
+   ],
+   [
+    "create:basin",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "press"
+  ],
+  "title": "Mixer & Basin"
+ },
+ "create/zinc": {
+  "items": [
+   [
+    "create:raw_zinc",
+    8
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "alloy"
+  ],
+  "title": "Zinc"
+ },
+ "create/brass": {
+  "items": [
+   [
+    "create:brass_ingot",
+    8
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "mixer",
+   "zinc"
+  ],
+  "title": "Brass"
+ },
+ "create/burner": {
+  "items": [
+   [
+    "create:blaze_burner",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "mixer"
+  ],
+  "title": "Blaze Burner"
+ },
+ "create/casing": {
+  "items": [
+   [
+    "create:andesite_casing",
+    8
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "alloy"
+  ],
+  "title": "Casings"
+ },
+ "create/drill": {
+  "items": [
+   [
+    "create:mechanical_drill",
+    1
+   ],
+   [
+    "create:mechanical_saw",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "casing"
+  ],
+  "title": "Drill & Saw"
+ },
+ "create/bearing": {
+  "items": [
+   [
+    "create:mechanical_bearing",
+    1
+   ],
+   [
+    "create:super_glue",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "drill"
+  ],
+  "title": "Contraptions"
+ },
+ "create/windmill": {
+  "items": [
+   [
+    "create:windmill_bearing",
+    1
+   ],
+   [
+    "create:white_sail",
+    8
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "bearing"
+  ],
+  "title": "Windmill"
+ },
+ "create/harvester": {
+  "items": [
+   [
+    "create:mechanical_harvester",
+    2
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "bearing"
+  ],
+  "title": "Automatic farming"
+ },
+ "create/deployer": {
+  "items": [
+   [
+    "create:deployer",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "brass"
+  ],
+  "title": "Deployer"
+ },
+ "create/precision": {
+  "items": [
+   [
+    "create:precision_mechanism",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "deployer"
+  ],
+  "title": "Precision Mechanism"
+ },
+ "create/tube": {
+  "items": [
+   [
+    "create:electron_tube",
+    4
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "brass"
+  ],
+  "title": "Electron Tube"
+ },
+ "create/arm": {
+  "items": [
+   [
+    "create:mechanical_arm",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "precision"
+  ],
+  "title": "Mechanical Arm"
+ },
+ "create/fluids": {
+  "items": [
+   [
+    "create:fluid_pipe",
+    8
+   ],
+   [
+    "create:mechanical_pump",
+    1
+   ],
+   [
+    "create:fluid_tank",
+    2
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "casing"
+  ],
+  "title": "Fluids"
+ },
+ "create/spout": {
+  "items": [
+   [
+    "create:spout",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "fluids"
+  ],
+  "title": "Spout"
+ },
+ "create/steam": {
+  "items": [
+   [
+    "create:steam_engine",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "burner",
+   "fluids"
+  ],
+  "title": "Steam Engine"
+ },
+ "create/crafter": {
+  "items": [
+   [
+    "create:mechanical_crafter",
+    9
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "precision"
+  ],
+  "title": "Mechanical Crafter"
+ },
+ "create/crushing": {
+  "items": [
+   [
+    "create:crushing_wheel",
+    2
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "steam"
+  ],
+  "title": "Crushing Wheels"
+ },
+ "create/vault": {
+  "items": [
+   [
+    "create:item_vault",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "brass"
+  ],
+  "title": "Item Vault"
+ },
+ "create/backtank": {
+  "items": [
+   [
+    "create:copper_backtank",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "brass"
+  ],
+  "title": "Diving gear"
+ },
+ "create/jetpack": {
+  "items": [
+   [
+    "create_jetpack:jetpack",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "backtank"
+  ],
+  "title": "Fly with Create"
+ },
+ "create_addons/start": {
+  "items": [],
+  "tasks": [
+   {
+    "type": "stat",
+    "stat": "minecraft:play_time",
+    "value": 1
+   }
+  ],
+  "dep": [],
+  "title": "More Create"
+ },
+ "create_addons/wire": {
+  "items": [
+   [
+    "createaddition:copper_wire",
+    8
+   ],
+   [
+    "createaddition:rolling_mill",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "start"
+  ],
+  "title": "Copper wire"
+ },
+ "create_addons/alternator": {
+  "items": [
+   [
+    "createaddition:alternator",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "wire"
+  ],
+  "title": "Rotation to power"
+ },
+ "create_addons/motor": {
+  "items": [
+   [
+    "createaddition:electric_motor",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "wire"
+  ],
+  "title": "Power to rotation"
+ },
+ "create_addons/accumulator": {
+  "items": [
+   [
+    "createaddition:modular_accumulator",
+    2
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "alternator"
+  ],
+  "title": "Store energy"
+ },
+ "create_addons/tesla": {
+  "items": [
+   [
+    "createaddition:tesla_coil",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "accumulator"
+  ],
+  "title": "Tesla Coil"
+ },
+ "create_addons/diesel": {
+  "items": [
+   [
+    "createdieselgenerators:diesel_engine",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "start"
+  ],
+  "title": "Diesel power"
+ },
+ "create_addons/oil": {
+  "items": [
+   [
+    "createdieselgenerators:oil_scanner",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "diesel"
+  ],
+  "title": "Find oil"
+ },
+ "create_addons/pumpjack": {
+  "items": [
+   [
+    "createdieselgenerators:pumpjack_crank",
+    1
+   ],
+   [
+    "createdieselgenerators:pumpjack_head",
+    1
+   ],
+   [
+    "createdieselgenerators:pumpjack_bearing",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "oil"
+  ],
+  "title": "Pumpjack"
+ },
+ "create_addons/distill": {
+  "items": [
+   [
+    "createdieselgenerators:distillation_controller",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "pumpjack"
+  ],
+  "title": "Distillation"
+ },
+ "create_addons/big_diesel": {
+  "items": [
+   [
+    "createdieselgenerators:large_diesel_engine",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "distill"
+  ],
+  "title": "Bigger engines"
+ },
+ "create_addons/newage": {
+  "items": [
+   [
+    "create_new_age:generator_coil",
+    1
+   ],
+   [
+    "create_new_age:carbon_brushes",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "start"
+  ],
+  "title": "Create: New Age"
+ },
+ "create_addons/energiser": {
+  "items": [
+   [
+    "create_new_age:basic_energiser",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "newage"
+  ],
+  "title": "Energiser"
+ },
+ "create_addons/reactor": {
+  "items": [
+   [
+    "create_new_age:reactor_casing",
+    8
+   ],
+   [
+    "create_new_age:reactor_rod",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "energiser"
+  ],
+  "title": "Nuclear!"
+ },
+ "create_addons/cei": {
+  "items": [
+   [
+    "create_enchantment_industry:mechanical_grindstone",
+    1
+   ],
+   [
+    "create_enchantment_industry:experience_hatch",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "start"
+  ],
+  "title": "Liquid experience"
+ },
+ "create_addons/enchanter": {
+  "items": [
+   [
+    "create_enchantment_industry:blaze_enchanter",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "cei"
+  ],
+  "title": "Blaze Enchanter"
+ },
+ "create_addons/printer": {
+  "items": [
+   [
+    "create_enchantment_industry:printer",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "cei"
+  ],
+  "title": "Printer"
+ },
+ "create_addons/cannon": {
+  "items": [
+   [
+    "createbigcannons:cannon_mount",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "start"
+  ],
+  "title": "Big Cannons"
+ },
+ "create_addons/shot": {
+  "items": [
+   [
+    "createbigcannons:solid_shot",
+    4
+   ],
+   [
+    "createbigcannons:powder_charge",
+    4
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "cannon"
+  ],
+  "title": "Ammunition"
+ },
+ "create_addons/slicer": {
+  "items": [
+   [
+    "sliceanddice:slicer",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "start"
+  ],
+  "title": "Slice & Dice"
+ },
+ "create_addons/excavation": {
+  "items": [
+   [
+    "createoreexcavation:vein_finder",
+    1
+   ],
+   [
+    "createoreexcavation:drilling_machine",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "start"
+  ],
+  "title": "Endless ore"
+ },
+ "create_addons/chunkload": {
+  "items": [
+   [
+    "create_power_loader:andesite_chunk_loader",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "start"
+  ],
+  "title": "Contraption chunk loading"
+ },
+ "create_addons/hypertube": {
+  "items": [
+   [
+    "create_hypertube:hypertube",
+    16
+   ],
+   [
+    "create_hypertube:hypertube_entrance",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "start"
+  ],
+  "title": "Hypertubes"
+ },
+ "create_addons/teleporter": {
+  "items": [
+   [
+    "createteleporters:teleporter",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "start"
+  ],
+  "title": "Quantum teleporters"
+ },
+ "create_addons/copycats": {
+  "items": [
+   [
+    "create:copycat_panel",
+    4
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "start"
+  ],
+  "title": "Copycats"
+ },
+ "create_addons/sa_jetpack": {
+  "items": [
+   [
+    "create_sa:brass_jetpack_chestplate",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "start"
+  ],
+  "title": "Brass jetpack"
+ },
+ "create_addons/sa_drone": {
+  "items": [
+   [
+    "create_sa:brass_drone_item",
+    1
+   ],
+   [
+    "create_sa:drone_controller",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "sa_jetpack"
+  ],
+  "title": "Drone"
+ },
+ "create_addons/bnb": {
+  "items": [
+   [
+    "bits_n_bobs:large_nixie_tube",
+    1
+   ],
+   [
+    "bits_n_bobs:flywheel_bearing",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "start"
+  ],
+  "title": "Bits 'n' Bobs"
+ },
+ "create_addons/connected": {
+  "items": [
+   [
+    "create_connected:kinetic_battery",
+    1
+   ],
+   [
+    "create_connected:item_silo",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "start"
+  ],
+  "title": "Create: Connected"
+ },
+ "create_addons/dragons": {
+  "items": [
+   [
+    "create_dragons_plus:fluid_hatch",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "start"
+  ],
+  "title": "Dragons Plus"
+ },
+ "create_addons/wolf": {
+  "items": [
+   [
+    "createmechanicalcompanion:mechanical_wolf_motherboard",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "start"
+  ],
+  "title": "Mechanical companion"
+ },
+ "create_addons/wrapped": {
+  "items": [
+   [
+    "create_wrapped:wrapping_station",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "start"
+  ],
+  "title": "Create: Wrapped"
+ },
+ "create_addons/trading": {
+  "items": [
+   [
+    "trading_floor:trading_depot",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "start"
+  ],
+  "title": "Trading Floor"
+ },
+ "aeronautics/start": {
+  "items": [],
+  "tasks": [
+   {
+    "type": "stat",
+    "stat": "minecraft:play_time",
+    "value": 1
+   }
+  ],
+  "dep": [],
+  "title": "Physics!"
+ },
+ "aeronautics/assembler": {
+  "items": [
+   [
+    "simulated:physics_assembler",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "start"
+  ],
+  "title": "Physics Assembler"
+ },
+ "aeronautics/levitite": {
+  "items": [
+   [
+    "aeronautics:levitite",
+    8
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "start"
+  ],
+  "title": "Levitite"
+ },
+ "aeronautics/burner": {
+  "items": [
+   [
+    "aeronautics:adjustable_burner",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "start"
+  ],
+  "title": "Hot air balloons"
+ },
+ "aeronautics/propeller": {
+  "items": [
+   [
+    "aeronautics:propeller_bearing",
+    1
+   ],
+   [
+    "aeronautics:wooden_propeller",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "assembler"
+  ],
+  "title": "Propellers"
+ },
+ "aeronautics/smart_prop": {
+  "items": [
+   [
+    "aeronautics:smart_propeller",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "propeller"
+  ],
+  "title": "Smart Propeller"
+ },
+ "aeronautics/gyro": {
+  "items": [
+   [
+    "aeronautics:gyroscopic_propeller_bearing",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "propeller"
+  ],
+  "title": "Stay level"
+ },
+ "aeronautics/engine": {
+  "items": [
+   [
+    "simulated:engine_assembly",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "assembler"
+  ],
+  "title": "Portable Engine"
+ },
+ "aeronautics/steering": {
+  "items": [
+   [
+    "simulated:steering_wheel",
+    1
+   ],
+   [
+    "simulated:throttle_lever",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "engine"
+  ],
+  "title": "Take the wheel"
+ },
+ "aeronautics/sensors": {
+  "items": [
+   [
+    "simulated:altitude_sensor",
+    1
+   ],
+   [
+    "simulated:velocity_sensor",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "steering"
+  ],
+  "title": "Instruments"
+ },
+ "aeronautics/nav": {
+  "items": [
+   [
+    "simulated:navigation_table",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "sensors"
+  ],
+  "title": "Navigation table"
+ },
+ "aeronautics/rope": {
+  "items": [
+   [
+    "simulated:rope_winch",
+    1
+   ],
+   [
+    "simulated:rope_connector",
+    2
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "assembler"
+  ],
+  "title": "Ropes & winches"
+ },
+ "aeronautics/dock": {
+  "items": [
+   [
+    "simulated:docking_connector",
+    2
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "rope"
+  ],
+  "title": "Docking"
+ },
+ "aeronautics/wheels": {
+  "items": [
+   [
+    "offroad:wheel_mount",
+    2
+   ],
+   [
+    "offroad:tire",
+    2
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "assembler"
+  ],
+  "title": "Ground vehicles"
+ },
+ "aeronautics/goggles": {
+  "items": [
+   [
+    "aeronautics:aviators_goggles",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "propeller"
+  ],
+  "title": "Aviator's Goggles"
+ },
+ "aeronautics/islands": {
+  "items": [
+   [
+    "aeroscapes:aerolite",
+    4
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "levitite"
+  ],
+  "title": "Sky islands"
+ },
+ "aeronautics/cannon": {
+  "items": [
+   [
+    "aeronautics:mounted_potato_cannon",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "propeller"
+  ],
+  "title": "Armed airship"
+ },
+ "trains/track": {
+  "items": [
+   [
+    "create:track",
+    32
+   ]
+  ],
+  "tasks": [],
+  "dep": [],
+  "title": "Lay the tracks"
+ },
+ "trains/station": {
+  "items": [
+   [
+    "create:track_station",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "track"
+  ],
+  "title": "Train station"
+ },
+ "trains/controls": {
+  "items": [
+   [
+    "create:controls",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "station"
+  ],
+  "title": "Train controls"
+ },
+ "trains/schedule": {
+  "items": [
+   [
+    "create:schedule",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "controls"
+  ],
+  "title": "Timetable"
+ },
+ "trains/signal": {
+  "items": [
+   [
+    "create:track_signal",
+    2
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "station"
+  ],
+  "title": "Signals"
+ },
+ "trains/observer": {
+  "items": [
+   [
+    "create:track_observer",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "signal"
+  ],
+  "title": "Track observer"
+ },
+ "trains/door": {
+  "items": [
+   [
+    "create:train_door",
+    2
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "controls"
+  ],
+  "title": "Train doors"
+ },
+ "trains/semaphore": {
+  "items": [
+   [
+    "railways:semaphore",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "signal"
+  ],
+  "title": "Semaphore"
+ },
+ "trains/switch": {
+  "items": [
+   [
+    "railways:track_switch_andesite",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "track"
+  ],
+  "title": "Track switch"
+ },
+ "trains/coupler": {
+  "items": [
+   [
+    "railways:track_coupler",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "signal"
+  ],
+  "title": "Track coupler"
+ },
+ "trains/conductor": {
+  "items": [
+   [
+    "railways:conductor_whistle",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "schedule"
+  ],
+  "title": "Train crew"
+ },
+ "trains/fuel": {
+  "items": [
+   [
+    "railways:fuel_tank",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "controls"
+  ],
+  "title": "Fuel tank"
+ },
+ "trains/handcar": {
+  "items": [
+   [
+    "railways:handcar",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "track"
+  ],
+  "title": "Handcar"
+ },
+ "trains/locometal": {
+  "items": [
+   [
+    "railways:riveted_locometal",
+    8
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "controls"
+  ],
+  "title": "Locometal"
+ },
+ "trains/benchcart": {
+  "items": [
+   [
+    "railways:benchcart",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "track"
+  ],
+  "title": "Benchcart"
+ },
+ "trains/headlight": {
+  "items": [
+   [
+    "bellsandwhistles:headlight",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "locometal"
+  ],
+  "title": "Bells & Whistles"
+ },
+ "trains/platform": {
+  "items": [
+   [
+    "bellsandwhistles:station_platform",
+    8
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "headlight"
+  ],
+  "title": "Station platform"
+ },
+ "vehicles/parts": {
+  "items": [
+   [
+    "immersive_aircraft:hull",
+    4
+   ],
+   [
+    "immersive_aircraft:sail",
+    2
+   ]
+  ],
+  "tasks": [],
+  "dep": [],
+  "title": "Aircraft parts"
+ },
+ "vehicles/engine": {
+  "items": [
+   [
+    "immersive_aircraft:engine",
+    1
+   ],
+   [
+    "immersive_aircraft:propeller",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "parts"
+  ],
+  "title": "Engine & propeller"
+ },
+ "vehicles/airship": {
+  "items": [
+   [
+    "immersive_aircraft:airship",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "engine"
+  ],
+  "title": "Airship"
+ },
+ "vehicles/cargo": {
+  "items": [
+   [
+    "immersive_aircraft:cargo_airship",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "airship"
+  ],
+  "title": "Cargo Airship"
+ },
+ "vehicles/biplane": {
+  "items": [
+   [
+    "immersive_aircraft:biplane",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "engine"
+  ],
+  "title": "Biplane"
+ },
+ "vehicles/gyrodyne": {
+  "items": [
+   [
+    "immersive_aircraft:gyrodyne",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "engine"
+  ],
+  "title": "Gyrodyne"
+ },
+ "vehicles/quad": {
+  "items": [
+   [
+    "immersive_aircraft:quadrocopter",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "engine"
+  ],
+  "title": "Quadrocopter"
+ },
+ "vehicles/upgrade": {
+  "items": [
+   [
+    "immersive_aircraft:enhanced_propeller",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "biplane"
+  ],
+  "title": "Upgrades"
+ },
+ "vehicles/sails": {
+  "items": [
+   [
+    "smallships:cotton_sails",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [],
+  "title": "Sail away"
+ },
+ "vehicles/shipcannon": {
+  "items": [
+   [
+    "smallships:cannon",
+    1
+   ],
+   [
+    "smallships:cannon_ball",
+    8
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "sails"
+  ],
+  "title": "Ship cannons"
+ },
+ "vehicles/warship": {
+  "items": [
+   [
+    "immersive_aircraft:warship",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "cargo"
+  ],
+  "title": "Warship"
+ },
+ "mekanism/osmium": {
+  "items": [
+   [
+    "mekanism:raw_osmium",
+    8
+   ]
+  ],
+  "tasks": [],
+  "dep": [],
+  "title": "Osmium"
+ },
+ "mekanism/infuser": {
+  "items": [
+   [
+    "mekanism:metallurgic_infuser",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "osmium"
+  ],
+  "title": "Metallurgic Infuser"
+ },
+ "mekanism/steel": {
+  "items": [
+   [
+    "mekanism:ingot_steel",
+    8
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "infuser"
+  ],
+  "title": "Steel"
+ },
+ "mekanism/circuit": {
+  "items": [
+   [
+    "mekanism:basic_control_circuit",
+    4
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "infuser"
+  ],
+  "title": "Basic Control Circuit"
+ },
+ "mekanism/casing": {
+  "items": [
+   [
+    "mekanism:steel_casing",
+    2
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "steel"
+  ],
+  "title": "Steel Casing"
+ },
+ "mekanism/heatgen": {
+  "items": [
+   [
+    "mekanismgenerators:heat_generator",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "osmium"
+  ],
+  "title": "Power: Heat Generator"
+ },
+ "mekanism/solar": {
+  "items": [
+   [
+    "mekanismgenerators:solar_generator",
+    2
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "heatgen"
+  ],
+  "title": "Solar power"
+ },
+ "mekanism/wind": {
+  "items": [
+   [
+    "mekanismgenerators:wind_generator",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "heatgen"
+  ],
+  "title": "Wind power"
+ },
+ "mekanism/cable": {
+  "items": [
+   [
+    "mekanism:basic_universal_cable",
+    16
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "heatgen"
+  ],
+  "title": "Cables"
+ },
+ "mekanism/cube": {
+  "items": [
+   [
+    "mekanism:basic_energy_cube",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "cable",
+   "circuit"
+  ],
+  "title": "Energy Cube"
+ },
+ "mekanism/enrich": {
+  "items": [
+   [
+    "mekanism:enrichment_chamber",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "casing",
+   "circuit"
+  ],
+  "title": "2x ore: Enrichment Chamber"
+ },
+ "mekanism/smelter": {
+  "items": [
+   [
+    "mekanism:energized_smelter",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "enrich"
+  ],
+  "title": "Energized Smelter"
+ },
+ "mekanism/crusher": {
+  "items": [
+   [
+    "mekanism:crusher",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "enrich"
+  ],
+  "title": "Crusher"
+ },
+ "mekanism/purif": {
+  "items": [
+   [
+    "mekanism:purification_chamber",
+    1
+   ],
+   [
+    "mekanism:advanced_control_circuit",
+    2
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "enrich"
+  ],
+  "title": "3x ore: Purification Chamber"
+ },
+ "mekanism/separator": {
+  "items": [
+   [
+    "mekanism:electrolytic_separator",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "purif"
+  ],
+  "title": "Electrolytic Separator"
+ },
+ "mekanism/injection": {
+  "items": [
+   [
+    "mekanism:chemical_injection_chamber",
+    1
+   ],
+   [
+    "mekanism:elite_control_circuit",
+    2
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "purif"
+  ],
+  "title": "4x ore: Chemical Injection"
+ },
+ "mekanism/dissolution": {
+  "items": [
+   [
+    "mekanism:chemical_dissolution_chamber",
+    1
+   ],
+   [
+    "mekanism:chemical_washer",
+    1
+   ],
+   [
+    "mekanism:chemical_crystallizer",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "injection"
+  ],
+  "title": "5x ore: Dissolution"
+ },
+ "mekanism/factory": {
+  "items": [
+   [
+    "mekanism:basic_smelting_factory",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "enrich"
+  ],
+  "title": "Factories"
+ },
+ "mekanism/upgrades": {
+  "items": [
+   [
+    "mekanism:upgrade_speed",
+    1
+   ],
+   [
+    "mekanism:upgrade_energy",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "enrich"
+  ],
+  "title": "Speed & Energy upgrades"
+ },
+ "mekanism/configurator": {
+  "items": [
+   [
+    "mekanism:configurator",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "casing"
+  ],
+  "title": "Configurator"
+ },
+ "mekanism/transporter": {
+  "items": [
+   [
+    "mekanism:basic_logistical_transporter",
+    16
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "configurator"
+  ],
+  "title": "Logistical Transporter"
+ },
+ "mekanism/disassembler": {
+  "items": [
+   [
+    "mekanism:atomic_disassembler",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "circuit"
+  ],
+  "title": "Atomic Disassembler"
+ },
+ "mekanism/jetpack": {
+  "items": [
+   [
+    "mekanism:jetpack",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "separator"
+  ],
+  "title": "Jetpack"
+ },
+ "mekanism/miner": {
+  "items": [
+   [
+    "mekanism:digital_miner",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "injection"
+  ],
+  "title": "Digital Miner"
+ },
+ "mekanism/teleporter": {
+  "items": [
+   [
+    "mekanism:teleporter",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "injection"
+  ],
+  "title": "Teleporter"
+ },
+ "mekanism/tools": {
+  "items": [
+   [
+    "mekanismtools:steel_paxel",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "steel"
+  ],
+  "title": "Mekanism Tools"
+ },
+ "mekanism/walkie": {
+  "items": [
+   [
+    "mekanismadditions:walkie_talkie",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "circuit"
+  ],
+  "title": "Walkie-talkie"
+ },
+ "mekanism/otnt": {
+  "items": [
+   [
+    "mekanismadditions:obsidian_tnt",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "walkie"
+  ],
+  "title": "Obsidian TNT"
+ },
+ "mekanism/meka": {
+  "items": [
+   [
+    "mekanism:mekasuit_bodyarmor",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "miner"
+  ],
+  "title": "MekaSuit"
+ },
+ "storage/chest": {
+  "items": [
+   [
+    "ironchest:iron_chest",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [],
+  "title": "A better chest"
+ },
+ "storage/sophchest": {
+  "items": [
+   [
+    "sophisticatedstorage:chest",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [],
+  "title": "Sophisticated Storage"
+ },
+ "storage/sophcontroller": {
+  "items": [
+   [
+    "sophisticatedstorage:controller",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "sophchest"
+  ],
+  "title": "Storage Controller"
+ },
+ "storage/compact": {
+  "items": [
+   [
+    "storagedrawers:compacting_drawers_3",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [],
+  "title": "Compacting Drawer"
+ },
+ "storage/dcontroller": {
+  "items": [
+   [
+    "storagedrawers:controller",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "compact"
+  ],
+  "title": "Drawer Controller"
+ },
+ "storage/ender": {
+  "items": [
+   [
+    "enderstorage:ender_chest",
+    1
+   ],
+   [
+    "enderstorage:ender_pouch",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [],
+  "title": "Ender Storage"
+ },
+ "storage/gadget": {
+  "items": [
+   [
+    "buildinggadgets2:gadget_building",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [],
+  "title": "Building Gadgets"
+ },
+ "storage/copypaste": {
+  "items": [
+   [
+    "buildinggadgets2:gadget_copy_paste",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "gadget"
+  ],
+  "title": "Copy & Paste"
+ },
+ "storage/ae_meteor": {
+  "items": [
+   [
+    "ae2:certus_quartz_crystal",
+    8
+   ]
+  ],
+  "tasks": [],
+  "dep": [],
+  "title": "Applied Energistics 2"
+ },
+ "storage/ae_charger": {
+  "items": [
+   [
+    "ae2:charger",
+    1
+   ],
+   [
+    "ae2:fluix_crystal",
+    8
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "ae_meteor"
+  ],
+  "title": "Charger & Fluix"
+ },
+ "storage/ae_inscriber": {
+  "items": [
+   [
+    "ae2:inscriber",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "ae_charger"
+  ],
+  "title": "Inscriber"
+ },
+ "storage/ae_proc": {
+  "items": [
+   [
+    "ae2:logic_processor",
+    4
+   ],
+   [
+    "ae2:calculation_processor",
+    4
+   ],
+   [
+    "ae2:engineering_processor",
+    4
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "ae_inscriber"
+  ],
+  "title": "Processors"
+ },
+ "storage/ae_drive": {
+  "items": [
+   [
+    "ae2:controller",
+    1
+   ],
+   [
+    "ae2:drive",
+    1
+   ],
+   [
+    "ae2:terminal",
+    1
+   ],
+   [
+    "ae2:item_storage_cell_1k",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "ae_proc"
+  ],
+  "title": "ME Network"
+ },
+ "storage/ae_craft": {
+  "items": [
+   [
+    "ae2:pattern_provider",
+    1
+   ],
+   [
+    "ae2:molecular_assembler",
+    1
+   ],
+   [
+    "ae2:crafting_unit",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "ae_drive"
+  ],
+  "title": "Autocrafting"
+ },
+ "storage/ae_wireless": {
+  "items": [
+   [
+    "ae2:wireless_terminal",
+    1
+   ],
+   [
+    "ae2:wireless_access_point",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "ae_drive"
+  ],
+  "title": "Wireless terminal"
+ },
+ "storage/rs_start": {
+  "items": [
+   [
+    "refinedstorage:controller",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [],
+  "title": "Refined Storage"
+ },
+ "storage/rs_disk": {
+  "items": [
+   [
+    "refinedstorage:disk_drive",
+    1
+   ],
+   [
+    "refinedstorage:1k_storage_disk",
+    1
+   ],
+   [
+    "refinedstorage:grid",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "rs_start"
+  ],
+  "title": "Disks & Grid"
+ },
+ "storage/rs_craft": {
+  "items": [
+   [
+    "refinedstorage:autocrafter",
+    1
+   ],
+   [
+    "refinedstorage:pattern",
+    4
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "rs_disk"
+  ],
+  "title": "RS Autocrafting"
+ },
+ "farmers_delight/knife": {
+  "items": [
+   [
+    "farmersdelight:flint_knife",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [],
+  "title": "A knife"
+ },
+ "farmers_delight/board": {
+  "items": [
+   [
+    "farmersdelight:cutting_board",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "knife"
+  ],
+  "title": "Cutting Board"
+ },
+ "farmers_delight/wild": {
+  "items": [
+   [
+    "farmersdelight:cabbage",
+    1
+   ],
+   [
+    "farmersdelight:tomato",
+    1
+   ],
+   [
+    "farmersdelight:onion",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [],
+  "title": "Wild crops"
+ },
+ "farmers_delight/rice": {
+  "items": [
+   [
+    "farmersdelight:rice",
+    4
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "wild"
+  ],
+  "title": "Rice"
+ },
+ "farmers_delight/stove": {
+  "items": [
+   [
+    "farmersdelight:stove",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "board"
+  ],
+  "title": "Stove"
+ },
+ "farmers_delight/pot": {
+  "items": [
+   [
+    "farmersdelight:cooking_pot",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "stove"
+  ],
+  "title": "Cooking Pot"
+ },
+ "farmers_delight/skillet": {
+  "items": [
+   [
+    "farmersdelight:skillet",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "stove"
+  ],
+  "title": "Skillet"
+ },
+ "farmers_delight/stew": {
+  "items": [
+   [
+    "farmersdelight:beef_stew",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "pot"
+  ],
+  "title": "First stew"
+ },
+ "farmers_delight/salad": {
+  "items": [
+   [
+    "farmersdelight:mixed_salad",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "pot",
+   "wild"
+  ],
+  "title": "Mixed Salad"
+ },
+ "farmers_delight/burger": {
+  "items": [
+   [
+    "farmersdelight:hamburger",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "board",
+   "wild"
+  ],
+  "title": "Hamburger"
+ },
+ "farmers_delight/feast": {
+  "items": [
+   [
+    "farmersdelight:roast_chicken_block",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "stew"
+  ],
+  "title": "A feast"
+ },
+ "farmers_delight/compost": {
+  "items": [
+   [
+    "farmersdelight:organic_compost",
+    1
+   ],
+   [
+    "farmersdelight:rich_soil",
+    4
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "wild"
+  ],
+  "title": "Rich Soil"
+ },
+ "farmers_delight/dogfood": {
+  "items": [
+   [
+    "farmersdelight:dog_food",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "pot"
+  ],
+  "title": "Dog Food"
+ },
+ "delight_addons/start": {
+  "items": [],
+  "tasks": [
+   {
+    "type": "stat",
+    "stat": "minecraft:play_time",
+    "value": 1
+   }
+  ],
+  "dep": [],
+  "title": "Even more food"
+ },
+ "delight_addons/cultural": {
+  "items": [
+   [
+    "culturaldelights:avocado",
+    1
+   ],
+   [
+    "culturaldelights:cucumber",
+    1
+   ],
+   [
+    "culturaldelights:eggplant",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "start"
+  ],
+  "title": "Cultural Delights"
+ },
+ "delight_addons/corn": {
+  "items": [
+   [
+    "corn_delight:corn",
+    4
+   ],
+   [
+    "corn_delight:popcorn",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "start"
+  ],
+  "title": "Corn Delight"
+ },
+ "delight_addons/taco": {
+  "items": [
+   [
+    "corn_delight:taco",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "corn"
+  ],
+  "title": "Taco night"
+ },
+ "delight_addons/expanded": {
+  "items": [
+   [
+    "expandeddelight:juicer",
+    1
+   ],
+   [
+    "expandeddelight:cinnamon",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "start"
+  ],
+  "title": "Expanded Delight"
+ },
+ "delight_addons/cheese": {
+  "items": [
+   [
+    "expandeddelight:cheese_wheel",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "expanded"
+  ],
+  "title": "Cheese!"
+ },
+ "delight_addons/miners": {
+  "items": [
+   [
+    "minersdelight:copper_pot",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "start"
+  ],
+  "title": "Miner's Delight"
+ },
+ "delight_addons/oceans": {
+  "items": [
+   [
+    "oceansdelight:fugu_roll",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "start"
+  ],
+  "title": "Ocean's Delight"
+ },
+ "delight_addons/rustic": {
+  "items": [
+   [
+    "rusticdelight:cotton_boll",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "start"
+  ],
+  "title": "Rustic Delight"
+ },
+ "delight_addons/respite": {
+  "items": [
+   [
+    "farmersrespite:kettle",
+    1
+   ],
+   [
+    "farmersrespite:green_tea",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "start"
+  ],
+  "title": "Farmer's Respite"
+ },
+ "delight_addons/bnc": {
+  "items": [
+   [
+    "brewinandchewin:keg",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "start"
+  ],
+  "title": "Brewin' and Chewin'"
+ },
+ "delight_addons/pizza": {
+  "items": [
+   [
+    "brewinandchewin:pizza",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "bnc"
+  ],
+  "title": "Pizza party"
+ },
+ "delight_addons/nether": {
+  "items": [
+   [
+    "mynethersdelight:hoglin_loin",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "start"
+  ],
+  "title": "My Nether's Delight"
+ },
+ "delight_addons/end": {
+  "items": [
+   [
+    "ends_delight:end_stove",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "start"
+  ],
+  "title": "End's Delight"
+ },
+ "delight_addons/enders": {
+  "items": [
+   [
+    "endersdelight:endstone_stove",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "end"
+  ],
+  "title": "Ender's Delight"
+ },
+ "delight_addons/twilight": {
+  "items": [
+   [
+    "twilightdelight:maze_stove",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "start"
+  ],
+  "title": "Twilight's Flavor & Delight"
+ },
+ "delight_addons/fruits": {
+  "items": [
+   [
+    "fruitsdelight:pineapple",
+    1
+   ],
+   [
+    "fruitsdelight:lemon",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "start"
+  ],
+  "title": "Fruits Delight"
+ },
+ "delight_addons/extra": {
+  "items": [
+   [
+    "extradelight:mixing_bowl",
+    1
+   ],
+   [
+    "extradelight:oven",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "start"
+  ],
+  "title": "ExtraDelight"
+ },
+ "lets_do/farm": {
+  "items": [
+   [
+    "farm_and_charm:crafting_bowl",
+    1
+   ],
+   [
+    "farm_and_charm:cutting_board",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [],
+  "title": "Farm & Charm"
+ },
+ "lets_do/fcrops": {
+  "items": [
+   [
+    "farm_and_charm:barley",
+    4
+   ],
+   [
+    "farm_and_charm:oat",
+    4
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "farm"
+  ],
+  "title": "Barley & Oats"
+ },
+ "lets_do/fstove": {
+  "items": [
+   [
+    "farm_and_charm:stove",
+    1
+   ],
+   [
+    "farm_and_charm:cooking_pot",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "farm"
+  ],
+  "title": "Stove & Cooking Pot"
+ },
+ "lets_do/mincer": {
+  "items": [
+   [
+    "farm_and_charm:mincer",
+    1
+   ],
+   [
+    "farm_and_charm:roaster",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "fstove"
+  ],
+  "title": "Mincer & Roaster"
+ },
+ "lets_do/breakfast": {
+  "items": [
+   [
+    "farm_and_charm:farmers_breakfast",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "fstove"
+  ],
+  "title": "Farmer's Breakfast"
+ },
+ "lets_do/animals": {
+  "items": [
+   [
+    "farm_and_charm:feeding_trough",
+    1
+   ],
+   [
+    "farm_and_charm:chicken_coop",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "farm"
+  ],
+  "title": "Animal care"
+ },
+ "lets_do/press": {
+  "items": [
+   [
+    "vinery:apple_press",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "farm"
+  ],
+  "title": "Vinery"
+ },
+ "lets_do/barrel": {
+  "items": [
+   [
+    "vinery:fermentation_barrel",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "press"
+  ],
+  "title": "Fermentation"
+ },
+ "lets_do/wine": {
+  "items": [
+   [
+    "vinery:wine_bottle",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "barrel"
+  ],
+  "title": "Your first wine"
+ },
+ "lets_do/bakery": {
+  "items": [
+   [
+    "bakery:baker_station",
+    1
+   ],
+   [
+    "bakery:rolling_pin",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "farm"
+  ],
+  "title": "Bakery"
+ },
+ "lets_do/cake": {
+  "items": [
+   [
+    "bakery:strawberry_cake",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "bakery"
+  ],
+  "title": "A real cake"
+ },
+ "lets_do/brewery": {
+  "items": [
+   [
+    "brewery:wooden_brewingstation",
+    1
+   ],
+   [
+    "brewery:hops",
+    4
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "farm"
+  ],
+  "title": "Brewery"
+ },
+ "lets_do/beer": {
+  "items": [
+   [
+    "brewery:beer_wheat",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "brewery"
+  ],
+  "title": "Cheers!"
+ },
+ "lets_do/candlelight": {
+  "items": [
+   [
+    "candlelight:cooking_pan",
+    1
+   ],
+   [
+    "candlelight:plate",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "fstove"
+  ],
+  "title": "Candlelight"
+ },
+ "lets_do/lasagne": {
+  "items": [
+   [
+    "candlelight:lasagne",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "candlelight"
+  ],
+  "title": "Lasagne"
+ },
+ "lets_do/meadow": {
+  "items": [
+   [
+    "meadow:cheese_form",
+    1
+   ],
+   [
+    "meadow:cookpot",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "farm"
+  ],
+  "title": "Meadow"
+ },
+ "lets_do/meadowcheese": {
+  "items": [
+   [
+    "meadow:cheese_wheel",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "meadow"
+  ],
+  "title": "Cheese wheel"
+ },
+ "lets_do/beach": {
+  "items": [
+   [
+    "beachparty:coconut",
+    2
+   ],
+   [
+    "beachparty:palm_bar",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "farm"
+  ],
+  "title": "Beachparty"
+ },
+ "lets_do/cocktail": {
+  "items": [
+   [
+    "beachparty:coconut_cocktail",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "beach"
+  ],
+  "title": "Cocktail"
+ },
+ "lets_do/herbal": {
+  "items": [
+   [
+    "herbalbrews:tea_kettle",
+    1
+   ],
+   [
+    "herbalbrews:green_tea_leaf",
+    4
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "farm"
+  ],
+  "title": "HerbalBrews"
+ },
+ "lets_do/tea": {
+  "items": [
+   [
+    "herbalbrews:green_tea",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "herbal"
+  ],
+  "title": "A cup of tea"
+ },
+ "lets_do/coffee": {
+  "items": [
+   [
+    "herbalbrews:coffee",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "herbal"
+  ],
+  "title": "Coffee"
+ },
+ "create_food/start": {
+  "items": [],
+  "tasks": [
+   {
+    "type": "stat",
+    "stat": "minecraft:play_time",
+    "value": 1
+   }
+  ],
+  "dep": [],
+  "title": "Food meets machines"
+ },
+ "create_food/dough": {
+  "items": [
+   [
+    "create:dough",
+    8
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "start"
+  ],
+  "title": "Dough"
+ },
+ "create_food/chocolate": {
+  "items": [
+   [
+    "create:bar_of_chocolate",
+    4
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "start"
+  ],
+  "title": "Chocolate"
+ },
+ "create_food/confectionery": {
+  "items": [
+   [
+    "create_confectionery:marshmallow",
+    4
+   ],
+   [
+    "create_confectionery:bar_of_caramel",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "chocolate"
+  ],
+  "title": "Confectionery"
+ },
+ "create_food/hotchoc": {
+  "items": [
+   [
+    "create_confectionery:hot_chocolate_bottle",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "confectionery"
+  ],
+  "title": "Hot chocolate"
+ },
+ "create_food/createfood": {
+  "items": [
+   [
+    "createfood:piping_bag",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "dough"
+  ],
+  "title": "Create Food"
+ },
+ "create_food/cafe": {
+  "items": [
+   [
+    "createcafe:coffee_bucket",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "start"
+  ],
+  "title": "Create Cafe"
+ },
+ "create_food/winery": {
+  "items": [
+   [
+    "create_winery:wine_cellar",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "start"
+  ],
+  "title": "Create Winery"
+ },
+ "create_food/slicer": {
+  "items": [
+   [
+    "sliceanddice:slicer",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "start"
+  ],
+  "title": "Slice & Dice"
+ },
+ "create_food/sprinkler": {
+  "items": [
+   [
+    "sliceanddice:sprinkler",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "slicer"
+  ],
+  "title": "Sprinkler"
+ },
+ "create_food/diet": {
+  "items": [
+   [
+    "solonion:lunchbag",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "start"
+  ],
+  "title": "Food variety"
+ },
+ "pams/tools": {
+  "items": [
+   [
+    "pamhc2foodcore:cuttingboarditem",
+    1
+   ],
+   [
+    "pamhc2foodcore:potitem",
+    1
+   ],
+   [
+    "pamhc2foodcore:skilletitem",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [],
+  "title": "Kitchen tools"
+ },
+ "pams/tools2": {
+  "items": [
+   [
+    "pamhc2foodcore:saucepanitem",
+    1
+   ],
+   [
+    "pamhc2foodcore:mixingbowlitem",
+    1
+   ],
+   [
+    "pamhc2foodcore:bakewareitem",
+    1
+   ],
+   [
+    "pamhc2foodcore:juiceritem",
+    1
+   ],
+   [
+    "pamhc2foodcore:grinderitem",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "tools"
+  ],
+  "title": "More tools"
+ },
+ "pams/pie": {
+  "items": [
+   [
+    "pamhc2foodcore:chickenpotpieitem",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "tools2"
+  ],
+  "title": "Pot pie"
+ },
+ "pams/roast": {
+  "items": [
+   [
+    "pamhc2foodcore:potroastitem",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "tools2"
+  ],
+  "title": "Pot roast"
+ },
+ "fishing/rod": {
+  "items": [
+   [
+    "aquaculture:iron_fishing_rod",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [],
+  "title": "Better rods"
+ },
+ "fishing/tackle": {
+  "items": [
+   [
+    "aquaculture:tackle_box",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "rod"
+  ],
+  "title": "Tackle box"
+ },
+ "fishing/worm": {
+  "items": [
+   [
+    "aquaculture:worm",
+    4
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "rod"
+  ],
+  "title": "Bait"
+ },
+ "fishing/knife": {
+  "items": [
+   [
+    "aquaculture:fish_fillet_raw",
+    4
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "rod"
+  ],
+  "title": "Fish fillets"
+ },
+ "fishing/sushi": {
+  "items": [
+   [
+    "aquaculture:sushi",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "knife"
+  ],
+  "title": "Sushi"
+ },
+ "fishing/treasure": {
+  "items": [
+   [
+    "aquaculture:treasure_chest",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "rod"
+  ],
+  "title": "Treasure"
+ },
+ "fishing/neptunium": {
+  "items": [
+   [
+    "aquaculture:neptunium_ingot",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "treasure"
+  ],
+  "title": "Neptunium"
+ },
+ "fishing/unusual": {
+  "items": [
+   [
+    "unusualfishmod:lobster_roll",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "rod"
+  ],
+  "title": "Unusual fish"
+ },
+ "fishing/driftwood": {
+  "items": [
+   [
+    "upgrade_aquatic:driftwood",
+    4
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "rod"
+  ],
+  "title": "Upgrade Aquatic"
+ },
+ "fishing/aquadelight": {
+  "items": [
+   [
+    "aquaculturedelight:fish_and_chips",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "knife"
+  ],
+  "title": "Aquaculture Delight"
+ },
+ "fishing/splashtail": {
+  "items": [
+   [
+    "fishofthieves:splashtail",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "rod"
+  ],
+  "title": "Fish of Thieves"
+ },
+ "fishing/stormfish": {
+  "items": [
+   [
+    "fishofthieves:stormfish",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "splashtail"
+  ],
+  "title": "Stormfish"
+ },
+ "fishing/wrecker": {
+  "items": [
+   [
+    "fishofthieves:wrecker",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "splashtail"
+  ],
+  "title": "Wrecker"
+ },
+ "minecolonies/camp": {
+  "items": [
+   [
+    "minecolonies:supplycampdeployer",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [],
+  "title": "Supply Camp"
+ },
+ "minecolonies/townhall": {
+  "items": [
+   [
+    "minecolonies:blockhuttownhall",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "camp"
+  ],
+  "title": "Town Hall"
+ },
+ "minecolonies/buildtool": {
+  "items": [
+   [
+    "structurize:sceptergold",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "camp"
+  ],
+  "title": "Build Tool"
+ },
+ "minecolonies/builder": {
+  "items": [
+   [
+    "minecolonies:blockhutbuilder",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "townhall",
+   "buildtool"
+  ],
+  "title": "Builder's Hut"
+ },
+ "minecolonies/resscroll": {
+  "items": [
+   [
+    "minecolonies:resourcescroll",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "builder"
+  ],
+  "title": "Resource Scroll"
+ },
+ "minecolonies/houses": {
+  "items": [
+   [
+    "minecolonies:blockhutcitizen",
+    2
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "builder"
+  ],
+  "title": "Homes"
+ },
+ "minecolonies/food": {
+  "items": [
+   [
+    "minecolonies:blockhutcook",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "builder"
+  ],
+  "title": "Feed the town"
+ },
+ "minecolonies/farmer": {
+  "items": [
+   [
+    "minecolonies:blockhutfarmer",
+    1
+   ],
+   [
+    "minecolonies:blockhutfield",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "food"
+  ],
+  "title": "Farmer"
+ },
+ "minecolonies/fisher": {
+  "items": [
+   [
+    "minecolonies:blockhutfisherman",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "food"
+  ],
+  "title": "Fisherman"
+ },
+ "minecolonies/courier": {
+  "items": [
+   [
+    "minecolonies:blockhutdeliveryman",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "builder"
+  ],
+  "title": "Courier"
+ },
+ "minecolonies/warehouse": {
+  "items": [
+   [
+    "minecolonies:blockhutwarehouse",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "courier"
+  ],
+  "title": "Warehouse"
+ },
+ "minecolonies/lumber": {
+  "items": [
+   [
+    "minecolonies:blockhutlumberjack",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "builder"
+  ],
+  "title": "Forester"
+ },
+ "minecolonies/miner": {
+  "items": [
+   [
+    "minecolonies:blockhutminer",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "builder"
+  ],
+  "title": "Miner"
+ },
+ "minecolonies/guards": {
+  "items": [
+   [
+    "minecolonies:blockhutguardtower",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "builder"
+  ],
+  "title": "Guard Tower"
+ },
+ "minecolonies/barracks": {
+  "items": [
+   [
+    "minecolonies:blockhutbarracks",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "guards"
+  ],
+  "title": "Barracks"
+ },
+ "minecolonies/smith": {
+  "items": [
+   [
+    "minecolonies:blockhutblacksmith",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "miner"
+  ],
+  "title": "Blacksmith"
+ },
+ "minecolonies/sawmill": {
+  "items": [
+   [
+    "minecolonies:blockhutsawmill",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "lumber"
+  ],
+  "title": "Sawmill"
+ },
+ "minecolonies/stonemason": {
+  "items": [
+   [
+    "minecolonies:blockhutstonemason",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "miner"
+  ],
+  "title": "Stonemason"
+ },
+ "minecolonies/tavern": {
+  "items": [
+   [
+    "minecolonies:blockhuttavern",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "houses"
+  ],
+  "title": "Tavern"
+ },
+ "minecolonies/school": {
+  "items": [
+   [
+    "minecolonies:blockhutschool",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "houses"
+  ],
+  "title": "School"
+ },
+ "minecolonies/university": {
+  "items": [
+   [
+    "minecolonies:blockhutuniversity",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "school"
+  ],
+  "title": "University"
+ },
+ "minecolonies/hospital": {
+  "items": [
+   [
+    "minecolonies:blockhuthospital",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "houses"
+  ],
+  "title": "Hospital"
+ },
+ "minecolonies/goggles": {
+  "items": [
+   [
+    "minecolonies:build_goggles",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "builder"
+  ],
+  "title": "Build Goggles"
+ },
+ "building/start": {
+  "items": [],
+  "tasks": [
+   {
+    "type": "stat",
+    "stat": "minecraft:play_time",
+    "value": 1
+   }
+  ],
+  "dep": [],
+  "title": "Builder's paradise"
+ },
+ "building/chipped": {
+  "items": [
+   [
+    "chipped:botanist_workbench",
+    1
+   ],
+   [
+    "chipped:mason_table",
+    1
+   ],
+   [
+    "chipped:carpenters_table",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "start"
+  ],
+  "title": "Chipped"
+ },
+ "building/rechiseled": {
+  "items": [
+   [
+    "rechiseled:chisel",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "start"
+  ],
+  "title": "Rechiseled"
+ },
+ "building/macaw": {
+  "items": [
+   [
+    "mcwwindows:hammer",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "start"
+  ],
+  "title": "Macaw's mods"
+ },
+ "building/handcrafted": {
+  "items": [
+   [
+    "handcrafted:hammer",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "start"
+  ],
+  "title": "Handcrafted"
+ },
+ "building/refurbished": {
+  "items": [
+   [
+    "refurbished_furniture:workbench",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "start"
+  ],
+  "title": "Furniture: Refurbished"
+ },
+ "building/domum": {
+  "items": [
+   [
+    "domum_ornamentum:architectscutter",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "start"
+  ],
+  "title": "Architect's Cutter"
+ },
+ "building/supp": {
+  "items": [
+   [
+    "supplementaries:rope",
+    8
+   ],
+   [
+    "supplementaries:sack",
+    1
+   ],
+   [
+    "supplementaries:jar",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "start"
+  ],
+  "title": "Supplementaries"
+ },
+ "building/createdeco": {
+  "items": [
+   [
+    "createdeco:industrial_iron_ingot",
+    4
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "start"
+  ],
+  "title": "Create Deco"
+ },
+ "building/etched": {
+  "items": [
+   [
+    "etched:etching_table",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "start"
+  ],
+  "title": "Make your own music"
+ },
+ "building/paintings": {
+  "items": [
+   [
+    "immersive_paintings:painting",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "start"
+  ],
+  "title": "Your own paintings"
+ },
+ "exploration/start": {
+  "items": [],
+  "tasks": [
+   {
+    "type": "stat",
+    "stat": "minecraft:play_time",
+    "value": 1
+   }
+  ],
+  "dep": [],
+  "title": "A bigger world"
+ },
+ "exploration/dungeon": {
+  "items": [],
+  "tasks": [
+   {
+    "type": "structure",
+    "structure": "betterdungeons:skeleton_dungeon"
+   }
+  ],
+  "dep": [
+   "start"
+  ],
+  "title": "Catacombs"
+ },
+ "exploration/spawner": {
+  "items": [
+   [
+    "minecraft:spawner",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "dungeon"
+  ],
+  "title": "Take a spawner home"
+ },
+ "exploration/desert": {
+  "items": [],
+  "tasks": [
+   {
+    "type": "structure",
+    "structure": "betterdeserttemples:desert_temple"
+   }
+  ],
+  "dep": [
+   "start"
+  ],
+  "title": "Desert temple"
+ },
+ "exploration/monument": {
+  "items": [],
+  "tasks": [
+   {
+    "type": "structure",
+    "structure": "betteroceanmonuments:ocean_monument"
+   }
+  ],
+  "dep": [
+   "start"
+  ],
+  "title": "Ocean monument"
+ },
+ "exploration/elder": {
+  "items": [],
+  "tasks": [
+   {
+    "type": "kill",
+    "entity": "minecraft:elder_guardian",
+    "value": 1
+   }
+  ],
+  "dep": [
+   "monument"
+  ],
+  "title": "Elder Guardian"
+ },
+ "exploration/stronghold": {
+  "items": [],
+  "tasks": [
+   {
+    "type": "structure",
+    "structure": "betterstrongholds:stronghold"
+   }
+  ],
+  "dep": [
+   "start"
+  ],
+  "title": "Stronghold"
+ },
+ "exploration/ancient": {
+  "items": [],
+  "tasks": [
+   {
+    "type": "structure",
+    "structure": "minecraft:ancient_city"
+   }
+  ],
+  "dep": [
+   "stronghold"
+  ],
+  "title": "Ancient City"
+ },
+ "exploration/warden": {
+  "items": [],
+  "tasks": [
+   {
+    "type": "kill",
+    "entity": "minecraft:warden",
+    "value": 1
+   }
+  ],
+  "dep": [
+   "ancient"
+  ],
+  "title": "The Warden"
+ },
+ "creatures/dict": {
+  "items": [
+   [
+    "alexsmobs:animal_dictionary",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [],
+  "title": "Animal Dictionary"
+ },
+ "creatures/banana": {
+  "items": [
+   [
+    "alexsmobs:banana",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "dict"
+  ],
+  "title": "Bananas!"
+ },
+ "creatures/croc": {
+  "items": [
+   [
+    "alexsmobs:crocodile_scute",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "dict"
+  ],
+  "title": "Crocodile scute"
+ },
+ "creatures/roadrunner": {
+  "items": [
+   [
+    "alexsmobs:roadrunner_feather",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "dict"
+  ],
+  "title": "Meep meep"
+ },
+ "creatures/bear": {
+  "items": [
+   [
+    "alexsmobs:bear_fur",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "dict"
+  ],
+  "title": "Bear fur"
+ },
+ "creatures/net": {
+  "items": [
+   [
+    "naturalist:capture_net",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [],
+  "title": "Catch a critter"
+ },
+ "creatures/butterfly": {
+  "items": [
+   [
+    "naturalist:butterfly",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "net"
+  ],
+  "title": "Butterfly"
+ },
+ "creatures/venison": {
+  "items": [
+   [
+    "naturalist:venison",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "net"
+  ],
+  "title": "Venison"
+ },
+ "creatures/critters": {
+  "items": [
+   [
+    "crittersandcompanions:dragonfly_wing",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [],
+  "title": "Critters and Companions"
+ },
+ "creatures/hamster": {
+  "items": [
+   [
+    "adorablehamsterpets:hamster_food_mix",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [],
+  "title": "Adorable Hamsters"
+ },
+ "creatures/shark": {
+  "items": [
+   [
+    "benssharks:shark_tooth",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [],
+  "title": "Ben's Sharks"
+ },
+ "nether_end/nether": {
+  "items": [],
+  "tasks": [
+   {
+    "type": "dimension",
+    "dimension": "minecraft:the_nether"
+   }
+  ],
+  "dep": [],
+  "title": "Welcome to hell"
+ },
+ "nether_end/blaze": {
+  "items": [
+   [
+    "minecraft:blaze_rod",
+    6
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "nether"
+  ],
+  "title": "Blaze rods"
+ },
+ "nether_end/bastion": {
+  "items": [],
+  "tasks": [
+   {
+    "type": "structure",
+    "structure": "minecraft:bastion_remnant"
+   }
+  ],
+  "dep": [
+   "nether"
+  ],
+  "title": "Bastion"
+ },
+ "nether_end/exotics": {
+  "items": [
+   [
+    "netherexotics:kiwano",
+    1
+   ],
+   [
+    "netherexotics:pitaya",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "nether"
+  ],
+  "title": "Nether fruit"
+ },
+ "nether_end/jin": {
+  "items": [
+   [
+    "just_in_nether:cruorite",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "nether"
+  ],
+  "title": "Just-In Nether"
+ },
+ "nether_end/debris": {
+  "items": [
+   [
+    "minecraft:ancient_debris",
+    2
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "nether"
+  ],
+  "title": "Ancient Debris"
+ },
+ "nether_end/netherite": {
+  "items": [
+   [
+    "minecraft:netherite_ingot",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "debris"
+  ],
+  "title": "Netherite"
+ },
+ "nether_end/soulglass": {
+  "items": [
+   [
+    "netherexp:soul_glass",
+    4
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "nether"
+  ],
+  "title": "Nether Expansion"
+ },
+ "nether_end/skull": {
+  "items": [
+   [
+    "minecraft:wither_skeleton_skull",
+    3
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "nether"
+  ],
+  "title": "Wither skull"
+ },
+ "nether_end/wither": {
+  "items": [
+   [
+    "minecraft:nether_star",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "skull"
+  ],
+  "title": "The Wither"
+ },
+ "nether_end/eyes": {
+  "items": [
+   [
+    "minecraft:ender_eye",
+    12
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "blaze"
+  ],
+  "title": "Eyes of Ender"
+ },
+ "nether_end/end": {
+  "items": [],
+  "tasks": [
+   {
+    "type": "dimension",
+    "dimension": "minecraft:the_end"
+   }
+  ],
+  "dep": [
+   "eyes"
+  ],
+  "title": "The End"
+ },
+ "nether_end/dragon": {
+  "items": [
+   [
+    "minecraft:dragon_breath",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "end"
+  ],
+  "title": "Free the End"
+ },
+ "nether_end/elytra": {
+  "items": [
+   [
+    "minecraft:elytra",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "dragon"
+  ],
+  "title": "Elytra"
+ },
+ "nether_end/crystal": {
+  "items": [
+   [
+    "unusualend:shiny_crystal",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "end"
+  ],
+  "title": "Unusual End"
+ },
+ "nether_end/voidworm": {
+  "items": [],
+  "tasks": [
+   {
+    "type": "kill",
+    "entity": "alexsmobs:void_worm",
+    "value": 1
+   }
+  ],
+  "dep": [
+   "end"
+  ],
+  "title": "Void Worm"
+ },
+ "nether_end/mosco": {
+  "items": [],
+  "tasks": [
+   {
+    "type": "kill",
+    "entity": "alexsmobs:warped_mosco",
+    "value": 1
+   }
+  ],
+  "dep": [
+   "nether"
+  ],
+  "title": "Warped Mosco"
+ },
+ "aether/portal": {
+  "items": [
+   [
+    "minecraft:glowstone",
+    4
+   ]
+  ],
+  "tasks": [],
+  "dep": [],
+  "title": "A portal to the sky"
+ },
+ "aether/aether": {
+  "items": [],
+  "tasks": [
+   {
+    "type": "dimension",
+    "dimension": "aether:the_aether"
+   }
+  ],
+  "dep": [
+   "portal"
+  ],
+  "title": "Enter the Aether"
+ },
+ "aether/skyroot": {
+  "items": [
+   [
+    "aether:skyroot_log",
+    8
+   ],
+   [
+    "aether:holystone",
+    16
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "aether"
+  ],
+  "title": "Skyroot & Holystone"
+ },
+ "aether/ambrosium": {
+  "items": [
+   [
+    "aether:ambrosium_shard",
+    4
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "skyroot"
+  ],
+  "title": "Ambrosium"
+ },
+ "aether/altar": {
+  "items": [
+   [
+    "aether:altar",
+    1
+   ],
+   [
+    "aether:freezer",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "ambrosium"
+  ],
+  "title": "Altar & Freezer"
+ },
+ "aether/zanite": {
+  "items": [
+   [
+    "aether:zanite_gemstone",
+    8
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "skyroot"
+  ],
+  "title": "Zanite"
+ },
+ "aether/parachute": {
+  "items": [
+   [
+    "aether:cold_parachute",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "aether"
+  ],
+  "title": "Parachute"
+ },
+ "aether/moa": {
+  "items": [
+   [
+    "aether:incubator",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "altar"
+  ],
+  "title": "Moa egg"
+ },
+ "aether/bronze": {
+  "items": [
+   [
+    "aether:bronze_dungeon_key",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "zanite"
+  ],
+  "title": "Bronze dungeon"
+ },
+ "aether/gravitite": {
+  "items": [
+   [
+    "aether:enchanted_gravitite",
+    4
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "bronze"
+  ],
+  "title": "Gravitite"
+ },
+ "aether/silver": {
+  "items": [
+   [
+    "aether:silver_dungeon_key",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "bronze"
+  ],
+  "title": "Silver dungeon"
+ },
+ "aether/gold": {
+  "items": [
+   [
+    "aether:gold_dungeon_key",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "silver"
+  ],
+  "title": "Gold dungeon"
+ },
+ "aether/ring": {
+  "items": [
+   [
+    "aether:zanite_ring",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "zanite"
+  ],
+  "title": "Accessories"
+ },
+ "aether/deep": {
+  "items": [
+   [
+    "deep_aether:skyjade",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "aether"
+  ],
+  "title": "Deep Aether"
+ },
+ "twilight/portal": {
+  "items": [
+   [
+    "minecraft:diamond",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [],
+  "title": "Portal"
+ },
+ "twilight/enter": {
+  "items": [],
+  "tasks": [
+   {
+    "type": "dimension",
+    "dimension": "twilightforest:twilight_forest"
+   }
+  ],
+  "dep": [
+   "portal"
+  ],
+  "title": "Into the twilight"
+ },
+ "twilight/naga": {
+  "items": [
+   [
+    "twilightforest:naga_trophy",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "enter"
+  ],
+  "title": "Naga"
+ },
+ "twilight/lich": {
+  "items": [
+   [
+    "twilightforest:lich_trophy",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "naga"
+  ],
+  "title": "Lich"
+ },
+ "twilight/steeleaf": {
+  "items": [
+   [
+    "twilightforest:steeleaf_ingot",
+    4
+   ],
+   [
+    "twilightforest:ironwood_ingot",
+    4
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "naga"
+  ],
+  "title": "Steeleaf & Ironwood"
+ },
+ "twilight/mino": {
+  "items": [
+   [
+    "twilightforest:minoshroom_trophy",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "lich"
+  ],
+  "title": "Minoshroom"
+ },
+ "twilight/hydra": {
+  "items": [
+   [
+    "twilightforest:hydra_trophy",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "mino"
+  ],
+  "title": "Hydra"
+ },
+ "twilight/fiery": {
+  "items": [
+   [
+    "twilightforest:fiery_ingot",
+    2
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "hydra"
+  ],
+  "title": "Fiery ingot"
+ },
+ "twilight/knight": {
+  "items": [
+   [
+    "twilightforest:knight_phantom_trophy",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "lich"
+  ],
+  "title": "Knight Phantoms"
+ },
+ "twilight/knightmetal": {
+  "items": [
+   [
+    "twilightforest:knightmetal_ingot",
+    4
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "knight"
+  ],
+  "title": "Knightmetal"
+ },
+ "twilight/ghast": {
+  "items": [
+   [
+    "twilightforest:ur_ghast_trophy",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "knight"
+  ],
+  "title": "Ur-Ghast"
+ },
+ "twilight/carminite": {
+  "items": [
+   [
+    "twilightforest:carminite",
+    4
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "ghast"
+  ],
+  "title": "Carminite"
+ },
+ "twilight/yeti": {
+  "items": [
+   [
+    "twilightforest:alpha_yeti_trophy",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "ghast"
+  ],
+  "title": "Alpha Yeti"
+ },
+ "twilight/queen": {
+  "items": [
+   [
+    "twilightforest:snow_queen_trophy",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "yeti"
+  ],
+  "title": "Snow Queen"
+ },
+ "twilight/uncrafting": {
+  "items": [
+   [
+    "twilightforest:uncrafting_table",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "enter"
+  ],
+  "title": "Uncrafting Table"
+ },
+ "twilight/charm": {
+  "items": [
+   [
+    "twilightforest:charm_of_life_1",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "enter"
+  ],
+  "title": "Charm of Life"
+ },
+ "twilight/ram": {
+  "items": [
+   [
+    "twilightforest:quest_ram_trophy",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "enter"
+  ],
+  "title": "Questing Ram"
+ },
+ "alexs_caves/tablet": {
+  "items": [
+   [
+    "alexscaves:cave_tablet",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [],
+  "title": "Cave Tablet"
+ },
+ "alexs_caves/book": {
+  "items": [
+   [
+    "alexscaves:cave_book",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "tablet"
+  ],
+  "title": "Cave Book"
+ },
+ "alexs_caves/magnetic": {
+  "items": [
+   [
+    "alexscaves:raw_scarlet_neodymium",
+    1
+   ],
+   [
+    "alexscaves:raw_azure_neodymium",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "tablet"
+  ],
+  "title": "Magnetic Caves"
+ },
+ "alexs_caves/primordial": {
+  "items": [
+   [
+    "alexscaves:amber",
+    1
+   ],
+   [
+    "alexscaves:dinosaur_chop",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "tablet"
+  ],
+  "title": "Primordial Caves"
+ },
+ "alexs_caves/toxic": {
+  "items": [
+   [
+    "alexscaves:uranium",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "tablet"
+  ],
+  "title": "Toxic Caves"
+ },
+ "alexs_caves/abyssal": {
+  "items": [
+   [
+    "alexscaves:sea_glass_shards",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "tablet"
+  ],
+  "title": "Abyssal Chasm"
+ },
+ "alexs_caves/submarine": {
+  "items": [
+   [
+    "alexscaves:submarine",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "abyssal"
+  ],
+  "title": "Submarine"
+ },
+ "alexs_caves/forlorn": {
+  "items": [
+   [
+    "alexscaves:guanostone",
+    1
+   ],
+   [
+    "alexscaves:pure_darkness",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "tablet"
+  ],
+  "title": "Forlorn Hollows"
+ },
+ "alexs_caves/candy": {
+  "items": [
+   [
+    "alexscaves:candy_cane",
+    1
+   ],
+   [
+    "alexscaves:block_of_chocolate",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "tablet"
+  ],
+  "title": "Candy Cavity"
+ },
+ "alexs_caves/luxtructosaurus": {
+  "items": [],
+  "tasks": [
+   {
+    "type": "kill",
+    "entity": "alexscaves:luxtructosaurus",
+    "value": 1
+   }
+  ],
+  "dep": [
+   "primordial"
+  ],
+  "title": "Luxtructosaurus"
+ },
+ "alexs_caves/hazmat": {
+  "items": [
+   [
+    "alexscaves:hazmat_mask",
+    1
+   ],
+   [
+    "alexscaves:hazmat_chestplate",
+    1
+   ],
+   [
+    "alexscaves:hazmat_leggings",
+    1
+   ],
+   [
+    "alexscaves:hazmat_boots",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "toxic"
+  ],
+  "title": "Hazmat suit"
+ },
+ "alexs_caves/raygun": {
+  "items": [
+   [
+    "alexscaves:raygun",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "toxic"
+  ],
+  "title": "Raygun"
+ },
+ "alexs_caves/diving": {
+  "items": [
+   [
+    "alexscaves:diving_helmet",
+    1
+   ],
+   [
+    "alexscaves:diving_chestplate",
+    1
+   ],
+   [
+    "alexscaves:diving_leggings",
+    1
+   ],
+   [
+    "alexscaves:diving_boots",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "abyssal"
+  ],
+  "title": "Diving suit"
+ },
+ "alexs_caves/hullbreaker": {
+  "items": [],
+  "tasks": [
+   {
+    "type": "kill",
+    "entity": "alexscaves:hullbreaker",
+    "value": 1
+   }
+  ],
+  "dep": [
+   "submarine"
+  ],
+  "title": "Hullbreaker"
+ },
+ "alexs_caves/forsaken": {
+  "items": [],
+  "tasks": [
+   {
+    "type": "kill",
+    "entity": "alexscaves:forsaken",
+    "value": 1
+   }
+  ],
+  "dep": [
+   "forlorn"
+  ],
+  "title": "Forsaken"
+ },
+ "ad_astra/steel": {
+  "items": [
+   [
+    "ad_astra:steel_ingot",
+    8
+   ]
+  ],
+  "tasks": [],
+  "dep": [],
+  "title": "Steel"
+ },
+ "ad_astra/furnace": {
+  "items": [
+   [
+    "ad_astra:etrionic_blast_furnace",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [],
+  "title": "Etrionic Blast Furnace"
+ },
+ "ad_astra/compressor": {
+  "items": [
+   [
+    "ad_astra:compressor",
+    1
+   ],
+   [
+    "ad_astra:steel_plate",
+    8
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "steel"
+  ],
+  "title": "Compressor"
+ },
+ "ad_astra/workbench": {
+  "items": [
+   [
+    "ad_astra:nasa_workbench",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "compressor"
+  ],
+  "title": "NASA Workbench"
+ },
+ "ad_astra/fuel": {
+  "items": [
+   [
+    "ad_astra:fuel_refinery",
+    1
+   ],
+   [
+    "ad_astra:fuel_bucket",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "compressor"
+  ],
+  "title": "Fuel"
+ },
+ "ad_astra/suit": {
+  "items": [
+   [
+    "ad_astra:space_helmet",
+    1
+   ],
+   [
+    "ad_astra:space_suit",
+    1
+   ],
+   [
+    "ad_astra:space_pants",
+    1
+   ],
+   [
+    "ad_astra:space_boots",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "compressor"
+  ],
+  "title": "Space suit"
+ },
+ "ad_astra/oxygen": {
+  "items": [
+   [
+    "ad_astra:oxygen_loader",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "suit"
+  ],
+  "title": "Oxygen Loader"
+ },
+ "ad_astra/rocket1": {
+  "items": [
+   [
+    "ad_astra:tier_1_rocket",
+    1
+   ],
+   [
+    "ad_astra:launch_pad",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "workbench",
+   "fuel"
+  ],
+  "title": "Tier 1 Rocket"
+ },
+ "ad_astra/moon": {
+  "items": [],
+  "tasks": [
+   {
+    "type": "dimension",
+    "dimension": "ad_astra:moon"
+   }
+  ],
+  "dep": [
+   "rocket1",
+   "oxygen"
+  ],
+  "title": "The Moon"
+ },
+ "ad_astra/desh": {
+  "items": [
+   [
+    "ad_astra:desh_ingot",
+    8
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "moon"
+  ],
+  "title": "Desh"
+ },
+ "ad_astra/base": {
+  "items": [
+   [
+    "ad_astra:oxygen_distributor",
+    1
+   ],
+   [
+    "ad_astra:solar_panel",
+    2
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "moon"
+  ],
+  "title": "Moon base"
+ },
+ "ad_astra/rocket2": {
+  "items": [
+   [
+    "ad_astra:tier_2_rocket",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "desh"
+  ],
+  "title": "Tier 2 Rocket"
+ },
+ "ad_astra/mars": {
+  "items": [],
+  "tasks": [
+   {
+    "type": "dimension",
+    "dimension": "ad_astra:mars"
+   }
+  ],
+  "dep": [
+   "rocket2"
+  ],
+  "title": "Mars"
+ },
+ "ad_astra/ostrum": {
+  "items": [
+   [
+    "ad_astra:ostrum_ingot",
+    8
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "mars"
+  ],
+  "title": "Ostrum"
+ },
+ "ad_astra/rocket3": {
+  "items": [
+   [
+    "ad_astra:tier_3_rocket",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "ostrum"
+  ],
+  "title": "Tier 3 Rocket"
+ },
+ "ad_astra/venus": {
+  "items": [],
+  "tasks": [
+   {
+    "type": "dimension",
+    "dimension": "ad_astra:venus"
+   }
+  ],
+  "dep": [
+   "rocket3"
+  ],
+  "title": "Venus"
+ },
+ "ad_astra/calorite": {
+  "items": [
+   [
+    "ad_astra:calorite_ingot",
+    8
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "venus"
+  ],
+  "title": "Calorite"
+ },
+ "ad_astra/rocket4": {
+  "items": [
+   [
+    "ad_astra:tier_4_rocket",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "calorite"
+  ],
+  "title": "Tier 4 Rocket"
+ },
+ "ad_astra/glacio": {
+  "items": [],
+  "tasks": [
+   {
+    "type": "dimension",
+    "dimension": "ad_astra:glacio"
+   }
+  ],
+  "dep": [
+   "rocket4"
+  ],
+  "title": "Glacio"
+ },
+ "ad_astra/rover": {
+  "items": [
+   [
+    "ad_astra:tier_1_rover",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "moon"
+  ],
+  "title": "Rover"
+ },
+ "fossils/fossil": {
+  "items": [
+   [
+    "fossil:fossil_bio",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [],
+  "title": "Dig up a fossil"
+ },
+ "fossils/relic": {
+  "items": [
+   [
+    "fossil:relic_scrap",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "fossil"
+  ],
+  "title": "Relic scrap"
+ },
+ "fossils/dinopedia": {
+  "items": [
+   [
+    "fossil:dinopedia",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "fossil"
+  ],
+  "title": "Dinopedia"
+ },
+ "fossils/sifter": {
+  "items": [
+   [
+    "fossil:sifter",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "fossil"
+  ],
+  "title": "Sifter"
+ },
+ "fossils/analyzer": {
+  "items": [
+   [
+    "fossil:analyzer",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "fossil"
+  ],
+  "title": "Analyzer"
+ },
+ "fossils/goo": {
+  "items": [
+   [
+    "fossil:bio_goo",
+    2
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "analyzer"
+  ],
+  "title": "Bio Goo"
+ },
+ "fossils/vat": {
+  "items": [
+   [
+    "fossil:culture_vat",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "goo"
+  ],
+  "title": "Culture Vat"
+ },
+ "fossils/feeder": {
+  "items": [
+   [
+    "fossil:feeder",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "vat"
+  ],
+  "title": "Feeder"
+ },
+ "fossils/whip": {
+  "items": [
+   [
+    "fossil:whip",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "vat"
+  ],
+  "title": "Whip"
+ },
+ "fossils/worktable": {
+  "items": [
+   [
+    "fossil:worktable",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "relic"
+  ],
+  "title": "Worktable"
+ },
+ "fossils/sword": {
+  "items": [
+   [
+    "fossil:ancient_sword",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "worktable"
+  ],
+  "title": "Ancient sword"
+ },
+ "fossils/amber": {
+  "items": [
+   [
+    "fossil:amber_chunk_mosquito",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "sifter"
+  ],
+  "title": "Mosquito in amber"
+ },
+ "fossils/key": {
+  "items": [
+   [
+    "fossil:ancient_key",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "sword"
+  ],
+  "title": "Ancient key"
+ },
+ "luminous/bestiary": {
+  "items": [
+   [
+    "luminous_beasts:ultimate_bestiary",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [],
+  "title": "Ultimate Bestiary"
+ },
+ "luminous/net": {
+  "items": [
+   [
+    "luminous_butterflies:butterfly_net",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [],
+  "title": "Butterfly net"
+ },
+ "luminous/encyclopedia": {
+  "items": [
+   [
+    "luminous_butterflies:butterfly_encyclopedia",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "net"
+  ],
+  "title": "Butterfly Encyclopedia"
+ },
+ "luminous/ent": {
+  "items": [
+   [
+    "luminous_beasts:tree_ent_trophy",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "bestiary"
+  ],
+  "title": "Tree Ent"
+ },
+ "luminous/hermit": {
+  "items": [
+   [
+    "luminous_beasts:hermit_king_trophy",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "bestiary"
+  ],
+  "title": "Hermit King"
+ },
+ "luminous/mummy": {
+  "items": [
+   [
+    "luminous_beasts:mummy_trophy",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "bestiary"
+  ],
+  "title": "Mummy"
+ },
+ "luminous/yeti": {
+  "items": [
+   [
+    "luminous_beasts:yeti_trophy",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "bestiary"
+  ],
+  "title": "Yeti"
+ },
+ "luminous/phoenix": {
+  "items": [
+   [
+    "luminous_beasts:phoenix_trophy",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "bestiary"
+  ],
+  "title": "Phoenix"
+ },
+ "luminous/executioner": {
+  "items": [
+   [
+    "luminous_beasts:executioner_trophy",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "lnether"
+  ],
+  "title": "Executioner"
+ },
+ "luminous/gator": {
+  "items": [
+   [
+    "luminous_beasts:vile_gator_trophy",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "bestiary"
+  ],
+  "title": "Vile Gator"
+ },
+ "luminous/stalker": {
+  "items": [
+   [
+    "luminous_beasts:bone_stalker_trophy",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "bestiary"
+  ],
+  "title": "Bone Stalker"
+ },
+ "luminous/witchdoctor": {
+  "items": [
+   [
+    "luminous_beasts:witch_doctor_trophy",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "bestiary"
+  ],
+  "title": "Witch Doctor"
+ },
+ "luminous/viper": {
+  "items": [
+   [
+    "luminous_beasts:sea_viper_trophy",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "bestiary"
+  ],
+  "title": "Sea Viper"
+ },
+ "luminous/scarecrow": {
+  "items": [
+   [
+    "luminous_beasts:scarecrow_trophy",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "bestiary"
+  ],
+  "title": "The Scarecrow"
+ },
+ "luminous/headsman": {
+  "items": [
+   [
+    "luminous_beasts:horseless_headsman_trophy",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "bestiary"
+  ],
+  "title": "Horseless Headsman"
+ },
+ "luminous/moth": {
+  "items": [
+   [
+    "luminous_beasts:luminous_moth_trophy",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "bestiary"
+  ],
+  "title": "Luminous Moth"
+ },
+ "luminous/lnether": {
+  "items": [],
+  "tasks": [
+   {
+    "type": "dimension",
+    "dimension": "minecraft:the_nether"
+   }
+  ],
+  "dep": [
+   "bestiary"
+  ],
+  "title": "Luminous Nether"
+ },
+ "luminous/furnace": {
+  "items": [
+   [
+    "luminous_beasts:furnace_trophy",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "lnether"
+  ],
+  "title": "The Furnace"
+ },
+ "luminous/soulfurnace": {
+  "items": [
+   [
+    "luminous_beasts:soul_furnace_trophy",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "furnace"
+  ],
+  "title": "Soul Furnace"
+ },
+ "luminous/mushlin": {
+  "items": [
+   [
+    "luminous_beasts:crimson_mushlin_king_trophy",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "lnether"
+  ],
+  "title": "Mushlin King"
+ },
+ "luminous/gilded": {
+  "items": [
+   [
+    "luminous_nether:gilded_piglin_trophy",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "lnether"
+  ],
+  "title": "Gilded Piglin"
+ },
+ "luminous/scrap": {
+  "items": [
+   [
+    "luminous_beasts:legendary_scrap",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "ent",
+   "hermit",
+   "mummy",
+   "yeti"
+  ],
+  "title": "Legendary scrap"
+ },
+ "gear/shield": {
+  "items": [
+   [
+    "spartanshieldsunofficial:iron_basic_shield",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [],
+  "title": "A real shield"
+ },
+ "gear/tower": {
+  "items": [
+   [
+    "spartanshieldsunofficial:iron_tower_shield",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "shield"
+  ],
+  "title": "Tower shield"
+ },
+ "gear/diamond_shield": {
+  "items": [
+   [
+    "spartanshieldsunofficial:diamond_tower_shield",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "tower"
+  ],
+  "title": "Diamond shield"
+ },
+ "gear/netherite": {
+  "items": [
+   [
+    "minecraft:netherite_ingot",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [],
+  "title": "Netherite"
+ },
+ "gear/an_iron": {
+  "items": [
+   [
+    "advancednetherite:netherite_iron_ingot",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "netherite"
+  ],
+  "title": "Iron-infused netherite"
+ },
+ "gear/an_gold": {
+  "items": [
+   [
+    "advancednetherite:netherite_gold_ingot",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "an_iron"
+  ],
+  "title": "Gold-infused netherite"
+ },
+ "gear/an_emerald": {
+  "items": [
+   [
+    "advancednetherite:netherite_emerald_ingot",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "an_gold"
+  ],
+  "title": "Emerald-infused netherite"
+ },
+ "gear/an_diamond": {
+  "items": [
+   [
+    "advancednetherite:netherite_diamond_ingot",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "an_emerald"
+  ],
+  "title": "Diamond-infused netherite"
+ },
+ "gear/cruorite": {
+  "items": [
+   [
+    "just_in_nether:cruorite",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [],
+  "title": "Cruorite"
+ },
+ "gear/devourite": {
+  "items": [
+   [
+    "just_in_nether:devourite",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [
+   "cruorite"
+  ],
+  "title": "Devourite"
+ },
+ "gear/kiwano": {
+  "items": [
+   [
+    "netherexotics:kiwano_chestplate",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [],
+  "title": "Kiwano armour"
+ },
+ "gear/brass": {
+  "items": [
+   [
+    "create_sa:brass_chestplate",
+    1
+   ]
+  ],
+  "tasks": [],
+  "dep": [],
+  "title": "Brass armour"
+ }
+}

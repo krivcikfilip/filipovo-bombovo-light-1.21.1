@@ -1,0 +1,781 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cadd_industry"
+	group: "36387A651839BFDA"
+	icon: {
+		id: "createoreexcavation:drilling_machine"
+	}
+	id: "1C6B0C64D2983921"
+	order_index: 15
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["79D8069DA8C3D0CA"]
+			icon: {
+				id: "createoreexcavation:drilling_machine"
+			}
+			id: "3588D3848B7F52F3"
+			rewards: [
+				{
+					id: "6DFE44AD8D37F1FF"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "32A81D8C65618AC7"
+					stat: "minecraft:play_time"
+					type: "stat"
+					value: 1
+				}
+			]
+			x: 0.0d
+			y: 12.462d
+		}
+		{
+			dependencies: ["367BAA9CAEEA5812"]
+			icon: {
+				id: "create_enchantment_industry:experience_hatch"
+			}
+			id: "3FB7FFBF2721E31A"
+			rewards: [
+				{
+					id: "6D5B15D392723DC8"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "create_enchantment_industry:spirit_taking"
+					criterion: ""
+					id: "1EC0D1CB3C56628D"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 1.8d
+		}
+		{
+			dependencies: ["3FB7FFBF2721E31A"]
+			id: "28DFD5172B4A1EED"
+			rewards: [
+				{
+					id: "3664152808A4DB35"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "4796CD0591B0B449"
+					item: { count: 1, id: "create_enchantment_industry:experience_lantern" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 3.9d
+		}
+		{
+			dependencies: ["3FB7FFBF2721E31A"]
+			id: "745E5A7EDCC4D1D4"
+			rewards: [
+				{
+					id: "7AC97A4431AB8962"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "0AB19A6B93AF1A8A"
+					item: { count: 1, id: "create_enchantment_industry:enchanting_template" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3FB7FFBF2721E31A"]
+			id: "303271A683408829"
+			rewards: [
+				{
+					id: "40485AE8FD7F79A1"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "43733C6B09FD20A8"
+					item: { count: 1, id: "create_dragons_plus:blaze_upgrade_smithing_template" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A179C358C71DE51"]
+			icon: {
+				id: "create_enchantment_industry:blaze_enchanter"
+			}
+			id: "304C7241ABFFB923"
+			rewards: [
+				{
+					id: "65ACA5688742D4AF"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "create_enchantment_industry:blazing_enchantment"
+					criterion: ""
+					id: "5F77BCD0549D30A0"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 4.05d
+		}
+		{
+			dependencies: [
+				"304C7241ABFFB923"
+				"745E5A7EDCC4D1D4"
+			]
+			icon: {
+				id: "create_enchantment_industry:enchanting_template"
+			}
+			id: "6E730F09D60399C1"
+			rewards: [
+				{
+					id: "34A0ED9972551EDC"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					advancement: "create_enchantment_industry:sigil_forging"
+					criterion: ""
+					id: "3D0347821923AD19"
+					type: "advancement"
+				}
+			]
+			x: 3.5d
+			y: 2.1d
+		}
+		{
+			dependencies: [
+				"303271A683408829"
+				"358EE95E5EF85F32"
+			]
+			id: "46002A8289A541E1"
+			rewards: [
+				{
+					id: "333BB78D1C191E81"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "72B2DF1608AD9D65"
+					item: { count: 1, id: "create_enchantment_industry:blaze_forger" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6E730F09D60399C1"
+				"46002A8289A541E1"
+			]
+			icon: {
+				id: "create_enchantment_industry:blaze_forger"
+			}
+			id: "5BAD63702B965DB3"
+			rewards: [
+				{
+					id: "427182B4C7237105"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					advancement: "create_enchantment_industry:sigil_casting"
+					criterion: ""
+					id: "44EABA3F11263426"
+					type: "advancement"
+				}
+			]
+			x: 5.25d
+			y: 1.05d
+		}
+		{
+			dependencies: [
+				"304C7241ABFFB923"
+				"4328CD94686BFEBA"
+			]
+			id: "198A9F732E3C23A9"
+			rewards: [
+				{
+					id: "652CAA0E0A3505ED"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "655A5EC480ECE621"
+					item: { count: 1, id: "create_enchantment_industry:experience_cake" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 5.4d
+		}
+		{
+			dependencies: [
+				"198A9F732E3C23A9"
+				"5BAD63702B965DB3"
+			]
+			icon: {
+				id: "create_enchantment_industry:super_enchanting_template"
+			}
+			id: "2E1183E126BBEE2D"
+			rewards: [
+				{
+					id: "48EC04355550A633"
+					type: "xp"
+					xp: 80
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "2665F7453E853078"
+					item: { count: 1, id: "create_enchantment_industry:super_enchanting_template" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 3.225d
+		}
+		{
+			dependencies: ["5BAD63702B965DB3"]
+			id: "75F97BC4BF899AAB"
+			rewards: [
+				{
+					id: "6101B91AC0EC9395"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					id: "2A42B9B845535AC7"
+					item: { count: 1, id: "create_enchantment_industry:classic_blaze_enchanter" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 1.05d
+		}
+		{
+			dependencies: ["5CD64687DC1F0763"]
+			id: "355418A2E2912B0A"
+			rewards: [
+				{
+					id: "6737455EC09F00C9"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "4E4C7DF0C9F742F5"
+					item: { count: 1, id: "createoreexcavation:drill" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.9d
+		}
+		{
+			dependencies: ["355418A2E2912B0A"]
+			id: "07C44DC816E29C9E"
+			rewards: [
+				{
+					id: "2C2998F35C7BE3BD"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "4B47085E84AD4D19"
+					item: { count: 1, id: "createoreexcavation:sample_drill" }
+					type: "item"
+				}
+				{
+					id: "0CF9792F57914A45"
+					item: { count: 1, id: "createoreexcavation:vein_atlas" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 6.9d
+		}
+		{
+			dependencies: [
+				"07C44DC816E29C9E"
+				"06A9229F989167A6"
+			]
+			id: "451D168F6F571CC2"
+			rewards: [
+				{
+					id: "4333DEF17FB141F0"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "514D34742D490A12"
+					item: { count: 1, id: "createoreexcavation:raw_diamond" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 6.9d
+		}
+		{
+			dependencies: ["451D168F6F571CC2"]
+			id: "38D1015B151B40AB"
+			rewards: [
+				{
+					id: "64F0E0BBFF256C5E"
+					type: "xp"
+					xp: 80
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "467B9E9915D558C3"
+					item: { count: 1, id: "createoreexcavation:netherite_drill" }
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: 6.9d
+		}
+		{
+			dependencies: [
+				"06A9229F989167A6"
+				"5F71DBB1A5D94585"
+				"3A66462861B4969E"
+			]
+			id: "23F4D33CDB434143"
+			rewards: [
+				{
+					id: "021C6DE858999C73"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "383D8016197813B2"
+					item: { count: 1, id: "create_power_loader:brass_chunk_loader" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.042d
+		}
+		{
+			dependencies: [
+				"3588D3848B7F52F3"
+				"246226A6919CF5ED"
+			]
+			id: "0F6296204D05EA4E"
+			rewards: [
+				{
+					id: "452037C68D4F767B"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "639A37AA803C1BAA"
+					item: { count: 1, id: "create_connected:six_way_gearbox" }
+					type: "item"
+				}
+				{
+					id: "48CAC66E39FE2019"
+					item: { count: 1, id: "create_connected:parallel_gearbox" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 10.962d
+		}
+		{
+			dependencies: [
+				"0F6296204D05EA4E"
+				"25C749FBB31AD3CD"
+			]
+			id: "55D084244BB3FB9B"
+			rewards: [
+				{
+					id: "2F55E346C89BD802"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "7470A5B4212E2676"
+					item: { count: 1, id: "create_connected:overstress_clutch" }
+					type: "item"
+				}
+				{
+					id: "5246389EA97B6070"
+					item: { count: 1, id: "create_connected:shear_pin" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 8.536d
+		}
+		{
+			dependencies: ["0F6296204D05EA4E"]
+			id: "7C491800D89759CA"
+			optional: true
+			rewards: [
+				{
+					id: "6E7794793272996A"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "1DF7428B41D072C4"
+					item: { count: 1, id: "create_connected:brake" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 10.036d
+		}
+		{
+			dependencies: [
+				"0F6296204D05EA4E"
+				"4328CD94686BFEBA"
+				"532780D9DB293403"
+			]
+			id: "6F540C0CF0F27C00"
+			rewards: [
+				{
+					id: "50DBEF39A834AE4A"
+					type: "xp"
+					xp: 35
+				}
+			]
+			tasks: [
+				{
+					id: "61AF3A1309C97694"
+					item: { count: 1, id: "create_connected:fan_blasting_catalyst" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 11.536d
+		}
+		{
+			dependencies: [
+				"0F6296204D05EA4E"
+				"25C749FBB31AD3CD"
+				"532780D9DB293403"
+			]
+			id: "1FD06D0076ECC595"
+			rewards: [
+				{
+					id: "568520C6EF06A5B5"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "7624F48F6AC64F26"
+					item: { count: 1, id: "create_connected:inventory_access_port" }
+					type: "item"
+				}
+				{
+					id: "49821204C6146A12"
+					item: { count: 1, id: "create_connected:inventory_bridge" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 13.036d
+		}
+		{
+			dependencies: [
+				"55D084244BB3FB9B"
+				"532780D9DB293403"
+			]
+			id: "02F4DADA6C28004C"
+			rewards: [
+				{
+					id: "6406AC7C810CAD8B"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "142221E21295B4E8"
+					item: { count: 1, id: "create_connected:kinetic_bridge" }
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: 8.536d
+		}
+		{
+			dependencies: [
+				"02F4DADA6C28004C"
+				"5F71DBB1A5D94585"
+			]
+			id: "7345D1713DD9FD28"
+			rewards: [
+				{
+					id: "772B81B3F4780E99"
+					type: "xp"
+					xp: 45
+				}
+			]
+			tasks: [
+				{
+					id: "6A3E838DF872BF50"
+					item: { count: 1, id: "create_connected:sequenced_pulse_generator" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 7.786d
+		}
+		{
+			dependencies: [
+				"02F4DADA6C28004C"
+				"525E98A131F9C8DD"
+			]
+			icon: {
+				id: "create_connected:kinetic_battery"
+			}
+			id: "229B974E7AACEBD5"
+			rewards: [
+				{
+					id: "31A94AD317B2C874"
+					type: "xp"
+					xp: 70
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "create_connected:kinetic_battery"
+					criterion: ""
+					id: "7BA2E0777CD6D8FC"
+					type: "advancement"
+				}
+			]
+			x: 7.0d
+			y: 9.286d
+		}
+		{
+			dependencies: [
+				"42F6A305042CC66C"
+				"35E7FB9BFAB4A8C0"
+			]
+			id: "0762F81260536D87"
+			rewards: [
+				{
+					id: "4B967241830628BB"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "1A03FFD6E5A20B6C"
+					item: { count: 1, id: "create_dragons_plus:red_dye_bucket" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 15.904d
+		}
+		{
+			dependencies: [
+				"0762F81260536D87"
+				"7BAE5A98D0EA2865"
+			]
+			id: "4556B7E175FE18FA"
+			rewards: [
+				{
+					id: "61AFD141FA3E3E41"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "674518DA151EEF51"
+					item: { count: 1, id: "minecraft:powder_snow_bucket" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 15.904d
+		}
+		{
+			dependencies: ["4556B7E175FE18FA"]
+			id: "7DA617A538D1463C"
+			rewards: [
+				{
+					id: "2383B682AC13732D"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "03E37B8DBC92A5A5"
+					item: { count: 1, id: "minecraft:dragon_head" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 16.036d
+		}
+		{
+			dependencies: [
+				"3588D3848B7F52F3"
+				"4978B86F57E43FCE"
+				"1A760F58BAC41BD4"
+			]
+			id: "09337300E7F07FE4"
+			rewards: [
+				{
+					id: "2DC024D30DB8BEA0"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "64CB8E2441B851E1"
+					item: { count: 1, id: "create_mf:saltpeter" }
+					type: "item"
+				}
+				{
+					id: "3904BAD8D03B5013"
+					item: { count: 1, id: "create_mf:sulfur" }
+					type: "item"
+				}
+				{
+					id: "7E08B1C172890937"
+					item: { count: 1, id: "create_mf:coal_pin" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 12.462d
+		}
+		{
+			dependencies: [
+				"3588D3848B7F52F3"
+				"6A7A863777ED7392"
+			]
+			id: "37B0C8E79CDA85B3"
+			rewards: [
+				{
+					id: "109EEC0E84178518"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "3EC8EB48AD4BCDDF"
+					item: { count: 1, id: "create_mf:andesite_box" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 13.962d
+		}
+		{
+			dependencies: [
+				"37B0C8E79CDA85B3"
+				"723048BF1737D4ED"
+			]
+			id: "34E2F932B08C047C"
+			rewards: [
+				{
+					id: "43AB90913CD002CC"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "526B4B2075229454"
+					item: { count: 1, id: "create_mf:workshop" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 14.536d
+		}
+	]
+}

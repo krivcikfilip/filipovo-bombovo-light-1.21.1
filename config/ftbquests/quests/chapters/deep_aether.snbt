@@ -1,0 +1,412 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "deep_aether"
+	group: "76581968F62E459A"
+	icon: {
+		id: "deep_aether:skyjade"
+	}
+	id: "751987C6EE1C56E8"
+	order_index: 45
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2B130A00EEB13DBE"]
+			icon: {
+				id: "deep_aether:skyjade"
+			}
+			id: "27D396D26F794EFB"
+			rewards: [
+				{
+					id: "1B492DA8F462ABA7"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "0C51CAF5D0020DB7"
+					stat: "minecraft:play_time"
+					type: "stat"
+					value: 1
+				}
+			]
+			x: 0.0d
+			y: 3.25d
+		}
+		{
+			dependencies: ["27D396D26F794EFB"]
+			icon: {
+				id: "deep_aether:golden_heights_grass_block"
+			}
+			id: "371F7346F3C86401"
+			rewards: [
+				{
+					id: "4D2C23E4A3D184E4"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					biome: "deep_aether:golden_heights"
+					id: "7FED13F5B631FBC5"
+					type: "biome"
+				}
+			]
+			x: 1.877d
+			y: 0.0d
+		}
+		{
+			dependencies: ["27D396D26F794EFB"]
+			id: "67AF577F67B140B6"
+			rewards: [
+				{
+					id: "1E56EE7F1D503409"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "36C1DDEB877838A0"
+					item: { count: 1, id: "deep_aether:skyjade_pickaxe" }
+					type: "item"
+				}
+			]
+			x: 1.877d
+			y: 1.5d
+		}
+		{
+			dependencies: ["27D396D26F794EFB"]
+			id: "49BB7696CBA13B56"
+			rewards: [
+				{
+					id: "38E69F3A64FF415B"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "4ECCA73B402667EA"
+					item: { count: 1, id: "deep_aether:raw_quail" }
+					type: "item"
+				}
+			]
+			x: 1.877d
+			y: 5.4d
+		}
+		{
+			dependencies: ["27D396D26F794EFB"]
+			id: "36A987BEA521B72A"
+			rewards: [
+				{
+					id: "7FA90CB215F168FB"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "092A236D0EA6AEF9"
+					item: { count: 1, id: "deep_aether:goldenleaf_berries" }
+					type: "item"
+				}
+			]
+			x: 1.877d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"67AF577F67B140B6"
+				"36A987BEA521B72A"
+				"40B73277F0D1A7FC"
+			]
+			id: "4635DA963EE98D46"
+			rewards: [
+				{
+					id: "397BBE76EA5F2565"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "68525D8F0652FF1B"
+					item: { count: 1, id: "deep_aether:combiner" }
+					type: "item"
+				}
+			]
+			x: 3.627d
+			y: 2.25d
+		}
+		{
+			dependencies: ["27D396D26F794EFB"]
+			icon: {
+				id: "deep_aether:poison_bucket"
+			}
+			id: "4F0B22DFADB5F681"
+			optional: true
+			rewards: [
+				{
+					id: "4150B52BC9B9022C"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					advancement: "deep_aether:transform_poison"
+					criterion: ""
+					id: "15D344FF6B4C88F2"
+					type: "advancement"
+				}
+			]
+			x: 1.877d
+			y: 6.9d
+		}
+		{
+			dependencies: ["4635DA963EE98D46"]
+			icon: {
+				id: "deep_aether:nimbus_stone"
+			}
+			id: "63081173614C51F6"
+			rewards: [
+				{
+					id: "791D573BCFB19F95"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "1BBE60680BFC26D3"
+					structure: "deep_aether:brass_dungeon"
+					type: "structure"
+				}
+			]
+			x: 5.377d
+			y: 2.25d
+		}
+		{
+			dependencies: ["63081173614C51F6"]
+			icon: {
+				id: "deep_aether:brass_dungeon_key"
+			}
+			id: "5F9F06AE1B31DB45"
+			rewards: [
+				{
+					id: "1FA1F2F119EFD629"
+					type: "xp"
+					xp: 120
+				}
+			]
+			tasks: [
+				{
+					advancement: "deep_aether:brass_dungeon"
+					criterion: ""
+					id: "28A016A5C247586A"
+					type: "advancement"
+				}
+			]
+			x: 7.127d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5F9F06AE1B31DB45"]
+			id: "182B5E7724CC5142"
+			optional: true
+			rewards: [
+				{
+					id: "0351D26B7C9816B9"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "26158467305B6097"
+					item: { count: 1, id: "deep_aether:stormforged_chestplate" }
+					type: "item"
+				}
+			]
+			x: 8.877d
+			y: 0.375d
+		}
+		{
+			dependencies: ["63081173614C51F6"]
+			id: "037CFE8B322BBA98"
+			rewards: [
+				{
+					id: "762BD49CF1604EAB"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					count: 5L
+					id: "4F4C8FF9E8800427"
+					item: { count: 1, id: "deep_aether:sterling_aercloud" }
+					type: "item"
+				}
+			]
+			x: 7.127d
+			y: 3.0d
+		}
+		{
+			dependencies: ["037CFE8B322BBA98"]
+			id: "76B7998BEDE43D51"
+			rewards: [
+				{
+					id: "0C1A5C9F8BFA06AA"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 5L
+					id: "299CD23B7279F5EC"
+					item: { count: 1, id: "deep_aether:chromatic_aercloud" }
+					type: "item"
+				}
+			]
+			x: 8.877d
+			y: 1.875d
+		}
+		{
+			dependencies: [
+				"76B7998BEDE43D51"
+				"315F7E3269F1CDF3"
+			]
+			id: "569C5E450B1E7054"
+			rewards: [
+				{
+					id: "54D8B77C2D4E45EF"
+					type: "xp"
+					xp: 80
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "4168C5E72BC4FBC9"
+					item: { count: 1, id: "deep_aether:stratus_ingot" }
+					type: "item"
+				}
+			]
+			x: 10.627d
+			y: 1.875d
+		}
+		{
+			dependencies: ["3AC74DFF7F405AB6"]
+			id: "71FF1B3EE1A6D06C"
+			rewards: [
+				{
+					id: "7C0437CDF079FE29"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "6C6CAED4F4DFC05F"
+					item: { count: 1, id: "deep_aether:stratus_smithing_template" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.75d
+		}
+		{
+			dependencies: [
+				"569C5E450B1E7054"
+				"71FF1B3EE1A6D06C"
+				"28BE31C616FE2CF2"
+			]
+			icon: {
+				id: "deep_aether:stratus_chestplate"
+			}
+			id: "074B763EA6F0CBBD"
+			rewards: [
+				{
+					id: "3A429F4C4A0826F0"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					advancement: "deep_aether:stratus_armor"
+					criterion: ""
+					id: "4E87340A8E39C58B"
+					type: "advancement"
+				}
+			]
+			x: 12.377d
+			y: 3.225d
+		}
+		{
+			dependencies: ["371F7346F3C86401"]
+			icon: {
+				id: "aether:golden_parachute"
+			}
+			id: "22ACB06ED8E0C1C4"
+			optional: true
+			rewards: [
+				{
+					id: "3EB808FE1DA32029"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					advancement: "deep_aether:explore_aether"
+					criterion: ""
+					id: "796533C7FA2CBB81"
+					type: "advancement"
+				}
+			]
+			x: 3.627d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5F9F06AE1B31DB45"
+				"3AC74DFF7F405AB6"
+			]
+			icon: {
+				id: "deep_aether:medal_of_honor"
+			}
+			id: "1852415B0533B8C3"
+			optional: true
+			rewards: [
+				{
+					id: "29E7647946087BF0"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [
+				{
+					advancement: "deep_aether:aether_champion"
+					criterion: ""
+					id: "320C112A270A95F8"
+					type: "advancement"
+				}
+			]
+			x: 8.877d
+			y: 4.375d
+		}
+	]
+}

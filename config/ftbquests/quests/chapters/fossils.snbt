@@ -7,10 +7,36 @@
 		id: "fossil:analyzer"
 	}
 	id: "72B8266E2135E925"
-	order_index: 24
+	order_index: 57
 	quest_links: [ ]
 	quests: [
 		{
+			icon: {
+				id: "fossil:dinopedia"
+			}
+			id: "4DDE61F66BABECBB"
+			rewards: [
+				{
+					id: "17881D42865C6DFE"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "59FB73F632B43A34"
+					stat: "minecraft:play_time"
+					type: "stat"
+					value: 1
+				}
+			]
+			x: 0.0d
+			y: 6.144d
+		}
+		{
+			dependencies: ["4DDE61F66BABECBB"]
 			id: "7042903AB74FBC54"
 			rewards: [
 				{
@@ -26,8 +52,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 2.25d
+			x: 1.75d
+			y: 6.144d
 		}
 		{
 			dependencies: ["7042903AB74FBC54"]
@@ -46,8 +72,8 @@
 					type: "item"
 				}
 			]
-			x: 1.75d
-			y: 0.0d
+			x: 4.096d
+			y: 1.231d
 		}
 		{
 			dependencies: ["7042903AB74FBC54"]
@@ -66,8 +92,8 @@
 					type: "item"
 				}
 			]
-			x: 1.75d
-			y: 1.5d
+			x: 4.096d
+			y: 3.231d
 		}
 		{
 			dependencies: ["7042903AB74FBC54"]
@@ -86,11 +112,14 @@
 					type: "item"
 				}
 			]
-			x: 1.75d
-			y: 3.0d
+			x: 4.096d
+			y: 4.731d
 		}
 		{
-			dependencies: ["7042903AB74FBC54"]
+			dependencies: [
+				"7042903AB74FBC54"
+				"07EB4C85AB05F9E7"
+			]
 			id: "0B791AA9C750974C"
 			rewards: [
 				{
@@ -106,8 +135,32 @@
 					type: "item"
 				}
 			]
-			x: 1.75d
-			y: 4.5d
+			x: 6.201d
+			y: 5.531d
+		}
+		{
+			dependencies: ["0B791AA9C750974C"]
+			icon: {
+				id: "fossil:tyrannosaurus_dna"
+			}
+			id: "3B04A98055576736"
+			rewards: [
+				{
+					id: "7A15229BF127DD09"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					advancement: "fossil:fossil/dna"
+					criterion: ""
+					id: "25C61F29156B6B37"
+					type: "advancement"
+				}
+			]
+			x: 8.212d
+			y: 3.4d
 		}
 		{
 			dependencies: ["0B791AA9C750974C"]
@@ -127,11 +180,14 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: 4.5d
+			x: 8.212d
+			y: 7.4d
 		}
 		{
-			dependencies: ["2B1A08CB82494159"]
+			dependencies: [
+				"2B1A08CB82494159"
+				"3B04A98055576736"
+			]
 			id: "55A662AB1364AF69"
 			rewards: [
 				{
@@ -140,6 +196,8 @@
 					xp: 40
 				}
 			]
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [
 				{
 					id: "78FEF8EBE08F505F"
@@ -147,11 +205,35 @@
 					type: "item"
 				}
 			]
-			x: 5.25d
-			y: 4.5d
+			x: 9.962d
+			y: 5.65d
 		}
 		{
 			dependencies: ["55A662AB1364AF69"]
+			icon: {
+				id: "fossil:egg_item_triceratops"
+			}
+			id: "02A6F289718BEABC"
+			rewards: [
+				{
+					id: "7CD2B5276FFE6F00"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					advancement: "fossil:fossil/dino_eggs"
+					criterion: ""
+					id: "241C17319BBF42F0"
+					type: "advancement"
+				}
+			]
+			x: 11.712d
+			y: 4.675d
+		}
+		{
+			dependencies: ["02A6F289718BEABC"]
 			id: "4E4F50D2CA031B06"
 			rewards: [
 				{
@@ -167,11 +249,11 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
-			y: 3.75d
+			x: 13.462d
+			y: 1.528d
 		}
 		{
-			dependencies: ["55A662AB1364AF69"]
+			dependencies: ["02A6F289718BEABC"]
 			id: "0D35853BB456C50C"
 			rewards: [
 				{
@@ -187,8 +269,211 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
-			y: 5.25d
+			x: 13.462d
+			y: 4.528d
+		}
+		{
+			dependencies: ["55A662AB1364AF69"]
+			icon: {
+				id: "minecraft:wheat"
+			}
+			id: "29AB76AAC9528C20"
+			rewards: [
+				{
+					id: "6FD6447F8A1FBF66"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					advancement: "fossil:fossil/embryos"
+					criterion: ""
+					id: "317290AA8138520E"
+					type: "advancement"
+				}
+			]
+			x: 11.712d
+			y: 7.175d
+		}
+		{
+			dependencies: ["7042903AB74FBC54"]
+			id: "7976792C653D8437"
+			rewards: [
+				{
+					id: "0F23F0D4D6E7427E"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "2C38CDEE38EED060"
+					item: { count: 1, id: "fossil:frozen_meat" }
+					type: "item"
+				}
+			]
+			x: 4.096d
+			y: 8.631d
+		}
+		{
+			dependencies: ["7042903AB74FBC54"]
+			id: "71CBE6010D9CB8D5"
+			rewards: [
+				{
+					id: "2CB7CC25F132D195"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "7D885A669321A9F3"
+					item: { count: 1, id: "fossil:fossil_shale" }
+					type: "item"
+				}
+			]
+			x: 4.096d
+			y: 10.131d
+		}
+		{
+			dependencies: ["0B791AA9C750974C"]
+			icon: {
+				id: "fossil:tar_drop"
+			}
+			id: "2E72FB52740BFE07"
+			rewards: [
+				{
+					id: "6C21EFF10FC24BC0"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					advancement: "fossil:fossil/fossil_tar"
+					criterion: ""
+					id: "091AC08775D373C0"
+					type: "advancement"
+				}
+			]
+			x: 8.212d
+			y: 11.4d
+		}
+		{
+			dependencies: ["0B791AA9C750974C"]
+			id: "6D151FC09844AC07"
+			rewards: [
+				{
+					id: "5AD588C89BBB3A64"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "5C06850EC169A351"
+					item: { count: 1, id: "fossil:fossil_plant" }
+					type: "item"
+				}
+			]
+			x: 8.212d
+			y: 8.9d
+		}
+		{
+			dependencies: [
+				"6D151FC09844AC07"
+				"55A662AB1364AF69"
+			]
+			icon: {
+				id: "fossil:fern_seed"
+			}
+			id: "4807602DC7CA8B18"
+			rewards: [
+				{
+					id: "5D9F21D4239412BC"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					advancement: "fossil:fossil/restored_seeds"
+					criterion: ""
+					id: "25EF645FBDB5E1FC"
+					type: "advancement"
+				}
+			]
+			x: 11.712d
+			y: 8.675d
+		}
+		{
+			dependencies: ["7042903AB74FBC54"]
+			id: "6D668EB648F9F994"
+			rewards: [
+				{
+					id: "091C0C8035DE0BD2"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "5FF8E08129BF11E5"
+					item: { count: 1, id: "fossil:amber_chunk_mosquito" }
+					type: "item"
+				}
+			]
+			x: 4.096d
+			y: 12.131d
+		}
+		{
+			dependencies: ["7042903AB74FBC54"]
+			id: "1535A115E78C2EDA"
+			rewards: [
+				{
+					id: "3BAC22897D6E1664"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "37A5C96A1FD95B95"
+					item: { count: 1, id: "fossil:scarab_gem" }
+					type: "item"
+				}
+			]
+			x: 4.096d
+			y: 7.131d
+		}
+		{
+			dependencies: [
+				"1535A115E78C2EDA"
+				"02A6F289718BEABC"
+			]
+			icon: {
+				id: "fossil:scarab_sword"
+			}
+			id: "1C0665A5EFA28D42"
+			optional: true
+			rewards: [
+				{
+					id: "2819BDB979473EB0"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					advancement: "fossil:fossil/scarab_tame"
+					criterion: ""
+					id: "23235746DFC82123"
+					type: "advancement"
+				}
+			]
+			x: 13.462d
+			y: 6.028d
 		}
 		{
 			dependencies: ["07EB4C85AB05F9E7"]
@@ -207,8 +492,8 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: 0.0d
+			x: 6.201d
+			y: 1.231d
 		}
 		{
 			dependencies: ["79F4290B8B690C82"]
@@ -227,37 +512,145 @@
 					type: "item"
 				}
 			]
-			x: 5.25d
+			x: 8.212d
 			y: 0.0d
 		}
 		{
-			dependencies: ["192E963AA4039C95"]
-			id: "6D668EB648F9F994"
+			dependencies: [
+				"0B791AA9C750974C"
+				"79F4290B8B690C82"
+			]
+			icon: {
+				id: "fossil:figurine_anu_restored"
+			}
+			id: "38C281F90BD44AA3"
 			rewards: [
 				{
-					id: "091C0C8035DE0BD2"
+					id: "0288CB72B7F7CCCF"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					advancement: "fossil:fossil/figurines"
+					criterion: ""
+					id: "35125079F2FE62F8"
+					type: "advancement"
+				}
+			]
+			x: 8.212d
+			y: 1.5d
+		}
+		{
+			dependencies: ["38C281F90BD44AA3"]
+			icon: {
+				id: "fossil:figurine_anu_pristine"
+			}
+			id: "4516ADF3AF4CD354"
+			rewards: [
+				{
+					id: "789DE304278BB857"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "624C4F3F8090C1FC"
+					structure: "fossil:hell_boat"
+					type: "structure"
+				}
+			]
+			x: 9.962d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4516ADF3AF4CD354"]
+			icon: {
+				id: "fossil:ancient_stone_bricks"
+			}
+			id: "651D8612EDA4842C"
+			rewards: [
+				{
+					id: "0385A1A0CFE69212"
 					type: "xp"
 					xp: 60
 				}
 			]
 			tasks: [
 				{
-					id: "5FF8E08129BF11E5"
-					item: { count: 1, id: "fossil:amber_chunk_mosquito" }
-					type: "item"
+					dimension: "fossil:anu_lair"
+					id: "177DD832B4FE7223"
+					type: "dimension"
 				}
 			]
-			x: 3.5d
-			y: 3.0d
+			x: 11.712d
+			y: 1.275d
 		}
 		{
-			dependencies: ["45559542136D7874"]
+			dependencies: [
+				"651D8612EDA4842C"
+				"1535A115E78C2EDA"
+			]
+			icon: {
+				id: "fossil:scarab_gem"
+			}
+			id: "4CB314F55E2C22E6"
+			rewards: [
+				{
+					id: "53BA9A13FE2E3AC1"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					advancement: "fossil:fossil/sarcophagus"
+					criterion: ""
+					id: "135D7A43358DD8DF"
+					type: "advancement"
+				}
+			]
+			x: 13.462d
+			y: 3.028d
+		}
+		{
+			dependencies: ["4CB314F55E2C22E6"]
+			icon: {
+				id: "fossil:figurine_anu_pristine"
+			}
+			id: "1A7EC3312DFC255D"
+			rewards: [
+				{
+					id: "16BEC7C7D464AA71"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "fossil:anu_boss"
+					id: "22CB4D0B841ACAEB"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 15.212d
+			y: 3.028d
+		}
+		{
+			dependencies: ["1A7EC3312DFC255D"]
 			id: "7EF6C1C06B44339E"
 			rewards: [
 				{
 					id: "53889E72359B7AE0"
 					type: "xp"
-					xp: 80
+					xp: 60
 				}
 			]
 			tasks: [
@@ -267,8 +660,58 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
-			y: 0.0d
+			x: 16.962d
+			y: 2.278d
+		}
+		{
+			dependencies: ["1A7EC3312DFC255D"]
+			icon: {
+				id: "fossil:ancient_chest"
+			}
+			id: "515B7E460A667A54"
+			rewards: [
+				{
+					id: "53462333D844E590"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					dimension: "fossil:treasure_room"
+					id: "240CE268EE6229D7"
+					type: "dimension"
+				}
+			]
+			x: 16.962d
+			y: 3.778d
+		}
+		{
+			dependencies: [
+				"7EF6C1C06B44339E"
+				"515B7E460A667A54"
+			]
+			icon: {
+				id: "fossil:ancient_clock"
+			}
+			id: "3CC6C5AC9BF6A6A5"
+			rewards: [
+				{
+					id: "540430D201D4D794"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					advancement: "fossil:fossil/ancient_clock"
+					criterion: ""
+					id: "14D679A384214476"
+					type: "advancement"
+				}
+			]
+			x: 18.712d
+			y: 3.028d
 		}
 	]
 }

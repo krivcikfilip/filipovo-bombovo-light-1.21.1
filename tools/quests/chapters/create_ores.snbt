@@ -1,0 +1,332 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_ores"
+	group: "36387A651839BFDA"
+	icon: {
+		id: "create:crushed_raw_iron"
+	}
+	id: "788F052544471BD1"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["112F5B3F213A69D5"]
+			icon: {
+				id: "create:crushed_raw_gold"
+			}
+			id: "53E22E0DB38EA7A2"
+			rewards: [
+				{
+					id: "610A140BE59724AB"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "68E393C5B1D0B48B"
+					stat: "minecraft:play_time"
+					type: "stat"
+					value: 1
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["53E22E0DB38EA7A2"]
+			icon: {
+				id: "minecraft:lava_bucket"
+			}
+			id: "01575952918DB3F0"
+			rewards: [
+				{
+					id: "40772C84D6891677"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					advancement: "create:fan_processing"
+					criterion: ""
+					id: "54EFA130883B13F1"
+					type: "advancement"
+				}
+			]
+			x: 1.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["53E22E0DB38EA7A2"]
+			id: "4D2A824C7F5E7FDC"
+			rewards: [
+				{
+					id: "4F8D2495E399A965"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					count: 64L
+					id: "0C4603D512EA817D"
+					item: { count: 1, id: "minecraft:dried_kelp" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"53E22E0DB38EA7A2"
+				"532780D9DB293403"
+			]
+			id: "75DCFEEC967CC852"
+			rewards: [
+				{
+					id: "7D149DE4A75EAA3D"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "3CD53B8E2EDB3B5C"
+					item: { count: 1, id: "create:haunted_bell" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 3.0d
+		}
+		{
+			dependencies: ["53E22E0DB38EA7A2"]
+			id: "2AD7900C07F16CE8"
+			rewards: [
+				{
+					id: "02AAEDAA25C2B2CA"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "33C7E00C03FDB3DC"
+					item: { count: 1, id: "minecraft:clay_ball" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"53E22E0DB38EA7A2"
+				"1A760F58BAC41BD4"
+			]
+			id: "343C30DCEAFBA9E7"
+			rewards: [
+				{
+					id: "63135364CA15F168"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					count: 16L
+					id: "1A62405645756528"
+					item: { count: 1, id: "create:crushed_raw_iron" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 6.0d
+		}
+		{
+			dependencies: ["343C30DCEAFBA9E7"]
+			id: "48FC91FCF0CD27B8"
+			rewards: [
+				{
+					id: "4E0609FD64127027"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					count: 18L
+					id: "1C010DA0C1B12FA8"
+					item: { count: 1, id: "create:copper_nugget" }
+					type: "item"
+				}
+			]
+			x: 3.925d
+			y: 1.5d
+		}
+		{
+			dependencies: ["343C30DCEAFBA9E7"]
+			id: "53169DEC00AACB80"
+			rewards: [
+				{
+					id: "2B8611BA01BAD707"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "740363A1D47FEC6B"
+					item: { count: 1, id: "create:crushed_raw_gold" }
+					type: "item"
+				}
+			]
+			x: 3.925d
+			y: 3.0d
+		}
+		{
+			dependencies: ["343C30DCEAFBA9E7"]
+			id: "780148112B854015"
+			rewards: [
+				{
+					id: "6929A845C4CB9B8A"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "119CD0D302445C5B"
+					item: { count: 1, id: "create:crushed_raw_zinc" }
+					type: "item"
+				}
+			]
+			x: 3.925d
+			y: 4.5d
+		}
+		{
+			dependencies: ["343C30DCEAFBA9E7"]
+			id: "18816F193EB4C844"
+			rewards: [
+				{
+					id: "7CEDA35234C818D4"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "24A38E2FEE66CDCD"
+					item: { count: 1, id: "create:crushed_raw_osmium" }
+					type: "item"
+				}
+			]
+			x: 3.925d
+			y: 6.0d
+		}
+		{
+			dependencies: ["343C30DCEAFBA9E7"]
+			id: "7634202A672F2ECA"
+			rewards: [
+				{
+					id: "7F30B46B39B78612"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					count: 18L
+					id: "350D4A3AE3DF9C75"
+					item: { count: 1, id: "create:experience_nugget" }
+					type: "item"
+				}
+			]
+			x: 3.925d
+			y: 7.5d
+		}
+		{
+			dependencies: ["343C30DCEAFBA9E7"]
+			id: "0FB7899971BB15D3"
+			rewards: [
+				{
+					id: "72A06901700BF35D"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "2ADB3BEAF8221884"
+					item: { count: 1, id: "create:cinder_flour" }
+					type: "item"
+				}
+			]
+			x: 3.925d
+			y: 9.0d
+		}
+		{
+			dependencies: ["343C30DCEAFBA9E7"]
+			id: "7BD8B8B4A0ADC118"
+			optional: true
+			rewards: [
+				{
+					id: "5F03B47777DD9579"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "07DE8C087883529F"
+					item: { count: 1, id: "create:powdered_obsidian" }
+					type: "item"
+				}
+			]
+			x: 3.925d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"48FC91FCF0CD27B8"
+				"01575952918DB3F0"
+			]
+			icon: {
+				id: "create:crushing_wheel"
+			}
+			id: "4A9A8448EBF61BB0"
+			rewards: [
+				{
+					id: "116B7AF000B124ED"
+					type: "xp"
+					xp: 80
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "create:crusher_maxed_0000"
+					criterion: ""
+					id: "187BF2B3B4550B1D"
+					type: "advancement"
+				}
+			]
+			x: 5.675d
+			y: 0.75d
+		}
+	]
+}

@@ -22,6 +22,8 @@
 					xp: 20
 				}
 			]
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [
 				{
 					id: "4F757E80F878A159"
@@ -31,107 +33,74 @@
 				}
 			]
 			x: 0.0d
-			y: 3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["6C6506A05B72E622"]
-			id: "54149DF58C0CF8B8"
+			id: "6E3CD9E05F102742"
 			rewards: [
 				{
-					id: "5307BD8E8AE722AE"
+					id: "130CC0C4D88BB133"
 					type: "xp"
-					xp: 25
+					xp: 15
 				}
 			]
 			tasks: [
 				{
-					id: "582DA216F222AE1A"
-					item: { count: 1, id: "waystones:waystone" }
+					id: "0A1CD645048F7486"
+					item: { count: 1, id: "minecraft:chest" }
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["54149DF58C0CF8B8"]
-			id: "79E87B93462C806A"
-			rewards: [
-				{
-					id: "3660044A305A9BD1"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [
-				{
-					id: "6E65D8405EB9EC8D"
-					item: { count: 1, id: "waystones:warp_stone" }
-					type: "item"
-				}
-			]
-			x: 3.75d
+			x: 2.175d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6C6506A05B72E622"]
-			id: "09B7476C05882565"
+			icon: {
+				id: "minecraft:stone_pickaxe"
+			}
+			id: "660F60C9C50110A7"
 			rewards: [
 				{
-					id: "346B1D02ED5D3FBB"
+					id: "3D4F39C6D6D4E960"
 					type: "xp"
-					xp: 25
+					xp: 15
 				}
 			]
 			tasks: [
 				{
-					id: "202CDFD9FD3022C3"
-					item: { count: 1, id: "sophisticatedbackpacks:backpack" }
-					type: "item"
+					advancement: "minecraft:story/mine_stone"
+					criterion: ""
+					id: "54C242241A1B0BEE"
+					type: "advancement"
 				}
 			]
-			x: 2.0d
+			x: 2.175d
 			y: 1.5d
 		}
 		{
-			dependencies: ["09B7476C05882565"]
-			id: "6222D3EA28471A09"
+			dependencies: [
+				"6C6506A05B72E622"
+				"068F1B851310D081"
+			]
+			id: "59570E1F3747B5BA"
 			rewards: [
 				{
-					id: "134B5778506B293A"
+					id: "4B9D7956244B8A0C"
 					type: "xp"
-					xp: 25
+					xp: 20
 				}
 			]
 			tasks: [
 				{
-					id: "2D294A722E3F7615"
-					item: { count: 1, id: "sophisticatedbackpacks:pickup_upgrade" }
+					id: "7A8144AC726EE385"
+					item: { count: 1, id: "minecraft:compass" }
 					type: "item"
 				}
 			]
-			x: 3.75d
-			y: 1.5d
-		}
-		{
-			dependencies: ["6222D3EA28471A09"]
-			id: "2B03B4A0BBF02287"
-			rewards: [
-				{
-					id: "1AC9958FFE1DD436"
-					type: "xp"
-					xp: 30
-				}
-			]
-			tasks: [
-				{
-					id: "63BB1C1079C66FBC"
-					item: { count: 1, id: "sophisticatedbackpacks:feeding_upgrade" }
-					type: "item"
-				}
-			]
-			x: 5.5d
-			y: 1.5d
+			x: 2.175d
+			y: 7.5d
 		}
 		{
 			dependencies: ["6C6506A05B72E622"]
@@ -154,8 +123,8 @@
 					value: 1
 				}
 			]
-			x: 2.0d
-			y: 3.0d
+			x: 2.175d
+			y: 9.0d
 		}
 		{
 			dependencies: ["6C6506A05B72E622"]
@@ -178,7 +147,186 @@
 					value: 1
 				}
 			]
-			x: 2.0d
+			x: 2.175d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"6E3CD9E05F102742"
+				"660F60C9C50110A7"
+			]
+			icon: {
+				id: "minecraft:iron_ingot"
+			}
+			id: "05C97E4775B26938"
+			rewards: [
+				{
+					id: "4DC2FBC8C7B61BB6"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:story/smelt_iron"
+					criterion: ""
+					id: "2DC4A69AF4C9BD29"
+					type: "advancement"
+				}
+			]
+			x: 3.925d
+			y: 0.75d
+		}
+		{
+			dependencies: [
+				"05C97E4775B26938"
+				"3A66462861B4969E"
+			]
+			id: "79E87B93462C806A"
+			rewards: [
+				{
+					id: "3660044A305A9BD1"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "6E65D8405EB9EC8D"
+					item: { count: 1, id: "waystones:warp_stone" }
+					type: "item"
+				}
+			]
+			x: 5.675d
+			y: 0.75d
+		}
+		{
+			dependencies: ["79E87B93462C806A"]
+			id: "54149DF58C0CF8B8"
+			rewards: [
+				{
+					id: "5307BD8E8AE722AE"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "582DA216F222AE1A"
+					item: { count: 1, id: "waystones:waystone" }
+					type: "item"
+				}
+			]
+			x: 7.425d
+			y: 0.0d
+		}
+		{
+			dependencies: ["79E87B93462C806A"]
+			id: "33F328FA6A61DC1D"
+			optional: true
+			rewards: [
+				{
+					id: "4B6DE343FC2EAF1B"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "51273E88D85A1537"
+					item: { count: 1, id: "waystones:return_scroll" }
+					type: "item"
+				}
+			]
+			x: 7.425d
+			y: 1.5d
+		}
+		{
+			dependencies: ["54149DF58C0CF8B8"]
+			id: "53FD2F6504F0E09D"
+			rewards: [
+				{
+					id: "4B08D196D0E20B96"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					count: 2L
+					id: "1B52E2B47476C951"
+					item: { count: 1, id: "waystones:warp_plate" }
+					type: "item"
+				}
+			]
+			x: 9.175d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C6506A05B72E622"]
+			id: "09B7476C05882565"
+			rewards: [
+				{
+					id: "346B1D02ED5D3FBB"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "202CDFD9FD3022C3"
+					item: { count: 1, id: "sophisticatedbackpacks:backpack" }
+					type: "item"
+				}
+			]
+			x: 2.175d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"09B7476C05882565"
+				"068F1B851310D081"
+			]
+			id: "6222D3EA28471A09"
+			rewards: [
+				{
+					id: "134B5778506B293A"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "2D294A722E3F7615"
+					item: { count: 1, id: "sophisticatedbackpacks:pickup_upgrade" }
+					type: "item"
+				}
+			]
+			x: 3.925d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6222D3EA28471A09"]
+			id: "2B03B4A0BBF02287"
+			rewards: [
+				{
+					id: "1AC9958FFE1DD436"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "63BB1C1079C66FBC"
+					item: { count: 1, id: "sophisticatedbackpacks:feeding_upgrade" }
+					type: "item"
+				}
+			]
+			x: 5.675d
 			y: 4.5d
 		}
 		{
@@ -198,11 +346,14 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: 2.175d
 			y: 6.0d
 		}
 		{
-			dependencies: ["60EAE74AD522424D"]
+			dependencies: [
+				"60EAE74AD522424D"
+				"068F1B851310D081"
+			]
 			id: "600C5C3E85823812"
 			rewards: [
 				{
@@ -218,11 +369,14 @@
 					type: "item"
 				}
 			]
-			x: 3.75d
+			x: 3.925d
 			y: 6.0d
 		}
 		{
-			dependencies: ["0B7C5FD61AD7DAA6"]
+			dependencies: [
+				"0B7C5FD61AD7DAA6"
+				"02686FAD041600B7"
+			]
 			id: "666A0A06E79D4CFF"
 			rewards: [
 				{
@@ -238,8 +392,8 @@
 					type: "item"
 				}
 			]
-			x: 3.75d
-			y: 4.5d
+			x: 3.925d
+			y: 3.0d
 		}
 	]
 }

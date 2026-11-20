@@ -1,0 +1,365 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ocean"
+	group: "76581968F62E459A"
+	icon: {
+		id: "minecraft:heart_of_the_sea"
+	}
+	id: "63790CB4E1E8D3CA"
+	order_index: 53
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:heart_of_the_sea"
+			}
+			id: "2ABFF9CC8FEEBC20"
+			rewards: [
+				{
+					id: "4F38C0FB9728DD15"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "08ECCD30577803D4"
+					stat: "minecraft:play_time"
+					type: "stat"
+					value: 1
+				}
+			]
+			x: 0.0d
+			y: 4.04d
+		}
+		{
+			dependencies: ["2ABFF9CC8FEEBC20"]
+			id: "2A481C1B043C7691"
+			rewards: [
+				{
+					id: "21526AEAA700B60D"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "100623197BBBEA6F"
+					item: { count: 1, id: "upgrade_aquatic:pike_bucket" }
+					type: "item"
+				}
+			]
+			x: 2.126d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2ABFF9CC8FEEBC20"]
+			id: "770432A5C0C712D1"
+			rewards: [
+				{
+					id: "4300BE7C98BDA7D2"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "5CF97E6BC0364AE6"
+					item: { count: 1, id: "upgrade_aquatic:cooked_lionfish" }
+					type: "item"
+				}
+			]
+			x: 2.126d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2ABFF9CC8FEEBC20"]
+			icon: {
+				id: "upgrade_aquatic:boiled_pickerelweed"
+			}
+			id: "495982B165E6A824"
+			rewards: [
+				{
+					id: "4013C747CFFA6121"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					advancement: "upgrade_aquatic:husbandry/eat_pickerelweed"
+					criterion: ""
+					id: "190149229D827022"
+					type: "advancement"
+				}
+			]
+			x: 2.126d
+			y: 6.9d
+		}
+		{
+			dependencies: ["2ABFF9CC8FEEBC20"]
+			icon: {
+				id: "upgrade_aquatic:bedroll"
+			}
+			id: "2C31C8ED05148930"
+			rewards: [
+				{
+					id: "4DC5317C6E47D393"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					advancement: "upgrade_aquatic:adventure/sleep_underwater"
+					criterion: ""
+					id: "38D2426D518DA116"
+					type: "advancement"
+				}
+			]
+			x: 2.126d
+			y: 8.4d
+		}
+		{
+			dependencies: ["2ABFF9CC8FEEBC20"]
+			id: "54EEC7A1F47F8E29"
+			rewards: [
+				{
+					id: "5EE529FB155E8E2B"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "7C4B3A99FF79AA7C"
+					item: { count: 1, id: "benssharks:fish_bucket" }
+					type: "item"
+				}
+			]
+			x: 2.126d
+			y: 1.5d
+		}
+		{
+			dependencies: ["54EEC7A1F47F8E29"]
+			icon: {
+				id: "benssharks:fish_bucket"
+			}
+			id: "646EA6A5AE6D2EB1"
+			rewards: [
+				{
+					id: "50BEAA1A3CD4F865"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					advancement: "benssharks:pleasure"
+					criterion: ""
+					id: "79E704A60AB5A906"
+					type: "advancement"
+				}
+			]
+			x: 3.876d
+			y: 1.32d
+		}
+		{
+			dependencies: ["742B38091D6A60E7"]
+			id: "6CDD46E3C0D99532"
+			rewards: [
+				{
+					id: "3CE9F270ECE5A1B4"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "63DCB51B6414153F"
+					item: { count: 1, id: "benssharks:shark_tooth_club" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 5.762d
+		}
+		{
+			dependencies: ["2ABFF9CC8FEEBC20"]
+			id: "6D3B1CC2EB485285"
+			rewards: [
+				{
+					id: "77D2F4722F23F045"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "6E135A6DE154C330"
+					item: { count: 1, id: "upgrade_aquatic:embedded_ammonite" }
+					type: "item"
+				}
+			]
+			x: 2.126d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6D3B1CC2EB485285"]
+			id: "1D612EB2C3CFC37F"
+			rewards: [
+				{
+					id: "71554CCBD866A477"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "7A73D9CE90F41D0F"
+					item: { count: 1, id: "upgrade_aquatic:coralstone" }
+					type: "item"
+				}
+			]
+			x: 3.876d
+			y: 2.82d
+		}
+		{
+			dependencies: [
+				"6D3B1CC2EB485285"
+				"518FB39A7930462C"
+			]
+			id: "51F00906E91F0A96"
+			rewards: [
+				{
+					id: "1859DF7EFB7CC0FE"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "4BBB96CBC8E44572"
+					item: { count: 1, id: "upgrade_aquatic:luminous_prismarine" }
+					type: "item"
+				}
+			]
+			x: 3.876d
+			y: 6.72d
+		}
+		{
+			dependencies: ["6D3B1CC2EB485285"]
+			id: "337F30C7F7D63317"
+			rewards: [
+				{
+					id: "4F13BCFB3D110B4D"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "0E787E6859E2449C"
+					item: { count: 1, id: "upgrade_aquatic:thrasher_tooth" }
+					type: "item"
+				}
+			]
+			x: 3.876d
+			y: 4.32d
+		}
+		{
+			dependencies: ["337F30C7F7D63317"]
+			id: "7E6FD53CB580706F"
+			rewards: [
+				{
+					id: "01B3B934C2618D0D"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "663345E2E070E9B1"
+					item: { count: 1, id: "upgrade_aquatic:tooth_lantern" }
+					type: "item"
+				}
+			]
+			x: 5.626d
+			y: 3.02d
+		}
+		{
+			dependencies: ["705E53EE145EE994"]
+			id: "47E1821CABF3BCBD"
+			rewards: [
+				{
+					id: "1A4AF99272D523B5"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "6C4D919A04613018"
+					item: { count: 1, id: "upgrade_aquatic:elder_eye" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.335d
+		}
+		{
+			dependencies: ["337F30C7F7D63317"]
+			icon: {
+				id: "upgrade_aquatic:disc_fragment_atlantis"
+			}
+			id: "4A37766BD9857227"
+			rewards: [
+				{
+					id: "3FC9169BA164CBBB"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "upgrade_aquatic:great_thrasher"
+					id: "093EDB60D0129A9D"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 5.626d
+			y: 4.52d
+		}
+		{
+			dependencies: [
+				"6CDD46E3C0D99532"
+				"337F30C7F7D63317"
+			]
+			id: "6803AAC5D2BADD76"
+			rewards: [
+				{
+					id: "6197D8FB32B06988"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "0470DC392FE13193"
+					item: { count: 1, id: "minecraft:trident" }
+					type: "item"
+				}
+			]
+			x: 5.626d
+			y: 6.02d
+		}
+	]
+}

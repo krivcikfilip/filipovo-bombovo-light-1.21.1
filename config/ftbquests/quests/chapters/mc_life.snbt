@@ -1,0 +1,562 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mc_life"
+	group: "429879DE8D393374"
+	icon: {
+		id: "minecolonies:blockhutcitizen"
+	}
+	id: "17840D1BF7B43E20"
+	order_index: 36
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5ADF5B2B71E15CF7"]
+			icon: {
+				id: "minecraft:poppy"
+			}
+			id: "2CE8408DA5D42876"
+			rewards: [
+				{
+					id: "3E421C0B426CB9E5"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "450AE2A5D1155541"
+					stat: "minecraft:play_time"
+					type: "stat"
+					value: 1
+				}
+			]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2CE8408DA5D42876"]
+			icon: {
+				id: "minecolonies:blockhutcitizen"
+			}
+			id: "1B29C1AD4CB94C39"
+			rewards: [
+				{
+					id: "74188AFACF72F5BA"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "minecolonies:minecolonies/build_citizen"
+					criterion: ""
+					id: "386B93A16019B8B8"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2CE8408DA5D42876"]
+			icon: {
+				id: "minecolonies:blockhuttavern"
+			}
+			id: "4DE6D6F93FFE52B4"
+			rewards: [
+				{
+					id: "0D6BDF427B67C46C"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecolonies:minecolonies/build_tavern"
+					criterion: ""
+					id: "5616CBDAE4FBED2F"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2CE8408DA5D42876"]
+			id: "3876F1AC2549FBEC"
+			rewards: [
+				{
+					id: "082FCDA50C36A61C"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "04FC8F57A95991AA"
+					item: { count: 1, id: "minecolonies:onion" }
+					type: "item"
+				}
+				{
+					id: "0A63DFF89295C08E"
+					item: { count: 1, id: "minecolonies:garlic" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3876F1AC2549FBEC"]
+			id: "675C5557F88C8250"
+			rewards: [
+				{
+					id: "533EDE57A59F0365"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "40EB1A9DB00E23EE"
+					item: { count: 1, id: "minecolonies:blockhutkitchen" }
+					type: "item"
+				}
+			]
+			x: 3.75d
+			y: 4.5d
+		}
+		{
+			dependencies: ["675C5557F88C8250"]
+			id: "3AE790A25E7A6C23"
+			rewards: [
+				{
+					id: "61D1F7DD172BBE2C"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "34817C2491B5B508"
+					item: { count: 1, id: "minecolonies:pottage" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2CE8408DA5D42876"]
+			id: "1D0A6772A9C68AD9"
+			rewards: [
+				{
+					id: "3009003611882F83"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "720CA84DDCAD3614"
+					item: { count: 1, id: "minecolonies:blockhutbaker" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2CE8408DA5D42876"]
+			id: "59BADBC5062480B3"
+			rewards: [
+				{
+					id: "0360C16104207A5C"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "6EC7946ECB60A00F"
+					item: { count: 1, id: "minecolonies:blockhutchickenherder" }
+					type: "item"
+				}
+				{
+					id: "5F8591CF42C8FEB9"
+					item: { count: 1, id: "minecolonies:blockhutcowboy" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["59BADBC5062480B3"]
+			id: "664A65A8213A28E7"
+			rewards: [
+				{
+					id: "7FE80550C75CD8D0"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "6A48037B53F88635"
+					item: { count: 1, id: "minecolonies:blockhutswineherder" }
+					type: "item"
+				}
+				{
+					id: "5B3AD057B8ECB6F2"
+					item: { count: 1, id: "minecolonies:blockhutshepherd" }
+					type: "item"
+				}
+			]
+			x: 3.75d
+			y: 7.5d
+		}
+		{
+			dependencies: ["664A65A8213A28E7"]
+			icon: {
+				id: "minecolonies:blockhutrabbithutch"
+			}
+			id: "7E8A99ED9715E90C"
+			optional: true
+			rewards: [
+				{
+					id: "6481AAD1004BD5DB"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecolonies:production/build_all_herders"
+					criterion: ""
+					id: "34C420109C53A8F9"
+					type: "advancement"
+				}
+			]
+			x: 5.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"1B29C1AD4CB94C39"
+				"675C5557F88C8250"
+			]
+			icon: {
+				id: "minecraft:white_bed"
+			}
+			id: "2C099E3F85EBCCFF"
+			rewards: [
+				{
+					id: "4B9BC25FE1D5F8B2"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "minecolonies:minecolonies/colony_population_25"
+					criterion: ""
+					id: "3A82AA3581FF6F21"
+					type: "advancement"
+				}
+			]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"2C099E3F85EBCCFF"
+				"307BBCE6E338273B"
+			]
+			id: "127EE9C4C7385DAA"
+			rewards: [
+				{
+					id: "6222561DA684727A"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "1D0792EA4930557A"
+					item: { count: 1, id: "minecolonies:blockhutcomposter" }
+					type: "item"
+				}
+			]
+			x: 7.875d
+			y: 0.75d
+		}
+		{
+			dependencies: ["127EE9C4C7385DAA"]
+			id: "1DDEEAB4023C18AF"
+			rewards: [
+				{
+					id: "7B1BF98F62DD3C45"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "6E2F54775B33BE36"
+					item: { count: 1, id: "minecolonies:blockhutplantation" }
+					type: "item"
+				}
+				{
+					id: "73CCAE12DD64B077"
+					item: { count: 1, id: "minecolonies:blockhutplantationfield" }
+					type: "item"
+				}
+			]
+			x: 9.625d
+			y: 0.0d
+		}
+		{
+			dependencies: ["127EE9C4C7385DAA"]
+			id: "28E70663009E1387"
+			optional: true
+			rewards: [
+				{
+					id: "265CDACB6DA66EFE"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "2EEDCD3493558928"
+					item: { count: 1, id: "minecolonies:blockhutflorist" }
+					type: "item"
+				}
+			]
+			x: 9.625d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2C099E3F85EBCCFF"]
+			id: "4506AA6C0FC0B6CD"
+			optional: true
+			rewards: [
+				{
+					id: "6A0DB06E9F9E9637"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "02654472B4F2F6CE"
+					item: { count: 1, id: "minecolonies:blockhutbeekeeper" }
+					type: "item"
+				}
+			]
+			x: 7.875d
+			y: 2.25d
+		}
+		{
+			dependencies: [
+				"2C099E3F85EBCCFF"
+				"307BBCE6E338273B"
+			]
+			id: "10D4191E5B8AF825"
+			rewards: [
+				{
+					id: "1F808AF8865704F4"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "537B3413FBC7E2D2"
+					item: { count: 1, id: "minecolonies:blockhutlibrary" }
+					type: "item"
+				}
+			]
+			x: 7.875d
+			y: 5.25d
+		}
+		{
+			dependencies: [
+				"2C099E3F85EBCCFF"
+				"307BBCE6E338273B"
+			]
+			id: "190750F8E4472BF4"
+			rewards: [
+				{
+					id: "6319D1600D65E6F7"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "05C1A17D613C8FA2"
+					item: { count: 1, id: "minecolonies:blockhutgraveyard" }
+					type: "item"
+				}
+			]
+			x: 7.875d
+			y: 6.75d
+		}
+		{
+			dependencies: ["10D4191E5B8AF825"]
+			id: "030C7019A6B44DE0"
+			rewards: [
+				{
+					id: "42871CB068377E93"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "2CD24BDD20091689"
+					item: { count: 1, id: "minecolonies:blockhutmysticalsite" }
+					type: "item"
+				}
+			]
+			x: 9.625d
+			y: 4.875d
+		}
+		{
+			dependencies: ["030C7019A6B44DE0"]
+			icon: {
+				id: "minecolonies:blockhutmysticalsite"
+			}
+			id: "588AC31D95CF3FC8"
+			optional: true
+			rewards: [
+				{
+					id: "55F67188B85D1C7D"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecolonies:minecolonies/build_mysticalsite_5"
+					criterion: ""
+					id: "3A3ADF9754E3692B"
+					type: "advancement"
+				}
+			]
+			x: 11.375d
+			y: 5.625d
+		}
+		{
+			dependencies: ["1DDEEAB4023C18AF"]
+			icon: {
+				id: "minecolonies:blockhutfield"
+			}
+			id: "414249F9D2C1FA03"
+			optional: true
+			rewards: [
+				{
+					id: "0C24453E6DC45C7E"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecolonies:production/max_fields"
+					criterion: ""
+					id: "1F29DB902F53D704"
+					type: "advancement"
+				}
+			]
+			x: 11.375d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2C099E3F85EBCCFF"
+				"10D4191E5B8AF825"
+			]
+			icon: {
+				id: "minecolonies:blockhuttownhall"
+			}
+			id: "6A4E2310EA56C7C4"
+			rewards: [
+				{
+					id: "3A4AF27670F954EB"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "minecolonies:minecolonies/colony_population_50"
+					criterion: ""
+					id: "5B0E98230D5C33B1"
+					type: "advancement"
+				}
+			]
+			x: 9.625d
+			y: 3.375d
+		}
+		{
+			dependencies: ["6A4E2310EA56C7C4"]
+			icon: {
+				id: "minecolonies:blockhuttownhall"
+			}
+			id: "2A510456ED3D8581"
+			optional: true
+			rewards: [
+				{
+					id: "1C47C2AE6D5887C8"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecolonies:minecolonies/build_town_hall_5"
+					criterion: ""
+					id: "5EB5C3F09412A6B0"
+					type: "advancement"
+				}
+			]
+			x: 11.375d
+			y: 2.625d
+		}
+		{
+			dependencies: ["6A4E2310EA56C7C4"]
+			icon: {
+				id: "minecolonies:blockhuttownhall"
+			}
+			id: "6790278D76E50FBF"
+			optional: true
+			rewards: [
+				{
+					id: "44D40EE5876B131F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecolonies:minecolonies/colony_population_75"
+					criterion: ""
+					id: "5D41D60C2766A963"
+					type: "advancement"
+				}
+			]
+			x: 11.375d
+			y: 4.125d
+		}
+	]
+}

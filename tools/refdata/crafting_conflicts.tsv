@@ -1,0 +1,307 @@
+typ	recept_A	výstup_A	recept_B	výstup_B	společný_vstup	kde_Polymorph_nepomůže
+překryv tagů	adorablehamsterpets:cucumber_crate	adorablehamsterpets:cucumber_crate x1	extradelight:cucumber_to_block	extradelight:cucumber_crate_item x1	adorablehamsterpets:cucumber	
+překryv tagů	ae2:network/blocks/energy_energy_acceptor	ae2:energy_acceptor x1	ironchest:upgrades/copper_to_iron_chest_upgrade	ironchest:copper_to_iron_chest_upgrade x1	ae2:quartz_glass minecraft:copper_ingot minecraft:iron_ingot	mechanical crafter
+překryv tagů	aether:blue_cape_blue_wool	aether:blue_cape x1	beachparty:beach_towel	beachparty:beach_towel x2	minecraft:blue_wool	mechanical crafter
+překryv tagů	aether:blue_cape_cyan_wool	aether:blue_cape x1	beachparty:beach_towel	beachparty:beach_towel x2	minecraft:cyan_wool	mechanical crafter
+překryv tagů	aether:blue_cape_light_blue_wool	aether:blue_cape x1	beachparty:beach_towel	beachparty:beach_towel x2	minecraft:light_blue_wool	mechanical crafter
+překryv tagů	aether:red_cape	aether:red_cape x1	beachparty:beach_towel	beachparty:beach_towel x2	minecraft:red_wool	mechanical crafter
+překryv tagů	aether:white_cape	aether:white_cape x1	beachparty:beach_towel	beachparty:beach_towel x2	minecraft:white_wool	mechanical crafter
+překryv tagů	aether:yellow_cape	aether:yellow_cape x1	beachparty:beach_towel	beachparty:beach_towel x2	minecraft:yellow_wool	mechanical crafter
+překryv tagů	alexscaves:metal_barrel_from_iron	alexscaves:metal_barrel x1	sophisticatedstorage:iron_barrel	sophisticatedstorage:iron_barrel x1	minecraft:iron_ingot sophisticatedstorage:barrel	mechanical crafter
+překryv tagů	autumnity:chiseled_maple_bookshelf	autumnity:chiseled_maple_bookshelf x1	minecraft:chiseled_bookshelf	minecraft:chiseled_bookshelf x1	autumnity:maple_planks autumnity:maple_slab	mechanical crafter
+překryv tagů	autumnity:maple_beehive	autumnity:maple_beehive x1	minecraft:beehive	minecraft:beehive x1	autumnity:maple_planks minecraft:honeycomb	mechanical crafter
+překryv tagů	autumnity:maple_bookshelf	autumnity:maple_bookshelf x1	minecraft:bookshelf	minecraft:bookshelf x1	autumnity:maple_planks minecraft:book	mechanical crafter
+překryv tagů	autumnity:maple_chest	autumnity:maple_chest x1	minecraft:chest	minecraft:chest x1	autumnity:maple_planks	mechanical crafter
+překryv tagů	autumnity:trapped_maple_chest	autumnity:trapped_maple_chest x1	minecraft:trapped_chest	minecraft:trapped_chest x1	autumnity:maple_chest minecraft:tripwire_hook	míchačka (auto-shapeless)
+překryv tagů	benssharks:starch_recipe	benssharks:starch x1	createfood:minecraft/crafting/shredded_potato_from_crafting	createfood:shredded_potato x1	minecraft:potato	
+překryv tagů	candlelight:rose	candlelight:rose x3	minecraft:red_dye_from_rose_bush	minecraft:red_dye x2	minecraft:rose_bush	
+překryv tagů	copycats:crafting/copycat_step_from_conversion	create:copycat_step x1	create_connected:crafting/palettes/copycat_vertical_step_compat	copycats:copycat_vertical_step x1	create_connected:copycat_vertical_step	
+překryv tagů	corn_delight:corn_crate	corn_delight:corn_crate x1	farm_and_charm:corn_bag	farm_and_charm:corn_bag x1	farm_and_charm:corn	lis+tyglík (auto-compacting); mechanical crafter
+překryv tagů	corn_delight:corn_crate	corn_delight:corn_crate x1	extradelight:corn_to_block	extradelight:corn_crate x1	corn_delight:corn culturaldelights:corn_cob extradelight:corn_on_cob farm_and_charm:corn	
+překryv tagů	corn_delight:corn_crate	corn_delight:corn_crate x1	culturaldelights:corn_cob_crate	culturaldelights:corn_cob_crate x1	culturaldelights:corn_cob	lis+tyglík (auto-compacting); mechanical crafter
+překryv tagů	corn_delight:corn_kernel_bag	corn_delight:corn_kernel_bag x1	extradelight:corn_kernels_to_block	extradelight:corn_sack x1	corn_delight:corn_seeds culturaldelights:corn_kernels extradelight:corn_seeds pamhc2crops:cornseeditem	
+překryv tagů	corn_delight:corn_seeds	corn_delight:corn_seeds x1	pamhc2crops:cornseeditem	pamhc2crops:cornseeditem x1	pamhc2crops:cornitem	
+překryv tagů	corn_delight:corn_seeds	corn_delight:corn_seeds x1	farm_and_charm:seeds_corn	farm_and_charm:kernels x3	farm_and_charm:corn	
+překryv tagů	corn_delight:taco	corn_delight:taco x1	createfood:minecraft/crafting/pork_wrap_onion_lettuce_from_crafting	createfood:pork_wrap_onion_lettuce x1	culturaldelights:tortilla farmersdelight:cabbage farmersdelight:cabbage_leaf farmersdelight:cooked_bacon	míchačka (auto-shapeless)
+překryv tagů	corn_delight:tortilla_raw	corn_delight:tortilla_raw x3	createfood:minecraft/crafting/compat/culturaldelights/corn_dough_from_water_crafting	culturaldelights:corn_dough x6	culturaldelights:corn_cob minecraft:water_bucket	
+překryv tagů	corn_delight:tortilla_raw	corn_delight:tortilla_raw x3	culturaldelights:corn_dough	culturaldelights:corn_dough x3	culturaldelights:corn_cob minecraft:water_bucket	
+překryv tagů	create_connected:crafting/kinetics/item_silo	create_connected:item_silo x1	createdieselgenerators:crafting/oil_barrel	createdieselgenerators:oil_barrel x1	create:iron_sheet minecraft:barrel sophisticatedstorage:barrel	mechanical crafter
+překryv tagů	create_wrapped:blue_wrapper	create_wrapped:blue_wrapping_paper x1	immersive_paintings:painting	immersive_paintings:painting x1	minecraft:light_blue_dye minecraft:paper	mechanical crafter
+překryv tagů	create_wrapped:cyan_wrapper	create_wrapped:cyan_wrapping_paper x1	immersive_paintings:painting	immersive_paintings:painting x1	minecraft:cyan_dye minecraft:paper	mechanical crafter
+překryv tagů	create_wrapped:green_wrapper	create_wrapped:green_wrapping_paper x1	immersive_paintings:painting	immersive_paintings:painting x1	minecraft:green_dye minecraft:paper	mechanical crafter
+překryv tagů	create_wrapped:magenta_wrapper	create_wrapped:magenta_wrapping_paper x1	immersive_paintings:painting	immersive_paintings:painting x1	minecraft:magenta_dye minecraft:paper	mechanical crafter
+překryv tagů	create_wrapped:purple_wrapper	create_wrapped:purple_wrapping_paper x1	immersive_paintings:painting	immersive_paintings:painting x1	minecraft:paper minecraft:purple_dye	mechanical crafter
+překryv tagů	create_wrapped:red_wrapper	create_wrapped:red_wrapping_paper x1	immersive_paintings:painting	immersive_paintings:painting x1	minecraft:paper minecraft:red_dye	mechanical crafter
+překryv tagů	create_wrapped:yellow_wrapper	create_wrapped:yellow_wrapping_paper x1	immersive_paintings:painting	immersive_paintings:painting x1	minecraft:paper minecraft:yellow_dye	mechanical crafter
+překryv tagů	createfood:crafting/shaped/raw_sweet_roll_base_from_shaped	createfood:raw_sweet_roll_base x1	createfood:minecraft/crafting/raw_honey_cookie_from_dough_crafting	createfood:raw_honey_cookie x8	bakery:sweet_dough createfood:sugar_dough minecraft:honey_bottle	
+překryv tagů	createfood:minecraft/crafting/chorus_fruit_pie_from_crafting	createfood:chorus_fruit_pie x1	ends_delight:food/chorus_fruit_pie_from_slices	ends_delight:chorus_fruit_pie x1	ends_delight:chorus_fruit_pie_slice	
+překryv tagů	createfood:minecraft/crafting/compat/culturaldelights/corn_dough_from_water_crafting	culturaldelights:corn_dough x6	culturaldelights:corn_dough	culturaldelights:corn_dough x3	culturaldelights:corn_cob minecraft:water_bucket	míchačka (auto-shapeless)
+překryv tagů	createfood:minecraft/crafting/diced_onion_from_crafting	createfood:diced_onion x1	pamhc2crops:onionseeditem	pamhc2crops:onionseeditem x1	pamhc2crops:onionitem	
+překryv tagů	createfood:minecraft/crafting/ground_mushroom_from_crafting	createfood:ground_mushroom x1	pamhc2crops:truffleseeditem	pamhc2crops:truffleseeditem x1	pamhc2crops:truffleitem	
+překryv tagů	createfood:minecraft/crafting/ground_mushroom_from_crafting	createfood:ground_mushroom x1	pamhc2crops:whitemushroomseeditem	pamhc2crops:whitemushroomseeditem x1	pamhc2crops:whitemushroomitem	
+překryv tagů	createfood:minecraft/crafting/raw_honey_cookie_from_dough_crafting	createfood:raw_honey_cookie x8	createfood:minecraft/crafting/raw_sweet_roll_base_from_crafting	createfood:raw_sweet_roll_base x1	bakery:sweet_dough createfood:sugar_dough minecraft:honey_bottle	míchačka (auto-shapeless)
+překryv tagů	createfood:minecraft/crafting/raw_honey_cookie_from_egg_crafting	createfood:raw_honey_cookie x8	createfood:minecraft/crafting/raw_sugar_cookie_from_egg_crafting	createfood:raw_sugar_cookie x8	aether:black_moa_egg aether:blue_moa_egg aether:white_moa_egg autumnity:turkey_egg	míchačka (auto-shapeless)
+překryv tagů	createfood:minecraft/crafting/raw_honey_cookie_from_wheat_crafting	createfood:raw_honey_cookie x8	createfood:minecraft/crafting/raw_sugar_cookie_from_wheat_crafting	createfood:raw_sugar_cookie x8	createfood:powdered_sugar minecraft:honey_bottle minecraft:sugar minecraft:water_bucket	míchačka (auto-shapeless)
+překryv tagů	createfood:minecraft/crafting/salt_dough_from_egg_crafting	createfood:salt_dough x6	farmersdelight:wheat_dough_from_eggs	farmersdelight:wheat_dough x3	aether:black_moa_egg aether:blue_moa_egg aether:white_moa_egg autumnity:turkey_egg	míchačka (auto-shapeless)
+překryv tagů	createfood:minecraft/crafting/shaped/kelp_roll_brown_mushroom_from_shaped	createfood:kelp_roll_brown_mushroom x1	createfood:minecraft/crafting/shaped/kelp_roll_crimson_fungus_from_shaped	createfood:kelp_roll_crimson_fungus x1	farmersdelight:cooked_rice minecraft:crimson_fungus minecraft:dried_kelp	mechanical crafter
+překryv tagů	createfood:minecraft/crafting/shaped/kelp_roll_brown_mushroom_from_shaped	createfood:kelp_roll_brown_mushroom x1	createfood:minecraft/crafting/shaped/kelp_roll_red_mushroom_from_shaped	createfood:kelp_roll_red_mushroom x1	createfood:sliced_red_mushroom farmersdelight:cooked_rice minecraft:dried_kelp minecraft:red_mushroom	mechanical crafter
+překryv tagů	createfood:minecraft/crafting/shaped/kelp_roll_brown_mushroom_from_shaped	createfood:kelp_roll_brown_mushroom x1	createfood:minecraft/crafting/shaped/kelp_roll_warped_fungus_from_shaped	createfood:kelp_roll_warped_fungus x1	farmersdelight:cooked_rice minecraft:dried_kelp minecraft:warped_fungus	mechanical crafter
+překryv tagů	culturaldelights:corn_cob_crate	culturaldelights:corn_cob_crate x1	extradelight:corn_to_block	extradelight:corn_crate x1	culturaldelights:corn_cob	
+překryv tagů	culturaldelights:corn_kernels	culturaldelights:corn_kernels x1	pamhc2crops:cornseeditem	pamhc2crops:cornseeditem x1	pamhc2crops:cornitem	
+překryv tagů	culturaldelights:corn_kernels	culturaldelights:corn_kernels x1	farm_and_charm:seeds_corn	farm_and_charm:kernels x3	farm_and_charm:corn	
+překryv tagů	culturaldelights:cucumber_crate	culturaldelights:cucumber_crate x1	extradelight:cucumber_to_block	extradelight:cucumber_crate_item x1	culturaldelights:cucumber extradelight:cucumber	
+překryv tagů	decorative_blocks:acacia_beam	decorative_blocks:acacia_beam x2	vinery:grapevine_stem	vinery:grapevine_stem x4	minecraft:stripped_acacia_log	mechanical crafter
+překryv tagů	decorative_blocks:acacia_beam	decorative_blocks:acacia_beam x2	quark:tweaks/crafting/utility/misc/easy_sticks	minecraft:stick x16	minecraft:stripped_acacia_log	mechanical crafter
+překryv tagů	decorative_blocks:birch_beam	decorative_blocks:birch_beam x2	vinery:grapevine_stem	vinery:grapevine_stem x4	minecraft:stripped_birch_log	mechanical crafter
+překryv tagů	decorative_blocks:birch_beam	decorative_blocks:birch_beam x2	quark:tweaks/crafting/utility/misc/easy_sticks	minecraft:stick x16	minecraft:stripped_birch_log	mechanical crafter
+překryv tagů	decorative_blocks:cherry_beam	decorative_blocks:cherry_beam x2	vinery:grapevine_stem	vinery:grapevine_stem x4	minecraft:stripped_cherry_log	mechanical crafter
+překryv tagů	decorative_blocks:cherry_beam	decorative_blocks:cherry_beam x2	quark:tweaks/crafting/utility/misc/easy_sticks	minecraft:stick x16	minecraft:stripped_cherry_log	mechanical crafter
+překryv tagů	decorative_blocks:crimson_beam	decorative_blocks:crimson_beam x2	vinery:grapevine_stem	vinery:grapevine_stem x4	minecraft:stripped_crimson_stem	mechanical crafter
+překryv tagů	decorative_blocks:crimson_beam	decorative_blocks:crimson_beam x2	quark:tweaks/crafting/utility/misc/easy_sticks	minecraft:stick x16	minecraft:stripped_crimson_stem	mechanical crafter
+překryv tagů	decorative_blocks:dark_oak_beam	decorative_blocks:dark_oak_beam x2	vinery:grapevine_stem	vinery:grapevine_stem x4	minecraft:stripped_dark_oak_log	mechanical crafter
+překryv tagů	decorative_blocks:dark_oak_beam	decorative_blocks:dark_oak_beam x2	quark:tweaks/crafting/utility/misc/easy_sticks	minecraft:stick x16	minecraft:stripped_dark_oak_log	mechanical crafter
+překryv tagů	decorative_blocks:jungle_beam	decorative_blocks:jungle_beam x2	vinery:grapevine_stem	vinery:grapevine_stem x4	minecraft:stripped_jungle_log	mechanical crafter
+překryv tagů	decorative_blocks:jungle_beam	decorative_blocks:jungle_beam x2	quark:tweaks/crafting/utility/misc/easy_sticks	minecraft:stick x16	minecraft:stripped_jungle_log	mechanical crafter
+překryv tagů	decorative_blocks:lattice	decorative_blocks:lattice x1	supplementaries:timber_frame	supplementaries:timber_frame x1	minecraft:stick	mechanical crafter
+překryv tagů	decorative_blocks:mangrove_beam	decorative_blocks:mangrove_beam x2	vinery:grapevine_stem	vinery:grapevine_stem x4	minecraft:stripped_mangrove_log	mechanical crafter
+překryv tagů	decorative_blocks:mangrove_beam	decorative_blocks:mangrove_beam x2	quark:tweaks/crafting/utility/misc/easy_sticks	minecraft:stick x16	minecraft:stripped_mangrove_log	mechanical crafter
+překryv tagů	decorative_blocks:oak_beam	decorative_blocks:oak_beam x2	vinery:grapevine_stem	vinery:grapevine_stem x4	minecraft:stripped_oak_log	mechanical crafter
+překryv tagů	decorative_blocks:oak_beam	decorative_blocks:oak_beam x2	quark:tweaks/crafting/utility/misc/easy_sticks	minecraft:stick x16	minecraft:stripped_oak_log	mechanical crafter
+překryv tagů	decorative_blocks:spruce_beam	decorative_blocks:spruce_beam x2	vinery:grapevine_stem	vinery:grapevine_stem x4	minecraft:stripped_spruce_log	mechanical crafter
+překryv tagů	decorative_blocks:spruce_beam	decorative_blocks:spruce_beam x2	quark:tweaks/crafting/utility/misc/easy_sticks	minecraft:stick x16	minecraft:stripped_spruce_log	mechanical crafter
+překryv tagů	decorative_blocks:warped_beam	decorative_blocks:warped_beam x2	vinery:grapevine_stem	vinery:grapevine_stem x4	minecraft:stripped_warped_stem	mechanical crafter
+překryv tagů	decorative_blocks:warped_beam	decorative_blocks:warped_beam x2	quark:tweaks/crafting/utility/misc/easy_sticks	minecraft:stick x16	minecraft:stripped_warped_stem	mechanical crafter
+překryv tagů	domum_ornamentum:white_paper_extra	domum_ornamentum:white_paper_extra x4	extradelight:wallpaper_white	extradelight:wallpaper_white x4	minecraft:paper minecraft:white_dye	
+překryv tagů	expandeddelight:chili_pepper_crate	expandeddelight:chili_pepper_crate x1	extradelight:chili_to_block	extradelight:chili_crate x1	expandeddelight:chili_pepper	míchačka (auto-shapeless)
+překryv tagů	extradelight:apple_to_block	extradelight:apple_crate x1	vinery:apple_bag	vinery:apple_bag x1	minecraft:apple	
+překryv tagů	extradelight:apple_to_block	extradelight:apple_crate x1	fruitsdelight:apple_crate	fruitsdelight:apple_crate x1	minecraft:apple	
+překryv tagů	extradelight:coffee_beans_to_block	extradelight:coffee_bean_sack x1	rusticdelight:coffee_beans_bag_from_coffee_beans	rusticdelight:coffee_beans_bag x1	rusticdelight:coffee_beans	
+překryv tagů	extradelight:coffee_beans_to_block	extradelight:coffee_bean_sack x1	farmersrespite:coffee_beans_sack_from_coffee_beans	farmersrespite:coffee_beans_sack x1	farmersrespite:coffee_beans	míchačka (auto-shapeless)
+překryv tagů	extradelight:coffee_cherries_to_block	extradelight:coffee_cherry_crate x1	rusticdelight:coffee_beans_bag_from_coffee_beans	rusticdelight:coffee_beans_bag x1	rusticdelight:coffee_beans	
+překryv tagů	extradelight:coffee_cherries_to_block	extradelight:coffee_cherry_crate x1	farmersrespite:coffee_beans_sack_from_coffee_beans	farmersrespite:coffee_beans_sack x1	farmersrespite:coffee_beans	míchačka (auto-shapeless)
+překryv tagů	extradelight:coffee_cherries_to_block	extradelight:coffee_cherry_crate x1	extradelight:coffee_beans_to_block	extradelight:coffee_bean_sack x1	farmersrespite:coffee_beans rusticdelight:coffee_beans	míchačka (auto-shapeless)
+překryv tagů	extradelight:corn_to_block	extradelight:corn_crate x1	farm_and_charm:corn_bag	farm_and_charm:corn_bag x1	farm_and_charm:corn	
+překryv tagů	extradelight:flour_to_block	extradelight:flour_sack x1	farm_and_charm:flour_bag	farm_and_charm:flour_bag x1	farm_and_charm:flour	
+překryv tagů	extradelight:gingham_blue	extradelight:gingham_blue x4	brewery:patterned_wool	brewery:patterned_wool x4	minecraft:blue_wool minecraft:white_wool	mechanical crafter
+překryv tagů	extradelight:iron_spoon	extradelight:iron_spoon x1	structurize:sceptersteel	structurize:sceptersteel x1	minecraft:iron_ingot minecraft:stick	mechanical crafter
+překryv tagů	extradelight:lemon_to_block	extradelight:lemon_crate_item x1	fruitsdelight:lemon_crate	fruitsdelight:lemon_crate x1	fruitsdelight:lemon	
+překryv tagů	extradelight:orange_to_block	extradelight:orange_crate_item x1	fruitsdelight:orange_crate	fruitsdelight:orange_crate x1	fruitsdelight:orange	
+překryv tagů	extradelight:stone_spoon	extradelight:stone_spoon x1	structurize:sceptergold	structurize:sceptergold x1	aether:holystone minecraft:andesite minecraft:diorite minecraft:granite	mechanical crafter
+překryv tagů	extradelight:strawberry_to_block	extradelight:strawberry_crate_item x1	farm_and_charm:strawberry_bag	farm_and_charm:strawberry_bag x1	farm_and_charm:strawberry	
+překryv tagů	extradelight:sugar_to_block	extradelight:sugar_sack x1	supplementaries:sugar_cube	supplementaries:sugar_cube x1	minecraft:sugar	
+překryv tagů	farm_and_charm:chicken_nest	farm_and_charm:chicken_nest x2	pamhc2crops:bread_grain	minecraft:bread x1	minecraft:wheat	
+překryv tagů	farmersdelight:mutton_wrap	farmersdelight:mutton_wrap x1	corn_delight:taco	corn_delight:taco x1	culturaldelights:tortilla farmersdelight:cabbage farmersdelight:cabbage_leaf farmersdelight:cooked_mutton_chops	míchačka (auto-shapeless)
+překryv tagů	farmersdelight:wheat_dough_from_water	farmersdelight:wheat_dough x3	createfood:minecraft/crafting/salt_dough_from_wheat_crafting	createfood:salt_dough x6	expandeddelight:salt minecraft:water_bucket minecraft:wheat	míchačka (auto-shapeless)
+překryv tagů	handcrafted:acacia_nightstand	handcrafted:acacia_nightstand x2	brewery:sideboard	brewery:sideboard x2	minecraft:acacia_planks minecraft:chest	mechanical crafter
+překryv tagů	handcrafted:bamboo_nightstand	handcrafted:bamboo_nightstand x2	brewery:sideboard	brewery:sideboard x2	minecraft:bamboo_planks minecraft:chest	mechanical crafter
+překryv tagů	handcrafted:birch_nightstand	handcrafted:birch_nightstand x2	brewery:sideboard	brewery:sideboard x2	minecraft:birch_planks minecraft:chest	mechanical crafter
+překryv tagů	handcrafted:cherry_nightstand	handcrafted:cherry_nightstand x2	brewery:sideboard	brewery:sideboard x2	minecraft:cherry_planks minecraft:chest	mechanical crafter
+překryv tagů	handcrafted:crimson_nightstand	handcrafted:crimson_nightstand x2	brewery:sideboard	brewery:sideboard x2	minecraft:chest minecraft:crimson_planks	mechanical crafter
+překryv tagů	handcrafted:dark_oak_nightstand	handcrafted:dark_oak_nightstand x2	brewery:sideboard	brewery:sideboard x2	minecraft:chest minecraft:dark_oak_planks	mechanical crafter
+překryv tagů	handcrafted:jungle_nightstand	handcrafted:jungle_nightstand x2	brewery:sideboard	brewery:sideboard x2	minecraft:chest minecraft:jungle_planks	mechanical crafter
+překryv tagů	handcrafted:mangrove_nightstand	handcrafted:mangrove_nightstand x2	brewery:sideboard	brewery:sideboard x2	minecraft:chest minecraft:mangrove_planks	mechanical crafter
+překryv tagů	handcrafted:oak_nightstand	handcrafted:oak_nightstand x2	brewery:sideboard	brewery:sideboard x2	minecraft:chest minecraft:oak_planks	mechanical crafter
+překryv tagů	handcrafted:spruce_nightstand	handcrafted:spruce_nightstand x2	brewery:sideboard	brewery:sideboard x2	minecraft:chest minecraft:spruce_planks	mechanical crafter
+překryv tagů	handcrafted:warped_nightstand	handcrafted:warped_nightstand x2	brewery:sideboard	brewery:sideboard x2	minecraft:chest minecraft:warped_planks	mechanical crafter
+překryv tagů	handcrafted:wood_cup	handcrafted:wood_cup x3	vinery:storage_pot	vinery:storage_pot x1	minecraft:spruce_slab	mechanical crafter
+překryv tagů	handcrafted:wood_plate	handcrafted:wood_plate x3	twilightforest:wood/sorting_drying_rack	twilightforest:sorting_drying_rack x1	twilightforest:sorting_slab	mechanical crafter
+překryv tagů	handcrafted:wood_plate	handcrafted:wood_plate x3	twilightforest:wood/acacia_drying_rack	twilightforest:acacia_drying_rack x1	minecraft:acacia_slab	mechanical crafter
+překryv tagů	handcrafted:wood_plate	handcrafted:wood_plate x3	twilightforest:wood/spruce_drying_rack	twilightforest:spruce_drying_rack x1	minecraft:spruce_slab	mechanical crafter
+překryv tagů	handcrafted:wood_plate	handcrafted:wood_plate x3	twilightforest:wood/dark_drying_rack	twilightforest:dark_drying_rack x1	twilightforest:dark_slab	mechanical crafter
+překryv tagů	handcrafted:wood_plate	handcrafted:wood_plate x3	twilightforest:wood/jungle_drying_rack	twilightforest:jungle_drying_rack x1	minecraft:jungle_slab	mechanical crafter
+překryv tagů	handcrafted:wood_plate	handcrafted:wood_plate x3	twilightforest:wood/cherry_drying_rack	twilightforest:cherry_drying_rack x1	minecraft:cherry_slab	mechanical crafter
+překryv tagů	handcrafted:wood_plate	handcrafted:wood_plate x3	twilightforest:wood/warped_drying_rack	twilightforest:warped_drying_rack x1	minecraft:warped_slab	mechanical crafter
+překryv tagů	handcrafted:wood_plate	handcrafted:wood_plate x3	twilightforest:wood/mangrove_drying_rack	twilightforest:mangrove_drying_rack x1	twilightforest:mangrove_slab	mechanical crafter
+překryv tagů	handcrafted:wood_plate	handcrafted:wood_plate x3	twilightforest:wood/dark_oak_drying_rack	twilightforest:dark_oak_drying_rack x1	minecraft:dark_oak_slab	mechanical crafter
+překryv tagů	handcrafted:wood_plate	handcrafted:wood_plate x3	twilightforest:wood/time_drying_rack	twilightforest:time_drying_rack x1	twilightforest:time_slab	mechanical crafter
+překryv tagů	handcrafted:wood_plate	handcrafted:wood_plate x3	twilightforest:wood/mining_drying_rack	twilightforest:mining_drying_rack x1	twilightforest:mining_slab	mechanical crafter
+překryv tagů	handcrafted:wood_plate	handcrafted:wood_plate x3	twilightforest:wood/canopy_drying_rack	twilightforest:canopy_drying_rack x1	twilightforest:canopy_slab	mechanical crafter
+překryv tagů	handcrafted:wood_plate	handcrafted:wood_plate x3	twilightforest:wood/twilight_oak_drying_rack	twilightforest:twilight_oak_drying_rack x1	twilightforest:twilight_oak_slab	mechanical crafter
+překryv tagů	handcrafted:wood_plate	handcrafted:wood_plate x3	twilightforest:wood/birch_drying_rack	twilightforest:birch_drying_rack x1	minecraft:birch_slab	mechanical crafter
+překryv tagů	handcrafted:wood_plate	handcrafted:wood_plate x3	twilightforest:wood/oak_drying_rack	twilightforest:oak_drying_rack x1	minecraft:oak_slab	mechanical crafter
+překryv tagů	handcrafted:wood_plate	handcrafted:wood_plate x3	twilightforest:wood/bamboo_drying_rack	twilightforest:bamboo_drying_rack x1	minecraft:bamboo_slab	mechanical crafter
+překryv tagů	handcrafted:wood_plate	handcrafted:wood_plate x3	twilightforest:wood/vangrove_drying_rack	twilightforest:vangrove_drying_rack x1	minecraft:mangrove_slab	mechanical crafter
+překryv tagů	handcrafted:wood_plate	handcrafted:wood_plate x3	twilightforest:wood/transformation_drying_rack	twilightforest:transformation_drying_rack x1	twilightforest:transformation_slab	mechanical crafter
+překryv tagů	handcrafted:wood_plate	handcrafted:wood_plate x3	twilightforest:wood/crimson_drying_rack	twilightforest:crimson_drying_rack x1	minecraft:crimson_slab	mechanical crafter
+překryv tagů	luminous_beasts:hatch_recipe	luminous_beasts:hatch x2	luminousworld:hatch_recipe	luminousworld:hatch x2	minecraft:dirt minecraft:stick	mechanical crafter
+překryv tagů	luminousworld:baobabslabrecipe	luminousworld:baobab_slab x6	minecraft:bowl	minecraft:bowl x4	luminousworld:baobab_plank	
+překryv tagů	luminousworld:craft_stripped_wood	luminousworld:stripped_auburn_wood x3	minecraft:stripped_acacia_wood	minecraft:stripped_acacia_wood x3	minecraft:stripped_acacia_log	
+překryv tagů	luminousworld:palmplankrecipe	luminousworld:palmslab x3	minecraft:bowl	minecraft:bowl x4	luminousworld:palmplank	
+překryv tagů	luminousworld:palmstairsrecipe	luminousworld:palmstairs x4	luminousworld:palm_t_drecipe	luminousworld:palmtrapdoor x2	luminousworld:palmplank	
+překryv tagů	luminousworld:palmstairsrecipe	luminousworld:palmstairs x4	luminousworld:palm_doorrecipe	luminousworld:palm_door x3	luminousworld:palmplank	
+překryv tagů	luminousworld:stripped_plank_recipe	luminousworld:autumnplank x4	minecraft:acacia_planks	minecraft:acacia_planks x4	minecraft:stripped_acacia_log	
+překryv tagů	luminousworld:w_lrecipe	luminousworld:wallleaves x2	autumnity:maple_leaf_pile	autumnity:maple_leaf_pile x4	autumnity:maple_leaves	
+překryv tagů	luminousworld:w_lrecipe	luminousworld:wallleaves x2	autumnity:orange_maple_leaf_pile	autumnity:orange_maple_leaf_pile x4	autumnity:orange_maple_leaves	
+překryv tagů	luminousworld:w_lrecipe	luminousworld:wallleaves x2	autumnity:red_maple_leaf_pile	autumnity:red_maple_leaf_pile x4	autumnity:red_maple_leaves	
+překryv tagů	luminousworld:w_lrecipe	luminousworld:wallleaves x2	autumnity:yellow_maple_leaf_pile	autumnity:yellow_maple_leaf_pile x4	autumnity:yellow_maple_leaves	
+překryv tagů	luminousworld:w_lrecipe	luminousworld:wallleaves x2	upgrade_aquatic:river_leaf_pile	upgrade_aquatic:river_leaf_pile x4	upgrade_aquatic:river_leaves	
+překryv tagů	mcwwindows:acacia_curtain_rod	mcwwindows:acacia_curtain_rod x5	pamhc2foodcore:tool_roller	pamhc2foodcore:rolleritem x1	minecraft:acacia_log minecraft:stick	mechanical crafter
+překryv tagů	mcwwindows:birch_curtain_rod	mcwwindows:birch_curtain_rod x5	pamhc2foodcore:tool_roller	pamhc2foodcore:rolleritem x1	minecraft:birch_log minecraft:stick	mechanical crafter
+překryv tagů	mcwwindows:cherry_curtain_rod	mcwwindows:cherry_curtain_rod x5	pamhc2foodcore:tool_roller	pamhc2foodcore:rolleritem x1	minecraft:cherry_log minecraft:stick	mechanical crafter
+překryv tagů	mcwwindows:crimson_curtain_rod	mcwwindows:crimson_curtain_rod x5	pamhc2foodcore:tool_roller	pamhc2foodcore:rolleritem x1	minecraft:crimson_stem minecraft:stick	mechanical crafter
+překryv tagů	mcwwindows:dark_oak_curtain_rod	mcwwindows:dark_oak_curtain_rod x5	pamhc2foodcore:tool_roller	pamhc2foodcore:rolleritem x1	minecraft:dark_oak_log minecraft:stick	mechanical crafter
+překryv tagů	mcwwindows:jungle_curtain_rod	mcwwindows:jungle_curtain_rod x5	pamhc2foodcore:tool_roller	pamhc2foodcore:rolleritem x1	minecraft:jungle_log minecraft:stick	mechanical crafter
+překryv tagů	mcwwindows:mangrove_curtain_rod	mcwwindows:mangrove_curtain_rod x5	pamhc2foodcore:tool_roller	pamhc2foodcore:rolleritem x1	minecraft:mangrove_log minecraft:stick	mechanical crafter
+překryv tagů	mcwwindows:oak_curtain_rod	mcwwindows:oak_curtain_rod x5	pamhc2foodcore:tool_roller	pamhc2foodcore:rolleritem x1	minecraft:oak_log minecraft:stick	mechanical crafter
+překryv tagů	mcwwindows:spruce_curtain_rod	mcwwindows:spruce_curtain_rod x5	pamhc2foodcore:tool_roller	pamhc2foodcore:rolleritem x1	minecraft:spruce_log minecraft:stick	mechanical crafter
+překryv tagů	mcwwindows:warped_curtain_rod	mcwwindows:warped_curtain_rod x5	pamhc2foodcore:tool_roller	pamhc2foodcore:rolleritem x1	minecraft:stick minecraft:warped_stem	mechanical crafter
+překryv tagů	meadow:pine_beam	meadow:pine_beam x3	vinery:grapevine_stem	vinery:grapevine_stem x4	meadow:pine_log	mechanical crafter
+překryv tagů	mekanism:cardboard_box	mekanism:cardboard_box x1	createdieselgenerators:crafting/chip_wood_block	createdieselgenerators:chip_wood_block x1	createdieselgenerators:wood_chip	lis+tyglík (auto-compacting); mechanical crafter
+překryv tagů	minecolonies:feta_cheese	minecolonies:feta_cheese x1	minecolonies:yogurt	minecolonies:yogurt x1	minecolonies:large_milk_bottle	
+překryv tagů	minecraft:big_cannon_sheet_inexpensive	createbigcannons:big_cartridge_sheet x1	createdeco:copper_sheet_metal	createdeco:copper_sheet_metal x4	create:copper_sheet	lis+tyglík (auto-compacting); mechanical crafter
+překryv tagů	pamhc2crops:string_fiber	minecraft:string x1	supplementaries:doormat_2	supplementaries:doormat x1	pamhc2crops:flaxitem supplementaries:flax	
+překryv tagů	pamhc2foodcore:boiledeggitem	pamhc2foodcore:boiledeggitem x1	pamhc2foodcore:vinegaritem_x1_vinegar_ingredients	pamhc2foodcore:vinegaritem x1	pamhc2foodcore:potitem pamhc2trees:bananaitem	míchačka (auto-shapeless)
+překryv tagů	pamhc2foodcore:carrotjuiceitem	pamhc2foodcore:carrotjuiceitem x1	pamhc2foodcore:p8juiceitem	pamhc2foodcore:p8juiceitem x1	minecraft:carrot pamhc2foodcore:juiceritem	míchačka (auto-shapeless)
+překryv tagů	pamhc2foodcore:honeyglazeddonutitem	pamhc2foodcore:honeyglazeddonutitem x1	pamhc2foodcore:powdereddonutitem	pamhc2foodcore:powdereddonutitem x1	extradelight:cooking_oil minecraft:honey_bottle pamhc2foodcore:batteritem pamhc2foodcore:cookingoilitem	míchačka (auto-shapeless)
+překryv tagů	quark:building/crafting/bookshelves/acacia_bookshelf	quark:acacia_bookshelf x1	minecraft:bookshelf	minecraft:bookshelf x1	minecraft:acacia_planks minecraft:book	mechanical crafter
+překryv tagů	quark:building/crafting/bookshelves/bamboo_bookshelf	quark:bamboo_bookshelf x1	minecraft:bookshelf	minecraft:bookshelf x1	minecraft:bamboo_planks minecraft:book	mechanical crafter
+překryv tagů	quark:building/crafting/bookshelves/birch_bookshelf	quark:birch_bookshelf x1	minecraft:bookshelf	minecraft:bookshelf x1	minecraft:birch_planks minecraft:book	mechanical crafter
+překryv tagů	quark:building/crafting/bookshelves/blossom_bookshelf	quark:blossom_bookshelf x1	minecraft:bookshelf	minecraft:bookshelf x1	minecraft:book quark:blossom_planks	mechanical crafter
+překryv tagů	quark:building/crafting/bookshelves/cherry_bookshelf	quark:cherry_bookshelf x1	minecraft:bookshelf	minecraft:bookshelf x1	minecraft:book minecraft:cherry_planks	mechanical crafter
+překryv tagů	quark:building/crafting/bookshelves/crimson_bookshelf	quark:crimson_bookshelf x1	minecraft:bookshelf	minecraft:bookshelf x1	minecraft:book minecraft:crimson_planks	mechanical crafter
+překryv tagů	quark:building/crafting/bookshelves/dark_oak_bookshelf	quark:dark_oak_bookshelf x1	minecraft:bookshelf	minecraft:bookshelf x1	minecraft:book minecraft:dark_oak_planks	mechanical crafter
+překryv tagů	quark:building/crafting/bookshelves/jungle_bookshelf	quark:jungle_bookshelf x1	minecraft:bookshelf	minecraft:bookshelf x1	minecraft:book minecraft:jungle_planks	mechanical crafter
+překryv tagů	quark:building/crafting/bookshelves/mangrove_bookshelf	quark:mangrove_bookshelf x1	minecraft:bookshelf	minecraft:bookshelf x1	minecraft:book minecraft:mangrove_planks	mechanical crafter
+překryv tagů	quark:building/crafting/bookshelves/spruce_bookshelf	quark:spruce_bookshelf x1	minecraft:bookshelf	minecraft:bookshelf x1	minecraft:book minecraft:spruce_planks	mechanical crafter
+překryv tagů	quark:building/crafting/bookshelves/warped_bookshelf	quark:warped_bookshelf x1	minecraft:bookshelf	minecraft:bookshelf x1	minecraft:book minecraft:warped_planks	mechanical crafter
+překryv tagů	quark:building/crafting/chests/acacia_chest	quark:acacia_chest x1	minecraft:chest	minecraft:chest x1	minecraft:acacia_planks	mechanical crafter
+překryv tagů	quark:building/crafting/chests/bamboo_chest	quark:bamboo_chest x1	minecraft:chest	minecraft:chest x1	minecraft:bamboo_planks	mechanical crafter
+překryv tagů	quark:building/crafting/chests/birch_chest	quark:birch_chest x1	minecraft:chest	minecraft:chest x1	minecraft:birch_planks	mechanical crafter
+překryv tagů	quark:building/crafting/chests/cherry_chest	quark:cherry_chest x1	minecraft:chest	minecraft:chest x1	minecraft:cherry_planks	mechanical crafter
+překryv tagů	quark:building/crafting/chests/crimson_chest	quark:crimson_chest x1	minecraft:chest	minecraft:chest x1	minecraft:crimson_planks	mechanical crafter
+překryv tagů	quark:building/crafting/chests/dark_oak_chest	quark:dark_oak_chest x1	minecraft:chest	minecraft:chest x1	minecraft:dark_oak_planks	mechanical crafter
+překryv tagů	quark:building/crafting/chests/jungle_chest	quark:jungle_chest x1	minecraft:chest	minecraft:chest x1	minecraft:jungle_planks	mechanical crafter
+překryv tagů	quark:building/crafting/chests/mangrove_chest	quark:mangrove_chest x1	minecraft:chest	minecraft:chest x1	minecraft:mangrove_planks	mechanical crafter
+překryv tagů	quark:building/crafting/chests/oak_chest	quark:oak_chest x1	minecraft:chest	minecraft:chest x1	minecraft:oak_planks	mechanical crafter
+překryv tagů	quark:building/crafting/chests/spruce_chest	quark:spruce_chest x1	minecraft:chest	minecraft:chest x1	minecraft:spruce_planks	mechanical crafter
+překryv tagů	quark:building/crafting/chests/warped_chest	quark:warped_chest x1	minecraft:chest	minecraft:chest x1	minecraft:warped_planks	mechanical crafter
+překryv tagů	quark:building/crafting/compressed/apple_crate	quark:apple_crate x1	extradelight:apple_to_block	extradelight:apple_crate x1	minecraft:apple	
+překryv tagů	quark:building/crafting/compressed/berry_sack	quark:berry_sack x1	extradelight:sweet_berries_to_block	extradelight:sweet_berry_crate x1	minecraft:sweet_berries	
+překryv tagů	quark:building/crafting/compressed/cocoa_beans_sack	quark:cocoa_beans_sack x1	extradelight:cocoa_beans_to_block	extradelight:cocoa_bean_sack x1	minecraft:cocoa_beans	
+překryv tagů	quark:building/crafting/compressed/glowberry_sack	quark:glowberry_sack x1	extradelight:glow_berries_to_block	extradelight:glow_berry_crate x1	minecraft:glow_berries	
+překryv tagů	quark:building/crafting/compressed/golden_apple_crate	quark:golden_apple_crate x1	extradelight:golden_apple_to_block	extradelight:golden_apple_crate x1	minecraft:golden_apple	
+překryv tagů	quark:building/crafting/compressed/golden_carrot_crate	quark:golden_carrot_crate x1	extradelight:golden_carrot_to_block	extradelight:golden_carrot_crate_block x1	minecraft:golden_carrot	
+překryv tagů	quark:building/crafting/compressed/nether_wart_sack	quark:nether_wart_sack x1	minecraft:nether_wart_block	minecraft:nether_wart_block x1	minecraft:nether_wart	
+překryv tagů	quark:building/crafting/furnaces/blackstone_furnace	quark:blackstone_furnace x1	minecraft:furnace	minecraft:furnace x1	minecraft:blackstone	mechanical crafter
+překryv tagů	quark:building/crafting/furnaces/deepslate_furnace	quark:deepslate_furnace x1	minecraft:furnace	minecraft:furnace x1	minecraft:cobbled_deepslate	mechanical crafter
+překryv tagů	quark:tweaks/crafting/utility/better_stone_tools/axe	minecraft:stone_axe x1	aether:holystone_axe	aether:holystone_axe x1	aether:holystone aether:skyroot_stick	mechanical crafter
+překryv tagů	quark:tweaks/crafting/utility/better_stone_tools/hoe	minecraft:stone_hoe x1	aether:holystone_hoe	aether:holystone_hoe x1	aether:holystone aether:skyroot_stick	mechanical crafter
+překryv tagů	quark:tweaks/crafting/utility/better_stone_tools/pickaxe	minecraft:stone_pickaxe x1	aether:holystone_pickaxe	aether:holystone_pickaxe x1	aether:holystone aether:skyroot_stick	mechanical crafter
+překryv tagů	quark:tweaks/crafting/utility/better_stone_tools/shovel	minecraft:stone_shovel x1	aether:holystone_shovel	aether:holystone_shovel x1	aether:holystone aether:skyroot_stick	mechanical crafter
+překryv tagů	quark:tweaks/crafting/utility/better_stone_tools/sword	minecraft:stone_sword x1	aether:holystone_sword	aether:holystone_sword x1	aether:holystone aether:skyroot_stick	mechanical crafter
+překryv tagů	quark:tweaks/crafting/utility/misc/easy_sticks	minecraft:stick x16	meadow:pine_beam	meadow:pine_beam x3	meadow:pine_log	mechanical crafter
+překryv tagů	quark:tweaks/crafting/utility/misc/easy_sticks	minecraft:stick x16	vinery:dark_cherry_beam	vinery:dark_cherry_beam x3	vinery:dark_cherry_log	mechanical crafter
+překryv tagů	quark:world/crafting/woodsets/ancient/ancient_bookshelf	quark:ancient_bookshelf x1	minecraft:bookshelf	minecraft:bookshelf x1	minecraft:book quark:ancient_planks	mechanical crafter
+překryv tagů	quark:world/crafting/woodsets/ancient/ancient_chest	quark:ancient_chest x1	minecraft:chest	minecraft:chest x1	quark:ancient_planks	mechanical crafter
+překryv tagů	quark:world/crafting/woodsets/ancient/azalea_bookshelf	quark:azalea_bookshelf x1	minecraft:bookshelf	minecraft:bookshelf x1	minecraft:book quark:azalea_planks	mechanical crafter
+překryv tagů	quark:world/crafting/woodsets/azalea/azalea_chest	quark:azalea_chest x1	minecraft:chest	minecraft:chest x1	quark:azalea_planks	mechanical crafter
+překryv tagů	quark:world/crafting/woodsets/blossom/blossom_chest	quark:blossom_chest x1	minecraft:chest	minecraft:chest x1	quark:blossom_planks	mechanical crafter
+překryv tagů	railways:crafting/palettes/hazard_stripes_a/black_hazard_stripes_diagonal_on_white	railways:black_hazard_stripes_diagonal_on_white x4	railways:crafting/palettes/hazard_stripes_a/white_hazard_stripes_diagonal_on_black	railways:white_hazard_stripes_diagonal_on_black x4	railways:black_slashed_locometal railways:white_slashed_locometal	mechanical crafter
+překryv tagů	railways:crafting/palettes/hazard_stripes_b/black_hazard_stripes_diagonal_on_white	railways:black_hazard_stripes_diagonal_on_white x4	railways:crafting/palettes/hazard_stripes_b/white_hazard_stripes_diagonal_on_black	railways:white_hazard_stripes_diagonal_on_black x4	railways:black_slashed_locometal railways:white_slashed_locometal	mechanical crafter
+překryv tagů	supplementaries:item_shelf	supplementaries:item_shelf x2	twilightforest:wood/sorting_drying_rack	twilightforest:sorting_drying_rack x1	twilightforest:sorting_slab	mechanical crafter
+překryv tagů	supplementaries:item_shelf	supplementaries:item_shelf x2	twilightforest:wood/acacia_drying_rack	twilightforest:acacia_drying_rack x1	minecraft:acacia_slab	mechanical crafter
+překryv tagů	supplementaries:item_shelf	supplementaries:item_shelf x2	twilightforest:wood/spruce_drying_rack	twilightforest:spruce_drying_rack x1	minecraft:spruce_slab	mechanical crafter
+překryv tagů	supplementaries:item_shelf	supplementaries:item_shelf x2	twilightforest:wood/dark_drying_rack	twilightforest:dark_drying_rack x1	twilightforest:dark_slab	mechanical crafter
+překryv tagů	supplementaries:item_shelf	supplementaries:item_shelf x2	twilightforest:wood/jungle_drying_rack	twilightforest:jungle_drying_rack x1	minecraft:jungle_slab	mechanical crafter
+překryv tagů	supplementaries:item_shelf	supplementaries:item_shelf x2	twilightforest:wood/cherry_drying_rack	twilightforest:cherry_drying_rack x1	minecraft:cherry_slab	mechanical crafter
+překryv tagů	supplementaries:item_shelf	supplementaries:item_shelf x2	twilightforest:wood/warped_drying_rack	twilightforest:warped_drying_rack x1	minecraft:warped_slab	mechanical crafter
+překryv tagů	supplementaries:item_shelf	supplementaries:item_shelf x2	twilightforest:wood/mangrove_drying_rack	twilightforest:mangrove_drying_rack x1	twilightforest:mangrove_slab	mechanical crafter
+překryv tagů	supplementaries:item_shelf	supplementaries:item_shelf x2	twilightforest:wood/dark_oak_drying_rack	twilightforest:dark_oak_drying_rack x1	minecraft:dark_oak_slab	mechanical crafter
+překryv tagů	supplementaries:item_shelf	supplementaries:item_shelf x2	twilightforest:wood/time_drying_rack	twilightforest:time_drying_rack x1	twilightforest:time_slab	mechanical crafter
+překryv tagů	supplementaries:item_shelf	supplementaries:item_shelf x2	twilightforest:wood/mining_drying_rack	twilightforest:mining_drying_rack x1	twilightforest:mining_slab	mechanical crafter
+překryv tagů	supplementaries:item_shelf	supplementaries:item_shelf x2	twilightforest:wood/canopy_drying_rack	twilightforest:canopy_drying_rack x1	twilightforest:canopy_slab	mechanical crafter
+překryv tagů	supplementaries:item_shelf	supplementaries:item_shelf x2	twilightforest:wood/twilight_oak_drying_rack	twilightforest:twilight_oak_drying_rack x1	twilightforest:twilight_oak_slab	mechanical crafter
+překryv tagů	supplementaries:item_shelf	supplementaries:item_shelf x2	twilightforest:wood/birch_drying_rack	twilightforest:birch_drying_rack x1	minecraft:birch_slab	mechanical crafter
+překryv tagů	supplementaries:item_shelf	supplementaries:item_shelf x2	twilightforest:wood/oak_drying_rack	twilightforest:oak_drying_rack x1	minecraft:oak_slab	mechanical crafter
+překryv tagů	supplementaries:item_shelf	supplementaries:item_shelf x2	twilightforest:wood/bamboo_drying_rack	twilightforest:bamboo_drying_rack x1	minecraft:bamboo_slab	mechanical crafter
+překryv tagů	supplementaries:item_shelf	supplementaries:item_shelf x2	twilightforest:wood/vangrove_drying_rack	twilightforest:vangrove_drying_rack x1	minecraft:mangrove_slab	mechanical crafter
+překryv tagů	supplementaries:item_shelf	supplementaries:item_shelf x2	twilightforest:wood/transformation_drying_rack	twilightforest:transformation_drying_rack x1	twilightforest:transformation_slab	mechanical crafter
+překryv tagů	supplementaries:item_shelf	supplementaries:item_shelf x2	twilightforest:wood/crimson_drying_rack	twilightforest:crimson_drying_rack x1	minecraft:crimson_slab	mechanical crafter
+překryv tagů	upgrade_aquatic:chiseled_driftwood_bookshelf	upgrade_aquatic:chiseled_driftwood_bookshelf x1	minecraft:chiseled_bookshelf	minecraft:chiseled_bookshelf x1	upgrade_aquatic:driftwood_planks upgrade_aquatic:driftwood_slab	mechanical crafter
+překryv tagů	upgrade_aquatic:chiseled_river_bookshelf	upgrade_aquatic:chiseled_river_bookshelf x1	minecraft:chiseled_bookshelf	minecraft:chiseled_bookshelf x1	upgrade_aquatic:river_planks upgrade_aquatic:river_slab	mechanical crafter
+překryv tagů	upgrade_aquatic:driftwood_beehive	upgrade_aquatic:driftwood_beehive x1	minecraft:beehive	minecraft:beehive x1	minecraft:honeycomb upgrade_aquatic:driftwood_planks	mechanical crafter
+překryv tagů	upgrade_aquatic:driftwood_bookshelf	upgrade_aquatic:driftwood_bookshelf x1	minecraft:bookshelf	minecraft:bookshelf x1	minecraft:book upgrade_aquatic:driftwood_planks	mechanical crafter
+překryv tagů	upgrade_aquatic:driftwood_chest	upgrade_aquatic:driftwood_chest x1	minecraft:chest	minecraft:chest x1	upgrade_aquatic:driftwood_planks	mechanical crafter
+překryv tagů	upgrade_aquatic:river_beehive	upgrade_aquatic:river_beehive x1	minecraft:beehive	minecraft:beehive x1	minecraft:honeycomb upgrade_aquatic:river_planks	mechanical crafter
+překryv tagů	upgrade_aquatic:river_bookshelf	upgrade_aquatic:river_bookshelf x1	minecraft:bookshelf	minecraft:bookshelf x1	minecraft:book upgrade_aquatic:river_planks	mechanical crafter
+překryv tagů	upgrade_aquatic:river_chest	upgrade_aquatic:river_chest x1	minecraft:chest	minecraft:chest x1	upgrade_aquatic:river_planks	mechanical crafter
+překryv tagů	upgrade_aquatic:trapped_driftwood_chest	upgrade_aquatic:trapped_driftwood_chest x1	minecraft:trapped_chest	minecraft:trapped_chest x1	minecraft:tripwire_hook upgrade_aquatic:driftwood_chest	míchačka (auto-shapeless)
+překryv tagů	upgrade_aquatic:trapped_river_chest	upgrade_aquatic:trapped_river_chest x1	minecraft:trapped_chest	minecraft:trapped_chest x1	minecraft:tripwire_hook upgrade_aquatic:river_chest	míchačka (auto-shapeless)
+překryv tagů	vinery:dark_cherry_beam	vinery:dark_cherry_beam x3	vinery:grapevine_stem	vinery:grapevine_stem x4	vinery:dark_cherry_log	mechanical crafter
+stejný vstup	adorablehamsterpets:cheese	adorablehamsterpets:cheese x3	pamhc2foodcore:freshmilk_x8	pamhc2foodcore:freshmilkitem x8	minecraft:milk_bucket	
+stejný vstup	aether:iron_ring	aether:iron_ring x1	createdeco:iron_support	createdeco:iron_support x4	minecraft:iron_ingot	mechanical crafter
+stejný vstup	another_furniture:acacia_table	another_furniture:acacia_table x3	handcrafted:acacia_table	handcrafted:acacia_table x2	minecraft:acacia_planks minecraft:stick	mechanical crafter
+stejný vstup	another_furniture:bamboo_table	another_furniture:bamboo_table x3	handcrafted:bamboo_table	handcrafted:bamboo_table x2	minecraft:bamboo_planks minecraft:stick	mechanical crafter
+stejný vstup	another_furniture:birch_table	another_furniture:birch_table x3	handcrafted:birch_table	handcrafted:birch_table x2	minecraft:birch_planks minecraft:stick	mechanical crafter
+stejný vstup	another_furniture:cherry_table	another_furniture:cherry_table x3	handcrafted:cherry_table	handcrafted:cherry_table x2	minecraft:cherry_planks minecraft:stick	mechanical crafter
+stejný vstup	another_furniture:crimson_table	another_furniture:crimson_table x3	handcrafted:crimson_table	handcrafted:crimson_table x2	minecraft:crimson_planks minecraft:stick	mechanical crafter
+stejný vstup	another_furniture:dark_oak_table	another_furniture:dark_oak_table x3	handcrafted:dark_oak_table	handcrafted:dark_oak_table x2	minecraft:dark_oak_planks minecraft:stick	mechanical crafter
+stejný vstup	another_furniture:jungle_table	another_furniture:jungle_table x3	handcrafted:jungle_table	handcrafted:jungle_table x2	minecraft:jungle_planks minecraft:stick	mechanical crafter
+stejný vstup	another_furniture:mangrove_table	another_furniture:mangrove_table x3	handcrafted:mangrove_table	handcrafted:mangrove_table x2	minecraft:mangrove_planks minecraft:stick	mechanical crafter
+stejný vstup	another_furniture:oak_table	another_furniture:oak_table x3	handcrafted:oak_table	handcrafted:oak_table x2	minecraft:oak_planks minecraft:stick	mechanical crafter
+stejný vstup	another_furniture:spruce_table	another_furniture:spruce_table x3	handcrafted:spruce_table	handcrafted:spruce_table x2	minecraft:spruce_planks minecraft:stick	mechanical crafter
+stejný vstup	another_furniture:warped_table	another_furniture:warped_table x3	handcrafted:warped_table	handcrafted:warped_table x2	minecraft:stick minecraft:warped_planks	mechanical crafter
+stejný vstup	autumnity:large_pumpkin_slice	autumnity:large_pumpkin_slice x4	mcwholidays:large_pumpkin	mcwholidays:large_pumpkin x4	minecraft:pumpkin	lis+tyglík (auto-compacting); mechanical crafter
+stejný vstup	corn_delight:corn_seeds	corn_delight:corn_seeds x1	culturaldelights:corn_kernels	culturaldelights:corn_kernels x1	corn_delight:corn culturaldelights:corn_cob extradelight:corn_on_cob farm_and_charm:corn	
+stejný vstup	create_sa:small_filling_tank_recipe	create_sa:small_filling_tank x1	create_connected:crafting/kinetics/fluid_vessel_from_conversion	create_connected:fluid_vessel x1	create:fluid_tank	
+stejný vstup	create_sa:vault_component_recipe	create_sa:vault_component x1	create_connected:crafting/kinetics/item_silo_from_conversion	create_connected:item_silo x1	create:item_vault	
+stejný vstup	createbigcannons:big_cartridge_sheet	createbigcannons:big_cartridge_sheet x4	createdeco:brass_sheet_metal	createdeco:brass_sheet_metal x4	create:brass_sheet	lis+tyglík (auto-compacting); mechanical crafter
+stejný vstup	createfood:minecraft/crafting/egg_yolk_from_crafting_alt	createfood:egg_yolk x1	fossil:golden_egg	minecraft:egg x1	minecraft:egg	
+stejný vstup	createfood:minecraft/crafting/shredded_beetroot_from_crafting	createfood:shredded_beetroot x1	minecraft:red_dye_from_beetroot	minecraft:red_dye x1	minecraft:beetroot	
+stejný vstup	decorative_blocks:rocky_dirt	decorative_blocks:rocky_dirt x1	farm_and_charm:packed_dirt	farm_and_charm:packed_dirt x4	minecraft:dirt	lis+tyglík (auto-compacting); mechanical crafter
+stejný vstup	endersdelight:chorus_crate	endersdelight:chorus_crate x1	ends_delight:chorus_fruit_crate	ends_delight:chorus_fruit_crate x1	minecraft:chorus_fruit	lis+tyglík (auto-compacting); mechanical crafter
+stejný vstup	etched:jukebox_minecart	etched:jukebox_minecart x1	railways:jukeboxcart	railways:jukeboxcart x1	minecraft:jukebox minecraft:minecart	míchačka (auto-shapeless)
+stejný vstup	extradelight:mixing_bowl	extradelight:mixing_bowl x1	meadow:wooden_flower_pot_big	meadow:wooden_flower_pot_big x1	ad_astra:aeronos_planks ad_astra:glacian_planks ad_astra:strophar_planks alexscaves:pewen_planks	mechanical crafter
+stejný vstup	farmersdelight:beetroot_crate	farmersdelight:beetroot_crate x1	farm_and_charm:beetroot_bag	farm_and_charm:beetroot_bag x1	minecraft:beetroot	lis+tyglík (auto-compacting); mechanical crafter
+stejný vstup	farmersdelight:beetroot_crate	farmersdelight:beetroot_crate x1	quark:building/crafting/compressed/beetroot_crate	quark:beetroot_crate x1	minecraft:beetroot	lis+tyglík (auto-compacting); mechanical crafter
+stejný vstup	farmersdelight:carrot_crate	farmersdelight:carrot_crate x1	quark:building/crafting/compressed/carrot_crate	quark:carrot_crate x1	minecraft:carrot	lis+tyglík (auto-compacting); mechanical crafter
+stejný vstup	farmersdelight:carrot_crate	farmersdelight:carrot_crate x1	farm_and_charm:carrot_bag	farm_and_charm:carrot_bag x1	minecraft:carrot	lis+tyglík (auto-compacting); mechanical crafter
+stejný vstup	farmersdelight:potato_crate	farmersdelight:potato_crate x1	quark:building/crafting/compressed/potato_crate	quark:potato_crate x1	minecraft:potato	lis+tyglík (auto-compacting); mechanical crafter
+stejný vstup	farmersdelight:potato_crate	farmersdelight:potato_crate x1	farm_and_charm:potato_bag	farm_and_charm:potato_bag x1	minecraft:potato	lis+tyglík (auto-compacting); mechanical crafter
+stejný vstup	fruitsdelight:apple_crate	fruitsdelight:apple_crate x1	vinery:apple_bag	vinery:apple_bag x1	minecraft:apple	lis+tyglík (auto-compacting); mechanical crafter
+stejný vstup	handcrafted:wood_plate	handcrafted:wood_plate x3	supplementaries:item_shelf	supplementaries:item_shelf x2	ad_astra:aeronos_slab ad_astra:glacian_slab ad_astra:strophar_slab aether:skyroot_slab	mechanical crafter
+stejný vstup	luminous_beasts:beast_pit_recipe	luminous_beasts:beast_pit_off x1	luminousworld:beast_pit_recipe	luminousworld:beast_pit_off x1	minecraft:deepslate minecraft:gunpowder minecraft:soul_campfire	mechanical crafter
+stejný vstup	luminous_butterflies:jar_recipe	luminous_butterflies:jar x1	luminousworld:jarrecipe	luminousworld:jar x1	ad_astra:aeronos_slab ad_astra:glacian_slab ad_astra:strophar_slab aether:skyroot_slab	mechanical crafter
+stejný vstup	luminous_butterflies:net_recipe	luminous_butterflies:butterfly_net x1	luminousworld:butterfly_net_recipe	luminousworld:butterfly_net x1	minecraft:gold_ingot minecraft:stick minecraft:string	mechanical crafter
+stejný vstup	mcwwindows:bamboo_shutter	mcwwindows:bamboo_shutter x1	supplementaries:flute	supplementaries:flute x1	minecraft:bamboo	mechanical crafter
+stejný vstup	meadow:doormat	meadow:doormat x3	mcwholidays:laying_hay_bale	mcwholidays:laying_hay_bale x1	minecraft:wheat	mechanical crafter
+stejný vstup	mekanism:storage_blocks/charcoal	mekanism:block_charcoal x1	quark:building/crafting/compressed/charcoal_block	quark:charcoal_block x1	minecraft:charcoal	lis+tyglík (auto-compacting); mechanical crafter
+stejný vstup	mekanism:storage_blocks/salt	mekanism:block_salt x1	culturaldelights:salt_block	culturaldelights:salt_block x1	culturaldelights:salt expandeddelight:salt extradelight:salt mekanism:salt	lis+tyglík (auto-compacting); mechanical crafter
+stejný vstup	netherexotics:jabuticaba_branch_recipe	netherexotics:jabuticaba_branch_empty x4	netherexotics:jabuticaba_planks_recipe_2	netherexotics:jabuticaba_planks x4	netherexotics:jabuticaba_log	
+stejný vstup	quark:building/crafting/compressed/apple_crate	quark:apple_crate x1	vinery:apple_bag	vinery:apple_bag x1	minecraft:apple	lis+tyglík (auto-compacting); mechanical crafter
+stejný vstup	quark:building/crafting/compressed/apple_crate	quark:apple_crate x1	fruitsdelight:apple_crate	fruitsdelight:apple_crate x1	minecraft:apple	lis+tyglík (auto-compacting); mechanical crafter
+stejný vstup	quark:building/crafting/compressed/beetroot_crate	quark:beetroot_crate x1	farm_and_charm:beetroot_bag	farm_and_charm:beetroot_bag x1	minecraft:beetroot	lis+tyglík (auto-compacting); mechanical crafter
+stejný vstup	quark:building/crafting/compressed/carrot_crate	quark:carrot_crate x1	farm_and_charm:carrot_bag	farm_and_charm:carrot_bag x1	minecraft:carrot	lis+tyglík (auto-compacting); mechanical crafter
+stejný vstup	quark:building/crafting/compressed/chorus_fruit_block	quark:chorus_fruit_block x1	endersdelight:chorus_crate	endersdelight:chorus_crate x1	minecraft:chorus_fruit	lis+tyglík (auto-compacting); mechanical crafter
+stejný vstup	quark:building/crafting/compressed/chorus_fruit_block	quark:chorus_fruit_block x1	ends_delight:chorus_fruit_crate	ends_delight:chorus_fruit_crate x1	minecraft:chorus_fruit	lis+tyglík (auto-compacting); mechanical crafter
+stejný vstup	quark:building/crafting/compressed/potato_crate	quark:potato_crate x1	farm_and_charm:potato_bag	farm_and_charm:potato_bag x1	minecraft:potato	lis+tyglík (auto-compacting); mechanical crafter
+stejný vstup	quark:building/crafting/gold_bars	quark:gold_bars x16	supplementaries:gold_bars	supplementaries:gold_bars x16	minecraft:gold_ingot	mechanical crafter
+stejný vstup	quark:building/crafting/vertplanks/vertical_acacia_planks	quark:vertical_acacia_planks x3	handcrafted:acacia_pillar_trim	handcrafted:acacia_pillar_trim x4	minecraft:acacia_planks	mechanical crafter
+stejný vstup	quark:building/crafting/vertplanks/vertical_bamboo_planks	quark:vertical_bamboo_planks x3	handcrafted:bamboo_pillar_trim	handcrafted:bamboo_pillar_trim x4	minecraft:bamboo_planks	mechanical crafter
+stejný vstup	quark:building/crafting/vertplanks/vertical_birch_planks	quark:vertical_birch_planks x3	handcrafted:birch_pillar_trim	handcrafted:birch_pillar_trim x4	minecraft:birch_planks	mechanical crafter
+stejný vstup	quark:building/crafting/vertplanks/vertical_cherry_planks	quark:vertical_cherry_planks x3	handcrafted:cherry_pillar_trim	handcrafted:cherry_pillar_trim x4	minecraft:cherry_planks	mechanical crafter
+stejný vstup	quark:building/crafting/vertplanks/vertical_crimson_planks	quark:vertical_crimson_planks x3	handcrafted:crimson_pillar_trim	handcrafted:crimson_pillar_trim x4	minecraft:crimson_planks	mechanical crafter
+stejný vstup	quark:building/crafting/vertplanks/vertical_dark_oak_planks	quark:vertical_dark_oak_planks x3	handcrafted:dark_oak_pillar_trim	handcrafted:dark_oak_pillar_trim x4	minecraft:dark_oak_planks	mechanical crafter
+stejný vstup	quark:building/crafting/vertplanks/vertical_jungle_planks	quark:vertical_jungle_planks x3	handcrafted:jungle_pillar_trim	handcrafted:jungle_pillar_trim x4	minecraft:jungle_planks	mechanical crafter
+stejný vstup	quark:building/crafting/vertplanks/vertical_mangrove_planks	quark:vertical_mangrove_planks x3	handcrafted:mangrove_pillar_trim	handcrafted:mangrove_pillar_trim x4	minecraft:mangrove_planks	mechanical crafter
+stejný vstup	quark:building/crafting/vertplanks/vertical_oak_planks	quark:vertical_oak_planks x3	handcrafted:oak_pillar_trim	handcrafted:oak_pillar_trim x4	minecraft:oak_planks	mechanical crafter
+stejný vstup	quark:building/crafting/vertplanks/vertical_spruce_planks	quark:vertical_spruce_planks x3	handcrafted:spruce_pillar_trim	handcrafted:spruce_pillar_trim x4	minecraft:spruce_planks	mechanical crafter
+stejný vstup	quark:building/crafting/vertplanks/vertical_warped_planks	quark:vertical_warped_planks x3	handcrafted:warped_pillar_trim	handcrafted:warped_pillar_trim x4	minecraft:warped_planks	mechanical crafter
+stejný vstup	quark:building/crafting/vertslabs/acacia_vertical_slab	quark:acacia_vertical_slab x3	mcwwindows:acacia_louvered_shutter	mcwwindows:acacia_louvered_shutter x3	minecraft:acacia_slab	mechanical crafter
+stejný vstup	quark:building/crafting/vertslabs/andesite_vertical_slab	quark:andesite_vertical_slab x3	mcwwindows:andesite_louvered_shutter	mcwwindows:andesite_louvered_shutter x3	minecraft:andesite_slab	mechanical crafter
+stejný vstup	quark:building/crafting/vertslabs/birch_vertical_slab	quark:birch_vertical_slab x3	mcwwindows:birch_louvered_shutter	mcwwindows:birch_louvered_shutter x3	minecraft:birch_slab	mechanical crafter
+stejný vstup	quark:building/crafting/vertslabs/cherry_vertical_slab	quark:cherry_vertical_slab x3	mcwwindows:cherry_louvered_shutter	mcwwindows:cherry_louvered_shutter x3	minecraft:cherry_slab	mechanical crafter
+stejný vstup	quark:building/crafting/vertslabs/crimson_vertical_slab	quark:crimson_vertical_slab x3	mcwwindows:crimson_louvered_shutter	mcwwindows:crimson_louvered_shutter x3	minecraft:crimson_slab	mechanical crafter
+stejný vstup	quark:building/crafting/vertslabs/dark_oak_vertical_slab	quark:dark_oak_vertical_slab x3	mcwwindows:dark_oak_louvered_shutter	mcwwindows:dark_oak_louvered_shutter x3	minecraft:dark_oak_slab	mechanical crafter
+stejný vstup	quark:building/crafting/vertslabs/diorite_vertical_slab	quark:diorite_vertical_slab x3	mcwwindows:diorite_louvered_shutter	mcwwindows:diorite_louvered_shutter x3	minecraft:diorite_slab	mechanical crafter
+stejný vstup	quark:building/crafting/vertslabs/granite_vertical_slab	quark:granite_vertical_slab x3	mcwwindows:granite_louvered_shutter	mcwwindows:granite_louvered_shutter x3	minecraft:granite_slab	mechanical crafter
+stejný vstup	quark:building/crafting/vertslabs/jungle_vertical_slab	quark:jungle_vertical_slab x3	mcwwindows:jungle_louvered_shutter	mcwwindows:jungle_louvered_shutter x3	minecraft:jungle_slab	mechanical crafter
+stejný vstup	quark:building/crafting/vertslabs/mangrove_vertical_slab	quark:mangrove_vertical_slab x3	mcwwindows:mangrove_louvered_shutter	mcwwindows:mangrove_louvered_shutter x3	minecraft:mangrove_slab	mechanical crafter
+stejný vstup	quark:building/crafting/vertslabs/oak_vertical_slab	quark:oak_vertical_slab x3	mcwwindows:oak_louvered_shutter	mcwwindows:oak_louvered_shutter x3	minecraft:oak_slab	mechanical crafter
+stejný vstup	quark:building/crafting/vertslabs/spruce_vertical_slab	quark:spruce_vertical_slab x3	mcwwindows:spruce_louvered_shutter	mcwwindows:spruce_louvered_shutter x3	minecraft:spruce_slab	mechanical crafter
+stejný vstup	quark:building/crafting/vertslabs/warped_vertical_slab	quark:warped_vertical_slab x3	mcwwindows:warped_louvered_shutter	mcwwindows:warped_louvered_shutter x3	minecraft:warped_slab	mechanical crafter
+stejný vstup	quark:tweaks/crafting/utility/misc/easy_sticks	minecraft:stick x16	vinery:grapevine_stem	vinery:grapevine_stem x4	ad_astra:glacian_log aether:golden_oak_log aether:golden_oak_wood aether:skyroot_log	mechanical crafter
+stejný vstup	railways:crafting/palettes/hazard_stripes_a/black_hazard_stripes_diagonal_on_white	railways:black_hazard_stripes_diagonal_on_white x4	railways:crafting/palettes/hazard_stripes_b/white_hazard_stripes_diagonal_on_black	railways:white_hazard_stripes_diagonal_on_black x4	railways:black_slashed_locometal railways:white_slashed_locometal	mechanical crafter
+stejný vstup	railways:crafting/palettes/hazard_stripes_a/white_hazard_stripes_diagonal_on_black	railways:white_hazard_stripes_diagonal_on_black x4	railways:crafting/palettes/hazard_stripes_b/black_hazard_stripes_diagonal_on_white	railways:black_hazard_stripes_diagonal_on_white x4	railways:black_slashed_locometal railways:white_slashed_locometal	mechanical crafter
+stejný vstup	unusualend:chiseled_gneiss	unusualend:chiseled_gneiss_brick x1	unusualend:gneiss_pillar_via_crafting	unusualend:gneiss_pillar x1	unusualend:gneiss_brick_slab	mechanical crafter
+stejný vstup	unusualend:gloopslate_recipe	unusualend:gloopslate x4	unusualend:gloopstone_recipe	unusualend:gloopstone x4	unusualend:end_blob unusualend:enderblob_moult unusualend:raw_purpur_block	mechanical crafter

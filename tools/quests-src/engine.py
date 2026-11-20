@@ -10,11 +10,12 @@ Quest:
 import hashlib, os, json
 
 GROUPS = [
-    ("start", "Getting Started"),
-    ("tech", "Technology"),
-    ("food", "Food & Farming"),
-    ("build", "Colonies & Building"),
-    ("explore", "Exploration & Dimensions"),
+    ("start", "Začínáme"),
+    ("create", "Create"),
+    ("tech", "Technika a úložiště"),
+    ("food", "Jídlo a farmaření"),
+    ("build", "Kolonie a stavění"),
+    ("explore", "Průzkum a dimenze"),
 ]
 
 
@@ -32,7 +33,7 @@ def hid(*parts):
 class Q:
     def __init__(self, k, t, d=None, items=None, tasks=None, dep=None, xp=None,
                  s=None, icon=None, rewards=None, one_of=False, x=None, y=None,
-                 optional=False):
+                 optional=False, shape=None, size=None):
         self.k, self.t, self.d, self.s = k, t, d or [], s
         self.items = items or []
         self.tasks = tasks or []
@@ -43,6 +44,8 @@ class Q:
         self.one_of = one_of
         self.x, self.y = x, y
         self.optional = optional
+        # shape: "hexagon"/"octagon"/"gear"/"diamond"/"square"... (milníky), size: např. 1.5
+        self.shape, self.size = shape, size
 
 
 # ---------- task helpers ----------
@@ -137,6 +140,8 @@ def collisions(quests, r=0.62):
     bad = []
     for q in quests:
         for d in q.dep:
+            if d not in by:
+                continue
             p = by[d]
             for o in quests:
                 if o is q or o is p:
@@ -170,7 +175,10 @@ def layout(quests, step=1.5):
         y[q.k] = i * step
     for c in range(1, ncol):
         col = cols[c]
-        want = {q.k: (sum(y[p] for p in q.dep) / len(q.dep)) for q in col}
+        want = {}
+        for q in col:
+            ps = [y[p] for p in q.dep if p in y]
+            want[q.k] = sum(ps) / len(ps) if ps else 0
         col.sort(key=lambda q: (want[q.k], quests.index(q)))
         # skupiny se stejným rodičovským y vycentrovat kolem něj
         placed = []
@@ -198,7 +206,7 @@ def layout(quests, step=1.5):
             maxdy = 0
             for q in cols[c]:
                 for p in q.dep:
-                    if depth[p] == c - 1:
+                    if p in depth and depth[p] == c - 1:
                         maxdy = max(maxdy, abs(y[q.k] - y[p]))
             gap = max(1.75, 0.5 * maxdy + 0.5)
             xs.append(xs[-1] + gap)
@@ -226,6 +234,55 @@ def layout(quests, step=1.5):
         q.y = round(q.y - m, 3)
         q.x = round(q.x, 3)
     return quests
+
+
+CACHE_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "layout_cache.json")
+
+
+def _area(qs):
+    return (max(q.x for q in qs) - min(q.x for q in qs) + 1) * (max(q.y for q in qs) - min(q.y for q in qs) + 1)
+
+
+def choose_layout(ch, cache):
+    """Vybere nejmenší rozvržení kapitoly, ve kterém žádná čára nevede přes cizí quest.
+    Výsledek se ukládá do layout_cache.json (podle podpisu klíčů a závislostí)."""
+    import copy
+    import layout as L
+    qs = ch["quests"]
+    if all(q.x is not None and q.y is not None for q in qs):
+        return qs
+    keys = {q.k for q in qs}
+    sig = hashlib.sha1(json.dumps([[q.k, sorted(d for d in q.dep if d in keys)] for q in qs]).encode()).hexdigest()
+    hit = cache.get(ch["key"])
+    if hit and hit.get("sig") == sig:
+        for q in qs:
+            q.x, q.y = hit["pos"][q.k]
+        return qs
+    cands = []
+
+    def fresh():
+        c = copy.deepcopy(qs)
+        for q in c:
+            q.x = q.y = None
+        return c
+
+    a = fresh(); layout(a); cands.append(a)
+    b = fresh(); L.layout2(b); L.repair(b, collisions)
+    if not collisions(b):
+        cands.append(b)
+    else:
+        for xf in (1.0, 1.3):
+            c = fresh(); L.layout2(c); L.spread_x(c, xf)
+            L.anneal(c, _seg_dist, iters=40000)
+            if not collisions(c):
+                cands.append(c)
+                break
+    best = min((c for c in cands if not collisions(c)), key=_area)
+    pos = {q.k: [q.x, q.y] for q in best}
+    for q in qs:
+        q.x, q.y = pos[q.k]
+    cache[ch["key"]] = {"sig": sig, "pos": pos}
+    return qs
 
 
 def build(chapters, outdir, file_title):
@@ -266,13 +323,18 @@ def build(chapters, outdir, file_title):
     with open(os.path.join(qdir, "data.snbt"), "w") as f:
         f.write(snbt(data) + "\n")
 
+    try:
+        cache = json.load(open(CACHE_FILE))
+    except (OSError, ValueError):
+        cache = {}
     seen_keys = set()
+    all_keys = {(c["key"], q.k) for c in chapters for q in c["quests"]}
     for order, ch in enumerate(chapters):
         cid = hid("chapter", ch["key"])
         lang[f"chapter.{cid}.title"] = ch["title"]
         if ch.get("subtitle"):
             lang[f"chapter.{cid}.chapter_subtitle"] = [ch["subtitle"]]
-        qs = layout(ch["quests"])
+        qs = choose_layout(ch, cache)
         keys = {q.k for q in qs}
         out = []
         for q in qs:
@@ -302,9 +364,15 @@ def build(chapters, outdir, file_title):
                 rewards.append(r)
                 used_items.append((ch["key"], q.k + ":reward", iid))
             qd = {"id": qid, "tasks": tasks, "x": float(q.x), "y": float(q.y)}
-            deps = [hid("quest", ch["key"], x) for x in q.dep if x in keys]
-            missing = [x for x in q.dep if x not in keys]
-            assert not missing, (ch["key"], q.k, missing)
+            deps = []
+            for x in q.dep:
+                if ":" in x:
+                    oc, oq = x.split(":", 1)
+                    assert (oc, oq) in all_keys, ("missing cross-chapter dep", ch["key"], q.k, x)
+                    deps.append(hid("quest", oc, oq))
+                else:
+                    assert x in keys, ("missing dep", ch["key"], q.k, x)
+                    deps.append(hid("quest", ch["key"], x))
             if deps:
                 qd["dependencies"] = deps
             if rewards:
@@ -314,6 +382,10 @@ def build(chapters, outdir, file_title):
                 used_items.append((ch["key"], q.k + ":icon", q.icon))
             if q.optional:
                 qd["optional"] = True
+            if q.shape:
+                qd["shape"] = q.shape
+            if q.size:
+                qd["size"] = float(q.size)
             out.append(qd)
             lang[f"quest.{qid}.title"] = q.t
             if q.s:
@@ -335,6 +407,8 @@ def build(chapters, outdir, file_title):
         with open(os.path.join(qdir, "chapters", ch["key"] + ".snbt"), "w") as f:
             f.write(snbt(chd) + "\n")
 
+    with open(CACHE_FILE, "w") as f:
+        json.dump({k: cache[k] for k in sorted(cache) if k in {c["key"] for c in chapters}}, f, indent=0, sort_keys=True)
     with open(os.path.join(qdir, "lang", "en_us.snbt"), "w") as f:
         f.write(snbt(esc_amp(lang)) + "\n")
     return used_items

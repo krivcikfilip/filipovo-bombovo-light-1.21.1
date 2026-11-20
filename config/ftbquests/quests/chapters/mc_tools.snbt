@@ -1,0 +1,170 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mc_tools"
+	group: "429879DE8D393374"
+	icon: {
+		id: "structurize:sceptergold"
+	}
+	id: "246DFF5B8D326E03"
+	order_index: 39
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2037D325447D35E8"]
+			icon: {
+				id: "structurize:sceptergold"
+			}
+			id: "66E3A73D04D9BA1C"
+			rewards: [
+				{
+					id: "67F0EE34CE1B6433"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "2ADAC0740EA84887"
+					stat: "minecraft:play_time"
+					type: "stat"
+					value: 1
+				}
+			]
+			x: 0.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["66E3A73D04D9BA1C"]
+			icon: {
+				id: "minecolonies:blockhuttownhall"
+			}
+			id: "3EA9CCFB4D43E06B"
+			rewards: [
+				{
+					id: "6C1C4D23CCDFD233"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "minecolonies:minecolonies/build_town_hall"
+					criterion: ""
+					id: "65A3B6EE2FB85C6C"
+					type: "advancement"
+				}
+			]
+			x: 1.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["66E3A73D04D9BA1C"]
+			id: "75EF15289FC3C80D"
+			rewards: [
+				{
+					id: "16D6E9F27B77F28C"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "3A2A903B9A6109B7"
+					item: { count: 1, id: "minecolonies:questlog" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 1.5d
+		}
+		{
+			dependencies: ["66E3A73D04D9BA1C"]
+			id: "4C119C0BF8488AE4"
+			optional: true
+			rewards: [
+				{
+					id: "435A7B7E7273AAFD"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "7D1CCBCD9507498C"
+					item: { count: 1, id: "minecolonies:colonymap" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 3.0d
+		}
+		{
+			dependencies: ["66E3A73D04D9BA1C"]
+			id: "2E962DB53F5177FE"
+			optional: true
+			rewards: [
+				{
+					id: "289D321E2131E587"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "5CF075B94AD4C17C"
+					item: { count: 1, id: "structurize:caliper" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3EA9CCFB4D43E06B"]
+			id: "1B9AD1A92F3D1580"
+			rewards: [
+				{
+					id: "77C62E13B80A7C00"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "70173160D618569A"
+					item: { count: 1, id: "structurize:sceptersteel" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B9AD1A92F3D1580"]
+			id: "5E01B65CF36CDF34"
+			rewards: [
+				{
+					id: "33E0B6E3489699D7"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "04B926C6C59821B2"
+					item: { count: 1, id: "structurize:shapetool" }
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: 0.0d
+		}
+	]
+}

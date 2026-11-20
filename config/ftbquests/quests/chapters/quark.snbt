@@ -7,10 +7,36 @@
 		id: "quark:seed_pouch"
 	}
 	id: "52426F5F19A93D19"
-	order_index: 1
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
+			icon: {
+				id: "quark:seed_pouch"
+			}
+			id: "2466107434EDA5CF"
+			rewards: [
+				{
+					id: "12526B414A0287DC"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "3388CE33409D083C"
+					stat: "minecraft:play_time"
+					type: "stat"
+					value: 1
+				}
+			]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2466107434EDA5CF"]
 			id: "5DF99CD6DF55B725"
 			rewards: [
 				{
@@ -26,10 +52,11 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			x: 4.0d
 			y: 0.0d
 		}
 		{
+			dependencies: ["2466107434EDA5CF"]
 			id: "40B2312141C15A22"
 			rewards: [
 				{
@@ -45,10 +72,11 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 1.5d
+			x: 4.0d
+			y: 3.5d
 		}
 		{
+			dependencies: ["2466107434EDA5CF"]
 			id: "5C7D899028DFA6C1"
 			rewards: [
 				{
@@ -64,10 +92,200 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 3.0d
+			x: 4.0d
+			y: 8.0d
 		}
 		{
+			dependencies: ["2466107434EDA5CF"]
+			id: "3722988AC8CF4FD4"
+			rewards: [
+				{
+					id: "3B1C1861218404E6"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "39E23853FFB07E62"
+					item: { count: 1, id: "quark:abacus" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["2466107434EDA5CF"]
+			id: "5CD86C529B6A3609"
+			rewards: [
+				{
+					id: "3997B3818E9C390D"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					count: 3L
+					id: "5EB2DF801CD3F675"
+					item: { count: 1, id: "quark:rope" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["2466107434EDA5CF"]
+			id: "5FDFA168352932C5"
+			rewards: [
+				{
+					id: "6A91E8F66EB35DC0"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "6162B779B61F5A9E"
+					item: { count: 1, id: "quark:feeding_trough" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["2466107434EDA5CF"]
+			id: "3A7CFEC949172A61"
+			optional: true
+			rewards: [
+				{
+					id: "2D87C19023B8DDD7"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "55963F35D5CBE9F0"
+					item: { count: 1, id: "quark:glass_item_frame" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["2466107434EDA5CF"]
+			id: "4A53C5CAF373F457"
+			optional: true
+			rewards: [
+				{
+					id: "0189DDB0D6D73FCB"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "21AB2F4B7F82DA32"
+					item: { count: 1, id: "quark:torch_arrow" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["2466107434EDA5CF"]
+			id: "351131BFC29EA916"
+			rewards: [
+				{
+					id: "464FC9249E626D5D"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "4288595F17E52005"
+					item: { count: 1, id: "quark:bottled_cloud" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["2466107434EDA5CF"]
+			id: "0BDF92643A52CF5E"
+			rewards: [
+				{
+					id: "73A21F28DA1B9DC0"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "64D9D31E3A388A3A"
+					item: { count: 1, id: "quark:slime_in_a_bucket" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0BDF92643A52CF5E"]
+			icon: {
+				id: "minecraft:bucket"
+			}
+			id: "1073BB6F36E91DF8"
+			optional: true
+			rewards: [
+				{
+					id: "4F7DF2B313316068"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					advancement: "quark:content/crab_in_a_bucket"
+					criterion: ""
+					id: "31D5B939DDAA7091"
+					type: "advancement"
+				}
+			]
+			x: 5.75d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2466107434EDA5CF"]
+			id: "4D11985D5BC55021"
+			rewards: [
+				{
+					id: "7FBC03E81EED1867"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "0844C1C08AE7E9AA"
+					item: { count: 1, id: "quark:chute" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4D11985D5BC55021"]
 			id: "7BFD3898333F54FD"
 			rewards: [
 				{
@@ -84,30 +302,32 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 4.5d
+			x: 5.75d
+			y: 2.5d
 		}
 		{
-			dependencies: ["7BFD3898333F54FD"]
-			id: "4D11985D5BC55021"
+			dependencies: ["4D11985D5BC55021"]
+			id: "5B4A7A1391A38353"
+			optional: true
 			rewards: [
 				{
-					id: "7FBC03E81EED1867"
+					id: "639D0E211CF8E5E6"
 					type: "xp"
 					xp: 15
 				}
 			]
 			tasks: [
 				{
-					id: "0844C1C08AE7E9AA"
-					item: { count: 1, id: "quark:chute" }
+					id: "30000203D6C95BB5"
+					item: { count: 1, id: "quark:redstone_randomizer" }
 					type: "item"
 				}
 			]
-			x: 1.75d
-			y: 4.5d
+			x: 5.75d
+			y: 5.5d
 		}
 		{
+			dependencies: ["7BFD3898333F54FD"]
 			id: "422F25920638EE28"
 			rewards: [
 				{
@@ -116,6 +336,8 @@
 					xp: 30
 				}
 			]
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [
 				{
 					id: "2E808E0E9BC1A891"
@@ -123,48 +345,92 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 6.0d
+			x: 7.5d
+			y: 2.5d
 		}
 		{
-			id: "3722988AC8CF4FD4"
+			dependencies: ["422F25920638EE28"]
+			id: "111653ECC04F72C7"
+			optional: true
 			rewards: [
 				{
-					id: "3B1C1861218404E6"
-					type: "xp"
-					xp: 15
-				}
-			]
-			tasks: [
-				{
-					id: "39E23853FFB07E62"
-					item: { count: 1, id: "quark:abacus" }
-					type: "item"
-				}
-			]
-			x: 0.0d
-			y: 7.5d
-		}
-		{
-			id: "351131BFC29EA916"
-			rewards: [
-				{
-					id: "464FC9249E626D5D"
+					id: "45420B2293FBECF0"
 					type: "xp"
 					xp: 20
 				}
 			]
 			tasks: [
 				{
-					id: "4288595F17E52005"
-					item: { count: 1, id: "quark:bottled_cloud" }
+					id: "565E688214420173"
+					item: { count: 1, id: "quark:gravisand" }
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 9.0d
+			x: 9.25d
+			y: 1.0d
 		}
 		{
+			dependencies: ["422F25920638EE28"]
+			id: "6C2AA59E3F2311DA"
+			rewards: [
+				{
+					id: "0F673DBE8B7AC240"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "0CCD14E8A3A7E5B5"
+					item: { count: 1, id: "quark:ender_watcher" }
+					type: "item"
+				}
+			]
+			x: 9.25d
+			y: 2.5d
+		}
+		{
+			dependencies: ["422F25920638EE28"]
+			id: "3F5F89B8D129FFBE"
+			rewards: [
+				{
+					id: "2F2BEAFB48C5E539"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "130B4EA820D055EC"
+					item: { count: 1, id: "quark:iron_rod" }
+					type: "item"
+				}
+			]
+			x: 9.25d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2466107434EDA5CF"]
+			id: "6C0EF7A6D606A86D"
+			rewards: [
+				{
+					id: "73E42C3A557C1436"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "545B9F76993B71FF"
+					item: { count: 1, id: "quark:diamond_heart" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6C0EF7A6D606A86D"]
 			id: "547BDD25E6F2E120"
 			rewards: [
 				{
@@ -180,48 +446,57 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 10.5d
+			x: 5.75d
+			y: 4.0d
 		}
 		{
-			id: "0BDF92643A52CF5E"
+			dependencies: [
+				"547BDD25E6F2E120"
+				"023AF47BB34DE51D"
+			]
+			id: "47C600C1FC886AF5"
 			rewards: [
 				{
-					id: "73A21F28DA1B9DC0"
+					id: "79F2491F1371D839"
 					type: "xp"
-					xp: 20
+					xp: 80
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "51F7BC25F2105E20"
+					item: { count: 1, id: "quark:flamerang" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6C0EF7A6D606A86D"]
+			id: "06F5669E0FB186D7"
+			optional: true
+			rewards: [
+				{
+					id: "2F1E51C1A8C8D225"
+					type: "xp"
+					xp: 10
 				}
 			]
 			tasks: [
 				{
-					id: "64D9D31E3A388A3A"
-					item: { count: 1, id: "quark:slime_in_a_bucket" }
+					id: "56F5CE66067DB238"
+					item: { count: 1, id: "quark:tiny_potato" }
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 12.0d
+			x: 5.75d
+			y: 7.0d
 		}
 		{
-			id: "548EA9BC7C820D63"
-			rewards: [
-				{
-					id: "62B27248F182A7D2"
-					type: "xp"
-					xp: 60
-				}
-			]
-			tasks: [
-				{
-					id: "0C87122054BC7F43"
-					item: { count: 1, id: "quark:ancient_tome" }
-					type: "item"
-				}
-			]
-			x: 0.0d
-			y: 13.5d
-		}
-		{
+			dependencies: ["2466107434EDA5CF"]
 			id: "57D26374CE323468"
 			rewards: [
 				{
@@ -237,27 +512,123 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 15.0d
+			x: 4.0d
+			y: 11.0d
 		}
 		{
-			id: "06F5669E0FB186D7"
+			dependencies: ["57D26374CE323468"]
+			id: "2E357941BEE9D977"
+			optional: true
 			rewards: [
 				{
-					id: "2F1E51C1A8C8D225"
+					id: "4CAE3BC145DD4EF9"
 					type: "xp"
-					xp: 10
+					xp: 40
 				}
 			]
 			tasks: [
 				{
-					id: "56F5CE66067DB238"
-					item: { count: 1, id: "quark:tiny_potato" }
+					id: "09D14F647C8DB96B"
+					item: { count: 1, id: "quark:soul_bead" }
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 16.5d
+			x: 5.75d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6C0EF7A6D606A86D"]
+			id: "3A769E66A3EE3397"
+			optional: true
+			rewards: [
+				{
+					id: "356211AF43448FA3"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					id: "7F7FC07F4321B1AA"
+					item: { count: 1, id: "quark:forgotten_hat" }
+					type: "item"
+				}
+			]
+			x: 5.75d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2466107434EDA5CF"]
+			id: "548EA9BC7C820D63"
+			rewards: [
+				{
+					id: "62B27248F182A7D2"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					id: "0C87122054BC7F43"
+					item: { count: 1, id: "quark:ancient_tome" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["548EA9BC7C820D63"]
+			icon: {
+				id: "minecraft:enchanted_book"
+			}
+			id: "7435A812D974BD4F"
+			rewards: [
+				{
+					id: "1CE849F8BF6E13FA"
+					type: "xp"
+					xp: 80
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "quark:content/overlevel_enchant"
+					criterion: ""
+					id: "44B35E5C80EC40C3"
+					type: "advancement"
+				}
+			]
+			x: 5.75d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"2466107434EDA5CF"
+				"39AFCCAAADC32A94"
+			]
+			icon: {
+				id: "minecraft:candle"
+			}
+			id: "2BF735803A0CB25E"
+			rewards: [
+				{
+					id: "68C43F1E0F4C739C"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					advancement: "quark:content/influence"
+					criterion: ""
+					id: "012C56C0AD404C93"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 22.5d
 		}
 	]
 }

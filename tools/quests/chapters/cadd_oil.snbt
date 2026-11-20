@@ -1,0 +1,527 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cadd_oil"
+	group: "36387A651839BFDA"
+	icon: {
+		id: "createdieselgenerators:pumpjack_head"
+	}
+	id: "595A459CD6509B68"
+	order_index: 14
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["79D8069DA8C3D0CA"]
+			icon: {
+				id: "createdieselgenerators:diesel_engine"
+			}
+			id: "1D3F45164E8BDD8E"
+			rewards: [
+				{
+					id: "0F39CBEF25A68971"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "10DC238CE731AE61"
+					stat: "minecraft:play_time"
+					type: "stat"
+					value: 1
+				}
+			]
+			x: 0.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["1D3F45164E8BDD8E"]
+			id: "20C251FB37133E11"
+			rewards: [
+				{
+					id: "26F03B1F88D7479B"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "23B0697AF831F9BF"
+					item: { count: 1, id: "createdieselgenerators:engine_piston" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D3F45164E8BDD8E"]
+			id: "19DA1802E27114B4"
+			rewards: [
+				{
+					id: "6F9D5DA044E2F87C"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "42056543D624147F"
+					item: { count: 1, id: "createdieselgenerators:hammer" }
+					type: "item"
+				}
+				{
+					id: "453D2103A1581B2E"
+					item: { count: 1, id: "createdieselgenerators:wire_cutters" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"1D3F45164E8BDD8E"
+				"35E7FB9BFAB4A8C0"
+			]
+			id: "34DD6FCEE793D686"
+			rewards: [
+				{
+					id: "2E0AFB5FD6265ED6"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "28EF58A9BBAEF8EF"
+					item: { count: 1, id: "createdieselgenerators:plant_oil_bucket" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 3.0d
+		}
+		{
+			dependencies: ["34DD6FCEE793D686"]
+			id: "5A3D3036F9DDDDA6"
+			rewards: [
+				{
+					id: "0FEF5AACE258F6C7"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "39731621F55E0C85"
+					item: { count: 1, id: "createdieselgenerators:basin_lid" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["5A3D3036F9DDDDA6"]
+			id: "6659A10AD19A2770"
+			rewards: [
+				{
+					id: "7057D56372EA3E33"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "298733C5DD8485A0"
+					item: { count: 1, id: "createdieselgenerators:ethanol_bucket" }
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: 0.75d
+		}
+		{
+			dependencies: ["6659A10AD19A2770"]
+			id: "6264AF57414EB046"
+			optional: true
+			rewards: [
+				{
+					id: "754593C62A14CE5E"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "36F5661C515CAB17"
+					item: { count: 1, id: "createdieselgenerators:bulk_fermenter" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"34DD6FCEE793D686"
+				"6659A10AD19A2770"
+			]
+			id: "1229C70B243EA935"
+			rewards: [
+				{
+					id: "729CFE82C316AA72"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "68A3FADBACA5FF95"
+					item: { count: 1, id: "createdieselgenerators:biodiesel_bucket" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["34DD6FCEE793D686"]
+			id: "552866F163FA9C3B"
+			optional: true
+			rewards: [
+				{
+					id: "59F97199AD7BD0DA"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "38874BFDF81D0B6D"
+					item: { count: 1, id: "createdieselgenerators:canister" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 2.25d
+		}
+		{
+			dependencies: [
+				"6659A10AD19A2770"
+				"532780D9DB293403"
+			]
+			id: "12E80B8178422378"
+			rewards: [
+				{
+					id: "6299BBC099733CC8"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "4CBED3A035FCC625"
+					item: { count: 1, id: "createdieselgenerators:burner" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["08872A8CC4E76912"]
+			id: "2BE0C7958CE2F3BA"
+			optional: true
+			rewards: [
+				{
+					id: "671020133EB3D57E"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "2169DF21F3D43E67"
+					item: { count: 1, id: "createdieselgenerators:engine_turbocharger" }
+					type: "item"
+				}
+				{
+					id: "62421440F39E7001"
+					item: { count: 1, id: "createdieselgenerators:engine_silencer" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["1895A796885301F6"]
+			id: "53364C980A1DC27B"
+			rewards: [
+				{
+					id: "21E44F7E87995559"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "0A5578EA87DDC2C1"
+					item: { count: 1, id: "createdieselgenerators:pumpjack_hole" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["53364C980A1DC27B"]
+			id: "744B9578D04535C2"
+			rewards: [
+				{
+					id: "0EDF09EC18342986"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "57190E84D1F45948"
+					item: { count: 1, id: "createdieselgenerators:crude_oil_bucket" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 6.0d
+		}
+		{
+			dependencies: ["744B9578D04535C2"]
+			id: "7ED393A0A664D098"
+			optional: true
+			rewards: [
+				{
+					id: "13DD05A32550DDD0"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "1C7911E234E92DDA"
+					item: { count: 1, id: "createdieselgenerators:asphalt_block" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 6.75d
+		}
+		{
+			dependencies: [
+				"501D897C36FF7A8E"
+				"744B9578D04535C2"
+			]
+			id: "72101D2F6F434D03"
+			rewards: [
+				{
+					id: "21AD4DFF33ED4849"
+					type: "xp"
+					xp: 80
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "3BF2AAE7C85F613E"
+					item: { count: 1, id: "createdieselgenerators:diesel_bucket" }
+					type: "item"
+				}
+				{
+					id: "1BBAA8244EEEB00B"
+					item: { count: 1, id: "createdieselgenerators:gasoline_bucket" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 8.25d
+		}
+		{
+			dependencies: [
+				"34DD6FCEE793D686"
+				"532780D9DB293403"
+				"4328CD94686BFEBA"
+			]
+			id: "3AD53B47A7D7ABD4"
+			optional: true
+			rewards: [
+				{
+					id: "746B26232A2E5CD9"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "2BF1BDEF197389B5"
+					item: { count: 1, id: "createdieselgenerators:lighter" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 3.75d
+		}
+		{
+			dependencies: [
+				"34DD6FCEE793D686"
+				"5F71DBB1A5D94585"
+				"3A66462861B4969E"
+				"4328CD94686BFEBA"
+			]
+			id: "3915D5BC3C54352F"
+			rewards: [
+				{
+					id: "4772242978738ED8"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "5FD6752E988059F8"
+					item: { count: 1, id: "createdieselgenerators:chemical_sprayer" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 5.25d
+		}
+		{
+			dependencies: [
+				"3915D5BC3C54352F"
+				"3AD53B47A7D7ABD4"
+			]
+			id: "3C1C8FC6DE2BB59E"
+			rewards: [
+				{
+					id: "5399933A22D098BB"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "1E51C3CC78A4DC8D"
+					item: { count: 1, id: "createdieselgenerators:chemical_sprayer_lighter" }
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3915D5BC3C54352F"]
+			id: "4573ACD5DB755CB5"
+			rewards: [
+				{
+					id: "2D00C9CD895C5887"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "327CB01C1EEBB79F"
+					item: { count: 1, id: "createdieselgenerators:chemical_turret" }
+					type: "item"
+				}
+				{
+					id: "63E60E82F4AE0EC6"
+					item: { count: 1, id: "createdieselgenerators:entity_filter" }
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"0F31C8552DD5E2FC"
+				"1C6FF91D4AC58B74"
+				"72101D2F6F434D03"
+			]
+			id: "58FAE413745BCD38"
+			rewards: [
+				{
+					id: "3F1C5997B7D5AFCB"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "3BE9A60D68D90327"
+					item: { count: 1, id: "createdieselgenerators:huge_diesel_engine" }
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: 8.25d
+		}
+		{
+			dependencies: ["58FAE413745BCD38"]
+			id: "55FCB17B7921727D"
+			rewards: [
+				{
+					id: "053B893F4002256E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					count: 4L
+					id: "1C071AE357D28530"
+					item: { count: 1, id: "createdieselgenerators:oil_barrel" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 8.25d
+		}
+		{
+			dependencies: [
+				"1D3F45164E8BDD8E"
+				"3F452D140A574530"
+				"776438D2CFD81BB2"
+			]
+			id: "4D031C9D9C2BD057"
+			optional: true
+			rewards: [
+				{
+					id: "4C8B8B382D866BC7"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "71DE98757B93098E"
+					item: { count: 1, id: "createdieselgenerators:mold" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 4.5d
+		}
+	]
+}

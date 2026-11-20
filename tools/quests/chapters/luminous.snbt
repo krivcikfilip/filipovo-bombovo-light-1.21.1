@@ -7,35 +7,62 @@
 		id: "luminous_beasts:ultimate_bestiary"
 	}
 	id: "5EF3E51DFF088748"
-	order_index: 25
+	order_index: 54
 	quest_links: [ ]
 	quests: [
 		{
-			id: "02F0724FBC56D9AE"
+			icon: {
+				id: "luminous_beasts:ultimate_bestiary"
+			}
+			id: "3F2B9687F2677F09"
 			rewards: [
 				{
-					id: "5198C9BC571F72EC"
+					id: "75BEAC329F5A7453"
 					type: "xp"
-					xp: 20
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "400E255EE432079E"
+					stat: "minecraft:play_time"
+					type: "stat"
+					value: 1
+				}
+			]
+			x: 0.0d
+			y: 9.2d
+		}
+		{
+			dependencies: ["3F2B9687F2677F09"]
+			id: "6D1A69CDD35FA687"
+			rewards: [
+				{
+					id: "1A38277199454346"
+					type: "xp"
+					xp: 15
 				}
 			]
 			tasks: [
 				{
-					id: "426F1788D992417A"
-					item: { count: 1, id: "luminous_beasts:ultimate_bestiary" }
+					id: "4487E9F752ED53CD"
+					item: { count: 1, id: "luminousworld:butterfly_net" }
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 9.0d
+			x: 1.75d
+			y: 9.7d
 		}
 		{
+			dependencies: ["6D1A69CDD35FA687"]
 			id: "5A0A79D67A15456D"
 			rewards: [
 				{
 					id: "61E916AB33A6E8E8"
 					type: "xp"
-					xp: 15
+					xp: 10
 				}
 			]
 			tasks: [
@@ -45,12 +72,13 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 10.5d
+			x: 5.75d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5A0A79D67A15456D"]
 			id: "24C9A0CB3EB5832B"
+			optional: true
 			rewards: [
 				{
 					id: "001B75D4380A684C"
@@ -65,8 +93,110 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: 19.5d
+			x: 7.662d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D1A69CDD35FA687"]
+			id: "6C3366D11B183028"
+			rewards: [
+				{
+					id: "342F9855DB7F895C"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "744D8C0F99D4C107"
+					item: { count: 1, id: "luminousworld:jar" }
+					type: "item"
+				}
+			]
+			x: 5.75d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6C3366D11B183028"]
+			id: "491DAB225953700A"
+			rewards: [
+				{
+					id: "422E15C45BD9D7AB"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "451873FAD07A4D04"
+					item: { count: 1, id: "luminousworld:monarch_jar" }
+					type: "item"
+				}
+			]
+			x: 7.662d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3F2B9687F2677F09"]
+			id: "62A37910A6731F34"
+			rewards: [
+				{
+					id: "2C446871960DDA1F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "133549BDD0EC6612"
+					item: { count: 1, id: "luminoustag:decorative_tag" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 7.7d
+		}
+		{
+			dependencies: ["3F2B9687F2677F09"]
+			id: "02F0724FBC56D9AE"
+			rewards: [
+				{
+					id: "5198C9BC571F72EC"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "426F1788D992417A"
+					item: { count: 1, id: "luminous_beasts:ultimate_bestiary" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 11.7d
+		}
+		{
+			dependencies: ["02F0724FBC56D9AE"]
+			id: "24A488E86EFC654A"
+			rewards: [
+				{
+					id: "6BD86967A5D7717A"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "366EC982853B31D9"
+					item: { count: 1, id: "luminous_beasts:beast_pit_off" }
+					type: "item"
+				}
+			]
+			x: 5.75d
+			y: 2.0d
 		}
 		{
 			dependencies: ["02F0724FBC56D9AE"]
@@ -85,11 +215,11 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: 0.0d
+			x: 5.75d
+			y: 4.0d
 		}
 		{
-			dependencies: ["02F0724FBC56D9AE"]
+			dependencies: ["24A488E86EFC654A"]
 			id: "54BF44687F30D3C9"
 			rewards: [
 				{
@@ -105,7 +235,7 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
+			x: 7.662d
 			y: 1.5d
 		}
 		{
@@ -125,8 +255,8 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: 3.0d
+			x: 5.75d
+			y: 5.5d
 		}
 		{
 			dependencies: ["02F0724FBC56D9AE"]
@@ -145,48 +275,8 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["02F0724FBC56D9AE"]
-			id: "0ED17982949F025D"
-			rewards: [
-				{
-					id: "3FDCBB59849FE628"
-					type: "xp"
-					xp: 120
-				}
-			]
-			tasks: [
-				{
-					id: "26E902666173EEA3"
-					item: { count: 1, id: "luminous_beasts:phoenix_trophy" }
-					type: "item"
-				}
-			]
-			x: 5.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["6D850A6BDA9784EC"]
-			id: "292AE2FBE9208159"
-			rewards: [
-				{
-					id: "57BC0B267580118B"
-					type: "xp"
-					xp: 120
-				}
-			]
-			tasks: [
-				{
-					id: "18BAD0E3C1AB1F8C"
-					item: { count: 1, id: "luminous_beasts:executioner_trophy" }
-					type: "item"
-				}
-			]
-			x: 6.75d
-			y: 15.75d
+			x: 5.75d
+			y: 7.0d
 		}
 		{
 			dependencies: ["02F0724FBC56D9AE"]
@@ -205,8 +295,8 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: 7.5d
+			x: 5.75d
+			y: 10.0d
 		}
 		{
 			dependencies: ["02F0724FBC56D9AE"]
@@ -225,8 +315,8 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: 9.0d
+			x: 5.75d
+			y: 11.5d
 		}
 		{
 			dependencies: ["02F0724FBC56D9AE"]
@@ -245,8 +335,8 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: 10.5d
+			x: 5.75d
+			y: 13.0d
 		}
 		{
 			dependencies: ["02F0724FBC56D9AE"]
@@ -265,8 +355,8 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: 12.0d
+			x: 5.75d
+			y: 16.5d
 		}
 		{
 			dependencies: ["02F0724FBC56D9AE"]
@@ -285,8 +375,8 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: 13.5d
+			x: 5.75d
+			y: 18.0d
 		}
 		{
 			dependencies: ["02F0724FBC56D9AE"]
@@ -305,8 +395,8 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: 15.0d
+			x: 5.75d
+			y: 19.5d
 		}
 		{
 			dependencies: ["02F0724FBC56D9AE"]
@@ -325,8 +415,30 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: 16.5d
+			x: 5.75d
+			y: 21.5d
+		}
+		{
+			dependencies: ["02F0724FBC56D9AE"]
+			id: "0ED17982949F025D"
+			rewards: [
+				{
+					id: "3FDCBB59849FE628"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "26E902666173EEA3"
+					item: { count: 1, id: "luminous_beasts:phoenix_trophy" }
+					type: "item"
+				}
+			]
+			x: 5.75d
+			y: 24.0d
 		}
 		{
 			dependencies: ["02F0724FBC56D9AE"]
@@ -348,8 +460,76 @@
 					type: "dimension"
 				}
 			]
-			x: 5.0d
-			y: 18.0d
+			x: 5.75d
+			y: 15.0d
+		}
+		{
+			dependencies: ["6D850A6BDA9784EC"]
+			icon: {
+				id: "luminous_nether:ghostly_essence"
+			}
+			id: "48147E89FBC5B0C1"
+			rewards: [
+				{
+					id: "4AA3D3CEDD93E9F2"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					advancement: "luminous_nether:ash_forest_advancement"
+					criterion: ""
+					id: "6C72BFE105C7327C"
+					type: "advancement"
+				}
+			]
+			x: 7.662d
+			y: 11.75d
+		}
+		{
+			dependencies: ["6D850A6BDA9784EC"]
+			icon: {
+				id: "minecraft:crimson_fungus"
+			}
+			id: "7ED4D83D24D020B5"
+			rewards: [
+				{
+					id: "1A9E9C1F76D1F176"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					advancement: "luminous_nether:fungal_plains_advancement"
+					criterion: ""
+					id: "1BD1DD17C6898716"
+					type: "advancement"
+				}
+			]
+			x: 7.662d
+			y: 13.25d
+		}
+		{
+			dependencies: ["6D850A6BDA9784EC"]
+			id: "292AE2FBE9208159"
+			rewards: [
+				{
+					id: "57BC0B267580118B"
+					type: "xp"
+					xp: 120
+				}
+			]
+			tasks: [
+				{
+					id: "18BAD0E3C1AB1F8C"
+					item: { count: 1, id: "luminous_beasts:executioner_trophy" }
+					type: "item"
+				}
+			]
+			x: 7.662d
+			y: 14.75d
 		}
 		{
 			dependencies: ["6D850A6BDA9784EC"]
@@ -368,8 +548,8 @@
 					type: "item"
 				}
 			]
-			x: 6.75d
-			y: 17.25d
+			x: 7.662d
+			y: 9.75d
 		}
 		{
 			dependencies: ["09F9F20A7E95E771"]
@@ -388,8 +568,8 @@
 					type: "item"
 				}
 			]
-			x: 8.5d
-			y: 17.25d
+			x: 9.412d
+			y: 9.75d
 		}
 		{
 			dependencies: ["6D850A6BDA9784EC"]
@@ -408,8 +588,8 @@
 					type: "item"
 				}
 			]
-			x: 6.75d
-			y: 18.75d
+			x: 7.662d
+			y: 16.25d
 		}
 		{
 			dependencies: ["6D850A6BDA9784EC"]
@@ -418,18 +598,18 @@
 				{
 					id: "2F8EC30A59261235"
 					type: "xp"
-					xp: 150
+					xp: 60
 				}
 			]
 			tasks: [
 				{
 					id: "2AC36E44356DE729"
-					item: { count: 1, id: "luminous_nether:gilded_piglin_trophy" }
+					item: { count: 1, id: "luminous_nether:soul_bone" }
 					type: "item"
 				}
 			]
-			x: 6.75d
-			y: 20.25d
+			x: 7.662d
+			y: 17.75d
 		}
 		{
 			dependencies: [
@@ -453,8 +633,8 @@
 					type: "item"
 				}
 			]
-			x: 6.75d
-			y: 2.25d
+			x: 9.412d
+			y: 3.75d
 		}
 	]
 }

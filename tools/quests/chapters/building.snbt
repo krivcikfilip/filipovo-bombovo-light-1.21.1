@@ -7,7 +7,7 @@
 		id: "mcwroofs:oak_roof"
 	}
 	id: "3F317967CDFC610F"
-	order_index: 16
+	order_index: 40
 	quest_links: [ ]
 	quests: [
 		{
@@ -31,7 +31,7 @@
 				}
 			]
 			x: 0.0d
-			y: 6.75d
+			y: 14.4d
 		}
 		{
 			dependencies: ["507C57FB4FC23E2B"]
@@ -43,6 +43,8 @@
 					xp: 20
 				}
 			]
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [
 				{
 					id: "3000156546ACF5F3"
@@ -60,7 +62,78 @@
 					type: "item"
 				}
 			]
-			x: 3.875d
+			x: 4.0d
+			y: 0.4d
+		}
+		{
+			dependencies: ["7F44078A5ECCB447"]
+			id: "57F5996D923AE0B8"
+			rewards: [
+				{
+					id: "7144798059D49797"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "1BA8206A807543FB"
+					item: { count: 1, id: "chipped:glassblower" }
+					type: "item"
+				}
+				{
+					id: "7BAECE0D833CD8D4"
+					item: { count: 1, id: "chipped:loom_table" }
+					type: "item"
+				}
+				{
+					id: "4D042FC5061D2334"
+					item: { count: 1, id: "chipped:tinkering_table" }
+					type: "item"
+				}
+			]
+			x: 5.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F44078A5ECCB447"]
+			id: "31B81460433A0B70"
+			optional: true
+			rewards: [
+				{
+					id: "747E4D444AC25C46"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "4CC74C2786AD237A"
+					item: { count: 1, id: "chipped:chisel" }
+					type: "item"
+				}
+			]
+			x: 5.75d
+			y: 1.5d
+		}
+		{
+			dependencies: ["57F5996D923AE0B8"]
+			id: "2866C3C4C4C90E33"
+			rewards: [
+				{
+					id: "356B9A1FB3BF91FB"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "195314E8AC76710F"
+					item: { count: 1, id: "chipped:alchemy_bench" }
+					type: "item"
+				}
+			]
+			x: 7.5d
 			y: 0.0d
 		}
 		{
@@ -80,8 +153,54 @@
 					type: "item"
 				}
 			]
-			x: 3.875d
-			y: 1.5d
+			x: 4.0d
+			y: 5.9d
+		}
+		{
+			dependencies: ["25BA58C7E5732811"]
+			id: "72912BA1C34AB071"
+			rewards: [
+				{
+					id: "7334FC64D10297C1"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "6E66B70E41DFB982"
+					item: { count: 1, id: "rechiseled:oak_planks_crate_connecting" }
+					type: "item"
+				}
+			]
+			x: 5.75d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"25BA58C7E5732811"
+				"246226A6919CF5ED"
+			]
+			id: "6351782FEB97C273"
+			rewards: [
+				{
+					id: "720AC09069DC5E9E"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "45C24442882F787D"
+					item: { count: 1, id: "rechiseledcreate:mechanical_chisel" }
+					type: "item"
+				}
+			]
+			x: 5.75d
+			y: 4.5d
 		}
 		{
 			dependencies: ["507C57FB4FC23E2B"]
@@ -100,48 +219,284 @@
 					type: "item"
 				}
 			]
-			x: 3.875d
-			y: 3.0d
+			x: 4.0d
+			y: 7.4d
 		}
 		{
-			dependencies: ["507C57FB4FC23E2B"]
-			id: "2134C2200F0418B5"
+			dependencies: ["7C84CDEA0D79A2B8"]
+			id: "056EA013915DFDF5"
 			rewards: [
 				{
-					id: "4D79AFE17BE4BAD6"
+					id: "3888980FD01BE7B1"
 					type: "xp"
 					xp: 20
 				}
 			]
 			tasks: [
 				{
-					id: "4ECFA0638FE9703C"
-					item: { count: 1, id: "handcrafted:hammer" }
+					id: "024596DDF61D108C"
+					item: { count: 1, id: "mcwwindows:oak_window" }
+					type: "item"
+				}
+				{
+					id: "7FB6D87B531EBD7A"
+					item: { count: 1, id: "mcwwindows:white_curtain" }
 					type: "item"
 				}
 			]
-			x: 3.875d
-			y: 4.5d
-		}
-		{
-			dependencies: ["507C57FB4FC23E2B"]
-			id: "50425844F94F6E18"
-			rewards: [
-				{
-					id: "790F1BB23EFCD111"
-					type: "xp"
-					xp: 20
-				}
-			]
-			tasks: [
-				{
-					id: "5FEFE7BEE5B87EB4"
-					item: { count: 1, id: "refurbished_furniture:workbench" }
-					type: "item"
-				}
-			]
-			x: 3.875d
+			x: 5.75d
 			y: 6.0d
+		}
+		{
+			dependencies: ["507C57FB4FC23E2B"]
+			id: "293A782207EE6DCF"
+			rewards: [
+				{
+					id: "7CD3A878BA145190"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					count: 2L
+					id: "2A49942BEFD05A3D"
+					item: { count: 1, id: "mcwroofs:oak_roof" }
+					type: "item"
+				}
+				{
+					id: "398B6EEB802C8AC0"
+					item: { count: 1, id: "mcwroofs:roofing_hammer" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 3.4d
+		}
+		{
+			dependencies: ["507C57FB4FC23E2B"]
+			id: "2FF0B80BC844AEF4"
+			rewards: [
+				{
+					id: "6E7169C9488F7C4B"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "2EAE8E46B7EFD1E4"
+					item: { count: 1, id: "mcwdoors:oak_barn_door" }
+					type: "item"
+				}
+				{
+					id: "7FA77D3EDDE56DC7"
+					item: { count: 1, id: "mcwdoors:oak_modern_door" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 8.9d
+		}
+		{
+			dependencies: ["507C57FB4FC23E2B"]
+			id: "00AB5A5A7384DF35"
+			rewards: [
+				{
+					id: "732B20032572ADAE"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "7A9FA364341E3CF9"
+					item: { count: 1, id: "mcwbridges:rope_oak_bridge" }
+					type: "item"
+				}
+				{
+					id: "0B8C3B7DC16231C5"
+					item: { count: 1, id: "mcwbridges:pliers" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 10.4d
+		}
+		{
+			dependencies: ["507C57FB4FC23E2B"]
+			id: "35A82C1F89E8B260"
+			rewards: [
+				{
+					id: "4510879632559AA8"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "6F6E0623FC179A22"
+					item: { count: 1, id: "mcwfences:oak_picket_fence" }
+					type: "item"
+				}
+				{
+					id: "4373904F399163A8"
+					item: { count: 1, id: "mcwfences:oak_hedge" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 13.4d
+		}
+		{
+			dependencies: ["507C57FB4FC23E2B"]
+			id: "5BCE8F5B57A2CBFA"
+			rewards: [
+				{
+					id: "750AECB6078AAC7C"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "37250937729D4E1A"
+					item: { count: 1, id: "mcwlights:classic_street_lamp" }
+					type: "item"
+				}
+				{
+					id: "5E7BAF484D7DAD52"
+					item: { count: 1, id: "mcwlights:oak_tiki_torch" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 17.9d
+		}
+		{
+			dependencies: ["507C57FB4FC23E2B"]
+			id: "19A84226A3F57276"
+			rewards: [
+				{
+					id: "5C971175A9A97635"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "668517724365E4D6"
+					item: { count: 1, id: "mcwfurnitures:oak_desk" }
+					type: "item"
+				}
+				{
+					id: "03904F8E7602EE13"
+					item: { count: 1, id: "mcwfurnitures:oak_wardrobe" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 19.4d
+		}
+		{
+			dependencies: ["507C57FB4FC23E2B"]
+			id: "40557267D1201D19"
+			optional: true
+			rewards: [
+				{
+					id: "0CCD92A836BE0277"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "687B6F07F2B1AD49"
+					item: { count: 1, id: "mcwholidays:christmas_tree_base" }
+					type: "item"
+				}
+				{
+					id: "5432978113D4DA61"
+					item: { count: 1, id: "mcwholidays:candy_cane" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 20.9d
+		}
+		{
+			dependencies: ["507C57FB4FC23E2B"]
+			id: "484B96A7113A6D92"
+			rewards: [
+				{
+					id: "1DF38AFAA18ED2F2"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "33B2FCC20721A749"
+					item: { count: 1, id: "decorative_blocks:oak_beam" }
+					type: "item"
+				}
+				{
+					id: "193980C7C800AD75"
+					item: { count: 1, id: "decorative_blocks:oak_support" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 11.9d
+		}
+		{
+			dependencies: ["484B96A7113A6D92"]
+			id: "38DE4FC22133C212"
+			rewards: [
+				{
+					id: "33F657DB527E1FE1"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "05B1753D769CD2B9"
+					item: { count: 1, id: "decorative_blocks:oak_seat" }
+					type: "item"
+				}
+			]
+			x: 5.75d
+			y: 9.15d
+		}
+		{
+			dependencies: ["484B96A7113A6D92"]
+			id: "47286DF80C0049D3"
+			rewards: [
+				{
+					id: "0AD84152FE57A2CA"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "66E02FD56EB0B225"
+					item: { count: 1, id: "decorative_blocks:brazier" }
+					type: "item"
+				}
+				{
+					id: "642A903466BE0AB5"
+					item: { count: 1, id: "decorative_blocks:chandelier" }
+					type: "item"
+				}
+			]
+			x: 5.75d
+			y: 10.65d
 		}
 		{
 			dependencies: ["507C57FB4FC23E2B"]
@@ -160,8 +515,96 @@
 					type: "item"
 				}
 			]
-			x: 3.875d
-			y: 7.5d
+			x: 4.0d
+			y: 14.9d
+		}
+		{
+			dependencies: ["3094DA8711BD1EF4"]
+			id: "21B9938EBAF97B65"
+			optional: true
+			rewards: [
+				{
+					id: "1938F3CA66CE04B5"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					count: 3L
+					id: "14F7F0C330FC662D"
+					item: { count: 1, id: "domum_ornamentum:white_floating_carpet" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "53233F52ABD0C046"
+					item: { count: 1, id: "domum_ornamentum:cream_bricks" }
+					type: "item"
+				}
+			]
+			x: 5.75d
+			y: 12.9d
+		}
+		{
+			dependencies: ["507C57FB4FC23E2B"]
+			id: "723A1D46DE4C4FC2"
+			rewards: [
+				{
+					id: "46A6A997DDF65E67"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "02E49F5F0974C760"
+					item: { count: 1, id: "multipiston:multipistonblock" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 22.4d
+		}
+		{
+			dependencies: ["507C57FB4FC23E2B"]
+			id: "75030E0A40D2A068"
+			rewards: [
+				{
+					id: "04FD177D9CA3D254"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "128741CA88D65408"
+					item: { count: 1, id: "immersive_paintings:painting" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 16.4d
+		}
+		{
+			dependencies: ["75030E0A40D2A068"]
+			id: "7F7C5E35EA750870"
+			rewards: [
+				{
+					id: "5B6DFB037EF171A8"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "126929DB198C2B6F"
+					item: { count: 1, id: "immersive_paintings:graffiti" }
+					type: "item"
+				}
+			]
+			x: 5.75d
+			y: 14.4d
 		}
 		{
 			dependencies: ["507C57FB4FC23E2B"]
@@ -191,8 +634,8 @@
 					type: "item"
 				}
 			]
-			x: 3.875d
-			y: 9.0d
+			x: 4.0d
+			y: 24.4d
 		}
 		{
 			dependencies: ["507C57FB4FC23E2B"]
@@ -212,8 +655,8 @@
 					type: "item"
 				}
 			]
-			x: 3.875d
-			y: 10.5d
+			x: 4.0d
+			y: 26.4d
 		}
 		{
 			dependencies: ["507C57FB4FC23E2B"]
@@ -232,28 +675,48 @@
 					type: "item"
 				}
 			]
-			x: 3.875d
-			y: 12.0d
+			x: 4.0d
+			y: 28.9d
 		}
 		{
 			dependencies: ["507C57FB4FC23E2B"]
-			id: "75030E0A40D2A068"
+			id: "2134C2200F0418B5"
 			rewards: [
 				{
-					id: "04FD177D9CA3D254"
+					id: "4D79AFE17BE4BAD6"
 					type: "xp"
-					xp: 15
+					xp: 20
 				}
 			]
 			tasks: [
 				{
-					id: "128741CA88D65408"
-					item: { count: 1, id: "immersive_paintings:painting" }
+					id: "4ECFA0638FE9703C"
+					item: { count: 1, id: "handcrafted:hammer" }
 					type: "item"
 				}
 			]
-			x: 3.875d
-			y: 13.5d
+			x: 4.0d
+			y: 31.9d
+		}
+		{
+			dependencies: ["507C57FB4FC23E2B"]
+			id: "50425844F94F6E18"
+			rewards: [
+				{
+					id: "790F1BB23EFCD111"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "5FEFE7BEE5B87EB4"
+					item: { count: 1, id: "refurbished_furniture:workbench" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 35.4d
 		}
 	]
 }

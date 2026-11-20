@@ -1,0 +1,601 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "utility"
+	group: "520042A0F9159BC8"
+	icon: {
+		id: "supplementaries:wrench"
+	}
+	id: "595D3C6DBCC3513A"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:chest"
+			}
+			id: "658E96902AB33378"
+			rewards: [
+				{
+					id: "293209899DCBAD91"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "541F23FE87C8D1D7"
+					stat: "minecraft:play_time"
+					type: "stat"
+					value: 1
+				}
+			]
+			x: 0.0d
+			y: 4.875d
+		}
+		{
+			dependencies: ["658E96902AB33378"]
+			icon: {
+				id: "lootr:lootr_chest"
+			}
+			id: "282FAAB07B21947C"
+			rewards: [
+				{
+					id: "0031CA5322BDD640"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					advancement: "lootr:1chest"
+					criterion: ""
+					id: "13DD72B397EEECFD"
+					type: "advancement"
+				}
+			]
+			x: 1.913d
+			y: 1.125d
+		}
+		{
+			dependencies: ["282FAAB07B21947C"]
+			icon: {
+				id: "lootr:lootr_barrel"
+			}
+			id: "74317AD324C6BE9E"
+			rewards: [
+				{
+					id: "1123AB968AFACCA6"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					advancement: "lootr:10loot"
+					criterion: ""
+					id: "08D289FE933481A6"
+					type: "advancement"
+				}
+			]
+			x: 3.663d
+			y: 0.0d
+		}
+		{
+			dependencies: ["74317AD324C6BE9E"]
+			icon: {
+				id: "lootr:lootr_shulker"
+			}
+			id: "0A25AEF4AB00B742"
+			rewards: [
+				{
+					id: "423C2DD03C34583A"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "lootr:50loot"
+					criterion: ""
+					id: "47B9A1264C1BFFB3"
+					type: "advancement"
+				}
+			]
+			x: 5.412d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A25AEF4AB00B742"]
+			id: "1C9EA56BAC5D63F4"
+			rewards: [
+				{
+					id: "02F9FD67D22E3BA3"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "18CC5300C582F05D"
+					item: { count: 1, id: "lootr:trophy" }
+					type: "item"
+				}
+			]
+			x: 7.162d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"658E96902AB33378"
+				"339C0897F750F0DA"
+			]
+			id: "21CED49F0735483D"
+			rewards: [
+				{
+					id: "70D1EB7A08824D86"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "5B150D4B5E83637D"
+					item: { count: 1, id: "supplementaries:wrench" }
+					type: "item"
+				}
+			]
+			x: 1.913d
+			y: 4.125d
+		}
+		{
+			dependencies: ["21CED49F0735483D"]
+			id: "454A3962B1857594"
+			rewards: [
+				{
+					id: "2EB3F82ED44B56EA"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "6A5915F9A9F1F414"
+					item: { count: 1, id: "supplementaries:altimeter" }
+					type: "item"
+				}
+			]
+			x: 3.663d
+			y: 1.5d
+		}
+		{
+			dependencies: ["21CED49F0735483D"]
+			id: "5896E1B4AAE27CA2"
+			rewards: [
+				{
+					id: "6DA80647426AE02D"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "28C90A8D48B0A971"
+					item: { count: 1, id: "supplementaries:cage" }
+					type: "item"
+				}
+			]
+			x: 3.663d
+			y: 3.0d
+		}
+		{
+			dependencies: ["21CED49F0735483D"]
+			id: "7E77349139382340"
+			rewards: [
+				{
+					id: "08054731CE05AB89"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "06E38810292880B3"
+					item: { count: 1, id: "supplementaries:quiver" }
+					type: "item"
+				}
+			]
+			x: 3.663d
+			y: 4.5d
+		}
+		{
+			dependencies: ["21CED49F0735483D"]
+			id: "2ED6CA635F4ADC2C"
+			optional: true
+			rewards: [
+				{
+					id: "4A6588D96687386A"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "22EB213FD164C80A"
+					item: { count: 1, id: "supplementaries:bomb" }
+					type: "item"
+				}
+			]
+			x: 3.663d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2ED6CA635F4ADC2C"]
+			id: "0C4AC8C27334F441"
+			rewards: [
+				{
+					id: "6DDED8C00E1EE257"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "5F88D3F2CFAAD5D9"
+					item: { count: 1, id: "supplementaries:cannon" }
+					type: "item"
+				}
+			]
+			x: 5.412d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"5896E1B4AAE27CA2"
+				"023AF47BB34DE51D"
+			]
+			id: "1EDED2CFE86A31A2"
+			rewards: [
+				{
+					id: "56CF98341D5FB91B"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "179604F51EB27FB4"
+					item: { count: 1, id: "supplementaries:safe" }
+					type: "item"
+				}
+				{
+					id: "0C4CE2150DB06C59"
+					item: { count: 1, id: "supplementaries:key" }
+					type: "item"
+				}
+			]
+			x: 5.412d
+			y: 3.0d
+		}
+		{
+			dependencies: ["454A3962B1857594"]
+			id: "708C617D1C521C66"
+			optional: true
+			rewards: [
+				{
+					id: "7E91E07A867E22CF"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "7CAD8FE2D1ED1116"
+					item: { count: 1, id: "supplementaries:globe" }
+					type: "item"
+				}
+			]
+			x: 5.412d
+			y: 1.5d
+		}
+		{
+			dependencies: ["658E96902AB33378"]
+			id: "66B0BDDE38B7C6AB"
+			rewards: [
+				{
+					id: "380542A49D6C3381"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "3FB4E31D6D749AD7"
+					item: { count: 1, id: "minecraft:lantern" }
+					type: "item"
+				}
+			]
+			x: 1.913d
+			y: 2.625d
+		}
+		{
+			dependencies: [
+				"658E96902AB33378"
+				"3BD86699630ED67D"
+			]
+			id: "3CCF542EE34A2AA8"
+			rewards: [
+				{
+					id: "6E47FC622CD2AA77"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "521B04B97F4B1426"
+					item: { count: 1, id: "etched:blank_music_disc" }
+					type: "item"
+				}
+			]
+			x: 1.913d
+			y: 7.125d
+		}
+		{
+			dependencies: ["3CCF542EE34A2AA8"]
+			id: "4C1DCB2344D7B0E7"
+			rewards: [
+				{
+					id: "3BBE77FE8C93E325"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "710B1C09648C2F9F"
+					item: { count: 1, id: "etched:etched_music_disc" }
+					type: "item"
+				}
+			]
+			x: 3.663d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4C1DCB2344D7B0E7"]
+			id: "0A85DEB6F51EB76C"
+			rewards: [
+				{
+					id: "2D66627ECD7B57F4"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "79CDBC99C1569B1C"
+					item: { count: 1, id: "etched:boombox" }
+					type: "item"
+				}
+			]
+			x: 5.412d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4C1DCB2344D7B0E7"]
+			id: "4C48517725275505"
+			optional: true
+			rewards: [
+				{
+					id: "5CF91470B0E1AB7A"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "0A5A2D60C4BE514F"
+					item: { count: 1, id: "etched:album_jukebox" }
+					type: "item"
+				}
+			]
+			x: 5.412d
+			y: 8.5d
+		}
+		{
+			dependencies: ["658E96902AB33378"]
+			id: "7509D21E5ED7C7C3"
+			optional: true
+			rewards: [
+				{
+					id: "789A489D6AD58837"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "5A4DEE2267AE0634"
+					item: { count: 1, id: "chimes:bamboo_chimes" }
+					type: "item"
+				}
+			]
+			x: 1.913d
+			y: 5.625d
+		}
+		{
+			dependencies: [
+				"658E96902AB33378"
+				"61CEEBDE48044DB9"
+			]
+			icon: {
+				id: "minecraft:sugar"
+			}
+			id: "54A0D0A444B2888C"
+			rewards: [
+				{
+					id: "49F49E5F6C9079A8"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					advancement: "apothic_spawners:modifier"
+					criterion: ""
+					id: "26A1E6A6EE0669F1"
+					type: "advancement"
+				}
+			]
+			x: 1.913d
+			y: 8.625d
+		}
+		{
+			dependencies: ["54A0D0A444B2888C"]
+			icon: {
+				id: "minecraft:zombie_spawn_egg"
+			}
+			id: "4341D2427C7A8094"
+			optional: true
+			rewards: [
+				{
+					id: "4BD3E6052B7D0D63"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					advancement: "apothic_spawners:capturing"
+					criterion: ""
+					id: "0973C75FF4848043"
+					type: "advancement"
+				}
+			]
+			x: 3.663d
+			y: 9.0d
+		}
+		{
+			dependencies: ["54A0D0A444B2888C"]
+			icon: {
+				id: "minecraft:fermented_spider_eye"
+			}
+			id: "4F70A0DA32E495BB"
+			rewards: [
+				{
+					id: "7F9CC13A3FAEAB20"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					advancement: "apothic_spawners:spawncount"
+					criterion: ""
+					id: "5D9DA96396F7EF74"
+					type: "advancement"
+				}
+			]
+			x: 3.663d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4F70A0DA32E495BB"]
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "103648B84A37B1A4"
+			rewards: [
+				{
+					id: "7F8D3B9BAB819EB1"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "apothic_spawners:ultimate_spawner"
+					criterion: ""
+					id: "50B03AD29A80006B"
+					type: "advancement"
+				}
+			]
+			x: 5.412d
+			y: 10.5d
+		}
+		{
+			dependencies: ["666A0A06E79D4CFF"]
+			id: "3DD6B055279442CD"
+			rewards: [
+				{
+					id: "7D7F2858EA260B57"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "0C804CCC70DD0E06"
+					item: { count: 1, id: "chunkloaders:basic_chunk_loader" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 12.127d
+		}
+		{
+			dependencies: ["3DD6B055279442CD"]
+			id: "41F4CED743ECA254"
+			rewards: [
+				{
+					id: "77A00FAA44FF3CA5"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "4E27ADBC7D997927"
+					item: { count: 1, id: "chunkloaders:advanced_chunk_loader" }
+					type: "item"
+				}
+			]
+			x: 1.913d
+			y: 12.127d
+		}
+		{
+			dependencies: ["41F4CED743ECA254"]
+			id: "36808E4B80C67FD6"
+			rewards: [
+				{
+					id: "0B7347097D128F9D"
+					type: "xp"
+					xp: 80
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "4A9F2D1A096C91D9"
+					item: { count: 1, id: "chunkloaders:ultimate_chunk_loader" }
+					type: "item"
+				}
+			]
+			x: 3.663d
+			y: 12.127d
+		}
+	]
+}

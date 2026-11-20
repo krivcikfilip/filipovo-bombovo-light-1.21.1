@@ -1,0 +1,619 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "vanilla"
+	group: "520042A0F9159BC8"
+	icon: {
+		id: "minecraft:iron_pickaxe"
+	}
+	id: "3950D352A9C1E69A"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:oak_sapling"
+			}
+			id: "67D9FC42F59390FE"
+			rewards: [
+				{
+					id: "52E2F9E4520183F4"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "57BB1D0E30805692"
+					stat: "minecraft:play_time"
+					type: "stat"
+					value: 1
+				}
+			]
+			x: 0.0d
+			y: 6.75d
+		}
+		{
+			dependencies: ["67D9FC42F59390FE"]
+			id: "2530D3E139815622"
+			rewards: [
+				{
+					id: "5983081F8F7C6650"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "566354A9EE757369"
+					item: { count: 1, id: "minecraft:stick" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2530D3E139815622"]
+			id: "37586B9072C4F62C"
+			rewards: [
+				{
+					id: "4B6174971D7020E9"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "1FF942A334D43DD7"
+					item: { count: 1, id: "minecraft:crafting_table" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["37586B9072C4F62C"]
+			id: "58D879F7901B86FD"
+			rewards: [
+				{
+					id: "724DB10BB145E3CD"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "3C4615C2C4D67B34"
+					item: { count: 1, id: "minecraft:wooden_pickaxe" }
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: 4.5d
+		}
+		{
+			dependencies: ["58D879F7901B86FD"]
+			id: "2191E820963D5D20"
+			rewards: [
+				{
+					id: "0A032AC6EA873C52"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "5D07F8C28AAD0602"
+					item: { count: 1, id: "minecraft:stone_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "7AC23B54D2AB057D"
+					item: { count: 1, id: "minecraft:stone_sword" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["2191E820963D5D20"]
+			id: "17EAEAF24D858EFB"
+			rewards: [
+				{
+					id: "627544AABAD0A05F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "096678C51DD284C5"
+					item: { count: 1, id: "minecraft:stone_axe" }
+					type: "item"
+				}
+			]
+			x: 8.75d
+			y: 2.25d
+		}
+		{
+			dependencies: ["58D879F7901B86FD"]
+			id: "462EE793244F6FE1"
+			rewards: [
+				{
+					id: "4BAA326CB3ECD71C"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "6B7D7B93D07210EB"
+					item: { count: 1, id: "minecraft:torch" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["2191E820963D5D20"]
+			id: "70E40375539D67F8"
+			rewards: [
+				{
+					id: "79DB5F8847742A32"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "211B14CEE0AEC0C3"
+					item: { count: 1, id: "minecraft:furnace" }
+					type: "item"
+				}
+			]
+			x: 8.75d
+			y: 3.75d
+		}
+		{
+			dependencies: ["67D9FC42F59390FE"]
+			icon: {
+				id: "minecraft:cooked_beef"
+			}
+			id: "640CAA77B2BA1626"
+			rewards: [
+				{
+					id: "6E5A55A957F060BD"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:husbandry/root"
+					criterion: ""
+					id: "6D62E2599FE3E61D"
+					type: "advancement"
+				}
+			]
+			x: 1.75d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2530D3E139815622"]
+			icon: {
+				id: "minecraft:white_bed"
+			}
+			id: "7565253BC574B6D2"
+			rewards: [
+				{
+					id: "2563800FFD59B4BE"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:adventure/sleep_in_bed"
+					criterion: ""
+					id: "589A4394935E8880"
+					type: "advancement"
+				}
+			]
+			x: 3.5d
+			y: 6.75d
+		}
+		{
+			dependencies: ["2191E820963D5D20"]
+			icon: {
+				id: "minecraft:stone_sword"
+			}
+			id: "7764E4A71A3174E2"
+			rewards: [
+				{
+					id: "6D33E80CA3D43A9C"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:adventure/kill_a_mob"
+					criterion: ""
+					id: "2B9D7687F320B3CB"
+					type: "advancement"
+				}
+			]
+			x: 8.75d
+			y: 5.25d
+		}
+		{
+			dependencies: ["37586B9072C4F62C"]
+			icon: {
+				id: "minecraft:wheat_seeds"
+			}
+			id: "28142123F7EB3642"
+			rewards: [
+				{
+					id: "785759ED128B5D97"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:husbandry/plant_seed"
+					criterion: ""
+					id: "354B525FC0CA9FE3"
+					type: "advancement"
+				}
+			]
+			x: 5.25d
+			y: 6.0d
+		}
+		{
+			dependencies: ["28142123F7EB3642"]
+			icon: {
+				id: "minecraft:wheat"
+			}
+			id: "2EFA4DB7C88AFD2C"
+			rewards: [
+				{
+					id: "576D47682F0787F2"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:husbandry/breed_an_animal"
+					criterion: ""
+					id: "384B9EE82FBA1B93"
+					type: "advancement"
+				}
+			]
+			x: 7.0d
+			y: 6.75d
+		}
+		{
+			dependencies: ["70E40375539D67F8"]
+			id: "068F1B851310D081"
+			rewards: [
+				{
+					id: "6EAA097AAFBFC090"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					count: 10L
+					id: "60EB24CB771ABAD7"
+					item: { count: 1, id: "minecraft:iron_ingot" }
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["068F1B851310D081"]
+			id: "0303961F2E1D2EC7"
+			rewards: [
+				{
+					id: "540111784A75EDE2"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "6462D54505E11237"
+					item: { count: 1, id: "minecraft:iron_pickaxe" }
+					type: "item"
+				}
+			]
+			x: 12.875d
+			y: 0.0d
+		}
+		{
+			dependencies: ["068F1B851310D081"]
+			icon: {
+				id: "minecraft:iron_chestplate"
+			}
+			id: "7F9C66554004643F"
+			rewards: [
+				{
+					id: "73E0AEFEAA1022B0"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:story/obtain_armor"
+					criterion: ""
+					id: "0731C5F426DE33D6"
+					type: "advancement"
+				}
+			]
+			x: 12.875d
+			y: 1.5d
+		}
+		{
+			dependencies: ["068F1B851310D081"]
+			id: "4892CE8C26538039"
+			rewards: [
+				{
+					id: "5CC36D620C7FF763"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "4185FB429121842C"
+					item: { count: 1, id: "minecraft:shield" }
+					type: "item"
+				}
+			]
+			x: 12.875d
+			y: 3.0d
+		}
+		{
+			dependencies: ["068F1B851310D081"]
+			id: "07E66A2F6B66C6DE"
+			rewards: [
+				{
+					id: "09C1EFF6F7F40F18"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "07CAB368467E53CC"
+					item: { count: 1, id: "minecraft:water_bucket" }
+					type: "item"
+				}
+			]
+			x: 12.875d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7565253BC574B6D2"]
+			icon: {
+				id: "minecraft:emerald"
+			}
+			id: "4295460EAA28B0E9"
+			rewards: [
+				{
+					id: "022ECE1B15E43FC2"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:adventure/trade"
+					criterion: ""
+					id: "0A68ACE6E7D77FF6"
+					type: "advancement"
+				}
+			]
+			x: 5.25d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0303961F2E1D2EC7"]
+			icon: {
+				id: "minecraft:diamond"
+			}
+			id: "3AAEB9F6BE6894AA"
+			rewards: [
+				{
+					id: "3C968DA10CAACD97"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "minecraft:story/mine_diamond"
+					criterion: ""
+					id: "567DFE068367E141"
+					type: "advancement"
+				}
+			]
+			x: 14.625d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3AAEB9F6BE6894AA"]
+			id: "48B397312820D2C1"
+			rewards: [
+				{
+					id: "5D7771A496B0C6F5"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "2F4ACC50687FFE63"
+					item: { count: 1, id: "minecraft:diamond_pickaxe" }
+					type: "item"
+				}
+			]
+			x: 16.375d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"48B397312820D2C1"
+				"07E66A2F6B66C6DE"
+			]
+			icon: {
+				id: "minecraft:obsidian"
+			}
+			id: "02686FAD041600B7"
+			rewards: [
+				{
+					id: "194E7F0037FF1A62"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:story/form_obsidian"
+					criterion: ""
+					id: "01BB10EAAC37AA39"
+					type: "advancement"
+				}
+			]
+			x: 18.125d
+			y: 2.25d
+		}
+		{
+			dependencies: ["02686FAD041600B7"]
+			id: "39AFCCAAADC32A94"
+			rewards: [
+				{
+					id: "6AC4401A0CB490D8"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "5A047E824699C2EA"
+					item: { count: 1, id: "minecraft:enchanting_table" }
+					type: "item"
+				}
+			]
+			x: 19.938d
+			y: 2.25d
+		}
+		{
+			dependencies: ["39AFCCAAADC32A94"]
+			id: "67B9D31BB2341E51"
+			optional: true
+			rewards: [
+				{
+					id: "0F0FF9EA26F847F9"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "6DC38379101D5EF1"
+					item: { count: 1, id: "minecraft:bookshelf" }
+					type: "item"
+				}
+			]
+			x: 21.688d
+			y: 2.25d
+		}
+		{
+			dependencies: ["068F1B851310D081"]
+			id: "2B3D90A1C372943A"
+			rewards: [
+				{
+					id: "61E689AF541B04D0"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "3BE29D1D5976EFA3"
+					item: { count: 1, id: "minecraft:anvil" }
+					type: "item"
+				}
+			]
+			x: 12.875d
+			y: 6.0d
+		}
+		{
+			dependencies: ["068F1B851310D081"]
+			id: "255C2262759FDE55"
+			rewards: [
+				{
+					id: "332C966B66539BC2"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "22EE9AB6B1D922B0"
+					item: { count: 1, id: "minecraft:flint_and_steel" }
+					type: "item"
+				}
+			]
+			x: 12.875d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"02686FAD041600B7"
+				"255C2262759FDE55"
+			]
+			icon: {
+				id: "minecraft:flint_and_steel"
+			}
+			id: "51F926AB754AAC65"
+			rewards: [
+				{
+					id: "1E3323B0AA4FA923"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:story/enter_the_nether"
+					criterion: ""
+					id: "5287CAD4E7BE1776"
+					type: "advancement"
+				}
+			]
+			x: 19.938d
+			y: 4.875d
+		}
+	]
+}

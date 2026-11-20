@@ -7,7 +7,7 @@
 		id: "sliceanddice:slicer"
 	}
 	id: "7E14D4EE6821AA6F"
-	order_index: 12
+	order_index: 33
 	quest_links: [ ]
 	quests: [
 		{
@@ -22,6 +22,8 @@
 					xp: 10
 				}
 			]
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [
 				{
 					id: "28812F0E487F706C"
@@ -31,10 +33,13 @@
 				}
 			]
 			x: 0.0d
-			y: 3.75d
+			y: 7.5d
 		}
 		{
-			dependencies: ["04B7C8F9C5669640"]
+			dependencies: [
+				"04B7C8F9C5669640"
+				"4978B86F57E43FCE"
+			]
 			id: "677709DB54F26BCA"
 			rewards: [
 				{
@@ -51,11 +56,15 @@
 					type: "item"
 				}
 			]
-			x: 2.375d
+			x: 3.225d
 			y: 0.0d
 		}
 		{
-			dependencies: ["04B7C8F9C5669640"]
+			dependencies: [
+				"04B7C8F9C5669640"
+				"35E7FB9BFAB4A8C0"
+				"358EE95E5EF85F32"
+			]
 			id: "4618B1C536A3F3CF"
 			rewards: [
 				{
@@ -72,8 +81,61 @@
 					type: "item"
 				}
 			]
-			x: 2.375d
-			y: 1.5d
+			x: 3.225d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"04B7C8F9C5669640"
+				"41B89DC3CE373DEA"
+			]
+			id: "0F122AB75AC3194C"
+			rewards: [
+				{
+					id: "2E94798CB6841A7C"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "00597266A196188B"
+					item: { count: 1, id: "create_confectionery:crushed_cocoa" }
+					type: "item"
+				}
+			]
+			x: 3.225d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"0F122AB75AC3194C"
+				"1A760F58BAC41BD4"
+			]
+			id: "2FB005B949EA6CE7"
+			rewards: [
+				{
+					id: "29897C88D5DDFCF7"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "7CA6E9F63C9DF79D"
+					item: { count: 1, id: "create_confectionery:cocoa_powder" }
+					type: "item"
+				}
+				{
+					id: "5910E92EE4DEC93B"
+					item: { count: 1, id: "create_confectionery:cocoa_butter" }
+					type: "item"
+				}
+			]
+			x: 4.975d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4618B1C536A3F3CF"]
@@ -85,6 +147,8 @@
 					xp: 25
 				}
 			]
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [
 				{
 					count: 4L
@@ -98,11 +162,66 @@
 					type: "item"
 				}
 			]
-			x: 4.125d
+			x: 4.975d
 			y: 1.5d
 		}
 		{
-			dependencies: ["2C56F980713D3F51"]
+			dependencies: [
+				"2FB005B949EA6CE7"
+				"2C56F980713D3F51"
+			]
+			id: "524E43EC11B0DF0B"
+			rewards: [
+				{
+					id: "2D0B9C11A5050803"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "174A948AB04109E2"
+					item: { count: 1, id: "create_confectionery:bar_of_black_chocolate" }
+					type: "item"
+				}
+				{
+					id: "35C973333265AE4E"
+					item: { count: 1, id: "create_confectionery:bar_of_white_chocolate" }
+					type: "item"
+				}
+			]
+			x: 6.725d
+			y: 1.781d
+		}
+		{
+			dependencies: [
+				"2C56F980713D3F51"
+				"4328CD94686BFEBA"
+			]
+			id: "36354498EC737013"
+			rewards: [
+				{
+					id: "29ED40454C39648A"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "0456EE0B1BD7B1BA"
+					item: { count: 1, id: "create_confectionery:chocolate_candy" }
+					type: "item"
+				}
+			]
+			x: 6.725d
+			y: 0.281d
+		}
+		{
+			dependencies: [
+				"2FB005B949EA6CE7"
+				"4328CD94686BFEBA"
+			]
 			id: "72FE716A87035676"
 			rewards: [
 				{
@@ -118,17 +237,59 @@
 					type: "item"
 				}
 			]
-			x: 5.875d
-			y: 1.5d
+			x: 6.725d
+			y: 3.281d
 		}
 		{
-			dependencies: ["677709DB54F26BCA"]
+			dependencies: ["36354498EC737013"]
+			id: "0C0729A1A2624611"
+			rewards: [
+				{
+					id: "568982EEC6D6DA09"
+					type: "xp"
+					xp: 35
+				}
+			]
+			tasks: [
+				{
+					id: "6B658B6327F6DD49"
+					item: { count: 1, id: "create_confectionery:gingerbread_man" }
+					type: "item"
+				}
+			]
+			x: 8.475d
+			y: 0.281d
+		}
+		{
+			dependencies: ["524E43EC11B0DF0B"]
+			id: "2316F8EF3647AB01"
+			rewards: [
+				{
+					id: "6CA59B36857E01BB"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "7C227E66FC58CF4D"
+					item: { count: 1, id: "create_confectionery:bar_of_ruby_chocolate" }
+					type: "item"
+				}
+			]
+			x: 8.475d
+			y: 1.781d
+		}
+		{
+			dependencies: ["04B7C8F9C5669640"]
 			id: "0B470F01E40566A0"
 			rewards: [
 				{
 					id: "1C50A723ED35BCD0"
 					type: "xp"
-					xp: 25
+					xp: 15
 				}
 			]
 			tasks: [
@@ -138,17 +299,131 @@
 					type: "item"
 				}
 			]
-			x: 4.125d
-			y: 0.0d
+			x: 3.225d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"0B470F01E40566A0"
+				"35E7FB9BFAB4A8C0"
+			]
+			id: "0D6109681D267D10"
+			rewards: [
+				{
+					id: "4B3E5E2E274D2CE9"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "4A80951A040AE721"
+					item: { count: 1, id: "createfood:heavy_cream_bucket" }
+					type: "item"
+				}
+			]
+			x: 4.975d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"0D6109681D267D10"
+				"4328CD94686BFEBA"
+			]
+			id: "3EE5D0649401A1FB"
+			rewards: [
+				{
+					id: "28BF6FB07809BE26"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "0FCF4F4E9FBB649B"
+					item: { count: 1, id: "createfood:cream_frosting_piping_bag" }
+					type: "item"
+				}
+			]
+			x: 6.725d
+			y: 4.781d
+		}
+		{
+			dependencies: ["3EE5D0649401A1FB"]
+			id: "06EC08597591B28B"
+			rewards: [
+				{
+					id: "7CD37A698AC74933"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "4F7B65A141A956FE"
+					item: { count: 1, id: "createfood:cream_cake" }
+					type: "item"
+				}
+			]
+			x: 8.475d
+			y: 4.031d
+		}
+		{
+			dependencies: [
+				"3EE5D0649401A1FB"
+				"358EE95E5EF85F32"
+			]
+			id: "2606C94E702C3ADD"
+			rewards: [
+				{
+					id: "438A6C762F1F068C"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "0185D2E288DB142E"
+					item: { count: 1, id: "createfood:cream_donut" }
+					type: "item"
+				}
+			]
+			x: 8.475d
+			y: 5.531d
 		}
 		{
 			dependencies: ["04B7C8F9C5669640"]
+			id: "0431A78F9A1C7EB4"
+			rewards: [
+				{
+					id: "562B9B435D26F4D4"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "135F3BD597B1356B"
+					item: { count: 1, id: "createcafe:roasted_coffee_beans" }
+					type: "item"
+				}
+			]
+			x: 3.225d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"0431A78F9A1C7EB4"
+				"4978B86F57E43FCE"
+				"358EE95E5EF85F32"
+			]
 			id: "7CC50F3EDA01CCC0"
 			rewards: [
 				{
 					id: "5BCC5889DC947839"
 					type: "xp"
-					xp: 30
+					xp: 25
 				}
 			]
 			tasks: [
@@ -158,17 +433,140 @@
 					type: "item"
 				}
 			]
-			x: 2.375d
-			y: 3.0d
+			x: 4.975d
+			y: 6.0d
 		}
 		{
-			dependencies: ["04B7C8F9C5669640"]
+			dependencies: [
+				"7CC50F3EDA01CCC0"
+				"4328CD94686BFEBA"
+				"723048BF1737D4ED"
+			]
+			id: "493AC440C6065CDB"
+			rewards: [
+				{
+					id: "29B5D4C6F404AED8"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "3A8E0EDA2F864C28"
+					item: { count: 1, id: "createcafe:iced_coffee" }
+					type: "item"
+				}
+			]
+			x: 6.725d
+			y: 6.281d
+		}
+		{
+			dependencies: [
+				"04B7C8F9C5669640"
+				"41B89DC3CE373DEA"
+				"358EE95E5EF85F32"
+			]
+			id: "46CBD1B3412E4B74"
+			rewards: [
+				{
+					id: "39C141BEAB74F7E1"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "76BCA92C3854465E"
+					item: { count: 1, id: "createcafe:boba" }
+					type: "item"
+				}
+			]
+			x: 3.225d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"46CBD1B3412E4B74"
+				"4328CD94686BFEBA"
+				"723048BF1737D4ED"
+			]
+			id: "78F955C2839C7283"
+			rewards: [
+				{
+					id: "580639AC0A13FBC1"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "3510E3889BC559AE"
+					item: { count: 1, id: "createcafe:apple_milk_tea" }
+					type: "item"
+				}
+			]
+			x: 4.975d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"78F955C2839C7283"
+				"5F71DBB1A5D94585"
+			]
+			id: "6877A063263E4156"
+			rewards: [
+				{
+					id: "300B947EC0C502AC"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					count: 4L
+					id: "676C4A8CD2144B46"
+					item: { count: 1, id: "createcafe:oreo" }
+					type: "item"
+				}
+			]
+			x: 6.725d
+			y: 9.281d
+		}
+		{
+			dependencies: [
+				"04B7C8F9C5669640"
+				"41B89DC3CE373DEA"
+			]
+			id: "02885F2880471CF2"
+			rewards: [
+				{
+					id: "4BF0064219CE3F7F"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "3D515E8E51369988"
+					item: { count: 1, id: "create_winery:red_grape_pomace" }
+					type: "item"
+				}
+			]
+			x: 3.225d
+			y: 8.0d
+		}
+		{
+			dependencies: ["02885F2880471CF2"]
 			id: "491802A4420DB4B8"
 			rewards: [
 				{
 					id: "0CD84A63FE4519D4"
 					type: "xp"
-					xp: 30
+					xp: 25
 				}
 			]
 			tasks: [
@@ -178,11 +576,105 @@
 					type: "item"
 				}
 			]
-			x: 2.375d
-			y: 4.5d
+			x: 4.975d
+			y: 7.5d
 		}
 		{
-			dependencies: ["04B7C8F9C5669640"]
+			dependencies: ["491802A4420DB4B8"]
+			id: "167F05D58B87C6FF"
+			rewards: [
+				{
+					id: "18037E635AA7771E"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "2434FAD53D66A438"
+					item: { count: 1, id: "create_winery:merlot" }
+					type: "item"
+				}
+			]
+			x: 6.725d
+			y: 7.781d
+		}
+		{
+			dependencies: ["167F05D58B87C6FF"]
+			id: "715165A7801BB96F"
+			rewards: [
+				{
+					id: "45A3C5B646FFA506"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "2732A5BE7134E73A"
+					item: { count: 1, id: "create_winery:rose" }
+					type: "item"
+				}
+			]
+			x: 8.475d
+			y: 7.781d
+		}
+		{
+			dependencies: [
+				"04B7C8F9C5669640"
+				"358EE95E5EF85F32"
+				"47E272DB2DB104B0"
+				"2359A21812B76933"
+			]
+			id: "1B981390DC9EE5D3"
+			rewards: [
+				{
+					id: "6BC178E6F4358B13"
+					type: "xp"
+					xp: 35
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "0D35CA7F07C90F80"
+					item: { count: 1, id: "farmersdelight:pumpkin_soup" }
+					type: "item"
+				}
+			]
+			x: 3.225d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"04B7C8F9C5669640"
+				"723048BF1737D4ED"
+				"6C09E821C47BD8DA"
+			]
+			id: "17D8685C44295A82"
+			rewards: [
+				{
+					id: "75FC383559EE5455"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "47FD8526142FBF24"
+					item: { count: 1, id: "farmersdelight:salmon_slice" }
+					type: "item"
+				}
+			]
+			x: 3.225d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"04B7C8F9C5669640"
+				"41B89DC3CE373DEA"
+			]
 			id: "2AEBE01A3EDB2B09"
 			rewards: [
 				{
@@ -198,11 +690,14 @@
 					type: "item"
 				}
 			]
-			x: 2.375d
-			y: 6.0d
+			x: 3.225d
+			y: 11.0d
 		}
 		{
-			dependencies: ["2AEBE01A3EDB2B09"]
+			dependencies: [
+				"2AEBE01A3EDB2B09"
+				"55625BFA5DD44551"
+			]
 			id: "39B357B4E049960F"
 			rewards: [
 				{
@@ -218,8 +713,33 @@
 					type: "item"
 				}
 			]
-			x: 4.125d
-			y: 6.0d
+			x: 4.975d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"39B357B4E049960F"
+				"35E7FB9BFAB4A8C0"
+			]
+			id: "2B23ECEB6D927D69"
+			rewards: [
+				{
+					id: "05EEBF3C553267A8"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "66CD445D05228DC7"
+					item: { count: 1, id: "sliceanddice:fertilizer_bucket" }
+					type: "item"
+				}
+			]
+			x: 6.725d
+			y: 10.781d
 		}
 		{
 			dependencies: ["04B7C8F9C5669640"]
@@ -238,8 +758,8 @@
 					type: "item"
 				}
 			]
-			x: 2.375d
-			y: 7.5d
+			x: 3.225d
+			y: 16.0d
 		}
 	]
 }

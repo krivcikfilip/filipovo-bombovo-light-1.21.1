@@ -1,0 +1,300 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "biomes"
+	group: "76581968F62E459A"
+	icon: {
+		id: "minecraft:grass_block"
+	}
+	id: "16573FC8637C02D1"
+	order_index: 49
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:grass_block"
+			}
+			id: "705AF46C239A0D62"
+			rewards: [
+				{
+					id: "0A5B33318E54CC53"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "659004D811A3FCC2"
+					stat: "minecraft:play_time"
+					type: "stat"
+					value: 1
+				}
+			]
+			x: 0.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["705AF46C239A0D62"]
+			icon: {
+				id: "minecraft:cherry_sapling"
+			}
+			id: "09FE5020E6E0C0A8"
+			rewards: [
+				{
+					id: "2439FFD76537B567"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					biome: "terralith:sakura_grove"
+					id: "03BB2D9DC9C320C9"
+					type: "biome"
+				}
+			]
+			x: 1.75d
+			y: 0.75d
+		}
+		{
+			dependencies: ["705AF46C239A0D62"]
+			icon: {
+				id: "minecraft:amethyst_shard"
+			}
+			id: "1F772FD3F8A900AA"
+			rewards: [
+				{
+					id: "1CAD03C51B9A88B4"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					biome: "terralith:moonlight_grove"
+					id: "703557CE7E3F6B10"
+					type: "biome"
+				}
+			]
+			x: 1.75d
+			y: 2.25d
+		}
+		{
+			dependencies: ["705AF46C239A0D62"]
+			icon: {
+				id: "minecraft:lily_pad"
+			}
+			id: "1F53AB763F9A12F8"
+			rewards: [
+				{
+					id: "022A98B7FDF18956"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					biome: "terralith:desert_oasis"
+					id: "74DF068ACD951E01"
+					type: "biome"
+				}
+			]
+			x: 1.75d
+			y: 3.75d
+		}
+		{
+			dependencies: [
+				"09FE5020E6E0C0A8"
+				"1F772FD3F8A900AA"
+				"1F53AB763F9A12F8"
+			]
+			icon: {
+				id: "minecraft:magma_block"
+			}
+			id: "7D1D88A0158D4769"
+			rewards: [
+				{
+					id: "0D006DD7433E2993"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					biome: "terralith:yellowstone"
+					id: "5155DF85E423C87E"
+					type: "biome"
+				}
+			]
+			x: 3.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["7D1D88A0158D4769"]
+			icon: {
+				id: "minecraft:emerald"
+			}
+			id: "33062F97068D2DF3"
+			rewards: [
+				{
+					id: "2B133A783C4EA79F"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					biome: "terralith:emerald_peaks"
+					id: "36F95F231252A199"
+					type: "biome"
+				}
+			]
+			x: 5.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D1D88A0158D4769"]
+			icon: {
+				id: "minecraft:lava_bucket"
+			}
+			id: "6657AF0233B6CC77"
+			rewards: [
+				{
+					id: "1F801145358FB35B"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					biome: "#terralith:volcanic"
+					id: "4F331ACEE3849474"
+					type: "biome"
+				}
+			]
+			x: 5.25d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7D1D88A0158D4769"]
+			icon: {
+				id: "minecraft:blue_ice"
+			}
+			id: "4A56D9ED6D1884C6"
+			rewards: [
+				{
+					id: "00661BA125BAAEBF"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					biome: "terralith:glacial_chasm"
+					id: "3457C21CDC018DCA"
+					type: "biome"
+				}
+			]
+			x: 5.25d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7D1D88A0158D4769"]
+			icon: {
+				id: "minecraft:moss_block"
+			}
+			id: "15EEE76E5EFA5A01"
+			rewards: [
+				{
+					id: "6EAB82E386C0DEBF"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					biome: "terralith:cave/underground_jungle"
+					id: "2B17BA4981F80560"
+					type: "biome"
+				}
+			]
+			x: 5.25d
+			y: 3.0d
+		}
+		{
+			dependencies: ["15EEE76E5EFA5A01"]
+			icon: {
+				id: "minecraft:soul_lantern"
+			}
+			id: "79B73F428EA115DA"
+			rewards: [
+				{
+					id: "41E3E8C72E0DF9E4"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					biome: "terralith:cave/frostfire_caves"
+					id: "2A921090E51B6E74"
+					type: "biome"
+				}
+			]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["15EEE76E5EFA5A01"]
+			icon: {
+				id: "minecraft:basalt"
+			}
+			id: "12C438B96D649840"
+			rewards: [
+				{
+					id: "3BA1558B15C6E960"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					biome: "terralith:cave/mantle_caves"
+					id: "13BE9DA62CADB4F6"
+					type: "biome"
+				}
+			]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["15EEE76E5EFA5A01"]
+			icon: {
+				id: "minecraft:feather"
+			}
+			id: "651A12B22745FFE2"
+			rewards: [
+				{
+					id: "6488D456E5BEBCDF"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					biome: "#terralith:skylands"
+					id: "0FCC3170536A75CA"
+					type: "biome"
+				}
+			]
+			x: 7.0d
+			y: 4.5d
+		}
+	]
+}

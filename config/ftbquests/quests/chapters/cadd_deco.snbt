@@ -1,0 +1,491 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cadd_deco"
+	group: "36387A651839BFDA"
+	icon: {
+		id: "copycats:copycat_slope"
+	}
+	id: "7C98FE0B187B570B"
+	order_index: 18
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["79D8069DA8C3D0CA"]
+			icon: {
+				id: "createdeco:yellow_andesite_lamp"
+			}
+			id: "3B9268E33ABC8B62"
+			rewards: [
+				{
+					id: "4641CB9B10977915"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "42717B1AF7887E58"
+					stat: "minecraft:play_time"
+					type: "stat"
+					value: 1
+				}
+			]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"3B9268E33ABC8B62"
+				"1279320F05578C4E"
+			]
+			id: "06153CE69ADF89A6"
+			rewards: [
+				{
+					id: "45FD04CE3415B09B"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "42382B7F81C18BC3"
+					item: { count: 1, id: "copycats:copycat_block" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5B10388F60076512"
+					item: { count: 1, id: "copycats:copycat_slope" }
+					type: "item"
+				}
+			]
+			x: 2.962d
+			y: 0.75d
+		}
+		{
+			dependencies: ["06153CE69ADF89A6"]
+			id: "2422C9231860840B"
+			rewards: [
+				{
+					id: "4ADF259C5701BB13"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "6566964C0A4CA4FF"
+					item: { count: 1, id: "copycats:copycat_ghost_block" }
+					type: "item"
+				}
+				{
+					id: "792A34EA242411A4"
+					item: { count: 1, id: "copycats:copycat_door" }
+					type: "item"
+				}
+			]
+			x: 4.713d
+			y: 0.0d
+		}
+		{
+			dependencies: ["06153CE69ADF89A6"]
+			id: "0E371882C5EDFDBB"
+			rewards: [
+				{
+					id: "69939314F0BC69E1"
+					type: "xp"
+					xp: 35
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					count: 8L
+					id: "3108B02057382450"
+					item: { count: 1, id: "copycats:copycat_byte" }
+					type: "item"
+				}
+			]
+			x: 4.713d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0E371882C5EDFDBB"]
+			id: "3C0327F9D8F645A5"
+			rewards: [
+				{
+					id: "409A3E80B0685E81"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					count: 4L
+					id: "2B3C6638F3C6E1D1"
+					item: { count: 1, id: "copycats:copycat_cogwheel" }
+					type: "item"
+				}
+			]
+			x: 6.463d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3B9268E33ABC8B62"]
+			id: "362EE3BF2863C0EF"
+			rewards: [
+				{
+					id: "1B9DB0DBEC231CE5"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					count: 3L
+					id: "05DC178B673070F8"
+					item: { count: 1, id: "bits_n_bobs:lightbulb" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "11000804EE6B13D8"
+					item: { count: 1, id: "bits_n_bobs:headlamp" }
+					type: "item"
+				}
+			]
+			x: 2.962d
+			y: 2.75d
+		}
+		{
+			dependencies: [
+				"3B9268E33ABC8B62"
+				"55625BFA5DD44551"
+			]
+			id: "684DAA31EEE956B2"
+			rewards: [
+				{
+					id: "63AA7FFA6C1DBFE5"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					advancement: "bits_n_bobs:dye_fluid_component"
+					criterion: ""
+					id: "38558C16FB112AF9"
+					type: "advancement"
+				}
+			]
+			x: 2.962d
+			y: 4.25d
+		}
+		{
+			dependencies: [
+				"3B9268E33ABC8B62"
+				"3A0F97042370EA0C"
+			]
+			id: "3B26BD3D8B5B5C9A"
+			rewards: [
+				{
+					id: "3C79C3C05C551816"
+					type: "xp"
+					xp: 35
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					count: 2L
+					id: "1C8C6C5215D64C44"
+					item: { count: 1, id: "bits_n_bobs:small_flanged_cogwheel" }
+					type: "item"
+				}
+				{
+					id: "4AEE717AA891FF66"
+					item: { count: 1, id: "bits_n_bobs:large_flanged_cogwheel" }
+					type: "item"
+				}
+			]
+			x: 2.962d
+			y: 5.75d
+		}
+		{
+			dependencies: [
+				"3B9268E33ABC8B62"
+				"776438D2CFD81BB2"
+			]
+			id: "0457977CB87A95F2"
+			optional: true
+			rewards: [
+				{
+					id: "0517C41ED1EBC799"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					count: 6L
+					id: "494AA73F529262D6"
+					item: { count: 1, id: "bits_n_bobs:girder_strut" }
+					type: "item"
+				}
+			]
+			x: 2.962d
+			y: 8.75d
+		}
+		{
+			dependencies: [
+				"3B9268E33ABC8B62"
+				"519DC7EB567A6482"
+			]
+			id: "447F921BFB5DCF99"
+			optional: true
+			rewards: [
+				{
+					id: "6BBC804048BAF62D"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "448BCC3B60B7B4DC"
+					item: { count: 1, id: "bits_n_bobs:chain_pulley" }
+					type: "item"
+				}
+			]
+			x: 2.962d
+			y: 11.75d
+		}
+		{
+			dependencies: ["3D8A84366753A8E9"]
+			id: "5826FAB144DFCD07"
+			rewards: [
+				{
+					id: "6B34A3498BC1B80E"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					count: 8L
+					id: "1483DE4A776A64CB"
+					item: { count: 1, id: "bits_n_bobs:nixie_board" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"3B9268E33ABC8B62"
+				"312549E37E66FDF5"
+			]
+			id: "440D8BDA2A73D1E1"
+			rewards: [
+				{
+					id: "31B9187A22CB330E"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "2C80E2E8D5F8D42A"
+					item: { count: 1, id: "createdeco:andesite_catwalk" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2AD90286FC7BDF89"
+					item: { count: 1, id: "createdeco:andesite_catwalk_railing" }
+					type: "item"
+				}
+			]
+			x: 2.962d
+			y: 7.25d
+		}
+		{
+			dependencies: [
+				"440D8BDA2A73D1E1"
+				"41B89DC3CE373DEA"
+			]
+			id: "58642FBCBDB51E0C"
+			rewards: [
+				{
+					id: "36FD6C96AEDFD946"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "3560C6A30E7A274D"
+					item: { count: 1, id: "createdeco:yellow_andesite_lamp" }
+					type: "item"
+				}
+			]
+			x: 4.713d
+			y: 5.25d
+		}
+		{
+			dependencies: ["3B9268E33ABC8B62"]
+			id: "54519EFAC6FB64A7"
+			rewards: [
+				{
+					id: "4F867C550DFA6910"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "62457C2264455E80"
+					item: { count: 1, id: "createdeco:blue_bricks" }
+					type: "item"
+				}
+			]
+			x: 2.962d
+			y: 13.25d
+		}
+		{
+			dependencies: [
+				"440D8BDA2A73D1E1"
+				"776438D2CFD81BB2"
+			]
+			id: "3CC07109F07C89E3"
+			rewards: [
+				{
+					id: "679D171B40DF1866"
+					type: "xp"
+					xp: 35
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					count: 2L
+					id: "7DC714672F24267E"
+					item: { count: 1, id: "createdeco:blue_shipping_container" }
+					type: "item"
+				}
+			]
+			x: 4.713d
+			y: 6.75d
+		}
+		{
+			dependencies: [
+				"440D8BDA2A73D1E1"
+				"0CD0E9F38624059C"
+			]
+			id: "2A23DA3AA9F9DD39"
+			optional: true
+			rewards: [
+				{
+					id: "3C62211A151F9B40"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "24DF60DCE5B85C3F"
+					item: { count: 1, id: "createdeco:industrial_iron_catwalk" }
+					type: "item"
+				}
+			]
+			x: 4.713d
+			y: 8.25d
+		}
+		{
+			dependencies: ["3B9268E33ABC8B62"]
+			id: "4CD87CF1E07529A1"
+			rewards: [
+				{
+					id: "62CAD077FE225F50"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "79718574B895072F"
+					item: { count: 1, id: "interiors:white_chair" }
+					type: "item"
+				}
+			]
+			x: 2.962d
+			y: 10.25d
+		}
+		{
+			dependencies: ["4CD87CF1E07529A1"]
+			id: "57311FCC179F9ABD"
+			optional: true
+			rewards: [
+				{
+					id: "0A5A8FC2F7EA26C9"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [
+				{
+					id: "02F290AB978EC9FA"
+					item: { count: 1, id: "interiors:white_floor_chair" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3BE8D81A07B7E2CB"
+					item: { count: 1, id: "interiors:white_cushion" }
+					type: "item"
+				}
+			]
+			x: 4.713d
+			y: 9.75d
+		}
+		{
+			dependencies: [
+				"3B9268E33ABC8B62"
+				"25BA58C7E5732811"
+			]
+			id: "7C8185AA502E8974"
+			rewards: [
+				{
+					id: "1CAC236347DE970D"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "5E26FB40977C6263"
+					item: { count: 1, id: "rechiseledcreate:oak_window_bars" }
+					type: "item"
+				}
+			]
+			x: 2.962d
+			y: 15.25d
+		}
+	]
+}

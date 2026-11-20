@@ -2,12 +2,12 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "aeronautics"
-	group: "2EAA9718BAF5A32A"
+	group: "36387A651839BFDA"
 	icon: {
 		id: "aeronautics:propeller_bearing"
 	}
 	id: "14747A1BF6564DF9"
-	order_index: 4
+	order_index: 20
 	quest_links: [ ]
 	quests: [
 		{
@@ -22,6 +22,8 @@
 					xp: 10
 				}
 			]
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [
 				{
 					id: "7FC54B200C302046"
@@ -31,10 +33,13 @@
 				}
 			]
 			x: 0.0d
-			y: 6.0d
+			y: 11.98d
 		}
 		{
-			dependencies: ["1DF14DEAF5C79808"]
+			dependencies: [
+				"1DF14DEAF5C79808"
+				"519DC7EB567A6482"
+			]
 			id: "79E7751F5A52DEBD"
 			rewards: [
 				{
@@ -50,32 +55,117 @@
 					type: "item"
 				}
 			]
-			x: 1.75d
-			y: 4.5d
+			x: 1.913d
+			y: 10.23d
 		}
 		{
-			dependencies: ["1DF14DEAF5C79808"]
-			id: "737BE59B311EAF17"
+			dependencies: [
+				"79E7751F5A52DEBD"
+				"4328CD94686BFEBA"
+			]
+			id: "27D745F535B0521B"
 			rewards: [
 				{
-					id: "54A7F7523524325F"
+					id: "0C4D69DFE1FD7F78"
 					type: "xp"
-					xp: 40
+					xp: 25
 				}
 			]
 			tasks: [
 				{
-					count: 8L
-					id: "14C749730ABA00F3"
-					item: { count: 1, id: "aeronautics:levitite" }
+					id: "5FF2354600E3011F"
+					item: { count: 1, id: "simulated:honey_glue" }
 					type: "item"
 				}
 			]
-			x: 1.75d
-			y: 6.0d
+			x: 5.656d
+			y: 0.75d
+		}
+		{
+			dependencies: ["79E7751F5A52DEBD"]
+			id: "3A66256F6C6A294B"
+			rewards: [
+				{
+					id: "2CE66157A11CB50A"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "345656D94D2A36EB"
+					item: { count: 1, id: "simulated:contraption_diagram" }
+					type: "item"
+				}
+			]
+			x: 5.656d
+			y: 4.25d
+		}
+		{
+			dependencies: ["79E7751F5A52DEBD"]
+			id: "6EF6CEBCE3296864"
+			optional: true
+			rewards: [
+				{
+					id: "5EFCDB240BA8BCD2"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "7B6F6DA16A6DAAA5"
+					item: { count: 1, id: "simulated:white_nameplate" }
+					type: "item"
+				}
+			]
+			x: 5.656d
+			y: 7.25d
+		}
+		{
+			dependencies: ["79E7751F5A52DEBD"]
+			id: "148DDA5A227F283F"
+			optional: true
+			rewards: [
+				{
+					id: "7985AD1AE6FE716C"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "6B0632787E125AEA"
+					item: { count: 1, id: "simulated:iron_handle" }
+					type: "item"
+				}
+			]
+			x: 5.656d
+			y: 14.25d
 		}
 		{
 			dependencies: ["1DF14DEAF5C79808"]
+			id: "4043B5F303D667BA"
+			rewards: [
+				{
+					id: "6EF54F7111D72EF0"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "4F7BDB24A80375A0"
+					item: { count: 1, id: "aeronautics:white_envelope" }
+					type: "item"
+				}
+			]
+			x: 1.913d
+			y: 13.23d
+		}
+		{
+			dependencies: ["4043B5F303D667BA"]
 			id: "7C319C3D0115308E"
 			rewards: [
 				{
@@ -91,11 +181,87 @@
 					type: "item"
 				}
 			]
-			x: 1.75d
-			y: 7.5d
+			x: 5.656d
+			y: 15.75d
+		}
+		{
+			dependencies: [
+				"7C319C3D0115308E"
+				"79E7751F5A52DEBD"
+			]
+			icon: {
+				id: "aeronautics:white_envelope"
+			}
+			id: "07DA2662E05632A0"
+			rewards: [
+				{
+					id: "3AE757A8DDF976D5"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "aeronautics:head_in_the_clouds"
+					criterion: ""
+					id: "32590F351893370C"
+					type: "advancement"
+				}
+			]
+			x: 7.406d
+			y: 14.55d
+		}
+		{
+			dependencies: [
+				"07DA2662E05632A0"
+				"1C6FF91D4AC58B74"
+			]
+			id: "7F0150EDB232A99A"
+			optional: true
+			rewards: [
+				{
+					id: "04730D18A3F899FF"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "4DD256ADBE9E5AF8"
+					item: { count: 1, id: "aeronautics:steam_vent" }
+					type: "item"
+				}
+			]
+			x: 9.155d
+			y: 13.8d
 		}
 		{
 			dependencies: ["79E7751F5A52DEBD"]
+			id: "5D06C9624FF81084"
+			rewards: [
+				{
+					id: "4D4769BEA8871F82"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "14E53D4FE5464747"
+					item: { count: 1, id: "aeronautics:andesite_propeller" }
+					type: "item"
+				}
+			]
+			x: 5.656d
+			y: 2.75d
+		}
+		{
+			dependencies: [
+				"5D06C9624FF81084"
+				"532780D9DB293403"
+			]
 			id: "6117A72CBB15361C"
 			rewards: [
 				{
@@ -116,31 +282,54 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: 2.25d
+			x: 7.406d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6117A72CBB15361C"]
-			id: "4016DC04770BC921"
+			id: "49421439F3BC2FC4"
 			rewards: [
 				{
-					id: "76759F972CCD1615"
+					id: "36F98558B1080CB3"
 					type: "xp"
-					xp: 60
+					xp: 20
 				}
 			]
 			tasks: [
 				{
-					id: "56348BC8CD76C256"
-					item: { count: 1, id: "aeronautics:smart_propeller" }
+					id: "67A24EDA26385DFD"
+					item: { count: 1, id: "aeronautics:aviators_goggles" }
 					type: "item"
 				}
 			]
-			x: 5.25d
+			x: 9.155d
 			y: 0.0d
 		}
 		{
-			dependencies: ["6117A72CBB15361C"]
+			dependencies: [
+				"6117A72CBB15361C"
+				"723048BF1737D4ED"
+			]
+			id: "6CEF27F130DEC054"
+			rewards: [
+				{
+					id: "6C65E20416078F4D"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "5C99D3563434AD1E"
+					item: { count: 1, id: "simulated:gyroscopic_mechanism" }
+					type: "item"
+				}
+			]
+			x: 9.155d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6CEF27F130DEC054"]
 			id: "7D09691C28E05501"
 			rewards: [
 				{
@@ -156,11 +345,76 @@
 					type: "item"
 				}
 			]
-			x: 5.25d
-			y: 1.5d
+			x: 10.905d
+			y: 1.92d
 		}
 		{
-			dependencies: ["79E7751F5A52DEBD"]
+			dependencies: ["6CEF27F130DEC054"]
+			id: "4016DC04770BC921"
+			rewards: [
+				{
+					id: "76759F972CCD1615"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					id: "56348BC8CD76C256"
+					item: { count: 1, id: "aeronautics:smart_propeller" }
+					type: "item"
+				}
+			]
+			x: 10.905d
+			y: 4.92d
+		}
+		{
+			dependencies: ["6117A72CBB15361C"]
+			id: "382B09DF448058D5"
+			rewards: [
+				{
+					id: "303734B412DCC7BD"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "456846F0AD398FCE"
+					item: { count: 1, id: "simulated:white_symmetric_sail" }
+					type: "item"
+				}
+			]
+			x: 9.155d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5D06C9624FF81084"]
+			id: "5559129869F55350"
+			optional: true
+			rewards: [
+				{
+					id: "152A72649E49890C"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "63F30DE4BBFD1236"
+					item: { count: 1, id: "create:nozzle" }
+					type: "item"
+				}
+			]
+			x: 7.406d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"79E7751F5A52DEBD"
+				"3F452D140A574530"
+			]
 			id: "502BF10FD13C4EA5"
 			rewards: [
 				{
@@ -176,11 +430,31 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: 3.75d
+			x: 5.656d
+			y: 5.75d
 		}
 		{
 			dependencies: ["502BF10FD13C4EA5"]
+			id: "1C4648E68A43F12A"
+			rewards: [
+				{
+					id: "6A2BFB483E0707F7"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "14D7A6A8CFF31E62"
+					item: { count: 1, id: "simulated:red_portable_engine" }
+					type: "item"
+				}
+			]
+			x: 7.406d
+			y: 5.25d
+		}
+		{
+			dependencies: ["1C4648E68A43F12A"]
 			id: "39B8F8A441598265"
 			rewards: [
 				{
@@ -201,8 +475,28 @@
 					type: "item"
 				}
 			]
-			x: 5.25d
-			y: 6.0d
+			x: 9.155d
+			y: 5.25d
+		}
+		{
+			dependencies: ["39B8F8A441598265"]
+			id: "152C87132AE12CA0"
+			rewards: [
+				{
+					id: "01E8A64990C53CF8"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "7F2F21F9C34DD7E5"
+					item: { count: 1, id: "simulated:swivel_bearing" }
+					type: "item"
+				}
+			]
+			x: 10.905d
+			y: 6.42d
 		}
 		{
 			dependencies: ["39B8F8A441598265"]
@@ -214,6 +508,8 @@
 					xp: 40
 				}
 			]
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [
 				{
 					id: "7D513C25E47DA00B"
@@ -226,11 +522,37 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
-			y: 6.0d
+			x: 10.905d
+			y: 3.42d
 		}
 		{
-			dependencies: ["548067B1AEEA6446"]
+			dependencies: [
+				"548067B1AEEA6446"
+				"6CEF27F130DEC054"
+			]
+			id: "1471BC58B5F70561"
+			rewards: [
+				{
+					id: "57C414BE5B2D75B4"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "5DBF105F55812FC6"
+					item: { count: 1, id: "simulated:gimbal_sensor" }
+					type: "item"
+				}
+			]
+			x: 12.655d
+			y: 0.42d
+		}
+		{
+			dependencies: [
+				"548067B1AEEA6446"
+				"5F71DBB1A5D94585"
+			]
 			id: "61D37C5FF56EE84F"
 			rewards: [
 				{
@@ -246,58 +568,77 @@
 					type: "item"
 				}
 			]
-			x: 8.75d
-			y: 6.0d
+			x: 12.655d
+			y: 1.92d
 		}
 		{
-			dependencies: ["79E7751F5A52DEBD"]
-			id: "7DEF0C580DB08144"
+			dependencies: ["548067B1AEEA6446"]
+			id: "55AC32997802A54E"
+			optional: true
 			rewards: [
 				{
-					id: "2B55DAB56A4127AD"
+					id: "345A1A36677E39AC"
 					type: "xp"
-					xp: 40
+					xp: 30
 				}
 			]
 			tasks: [
 				{
-					id: "03A68E3DAACD9FEF"
-					item: { count: 1, id: "simulated:rope_winch" }
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "74699FDE98FEC432"
-					item: { count: 1, id: "simulated:rope_connector" }
+					id: "7769B7984A8353AE"
+					item: { count: 1, id: "simulated:optical_sensor" }
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: 5.25d
+			x: 12.655d
+			y: 3.42d
 		}
 		{
-			dependencies: ["7DEF0C580DB08144"]
-			id: "6AA2742E6DA0E59E"
+			dependencies: [
+				"548067B1AEEA6446"
+				"3A66462861B4969E"
+				"5F71DBB1A5D94585"
+			]
+			id: "72C559EAB6C33688"
 			rewards: [
 				{
-					id: "26D1B730FC2B887F"
+					id: "5AFDEA58D07C2422"
 					type: "xp"
-					xp: 40
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					id: "355A13349362FBA9"
+					item: { count: 1, id: "simulated:linked_typewriter" }
+					type: "item"
+				}
+			]
+			x: 12.655d
+			y: 4.92d
+		}
+		{
+			dependencies: ["79E7751F5A52DEBD"]
+			id: "45140F34F58E6FF4"
+			rewards: [
+				{
+					id: "4A6F26F178511D1A"
+					type: "xp"
+					xp: 20
 				}
 			]
 			tasks: [
 				{
 					count: 2L
-					id: "69D9E94394D2D5DC"
-					item: { count: 1, id: "simulated:docking_connector" }
+					id: "2D5EFF09A6E7EAA0"
+					item: { count: 1, id: "simulated:spring" }
 					type: "item"
 				}
 			]
-			x: 5.25d
-			y: 7.5d
+			x: 5.656d
+			y: 8.75d
 		}
 		{
-			dependencies: ["79E7751F5A52DEBD"]
+			dependencies: ["45140F34F58E6FF4"]
 			id: "300293F855AB765B"
 			rewards: [
 				{
@@ -320,52 +661,233 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: 6.75d
+			x: 7.406d
+			y: 9.0d
 		}
 		{
-			dependencies: ["6117A72CBB15361C"]
-			id: "49421439F3BC2FC4"
+			dependencies: ["300293F855AB765B"]
+			id: "75B2AA030EA3A1D7"
+			optional: true
 			rewards: [
 				{
-					id: "36F98558B1080CB3"
+					id: "0B5D2C7F3363A2E1"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "0B278AF81C758106"
+					item: { count: 1, id: "offroad:monstrous_tire" }
+					type: "item"
+				}
+			]
+			x: 9.155d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"300293F855AB765B"
+				"1A760F58BAC41BD4"
+			]
+			id: "07F9BA4179BC2A64"
+			rewards: [
+				{
+					id: "3B901ACF37B371AB"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					id: "1A62FAA911B3E6F5"
+					item: { count: 1, id: "offroad:borehead_bearing" }
+					type: "item"
+				}
+				{
+					id: "4BC62853F3C4A657"
+					item: { count: 1, id: "offroad:rockcutting_wheel" }
+					type: "item"
+				}
+			]
+			x: 9.155d
+			y: 9.5d
+		}
+		{
+			dependencies: ["79E7751F5A52DEBD"]
+			id: "66F685B21AF865ED"
+			rewards: [
+				{
+					id: "626212A6936C70DF"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "3A124422FC0811E5"
+					item: { count: 1, id: "simulated:rope_coupling" }
+					type: "item"
+				}
+			]
+			x: 5.656d
+			y: 10.25d
+		}
+		{
+			dependencies: ["66F685B21AF865ED"]
+			id: "7DEF0C580DB08144"
+			rewards: [
+				{
+					id: "2B55DAB56A4127AD"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "03A68E3DAACD9FEF"
+					item: { count: 1, id: "simulated:rope_winch" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "74699FDE98FEC432"
+					item: { count: 1, id: "simulated:rope_connector" }
+					type: "item"
+				}
+			]
+			x: 7.406d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"7DEF0C580DB08144"
+				"3A66462861B4969E"
+			]
+			id: "6AA2742E6DA0E59E"
+			rewards: [
+				{
+					id: "26D1B730FC2B887F"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "69D9E94394D2D5DC"
+					item: { count: 1, id: "simulated:docking_connector" }
+					type: "item"
+				}
+			]
+			x: 9.155d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"66F685B21AF865ED"
+				"3A66462861B4969E"
+				"5F71DBB1A5D94585"
+			]
+			id: "12FE30D2E73AFB4A"
+			optional: true
+			rewards: [
+				{
+					id: "3D8FDE2996541B96"
 					type: "xp"
 					xp: 30
 				}
 			]
 			tasks: [
 				{
-					id: "67A24EDA26385DFD"
-					item: { count: 1, id: "aeronautics:aviators_goggles" }
+					id: "29AD7C8C51A3DF06"
+					item: { count: 1, id: "simulated:plunger_launcher" }
 					type: "item"
 				}
 			]
-			x: 5.25d
-			y: 3.0d
+			x: 7.406d
+			y: 7.5d
 		}
 		{
-			dependencies: ["737BE59B311EAF17"]
-			id: "22E4E0531E537739"
+			dependencies: [
+				"1DF14DEAF5C79808"
+				"1A760F58BAC41BD4"
+				"35E7FB9BFAB4A8C0"
+			]
+			id: "567A11584CD52916"
 			rewards: [
 				{
-					id: "7885771CD155CCF9"
+					id: "6E4083E0E8A6F9AA"
 					type: "xp"
-					xp: 50
+					xp: 40
 				}
 			]
 			tasks: [
 				{
-					count: 4L
-					id: "6D790236655AF83E"
-					item: { count: 1, id: "aeroscapes:aerolite" }
+					count: 8L
+					id: "2D7714D8D5D47FAB"
+					item: { count: 1, id: "aeronautics:end_stone_powder" }
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: 8.25d
+			x: 1.913d
+			y: 11.73d
 		}
 		{
-			dependencies: ["6117A72CBB15361C"]
+			dependencies: ["567A11584CD52916"]
+			icon: {
+				id: "aeronautics:levitite"
+			}
+			id: "737BE59B311EAF17"
+			rewards: [
+				{
+					id: "54A7F7523524325F"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					advancement: "aeronautics:unidentified_floating_object"
+					criterion: ""
+					id: "231DA1D20671F43F"
+					type: "advancement"
+				}
+			]
+			x: 5.656d
+			y: 11.75d
+		}
+		{
+			dependencies: ["737BE59B311EAF17"]
+			icon: {
+				id: "aeronautics:pearlescent_levitite"
+			}
+			id: "687D5B78F46EAC63"
+			optional: true
+			rewards: [
+				{
+					id: "61067A9F76F3932B"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					advancement: "aeronautics:now_available_in_pink"
+					criterion: ""
+					id: "4D785D90F64A4E26"
+					type: "advancement"
+				}
+			]
+			x: 7.406d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"79E7751F5A52DEBD"
+				"3A66462861B4969E"
+			]
 			id: "1DAD7B6372D9A028"
 			rewards: [
 				{
@@ -381,8 +903,164 @@
 					type: "item"
 				}
 			]
-			x: 5.25d
-			y: 4.5d
+			x: 5.656d
+			y: 17.25d
+		}
+		{
+			dependencies: ["1DF14DEAF5C79808"]
+			id: "1ECB4E0543C0EAFE"
+			optional: true
+			rewards: [
+				{
+					id: "30FFB6534D6F4BD8"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "2E0286536066F55A"
+					item: { count: 1, id: "aeroscapes:aerolite_twig" }
+					type: "item"
+				}
+			]
+			x: 1.913d
+			y: 14.73d
+		}
+		{
+			dependencies: ["1ECB4E0543C0EAFE"]
+			id: "22E4E0531E537739"
+			optional: true
+			rewards: [
+				{
+					id: "7885771CD155CCF9"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "6D790236655AF83E"
+					item: { count: 1, id: "aeroscapes:quickslate" }
+					type: "item"
+				}
+			]
+			x: 5.656d
+			y: 18.75d
+		}
+		{
+			dependencies: ["1ECB4E0543C0EAFE"]
+			id: "2E96CA9B08CF96A4"
+			optional: true
+			rewards: [
+				{
+					id: "66C027F14DEBF1D1"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "4DDFBE0FA3F70C6D"
+					item: { count: 1, id: "aeroscapes:aerolite_charm" }
+					type: "item"
+				}
+			]
+			x: 5.656d
+			y: 20.25d
+		}
+		{
+			dependencies: ["1DF14DEAF5C79808"]
+			id: "45EEA4B3F17F2BD3"
+			optional: true
+			rewards: [
+				{
+					id: "6F8B2BF4094A102D"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "2FA47644966BD109"
+					item: { count: 1, id: "aeroscapes:selenite_shard" }
+					type: "item"
+				}
+			]
+			x: 1.913d
+			y: 16.73d
+		}
+		{
+			dependencies: ["45EEA4B3F17F2BD3"]
+			id: "738B3DB2B12C34B2"
+			optional: true
+			rewards: [
+				{
+					id: "3099752131D4ED0D"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "7EFDFFD0FEAD1386"
+					item: { count: 1, id: "aeroscapes:selenite_lamp" }
+					type: "item"
+				}
+			]
+			x: 5.656d
+			y: 21.75d
+		}
+		{
+			dependencies: ["1DF14DEAF5C79808"]
+			icon: {
+				id: "aeronautics:adjustable_burner"
+			}
+			id: "5FDC91A00062717C"
+			optional: true
+			rewards: [
+				{
+					id: "27DF1E02F7E2AACC"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "7E517FA4D5F12FA3"
+					structure: "morestructures:hotairballoon"
+					type: "structure"
+				}
+			]
+			x: 1.913d
+			y: 8.23d
+		}
+		{
+			dependencies: ["07DA2662E05632A0"]
+			icon: {
+				id: "aeronautics:music_disc_cloud_skipper"
+			}
+			id: "68BA776A6748C666"
+			optional: true
+			rewards: [
+				{
+					id: "517A87820F89BE91"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					advancement: "aeronautics:song_of_the_sky"
+					criterion: ""
+					id: "6BAB9A75F1C0AA48"
+					type: "advancement"
+				}
+			]
+			x: 9.155d
+			y: 15.3d
 		}
 	]
 }
