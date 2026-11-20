@@ -151,7 +151,7 @@ ServerEvents.recipes(event => {
   event.remove({ id: 'createfood:farmersdelight/cooking/toffee_from_cooking' })
   // Mléko+ocet: sýr ExtraDelight jen z octa ExtraDelight/Pam; ocet Create Food -> createfood:yogurt_bucket.
   event.remove({ id: 'farmersdelight:cheese_vinegar' })
-  event.custom({"type": "farmersdelight:cooking", "cookingtime": 400, "experience": 1.0, "ingredients": [{"item": "minecraft:milk_bucket"}, [{"item": "extradelight:vinegar"}, {"item": "pamhc2foodcore:vinegaritem"}]], "recipe_book_tab": "meals", "result": {"count": 2, "id": "extradelight:cheese"}}).id('kubejs:recipe_conflicts/farmersdelight/cheese_vinegar')
+  event.custom({"type": "farmersdelight:cooking", "cookingtime": 400, "experience": 1.0, "ingredients": [{"item": "minecraft:milk_bucket"}, {"type": "neoforge:compound", "children": [{"item": "extradelight:vinegar"}, {"item": "pamhc2foodcore:vinegaritem"}]}], "recipe_book_tab": "meals", "result": {"count": 2, "id": "extradelight:cheese"}}).id('kubejs:recipe_conflicts/farmersdelight/cheese_vinegar')
 
   // ===== Odšťavňovač Expanded Delight (expandeddelight:juicing) =====
   // Odšťavňovač -> džus Expanded Delight (quest ed_juice). Džus Create Food jde dál na stole a plničkou.

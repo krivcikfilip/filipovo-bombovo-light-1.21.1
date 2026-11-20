@@ -6,7 +6,7 @@ hash = "315af74cf80b087800d9af3fd707a6beb04706df72aaa7cc3c25ed78b83edfad"
 
 [[files]]
 file = "config/alexscaves_biome_generation/abyssal_chasm.json"
-hash = "e3a5c98fb02f7751f6631920f50297d9e0528ed37916e796b1b07fc14f8d2342"
+hash = "7a2db3db05965913d09c089d57587b005b6ccf1f699444c3020526135294995e"
 
 [[files]]
 file = "config/alexscaves_biome_generation/candy_cavity.json"
@@ -353,7 +353,7 @@ hash = "77888adea206aaacbfd4ae25c0a1e73f8e17b2430d66b16aed1d05eddc36f724"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_conflicts.js"
-hash = "719928d972ea2b27a94a2c4e12d677cb965e79a0272269382648a6c5f8af2270"
+hash = "48a2b97c3b97f55fa82cfe3f073682883357bdbb380d5fd5e2e92c6ca83db021"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
