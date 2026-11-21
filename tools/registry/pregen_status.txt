@@ -36,4 +36,14 @@ Okamžité rychlosti kolísaly 7–44 cps (nejpomaleji 01:00–02:30, ~8–20 cp
 ## Soubory
 - world/region: 641 neprázdných .mca (~8.6 GB) + 8735 prázdných (0 B) souborů vzniklých během pregenu/locate mimo čtverec – neškodné, lze smazat při zastaveném serveru.
 - waystones.dat stále obsahuje záznamy waystonů ze smazaných oblastí (např. "nvm").
-- Worldborder NENASTAVEN (čeká na rozhodnutí; návrh center 1701 -620, set 12000).
+- Worldborder: nastaven 21.11., viz níže.
+
+## Worldborder – nastaveno 2026-11-21 (potvrzeno uživatelem)
+- /worldborder center 1701 -620 -> "Set the center of the world border to 1701.50, -619.50"
+- /worldborder set 12000 -> "Set the world border to 12000.0 block(s) wide"
+- Overworld: X -4298.5..7701.5, Z -6619.5..5380.5 (= předgenerovaný čtverec ±6000).
+- /execute in <dim> run worldborder get: overworld, the_nether, the_end, twilightforest:twilight_forest, aether:the_aether -> 12000.
+  Velikost se mezi dimenzemi neškáluje, střed se dělí coordinate_scale dimenze:
+  the_nether (0.125… vanilla 8) -> střed ~212.7/-77.4; twilight_forest (coordinate_scale 0.125) -> střed ~13612/-4956; aether (1.0) a end -> 1701.5/-619.5.
+  Plánované pregeny (nether ±2500 kolem 213/-78, twilight ±3000 kolem 13608/-4960, aether ±3000 kolem 1701/-620, end ±3000 kolem 0/0) leží celé uvnitř hranice.
+- Hráči: 0 online; poslední pozice všech 4 (playerdata) i spawnpointy jsou v overworldu do ~1000 od spawnu, tedy uvnitř.
