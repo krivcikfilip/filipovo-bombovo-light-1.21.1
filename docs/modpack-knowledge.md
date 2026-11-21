@@ -18,7 +18,10 @@ v registrech ze serveru nebo přímo na serveru (`/locate`, logy). Kde něco ov�
 
 Na serveru nejsou žádné KubeJS skripty ani datapacky kromě těch v repu (`kubejs/`). Server běží v Dockeru
 (`server/`), pack si stahuje přes packwiz při každém restartu.
-Zálohy: Simple Backups na serveru + uživatel je sám kopíruje na Google Disk (neřešit). Proti pádům kvůli chybě
+Zálohy (neřešit, spravuje uživatel): 4:20 `scripts/backup.sh` (tar světa), 4:50 rclone na Google Disk, k tomu Simple Backups
+(každých 120 min). **Noční restart (od 22.11.):** cron hosta 4:55 → `scripts/nightly-restart.sh` (varování hráčům, restart
+v 5:00, ~1,5 min, při něm se stáhne aktuální pack). Compose na hostu: `/srv/gameservers/minecraft-modpack-03/`
+(kontejner `minecraft_server_03`, `stop_grace_period: 3m`). Proti pádům kvůli chybě
 entity/bloku je v packu **Neruina** (přidána 21.11.; chybnou věc pozastaví a ohlásí místo pádu serveru). Při lagu
 `/spark profiler` (Spark je v packu).
 
