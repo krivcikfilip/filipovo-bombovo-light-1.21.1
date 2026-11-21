@@ -288,3 +288,96 @@ execute in minecraft:overworld positioned 7201 0 3380 run locate biome alexscave
 #   [-1895, 4784] (vzdálenost 5404)
 #   [-1751, 4516] (vzdálenost 5136)
 # abyssal_chasm: všech 6 nálezů je tentýž výskyt kolem [-2300, -8300] (Chebyshev ~7700 od středu, mimo prstenec)
+
+# kolo 5 (po regeneraci overworldu, 21.11.)
+execute in minecraft:overworld positioned 1701 0 -620 run locate structure create_ltab:kings_castle	The nearest create_ltab:kings_castle is at [6848, ~, -1536] (5227 blocks away)
+execute in minecraft:overworld positioned 1701 0 -620 run locate structure createmechanicalcompanion:illager_workshop	The nearest createmechanicalcompanion:illager_workshop is at [1456, ~, 384] (1033 blocks away)
+execute in minecraft:overworld positioned 1701 0 -620 run locate structure morestructures:hotairballoon	The nearest morestructures:hotairballoon is at [64, ~, 64] (1774 blocks away)
+execute in minecraft:overworld positioned 1701 0 -620 run locate structure ae2:meteorite	The nearest ae2:meteorite is at [1744, ~, -864] (247 blocks away)
+execute in minecraft:overworld positioned 1701 0 -620 run locate structure brewery:brewfest_tent	The nearest brewery:brewfest_tent is at [1488, ~, 0] (655 blocks away)
+execute in minecraft:overworld positioned 1701 0 -620 run locate structure betterdungeons:small_dungeon	The nearest betterdungeons:small_dungeon is at [1472, ~, -592] (230 blocks away)
+execute in minecraft:overworld positioned 1701 0 -620 run locate structure #minecraft:mineshaft	The nearest #minecraft:mineshaft (bettermineshafts:mineshaft_overgrown) is at [1760, ~, -576] (73 blocks away)
+execute in minecraft:overworld positioned 1701 0 -620 run locate structure betterdungeons:skeleton_dungeon	The nearest betterdungeons:skeleton_dungeon is at [1584, ~, 304] (931 blocks away)
+execute in minecraft:overworld positioned 1701 0 -620 run locate structure betterdungeons:zombie_dungeon	The nearest betterdungeons:zombie_dungeon is at [1776, ~, -432] (202 blocks away)
+execute in minecraft:overworld positioned 1701 0 -620 run locate structure betterdungeons:spider_dungeon	The nearest betterdungeons:spider_dungeon is at [1648, ~, -448] (179 blocks away)
+execute in minecraft:overworld positioned 1701 0 -620 run locate structure betterdeserttemples:desert_temple	The nearest betterdeserttemples:desert_temple is at [-3280, ~, -864] (4986 blocks away)
+execute in minecraft:overworld positioned 1701 0 -620 run locate structure betterjungletemples:jungle_temple	The nearest betterjungletemples:jungle_temple is at [-2240, ~, 2464] (5004 blocks away)
+execute in minecraft:overworld positioned 1701 0 -620 run locate structure minecraft:trial_chambers	The nearest minecraft:trial_chambers is at [240, ~, -2688] (2532 blocks away)
+execute in minecraft:overworld positioned 1701 0 -620 run locate structure betteroceanmonuments:ocean_monument	The nearest betteroceanmonuments:ocean_monument is at [2832, ~, 192] (1392 blocks away)
+execute in minecraft:overworld positioned 1701 0 -620 run locate structure betterstrongholds:stronghold	The nearest betterstrongholds:stronghold is at [48, ~, -2592] (2573 blocks away)
+execute in minecraft:overworld positioned 1701 0 -620 run locate structure #minecraft:village	The nearest #minecraft:village (minecraft:village_savanna) is at [1920, ~, -816] (293 blocks away)
+execute in minecraft:overworld positioned 1701 0 -620 run locate structure #minecraft:pillager_outpost	The nearest #minecraft:pillager_outpost (towns_and_towers:pillager_outpost_beach) is at [5088, ~, -480] (3389 blocks away)
+execute in minecraft:overworld positioned 1701 0 -620 run locate structure explorify:tavern	The nearest explorify:tavern is at [1168, ~, -1120] (730 blocks away)
+execute in minecraft:overworld positioned 1701 0 -620 run locate structure create_structures_overhaul:oakwindmill	The nearest create_structures_overhaul:oakwindmill is at [1248, ~, -752] (471 blocks away)
+execute in minecraft:overworld positioned 1701 0 -620 run locate structure #terralith:fortified_villages	The nearest #terralith:fortified_villages (terralith:fortified_village) is at [1040, ~, 128] (998 blocks away)
+execute in minecraft:overworld positioned 1701 0 -620 run locate structure mvs:castle_ruins	The nearest mvs:castle_ruins is at [1392, ~, -1136] (601 blocks away)
+execute in minecraft:overworld positioned 1701 0 -620 run locate structure idas:castle	The nearest idas:castle is at [784, ~, -672] (918 blocks away)
+execute in minecraft:overworld positioned 1701 0 -620 run locate structure idas:hunters_cabin	The nearest idas:hunters_cabin is at [-624, ~, -2320] (2880 blocks away)
+execute in minecraft:overworld positioned 1701 0 -620 run locate structure idas:haunted_manor	The nearest idas:haunted_manor is at [6416, ~, -5984] (7141 blocks away)
+execute in minecraft:overworld positioned 1701 0 -620 run locate structure #terralith:mage_towers	The nearest #terralith:mage_towers (terralith:mage_tower) is at [3680, ~, -3136] (3201 blocks away)
+execute in minecraft:overworld positioned 1701 0 -620 run locate structure create_structures_arise:createlosttrainstation	The nearest create_structures_arise:createlosttrainstation is at [1712, ~, -2096] (1476 blocks away)
+execute in minecraft:overworld positioned 1701 0 -620 run locate structure idas:pillager_fortress	The nearest idas:pillager_fortress is at [2960, ~, -3392] (3044 blocks away)
+execute in minecraft:overworld positioned 1701 0 -620 run locate structure create_structures_arise:pillagersteampunkairship	The nearest create_structures_arise:pillagersteampunkairship is at [1184, ~, -2192] (1654 blocks away)
+execute in minecraft:overworld positioned 1701 0 -620 run locate structure create_structures_arise:towerofochrum	The nearest create_structures_arise:towerofochrum is at [2432, ~, -1808] (1394 blocks away)
+execute in minecraft:overworld positioned 1701 0 -620 run locate structure alexscaves:underground_cabin	The nearest alexscaves:underground_cabin is at [1680, ~, -640] (29 blocks away)
+execute in minecraft:overworld positioned 1701 0 -620 run locate biome minecraft:meadow	The nearest minecraft:meadow is at [1157, 0, 52] (864 blocks away)
+execute in minecraft:overworld positioned 1701 0 -620 run locate biome minecraft:beach	The nearest minecraft:beach is at [1349, 64, -300] (480 blocks away)
+execute in minecraft:overworld positioned 1701 0 -620 run locate biome minecraft:deep_dark	The nearest minecraft:deep_dark is at [1253, 0, -524] (458 blocks away)
+execute in minecraft:overworld positioned 1701 0 -620 run locate biome terralith:sakura_grove	The nearest terralith:sakura_grove is at [3845, 64, -620] (2144 blocks away)
+execute in minecraft:overworld positioned 1701 0 -620 run locate biome terralith:moonlight_grove	The nearest terralith:moonlight_grove is at [4709, 64, -332] (3022 blocks away)
+execute in minecraft:overworld positioned 1701 0 -620 run locate biome terralith:desert_oasis	The nearest terralith:desert_oasis is at [-4027, 64, 852] (5914 blocks away)
+execute in minecraft:overworld positioned 1701 0 -620 run locate biome terralith:yellowstone	The nearest terralith:yellowstone is at [933, 128, -876] (819 blocks away)
+execute in minecraft:overworld positioned 1701 0 -620 run locate biome terralith:emerald_peaks	The nearest terralith:emerald_peaks is at [-1019, 64, -4556] (4784 blocks away)
+execute in minecraft:overworld positioned 1701 0 -620 run locate biome #terralith:volcanic	The nearest #terralith:volcanic (terralith:volcanic_peaks) is at [2629, 128, -1452] (1252 blocks away)
+execute in minecraft:overworld positioned 1701 0 -620 run locate biome terralith:glacial_chasm	The nearest terralith:glacial_chasm is at [-27, 64, -2892] (2855 blocks away)
+execute in minecraft:overworld positioned 1701 0 -620 run locate biome terralith:cave/underground_jungle	The nearest terralith:cave/underground_jungle is at [3301, 0, -812] (1611 blocks away)
+execute in minecraft:overworld positioned 1701 0 -620 run locate biome terralith:cave/frostfire_caves	The nearest terralith:cave/frostfire_caves is at [3909, 0, -2860] (3145 blocks away)
+execute in minecraft:overworld positioned 1701 0 -620 run locate biome terralith:cave/mantle_caves	The nearest terralith:cave/mantle_caves is at [1893, 0, -332] (346 blocks away)
+execute in minecraft:overworld positioned 1701 0 -620 run locate biome #terralith:skylands	The nearest #terralith:skylands (terralith:skylands_autumn) is at [2981, 0, 628] (1787 blocks away)
+execute in minecraft:overworld positioned 1701 0 -620 run locate biome alexscaves:magnetic_caves	The nearest alexscaves:magnetic_caves is at [4005, 0, 180] (2438 blocks away)
+execute in minecraft:overworld positioned 1701 0 -620 run locate biome alexscaves:forlorn_hollows	The nearest alexscaves:forlorn_hollows is at [2085, 0, -396] (444 blocks away)
+execute in minecraft:overworld positioned -1299 0 -3620 run locate biome alexscaves:toxic_caves	The nearest alexscaves:toxic_caves is at [-2643, 0, -4676] (1709 blocks away)
+execute in minecraft:overworld positioned -1299 0 -3620 run locate biome alexscaves:primordial_caves	The nearest alexscaves:primordial_caves is at [141, 0, -4036] (1498 blocks away)
+execute in minecraft:overworld positioned -1299 0 -3620 run locate biome alexscaves:candy_cavity	The nearest alexscaves:candy_cavity is at [-659, 0, -2532] (1262 blocks away)
+execute in minecraft:overworld positioned -1299 0 -620 run locate biome alexscaves:toxic_caves	The nearest alexscaves:toxic_caves is at [-2099, 0, -1868] (1482 blocks away)
+execute in minecraft:overworld positioned -1299 0 -620 run locate biome alexscaves:primordial_caves	The nearest alexscaves:primordial_caves is at [205, 0, -3884] (3593 blocks away)
+execute in minecraft:overworld positioned -1299 0 -620 run locate biome alexscaves:candy_cavity	The nearest alexscaves:candy_cavity is at [-563, 0, -2188] (1732 blocks away)
+execute in minecraft:overworld positioned -1299 0 2380 run locate biome alexscaves:toxic_caves	The nearest alexscaves:toxic_caves is at [-4563, 0, 4492] (3887 blocks away)
+execute in minecraft:overworld positioned -1299 0 2380 run locate biome alexscaves:primordial_caves	The nearest alexscaves:primordial_caves is at [-4051, 0, 5932] (4493 blocks away)
+execute in minecraft:overworld positioned -1299 0 2380 run locate biome alexscaves:candy_cavity	The nearest alexscaves:candy_cavity is at [-1843, 0, 4492] (2180 blocks away)
+execute in minecraft:overworld positioned 1701 0 -3620 run locate biome alexscaves:toxic_caves	The nearest alexscaves:toxic_caves is at [3909, 0, -4356] (2327 blocks away)
+execute in minecraft:overworld positioned 1701 0 -3620 run locate biome alexscaves:primordial_caves	The nearest alexscaves:primordial_caves is at [2213, 0, -4612] (1116 blocks away)
+execute in minecraft:overworld positioned 1701 0 -3620 run locate biome alexscaves:candy_cavity	The nearest alexscaves:candy_cavity is at [-507, 0, -2212] (2618 blocks away)
+execute in minecraft:overworld positioned 1701 0 -620 run locate biome alexscaves:toxic_caves	The nearest alexscaves:toxic_caves is at [2533, 0, 2356] (3090 blocks away)
+execute in minecraft:overworld positioned 1701 0 -620 run locate biome alexscaves:primordial_caves	The nearest alexscaves:primordial_caves is at [197, 0, -3884] (3593 blocks away)
+execute in minecraft:overworld positioned 1701 0 -620 run locate biome alexscaves:candy_cavity	The nearest alexscaves:candy_cavity is at [-507, 0, -2220] (2726 blocks away)
+execute in minecraft:overworld positioned 1701 0 2380 run locate biome alexscaves:toxic_caves	The nearest alexscaves:toxic_caves is at [2469, 0, 2348] (768 blocks away)
+execute in minecraft:overworld positioned 1701 0 2380 run locate biome alexscaves:primordial_caves	The nearest alexscaves:primordial_caves is at [4677, 0, 4684] (3763 blocks away)
+execute in minecraft:overworld positioned 1701 0 2380 run locate biome alexscaves:candy_cavity	The nearest alexscaves:candy_cavity is at [-1563, 0, 4716] (4013 blocks away)
+execute in minecraft:overworld positioned 4701 0 -3620 run locate biome alexscaves:toxic_caves	The nearest alexscaves:toxic_caves is at [4349, 0, -3940] (475 blocks away)
+execute in minecraft:overworld positioned 4701 0 -3620 run locate biome alexscaves:primordial_caves	The nearest alexscaves:primordial_caves is at [2365, 0, -4708] (2576 blocks away)
+execute in minecraft:overworld positioned 4701 0 -3620 run locate biome alexscaves:candy_cavity	The nearest alexscaves:candy_cavity is at [4637, 0, -1764] (1857 blocks away)
+execute in minecraft:overworld positioned 4701 0 -620 run locate biome alexscaves:toxic_caves	The nearest alexscaves:toxic_caves is at [2525, 0, 2356] (3686 blocks away)
+execute in minecraft:overworld positioned 4701 0 -620 run locate biome alexscaves:primordial_caves	The nearest alexscaves:primordial_caves is at [6333, 0, 2260] (3310 blocks away)
+execute in minecraft:overworld positioned 4701 0 -620 run locate biome alexscaves:candy_cavity	The nearest alexscaves:candy_cavity is at [4637, 0, -1388] (770 blocks away)
+execute in minecraft:overworld positioned 4701 0 2380 run locate biome alexscaves:toxic_caves	The nearest alexscaves:toxic_caves is at [2557, 0, 2412] (2144 blocks away)
+execute in minecraft:overworld positioned 4701 0 2380 run locate biome alexscaves:primordial_caves	The nearest alexscaves:primordial_caves is at [5885, 0, 2316] (1185 blocks away)
+execute in minecraft:overworld positioned 4701 0 2380 run locate biome alexscaves:candy_cavity	The nearest alexscaves:candy_cavity is at [4605, 0, -1396] (3777 blocks away)
+# ===== souhrn kola 5 =====
+# A) z 1701/-620: všechny struktury i biomy nalezeny, žádný nález dál než 6000 (nejdál idas:haunted_manor cheb 5364, terralith:desert_oasis cheb 5728). ancient_city vynechán.
+# A) nenalezeno: nic
+# B) 9 bodů (x -1299/1701/4701 × z -3620/-620/2380): ŽÁDNÝ nález uvnitř ponechané oblasti X 0..3583, Z -2560..1023 (duchy se v tomto kole neobjevily).
+#    Všechny nálezy, které leží v generovaném území, offline sedí (biom v buňce na Y=0 i v okolních chuncích). 2 nálezy (-4563/4492, -4051/5932) leží za pregenem (cheb >6000) – chunk neexistuje.
+# alexscaves:toxic_caves: 9 unikátních nálezů mimo ponechanou oblast; 3 nejbližší ke spawnu:
+#   [2469, 0, 2348]  cheb 2968, eukl. 3066  -> OVĚŘENO v .mca
+#   [2525, 0, 2356]  cheb 2976, eukl. 3088  -> OVĚŘENO v .mca
+#   [2533, 0, 2356]  cheb 2976, eukl. 3090  -> OVĚŘENO v .mca
+# alexscaves:primordial_caves: 9 unikátních nálezů mimo ponechanou oblast; 3 nejbližší ke spawnu:
+#   [205, 0, -3884]  cheb 3264, eukl. 3591  -> OVĚŘENO v .mca
+#   [197, 0, -3884]  cheb 3264, eukl. 3594  -> OVĚŘENO v .mca
+#   [141, 0, -4036]  cheb 3416, eukl. 3755  -> OVĚŘENO v .mca
+# alexscaves:candy_cavity: 9 unikátních nálezů mimo ponechanou oblast; 3 nejbližší ke spawnu:
+#   [-507, 0, -2212]  cheb 2208, eukl. 2722  -> OVĚŘENO v .mca
+#   [-507, 0, -2220]  cheb 2208, eukl. 2727  -> OVĚŘENO v .mca
+#   [-563, 0, -2188]  cheb 2264, eukl. 2754  -> OVĚŘENO v .mca
+#   Pozn.: 3 nejbližší nálezy každého biomu jsou vždy tatáž jeskyně (toxic ~[2500,2350], primordial ~[180,-3900], candy ~[-520,-2210]). Další ověřené výskyty: toxic [-2099,-1868], [-2643,-4676], [3909,-4356], [4349,-3940]; primordial [2213,-4612], [2365,-4708], [4677,4684], [5885,2316], [6333,2260]; candy [-659,-2532], [-1563,4716], [-1843,4492], [4605..4637,-1764..-1388].
