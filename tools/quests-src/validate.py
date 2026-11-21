@@ -59,6 +59,13 @@ PROPER_NAMES_CZ = {
     r"zkušební\w* komnat": "Trial Chambers",
     r"starověk\w* měst": "Ancient City",
     r"ender\w* drak|drak\w* z endu": "Ender Dragon",
+    # očarování (anglicky, jak je hra ukazuje: Silk Touch, Fortune, Looting, Protection…)
+    r"hedvábn\w* dot|něžn\w* dot|jemn\w* doty": "Silk Touch",
+    r"drancování": "Looting",
+    r"štěstí\w* moř": "Luck of the Sea",
+    r"očarování\w* (štěstí|ochran|ostrost|nezlomnost|účinnost|oprav|síl)": "anglický název očarování",
+    r"ochran\w* (před|proti) (ohněm|výbuch|pádem|projektil)": "Fire/Blast/Projectile Protection, Feather Falling",
+    r"\bostrost\w*|\bnezlomnost\w*|pírkov\w* pád|afinit\w* k vod|mraziv\w* chodec|hloubkov\w* chodec": "anglický název očarování",
 }
 
 

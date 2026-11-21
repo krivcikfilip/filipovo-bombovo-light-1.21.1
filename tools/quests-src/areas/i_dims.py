@@ -69,7 +69,7 @@ NETHER_END = dict(
         # ---------- Wither (Expert) ----------
         Q("skull", "Lebka wither kostlivce", dep=["fortress"], items=[("minecraft:wither_skeleton_skull", 3)], xp=60, d=[
             "Wither kostlivci v pevnosti občas upustí svou lebku (&eWither Skeleton Skull&r). Potřebuješ 3.",
-            "&aTip:&r meč s očarováním Drancování (&eLooting&r) zvýší šanci, že lebka padne."]),
+            "&aTip:&r meč s očarováním &eLooting&r zvýší šanci, že lebka padne."]),
         Q("wither", "Wither", dep=["skull"], items=[("minecraft:nether_star", 1)], xp=150,
           shape="hexagon", size=1.5, s=EXP, d=[
             "&eWither&r je boss, kterého si vyvoláš sám: 4 bloky duší písku do tvaru T a na ně 3 lebky wither kostlivců.",
@@ -646,14 +646,14 @@ TWILIGHT_GEAR = dict(
             "Pod zemí rostou kořeny. Světlejší živé kořeny (&eLiveroots&r) dávají živý kořen (&eLiveroot&r).",
             "Je to základ železodřeva – první dobré výbavy v lese."]),
         Q("ironwood_armor", "Železodřevěná zbroj", dep=["liveroot"], items=[("twilightforest:ironwood_chestplate", 1)], xp=30, d=[
-            "Výbava ze železodřeva má očarování hned po výrobě. Třeba hrudní plát (&eIronwood Chestplate&r) má Ochranu.",
+            "Výbava ze železodřeva má očarování hned po výrobě. Třeba hrudní plát (&eIronwood Chestplate&r) má očarování &eProtection&r.",
             "Každý kus má jiné očarování. Které, ukáže popis předmětu."]),
         Q("steeleaf_pick", "Ocelolistý krumpáč", dep=["twilight:steeleaf"], items=[("twilightforest:steeleaf_pickaxe", 1)], xp=30, d=[
-            "Ocelolistý krumpáč (&eSteeleaf Pickaxe&r) má od výroby očarování Štěstí II. Víc rudy z každého bloku!",
-            "Ocelolistý hrudní plát má od výroby Ochranu proti výbuchům II."]),
+            "Ocelolistý krumpáč (&eSteeleaf Pickaxe&r) má od výroby očarování &eFortune II&r. Víc rudy z každého bloku!",
+            "Ocelolistý hrudní plát má od výroby očarování &eBlast Protection II&r."]),
         Q("naga_armor", "Zbroj ze šupin", dep=["twilight:naga"], tasks=[adv("twilightforest:naga_armors")], icon="twilightforest:naga_chestplate", xp=40, d=[
             "Ze šupin nagy vyrobíš tuniku (8 šupin) a kalhoty (7 šupin).",
-            "Tunika má Ochranu před ohněm III, kalhoty Ochranu III. Šupiny padají jen z nagy, takže ji možná budeš muset porazit vícekrát."]),
+            "Tunika má očarování &eFire Protection III&r, kalhoty &eProtection III&r. Šupiny padají jen z nagy, takže ji možná budeš muset porazit vícekrát."]),
         Q("travellers", "Cestovatelská výbava", dep=["intro"], items=[("twilightforest:travellers_boots", 1)], xp=40, optional=True, d=[
             "Tříslovina (&eTannin&r) = lahev vody, sazenice, kořenová vlákna a listí soumračného dubu. Tříslovina + kůže = upravená kůže.",
             "Upravenou kůži polož na sušák (třeba &eTwilight Oak Drying Rack&r) ze 3 dřevěných půlbloků. Za 5 minut z ní je vyčiněná kůže (&eTanned Leather&r).",
@@ -696,7 +696,7 @@ TWILIGHT_GEAR = dict(
             "Mobové &eYeti&r a &eWinter Wolf&r pouštějí arktickou srst (&eArctic Fur&r). Z ní vyrobíš arktickou zbroj.",
             "Arktickou zbroj můžeš obarvit jako koženou."]),
         Q("yeti_armor", "Yetiho zbroj", dep=["twilight:yeti"], items=[("twilightforest:yeti_chestplate", 1)], xp=50, d=[
-            "Ze srsti alfa yetiho vyrobíš yetiho zbroj (&eYeti Jacket&r). Má očarování Ochrana.",
+            "Ze srsti alfa yetiho vyrobíš yetiho zbroj (&eYeti Jacket&r). Má očarování &eProtection&r.",
             "Zchladí a zpomalí útočníky, kteří tě zasáhnou."]),
         Q("queen_bow", "Luk královny", dep=["twilight:queen"], items=[("twilightforest:triple_bow", 1)], xp=40, optional=True, d=[
             "Trojitý luk (&eTri-Bow&r) vystřelí naráz tři šípy.",

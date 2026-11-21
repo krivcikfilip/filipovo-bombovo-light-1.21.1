@@ -28,7 +28,7 @@ tak, aby nemusel hledat tutoriály na YouTube.
   Předměty zůstávají ve tvaru `český název (&eEnglish Name&r)` (viz níže).
   Skloňuj jen jednoslovná jména, kde je to v češtině běžné (v Netheru, do Endu, v Aetheru, poraz Wardena).
   Víceslovná jména neskloňuj, pomoz si českým slovem: „v dimenzi Twilight Forest“, „v biomu Primordial Caves“,
-  „poraz bosse Ender Dragon“, „najdi stavbu Trial Chambers“. Krátké české vysvětlení smíš přidat
+  „poraz bosse Ender Dragon“, „najdi stavbu Trial Chambers“. Očarování taky anglicky (Silk Touch, Fortune, Looting, Protection). Krátké české vysvětlení smíš přidat
   („Twilight Forest je les věčného soumraku“), ale nikdy jako náhradu jména.
   Validátor hlídá: úkol biome/dimension/kill (mobové z modů a vanilla bossové) musí mít v textu anglické jméno
   (`tools/registry/names_en.tsv`) a známé české překlady jmen jsou chyba (`PROPER_NAMES_CZ` ve `validate.py`

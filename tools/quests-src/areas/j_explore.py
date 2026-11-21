@@ -48,7 +48,7 @@ EXPLORE = dict(
             "&aTip:&r Pavučiny rychle přeseká meč nebo nůžky. Bez nich v pavučině uvízneš."]),
         Q("spawner", "Líheň domů", dep=["dungeon"], items=[("minecraft:spawner", 1)], xp=60, d=[
             "Díky modu &bApothic Spawners&r můžeš líheň vykopat a odnést domů.",
-            "Potřebuješ krumpáč s očarováním &eNěžný dotek&r. Líheň pak polož, kam chceš – třeba nad farmu na příšery.",
+            "Potřebuješ krumpáč s očarováním &eSilk Touch&r. Líheň pak polož, kam chceš – třeba nad farmu na příšery.",
             "&cKrumpáč přitom ztratí 100 bodů výdrže.&r",
             "",
             "&aTip:&r Líheň můžeš vylepšit různými předměty (další quest). Co který předmět dělá, ukáže JEI."]),
@@ -153,7 +153,7 @@ BIOMES = dict(
             "&cPozor na bloky magmatu&r – pálí, když na nich stojíš. Choď se Shiftem nebo se jim vyhni."]),
         Q("emerald", "Emerald Peaks", dep=["yellowstone"], tasks=[biome("terralith:emerald_peaks")], icon="minecraft:emerald", xp=30, d=[
             "&eEmerald Peaks&r jsou vysoké hory. Ve skále jsou dutiny z kalcitu a hladkého čediče. V nich je &eHlubinné smaragdové ložisko&r.",
-            "&aTip:&r Na smaragdy použij krumpáč s očarováním &eŠtěstí&r. Smaragdy se hodí na obchod s vesničany."]),
+            "&aTip:&r Na smaragdy použij krumpáč s očarováním &eFortune&r. Smaragdy se hodí na obchod s vesničany."]),
         Q("volcano", "Volcanic Peaks", dep=["yellowstone"], tasks=[biome("#terralith:volcanic")], icon="minecraft:lava_bucket", xp=40, d=[
             "Sopečný biom: &eVolcanic Peaks&r (vrchol sopky) nebo &eVolcanic Crater&r (kráter). Ze svahů tu teče láva.",
             "&cNechoď sem bez ohnivzdorných lektvarů.&r Do lávy se snadno spadne."]),
@@ -257,7 +257,7 @@ CREATURES = dict(
             "Při prvním připojení ji dostaneš zdarma. Když ji ztratíš, vyrob ji z knihy, zeleného barviva a jedné věci ze zvířete (například &eCrocodile Scute&r)."]),
         Q("banana", "Banány!", dep=["dict"], items=[("alexsmobs:banana", 1)], xp=15, d=[
             "Banán (&eBanana&r) občas padá z &eTropického listí&r. Je to vzácné – asi jednou z 200 listů.",
-            "Nelámej listí nůžkami ani s Něžným dotekem, pak banán nepadá. Očarování &eŠtěstí&r šanci zvýší.",
+            "Nelámej listí nůžkami ani s očarováním &eSilk Touch&r, pak banán nepadá. Očarování &eFortune&r šanci zvýší.",
             "&aTip:&r Banány milují gorily a kapucínské opičky."]),
         Q("capuchin", "Opičí kamarád", dep=["banana"], tasks=[adv("alexsmobs:alexsmobs/tame_capuchin")], icon="alexsmobs:banana", xp=25, d=[
             "Opička &eCapuchin Monkey&r žije v džungli a v mangrovech.",
@@ -288,7 +288,7 @@ CREATURES = dict(
             "Vyrob ho z 8 krokodýlích šupin."]),
         Q("blossom", "Akáciový květ", dep=["dict"], items=[("alexsmobs:acacia_blossom", 1)], xp=25, d=[
             "Akáciový květ (&eAcacia Blossom&r) občas padá z &eAkáciového listí&r. Je vzácný (asi jednou ze 130 listů).",
-            "Stejně jako u banánů nepoužívej nůžky ani Něžný dotek."]),
+            "Stejně jako u banánů nepoužívej nůžky ani očarování &eSilk Touch&r."]),
         Q("elephant", "Sloní jízda", dep=["blossom"], tasks=[adv("alexsmobs:alexsmobs/tame_elephant")], icon="alexsmobs:acacia_blossom", xp=40, d=[
             "Slon &eElephant&r žije ve stádech na savaně. Ochočíš ho akáciovým květem.",
             "Ochočit jde jen sloní mládě nebo slon bez klů. Na slonovi můžeš jezdit a s truhlou ti nese věci."]),
@@ -545,7 +545,7 @@ LUMINOUS = dict(
             "&cDvakrát se zneviditelní a nechá za sebou příšery.&r Může z něj padnout &eJungle Pendant&r."]),
         Q("viper", "Sea Viper", dep=["bestiary"], items=[("luminous_beasts:sea_viper_trophy", 1)], xp=100, d=[
             "&eSea Viper&r se líhne z vajíčka na dně chladných a ledových oceánů.",
-            "Když vajíčko rozbiješ (bez Něžného doteku), had se vylíhne. &cPod vodou tebou hází.&r Vezmi si lektvar dýchání pod vodou."]),
+            "Když vajíčko rozbiješ (bez &eSilk Touch&r), had se vylíhne. &cPod vodou tebou hází.&r Vezmi si lektvar dýchání pod vodou."]),
         Q("scarecrow", "The Scarecrow", dep=["bestiary"], items=[("luminous_beasts:scarecrow_trophy", 1)], xp=80, d=[
             "&eThe Scarecrow&r vypadá jako obyčejný strašák, dokud se nepohne. Objevuje se v noci na nížinách, jen za úplňku.",
             "Přivolává si pomocníky. Snazší je přivolat ho &eJámou bestií&r na nížině. Trofej z něj padá vždy."]),
@@ -554,11 +554,11 @@ LUMINOUS = dict(
             "Přivolává dýňové pomocníky. Může z něj padnout &ePumpkin Helmet&r – za úplňku ti dává sílu."]),
         Q("moth", "Luminous Moth", dep=["bestiary"], items=[("luminous_beasts:luminous_moth_trophy", 1)], xp=80, d=[
             "Obří můra &eLuminous Moth&r se líhne z velkého kokonu. Kokony visí na smrkovém jehličí v tajze.",
-            "Rozbij kokon (bez Něžného doteku) a můra se vylíhne.",
+            "Rozbij kokon (bez &eSilk Touch&r) a můra se vylíhne.",
             "&aTip:&r Kokon v biomu &eDark Forest&r skrývá vzácnou bílou můru &eAlbino Moth&r."]),
         Q("phoenix", "Phoenix", dep=["bestiary"], items=[("luminous_beasts:phoenix_trophy", 1)], xp=120, shape="hexagon", size=1.5, s=X, d=[
             "Nejtěžší bestie Overworldu. Jdi na ni s nejlepší výbavou a ohnivzdornými lektvary.",
-            "Hnízdo &ePhoenixe&r s vajíčkem je v pustině. Rozbij vajíčko bez Něžného doteku a Phoenix se vylíhne.",
+            "Hnízdo &ePhoenixe&r s vajíčkem je v pustině. Rozbij vajíčko bez &eSilk Touch&r a Phoenix se vylíhne.",
             "&cKdyž ho porazíš, znovu se narodí jako mládě (&eBaby Phoenix&r).&r Teprve z mláděte padá trofej (nebo deska) a někdy &ePhoenix Feather&r. S pírkem si po smrti necháš věci."]),
         Q("lnether", "Luminous Nether", dep=["bestiary"], tasks=[dim("minecraft:the_nether")], icon="luminous_nether:ghost_lantern", xp=20, d=[
             "&bLuminous Nether&r přidává do Netheru biomy &eAsh Forest&r s duchy a &eFungal Plains&r s kultem piglinů a nové bestie.",

@@ -529,7 +529,7 @@ FISHING = dict(
         Q("treasure", "Poklad z hlubin", dep=["hooks"], items=[("aquaculture:treasure_chest", 1)], xp=40, d=[
             "Prut občas vytáhne místo ryby bednu: krabici (&eBox&r), schránku (&eLockbox&r) nebo truhlu s pokladem (&eTreasure Chest&r).",
             "Pravým tlačítkem ji otevřeš. V truhle s pokladem jsou železo, zlato, smaragdy i diamanty.",
-            "&aTip:&r Zlatý háček a očarování Štěstí moří zvyšují šanci na poklad."]),
+            "&aTip:&r Zlatý háček a očarování &eLuck of the Sea&r zvyšují šanci na poklad."]),
         Q("driftwood", "Naplavené dřevo", dep=["intro"], items=[("upgrade_aquatic:driftwood", 4)], xp=15, d=[
             "&bUpgrade Aquatic&r přidává nové mořské tvory, korály a naplavené dřevo.",
             "Kmeny naplaveného dřeva leží na plážích, u řek, v bažinách a v oceánech. Ze 4 kmenů vyrobíš 3 bloky dřeva (&eDriftwood&r)."]),

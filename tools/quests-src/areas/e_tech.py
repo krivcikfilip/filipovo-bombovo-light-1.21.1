@@ -68,7 +68,7 @@ MEKANISM = dict(
         Q("enrich", "2× rudy: obohacovací komora", dep=["casing", "circuit"], items=[("mekanism:enrichment_chamber", 1)], xp=40, d=[
             "Obohacovací komora (&eEnrichment Chamber&r) je první stupeň zpracování rud. Z bloku rudy udělá 2 prachy, ze 3 kusů vytěžené rudy 4 prachy.",
             "Prach přetav v peci na ingot. Získáš tak víc kovu než přímým tavením.",
-            "&aTip:&r Krumpáč se Štěstím dá víc kusů vytěžené rudy, krumpáč s Něžným dotekem celé bloky rudy. Stroje zpracují obojí."]),
+            "&aTip:&r Krumpáč s očarováním &eFortune&r dá víc kusů vytěžené rudy, krumpáč se &eSilk Touch&r celé bloky rudy. Stroje zpracují obojí."]),
         Q("infuse", "Obohacené materiály", dep=["enrich"], items=[("mekanism:enriched_carbon", 8)], xp=25, d=[
             "Obohacovací komora udělá z uhlí obohacený uhlík (&eEnriched Carbon&r) a z redstonu obohacený redstone (&eEnriched Redstone&r).",
             "V infuzéru dá 1 uhlí jen 10 jednotek uhlíku, ale 1 obohacený uhlík 80. U redstonu je to stejné. Ušetříš tak hodně surovin.",
@@ -401,7 +401,7 @@ MEK_POWER = dict(
             "&aTip:&r Každý modul má v okně vlastní nastavení – třeba ho vypnout nebo změnit jeho sílu."]),
         Q("meka_tool", "Meka-Tool", dep=["mekanism:meka", "mekanism:disassembler"], items=[("mekanism:meka_tool", 1)], xp=60, d=[
             "Meka-Tool (&eMeka-Tool&r) je vylepšený atomový rozkladač. Těží, kope i seká a dávají se do něj moduly.",
-            "Užitečné moduly: rychlejší těžba (&eExcavation Escalation Unit&r), těžba celé žíly (&eVein Mining Unit&r), Něžný dotek nebo Štěstí.",
+            "Užitečné moduly: rychlejší těžba (&eExcavation Escalation Unit&r), těžba celé žíly (&eVein Mining Unit&r), moduly jako očarování &eSilk Touch&r nebo &eFortune&r.",
             "&aTip:&r Meka-Tool spotřebuje hodně energie – dej mu modul energie."]),
         Q("mod_energy", "Modul energie", dep=["modstation"], items=[("mekanism:module_energy_unit", 1)], xp=40, d=[
             "Modul energie (&eEnergy Unit&r) zvětší zásobník energie obleku nebo nástroje.",
@@ -579,14 +579,14 @@ AE2 = dict(
         Q("ae_find", "Najdi meteorit", dep=["ae_compass"], tasks=[structure("ae2:meteorite")], xp=30, icon="ae2:sky_stone_block", d=[
             "Dojdi k meteoritu (stavba &eMeteorite&r). Je to kráter s koulí z nebeského kamene (&eSky Stone&r).",
             "Prokopej se do středu. Najdeš certusový křemen, rostoucí krystaly, pučící certus a uprostřed tajemnou kostku (&eMysterious Cube&r).",
-            "Vykopej tajemnou kostku obyčejným krumpáčem, ne Něžným dotekem. Vypadnou z ní všechny lisy pro razítkovač (&eInscriber&r)."]),
+            "Vykopej tajemnou kostku obyčejným krumpáčem, ne se &eSilk Touch&r. Vypadnou z ní všechny lisy pro razítkovač (&eInscriber&r)."]),
         Q("ae_presses", "Lisy", dep=["ae_find"], tasks=[adv("ae2:main/presses")], xp=30, icon="ae2:logic_processor_press", d=[
             "Lisy (&eInscriber Silicon Press&r, &eInscriber Logic Press&r, &eInscriber Calculation Press&r, &eInscriber Engineering Press&r) jsou potřeba na výrobu procesorů.",
             "Když lis ztratíš, nic se neděje: razítkovač umí každý lis zkopírovat z bloku železa.",
             "&aTip:&r Lisy si přesto dobře schovej, třeba hned do truhly u razítkovače."]),
         Q("ae_budding", "Pučící certus", dep=["ae_find"], items=[("ae2:damaged_budding_quartz", 1)], xp=25, d=[
             "Pučící certus (&eBudding Certus Quartz&r) je blok, na kterém rostou krystaly certusu – podobně jako ametyst.",
-            "Bez Něžného doteku se při vykopání zhorší o jednu úroveň. Bezvadný (&eFlawless Budding Certus Quartz&r) se zhorší vždy, i s Něžným dotekem. Proto ho nech na místě.",
+            "Bez &eSilk Touch&r se při vykopání zhorší o jednu úroveň. Bezvadný (&eFlawless Budding Certus Quartz&r) se zhorší vždy, i se &eSilk Touch&r. Proto ho nech na místě.",
             "&aTip:&r Nový pučící blok vyrobíš tak, že hodíš do vody certusový blok (&eCertus Quartz Block&r) a nabitý certus. Vznikne &eDamaged Budding Certus Quartz&r."]),
         Q("ae_charged", "Nabitý certus", dep=["ae_compass", "storage:ae_meteor"], tasks=[adv("ae2:main/charged_quartz")], xp=25, icon="ae2:charged_certus_quartz_crystal", d=[
             "Certusový krystal vlož do nabíječky – vznikne nabitý certus (&eCharged Certus Quartz Crystal&r).",

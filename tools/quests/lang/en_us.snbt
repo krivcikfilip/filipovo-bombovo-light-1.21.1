@@ -1316,7 +1316,7 @@
 	quest.0EC5A2BE4F669CA2.title: "Ocel"
 	quest.0ED17982949F025D.quest_desc: [
 		"Nejtěžší bestie Overworldu. Jdi na ni s nejlepší výbavou a ohnivzdornými lektvary."
-		"Hnízdo &ePhoenixe&r s vajíčkem je v pustině. Rozbij vajíčko bez Něžného doteku a Phoenix se vylíhne."
+		"Hnízdo &ePhoenixe&r s vajíčkem je v pustině. Rozbij vajíčko bez &eSilk Touch&r a Phoenix se vylíhne."
 		"&cKdyž ho porazíš, znovu se narodí jako mládě (&eBaby Phoenix&r).&r Teprve z mláděte padá trofej (nebo deska) a někdy &ePhoenix Feather&r. S pírkem si po smrti necháš věci."
 	]
 	quest.0ED17982949F025D.quest_subtitle: "Expert"
@@ -1846,7 +1846,7 @@
 	quest.173A30ED082BF6DD.title: "Mapa jeskyně"
 	quest.175163EF3C19610D.quest_desc: [
 		"Banán (&eBanana&r) občas padá z &eTropického listí&r. Je to vzácné – asi jednou z 200 listů."
-		"Nelámej listí nůžkami ani s Něžným dotekem, pak banán nepadá. Očarování &eŠtěstí&r šanci zvýší."
+		"Nelámej listí nůžkami ani s očarováním &eSilk Touch&r, pak banán nepadá. Očarování &eFortune&r šanci zvýší."
 		"&aTip:&r Banány milují gorily a kapucínské opičky."
 	]
 	quest.175163EF3C19610D.title: "Banány!"
@@ -2140,7 +2140,7 @@
 	]
 	quest.1A760F58BAC41BD4.title: "Drtící kola"
 	quest.1A7BA8E9D9FF9F38.quest_desc: [
-		"Jantar (&eAmber&r) visí ze stropu jeskyně. Vytěžíš ho jen krumpáčem s očarováním Hedvábný dotek, jinak z něj nic nepadne. Dinosauří maso (&eDinosaur Chop&r) padá z velkých dinosaurů."
+		"Jantar (&eAmber&r) visí ze stropu jeskyně. Vytěžíš ho jen krumpáčem s očarováním &eSilk Touch&r, jinak z něj nic nepadne. Dinosauří maso (&eDinosaur Chop&r) padá z velkých dinosaurů."
 		"Maso si opeč. &aZ opečeného masa vyrobíš 12 dinosauřích nugetek (&eDinosaur Nugget&r).&r"
 	]
 	quest.1A7BA8E9D9FF9F38.title: "Jantar a maso"
@@ -2822,7 +2822,7 @@
 	]
 	quest.22D2094C2218685E.title: "Měděný drát"
 	quest.22E4E0531E537739.quest_desc: [
-		"Ruda aerolitu (&eAerolite&r) se nedá sebrat celá – vždy z ní padají větvičky, i s Hedvábným dotekem."
+		"Ruda aerolitu (&eAerolite&r) se nedá sebrat celá – vždy z ní padají větvičky, i s očarováním &eSilk Touch&r."
 		"Z 9 větviček ale složíš stavební blok (&eQuickslate&r)."
 	]
 	quest.22E4E0531E537739.title: "Blok z aerolitu"
@@ -3214,7 +3214,7 @@
 	quest.2866C3C4C4C90E33.title: "Alchymistický stůl"
 	quest.286DF6CFF7B640F2.quest_desc: [
 		"Ze šupin nagy vyrobíš tuniku (8 šupin) a kalhoty (7 šupin)."
-		"Tunika má Ochranu před ohněm III, kalhoty Ochranu III. Šupiny padají jen z nagy, takže ji možná budeš muset porazit vícekrát."
+		"Tunika má očarování &eFire Protection III&r, kalhoty &eProtection III&r. Šupiny padají jen z nagy, takže ji možná budeš muset porazit vícekrát."
 	]
 	quest.286DF6CFF7B640F2.title: "Zbroj ze šupin"
 	quest.28B0FE898EF00ADE.quest_desc: [
@@ -3859,7 +3859,7 @@
 	quest.303271A683408829.title: "Kovářská šablona plamene"
 	quest.3033A04DC0D32348.quest_desc: [
 		"Meka-Tool (&eMeka-Tool&r) je vylepšený atomový rozkladač. Těží, kope i seká a dávají se do něj moduly."
-		"Užitečné moduly: rychlejší těžba (&eExcavation Escalation Unit&r), těžba celé žíly (&eVein Mining Unit&r), Něžný dotek nebo Štěstí."
+		"Užitečné moduly: rychlejší těžba (&eExcavation Escalation Unit&r), těžba celé žíly (&eVein Mining Unit&r), moduly jako očarování &eSilk Touch&r nebo &eFortune&r."
 		"&aTip:&r Meka-Tool spotřebuje hodně energie – dej mu modul energie."
 	]
 	quest.3033A04DC0D32348.title: "Meka-Tool"
@@ -4011,7 +4011,7 @@
 	quest.32D7711CE16D2166.title: "Warped Mosco"
 	quest.33062F97068D2DF3.quest_desc: [
 		"&eEmerald Peaks&r jsou vysoké hory. Ve skále jsou dutiny z kalcitu a hladkého čediče. V nich je &eHlubinné smaragdové ložisko&r."
-		"&aTip:&r Na smaragdy použij krumpáč s očarováním &eŠtěstí&r. Smaragdy se hodí na obchod s vesničany."
+		"&aTip:&r Na smaragdy použij krumpáč s očarováním &eFortune&r. Smaragdy se hodí na obchod s vesničany."
 	]
 	quest.33062F97068D2DF3.title: "Emerald Peaks"
 	quest.333037DE34082CA8.quest_desc: [
@@ -5427,7 +5427,7 @@
 	]
 	quest.4233AD5385C33849.title: "Jetpack"
 	quest.425EA208F76FCF87.quest_desc: [
-		"Výbava ze železodřeva má očarování hned po výrobě. Třeba hrudní plát (&eIronwood Chestplate&r) má Ochranu."
+		"Výbava ze železodřeva má očarování hned po výrobě. Třeba hrudní plát (&eIronwood Chestplate&r) má očarování &eProtection&r."
 		"Každý kus má jiné očarování. Které, ukáže popis předmětu."
 	]
 	quest.425EA208F76FCF87.title: "Železodřevěná zbroj"
@@ -5718,7 +5718,7 @@
 	quest.45C845FA722A7D92.title: "Zlatý strašák"
 	quest.45EAB78EF35AB0A5.quest_desc: [
 		"&eSea Viper&r se líhne z vajíčka na dně chladných a ledových oceánů."
-		"Když vajíčko rozbiješ (bez Něžného doteku), had se vylíhne. &cPod vodou tebou hází.&r Vezmi si lektvar dýchání pod vodou."
+		"Když vajíčko rozbiješ (bez &eSilk Touch&r), had se vylíhne. &cPod vodou tebou hází.&r Vezmi si lektvar dýchání pod vodou."
 	]
 	quest.45EAB78EF35AB0A5.title: "Sea Viper"
 	quest.45EC9A722485424D.quest_desc: [
@@ -5731,7 +5731,7 @@
 	quest.45EC9A722485424D.title: "Měděný jetpack"
 	quest.45EEA4B3F17F2BD3.quest_desc: [
 		"Selenit roste v geodách v zasněžených a horských biomech."
-		"Krystal selenitu (&eSelenite Crystal&r) zabrání líhnutí příšer ve svém malém okolí. Rozbitý krystal dá střepy (&eSelenite Shard&r), s Hedvábným dotekem celý krystal."
+		"Krystal selenitu (&eSelenite Crystal&r) zabrání líhnutí příšer ve svém malém okolí. Rozbitý krystal dá střepy (&eSelenite Shard&r), s očarováním &eSilk Touch&r celý krystal."
 	]
 	quest.45EEA4B3F17F2BD3.title: "Selenit"
 	quest.45EEB80AF3ED8547.quest_desc: [
@@ -5818,7 +5818,7 @@
 	quest.463007E46BAE9555.title: "Mosazný jetpack"
 	quest.46336BBDBA6CF6B7.quest_desc: [
 		"Pučící certus (&eBudding Certus Quartz&r) je blok, na kterém rostou krystaly certusu – podobně jako ametyst."
-		"Bez Něžného doteku se při vykopání zhorší o jednu úroveň. Bezvadný (&eFlawless Budding Certus Quartz&r) se zhorší vždy, i s Něžným dotekem. Proto ho nech na místě."
+		"Bez &eSilk Touch&r se při vykopání zhorší o jednu úroveň. Bezvadný (&eFlawless Budding Certus Quartz&r) se zhorší vždy, i se &eSilk Touch&r. Proto ho nech na místě."
 		"&aTip:&r Nový pučící blok vyrobíš tak, že hodíš do vody certusový blok (&eCertus Quartz Block&r) a nabitý certus. Vznikne &eDamaged Budding Certus Quartz&r."
 	]
 	quest.46336BBDBA6CF6B7.title: "Pučící certus"
@@ -6385,7 +6385,7 @@
 	quest.4DCF55F11F67BEFF.title: "Konvice a čaj"
 	quest.4DD50C3B0147A801.quest_desc: [
 		"Wither kostlivci v pevnosti občas upustí svou lebku (&eWither Skeleton Skull&r). Potřebuješ 3."
-		"&aTip:&r meč s očarováním Drancování (&eLooting&r) zvýší šanci, že lebka padne."
+		"&aTip:&r meč s očarováním &eLooting&r zvýší šanci, že lebka padne."
 	]
 	quest.4DD50C3B0147A801.title: "Lebka wither kostlivce"
 	quest.4DDE61F66BABECBB.quest_desc: [
@@ -6536,8 +6536,8 @@
 	]
 	quest.507C57FB4FC23E2B.title: "Ráj stavitelů"
 	quest.50C0C8955F84DBB2.quest_desc: [
-		"Ocelolistý krumpáč (&eSteeleaf Pickaxe&r) má od výroby očarování Štěstí II. Víc rudy z každého bloku!"
-		"Ocelolistý hrudní plát má od výroby Ochranu proti výbuchům II."
+		"Ocelolistý krumpáč (&eSteeleaf Pickaxe&r) má od výroby očarování &eFortune II&r. Víc rudy z každého bloku!"
+		"Ocelolistý hrudní plát má od výroby očarování &eBlast Protection II&r."
 	]
 	quest.50C0C8955F84DBB2.title: "Ocelolistý krumpáč"
 	quest.50D624A74DA9493D.quest_desc: [
@@ -7247,7 +7247,7 @@
 	quest.59DD68CCAC81C3E3.title: "Rybí olej"
 	quest.59EFCB07F0755BFC.quest_desc: [
 		"Akáciový květ (&eAcacia Blossom&r) občas padá z &eAkáciového listí&r. Je vzácný (asi jednou ze 130 listů)."
-		"Stejně jako u banánů nepoužívej nůžky ani Něžný dotek."
+		"Stejně jako u banánů nepoužívej nůžky ani očarování &eSilk Touch&r."
 	]
 	quest.59EFCB07F0755BFC.title: "Akáciový květ"
 	quest.59F61604EE325A37.quest_desc: [
@@ -7442,7 +7442,7 @@
 	quest.5CD64687DC1F0763.quest_desc: [
 		"&bCreate Ore Excavation&r: hluboko pod zemí jsou velké žíly rud. Vrtná souprava je těží pořád dokola."
 		""
-		"Hledač žil (&eOre Vein Finder&r) vyrobíš z endového oka, ametystu, redstonové rudy a 2 klacků. &cRedstonovou rudu musíš vytěžit krumpáčem s Hedvábným dotekem.&r"
+		"Hledač žil (&eOre Vein Finder&r) vyrobíš z endového oka, ametystu, redstonové rudy a 2 klacků. &cRedstonovou rudu musíš vytěžit krumpáčem s očarováním &eSilk Touch&r.&r"
 		""
 		"Klikni hledačem pravým tlačítkem. Řekne ti, jestli je žíla přímo v tomto chunku, poblíž, nebo jestli jsou dál jen její stopy."
 		""
@@ -7825,7 +7825,7 @@
 	quest.6197406974D9DAA6.title: "Kanály"
 	quest.61CEEBDE48044DB9.quest_desc: [
 		"Díky modu &bApothic Spawners&r můžeš líheň vykopat a odnést domů."
-		"Potřebuješ krumpáč s očarováním &eNěžný dotek&r. Líheň pak polož, kam chceš – třeba nad farmu na příšery."
+		"Potřebuješ krumpáč s očarováním &eSilk Touch&r. Líheň pak polož, kam chceš – třeba nad farmu na příšery."
 		"&cKrumpáč přitom ztratí 100 bodů výdrže.&r"
 		""
 		"&aTip:&r Líheň můžeš vylepšit různými předměty (další quest). Co který předmět dělá, ukáže JEI."
@@ -8154,7 +8154,7 @@
 	quest.654F81C691BA4045.title: "Válečná loď"
 	quest.654FCBEC5BED73A7.quest_desc: [
 		"Zlověstný katalyzátor (&eOminous Catalyst&r) vyrobíš z 8 těžkých kostí a jantarové zvláštnosti (&eAmber Curiosity&r)."
-		"Jantarová zvláštnost vzácně vypadne při těžbě jantaru (i bez Hedvábného doteku)."
+		"Jantarová zvláštnost vzácně vypadne při těžbě jantaru (i bez &eSilk Touch&r)."
 		"&cKatalyzátor hozený do kráteru sopky v biomu Primordial Caves probudí bosse Luxtructosaurus. Připrav se dobře!&r"
 	]
 	quest.654FCBEC5BED73A7.title: "Zlověstný katalyzátor"
@@ -8424,7 +8424,7 @@
 		"{@pagebreak}"
 		"Plný odlitek chvíli tuhne. Komparátor u něj ukáže, jak je plný. Hotový odlitek otevřeš kliknutím nebo rozbitím."
 		""
-		"&cOdlitý díl děla se po rozbití bez krumpáče s Hedvábným dotekem rozpadne na nugety. Dělo přesouvej stroji z Create (ložisko, píst), aby zůstalo vcelku.&r"
+		"&cOdlitý díl děla se po rozbití bez krumpáče s očarováním &eSilk Touch&r rozpadne na nugety. Dělo přesouvej stroji z Create (ložisko, píst), aby zůstalo vcelku.&r"
 	]
 	quest.6801DA77427DFD83.title: "Formy a licí písek"
 	quest.6803AAC5D2BADD76.quest_desc: [
@@ -9040,13 +9040,13 @@
 	quest.6F968C7E66259108.quest_desc: [
 		"Dojdi k meteoritu (stavba &eMeteorite&r). Je to kráter s koulí z nebeského kamene (&eSky Stone&r)."
 		"Prokopej se do středu. Najdeš certusový křemen, rostoucí krystaly, pučící certus a uprostřed tajemnou kostku (&eMysterious Cube&r)."
-		"Vykopej tajemnou kostku obyčejným krumpáčem, ne Něžným dotekem. Vypadnou z ní všechny lisy pro razítkovač (&eInscriber&r)."
+		"Vykopej tajemnou kostku obyčejným krumpáčem, ne se &eSilk Touch&r. Vypadnou z ní všechny lisy pro razítkovač (&eInscriber&r)."
 	]
 	quest.6F968C7E66259108.title: "Najdi meteorit"
 	quest.6F9E5FEF03BB4570.quest_desc: [
 		"Prut občas vytáhne místo ryby bednu: krabici (&eBox&r), schránku (&eLockbox&r) nebo truhlu s pokladem (&eTreasure Chest&r)."
 		"Pravým tlačítkem ji otevřeš. V truhle s pokladem jsou železo, zlato, smaragdy i diamanty."
-		"&aTip:&r Zlatý háček a očarování Štěstí moří zvyšují šanci na poklad."
+		"&aTip:&r Zlatý háček a očarování &eLuck of the Sea&r zvyšují šanci na poklad."
 	]
 	quest.6F9E5FEF03BB4570.title: "Poklad z hlubin"
 	quest.6FBCAAAFAABBA06D.quest_desc: [
@@ -9074,7 +9074,7 @@
 	quest.7042903AB74FBC54.quest_desc: [
 		"Bloky fosilií (&eStone Fossil Block&r, &eDeepslate Fossil Block&r a další) jsou pod zemí. Vypadají jako kámen s otiskem kostí."
 		"Z kamenných bloků padá biofosilie (&eBio Fossil&r), střepy relikvie, rostlinná fosilie, kosti a vzácně i něco cenného. Z bloků v hlubinné břidlici padá místo biofosilie břidlicová fosilie."
-		"&aBlok fosilie vytěžený s Hedvábným dotekem rozdrtí i drtící kola z Create.&r"
+		"&aBlok fosilie vytěžený s očarováním &eSilk Touch&r rozdrtí i drtící kola z Create.&r"
 	]
 	quest.7042903AB74FBC54.title: "Vykopej fosilii"
 	quest.7054E71D7A76FCA7.quest_desc: [
@@ -9658,7 +9658,7 @@
 	]
 	quest.77390EEB15023315.title: "Vesmírná základna"
 	quest.7745257914AD717C.quest_desc: [
-		"Ze srsti alfa yetiho vyrobíš yetiho zbroj (&eYeti Jacket&r). Má očarování Ochrana."
+		"Ze srsti alfa yetiho vyrobíš yetiho zbroj (&eYeti Jacket&r). Má očarování &eProtection&r."
 		"Zchladí a zpomalí útočníky, kteří tě zasáhnou."
 	]
 	quest.7745257914AD717C.title: "Yetiho zbroj"
@@ -10201,7 +10201,7 @@
 	quest.7DD4633C9701A3F7.title: "Květinové čaje"
 	quest.7DEB64FA8836D876.quest_desc: [
 		"Obří můra &eLuminous Moth&r se líhne z velkého kokonu. Kokony visí na smrkovém jehličí v tajze."
-		"Rozbij kokon (bez Něžného doteku) a můra se vylíhne."
+		"Rozbij kokon (bez &eSilk Touch&r) a můra se vylíhne."
 		"&aTip:&r Kokon v biomu &eDark Forest&r skrývá vzácnou bílou můru &eAlbino Moth&r."
 	]
 	quest.7DEB64FA8836D876.title: "Luminous Moth"
@@ -10302,7 +10302,7 @@
 	quest.7EFA5FC12A0C877F.quest_desc: [
 		"Obohacovací komora (&eEnrichment Chamber&r) je první stupeň zpracování rud. Z bloku rudy udělá 2 prachy, ze 3 kusů vytěžené rudy 4 prachy."
 		"Prach přetav v peci na ingot. Získáš tak víc kovu než přímým tavením."
-		"&aTip:&r Krumpáč se Štěstím dá víc kusů vytěžené rudy, krumpáč s Něžným dotekem celé bloky rudy. Stroje zpracují obojí."
+		"&aTip:&r Krumpáč s očarováním &eFortune&r dá víc kusů vytěžené rudy, krumpáč se &eSilk Touch&r celé bloky rudy. Stroje zpracují obojí."
 	]
 	quest.7EFA5FC12A0C877F.title: "2× rudy: obohacovací komora"
 	quest.7F0150EDB232A99A.quest_desc: [
@@ -10341,7 +10341,7 @@
 		""
 		"&cMá mnohem víc životů než obyčejný vyvolávač a drží totem nesmrtelnosti, takže ho porazíš až napodruhé. Šípy blízko něj zmizí a místo čelistí na tebe posílá drtící kola.&r"
 		""
-		"&aZ bosse padá Roh nenávisti (&eHorn of Hatred&a), který ti dá efekt Zlé znamení (&eBad Omen&a). Někdy upustí i brýle s Ochranou V.&r"
+		"&aZ bosse padá Roh nenávisti (&eHorn of Hatred&a), který ti dá efekt Zlé znamení (&eBad Omen&a). Někdy upustí i brýle s očarováním &eProtection V&a.&r"
 	]
 	quest.7F51B2904EBC7F67.quest_subtitle: "Expert"
 	quest.7F51B2904EBC7F67.title: "Poraz bosse Evoker King"

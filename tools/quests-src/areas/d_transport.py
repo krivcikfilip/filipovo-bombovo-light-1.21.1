@@ -437,7 +437,7 @@ AERO = dict(
             "Z rudy padají aerolitové větvičky (&eAerolite Twig&r). Jsou velmi lehké. Když větvičku sníš, chvíli levituješ.",
             "&aZ větviček se dá složit stavební blok – viz další quest.&r"]),
         Q("islands", "Blok z aerolitu", dep=["twig"], items=[("aeroscapes:quickslate", 1)], xp=30, optional=True, d=[
-            "Ruda aerolitu (&eAerolite&r) se nedá sebrat celá – vždy z ní padají větvičky, i s Hedvábným dotekem.",
+            "Ruda aerolitu (&eAerolite&r) se nedá sebrat celá – vždy z ní padají větvičky, i s očarováním &eSilk Touch&r.",
             "Z 9 větviček ale složíš stavební blok (&eQuickslate&r)."]),
         Q("charm", "Aerolitový amulet", dep=["twig"], items=[("aeroscapes:aerolite_charm", 1)], xp=30,
           optional=True, d=[
@@ -445,7 +445,7 @@ AERO = dict(
             "Výroba: provázek, 2 aerolitové větvičky, perla Enderu a křemen. Dobiješ ho v pracovním stole perlou Enderu."]),
         Q("selenite", "Selenit", dep=["start"], items=[("aeroscapes:selenite_shard", 4)], xp=20, optional=True, d=[
             "Selenit roste v geodách v zasněžených a horských biomech.",
-            "Krystal selenitu (&eSelenite Crystal&r) zabrání líhnutí příšer ve svém malém okolí. Rozbitý krystal dá střepy (&eSelenite Shard&r), s Hedvábným dotekem celý krystal."]),
+            "Krystal selenitu (&eSelenite Crystal&r) zabrání líhnutí příšer ve svém malém okolí. Rozbitý krystal dá střepy (&eSelenite Shard&r), s očarováním &eSilk Touch&r celý krystal."]),
         Q("lamp", "Selenitová lampa", dep=["selenite"], items=[("aeroscapes:selenite_lamp", 1)], xp=30,
           optional=True, d=[
             "Selenitová lampa (&eSelenite Lamp&r) omezí líhnutí příšer ve velkém okolí. Musí být nabitá selenitovými střepy.",

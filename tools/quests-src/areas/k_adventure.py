@@ -87,7 +87,7 @@ ALEXSCAVES = dict(
             "Žijí tu dinosauři! Býložravci jsou klidní, dokud na ně nezaútočíš.",
             "&cDravci jako Vallumraptor (loví ve smečkách) nebo obří Tremorsaurus útočí i na tebe.&r"]),
         Q("primordial", "Jantar a maso", dep=["primordial_enter"], items=[("alexscaves:amber", 1), ("alexscaves:dinosaur_chop", 1)], xp=40, d=[
-            "Jantar (&eAmber&r) visí ze stropu jeskyně. Vytěžíš ho jen krumpáčem s očarováním Hedvábný dotek, jinak z něj nic nepadne. Dinosauří maso (&eDinosaur Chop&r) padá z velkých dinosaurů.",
+            "Jantar (&eAmber&r) visí ze stropu jeskyně. Vytěžíš ho jen krumpáčem s očarováním &eSilk Touch&r, jinak z něj nic nepadne. Dinosauří maso (&eDinosaur Chop&r) padá z velkých dinosaurů.",
             "Maso si opeč. &aZ opečeného masa vyrobíš 12 dinosauřích nugetek (&eDinosaur Nugget&r).&r"]),
         Q("tree_star", "Stromová hvězda", dep=["primordial_enter"], items=[("alexscaves:tree_star", 1)], xp=20, d=[
             "Stromová hvězda (&eTree Star&r) roste na pradávných stromech.",
@@ -110,7 +110,7 @@ ALEXSCAVES = dict(
             "Každý kus zvýší, kolik zdraví a nasycení ti dá syrové maso."]),
         Q("catalyst", "Zlověstný katalyzátor", dep=["club"], items=[("alexscaves:ominous_catalyst", 1)], xp=50, d=[
             "Zlověstný katalyzátor (&eOminous Catalyst&r) vyrobíš z 8 těžkých kostí a jantarové zvláštnosti (&eAmber Curiosity&r).",
-            "Jantarová zvláštnost vzácně vypadne při těžbě jantaru (i bez Hedvábného doteku).",
+            "Jantarová zvláštnost vzácně vypadne při těžbě jantaru (i bez &eSilk Touch&r).",
             "&cKatalyzátor hozený do kráteru sopky v biomu Primordial Caves probudí bosse Luxtructosaurus. Připrav se dobře!&r"]),
         Q("luxtructosaurus", "Luxtructosaurus", dep=["catalyst"], tasks=[kill("alexscaves:luxtructosaurus")], icon="alexscaves:tectonic_shard", xp=100, s="Expert", **M, d=[
             "Luxtructosaurus je nemrtvý dinosaurus zavřený v sopce. Má 600 bodů zdraví a oheň mu neublíží.",
@@ -367,7 +367,7 @@ FOSSILS = dict(
         Q("fossil", "Vykopej fosilii", dep=["intro"], items=[("fossil:fossil_bio", 1)], xp=20, d=[
             "Bloky fosilií (&eStone Fossil Block&r, &eDeepslate Fossil Block&r a další) jsou pod zemí. Vypadají jako kámen s otiskem kostí.",
             "Z kamenných bloků padá biofosilie (&eBio Fossil&r), střepy relikvie, rostlinná fosilie, kosti a vzácně i něco cenného. Z bloků v hlubinné břidlici padá místo biofosilie břidlicová fosilie.",
-            "&aBlok fosilie vytěžený s Hedvábným dotekem rozdrtí i drtící kola z Create.&r"]),
+            "&aBlok fosilie vytěžený s očarováním &eSilk Touch&r rozdrtí i drtící kola z Create.&r"]),
         Q("relic", "Střepy relikvie", dep=["fossil"], items=[("fossil:relic_scrap", 1)], xp=15, d=[
             "Střepy relikvie (&eRelic Scrap&r) padají z bloků fosilií.",
             "V analyzátoru z nich dostaneš kamennou desku, figurky, rozbité zbraně nebo úlomky keramiky.",

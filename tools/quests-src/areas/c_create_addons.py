@@ -837,7 +837,7 @@ ORIG_INDUSTRY = {
     "excavation": Q("excavation", "Nekonečná ruda", dep=["start", "create:crafter", "create:precision", "create:spout"],
                     items=[("createoreexcavation:vein_finder", 1), ("createoreexcavation:drilling_machine", 1)], xp=60, d=[
         "&bCreate Ore Excavation&r: hluboko pod zemí jsou velké žíly rud. Vrtná souprava je těží pořád dokola.",
-        "Hledač žil (&eOre Vein Finder&r) vyrobíš z endového oka, ametystu, redstonové rudy a 2 klacků. &cRedstonovou rudu musíš vytěžit krumpáčem s Hedvábným dotekem.&r",
+        "Hledač žil (&eOre Vein Finder&r) vyrobíš z endového oka, ametystu, redstonové rudy a 2 klacků. &cRedstonovou rudu musíš vytěžit krumpáčem s očarováním &eSilk Touch&r.&r",
         "Klikni hledačem pravým tlačítkem. Řekne ti, jestli je žíla přímo v tomto chunku, poblíž, nebo jestli jsou dál jen její stopy.",
         "Vrtnou soupravu (&eDrilling Machine&r) složíš v mechanickém výrobníku. Polož ji v chunku se žílou. Víc najdeš v kapitole Průmysl."]),
     "chunkload": Q("chunkload", "Načítání chunků", dep=["start", "create:casing"],
@@ -945,7 +945,7 @@ CADD_CANNONS = dict(
             "Tekutý kov nalij shora trubkou. Hlaveň potřebuje 7 ingotů, komora 12 a uzávěr 9.",
             "{@pagebreak}",
             "Plný odlitek chvíli tuhne. Komparátor u něj ukáže, jak je plný. Hotový odlitek otevřeš kliknutím nebo rozbitím.",
-            "&cOdlitý díl děla se po rozbití bez krumpáče s Hedvábným dotekem rozpadne na nugety. Dělo přesouvej stroji z Create (ložisko, píst), aby zůstalo vcelku.&r",
+            "&cOdlitý díl děla se po rozbití bez krumpáče s očarováním &eSilk Touch&r rozpadne na nugety. Dělo přesouvej stroji z Create (ložisko, píst), aby zůstalo vcelku.&r",
         ]),
         Q("drill", "Vyvrtej dělo", s="Pokročilý", dep=["moulds", "create:bearing"], xp=60, shape="hexagon", size=1.5,
           items=[("createbigcannons:cannon_drill", 1)], d=[
@@ -1709,7 +1709,7 @@ HUB_NEW = [
         "",
         "&cMá mnohem víc životů než obyčejný vyvolávač a drží totem nesmrtelnosti, takže ho porazíš až napodruhé. Šípy blízko něj zmizí a místo čelistí na tebe posílá drtící kola.&r",
         "",
-        "&aZ bosse padá Roh nenávisti (&eHorn of Hatred&a), který ti dá efekt Zlé znamení (&eBad Omen&a). Někdy upustí i brýle s Ochranou V.&r",
+        "&aZ bosse padá Roh nenávisti (&eHorn of Hatred&a), který ti dá efekt Zlé znamení (&eBad Omen&a). Někdy upustí i brýle s očarováním &eProtection V&a.&r",
     ]),
 ]
 
