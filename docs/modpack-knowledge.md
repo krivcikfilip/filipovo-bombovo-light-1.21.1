@@ -29,7 +29,7 @@ Na serveru nejsou žádné KubeJS skripty ani datapacky kromě těch v repu (`ku
   ~16,6 cps, TPS 20; stav v `tools/registry/pregen_status.txt`). Nether 2500 kolem 213/-78, Twilight 3000, Aether 3000
   a End 3000 čekají na večer. Záloha před regenerací: `backups/world-pre-regen-2026-11-21_0034` na serveru.
   Nether se nepřegenerovává (hráči v něm mají věci do ~560 bloků, portál u základny: OW [2288,-776] ↔ N [288,-96]).
-- Plán: světová hranice `/worldborder center 1701 -620`, `/worldborder set 12000`. Hranice má ve všech dimenzích
+- **Světová hranice nastavena 21.11.:** střed 1701.5/-619.5, šířka 12000 (ověřeno `/worldborder get` ve všech dimenzích). Hranice má ve všech dimenzích
   **stejnou velikost**, posouvá se jen střed podle `coordinate_scale` dimenze (Nether střed /8, Twilight ×8).
 - **Twilight Forest má `coordinate_scale` 0.125** → souřadnice v Twilightu = overworld × 8. Obsah, kam vede portál
   od spawnu, je kolem X 13600, Z -5000. Portály postavené daleko od spawnu skončí na okraji Twilight hranice.
