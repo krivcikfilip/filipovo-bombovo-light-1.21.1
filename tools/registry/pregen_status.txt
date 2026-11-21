@@ -1,0 +1,39 @@
+# Stav předgenerování (Chunky) – zapsáno 2026-11-21 10:05
+
+## Přegenerování overworldu (21.11. v noci, schváleno uživatelem)
+- 00:33 save-all + stop; záloha celého world -> /srv/gameservers/minecraft-modpack-03/backups/world-pre-regen-2026-11-21_0034
+  (6760 souborů, 7 234 655 520 B, ověřeno proti originálu)
+- V overworldu (region/entities/poi) ponechány jen r.0..6 × r.-5..1 (bloky X 0..3583, Z -2560..1023), 49 souborů v každé složce;
+  smazáno region 3903 / entities 388 / poi 430. Ostatní dimenze, data/, playerdata beze změny.
+- 00:35 start na 5fd3bd3: 58 kapitol / 1660 questů, KubeJS 0 errors, 0 failed recipes, žádný crash.
+  Ověřeno offline: hráčské waystony u spawnu (Misak, Filip, Adam, cikán, 2× vesnice) existují, InhabitedTime zachován.
+
+## Chunky
+| dimenze | tvar | střed | poloměr | stav |
+|---|---|---|---|---|
+| minecraft:overworld | square | 1701 -620 | 6000 | HOTOVO 21.11. 10:02:08, 564 001 chunků, celkem 9:25:37 |
+| minecraft:the_nether | square | 213 -78 | 2500 | ODLOŽENO – uživatel chce pustit až večer (omezuje hraní) |
+| twilightforest:twilight_forest | square | 13608 -4960 | 3000 | ODLOŽENO (večer) |
+| aether:the_aether | square | 1701 -620 | 3000 | ODLOŽENO (večer) |
+| minecraft:the_end | square | 0 0 | 3000 | ODLOŽENO (večer) |
+
+Overworld: start 00:36:31, konec 10:02:08. Průměr ~16.6 cps (564k/9:25:37; ~49k chunků v ponechaných regionech se jen přeskočilo).
+Okamžité rychlosti kolísaly 7–44 cps (nejpomaleji 01:00–02:30, ~8–20 cps; ráno 30–44 cps).
+Úzké hrdlo: generování v 1–2 worker vláknech (jedno na 100 %), zbytek CPU (i5-14500, 20 vláken) nevytížený; kontejner bez CPU limitu.
+
+## TPS / log
+- TPS overworldu celou dobu 20.0 (ms/tick kolísal 1–49 ms; ve špičkách na hraně 50 ms). Žádná pauza Chunky (nikdo online při poklesu).
+- "Can't keep up!" 13× od startu Chunky.
+- Žádný crash report (poslední je z 14.11.).
+- Nejčastější ERROR v logu během pregenu (šum ze struktur, nekritické):
+  4675× ItemStack "Tried to load invalid item: Item must not be minecraft:air"
+  1261× ItemStack "Unknown registry key ..." (předměty z nenainstalovaných modů v NBT struktur)
+   584× / 516× AttachmentHolder neznámé data attachmenty iceandfire / mowziesmobs
+   123× Blueprint "Failed to encode Structure Repaletter Entry"
+    40× SculkSensor "Failed to parse vibration listener"
+- Při stopu ve 00:33 vyhodil smallships výjimku v ModConfigEvent$Unloading (smallships-server.toml) – až po "All dimensions are saved", data OK.
+
+## Soubory
+- world/region: 641 neprázdných .mca (~8.6 GB) + 8735 prázdných (0 B) souborů vzniklých během pregenu/locate mimo čtverec – neškodné, lze smazat při zastaveném serveru.
+- waystones.dat stále obsahuje záznamy waystonů ze smazaných oblastí (např. "nvm").
+- Worldborder NENASTAVEN (čeká na rozhodnutí; návrh center 1701 -620, set 12000).
