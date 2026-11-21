@@ -18,6 +18,9 @@ v registrech ze serveru nebo přímo na serveru (`/locate`, logy). Kde něco ov�
 
 Na serveru nejsou žádné KubeJS skripty ani datapacky kromě těch v repu (`kubejs/`). Server běží v Dockeru
 (`server/`), pack si stahuje přes packwiz při každém restartu.
+Zálohy: Simple Backups na serveru + uživatel je sám kopíruje na Google Disk (neřešit). Proti pádům kvůli chybě
+entity/bloku je v packu **Neruina** (přidána 21.11.; chybnou věc pozastaví a ohlásí místo pádu serveru). Při lagu
+`/spark profiler` (Spark je v packu).
 
 ## Svět serveru
 
