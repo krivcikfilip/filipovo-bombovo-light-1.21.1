@@ -266,7 +266,7 @@ hash = "adf903a7caf4a65cf85964d76683a7814b6290bcc46146a060b45621ad1e337c"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "03b2b1beeeef8bb6cc7931b01ad2d9781dc4eef1cec2fb24d592fd20559656f1"
+hash = "346535f21aa94f61422b798611d278e8737dc37b44732499a4678a4ea42d5e12"
 
 [[files]]
 file = "config/inventoryhud-client.toml"

@@ -845,11 +845,11 @@ GEAR = dict(
         Q("cruorite", "Kruorit", dep=["start", "nether_end:jin"], items=[("just_in_nether:cruorite", 1)], xp=40, d=[
             "Kruorit (&eCruorite&r) je vzácný kov z modu &bJust In Nether&r.",
             "Získáš ho přetavením suroviny &eKindarx&r ve vysoké peci. &eKindarx&r padá z tvora &eBullkindar&r v Netheru.",
-            "&cV tomto packu ho zatím na nic nepoužiješ.&r Zbraně z něj vyrábí jiný mod, který v packu není. Ber ho jako sběratelský kov.",
+            "Jako surovina v tomto packu využití nemá. &aZato je to skvělý zdroj zkušeností: každý kus z vysoké pece ti dá 20 XP (železo dá necelé 1).&r",
         ]),
         Q("devourite", "Devourit", dep=["cruorite"], items=[("just_in_nether:devourite", 1)], xp=50, d=[
             "Devourit (&eDevourite&r) získáš přetavením suroviny &ePigar&r ve vysoké peci. &ePigar&r padá z tvora &ePigmar&r v Netheru.",
-            "&cStejně jako kruorit ho v tomto packu zatím na nic nepoužiješ.&r Je to sběratelský kov.",
+            "Stejně jako kruorit nemá jako surovina využití. &aI devourit ti ve vysoké peci dá 20 XP za každý kus.&r",
         ]),
     ],
 )

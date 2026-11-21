@@ -75,7 +75,9 @@ Na serveru nejsou žádné KubeJS skripty ani datapacky kromě těch v repu (`ku
   kukuřice, chilli a káva berou jen surovinu svého modu. Ostatní kolize v mechanickém crafteru (hlavně dekorace) neřešené,
   seznam v `tools/refdata/crafting_conflicts.tsv`.
 - Stůl z Handcrafted a Another Furniture mají stejný tvar (`###|/ /`) – řeší Polymorph.
-- **Just In Nether**: kruorit a devourit nemají v packu využití (modulární zbraně dělá mod Just In Blacksmith, který chybí).
+- **Just In Nether**: kruorit a devourit nemají v packu využití jako surovina; ve vysoké peci (z Kindarx / Pigar) dávají
+  20 XP za kus. Modulární zbraně z nich dělá Just In Blacksmith – **záměrně nepřidán** (2026-11-21): zbraně výrazně silnější
+  než vanilla (železná sekera +14, diamantová +22 poškození) a v jaru je testovací materiál se 99 poškozením.
 - **Luminous**: Luminous Overworld vypíná spawn motýlů z Luminous Butterflies; netherové bestie Luminous Nether se
   nespawnují, když je nainstalovaný Luminous Beasts (jsou jen jejich verze); Gilded Piglin trofej nejde získat.
 - Nesbíratelné předměty: levitit (Create Aeronautics, zmizí při rozbití), ponorka z Alex's Caves (jen creative),

@@ -6877,7 +6877,7 @@
 		"Mod &bJust-In NETHER&r přidává býčí bojovníky (&eBullkin&r). Silný &eBullkindar&r žije v biomech &eNether Wastes&r a &eWarped Forest&r."
 		"Bullkindar po smrti upustí &eKindarx&r. Ten přetav ve vysoké peci (&eBlast Furnace&r) na kruorit (&eCruorite&r)."
 		"Podobně z &ePigmar&r (biomy Nether Wastes a &eCrimson Forest&r) padá &ePigar&r a z něj je devourit (&eDevourite&r)."
-		"&cV tomto packu z kruoritu ani devouritu nic nevyrobíš. Jsou to zatím sběratelské kovy.&r"
+		"Z kruoritu ani devouritu nic nevyrobíš. &aAle za každý kus z vysoké pece dostaneš 20 XP, takže jsou výborným zdrojem zkušeností.&r"
 	]
 	quest.54AB96FF89E0902E.title: "Kruorit"
 	quest.54BF44687F30D3C9.quest_desc: [
@@ -7317,7 +7317,7 @@
 	quest.5ACFF749530A9E0E.quest_desc: [
 		"Kruorit (&eCruorite&r) je vzácný kov z modu &bJust In Nether&r."
 		"Získáš ho přetavením suroviny &eKindarx&r ve vysoké peci. &eKindarx&r padá z tvora &eBullkindar&r v Netheru."
-		"&cV tomto packu ho zatím na nic nepoužiješ.&r Zbraně z něj vyrábí jiný mod, který v packu není. Ber ho jako sběratelský kov."
+		"Jako surovina v tomto packu využití nemá. &aZato je to skvělý zdroj zkušeností: každý kus z vysoké pece ti dá 20 XP (železo dá necelé 1).&r"
 	]
 	quest.5ACFF749530A9E0E.title: "Kruorit"
 	quest.5AD2ACD78CF935A7.quest_desc: [
@@ -9374,7 +9374,7 @@
 	quest.737BE59B311EAF17.title: "Levitit"
 	quest.737EE8DE14563959.quest_desc: [
 		"Devourit (&eDevourite&r) získáš přetavením suroviny &ePigar&r ve vysoké peci. &ePigar&r padá z tvora &ePigmar&r v Netheru."
-		"&cStejně jako kruorit ho v tomto packu zatím na nic nepoužiješ.&r Je to sběratelský kov."
+		"Stejně jako kruorit nemá jako surovina využití. &aI devourit ti ve vysoké peci dá 20 XP za každý kus.&r"
 	]
 	quest.737EE8DE14563959.title: "Devourit"
 	quest.738B3DB2B12C34B2.quest_desc: [

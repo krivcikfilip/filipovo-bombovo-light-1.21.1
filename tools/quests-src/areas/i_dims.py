@@ -98,7 +98,7 @@ NETHER_END = dict(
         Q("jin", "Kruorit", dep=["nether"], items=[("just_in_nether:cruorite", 1)], xp=40, d=[
             "Mod &bJust-In NETHER&r přidává býčí bojovníky (&eBullkin&r). Silný &eBullkindar&r žije v biomech &eNether Wastes&r a &eWarped Forest&r.",
             "Bullkindar po smrti upustí &eKindarx&r. Ten přetav ve vysoké peci (&eBlast Furnace&r) na kruorit (&eCruorite&r).",
-            "Podobně z &ePigmar&r (biomy Nether Wastes a &eCrimson Forest&r) padá &ePigar&r a z něj je devourit (&eDevourite&r).", "&cV tomto packu z kruoritu ani devouritu nic nevyrobíš. Jsou to zatím sběratelské kovy.&r"]),
+            "Podobně z &ePigmar&r (biomy Nether Wastes a &eCrimson Forest&r) padá &ePigar&r a z něj je devourit (&eDevourite&r).", "Z kruoritu ani devouritu nic nevyrobíš. &aAle za každý kus z vysoké pece dostaneš 20 XP, takže jsou výborným zdrojem zkušeností.&r"]),
         Q("exotics", "Netherové ovoce", dep=["nether"], items=[("netherexotics:kiwano", 1), ("netherexotics:pitaya", 1)], xp=30, d=[
             "Mod &bNether Exotics&r přidává do Netheru zvláštní ovocné stromy a rostliny.",
             "&eKiwano&r dá na chvíli ohnivzdornost, ale i krátkou otravu. &ePitaya&r vyléčí efekt wither.",
