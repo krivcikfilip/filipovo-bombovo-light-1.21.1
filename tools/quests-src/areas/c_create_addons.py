@@ -120,7 +120,7 @@ CADD_POWER = dict(
         Q("magnetite", "Magnetit", dep=["intro"], items=[("create_new_age:magnetite_block", 8)], xp=20, d=[
             "Magnety jsou srdce generátoru z &bCreate: New Age&r. Nejslabší magnet je magnetitový blok (&eMagnetite Block&r).",
             "",
-            "Najdeš ho v podzemí normálního světa, ve výšce zhruba od -20 do 60. Když ho vytěžíš, padne ti celý blok.",
+            "Najdeš ho v podzemí v &eOverworldu&r, ve výšce zhruba od -20 do 60. Když ho vytěžíš, padne ti celý blok.",
             "",
             "&aMagnetit potřebuješ i do základního motoru.&r",
         ]),
@@ -221,7 +221,7 @@ CADD_POWER = dict(
         Q("thorium", "Thorium", dep=["intro", "create_addons:newage"], items=[("create_new_age:thorium", 8)], xp=25, d=[
             "Thorium (&eThorium&r) je surovina na jaderné palivo.",
             "",
-            "Thoriová ruda je v normálním světě ve výšce zhruba od 20 do 120. Padá z ní thorium.",
+            "Thoriová ruda je v &eOverworldu&r ve výšce zhruba od 20 do 120. Padá z ní thorium.",
             "",
             "&aThorium umíš rozmnožit: v míchačce smíchej thorium, kámen, blok jílu a 1 000 mB vody. Vzniknou 2 kusy thoria.&r",
         ]),
@@ -661,7 +661,7 @@ CADD_INDUSTRY = dict(
         Q("smith_tpl", "Kovářská šablona plamene", dep=["xp_store"],
           items=[("create_dragons_plus:blaze_upgrade_smithing_template", 2)], xp=40, d=[
             "Tuto kovářskou šablonu (&eSmithing Template&r) potřebuješ, když chceš z ohňohořáku (&eBlaze Burner&r) udělat plamenný stroj.",
-            "První kus najdeš v truhlách v Netheru – v pevnostech a v baštách.",
+            "První kus najdeš v &eNetheru&r, v truhlách staveb &eNether Fortress&r a &eBastion Remnant&r.",
             "Další si vyrobíš: šablona, 7 ohnivých tyčí a netherrack dají 2 šablony. &cVždy si nech aspoň jednu šablonu na další kopírování.&r"]),
         Q("first_enchant", "Očarování bez stolu", s="Pokročilý", icon="create_enchantment_industry:blaze_enchanter",
           tasks=[adv("create_enchantment_industry:blazing_enchantment")], dep=["create_addons:enchanter"], xp=40, **M, d=[
@@ -717,7 +717,7 @@ CADD_INDUSTRY = dict(
         Q("netherite_drill", "Netheritový vrták", s="Expert", dep=["auto_mine"], items=[("createoreexcavation:netherite_drill", 1)], xp=80, **M, d=[
             "Teď už železný vrták nestačí. Nejtěžší žíly vyžadují netheritový vrták (&eNetherite Drill&r).",
             "Nejdřív vyrob diamantový vrták (&eDiamond Drill&r) ze železného vrtáku, diamantů a diamantového bloku. Pak ho na kovářském stole vylepši netheritovým ingotem a netheritovou šablonou.",
-            "S ním těžíš žílu tvrzených diamantů v Overworldu a žílu prastarých trosek v Netheru. Obě potřebují při vrtání lávu – přiveď ji do soupravy trubkou."]),
+            "S ním těžíš žílu tvrzených diamantů v &eOverworldu&r a žílu prastarých trosek v &eNetheru&r. Obě potřebují při vrtání lávu – přiveď ji do soupravy trubkou."]),
 
         # ---------- Create: Power Loader ----------
         Q("brass_loader", "Mosazný chunk loader", s="Pokročilý", dep=["create_addons:chunkload", "create:precision", "create:crafter"],
@@ -783,11 +783,11 @@ CADD_INDUSTRY = dict(
           items=[("minecraft:powder_snow_bucket", 1)], xp=30, d=[
             "Stejně jako barvivo funguje i prachový sníh: větrák, který přes něj fouká, předměty mrazí.",
             "Led změní na zhuštěný led a ten na modrý led. Magmový krém změní na sliz a ohnivou tyč (&eBlaze Rod&r) na větrnou tyč (&eBreeze Rod&r).",
-            "Prachový sníh nabereš kbelíkem v zasněžených horách. Před větrák ho vylij z kbelíku."]),
+            "Prachový sníh nabereš kbelíkem v biomech &eSnowy Slopes&r a &eGrove&r. Před větrák ho vylij z kbelíku."]),
         Q("dp_ending", "Hromadné endování", s="Expert", dep=["dp_freeze"], items=[("minecraft:dragon_head", 1)], xp=60, **M, d=[
-            "Teď už nemusíš do Endu pro každý endový kámen. Větrák, který fouká přes dračí hlavu nebo dračí dech, předměty „endí“.",
+            "Teď už nemusíš do &eEndu&r pro každý endový kámen. Větrák, který fouká přes dračí hlavu nebo dračí dech, předměty „endí“.",
             "Z dlažebního kamene udělá endový kámen, z jablka chorusové ovoce a z kůže blánu fantoma.",
-            "Dračí hlavu najdeš na lodi u endového města."]),
+            "Dračí hlavu najdeš na lodi u stavby &eEnd City&r."]),
 
         # ---------- Create: More Features ----------
         Q("mf_powder", "Domácí střelný prach", dep=["start", "create:millstone", "create:crushing"],
@@ -826,7 +826,7 @@ ORIG_INDUSTRY = {
     "enchanter": Q("enchanter", "Plamenný očarovávač", dep=["cei", "create:burner"],
                    items=[("create_enchantment_industry:blaze_enchanter", 1)], xp=60, shape="hexagon", size=1.5, d=[
         "Plamenný očarovávač (&eBlaze Enchanter&r) očarovává jako očarovací stůl. Místo tvých úrovní ale bere tekuté zkušenosti.",
-        "Vyrobíš ho na kovářském stole: ohňohořák (&eBlaze Burner&r) + očarovací stůl + kovářská šablona plamene. Šablonu najdeš v truhlách v Netheru.",
+        "Vyrobíš ho na kovářském stole: ohňohořák (&eBlaze Burner&r) + očarovací stůl + kovářská šablona plamene. Šablonu najdeš v truhlách staveb &eNether Fortress&r a &eBastion Remnant&r v &eNetheru&r.",
         "Na panelu nastav úroveň očarování (u očarovacího stolu je nejvýš 30) a vlož předmět. &aVyšší úroveň není vždy lepší – některá očarování se pak neobjeví.&r",
         "Víc najdeš v kapitole Průmysl."]),
     "printer": Q("printer", "Tiskárna", dep=["cei", "create:spout"], items=[("create_enchantment_industry:printer", 1)], xp=40, d=[
@@ -843,7 +843,7 @@ ORIG_INDUSTRY = {
     "chunkload": Q("chunkload", "Načítání chunků", dep=["start", "create:casing"],
                    items=[("create_power_loader:andesite_chunk_loader", 1)], xp=40, d=[
         "&bCreate: Power Loader&r udrží chunk načtený, i když jsi daleko. Stroje v něm pak běží dál.",
-        "Prázdný andezitový loader (&eEmpty Andesite Chunk Loader&r) vyrobíš ze skla, kotvy oživení (&eRespawn Anchor&r), hřídele a andezitových pouzder. Pak s ním klikni pravým tlačítkem na ghasta v Netheru.",
+        "Prázdný andezitový loader (&eEmpty Andesite Chunk Loader&r) vyrobíš ze skla, kotvy oživení (&eRespawn Anchor&r), hřídele a andezitových pouzder. Pak s ním klikni pravým tlačítkem na ghasta v &eNetheru&r.",
         "Chycený ghast loader oživí. Loader pak drží svůj chunk, dokud se točí dost rychle. Víc najdeš v kapitole Průmysl."]),
     "connected": Q("connected", "Baterie a silo", dep=["start", "create:precision"],
                    items=[("create_connected:kinetic_battery", 1), ("create_connected:item_silo", 1)], xp=40, d=[
@@ -906,7 +906,7 @@ CADD_CANNONS = dict(
             "&cMezi náložemi nenechávej mezery. Jinak nemusí shořet všechny.&r",
             "{@pagebreak}",
             "&aTip:&r Náboje zatopené vodou nevybuchnou od ohně ani od výbuchu. Mokrá nálož je ale slabší a jako první nálož v děle nevzplane.",
-            "Mokrá nálož časem sama vyschne. V Netheru je hned po položení suchá.",
+            "Mokrá nálož časem sama vyschne. V &eNetheru&r je hned po položení suchá.",
         ]),
         Q("loader", "Nabíjecí stroj", dep=["loading"], xp=30,
           items=[("createbigcannons:cannon_loader", 1), ("createbigcannons:ram_head", 1)], d=[
@@ -1146,7 +1146,7 @@ CADD_GEAR = dict(
         Q("tp_mech", "Kvantový mechanismus", icon="createteleporters:quantum_mechanism",
           dep=["tp_pearl", "create:spout"], items=[("createteleporters:quantum_mechanism", 1)], xp=50, d=[
             "Perla sama teleport neudělá. Srdce každého teleportéru je kvantový mechanismus (&eQuantum Mechanism&r) a ten potřebuje teleportační šťávu (&eQuantum Fluid&r, v popiscích &eTelejuice&r).",
-            "Šťáva: v míchačce nad zapáleným ohňohořákem smíchej plod chorusu (&eChorus Fruit&r) a 250 mB vody. Chorus roste v Endu.",
+            "Šťáva: v míchačce nad zapáleným ohňohořákem smíchej plod chorusu (&eChorus Fruit&r) a 250 mB vody. Chorus roste v &eEndu&r.",
             "Pokročilý díl (&eAdvanced Component&r): sekvenční montáží nasaď na diamant robustní plát (&eSturdy Sheet&r), pak redstonovou perlu a nakonec ho slisuj.",
             "Mechanismus: robustní plát naplň 250 mB šťávy, nasaď na něj pokročilý díl a slisuj. &aPak si vyrob teleportér z kapitoly Create: doplňky.&r",
         ]),
@@ -1239,7 +1239,7 @@ CADD_GEAR = dict(
           dep=["start", "create_addons:wolf"], items=[("createmechanicalcompanion:mechanical_wolf_processor", 1)], xp=40, d=[
             "Základní deska je jen tělo. Mozek vlka je procesor (&eMechanical Wolf Processor&r). Vznikne, když pokladač nasadí na základní desku optický senzor (&eOptical Sensor&r).",
             "Růženínovou čočku (&eRose Quartz Lens&r) vybrousíš šmirglpapírem z elektronky. Senzor pak vyrobíš sekvenční montáží: andezitové pouzdro dvakrát slisuj a nasaď na něj čočku.",
-            "&aZákladní desku, senzor i čočku najdeš také v truhlách dílny illagerů.&r",
+            "&aZákladní desku, senzor i čočku najdeš také v truhlách stavby &eIllager Workshop&a.&r",
         ]),
         Q("wolf_link", "Přivolej vlka", icon="createmechanicalcompanion:mechanical_wolf_link",
           dep=["wolf_proc", "create:crafter"], items=[("createmechanicalcompanion:mechanical_wolf_link", 1)], xp=60, d=[
@@ -1262,11 +1262,11 @@ CADD_GEAR = dict(
             "Kvantový pohon (&eQuantum Drive&r) vlka teleportuje k cíli. Léčivé pouzdro (&eRegenerative Casing&r) vzniká nasazením precizního strojku na zesílené pláty a vlk se s ním sám léčí.",
             "&aObsaď všech 9 slotů: přidej raketu (&eBooster Rocket&r), světlo (&eMounted Light&r) a radar (&eMob Radar&r), který ukáže nepřátele i přes zdi.&r",
         ]),
-        Q("wolf_workshop", "Dílna illagerů", icon="createmechanicalcompanion:blueprint_painting", optional=True,
+        Q("wolf_workshop", "Najdi Illager Workshop", icon="createmechanicalcompanion:blueprint_painting", optional=True,
           dep=["wolf_proc"], tasks=[structure("createmechanicalcompanion:illager_workshop")], xp=50, d=[
-            "Dílna illagerů (&eIllager Workshop&r) je stavba plná strojů z Create. V jejích truhlách najdeš díly pro vlka.",
-            "Objevuje se ve stejných biomech jako základny pillagerů. Mapu k ní ti prodá kartograf (za 10 smaragdů a kompas) nebo potulný obchodník.",
-            "&cHlídají ji illagerští inženýři (&eIllager Engineer&c) a dozorci s bramborovým dělem (&eIllager Supervisor&c). Vezmi si dobrou zbroj.&r",
+            "Stavba &eIllager Workshop&r je plná strojů z Create. V jejích truhlách najdeš díly pro vlka.",
+            "Objevuje se ve stejných biomech jako stavba &ePillager Outpost&r. Mapu k ní ti prodá kartograf (za 10 smaragdů a kompas) nebo potulný obchodník.",
+            "&cHlídají ji &eIllager Engineer&c a &eIllager Supervisor&c s bramborovým dělem. Vezmi si dobrou zbroj.&r",
         ]),
 
         # ---------------- ESCALATED
@@ -1698,18 +1698,18 @@ HUB_NEW = [
     ]),
 
     # ---------- Create: Let The Adventure Begin ----------
-    Q("ltab_kings", "Královský hrad", s="Let The Adventure Begin", dep=["start"], tasks=[structure("create_ltab:kings_castle")], icon="minecraft:totem_of_undying", xp=50, optional=True, d=[
+    Q("ltab_kings", "Najdi Kings Castle", s="Let The Adventure Begin", dep=["start"], tasks=[structure("create_ltab:kings_castle")], icon="minecraft:totem_of_undying", xp=50, optional=True, d=[
         "&bCreate: Let The Adventure Begin&r přidává do světa stavby z bloků Create: domy, větrné mlýny, lomy, jeskyně a hrady. V jejich truhlách najdeš kořist.",
-        "Královský hrad je vzácný. Hledej ho na pláních a v březových lesích, spíš dál od spawnu. Stačí, když do něj vejdeš.",
+        "Stavba &eKings Castle&r je vzácná. Hledej ji v biomech &ePlains&r a &eBirch Forest&r, spíš dál od spawnu. Stačí, když do ní vejdeš.",
         "",
         "&cUvnitř je truhla, která přivolá bosse. Než ji otevřeš, připrav se na boj.&r",
     ]),
-    Q("ltab_king", "Král vyvolávačů", s="Expert", dep=["ltab_kings"], tasks=[adv("create_ltab:evoker_king")], icon="minecraft:goat_horn", xp=100, optional=True, shape="hexagon", size=1.5, d=[
-        "Když v královském hradu otevřeš truhlu, objeví se král vyvolávačů (&eEvoker King&r).",
+    Q("ltab_king", "Poraz bosse Evoker King", s="Expert", dep=["ltab_kings"], tasks=[adv("create_ltab:evoker_king")], icon="minecraft:goat_horn", xp=100, optional=True, shape="hexagon", size=1.5, d=[
+        "Když v &eKings Castle&r otevřeš truhlu, objeví se boss &eEvoker King&r.",
         "",
         "&cMá mnohem víc životů než obyčejný vyvolávač a drží totem nesmrtelnosti, takže ho porazíš až napodruhé. Šípy blízko něj zmizí a místo čelistí na tebe posílá drtící kola.&r",
         "",
-        "&aZ krále padá Roh nenávisti (&eHorn of Hatred&a), který ti dá efekt Zlé znamení (&eBad Omen&a). Někdy upustí i brýle s Ochranou V.&r",
+        "&aZ bosse padá Roh nenávisti (&eHorn of Hatred&a), který ti dá efekt Zlé znamení (&eBad Omen&a). Někdy upustí i brýle s Ochranou V.&r",
     ]),
 ]
 
@@ -1736,6 +1736,22 @@ CREATE_ADDONS = dict(
 NO_RECIPE = {}
 for _n in (NO_RECIPE_POWER, NO_RECIPE_OIL, NO_RECIPE_INDUSTRY, NO_RECIPE_GEAR):
     NO_RECIPE.update(_n)
+
+# Přeložená vlastní jména (validátor je hlásí jako chybu, piš anglický název ze hry)
+PROPER_NAMES_CZ = {
+    r"normáln\w* svět": "Overworld",
+    r"netherov\w* pevnost|pevnost\w* v netheru": "Nether Fortress",
+    r"\bbašt\w*": "Bastion Remnant",
+    r"endov\w* měst": "End City",
+    r"zasněžen\w* hor": "Snowy Slopes / Grove",
+    r"březov\w* les": "Birch Forest",
+    r"základn\w* pillager\w*": "Pillager Outpost",
+    r"díln\w* illager\w*": "Illager Workshop",
+    r"illagersk\w* inženýr": "Illager Engineer",
+    r"dozorc\w* s bramborov\w*": "Illager Supervisor",
+    r"královsk\w* hrad": "Kings Castle",
+    r"král\w* vyvolávač\w*": "Evoker King",
+}
 
 
 def _spaced(d):

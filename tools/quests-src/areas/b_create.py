@@ -346,7 +346,7 @@ ORES = dict(
         ]),
         Q("o_crush", "Drcení rud", dep=["o_intro", "create:crushing"], items=[("create:crushed_raw_iron", 16)], xp=40, s="Pokročilý", **M, d=[
             "Drtící kola rozdrtí surové železo na &erozdrcené surové železo&r (&eCrushed Raw Iron&r). K tomu s 75% šancí padne nuget zkušeností.",
-            "Celý blok rudy (vytěžený Jemným dotykem) dá víc: železná, zlatá a zinková ruda 1 drť + 75 % na druhou, hlubinné verze 2 + 25 %. Měděná ruda dá 5, hlubinná 7.",
+            "Celý blok rudy (vytěžený s očarováním &eSilk Touch&r) dá víc: železná, zlatá a zinková ruda 1 drť + 75 % na druhou, hlubinné verze 2 + 25 %. Měděná ruda dá 5, hlubinná 7.",
             "Teď už rudu nedávej rovnou do pece. Drť ještě vyper (bonus) nebo roztav. Z 1 drti je vždy 1 ingot nebo 9 nugetů.",
         ]),
         Q("o_wash", "Praní drti", dep=["o_crush"], items=[("create:copper_nugget", 18)], xp=30, d=[

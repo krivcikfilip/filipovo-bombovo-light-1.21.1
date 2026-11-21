@@ -145,9 +145,9 @@ LETSDO = dict(
             "&aTip:&r Kuchařský oblek (čepice, kabát, kalhoty, boty) dává šanci na porci navíc z pánve a hrnce."]),
 
         # ---------------- Meadow ----------------
-        Q("meadow_find", "Horská louka", dep=["intro"], icon="meadow:cheese_wheel", tasks=[biome("minecraft:meadow")], xp=15, d=[
-            "&bMeadow&r je mod o horském životě: sýry, nové krávy a vodní buvoli, horské květiny a sůl.",
-            "Najdi biom louka – je vysoko v horách a je plný květin. Tam najdeš alpskou sůl a pasou se tam huňaté krávy."]),
+        Q("meadow_find", "Biom Meadow", dep=["intro"], icon="meadow:cheese_wheel", tasks=[biome("minecraft:meadow")], xp=15, d=[
+            "&bMeadow&r je mod o horském životě: sýry, krávy &eHighland Cattle&r, buvoli &eWater Buffalo&r, horské květiny a sůl.",
+            "Najdi biom &eMeadow&r – je vysoko v horách a je plný květin. Tam najdeš alpskou sůl a pasou se tam krávy &eHighland Cattle&r."]),
         Q("salt", "Alpská sůl", dep=["meadow_find"], items=[("meadow:alpine_salt", 4)], xp=15, d=[
             "Ruda alpské soli (&eAlpine Salt Ore&r) je v kamení na loukách. Vytav ji v peci.",
             "Sůl uvaříš i v kotli (&eCookpot&r) z kalcitu nebo vápence s vodou."]),
@@ -160,10 +160,10 @@ LETSDO = dict(
         Q("meadowcheese", "Kolo sýra", dep=["rennet"], items=[("meadow:cheese_wheel", 1)], xp=30, d=[
             "Do lisu nalij mléko a přidej syřidlo (obojí pravým tlačítkem). Pak prázdnou rukou toč klikou dolů a nahoru.",
             "Hotové kolo sýra (&eCheese Wheel&r) vezmi prázdnou rukou. Na pracovním stole ho rozkrojíš na 4 plátky.",
-            "&aTip:&r Mléko ovcí, koz, vodních buvolů a další dá jiné druhy sýra."]),
+            "&aTip:&r Mléko ovcí, koz, buvolů &eWater Buffalo&r a dalších zvířat dá jiné druhy sýra."]),
         Q("wbucket", "Mléko z buvola", dep=["meadow_find"], items=[("meadow:wooden_bucket", 1)], xp=15, d=[
-            "Dřevěným kbelíkem (&eWooden Bucket&r) podojíš krávy, ovce, kozy i vodní buvoly. Každé zvíře dá jiné mléko.",
-            "Vodní buvoli (&eWater Buffalo&r) žijí v savaně, u řek a v bažinách."]),
+            "Dřevěným kbelíkem (&eWooden Bucket&r) podojíš krávy, ovce, kozy i buvoly &eWater Buffalo&r. Každé zvíře dá jiné mléko.",
+            "Buvoli &eWater Buffalo&r žijí v savaně, u řek a v bažinách."]),
         Q("fondue", "Fondue", dep=["meadowcheese"], items=[("meadow:fondue_pot", 1)], xp=25, d=[
             "Hrnec na fondue (&eFondue Pot&r) postav na zdroj tepla a vlož do něj sýr. Míchej ho, než se roztaví.",
             "Pak do něj namoč chleba – dostaneš sýrovou tyčinku (&eCheese Stick&r)."]),
@@ -228,7 +228,7 @@ LETSDO = dict(
         # ---------------- Beachparty ----------------
         Q("beach_find", "Na pláž!", dep=["intro"], icon="beachparty:coconut", tasks=[biome("minecraft:beach")], xp=10, d=[
             "&bBeachparty&r přidává palmy, kokosy, mušle, koktejly a plážové vybavení.",
-            "Najdi pláž. Rostou tam palmy s kokosy a v písku najdeš mušle."]),
+            "Najdi biom &eBeach&r (pláž). Rostou tam palmy s kokosy a v písku najdeš mušle."]),
         Q("beach", "Kokosy a bar", dep=["beach_find"], items=[("beachparty:coconut", 2), ("beachparty:palm_bar", 1)], xp=25, d=[
             "Kokosy (&eCoconut&r) visí na palmách – rozbij je. Z palmového dřeva vyrobíš bar (&ePalm Bar&r).",
             "Kokos otevřeš tak, že ho hodíš (pravé tlačítko). Na zemi se rozbije na otevřený kokos (&eOpen Coconut&r)."]),
@@ -239,7 +239,7 @@ LETSDO = dict(
             "Mušle (&eSeashell&r) leží v písku na plážích.",
             "Když mušli použiješ, otevře se. Většinou je v ní syrové maso slávky, ale někdy i zlato, smaragd nebo diamant."]),
         Q("artifact", "Plážový poklad", dep=["seashell"], items=[("beachparty:crocs", 1)], xp=35, d=[
-            "Plážové poklady najdeš v truhlách zakopaných pokladů, vraků lodí, podmořských ruin a pyramid.",
+            "Plážové poklady najdeš v truhlách staveb &eBuried Treasure&r, &eShipwreck&r, &eOcean Ruins&r a &eDesert Pyramid&r.",
             "Pantofle (&eCrocs&r) ti dovolí běhat po vodě. Další poklady jsou třeba nafukovací kruhy (rychlejší plavání) nebo brýle (menší zranění ohněm)."]),
         Q("beach_banner", "Král pláže", dep=["cocktail", "artifact"], items=[("beachparty:beachparty_banner", 1)], xp=100,
           shape="hexagon", size=1.5, s="Expert", d=[
@@ -266,7 +266,7 @@ DRINKS = dict(
             "Kmínky révy (&eGrapevine Stem&r) vyrobíš z polen.",
             "Postav kmínek a pravým tlačítkem na něj zasaď semínka hroznů. Réva na něm vyroste a dává hrozny."]),
         Q("lattice", "Džunglová réva", dep=["stems"], items=[("vinery:oak_lattice", 4), ("vinery:jungle_grapes_red", 3)], xp=25, d=[
-            "Džunglové hrozny (&eRed Jungle Grapes&r) rostou divoce v džungli a v zalesněných badlands.",
+            "Džunglové hrozny (&eRed Jungle Grapes&r) rostou divoce v džungli a v biomu &eWooded Badlands&r.",
             "Jejich semínka se sázejí na mřížku (&eOak Lattice&r) – vyrobíš ji z klacků a prken. Réva po ní šplhá."]),
         Q("varieties", "Odrůdy z cest", dep=["stems"], items=[("vinery:savanna_grapes_red", 2), ("vinery:taiga_grapes_white", 2)], xp=25, d=[
             "Savanové hrozny rostou v savaně, tajgové hrozny v tajze a v horách.",
@@ -302,15 +302,15 @@ DRINKS = dict(
         Q("copper", "Měděná varna", dep=["dried"], items=[("brewery:copper_brewingstation", 1)], xp=40,
           shape="hexagon", size=1.5, s="Pokročilý", d=[
             "Whisky dřevěná varna neuvaří. Potřebuješ měděnou (&eCopper Brewing Station&r).",
-            "Vylepšíš ji v kovářském stole: dřevěná varna + měděný ingot + kovářská šablona zdobení „Sentry“. Šablonu najdeš v truhlách na základnách nájezdníků."]),
+            "Vylepšíš ji v kovářském stole: dřevěná varna + měděný ingot + kovářská šablona zdobení „Sentry“. Šablonu najdeš v truhlách ve stavbě &ePillager Outpost&r."]),
         Q("whiskey", "Whisky", dep=["copper"], items=[("brewery:whiskey_jojannik", 1)], xp=35, d=[
             "Whisky &eJoJannik Select&r uvaříš v měděné varně ze 2 sušených ječmenů a kvasnic.",
             "Každá whisky je z jiné kombinace sušeného obilí. Stáčí se do skleněných lahví."]),
         Q("breath", "Dechová zkouška", dep=["dried"], items=[("brewery:breathalyzer", 1)], xp=15, optional=True, d=[
             "Alkoholtester (&eBreathalyzer&r) ukáže, jak moc jsi opilý.",
             "Celý kroj z pivních slavností (klobouk &eBrewfest Hat&r, oblečení a boty) tě před opilostí úplně ochrání."]),
-        Q("tent", "Pivní slavnosti", dep=["intro"], icon="brewery:brewfest_hat", tasks=[structure("brewery:brewfest_tent")], xp=30, optional=True, d=[
-            "Na pláních občas stojí stan pivních slavností.",
+        Q("tent", "Najdi Brewfest Tent", dep=["intro"], icon="brewery:brewfest_hat", tasks=[structure("brewery:brewfest_tent")], xp=30, optional=True, d=[
+            "Na pláních občas stojí stavba &eBrewfest Tent&r (stan pro pivní slavnost).",
             "Je vzácný, tak se při cestování po pláních rozhlížej."]),
         Q("netherite", "Netheritová varna", dep=["whiskey", "barrel"], items=[("brewery:netherite_brewingstation", 1)], xp=80,
           shape="hexagon", size=1.5, s="Expert", d=[
@@ -398,7 +398,7 @@ CREATEFOOD = dict(
         Q("ruby", "Rubínová čokoláda", dep=["darkchoc"], items=[("create_confectionery:bar_of_ruby_chocolate", 1)], xp=60,
           shape="hexagon", size=1.5, s="Expert", d=[
             "Nejvzácnější čokoláda. Do míchačky s ohřevem dej cukr, kakaové boby, mléko a dračí dech.",
-            "Dračí dech nabereš do lahví u Enderdraka v Endu."]),
+            "Dračí dech nabereš do lahví u bosse &eEnder Dragon&r v Endu."]),
 
         # ---------------- Create Food ----------------
         Q("createfood", "Cukrářský sáček", dep=["start"], items=[("createfood:piping_bag", 1)], xp=15, d=[
@@ -561,39 +561,39 @@ FISHING = dict(
         Q("pondie", "Pondie", dep=["splashtail"], items=[("fishofthieves:pondie", 1)], xp=15, d=[
             "Pondie (&eRaw Pondie&r) žije v řekách a v lesních biomech."]),
         Q("plentifin", "Plentifin", dep=["splashtail"], items=[("fishofthieves:plentifin", 1)], xp=20, d=[
-            "Plentifin (&eRaw Plentifin&r) žije v teplých a vlažných oceánech a v jeskyních (bujné a krápníkové)."]),
+            "Plentifin (&eRaw Plentifin&r) žije v biomech &eWarm Ocean&r, &eLukewarm Ocean&r, &eLush Caves&r a &eDripstone Caves&r."]),
         Q("shoal", "Hejno", dep=["splashtail"], icon="fishofthieves:wildsplash", tasks=[adv("fishofthieves:shoal_hunter")], xp=25, d=[
             "Na hladině oceánů, řek a bažin se občas objeví hejno ryb (&eShoal&r).",
             "Nahoď do něj prut a lov tak dlouho, dokud hejno nezmizí."]),
         Q("ancientscale", "Ancientscale", dep=["plentifin"], items=[("fishofthieves:ancientscale", 1)], xp=30, d=[
-            "Ancientscale (&eRaw Ancientscale&r) žije u podmořských ruin, ve vlažných oceánech a v jeskyních."]),
+            "Ancientscale (&eRaw Ancientscale&r) žije u staveb &eOcean Ruins&r, v biomu &eLukewarm Ocean&r a v jeskyních."]),
         Q("wrecker", "Wrecker", dep=["splashtail"], items=[("fishofthieves:wrecker", 1)], xp=40, d=[
-            "Wreckery (&eRaw Wrecker&r) žijí u vraků lodí a zatopených zničených portálů.",
-            "Najdi vrak a pátrej ve vodě kolem něj."]),
+            "Wreckery (&eRaw Wrecker&r) žijí u staveb &eShipwreck&r a u zatopených staveb &eRuined Portal&r.",
+            "Najdi takovou stavbu a pátrej ve vodě kolem ní."]),
         Q("stormfish", "Stormfish", dep=["wrecker"], items=[("fishofthieves:stormfish", 1)], xp=40,
           shape="hexagon", size=1.5, s="Pokročilý", d=[
             "Stormfish (&eRaw Stormfish&r) se objevuje hlavně v oceánech a jen za deště nebo bouřky. Když prší, vyraz k moři.",
             "Teď už chytáš ryby, které mají zvláštní podmínky – sleduj počasí a stavby."]),
         Q("battlegill", "Battlegill", dep=["stormfish"], items=[("fishofthieves:battlegill", 1)], xp=50, d=[
-            "Battlegill (&eRaw Battlegill&r) žije u oceánských monumentů, základen nájezdníků a zkušebních komnat.",
-            "&cPozor:&r U monumentů číhají strážci."]),
+            "Battlegill (&eRaw Battlegill&r) žije u staveb &eOcean Monument&r, &ePillager Outpost&r a &eTrial Chambers&r.",
+            "&cPozor:&r U stavby &eOcean Monument&r číhají strážci."]),
         Q("devilfish", "Devilfish", dep=["stormfish"], items=[("fishofthieves:devilfish", 1)], xp=50, d=[
-            "Devilfish (&eRaw Devilfish&r) žije jen hluboko pod zemí ve vodě v jeskyních. Nežije v bujných jeskyních ani v Deep Dark."]),
+            "Devilfish (&eRaw Devilfish&r) žije jen hluboko pod zemí ve vodě v jeskyních. Nežije v biomech &eLush Caves&r ani &eDeep Dark&r."]),
         Q("fot_master", "Sběratel ryb", dep=["battlegill", "devilfish", "ancientscale", "pondie", "shoal"], icon="fishofthieves:stormfish_bucket",
           tasks=[adv("fishofthieves:fish_collectors")], xp=100, shape="hexagon", size=1.5, s="Expert", d=[
             "Chyť do kbelíku všech 10 druhů ryb z &bFish of Thieves&r: splashtail, pondie, islehopper, ancientscale, plentifin, wildsplash, devilfish, battlegill, wrecker a stormfish.",
-            "Wildsplash žije v oceánech, na plážích, v džungli a v bujných jeskyních."]),
+            "Wildsplash žije v oceánech, na plážích, v džungli a v biomu &eLush Caves&r."]),
 
         # ---------------- Unusual Fish ----------------
         Q("unusual_fish", "Podivné ryby", dep=["intro"], items=[("unusualfishmod:cooked_unusual_fillet", 2)], xp=20, d=[
-            "&bUnusual Fish&r přidává podivné vodní tvory. Každý žije jinde: v teplém oceánu, hlubokém oceánu, bažinách, řekách, džungli i v jeskyních.",
+            "&bUnusual Fish&r přidává podivné vodní tvory. Každý žije jinde: v biomech &eWarm Ocean&r a &eDeep Ocean&r, v bažinách, řekách, džungli i v jeskyních.",
             "Když podivnou rybu ulovíš, upeč ji. Dostaneš podivný filet (&eCooked Unusual Fillet&r)."]),
         Q("unusual", "Humří rohlík", dep=["unusual_fish"], items=[("unusualfishmod:lobster_roll", 1)], xp=30, d=[
-            "Ostnatý humr (&ePorcupine Lobster&r) žije v hlubokém vlažném oceánu. Když ho ulovíš, upustí syrový humří ocas a ostny.",
+            "Humr &ePorcupine Lobster&r žije v biomu &eDeep Lukewarm Ocean&r. Když ho ulovíš, upustí syrový humří ocas a ostny.",
             "Ocas upeč a dej ho na pracovní stůl spolu s chlebem – vznikne humří rohlík (&eLobster Roll&r)."]),
         Q("spear", "Prizmarínové kopí", dep=["unusual"], items=[("unusualfishmod:prismarine_spear", 1)], xp=40, d=[
             "Prizmarínové kopí (&ePrismarine Spear&r) vyrobíš z humřích ostnů (&eLobster Spike&r) a prizmarínových střepů.",
-            "Střepy padají ze strážců u oceánských monumentů."]),
+            "Střepy padají ze strážců ve stavbě &eOcean Monument&r."]),
     ],
 )
 
@@ -616,4 +616,21 @@ NO_RECIPE = {
     "aquaculture:fish_fillet_raw": "aquaculture:crafting_special_fish_fillet: ryba + nůž (tag c:tools/knife)",
     "sliceanddice:fertilizer_bucket": "tekutina sliceanddice:fertilizer z create:mixing (tree_fertilizer + voda), nabrat kbelíkem",
     "farmersdelight:salmon_slice": "farmersdelight:cutting minecraft:salmon + nůž (cutting/salmon.json); Central Kitchen: pokladač s nožem / mechanická pila",
+}
+
+# Přeložená vlastní jména (regex bez ohledu na velikost písmen -> anglický název ze hry)
+PROPER_NAMES_CZ = {
+    r"biom\w* louk": "Meadow",
+    r"huňat\w* kr[aá]v": "Highland Cattle",
+    r"vodn\w* buvol": "Water Buffalo",
+    r"zakopan\w* poklad": "Buried Treasure",
+    r"vrak\w* lod": "Shipwreck",
+    r"podmořsk\w* ruin": "Ocean Ruins",
+    r"zalesněn\w* badlands": "Wooded Badlands",
+    r"základn\w* nájezdník": "Pillager Outpost",
+    r"stan\w* pivní\w* slavnost": "Brewfest Tent",
+    r"enderdrak": "Ender Dragon",
+    r"vlažn\w* oceán": "Lukewarm Ocean",
+    r"bujn\w* jeskyn": "Lush Caves",
+    r"zničen\w* portál": "Ruined Portal",
 }

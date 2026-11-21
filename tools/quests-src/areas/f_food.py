@@ -216,7 +216,7 @@ DELIGHTS = dict(
     quests=[
         Q("start", "Ještě víc jídla", dep=["farmers_delight:pot"], icon="farmersdelight:iron_knife", tasks=[auto()], xp=10, s="Začátečník", **MS, d=[
             "Tyhle doplňky rozšiřují &bFarmer's Delight&r o nové plodiny, nápoje, stroje a jídla. Jejich jídla se vaří v hrnci a krájí na prkénku z Farmer's Delight.",
-            "Začni doplňky s plodinami, které rostou kolem tebe. Pak přijdou nápoje a kvašení a nakonec jídla z Netheru, Endu a Twilight Forestu.",
+            "Začni doplňky s plodinami, které rostou kolem tebe. Pak přijdou nápoje a kvašení a nakonec jídla z Netheru, Endu a z dimenze &eTwilight Forest&r.",
             "&aTip:&r Některá jídla z doplňků dávají efekt &eComfort&r (pohoda). Ten tě léčí, i když máš hlad.",
         ]),
         # --- Cultural Delights ---
@@ -235,7 +235,7 @@ DELIGHTS = dict(
             "&aTip:&r Ve stejné kádi vznikne i sýr, tofu nebo pivo. Recepty ukáže JEI.",
         ]),
         Q("cult_salt", "Sůl", dep=["cultural"], items=[("culturaldelights:salt", 4)], xp=20, d=[
-            "Bloky soli (&eSalt Block&r) najdeš pod zemí v krápníkových jeskyních (&eDripstone Caves&r). Z jednoho bloku slož na pracovním stole 4 soli (&eSalt&r).",
+            "Bloky soli (&eSalt Block&r) najdeš pod zemí v biomu &eDripstone Caves&r. Z jednoho bloku slož na pracovním stole 4 soli (&eSalt&r).",
             "&aTip:&r Sůl jde i pěstovat. Z bloku soli, vody a krápníku (&ePointed Dripstone&r) postavíš farmu na solné krápníky (&eSalt Spike&r).",
         ]),
         # --- Corn Delight ---
@@ -300,7 +300,7 @@ DELIGHTS = dict(
             "&aTip:&r Oliheň zabitá nožem pustí chapadla (&eTentacles&r).",
         ]),
         Q("guardian_soup", "Polévka ze strážce", dep=["oceans"], items=[("oceansdelight:guardian_soup", 1)], xp=35, optional=True, d=[
-            "Strážci v oceánských monumentech pouštějí maso strážce (&eGuardian&r).",
+            "Strážci ve stavbě &eOcean Monument&r pouštějí maso strážce (&eGuardian&r).",
             "Polévku (&eGuardian Soup&r) uvaříš v hrnci ze strážce, cibule, 2 vajec a 2 rajčat.",
         ]),
         # --- Miner's Delight ---
@@ -386,7 +386,7 @@ DELIGHTS = dict(
             "Černé lístky (&eBlack Tea Leaves&r) dává jen nejstarší čajovník. Uvař z nich černý čaj (&eBlack Tea&r).",
         ]),
         Q("respite_coffee", "Káva z Netheru", dep=["respite"], items=[("farmersrespite:coffee", 1)], xp=35, optional=True, d=[
-            "Divoký kávovník (&eWild Coffee Bush&r) roste v Netheru v čedičových deltách (&eBasalt Deltas&r).",
+            "Divoký kávovník (&eWild Coffee Bush&r) roste v Netheru v biomu &eBasalt Deltas&r.",
             "Kávová zrna (&eCoffee Beans&r) uvař v konvici s vodou na kávu (&eCoffee&r).",
         ]),
         # --- Expert: jiné dimenze ---
@@ -401,7 +401,7 @@ DELIGHTS = dict(
             "Položený kompost se časem změní na oživující půdu (&eResurgent Soil&r). Rostliny na ní rostou rychleji.",
         ]),
         Q("end", "End's Delight", dep=["start"], items=[("ends_delight:end_stove", 1)], xp=40, d=[
-            "&bEnd's Delight&r přidává jídla z Endu: z chorusu, shulkerů a dokonce z draka.",
+            "&bEnd's Delight&r přidává jídla z Endu: z chorusu, shulkerů a dokonce z bosse &eEnder Dragon&r.",
             "Sporák z Endu (&eEnd Stove&r) vyrobíš z praženého chorusu, cihel z endového kamene a táboráku. Hřeje hrnec jako běžný sporák.",
         ]),
         Q("bubble_tea", "Bublinkový čaj", dep=["end"], items=[("ends_delight:bubble_tea", 1)], xp=30, optional=True, d=[
@@ -416,17 +416,17 @@ DELIGHTS = dict(
             "Chorusový džus (&eChorus Juice&r) slož na pracovním stole z plodu chorusu, cukru a lahve.",
         ]),
         Q("torchberry", "Sušenky z pochodňovníku", dep=["start"], items=[("twilightdelight:torchberry_cookie", 8)], xp=25, d=[
-            "&bTwilight's Flavor & Delight&r přidává jídla z dimenze Twilight Forest: z jelenů, hydry, ghastů i z rostlin.",
-            "Pochodňové bobule (&eTorchberries&r) rostou v Twilight Forestu. Bobule mezi dvěma pšenicemi dá 8 sušenek (&eTorchberry Cookie&r).",
+            "&bTwilight's Flavor & Delight&r přidává jídla z dimenze &eTwilight Forest&r: z jelenů &eDeer&r, z bosse &eHydra&r, z ghastů i z rostlin.",
+            "Pochodňové bobule (&eTorchberries&r) rostou v dimenzi Twilight Forest. Bobule mezi dvěma pšenicemi dá 8 sušenek (&eTorchberry Cookie&r).",
         ]),
         Q("twilight", "Bludištní sporák", dep=["torchberry"], items=[("twilightdelight:maze_stove", 1)], xp=40, d=[
             "Bludištní sporák (&eMaze Stove&r) vyrobíš z rytířského kovu, cihel z bludiště, pochodňových bobulí a táboráku.",
-            "Hřeje hrnec a jídla z Twilight Forestu na něm vaříš rychleji.",
+            "Hřeje hrnec a jídla z dimenze &eTwilight Forest&r na něm vaříš rychleji.",
             "&aTip:&r Ohnivý hrnec (&eFiery Cooking Pot&r) z ohnivých ingotů hřeje sám a nepotřebuje sporák.",
         ]),
         Q("ironwood_knife", "Nůž ze železného dřeva", dep=["torchberry"], items=[("twilightdelight:ironwood_knife", 1)], xp=25, optional=True, d=[
             "Nůž ze železného dřeva (&eIronwood Knife&r) vyrobíš z ingotu železného dřeva a klacku.",
-            "Twilight Forest má i další nože: z ocelového listí, rytířského kovu, ohnivý a ledový.",
+            "&bTwilight's Flavor & Delight&r má i další nože: z ocelového listí, rytířského kovu, ohnivý a ledový.",
         ]),
         Q("extra", "ExtraDelight", dep=["start"], items=[("extradelight:mixing_bowl", 1), ("extradelight:oven", 1)], xp=30, d=[
             "&bExtraDelight&r je obří doplněk s desítkami kuchyňských strojů: mísa, hmoždíř, trouba, odpařovač, kvasná káď a další.",
@@ -628,4 +628,11 @@ CHAPTERS = [FARMERS, DELIGHTS, EXTRA, PAMS]
 # Předměty bez receptu/loot table, které se dají ověřeně získat
 NO_RECIPE = {
     "expandeddelight:cinnamon": "prkénko (farmersdelight:cutting): skořicová tyčinka + palička Crushing Mallet -> 2 skořice (data/expandeddelight/recipe/cutting/cinnamon_stick.json)",
+}
+
+# Přeložená vlastní jména (regex bez ohledu na velikost písmen -> anglický název ze hry)
+PROPER_NAMES_CZ = {
+    r"krápníkov\w* jeskyn": "Dripstone Caves",
+    r"čedičov\w* delt": "Basalt Deltas",
+    r"oceánsk\w* monument": "Ocean Monument",
 }

@@ -1,0 +1,1369 @@
+biome	alexscaves:abyssal_chasm	Abyssal Chasm
+biome	deep_aether:aerglow_forest	Aerglow Forest
+biome	deep_aether:aerlavender_fields	Aerlavender Fields
+biome	luminous_nether:ash_forest	Ash Forest
+biome	luminousworld:auburn_forest	Auburn Forest
+biome	minecraft:badlands	Badlands
+biome	minecraft:bamboo_jungle	Bamboo Jungle
+biome	minecraft:basalt_deltas	Basalt Deltas
+biome	minecraft:beach	Beach
+biome	minecraft:birch_forest	Birch Forest
+biome	netherexp:black_ice_glaciers	Black Ice Glaciers
+biome	deep_aether:blue_aerglow_forest	Blue Aerglow Forest
+biome	alexscaves:candy_cavity	Candy Cavity
+biome	minecraft:cherry_grove	Cherry Grove
+biome	twilightforest:clearing	Twilight Clearing
+biome	deep_aether:cloud	Cloud
+biome	minecraft:cold_ocean	Cold Ocean
+biome	extradelight:cornfield	The Cornfield
+biome	minecraft:crimson_forest	Crimson Forest
+biome	minecraft:dark_forest	Dark Forest
+biome	twilightforest:dark_forest	Dark Forest
+biome	twilightforest:dark_forest_center	Dark Forest Center
+biome	minecraft:deep_cold_ocean	Deep Cold Ocean
+biome	minecraft:deep_dark	Deep Dark
+biome	minecraft:deep_frozen_ocean	Deep Frozen Ocean
+biome	minecraft:deep_lukewarm_ocean	Deep Lukewarm Ocean
+biome	minecraft:deep_ocean	Deep Ocean
+biome	aeroscapes:deep_voidsea	Deep Voidsea
+biome	twilightforest:dense_forest	Dense Forest
+biome	twilightforest:dense_mushroom_forest	Dense Mushroom Forest
+biome	minecraft:desert	Desert
+biome	minecraft:dripstone_caves	Dripstone Caves
+biome	twilightforest:enchanted_forest	Enchanted Forest
+biome	minecraft:end_barrens	End Barrens
+biome	minecraft:end_highlands	End Highlands
+biome	minecraft:end_midlands	End Midlands
+biome	minecraft:eroded_badlands	Eroded Badlands
+biome	twilightforest:final_plateau	Final Plateau
+biome	twilightforest:fire_swamp	Fire Swamp
+biome	twilightforest:firefly_forest	Firefly Forest
+biome	minecraft:flower_forest	Flower Forest
+biome	minecraft:forest	Forest
+biome	twilightforest:forest	Twilight Forest
+biome	alexscaves:forlorn_hollows	Forlorn Hollows
+biome	minecraft:frozen_ocean	Frozen Ocean
+biome	minecraft:frozen_peaks	Frozen Peaks
+biome	minecraft:frozen_river	Frozen River
+biome	luminous_nether:fungal_plains	Fungal Plains
+biome	twilightforest:glacier	Twilight Glacier
+biome	ad_astra:glacio_ice_peaks	Glacio Ice Peaks
+biome	ad_astra:glacio_snowy_barrens	Glacio Snowy Barrens
+biome	quark:glimmering_weald	Glimmering Weald
+biome	unusualend:gloopstone_lands	Gloopstone Highlands
+biome	deep_aether:golden_grove	Golden Grove
+biome	deep_aether:golden_heights	Golden Heights
+biome	minecraft:grove	Grove
+biome	aeroscapes:hallowed_isles	Hallowed Isles
+biome	twilightforest:highlands	Twilight Highlands
+biome	twilightforest:highlands_underground	Troll Caves
+biome	minecraft:ice_spikes	Ice Spikes
+biome	ad_astra:infernal_venus_barrens	Infernal Venus Barrens
+biome	minecraft:jagged_peaks	Jagged Peaks
+biome	minecraft:jungle	Jungle
+biome	twilightforest:lake	Twilight Lake
+biome	minecraft:lukewarm_ocean	Lukewarm Ocean
+biome	deep_aether:luminescent_forest	Luminescent Forest
+biome	ad_astra:lunar_wastelands	Lunar Wastelands
+biome	minecraft:lush_caves	Lush Caves
+biome	alexscaves:magnetic_caves	Magnetic Caves
+biome	minecraft:mangrove_swamp	Mangrove Swamp
+biome	autumnity:maple_forest	Maple Forest
+biome	ad_astra:martian_canyon_creek	Martian Canyon Creek
+biome	ad_astra:martian_polar_caps	Martian Polar Caps
+biome	ad_astra:martian_wastelands	Martian Wastelands
+biome	minecraft:meadow	Meadow
+biome	ad_astra:mercury_deltas	Mercury Deltas
+biome	minecraft:mushroom_fields	Mushroom Fields
+biome	twilightforest:mushroom_forest	Mushroom Forest
+biome	deep_aether:mystic_aerglow_forest	Mystic Aerglow Forest
+biome	minecraft:nether_wastes	Nether Wastes
+biome	twilightforest:oak_savannah	Oak Savanna
+biome	minecraft:ocean	Ocean
+biome	minecraft:old_growth_birch_forest	Old Growth Birch Forest
+biome	minecraft:old_growth_pine_taiga	Old Growth Pine Taiga
+biome	minecraft:old_growth_spruce_taiga	Old Growth Spruce Taiga
+biome	ad_astra:orbit	Space
+biome	blueprint:original_source_marker	Original Source Marker
+biome	deep_aether:overgrown_cloud	Overgrown Cloud
+biome	createteleporters:pd_biome	PD Biome
+biome	minecraft:plains	Plains
+biome	alexscaves:primordial_caves	Primordial Caves
+biome	autumnity:pumpkin_fields	Pumpkin Fields
+biome	minecraft:river	River
+biome	minecraft:savanna	Savanna
+biome	minecraft:savanna_plateau	Savanna Plateau
+biome	aether:skyroot_forest	Skyroot Forest
+biome	aether:skyroot_grove	Skyroot Grove
+biome	aether:skyroot_meadow	Skyroot Meadow
+biome	aether:skyroot_woodland	Skyroot Woodland
+biome	minecraft:small_end_islands	Small End Islands
+biome	minecraft:snowy_beach	Snowy Beach
+biome	twilightforest:snowy_forest	Snowy Forest
+biome	minecraft:snowy_plains	Snowy Plains
+biome	minecraft:snowy_slopes	Snowy Slopes
+biome	minecraft:snowy_taiga	Snowy Taiga
+biome	minecraft:soul_sand_valley	Soul Sand Valley
+biome	minecraft:sparse_jungle	Sparse Jungle
+biome	ae2:spatial_storage	Spatial Storage
+biome	twilightforest:spooky_forest	Spooky Forest
+biome	minecraft:stony_peaks	Stony Peaks
+biome	minecraft:stony_shore	Stony Shore
+biome	twilightforest:stream	Twilight Stream
+biome	minecraft:sunflower_plains	Sunflower Plains
+biome	minecraft:swamp	Swamp
+biome	twilightforest:swamp	Twilight Swamp
+biome	minecraft:taiga	Taiga
+biome	minecraft:the_end	The End
+biome	minecraft:the_void	The Void
+biome	twilightforest:thornlands	Thornlands
+biome	alexscaves:toxic_caves	Toxic Caves
+biome	fishofthieves:tropical_island	Tropical Island
+biome	twilightforest:underground	Underground
+biome	ad_astra:venus_wastelands	Venus Wastelands
+biome	aeroscapes:void_shores	Void Shores
+biome	aeroscapes:voidsea	Voidsea
+biome	minecraft:warm_ocean	Warm Ocean
+biome	minecraft:warped_forest	Warped Forest
+biome	unusualend:warped_reef	Warped Reef
+biome	minecraft:windswept_forest	Windswept Forest
+biome	minecraft:windswept_gravelly_hills	Windswept Gravelly Hills
+biome	minecraft:windswept_hills	Windswept Hills
+biome	minecraft:windswept_savanna	Windswept Savanna
+biome	minecraft:wooded_badlands	Wooded Badlands
+biome	deep_aether:yagroot_swamp	Yagroot Swamp
+entity	minecraft:allay	Allay
+entity	minecraft:area_effect_cloud	Area Effect Cloud
+entity	minecraft:armadillo	Armadillo
+entity	minecraft:armor_stand	Armor Stand
+entity	minecraft:arrow	Arrow
+entity	minecraft:axolotl	Axolotl
+entity	minecraft:bat	Bat
+entity	minecraft:bee	Bee
+entity	minecraft:blaze	Blaze
+entity	minecraft:block_display	Block Display
+entity	minecraft:boat	Boat
+entity	minecraft:bogged	Bogged
+entity	minecraft:breeze	Breeze
+entity	minecraft:breeze_wind_charge	Wind Charge
+entity	minecraft:camel	Camel
+entity	minecraft:cat	Cat
+entity	minecraft:cave_spider	Cave Spider
+entity	minecraft:chest_boat	Boat with Chest
+entity	minecraft:chest_minecart	Minecart with Chest
+entity	minecraft:chicken	Chicken
+entity	minecraft:cod	Cod
+entity	minecraft:command_block_minecart	Minecart with Command Block
+entity	minecraft:cow	Cow
+entity	minecraft:creeper	Creeper
+entity	minecraft:dolphin	Dolphin
+entity	minecraft:donkey	Donkey
+entity	minecraft:dragon_fireball	Dragon Fireball
+entity	minecraft:drowned	Drowned
+entity	minecraft:egg	Thrown Egg
+entity	minecraft:elder_guardian	Elder Guardian
+entity	minecraft:end_crystal	End Crystal
+entity	minecraft:ender_dragon	Ender Dragon
+entity	minecraft:ender_pearl	Thrown Ender Pearl
+entity	minecraft:enderman	Enderman
+entity	minecraft:endermite	Endermite
+entity	minecraft:evoker	Evoker
+entity	minecraft:evoker_fangs	Evoker Fangs
+entity	minecraft:experience_bottle	Thrown Bottle o' Enchanting
+entity	minecraft:experience_orb	Experience Orb
+entity	minecraft:eye_of_ender	Eye of Ender
+entity	minecraft:falling_block	Falling Block
+entity	minecraft:firework_rocket	Firework Rocket
+entity	minecraft:fox	Fox
+entity	minecraft:frog	Frog
+entity	minecraft:furnace_minecart	Minecart with Furnace
+entity	minecraft:ghast	Ghast
+entity	minecraft:giant	Giant
+entity	minecraft:glow_item_frame	Glow Item Frame
+entity	minecraft:glow_squid	Glow Squid
+entity	minecraft:goat	Goat
+entity	minecraft:guardian	Guardian
+entity	minecraft:hoglin	Hoglin
+entity	minecraft:hopper_minecart	Minecart with Hopper
+entity	minecraft:horse	Horse
+entity	minecraft:husk	Husk
+entity	minecraft:illusioner	Illusioner
+entity	minecraft:interaction	Interaction
+entity	minecraft:iron_golem	Iron Golem
+entity	minecraft:item	Item
+entity	minecraft:item_display	Item Display
+entity	minecraft:item_frame	Item Frame
+entity	minecraft:ominous_item_spawner	Ominous Item Spawner
+entity	minecraft:fireball	Fireball
+entity	minecraft:leash_knot	Leash Knot
+entity	minecraft:lightning_bolt	Lightning Bolt
+entity	minecraft:llama	Llama
+entity	minecraft:llama_spit	Llama Spit
+entity	minecraft:magma_cube	Magma Cube
+entity	minecraft:marker	Marker
+entity	minecraft:minecart	Minecart
+entity	minecraft:mooshroom	Mooshroom
+entity	minecraft:mule	Mule
+entity	minecraft:ocelot	Ocelot
+entity	minecraft:painting	Painting
+entity	minecraft:panda	Panda
+entity	minecraft:parrot	Parrot
+entity	minecraft:phantom	Phantom
+entity	minecraft:pig	Pig
+entity	minecraft:piglin	Piglin
+entity	minecraft:piglin_brute	Piglin Brute
+entity	minecraft:pillager	Pillager
+entity	minecraft:polar_bear	Polar Bear
+entity	minecraft:potion	Potion
+entity	minecraft:pufferfish	Pufferfish
+entity	minecraft:rabbit	Rabbit
+entity	minecraft:ravager	Ravager
+entity	minecraft:salmon	Salmon
+entity	minecraft:sheep	Sheep
+entity	minecraft:shulker	Shulker
+entity	minecraft:shulker_bullet	Shulker Bullet
+entity	minecraft:silverfish	Silverfish
+entity	minecraft:skeleton	Skeleton
+entity	minecraft:skeleton_horse	Skeleton Horse
+entity	minecraft:slime	Slime
+entity	minecraft:small_fireball	Small Fireball
+entity	minecraft:sniffer	Sniffer
+entity	minecraft:snow_golem	Snow Golem
+entity	minecraft:snowball	Snowball
+entity	minecraft:spawner_minecart	Minecart with Monster Spawner
+entity	minecraft:spectral_arrow	Spectral Arrow
+entity	minecraft:spider	Spider
+entity	minecraft:squid	Squid
+entity	minecraft:stray	Stray
+entity	minecraft:strider	Strider
+entity	minecraft:tadpole	Tadpole
+entity	minecraft:text_display	Text Display
+entity	minecraft:tnt	Primed TNT
+entity	minecraft:tnt_minecart	Minecart with TNT
+entity	minecraft:trader_llama	Trader Llama
+entity	minecraft:trident	Trident
+entity	minecraft:tropical_fish	Tropical Fish
+entity	minecraft:turtle	Turtle
+entity	minecraft:vex	Vex
+entity	minecraft:villager	Villager
+entity	minecraft:vindicator	Vindicator
+entity	minecraft:wandering_trader	Wandering Trader
+entity	minecraft:warden	Warden
+entity	minecraft:wind_charge	Wind Charge
+entity	minecraft:witch	Witch
+entity	minecraft:wither	Wither
+entity	minecraft:wither_skeleton	Wither Skeleton
+entity	minecraft:wither_skull	Wither Skull
+entity	minecraft:wolf	Wolf
+entity	minecraft:zoglin	Zoglin
+entity	minecraft:zombie	Zombie
+entity	minecraft:zombie_horse	Zombie Horse
+entity	minecraft:zombie_villager	Zombie Villager
+entity	minecraft:zombified_piglin	Zombified Piglin
+entity	minecraft:player	Player
+entity	minecraft:fishing_bobber	Fishing Bobber
+entity	netherexp:wisp	Wisp
+entity	netherexp:apparition	Apparition
+entity	netherexp:vessel	Vessel
+entity	netherexp:ecto_slab	Ecto Slab
+entity	netherexp:banshee	Banshee
+entity	netherexp:stampede	Stampede
+entity	netherexp:carcass	Carcass
+entity	netherexp:shotgun_pellet	Shotgun Pellet
+entity	netherexp:slug_pellet	Slug Pellet
+entity	netherexp:phasmo_pellet	Phasmo Pellet
+entity	netherexp:phasmo_arrow	Phasmo Arrow
+entity	netherexp:will_o_wisp	Will O' Wisp
+entity	netherexp:antidote	Antidote
+entity	etched:jukebox_minecart	Minecart with Jukebox
+entity	createdieselgenerators:chemical_sprayer_projectile	Chemical Sprayer Projectile
+entity	supplementaries:dispenser_minecart	Minecart with Dispenser
+entity	supplementaries:hat_stand	Hat Stand
+entity	supplementaries:pignata	Pigñata
+entity	supplementaries:red_merchant	Red Merchant
+entity	supplementaries:plunderer	Plunderer
+entity	supplementaries:falling_urn	Falling Urn
+entity	supplementaries:falling_ash	Falling Ash
+entity	supplementaries:brick_projectile	Brick Projectile
+entity	supplementaries:slimeball_projectile	Slimeball Projectile
+entity	supplementaries:cannonball	Cannonball
+entity	supplementaries:rope_arrow	Rope Arrow
+entity	supplementaries:slingshot_projectile	Slingshot Projectile
+entity	supplementaries:cannon_boat	Cannon Boat
+entity	corpse:corpse	Corpse
+entity	handcrafted:seat	Seat
+entity	handcrafted:fancy_painting	Fancy Painting
+entity	unusualend:ender_blob	Enderblob
+entity	unusualend:undead_enderling	Undead Enderling
+entity	unusualend:endstone_trapper	Ender Trapper
+entity	unusualend:ender_firefly	Flampyr
+entity	unusualend:endstone_golem	Endstone Golem
+entity	unusualend:dragling	Dragling
+entity	unusualend:bolok	Bolok
+entity	unusualend:enderblob_queen	EnderBlob Queen [In Dev]
+entity	unusualend:block_updater	Structure Updater
+entity	unusualend:spunkler	Spunkler
+entity	unusualend:void_crack	Void Crack
+entity	unusualend:warped_balloon	Warped Balloon
+entity	unusualend:glub	Glub
+entity	unusualend:void_bomb	Void Explosive
+entity	unusualend:enderbulb	Enderbulb
+entity	unusualend:small_enderbulb	Small Enderbulb
+entity	unusualend:bluk	Bluk
+entity	unusualend:phantom_arrow_projectile	Phantom Arrow
+entity	unusualend:summoned_dragling	Tamed Dragling
+entity	createbigcannons:pitch_contraption	Pitch Contraption
+entity	createbigcannons:shot	Shot
+entity	createbigcannons:he_shell	High Explosive (HE) Shell
+entity	createbigcannons:shrapnel_shell	Shrapnel Shell
+entity	createbigcannons:bag_of_grapeshot	Bag Of Grapeshot
+entity	createbigcannons:ap_shot	Armor Piercing (AP) Shot
+entity	createbigcannons:traffic_cone	Traffic Cone
+entity	createbigcannons:ap_shell	Armor Piercing (AP) Shell
+entity	createbigcannons:fluid_shell	Fluid Shell
+entity	createbigcannons:smoke_shell	Smoke Shell
+entity	createbigcannons:mortar_stone	Mortar Stone
+entity	createbigcannons:drop_mortar_shell	Drop Mortar Shell
+entity	createbigcannons:shrapnel_burst	Shrapnel Burst
+entity	createbigcannons:flak_burst	Flak Burst
+entity	createbigcannons:grapeshot_burst	Grapeshot Burst
+entity	createbigcannons:fluid_blob_burst	Fluid Blob Burst
+entity	createbigcannons:smoke_emitter	Smoke Emitter
+entity	createbigcannons:gas_cloud	Gas Cloud
+entity	createbigcannons:cannon_carriage	Cannon Carriage
+entity	createbigcannons:ap_autocannon	Armor Piercing (AP) Autocannon Round
+entity	createbigcannons:flak_autocannon	Flak Autocannon Round
+entity	createbigcannons:machine_gun_bullet	Machine Gun Bullet
+entity	createbigcannons:primed_propellant	Primed Propellant
+entity	aeronautics:propeller_bearing_contraption	Propeller Bearing Contraption
+entity	aeronautics:gust	Gust
+entity	mekanism:flame	Flamethrower Flame
+entity	mekanism:robit	Robit
+entity	offroad:borehead_contraption_entity	Borehead Contraption Entity
+entity	luminous_butterflies:monarch	Monarch
+entity	luminous_butterflies:black_swallowtail	Black Swallowtail
+entity	luminous_butterflies:spring_azure	Spring Azure
+entity	luminous_butterflies:yellow_swallowtail	Yellow Swallowtail
+entity	luminous_butterflies:buckeye	Buckeye
+entity	luminous_butterflies:hairstreak	Hairstreak
+entity	luminous_butterflies:white_hairstreak	White Hairstreak
+entity	luminous_butterflies:blue_monarch	Blue Monarch
+entity	luminous_butterflies:emerald_swallowtail	Emerald Swallowtail
+entity	luminous_butterflies:rustypage	Rusty Page
+entity	luminous_butterflies:little_wood	Littlewood Satyr
+entity	luminous_butterflies:zebra_longwing	Zebra Longwing
+entity	luminous_butterflies:orangetip	Orangetip
+entity	luminous_butterflies:charaxes	Savanna Charaxes
+entity	luminous_butterflies:ringlet	Ringlet
+entity	luminous_butterflies:birdwing	Birdwing
+entity	luminous_butterflies:crimson_monarch	Crimson Monarch
+entity	luminous_butterflies:soul_monarch	Soul Monarch
+entity	luminous_butterflies:glowstone_morpho	Glowstone Morpho
+entity	luminous_butterflies:ender_eyespot	Ender Eyespot
+entity	luminous_butterflies:chorus_morpho	Chorus Morpho
+entity	luminous_butterflies:mourning_cloak	Mourning Cloak
+entity	luminous_butterflies:cherry_rose	Cherry Rose
+entity	just_in_nether:bullkin	Bullkin
+entity	just_in_nether:zombified_bullkin	Zombified Bullkin
+entity	just_in_nether:bullkin_brute	Bullkin Brute
+entity	just_in_nether:dullkin	Dullkin
+entity	just_in_nether:zombified_dullkin	Dullkin
+entity	just_in_nether:pigmar	Pigmar
+entity	just_in_nether:bullkindar	Bullkindar
+entity	mutated_items:furnace_golem	Furnace Golem
+entity	mutated_items:quartz_crab	Quartz Crab
+entity	mutated_items:shear_ant	Shear Ant
+entity	mutated_items:redstone_bug	Redstone Bug
+entity	mutated_items:living_totem	Living Totem
+entity	mutated_items:dragon_breath_man	Dragon Breath Man
+entity	mutated_items:cauldron_bud	Cauldron Bud
+entity	mutated_items:fire_fox	Fire Fox
+entity	netherexotics:moloch	Moloch
+entity	luminousworld:crab	Crab
+entity	luminousworld:miner_zombie	Miner Zombie
+entity	luminousworld:miner_skeleton	Miner Skeleton
+entity	luminousworld:sunken_skeleton	Sunken
+entity	luminousworld:swamp_zombie	Swamp Zombie
+entity	luminousworld:swamp_skeleton	Swamp Skeleton
+entity	luminousworld:hollow	Hollow
+entity	luminousworld:sunny_fish	Sunny
+entity	luminousworld:trout_fish	Trout
+entity	luminousworld:firefly	Firefly
+entity	luminousworld:monarch	Monarch Butterfly
+entity	luminousworld:spring_azure	Spring Azure Butterfly
+entity	luminousworld:yellow_swallowtail	Yellow Swallowtail Butterfly
+entity	luminousworld:buckeye	Buckeye Butterfly
+entity	luminousworld:hairstreak	Hairstreak Butterfly
+entity	luminousworld:white_hairstreak	White Hairstreak Butterfly
+entity	luminousworld:blue_monarch	Blue Monarch Butterfly
+entity	luminousworld:emerald_swallowtail	Emerald Swallowtail Butterfly
+entity	luminousworld:rusty_page	Rusty Tipped Page Butterfly
+entity	luminousworld:zebra_longwing	Zebra Longwing Butterfly
+entity	luminousworld:littlewood	Littlewood Satyr Butterfly
+entity	luminousworld:orangetip	Orangetip Butterfly
+entity	luminousworld:mummy	Mummy
+entity	luminousworld:sea_viper	Sea Viper
+entity	luminousworld:penguin	Penguin
+entity	luminousworld:bass_fish	Bass
+entity	luminousworld:mourning_cloak	Mourning Cloak Butterfly
+entity	luminousworld:charaxes	Savannah Charaxes Butterfly
+entity	luminousworld:savannah_zombie	Savanna Zombie
+entity	luminousworld:savannah_skeleton	Savanna Skeleton
+entity	luminousworld:ringlet	Ringlet Butterfly
+entity	luminousworld:dark_oak_zombie	Dark Oak Forest Zombie
+entity	luminousworld:dark_oak_skeleton	Dark Oak Forest Skeleton
+entity	luminousworld:sand_crab	Sand Crab
+entity	luminousworld:bone_stalker	Bone Stalker
+entity	luminousworld:gilded_ent	Gilded Tree Ent
+entity	luminousworld:yeti	Yeti
+entity	luminousworld:zebra	Zebra
+entity	luminousworld:deer	Deer
+entity	luminousworld:cherry_rose	Cherry Rose Butterfly
+entity	luminousworld:birdwing	Birdwing Butterfly
+entity	luminousworld:cherry_zombie	Cherry Zombie
+entity	luminousworld:cherry_skeleton	Cherry Skeleton
+entity	luminousworld:red_mummy	Red Mummy
+entity	luminousworld:coral_sea_viper	Coral Sea Viper
+entity	luminousworld:auburn_zombie	Auburn Zombie
+entity	luminousworld:auburn_skeleton	Auburn Skeleton
+entity	luminousworld:arid_yeti	Arid Yeti
+entity	luminousworld:frigid_gator	Frigid Gator
+entity	luminousworld:baby_wind_phoenix	Baby Wind Phoenix
+entity	luminousworld:bogged_bone_stalker	Bogged Bone Stalker
+entity	luminousworld:baby_penguin	Baby Penguin
+entity	luminousworld:witch_doctor	Witch Doctor
+entity	luminousworld:woodland_witch_doctor	Woodland Witch Doctor
+entity	luminousworld:tree_ent	Tree Ent
+entity	luminousworld:cherry_tree_ent	Cherry Tree Ent
+entity	luminousworld:phoenix	Phoenix
+entity	luminousworld:baby_phoenix	Baby Phoenix
+entity	luminousworld:wind_phoenix	Wind Phoenix
+entity	luminousworld:hermit_king	Hermit King
+entity	luminousworld:golden_hermit_king	Golden Hermit King
+entity	luminousworld:vile_gator	Vile Gator
+entity	luminousworld:shadow	Shadow
+entity	luminousworld:tamed_shadow	Tamed Shadow
+entity	luminousworld:bogged_shadow	Bogged Shadow
+entity	luminousworld:black_swallowtail	Black Swallowtail Butterfly
+entity	luminousworld:soul_monarch	Soul Butterfly
+entity	luminousworld:crimson_monarch	Crimson Monarch Butterfly
+entity	luminousworld:chorus_morpho	Chorus Morpho Butterfly
+entity	luminousworld:glowstone_morpho	Glowstone Morpho
+entity	luminousworld:ender_eyespot	Ender Eyespot Butterfly
+entity	luminousworld:frigid_skeleton	Frigid Skeleton
+entity	luminousworld:frigid_zombie	Frigid Zombie
+entity	luminousworld:squirrel	Squirrel
+entity	luminous_monsters:miner_zombie	Miner Zombie
+entity	luminous_monsters:icy_zombie	Icy Zombie
+entity	luminous_monsters:swamp_zombie	Swamp Zombie
+entity	luminous_monsters:dark_oak_zombie	Dark Oak Zombie
+entity	luminous_monsters:cherry_zombie	Cherry Zombie
+entity	luminous_monsters:savanna_zombie	Savanna Zombie
+entity	luminous_monsters:crimson_walker	Crimson Walker
+entity	luminous_monsters:miner_skeleton	Miner Skeleton
+entity	luminous_monsters:icy_skeleton	Icy Skeleton
+entity	luminous_monsters:swamp_skeleton	Swamp Skeleton
+entity	luminous_monsters:dark_oak_skeleton	Dark Oak Skeleton
+entity	luminous_monsters:hollow_skeleton	Hollow Skeleton
+entity	luminous_monsters:cherry_skeleton	Cherry Skeleton
+entity	luminous_monsters:savanna_skeleton	Savanna Skeleton
+entity	luminous_monsters:sunken_skeleton	Sunken Skeleton
+entity	luminous_monsters:revenant_skeleton	Revenant Skeleton
+entity	lootr:lootr_minecart	Minecart with Loot Chest
+entity	lootr:item_frame	Item Frame with Loot
+entity	aquaculture:bobber	Aquaculture Bobber
+entity	aquaculture:water_arrow	Arrow
+entity	aquaculture:box_turtle	Box Turtle
+entity	aquaculture:arrau_turtle	Arrau Turtle
+entity	aquaculture:starshell_turtle	Starshell Turtle
+entity	aquaculture:atlantic_cod	Atlantic Cod
+entity	aquaculture:blackfish	Blackfish
+entity	aquaculture:pacific_halibut	Pacific Halibut
+entity	aquaculture:atlantic_halibut	Atlantic Halibut
+entity	aquaculture:atlantic_herring	Atlantic Herring
+entity	aquaculture:pink_salmon	Pink Salmon
+entity	aquaculture:pollock	Pollock
+entity	aquaculture:rainbow_trout	Rainbow Trout
+entity	aquaculture:bayad	Bayad
+entity	aquaculture:boulti	Boulti
+entity	aquaculture:capitaine	Capitaine
+entity	aquaculture:synodontis	Synodontis
+entity	aquaculture:smallmouth_bass	Smallmouth Bass
+entity	aquaculture:bluegill	Bluegill
+entity	aquaculture:brown_trout	Brown Trout
+entity	aquaculture:carp	Carp
+entity	aquaculture:catfish	Catfish
+entity	aquaculture:gar	Gar
+entity	aquaculture:minnow	Minnow
+entity	aquaculture:muskellunge	Muskellunge
+entity	aquaculture:perch	Perch
+entity	aquaculture:arapaima	Arapaima
+entity	aquaculture:piranha	Piranha
+entity	aquaculture:tambaqui	Tambaqui
+entity	aquaculture:brown_shrooma	Brown Shrooma
+entity	aquaculture:red_shrooma	Red Shrooma
+entity	aquaculture:jellyfish	Jellyfish
+entity	aquaculture:red_grouper	Red Grouper
+entity	aquaculture:tuna	Tuna
+entity	aquaculture:oak_fish_mount	Oak Fish Mount
+entity	aquaculture:spruce_fish_mount	Spruce Fish Mount
+entity	aquaculture:birch_fish_mount	Birch Fish Mount
+entity	aquaculture:jungle_fish_mount	Jungle Fish Mount
+entity	aquaculture:acacia_fish_mount	Acacia Fish Mount
+entity	aquaculture:dark_oak_fish_mount	Dark Oak Fish Mount
+entity	ad_astra:air_vortex	Air Vortex
+entity	ad_astra:tier_1_rover	Tier 1 Rover
+entity	ad_astra:tier_1_rocket	Tier 1 Rocket
+entity	ad_astra:tier_2_rocket	Tier 2 Rocket
+entity	ad_astra:tier_3_rocket	Tier 3 Rocket
+entity	ad_astra:tier_4_rocket	Tier 4 Rocket
+entity	ad_astra:lander	Lander
+entity	ad_astra:lunarian	Lunarian
+entity	ad_astra:corrupted_lunarian	Corrupted Lunarian
+entity	ad_astra:star_crawler	Star Crawler
+entity	ad_astra:martian_raptor	Martian Raptor
+entity	ad_astra:pygro	Pygro
+entity	ad_astra:zombified_pygro	Zombified Pygro
+entity	ad_astra:pygro_brute	Pygro Brute
+entity	ad_astra:mogler	Mogler
+entity	ad_astra:zombified_mogler	Zombified Mogler
+entity	ad_astra:lunarian_wandering_trader	Lunarian Wandering Trader
+entity	ad_astra:sulfur_creeper	Sulfur Creeper
+entity	ad_astra:glacian_ram	Glacian Ram
+entity	ad_astra:ice_spit	Ice Spit
+entity	unusualfishmod:duality_damselfish	Duality Damselfish
+entity	unusualfishmod:mossthorn	Mossthorn
+entity	unusualfishmod:ripper	Ripper
+entity	unusualfishmod:spindlefish	Spindlefish
+entity	unusualfishmod:rhino_tetra	Rhino Tetra
+entity	unusualfishmod:drooping_gourami	Drooping Gourami
+entity	unusualfishmod:sailor_barb	Sailor Barb
+entity	unusualfishmod:sea_spider	Crowned Spider
+entity	unusualfishmod:triple_twirl_pleco	Triple Twirl Pleco
+entity	unusualfishmod:aero_mono	Aero Mono
+entity	unusualfishmod:clownthorn_shark	Clownthorn Shark
+entity	unusualfishmod:roughback_guitarfish	Roughback Guitarfish
+entity	unusualfishmod:sea_pancake	Sea Pancake
+entity	unusualfishmod:pinkfin	Pinkfin Idol
+entity	unusualfishmod:brick_snail	Brick Snail
+entity	unusualfishmod:zebra_cornetfish	Zebra Cornetfish
+entity	unusualfishmod:tiger_puffer	Tiger Pufferfish
+entity	unusualfishmod:blackcap_snail	Blackcap Snail
+entity	unusualfishmod:sneep_snorp	Sneep Snorp
+entity	unusualfishmod:deep_crawler	Deep Crawler
+entity	unusualfishmod:wizard_jelly	Mana Jellyfish
+entity	unusualfishmod:porcupine_lobsta	Porcupine Lobster
+entity	unusualfishmod:trumpet_squid	Trumpet Squid
+entity	unusualfishmod:freshwater_mantis	Freshwater Mantis
+entity	unusualfishmod:bark_angelfish	Bark Angelfish
+entity	unusualfishmod:shockcat	Shockcat
+entity	unusualfishmod:muddytop	Muddytop Snail
+entity	unusualfishmod:kalappa	Kalappa
+entity	unusualfishmod:skipper	Lobed Skipper
+entity	unusualfishmod:stout_bichir	Stout Bichir
+entity	unusualfishmod:beaked_herring	Beaked Herring
+entity	unusualfishmod:picklefish	Pickle Fish
+entity	unusualfishmod:blindsailfin	Blind Sailfin
+entity	unusualfishmod:demon_herring	Demon Herring
+entity	unusualfishmod:amber_goby	Amber Goby
+entity	unusualfishmod:hatchet_fish	Hatchet Fish
+entity	unusualfishmod:copperflame	Copperflame Anthias
+entity	unusualfishmod:rootball	Rootball
+entity	unusualfishmod:celestial	Celestial Fish
+entity	unusualfishmod:gnasher	Gnasher
+entity	unusualfishmod:prawn	Prawn
+entity	unusualfishmod:squoddle	Squoddle
+entity	unusualfishmod:sea_mosquito	Sea Mosquito
+entity	unusualfishmod:forkfish	Forkfish
+entity	unusualfishmod:spoon_shark	Spoon Shark
+entity	unusualfishmod:coral_skrimp	Skrimp
+entity	unusualfishmod:circus	Circus Fish
+entity	unusualfishmod:blizzardfin	Blizzardfin Tuna
+entity	unusualfishmod:frostyfin	Frosty Fin
+entity	unusualfishmod:eyelash	Eyelash Fish
+entity	unusualfishmod:jungleshark	Tiger Jungle Shark
+entity	unusualfishmod:crimsonshell	Crimsonshell Squid
+entity	unusualfishmod:volt_angler	Volt Anglerfish
+entity	unusualfishmod:tribble	Tribble
+entity	unusualfishmod:prismarine_spear	Prismarine Spear
+entity	unusualfishmod:sea_spike	Sea Spike
+entity	aether:phyg	Phyg
+entity	aether:flying_cow	Flying Cow
+entity	aether:sheepuff	Sheepuff
+entity	aether:moa	Moa
+entity	aether:aerbunny	Aerbunny
+entity	aether:aerwhale	Aerwhale
+entity	aether:blue_swet	Blue Swet
+entity	aether:golden_swet	Golden Swet
+entity	aether:whirlwind	Whirlwind
+entity	aether:evil_whirlwind	Evil Whirlwind
+entity	aether:aechor_plant	Aechor Plant
+entity	aether:cockatrice	Cockatrice
+entity	aether:zephyr	Zephyr
+entity	aether:mimic	Mimic
+entity	aether:sentry	Sentry
+entity	aether:slider	Slider
+entity	aether:valkyrie	Valkyrie
+entity	aether:valkyrie_queen	Valkyrie Queen
+entity	aether:fire_minion	Fire Minion
+entity	aether:sun_spirit	Sun Spirit
+entity	aether:skyroot_boat	Boat
+entity	aether:skyroot_chest_boat	Boat with Chest
+entity	aether:cloud_minion	Cloud Minion
+entity	aether:cold_parachute	Cold Parachute
+entity	aether:golden_parachute	Golden Parachute
+entity	aether:floating_block	Floating Block
+entity	aether:tnt_present	TNT Present
+entity	aether:zephyr_snowball	Zephyr Snowball
+entity	aether:cloud_crystal	Cloud Crystal
+entity	aether:fire_crystal	Fire Crystal
+entity	aether:ice_crystal	Ice Crystal
+entity	aether:thunder_crystal	Thunder Crystal
+entity	aether:golden_dart	Golden Dart
+entity	aether:poison_dart	Poison Dart
+entity	aether:enchanted_dart	Enchanted Dart
+entity	aether:poison_needle	Poison Needle
+entity	aether:lightning_knife	Lightning Knife
+entity	aether:hammer_projectile	Hammer Projectile
+entity	deep_aether:boat	Boat
+entity	deep_aether:chest_boat	Boat With Chest
+entity	deep_aether:quail_egg	Quail Egg
+entity	deep_aether:aerglow_fish	Aerglow Fish
+entity	deep_aether:quail	Quail
+entity	deep_aether:venomite	Venomite
+entity	deep_aether:windfly	Windfly
+entity	deep_aether:eots_controller	Eye of the Storm
+entity	deep_aether:eots_segment	Eye of the Storm
+entity	deep_aether:wind_crystal	Wind Crystal
+entity	deep_aether:fire_projectile	Fire Projectile
+entity	deep_aether:storm_arrow	Storm Arrow
+entity	deep_aether:venomite_bubble	Venomite Bubble
+entity	deep_aether:baby_zephyr	Baby Zephyr
+entity	deep_aether:gentle_wind	Gentle Wind
+entity	naturalist:alligator	Alligator
+entity	naturalist:ant	Ant
+entity	naturalist:anglerfish	Anglerfish
+entity	naturalist:ray	Ray
+entity	naturalist:blobfish	Blobfish
+entity	naturalist:piranha	Piranha
+entity	naturalist:bass	Bass
+entity	naturalist:bear	Bear
+entity	naturalist:black_bear	Black Bear
+entity	naturalist:bird	Bird
+entity	naturalist:boar	Boar
+entity	naturalist:butterfly	Butterfly
+entity	naturalist:capybara	Capybara
+entity	naturalist:caterpillar	Caterpillar
+entity	naturalist:catfish	Catfish
+entity	naturalist:clam	Clam
+entity	naturalist:crab	Crab
+entity	naturalist:deer	Deer
+entity	naturalist:dragonfly	Dragonfly
+entity	naturalist:duck	Duck
+entity	naturalist:dirt_trail	Dirt Trail
+entity	naturalist:carried_food	Carried Food
+entity	naturalist:elephant	Elephant
+entity	naturalist:firefly	Firefly
+entity	naturalist:giant_isopod	Giant Isopod
+entity	naturalist:giraffe	Giraffe
+entity	naturalist:great_white_shark	Great White Shark
+entity	naturalist:hedgehog	Hedgehog
+entity	naturalist:hippo	Hippo
+entity	naturalist:jellyfish	Jellyfish
+entity	naturalist:komodo_dragon	Komodo Dragon
+entity	naturalist:lion	Lion
+entity	naturalist:lizard	Lizard
+entity	naturalist:lizard_tail	Lizard Tail
+entity	naturalist:mammoth	Mammoth
+entity	naturalist:mole	Mole
+entity	naturalist:ostrich	Ostrich
+entity	naturalist:desert_scorpion	Desert Scorpion
+entity	naturalist:jungle_scorpion	Jungle Scorpion
+entity	naturalist:rat	Rat
+entity	naturalist:rhino	Rhino
+entity	naturalist:snail	Snail
+entity	naturalist:snake	Snake
+entity	naturalist:starfish	Starfish
+entity	naturalist:tiger	Tiger
+entity	naturalist:tortoise	Tortoise
+entity	naturalist:turkey	Turkey
+entity	naturalist:vulture	Vulture
+entity	naturalist:zebra	Zebra
+entity	naturalist:whale	Whale
+entity	immersive_aircraft:gyrodyne	Gyrodyne
+entity	immersive_aircraft:biplane	Biplane
+entity	immersive_aircraft:airship	Airship
+entity	immersive_aircraft:cargo_airship	Cargo Airship
+entity	immersive_aircraft:warship	Warship
+entity	immersive_aircraft:quadrocopter	Quadrocopter
+entity	immersive_aircraft:bamboo_hopper	Bamboo Hopper
+entity	benssharks:greatwhiteshark	Great White Shark
+entity	benssharks:nurse_shark	Nurse Shark
+entity	benssharks:remora	Remora
+entity	benssharks:tiger_shark	Tiger Shark
+entity	benssharks:axodile	Axodile
+entity	benssharks:blue_shark	Blue Shark
+entity	benssharks:bonnethead_shark	Bonnethead Shark
+entity	benssharks:mako_shark	Mako Shark
+entity	benssharks:cookiecutter_shark	Cookiecutter Shark
+entity	benssharks:blacktip_reef_shark	Blacktip Reef Shark
+entity	benssharks:basking_shark	Basking Shark
+entity	benssharks:bull_shark	Bull Shark
+entity	benssharks:megalodon	Megalodon
+entity	benssharks:land_shark	Land Shark
+entity	benssharks:lemon_shark	Lemon Shark
+entity	benssharks:thalassoger	Thalassoger
+entity	benssharks:krill	Krill
+entity	benssharks:whale_shark	Whale Shark
+entity	benssharks:pilot_fish	Pilot Fish
+entity	benssharks:greater_axodile	Greater Axodile
+entity	benssharks:roll_particle	rolling
+entity	benssharks:greenland_shark	Greenland Shark
+entity	benssharks:whitetip_shark	Oceanic Whitetip Shark
+entity	benssharks:barracuda	Barracuda
+entity	alexsmobs:grizzly_bear	Grizzly Bear
+entity	alexsmobs:roadrunner	Roadrunner
+entity	alexsmobs:bone_serpent	Bone Serpent
+entity	alexsmobs:bone_serpent_part	Bone Serpent Bones
+entity	alexsmobs:gazelle	Gazelle
+entity	alexsmobs:crocodile	Crocodile
+entity	alexsmobs:fly	Fly
+entity	alexsmobs:hummingbird	Hummingbird
+entity	alexsmobs:orca	Orca
+entity	alexsmobs:sunbird	Sunbird
+entity	alexsmobs:gorilla	Gorilla
+entity	alexsmobs:crimson_mosquito	Crimson Mosquito
+entity	alexsmobs:mosquito_spit	Mosquito Blood
+entity	alexsmobs:rattlesnake	Rattlesnake
+entity	alexsmobs:endergrade	Endergrade
+entity	alexsmobs:hammerhead_shark	Hammerhead Shark
+entity	alexsmobs:shark_tooth_arrow	Shark Tooth Arrow
+entity	alexsmobs:lobster	Lobster
+entity	alexsmobs:komodo_dragon	Komodo Dragon
+entity	alexsmobs:capuchin_monkey	Capuchin Monkey
+entity	alexsmobs:tossed_item	Tossed Item
+entity	alexsmobs:centipede_head	Cave Centipede
+entity	alexsmobs:centipede_body	Cave Centipede Body
+entity	alexsmobs:centipede_tail	Cave Centipede Tail
+entity	alexsmobs:warped_toad	Warped Toad
+entity	alexsmobs:moose	Moose
+entity	alexsmobs:mimicube	Mimicube
+entity	alexsmobs:raccoon	Raccoon
+entity	alexsmobs:blobfish	Blobfish
+entity	alexsmobs:seal	Seal
+entity	alexsmobs:cockroach	Cockroach
+entity	alexsmobs:cockroach_egg	Cockroach Ootheca
+entity	alexsmobs:shoebill	Shoebill
+entity	alexsmobs:elephant	Elephant
+entity	alexsmobs:soul_vulture	Soul Vulture
+entity	alexsmobs:snow_leopard	Snow Leopard
+entity	alexsmobs:spectre	Spectre
+entity	alexsmobs:crow	Crow
+entity	alexsmobs:alligator_snapping_turtle	Alligator Snapping Turtle
+entity	alexsmobs:mungus	Mungus
+entity	alexsmobs:mantis_shrimp	Mantis Shrimp
+entity	alexsmobs:guster	Guster
+entity	alexsmobs:sand_shot	Thrown Sand
+entity	alexsmobs:gust	Gust
+entity	alexsmobs:warped_mosco	Warped Mosco
+entity	alexsmobs:hemolymph	Hemolymph
+entity	alexsmobs:straddler	Straddler
+entity	alexsmobs:stradpole	Stradpole
+entity	alexsmobs:straddleboard	Straddleboard
+entity	alexsmobs:emu	Emu
+entity	alexsmobs:platypus	Platypus
+entity	alexsmobs:dropbear	Dropbear
+entity	alexsmobs:tasmanian_devil	Tasmanian Devil
+entity	alexsmobs:kangaroo	Kangaroo
+entity	alexsmobs:cachalot_whale	Cachalot Whale
+entity	alexsmobs:cachalot_echo	Whale Echo
+entity	alexsmobs:leafcutter_ant	Leafcutter Ant
+entity	alexsmobs:enderiophage	Enderiophage
+entity	alexsmobs:enderiophage_rocket	Enderiophage Rocket
+entity	alexsmobs:bald_eagle	Bald Eagle
+entity	alexsmobs:tiger	Tiger
+entity	alexsmobs:tarantula_hawk	Tarantula Hawk
+entity	alexsmobs:void_worm	Void Worm
+entity	alexsmobs:void_worm_part	Void Worm
+entity	alexsmobs:void_worm_shot	Void Crystal
+entity	alexsmobs:void_portal	Void Portal
+entity	alexsmobs:frilled_shark	Frilled Shark
+entity	alexsmobs:mimic_octopus	Mimic Octopus
+entity	alexsmobs:seagull	Seagull
+entity	alexsmobs:froststalker	Froststalker
+entity	alexsmobs:tusklin	Tusklin
+entity	alexsmobs:laviathan	Laviathan
+entity	alexsmobs:cosmaw	Cosmaw
+entity	alexsmobs:toucan	Toucan
+entity	alexsmobs:maned_wolf	Maned Wolf
+entity	alexsmobs:anaconda	Anaconda
+entity	alexsmobs:anaconda_part	Anaconda
+entity	alexsmobs:vine_lasso	Vine Lasso
+entity	alexsmobs:anteater	Anteater
+entity	alexsmobs:rocky_roller	Rocky Roller
+entity	alexsmobs:flutter	Flutter
+entity	alexsmobs:pollen_ball	Pollen Ball
+entity	alexsmobs:gelada_monkey	Gelada Monkey
+entity	alexsmobs:jerboa	Jerboa
+entity	alexsmobs:terrapin	Terrapin
+entity	alexsmobs:comb_jelly	Comb Jelly
+entity	alexsmobs:cosmic_cod	Cosmic Cod
+entity	alexsmobs:bunfungus	Bunfungus
+entity	alexsmobs:bison	Bison
+entity	alexsmobs:giant_squid	Giant Squid
+entity	alexsmobs:squid_grapple	Tentacle
+entity	alexsmobs:sea_bear	Sea Bear
+entity	alexsmobs:devils_hole_pupfish	Devil's Hole Pupfish
+entity	alexsmobs:catfish	Catfish
+entity	alexsmobs:flying_fish	Flying Fish
+entity	alexsmobs:skelewag	Skelewag
+entity	alexsmobs:rain_frog	Rain Frog
+entity	alexsmobs:potoo	Potoo
+entity	alexsmobs:mudskipper	Mudskipper
+entity	alexsmobs:mud_ball	Mud Ball
+entity	alexsmobs:rhinoceros	Rhinoceros
+entity	alexsmobs:sugar_glider	Sugar Glider
+entity	alexsmobs:farseer	Farseer
+entity	alexsmobs:skreecher	Skreecher
+entity	alexsmobs:underminer	Underminer
+entity	alexsmobs:murmur	Murmur
+entity	alexsmobs:murmur_head	Murmur
+entity	alexsmobs:tendon_segment	Tendon
+entity	alexsmobs:skunk	Skunk
+entity	alexsmobs:fart	Fart Cloud
+entity	alexsmobs:banana_slug	Banana Slug
+entity	alexsmobs:blue_jay	Blue Jay
+entity	alexsmobs:caiman	Caiman
+entity	alexsmobs:triops	Triops
+entity	simulated:honey_glue	Honey Glue
+entity	simulated:launched_plunger	Launched Plunger
+entity	simulated:contraption_diagram	Contraption Diagram
+entity	railways:benchcart	Minecart with Workbench
+entity	railways:jukeboxcart	Minecart with Jukebox
+entity	railways:conductor	Conductor
+entity	twilightforest:adherent	Adherent
+entity	twilightforest:alpha_yeti	Alpha Yeti
+entity	twilightforest:armored_giant	Armored Giant
+entity	twilightforest:bighorn_sheep	Bighorn Sheep
+entity	twilightforest:blockchain_goblin	Block and Chain Goblin
+entity	twilightforest:boar	Boar
+entity	twilightforest:carminite_broodling	Carminite Broodling
+entity	twilightforest:carminite_ghastguard	Carminite Ghastguard
+entity	twilightforest:carminite_ghastling	Carminite Ghastling
+entity	twilightforest:carminite_golem	Carminite Golem
+entity	twilightforest:chain_block	Block and Chain
+entity	twilightforest:charm_effect	Charm Effect
+entity	twilightforest:cube_of_annihilation	Cube of Annihilation
+entity	twilightforest:death_tome	Death Tome
+entity	twilightforest:deer	Deer
+entity	twilightforest:dwarf_rabbit	Dwarf Rabbit
+entity	twilightforest:falling_ice	Falling Ice
+entity	twilightforest:fire_beetle	Fire Beetle
+entity	twilightforest:giant_miner	Giant Miner
+entity	twilightforest:harbinger_cube	Harbinger Cube
+entity	twilightforest:hedge_spider	Hedge Spider
+entity	twilightforest:helmet_crab	Helmet Crab
+entity	twilightforest:hostile_wolf	Hostile Wolf
+entity	twilightforest:hydra	Hydra
+entity	twilightforest:hydra_mortar	Hydra Mortar
+entity	twilightforest:ice_arrow	Ice Arrow
+entity	twilightforest:thrown_ice	Ice Bomb
+entity	twilightforest:ice_crystal	Ice Crystal
+entity	twilightforest:ice_snowball	Ice Snowball
+entity	twilightforest:king_spider	King Spider
+entity	twilightforest:knight_phantom	Knight Phantom
+entity	twilightforest:kobold	Kobold
+entity	twilightforest:lich	Twilight Lich
+entity	twilightforest:lich_bolt	Lich Bolt
+entity	twilightforest:lich_bomb	Explosive Lich Bolt
+entity	twilightforest:lich_minion	Lich Minion
+entity	twilightforest:lower_goblin_knight	Lower Goblin Knight
+entity	twilightforest:loyal_zombie	Loyal Zombie
+entity	twilightforest:maze_slime	Maze Slime
+entity	twilightforest:minoshroom	Minoshroom
+entity	twilightforest:minotaur	Minotaur
+entity	twilightforest:mist_wolf	Mist Wolf
+entity	twilightforest:moonworm_shot	Moonworm
+entity	twilightforest:mosquito_swarm	Mosquito Swarm
+entity	twilightforest:naga	Naga
+entity	twilightforest:nature_bolt	Nature Bolt
+entity	twilightforest:magic_painting	Magic Painting
+entity	twilightforest:penguin	Penguin
+entity	twilightforest:pinch_beetle	Pinch Beetle
+entity	twilightforest:protection_box	Progression Protection Box
+entity	twilightforest:quest_ram	Questing Ram
+entity	twilightforest:raven	Raven
+entity	twilightforest:redcap	Redcap
+entity	twilightforest:redcap_sapper	Redcap Sapper
+entity	twilightforest:rising_zombie	Zombie
+entity	twilightforest:roving_cube	Roving Cube
+entity	twilightforest:seeker_arrow	Seeker Arrow
+entity	twilightforest:skeleton_druid	Skeleton Druid
+entity	twilightforest:slider	Moving Slide Trap
+entity	twilightforest:slime_beetle	Slime Beetle
+entity	twilightforest:slime_blob	Slime Blob
+entity	twilightforest:snow_guardian	Snow Guardian
+entity	twilightforest:snow_queen	Snow Queen
+entity	twilightforest:squirrel	Squirrel
+entity	twilightforest:stable_ice_core	Stable Ice Core
+entity	twilightforest:swarm_spider	Swarm Spider
+entity	twilightforest:thrown_block	Thrown Block
+entity	twilightforest:thrown_wep	Thrown Weapon
+entity	twilightforest:tiny_bird	Tiny Bird
+entity	twilightforest:tome_bolt	Death Tome Bolt
+entity	twilightforest:towerwood_borer	Towerwood Borer
+entity	twilightforest:troll	Troll
+entity	twilightforest:wand_bolt	Twilight Scepter Bolt
+entity	twilightforest:unstable_ice_core	Unstable Ice Core
+entity	twilightforest:upper_goblin_knight	Upper Goblin Knight
+entity	twilightforest:ur_ghast	Ur-Ghast
+entity	twilightforest:winter_wolf	Winter Wolf
+entity	twilightforest:wraith	Wraith
+entity	twilightforest:yeti	Yeti
+entity	farmersdelight:rotten_tomato	Rotten Tomato
+entity	mekanismadditions:baby_bogged	Baby Bogged
+entity	mekanismadditions:baby_creeper	Baby Creeper
+entity	mekanismadditions:baby_enderman	Baby Enderman
+entity	mekanismadditions:baby_skeleton	Baby Skeleton
+entity	mekanismadditions:baby_stray	Baby Stray
+entity	mekanismadditions:baby_wither_skeleton	Baby Wither Skeleton
+entity	mekanismadditions:balloon	Balloon
+entity	mekanismadditions:obsidian_tnt	Obsidian TNT
+entity	fowlplay:blue_jay	Blue Jay
+entity	fowlplay:cardinal	Cardinal
+entity	fowlplay:chickadee	Chickadee
+entity	fowlplay:crow	Crow
+entity	fowlplay:duck	Duck
+entity	fowlplay:goose	Goose
+entity	fowlplay:gull	Gull
+entity	fowlplay:hawk	Hawk
+entity	fowlplay:penguin	Penguin
+entity	fowlplay:pigeon	Pigeon
+entity	fowlplay:raven	Raven
+entity	fowlplay:robin	Robin
+entity	fowlplay:sparrow	Sparrow
+entity	fowlplay:scarecrow	Scarecrow
+entity	adorablehamsterpets:hamster	Hamster
+entity	crittersandcompanions:dragonfly	Dragonfly
+entity	crittersandcompanions:dumbo_octopus	Dumbo Octopus
+entity	crittersandcompanions:ferret	Ferret
+entity	crittersandcompanions:jumping_spider	Jumping Spider
+entity	crittersandcompanions:koi_fish	Koi Fish
+entity	crittersandcompanions:leaf_insect	Leaf Insect
+entity	crittersandcompanions:otter	Otter
+entity	crittersandcompanions:red_panda	Red Panda
+entity	crittersandcompanions:sea_bunny	Sea Bunny
+entity	crittersandcompanions:shima_enaga	Shima Enaga
+entity	crittersandcompanions:ladybug	Ladybug
+entity	crittersandcompanions:stag_beetle	Stag Beetle
+entity	crittersandcompanions:roly_poly	Roly-Poly
+entity	crittersandcompanions:snail	Snail
+entity	crittersandcompanions:stick_bug	Stick Bug
+entity	crittersandcompanions:weevil	Acorn Weevil
+entity	crittersandcompanions:grappling_hook	Grappling Hook
+entity	beachparty:palm_boat	Palm Boat
+entity	beachparty:palm_chest_boat	Palm Chest Boat
+entity	beachparty:beach_ball	Beach Ball
+entity	vinery:dark_cherry_boat	Dark Cherry Boat
+entity	vinery:dark_cherry_chest_boat	Dark Cherry Boat
+entity	vinery:mule	Mule
+entity	vinery:wandering_winemaker	Wandering Winemaker
+entity	farm_and_charm:cart	Supply Cart
+entity	farm_and_charm:plow	Plow
+entity	farm_and_charm:seeder	Seeder
+entity	brewery:beer_elemental	Booze
+entity	brewery:beer_elemental_attack	Brew Burst
+entity	meadow:pine_boat	Pine Boat
+entity	meadow:pine_chest_boat	Pine Chest Boat
+entity	meadow:water_buffalo	Water Buffalo
+entity	meadow:wooly_cow	Highland Cattle
+entity	smallships:cog	Cog
+entity	smallships:brigg	Brigg
+entity	smallships:galley	Galley
+entity	smallships:dhow	Dhow
+entity	smallships:drakkar	Drakkar
+entity	smallships:galleon	Galleon
+entity	smallships:caravel	Caravel
+entity	luminous_beasts:tree_ent	Tree Ent
+entity	luminous_beasts:hermit_king	Hermit King
+entity	luminous_beasts:sand_crab	Sand Hermit
+entity	luminous_beasts:mummy	Mummy
+entity	luminous_beasts:sea_viper	Sea Viper
+entity	luminous_beasts:yeti	Yeti
+entity	luminous_beasts:vile_gator	Vile Gator
+entity	luminous_beasts:baby_phoenix	Baby Phoenix
+entity	luminous_beasts:bone_stalker	Bone Stalker
+entity	luminous_beasts:piglin_executioner	Piglin Executioner
+entity	luminous_beasts:ember	Ember
+entity	luminous_beasts:soul_ember	Soul Ember
+entity	luminous_beasts:the_furnace	The Furnace
+entity	luminous_beasts:horseless_headsman	Horseless Headsman
+entity	luminous_beasts:soul_furnace	The Soul Furnace
+entity	luminous_beasts:the_scarecrow	The Scarecrow
+entity	luminous_beasts:pumpkin_minion	Pumpkin Minion
+entity	luminous_beasts:scarecrow_minion	Scarecrow Minion
+entity	luminous_beasts:gilded_ent	Gilded Tree Ent
+entity	luminous_beasts:witch_doctor	Witch Doctor
+entity	luminous_beasts:woodland_witch_doctor	Woodland Witch Doctor
+entity	luminous_beasts:phoenix	Phoenix
+entity	luminous_beasts:cherry_tree_ent	Cherry Tree Ent
+entity	luminous_beasts:red_mummy	Red Mummy
+entity	luminous_beasts:golden_hermit_king	Golden Hermit King
+entity	luminous_beasts:coral_sea_viper	Coral Sea Viper
+entity	luminous_beasts:arid_yeti	Arid Yeti
+entity	luminous_beasts:frigid_gator	Frigid Gator
+entity	luminous_beasts:wind_phoenix	Wind Phoenix
+entity	luminous_beasts:baby_wind_phoenix	Baby Wind Phoenix
+entity	luminous_beasts:shadow	Shadow
+entity	luminous_beasts:tamed_shadow	Tamed Shadow
+entity	luminous_beasts:bogged_shadow	Bogged Shadow
+entity	luminous_beasts:basalt_executioner	Basalt Executioner
+entity	luminous_beasts:bogged_bone_stalker	Bogged Bone Stalker
+entity	luminous_beasts:crimson_mushlin_king	Crimson Mushlin King
+entity	luminous_beasts:warped_mushlin_king	Warped Mushlin King
+entity	luminous_beasts:luminous_moth	Luminous Moth
+entity	luminous_beasts:albino_moth	Albino Moth
+entity	create:contraption	Contraption
+entity	create:stationary_contraption	Stationary Contraption
+entity	create:gantry_contraption	Gantry Contraption
+entity	create:carriage_contraption	Carriage Contraption
+entity	create:super_glue	Super Glue
+entity	create:crafting_blueprint	Crafting Blueprint
+entity	create:potato_projectile	Potato Projectile
+entity	create:seat	Seat
+entity	create:package	Package
+entity	bits_n_bobs:inert_stationary_contraption	Inert Stationary Contraption
+entity	bits_n_bobs:cogwheel_chain_carriage_contraption	Cogwheel Chain Carriage Contraption
+entity	createmechanicalcompanion:custom_wolf	Mechanical Wolf
+entity	createmechanicalcompanion:illager_engineer	Illager Engineer
+entity	createmechanicalcompanion:potato_cannon_illager	Illager Supervisor
+entity	createmechanicalcompanion:blueprint_painting	Blueprint Schematic
+entity	interiors:big_seat	Big Seat
+entity	create_confectionery:little_gingerbread_man	Gingerbread Man
+entity	fossil:toy_ball	Ball
+entity	fossil:toy_tethered_log	Tethered Log
+entity	fossil:toy_scratching_post	Scratching Post
+entity	fossil:alligator_gar	Alligator Gar
+entity	fossil:allosaurus	Allosaurus
+entity	fossil:ankylosaurus	Ankylosaurus
+entity	fossil:aquilolamna	Aquilolamna
+entity	fossil:arthropleura	Arthropleura
+entity	fossil:brachiosaurus	Brachiosaurus
+entity	fossil:ceratosaurus	Ceratosaurus
+entity	fossil:citipati	Citipati
+entity	fossil:coelacanth	Coelacanth
+entity	fossil:compsognathus	Compsognathus
+entity	fossil:confuciusornis	Confuciusornis
+entity	fossil:crassigyrinus	Crassigyrinus
+entity	fossil:deinonychus	Deinonychus
+entity	fossil:dilophosaurus	Dilophosaurus
+entity	fossil:dimetrodon	Dimetrodon
+entity	fossil:dimorphodon	Dimorphodon
+entity	fossil:diplocaulus	Diplocaulus
+entity	fossil:diplodocus	Diplodocus
+entity	fossil:dodo	Dodo
+entity	fossil:dryosaurus	Dryosaurus
+entity	fossil:edaphosaurus	Edaphosaurus
+entity	fossil:elasmotherium	Elasmotherium
+entity	fossil:gallimimus	Gallimimus
+entity	fossil:gastornis	Gastornis
+entity	fossil:henodus	Henodus
+entity	fossil:ichthyosaurus	Ichthyosaurus
+entity	fossil:kelenken	Kelenken
+entity	fossil:liopleurodon	Liopleurodon
+entity	fossil:mammoth	Mammoth
+entity	fossil:megalania	Megalania
+entity	fossil:megaloceros	Megaloceros
+entity	fossil:megalodon	Megalodon
+entity	fossil:megalograptus	Megalograptus
+entity	fossil:meganeura	Meganeura
+entity	fossil:mosasaurus	Mosasaurus
+entity	fossil:nautilus	Nautilus
+entity	fossil:ornitholestes	Ornitholestes
+entity	fossil:pachycephalosaurus	Pachycephalosaurus
+entity	fossil:pachyrhinosaurus	Pachyrhinosaurus
+entity	fossil:parasaurolophus	Parasaurolophus
+entity	fossil:phorusrhacos	Phorusrhacos
+entity	fossil:platybelodon	Platybelodon
+entity	fossil:plesiosaurus	Plesiosaurus
+entity	fossil:postosuchus	Postosuchus
+entity	fossil:protoceratops	Protoceratops
+entity	fossil:psittacosaurus	Psittacosaurus
+entity	fossil:pteranodon	Pteranodon
+entity	fossil:quagga	Quagga
+entity	fossil:quetzalcoatlus	Quetzalcoatlus
+entity	fossil:sarcosuchus	Sarcosuchus
+entity	fossil:smilodon	Smilodon
+entity	fossil:spinosaurus	Spinosaurus
+entity	fossil:stegosaurus	Stegosaurus
+entity	fossil:sturgeon	Sturgeon
+entity	fossil:therizinosaurus	Therizinosaurus
+entity	fossil:tiktaalik	Tiktaalik
+entity	fossil:titanis	Titanis
+entity	fossil:triceratops	Triceratops
+entity	fossil:tyrannosaurus	Tyrannosaurus
+entity	fossil:velociraptor	Velociraptor
+entity	fossil:dicranurus	Dicranurus
+entity	fossil:lonchodomas	Lonchodomas
+entity	fossil:scotoharpes	Scotoharpes
+entity	fossil:walliserops	Walliserops
+entity	fossil:dinosaur_egg	Dinosaur Egg
+entity	fossil:thrown_bird_egg	Bird Egg
+entity	fossil:failuresaurus	Failuresaurus
+entity	fossil:tar_slime	Tar Slime
+entity	fossil:anubite	Anubite
+entity	fossil:anu_boss	Anu
+entity	fossil:anu_dead	Dead Anu
+entity	fossil:anu_totem	Anu Totem
+entity	fossil:sentry_piglin	Sentry Piglin
+entity	fossil:stone_tablet	Stone Tablet
+entity	fossil:laser_point	Laser Dot
+entity	fossil:javelin	Javelin
+entity	fossil:friendly_piglin	Friendly Zombie Piglin
+entity	blueprint:boat	Boat
+entity	blueprint:chest_boat	Boat with Chest
+entity	blueprint:falling_block	Falling Block
+entity	upgrade_aquatic:sonar_wave	Sonar Wave
+entity	upgrade_aquatic:nautilus	Nautilus
+entity	upgrade_aquatic:pike	Pike
+entity	upgrade_aquatic:perch	Perch
+entity	upgrade_aquatic:lionfish	Lionfish
+entity	upgrade_aquatic:thrasher	Thrasher
+entity	upgrade_aquatic:great_thrasher	Great Thrasher
+entity	upgrade_aquatic:flare	Flare
+entity	upgrade_aquatic:goose	Goose
+entity	upgrade_aquatic:box_jellyfish	Box Jellyfish
+entity	upgrade_aquatic:cassiopea_jellyfish	Cassiopea Jellyfish
+entity	upgrade_aquatic:immortal_jellyfish	Immortal Jellyfish
+entity	autumnity:snail	Snail
+entity	autumnity:turkey	Turkey
+entity	autumnity:turkey_egg	Thrown Turkey Egg
+entity	luminous_nether:mushlin_bumper	Mushlin Bumper
+entity	luminous_nether:piglin_cultist	Piglin Cultist
+entity	luminous_nether:piglin_cultist_leader	Piglin Cultist Leader
+entity	luminous_nether:piglin_ghost	Piglin Ghost
+entity	luminous_nether:piglin_executioner	Piglin Executioner
+entity	luminous_nether:revenant_skeleton	Revenant
+entity	luminous_nether:crimson_walker	Crimson Walker
+entity	luminous_nether:cultist_rider	Piglin Cultist Rider
+entity	luminous_nether:glider	Glider
+entity	luminous_nether:the_furnace	The Furnace
+entity	luminous_nether:ember	Ember
+entity	luminous_nether:gilded_cultist	Gilded Cultist
+entity	luminous_nether:soul_furnace	The Soul Furnace
+entity	luminous_nether:soul_ember	Ember
+entity	luminous_nether:basalt_executioner	Basalt Executioner
+entity	luminous_nether:zombie_piglin_cultist	Zombified Piglin Cultist
+entity	luminous_nether:zombie_piglin_cultist_leader	Zombified Piglin Cultist Leader
+entity	luminous_nether:mushlin_king	Mushlin King
+entity	luminous_nether:guzzleghast	Guzzleghast
+entity	luminous_nether:spirit	Spirit
+entity	luminous_nether:pottergeist	Pottergeist
+entity	luminous_nether:zombie_cultist_rider	Zombified Piglin Cultist Rider
+entity	luminous_nether:warped_mushlin_king	Warped Mushlin King
+entity	alexscaves:boat	Boat
+entity	alexscaves:chest_boat	Chest Boat
+entity	alexscaves:moving_metal_block	Magnetizing Block
+entity	alexscaves:teletor	Teletor
+entity	alexscaves:magnetic_weapon	Magnetic Weapon
+entity	alexscaves:magnetron	Magnetron
+entity	alexscaves:boundroid	Boundroid
+entity	alexscaves:boundroid_winch	Boundroid Winch
+entity	alexscaves:ferrouslime	Ferrouslime
+entity	alexscaves:notor	Notor
+entity	alexscaves:quarry_smasher	Magnetic Quarry Smasher
+entity	alexscaves:seeking_arrow	Seeking Arrow
+entity	alexscaves:subterranodon	Subterranodon
+entity	alexscaves:vallumraptor	Vallumraptor
+entity	alexscaves:grottoceratops	Grottoceratops
+entity	alexscaves:trilocaris	Trilocaris
+entity	alexscaves:tremorsaurus	Tremorsaurus
+entity	alexscaves:relicheirus	Relicheirus
+entity	alexscaves:luxtructosaurus	Luxtructosaurus
+entity	alexscaves:tephra	Tephra
+entity	alexscaves:atlatitan	Atlatitan
+entity	alexscaves:falling_tree_block	Falling Tree
+entity	alexscaves:crushed_block	Crushed Block
+entity	alexscaves:limestone_spear	Limestone Spear
+entity	alexscaves:extinction_spear	Extinction Spear
+entity	alexscaves:dinosaur_spirit	Dinosaur Spirit
+entity	alexscaves:nuclear_explosion	Nuclear Explosion
+entity	alexscaves:nuclear_bomb	Nuclear Bomb
+entity	alexscaves:nucleeper	Nucleeper
+entity	alexscaves:radgill	Radgill
+entity	alexscaves:brainiac	Brainiac
+entity	alexscaves:thrown_waste_drum	Thrown Waste Drum
+entity	alexscaves:gammaroach	Gammaroach
+entity	alexscaves:raycat	Raycat
+entity	alexscaves:cinder_brick	Cinder Brick
+entity	alexscaves:tremorzilla	Tremorzilla
+entity	alexscaves:lanternfish	Lanternfish
+entity	alexscaves:sea_pig	Sea Pig
+entity	alexscaves:submarine	Submarine
+entity	alexscaves:hullbreaker	Hullbreaker
+entity	alexscaves:gossamer_worm	Gossamer Worm
+entity	alexscaves:tripodfish	Tripodfish
+entity	alexscaves:deep_one	Deep One
+entity	alexscaves:ink_bomb	Ink Bomb
+entity	alexscaves:deep_one_knight	Deep One Knight
+entity	alexscaves:deep_one_mage	Deep One Mage
+entity	alexscaves:water_bolt	Water Bolt
+entity	alexscaves:wave	Wave
+entity	alexscaves:mine_guardian	Mine Guardian
+entity	alexscaves:mine_guardian_anchor	Mine Guardian Anchor
+entity	alexscaves:floater	Floater
+entity	alexscaves:guano	Guano
+entity	alexscaves:falling_guano	Guano
+entity	alexscaves:gloomoth	Gloomoth
+entity	alexscaves:underzealot	Underzealot
+entity	alexscaves:watcher	Watcher
+entity	alexscaves:corrodent	Corrodent
+entity	alexscaves:vesper	Vesper
+entity	alexscaves:forsaken	Forsaken
+entity	alexscaves:beholder_eye	Beholder
+entity	alexscaves:desolate_dagger	Desolate Dagger
+entity	alexscaves:burrowing_arrow	Burrowing Arrow
+entity	alexscaves:dark_arrow	Dark Arrow
+entity	alexscaves:sweetish_fish	Sweetish Fish
+entity	alexscaves:caniac	Caniac
+entity	alexscaves:gumbeeper	Gumbeeper
+entity	alexscaves:gumball	Gumball
+entity	alexscaves:candicorn	Candicorn
+entity	alexscaves:gum_worm	Gum Worm
+entity	alexscaves:gum_worm_segment	Gum Worm
+entity	alexscaves:caramel_cube	Caramel Cube
+entity	alexscaves:melted_caramel	Melted Caramel
+entity	alexscaves:gummy_bear	Gummy Bear
+entity	alexscaves:licowitch	Licowitch
+entity	alexscaves:spinning_peppermint	Spinning Peppermint
+entity	alexscaves:sugar_staff_hex	Sugar Staff Hex
+entity	alexscaves:gingerbread_man	Gingerbread Man
+entity	alexscaves:falling_frostmint	Falling Frostmint
+entity	alexscaves:candy_cane_hook	Candy Cane Hook
+entity	alexscaves:soda_bottle_rocket	Purple Soda Bottle Rocket
+entity	alexscaves:frostmint_spear	Frostmint Spear
+entity	endermanoverhaul:badlands_enderman	Badlands Enderman
+entity	endermanoverhaul:cave_enderman	Cave Enderman
+entity	endermanoverhaul:crimson_forest_enderman	Crimson Forest Enderman
+entity	endermanoverhaul:dark_oak_enderman	Dark Oak Enderman
+entity	endermanoverhaul:desert_enderman	Desert Enderman
+entity	endermanoverhaul:end_enderman	End Enderman
+entity	endermanoverhaul:end_islands_enderman	End Islands Enderman
+entity	endermanoverhaul:flower_fields_enderman	Flower Fields Enderman
+entity	endermanoverhaul:ice_spikes_enderman	Ice Spikes Enderman
+entity	endermanoverhaul:mushroom_fields_enderman	Mushroom Fields Enderman
+entity	endermanoverhaul:nether_wastes_enderman	Nether Wastes Enderman
+entity	endermanoverhaul:coral_enderman	Coral Enderman
+entity	endermanoverhaul:savanna_enderman	Savanna Enderman
+entity	endermanoverhaul:snowy_enderman	Snowy Enderman
+entity	endermanoverhaul:soulsand_valley_enderman	Soulsand Valley Enderman
+entity	endermanoverhaul:swamp_enderman	Swamp Enderman
+entity	endermanoverhaul:warped_forest_enderman	Warped Forest Enderman
+entity	endermanoverhaul:windswept_hills_enderman	Windswept Hills Enderman
+entity	endermanoverhaul:pet_enderman	Pet Enderman
+entity	endermanoverhaul:hammerhead_pet_enderman	Hammerhead Pet Enderman
+entity	endermanoverhaul:axolotl_pet_enderman	Axolotl Pet Enderman
+entity	endermanoverhaul:scarab	Scarab
+entity	endermanoverhaul:spirit	Spirit
+entity	endermanoverhaul:ender_bullet	Ender Bullet
+entity	endermanoverhaul:corrupted_pearl	Corrupted Pearl
+entity	endermanoverhaul:soul_pearl	Soul Pearl
+entity	endermanoverhaul:ancient_pearl	Ancient Pearl
+entity	endermanoverhaul:bubble_pearl	Bubble Pearl
+entity	endermanoverhaul:summoner_pearl	Summoner Pearl
+entity	endermanoverhaul:icy_pearl	Icy Pearl
+entity	endermanoverhaul:crimson_pearl	Crimson Pearl
+entity	endermanoverhaul:warped_pearl	Warped Pearl
+entity	ae2:tiny_tnt_primed	Tiny TNT Primed
+entity	another_furniture:seat	Seat
+entity	fishofthieves:splashtail	Splashtail
+entity	fishofthieves:pondie	Pondie
+entity	fishofthieves:islehopper	Islehopper
+entity	fishofthieves:ancientscale	Ancientscale
+entity	fishofthieves:plentifin	Plentifin
+entity	fishofthieves:wildsplash	Wildsplash
+entity	fishofthieves:devilfish	Devilfish
+entity	fishofthieves:battlegill	Battlegill
+entity	fishofthieves:wrecker	Wrecker
+entity	fishofthieves:stormfish	Stormfish
+entity	fishofthieves:shoal	Shoal
+entity	quark:quark_boat	Boat
+entity	quark:quark_chest_boat	Boat with Chest
+entity	quark:crab	Crab
+entity	quark:dyed_item_frame	Dyed Item Frame
+entity	quark:forgotten	Forgotten
+entity	quark:foxhound	Foxhound
+entity	quark:glass_frame	Glass Item Frame
+entity	quark:gravisand	Floating Gravisand
+entity	quark:pickarang	Pickarang
+entity	quark:shiba	Shiba
+entity	quark:stoneling	Stoneling
+entity	quark:torch_arrow	Torch Arrow
+entity	quark:toretoise	Oretoise
+entity	quark:totem	Totem of Holding
+entity	quark:wraith	Wraith
+entity	quark:soul_bead	Soul Bead
+entity	create_sa:brass_drone	Brass Drone
+entity	create_sa:drill_module	Drill Module
+entity	create_sa:magnet_module	Magnet Module
+entity	create_sa:fan_module	Fan Module
+entity	create_sa:vault_module	Vault Module
+entity	create_sa:brass_cube_r	Brass Cube
+entity	create_sa:lifted_block	Lifted Block
+entity	immersive_paintings:painting	Painting
+entity	immersive_paintings:glow_painting	Glowing Painting
+entity	immersive_paintings:graffiti	Graffiti
+entity	immersive_paintings:glow_graffiti	Glowing Graffiti
+entity	minecolonies:barbarian	Barbarian
+entity	minecolonies:archerbarbarian	Archer Barbarian
+entity	minecolonies:chiefbarbarian	Chief Barbarian
+entity	minecolonies:pirate	Pirate
+entity	minecolonies:archerpirate	Archer Pirate
+entity	minecolonies:chiefpirate	Pirate Captain
+entity	minecolonies:cavalry_horse	Cavalry Horse
+entity	minecolonies:mummy	Mummy
+entity	minecolonies:archermummy	Archer Mummy
+entity	minecolonies:pharao	Pharaoh
+entity	minecolonies:amazon	Amazon
+entity	minecolonies:amazonspearman	Amazon Spearman
+entity	minecolonies:amazonchief	Amazon Leader
+entity	minecolonies:shieldmaiden	Shieldmaiden
+entity	minecolonies:norsemenarcher	Archer Norseman
+entity	minecolonies:norsemenchief	Chief Norseman
+entity	minecolonies:drownedpirate	Drowned Pirate
+entity	minecolonies:drownedarcherpirate	Drowned Pirate Archer
+entity	minecolonies:drownedchiefpirate	Drowned Pirate Chief
+entity	minecolonies:campbarbarian	Barbarian
+entity	minecolonies:camparcherbarbarian	Archer Barbarian
+entity	minecolonies:campchiefbarbarian	Chief Barbarian
+entity	minecolonies:camppirate	Pirate
+entity	minecolonies:camparcherpirate	Archer Pirate
+entity	minecolonies:campchiefpirate	Pirate Captain
+entity	minecolonies:campamazon	Amazon
+entity	minecolonies:campamazonspearman	Amazon Spearman
+entity	minecolonies:campamazonchief	Amazon Leader
+entity	minecolonies:campmummy	Mummy
+entity	minecolonies:camparchermummy	Archer Mummy
+entity	minecolonies:camppharao	Pharaoh
+entity	minecolonies:campshieldmaiden	Shieldmaiden
+entity	minecolonies:campnorsemenarcher	Archer Norseman
+entity	minecolonies:campnorsemenchief	Chief Norseman
+entity	minecolonies:campdrownedpirate	Drowned Pirate
+entity	minecolonies:campdrownedarcherpirate	Drowned Pirate Archer
+entity	minecolonies:campdrownedchiefpirate	Drowned Pirate Chief
+dimension	minecraft:overworld	Overworld
+dimension	minecraft:the_nether	Nether
+dimension	minecraft:the_end	End
+dimension	twilightforest:twilight_forest	Twilight Forest
+dimension	ad_astra:mars	Mars
+dimension	aether:the_aether	Aether
+dimension	ad_astra:mars_orbit	Mars Orbit
+dimension	ad_astra:earth_orbit	Earth Orbit
+dimension	ad_astra:mercury	Mercury
+dimension	ad_astra:moon_orbit	Moon Orbit
+dimension	ad_astra:glacio	Glacio
+dimension	ad_astra:venus	Venus
+dimension	ad_astra:mercury_orbit	Mercury Orbit
+dimension	ad_astra:venus_orbit	Venus Orbit
+dimension	ad_astra:glacio_orbit	Glacio Orbit
+dimension	ad_astra:moon	Moon

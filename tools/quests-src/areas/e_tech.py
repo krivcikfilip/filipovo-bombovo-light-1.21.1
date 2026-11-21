@@ -577,7 +577,7 @@ AE2 = dict(
             "Kompas vyrobíš v nabíječce (&eCharger&r). Nabíječku vyrobíš ze železa a mědi. Polož ji, vlož do ní obyčejný kompas a dodej energii.",
             "Bez jiného zdroje energie použij kliku (&eWooden Crank&r): polož ji na nabíječku shora nebo zespodu a klikej na ni pravým tlačítkem."]),
         Q("ae_find", "Najdi meteorit", dep=["ae_compass"], tasks=[structure("ae2:meteorite")], xp=30, icon="ae2:sky_stone_block", d=[
-            "Dojdi k meteoritu. Je to kráter s koulí z nebeského kamene (&eSky Stone&r).",
+            "Dojdi k meteoritu (stavba &eMeteorite&r). Je to kráter s koulí z nebeského kamene (&eSky Stone&r).",
             "Prokopej se do středu. Najdeš certusový křemen, rostoucí krystaly, pučící certus a uprostřed tajemnou kostku (&eMysterious Cube&r).",
             "Vykopej tajemnou kostku obyčejným krumpáčem, ne Něžným dotekem. Vypadnou z ní všechny lisy pro razítkovač (&eInscriber&r)."]),
         Q("ae_presses", "Lisy", dep=["ae_find"], tasks=[adv("ae2:main/presses")], xp=30, icon="ae2:logic_processor_press", d=[
@@ -770,3 +770,7 @@ NO_RECIPE = {
     "mekanism:pellet_polonium": "Tlaková reakční komora: polonium + voda + fluoritový prach (processing/lategame/polonium_pellet/from_reaction.json)",
     "mekanism:pellet_plutonium": "Tlaková reakční komora: plutonium + voda + fluoritový prach (processing/lategame/plutonium_pellet/from_reaction.json)",
 }
+
+# České překlady vlastních jmen (regex bez ohledu na velikost písmen -> anglický název). Stavbu ae2:meteorite
+# („meteorit“ -> Meteorite) sem dát nejde: regex by chytal i anglické „Meteorite“ a běžné slovo meteorit.
+PROPER_NAMES_CZ = {}

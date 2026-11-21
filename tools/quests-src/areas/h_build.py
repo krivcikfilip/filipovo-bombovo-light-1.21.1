@@ -47,7 +47,7 @@ COLONIES = dict(
             "&cSyrové jídlo občané jíst nechtějí. Shnilé maso je jen nouzové řešení.&r",
         ]),
         Q("builder", "Stavitelova budova", dep=["found"], items=[("minecolonies:blockhutbuilder", 1)], xp=40, d=[
-            "Stavitel je nejdůležitější občan. Staví a vylepšuje všechny ostatní budovy.",
+            "Stavitel (&eBuilder&r) je nejdůležitější občan. Staví a vylepšuje všechny ostatní budovy.",
             "Stavitelovu budovu (&eBuilder's Hut&r) vyrobíš z prken, dveří a nástroje stavby. Polož ji nástrojem stavby – najdeš ji v kategorii &eFundamentals&r.",
             "Je to jediná budova, kterou si stavitel postaví sám bez hotové chaty. Ostatní dělníci začnou pracovat, až je jejich budova aspoň na úrovni 1.",
         ]),
@@ -92,23 +92,23 @@ COLONIES = dict(
             "Do krčmy chodí návštěvníci. Klikni na návštěvníka – řekne ti, co chce za to, že zůstane. Potřebuješ ale volnou postel. &cNěkterý návštěvník si věci vezme a uteče.&r",
         ]),
         Q("lumber", "Dřevorubec", dep=["builder_done"], items=[("minecolonies:blockhutlumberjack", 1)], xp=30, d=[
-            "Dřevorubec (&eForester's Hut&r) kácí stromy a sází nové sazenice. Stavitel bude dřeva potřebovat hodně.",
-            "Vyrobíš ho z prken, dřevěné sekery a nástroje stavby. Dřevorubec potřebuje sekeru.",
+            "Dřevorubec (&eForester&r) kácí stromy a sází nové sazenice. Stavitel bude dřeva potřebovat hodně.",
+            "Jeho budovu (&eForester's Hut&r) vyrobíš z prken, dřevěné sekery a nástroje stavby. Dřevorubec potřebuje sekeru.",
             "&aTip:&r stromy hledá až 150 bloků daleko. Kmen, pod kterým leží kamení, za strom nepovažuje – tak ochráníš své dřevěné stavby.",
         ]),
         Q("farmer", "Farma", dep=["builder_done"], items=[("minecolonies:blockhutfarmer", 1), ("minecolonies:blockhutfield", 1)], xp=40, d=[
-            "Farmář pěstuje plodiny pro celou kolonii. Farmu (&eFarm&r) vyrobíš z prken, dřevěné motyky a nástroje stavby.",
+            "Farmář (&eFarmer&r) pěstuje plodiny pro celou kolonii. Farmu (&eFarm&r) vyrobíš z prken, dřevěné motyky a nástroje stavby.",
             "Farmář potřebuje pole (&eField&r): balík slámy nebo dýně, kůže a tyčky. Polož ho blízko farmy na volné místo s vodou, nebo nech stavitele postavit hotové pole z nástroje stavby.",
             "Pravým tlačítkem na pole vyber, co se na něm má pěstovat. Farmář zvládne jedno pole za každou úroveň farmy.",
             "&cCukrovou třtinu, kaktus a bambus farmář nepěstuje – na to je plantáž.&r",
         ]),
         Q("fisher", "Rybář", dep=["builder_done"], items=[("minecolonies:blockhutfisherman", 1)], xp=30, d=[
-            "Rybář chytá ryby a občas i poklady. Budovu (&eFisher's Hut&r) vyrobíš z prken, rybářského prutu a nástroje stavby.",
+            "Rybář (&eFisher&r) chytá ryby a občas i poklady. Budovu (&eFisher's Hut&r) vyrobíš z prken, rybářského prutu a nástroje stavby.",
             "Potřebuje vodu aspoň 7 × 7 bloků a hlubokou aspoň 1 blok. Budova musí stát ve stejné výšce jako voda a nejvýš 10 bloků od ní.",
             "Rybář potřebuje rybářský prut.",
         ]),
         Q("miner", "Důl", dep=["builder_done"], items=[("minecolonies:blockhutminer", 1)], xp=40, d=[
-            "Horník vykope pod kolonií šachtu a chodby a nosí kámen a rudy. Důl (&eMine&r) vyrobíš z prken, dřevěného krumpáče a nástroje stavby.",
+            "Horník (&eMiner&r) vykope pod kolonií šachtu a chodby a nosí kámen a rudy. Důl (&eMine&r) vyrobíš z prken, dřevěného krumpáče a nástroje stavby.",
             "Potřebuje krumpáč a lopatu, někdy i sekeru. Na stavbu šachty chce bloky, půlbloky, ploty, žebříky a pochodně.",
             "&aTip:&r když horník stojí nahoře a nic nedělá, chybí mu materiál. Podívej se do jeho požadavků.",
         ]),
@@ -123,7 +123,7 @@ COLONIES = dict(
             "Dítě se narodí, když v kolonii bydlí muž a žena a někde je volná postel. Děti musí jíst a spát, aby vyrostly.",
         ]),
         Q("food", "Jídelna", dep=["farmer"], items=[("minecolonies:blockhutcook", 1)], xp=40, d=[
-            "V jídelně (&eDining Hall&r) pracuje číšník. Na peci uvaří maso a brambory a rozdává jídlo hladovým občanům.",
+            "V jídelně (&eDining Hall&r) pracuje číšník (&eWaiter&r). Na peci uvaří maso a brambory a rozdává jídlo hladovým občanům.",
             "Vyrobíš ji z prken, jablka a nástroje stavby. Dodej jí palivo (třeba uhlí) a jídlo a v nastavení zapni, co se má podávat (&eMenu&r).",
             "&aTip:&r Syrové jídlo občané nejedí. Kdo bydlí v lepším domě, chce i lepší jídlo – to uvaří šéfkuchař (kapitola &eŽivot občanů&r).",
         ]),
@@ -143,7 +143,7 @@ COLONIES = dict(
             "Každý nový občan potřebuje postel a jídlo. Stav domy dřív, než dojdou místa.",
         ]),
         Q("courier", "Kurýr", dep=["builder2"], items=[("minecolonies:blockhutdeliveryman", 1)], xp=40, d=[
-            "Teď už nemusíš všechno nosit sám. Kurýr nosí věci mezi skladištěm a budovami.",
+            "Teď už nemusíš všechno nosit sám. Kurýr (&eCourier&r) nosí věci mezi skladištěm a budovami.",
             "Kurýrovu budovu (&eCourier's Hut&r) vyrobíš z prken, kožených bot a nástroje stavby. Se železnými botami dostaneš 2 kusy.",
             "Kurýr s budovou úrovně 1 unese najednou 1 stoh věcí, s úrovní 2 dva stohy, s úrovní 3 čtyři a s úrovní 4 osm.",
         ]),
@@ -154,14 +154,14 @@ COLONIES = dict(
             "&aTip:&r místa přidáš vylepšením budovy. Na úrovni 5 můžeš regály ještě zvětšit za smaragdový blok.",
         ]),
         Q("university", "Univerzita", dep=["warehouse"], items=[("minecolonies:blockhutuniversity", 1)], xp=80, shape="hexagon", size=1.5, s="Expert", d=[
-            "Univerzita (&eUniversity&r) je brána k pokročilé kolonii. Výzkumníci v ní odemykají nové budovy a vylepšení.",
+            "Univerzita (&eUniversity&r) je brána k pokročilé kolonii. Výzkumníci (&eResearcher&r) v ní odemykají nové budovy a vylepšení.",
             "Vyrobíš ji z prken, 2 knih a nástroje stavby.",
             "Každý výzkum stojí předměty a čas. Vyšší úroveň univerzity odemkne další stupně výzkumu a víc výzkumníků.",
             "&cZrušený výzkum ti předměty nevrátí.&r Víc v kapitole &eVýzkum a obrana&r.",
         ]),
         Q("guards", "Strážní věž", dep=["builder_done"], items=[("minecolonies:blockhutguardtower", 1)], xp=40, d=[
             "V noci chodí monstra a občas přijdou nájezdníci. Strážní věž (&eGuard Tower&r) má jednoho strážného, který v ní i bydlí.",
-            "Z prken, luku a nástroje stavby vyrobíš rovnou 2 věže. Strážný je rytíř (meč) nebo lučištník (luk) a potřebuje zbraň a zbroj.",
+            "Z prken, luku a nástroje stavby vyrobíš rovnou 2 věže. Strážný je rytíř (&eKnight&r, meč) nebo lučištník (&eArcher&r, luk) a potřebuje zbraň a zbroj.",
             "&aTip:&r strážní věže zvětšují území kolonie. Mimo území nové budovy nepostavíš.",
         ]),
         Q("hospital", "Nemocnice", dep=["university"], items=[("minecolonies:blockhuthospital", 1)], xp=40, d=[
@@ -174,17 +174,17 @@ COLONIES = dict(
             "Výzkum &eHigher Learning&r stojí 3 knihy a potřebuješ domy s úrovněmi dohromady aspoň 3. Blok budovy vyrobíš z prken, 2 pírek a nástroje stavby.",
         ]),
         Q("sawmill", "Pila", dep=["lumber", "university"], items=[("minecolonies:blockhutsawmill", 1)], xp=40, d=[
-            "Pila (&eSawmill&r) je první řemeslník. Vyrábí ze dřeva prkna, schody, dveře a další věci, které stavitel potřebuje.",
+            "V pile (&eSawmill&r) pracuje první řemeslník, truhlář (&eCarpenter&r). Vyrábí ze dřeva prkna, schody, dveře a další věci, které stavitel potřebuje.",
             "Výzkum &eWoodwork&r stojí 64 prken a dřevorubci musí mít dohromady úroveň aspoň 3. Blok budovy: 3 dřevěné sekery, prkna a nástroj stavby.",
             "Řemeslníkovi musíš recepty naučit v jeho budově. Víc v kapitole &eŘemeslníci&r.",
         ]),
         Q("stonemason", "Kameník", dep=["miner", "university"], items=[("minecolonies:blockhutstonemason", 1)], xp=30, d=[
-            "Kameník (&eStonemason's Hut&r) vyrábí věci z kamene: kamenné cihly, schody, půlbloky a zdi.",
-            "Výzkum &eStone Cake&r stojí 64 vytesaných kamenných cihel (&eChiseled Stone Bricks&r) a doly musí mít dohromady úroveň aspoň 3. Blok budovy: 3 kamenné cihly, prkna a nástroj stavby.",
+            "Kameník (&eStonemason&r) vyrábí věci z kamene: kamenné cihly, schody, půlbloky a zdi.",
+            "Výzkum &eStone Cake&r stojí 64 vytesaných kamenných cihel (&eChiseled Stone Bricks&r) a doly musí mít dohromady úroveň aspoň 3. Blok budovy (&eStonemason's Hut&r): 3 kamenné cihly, prkna a nástroj stavby.",
         ]),
         Q("smith", "Kovář", dep=["miner", "university"], items=[("minecolonies:blockhutblacksmith", 1)], xp=40, d=[
-            "Kovář (&eBlacksmith's Hut&r) vyrábí nástroje, zbraně a zbroj, takže je už nemusíš kovat sám.",
-            "Výzkum &eHitting Iron!&r stojí kovadlinu a doly musí mít dohromady úroveň aspoň 3. Blok budovy: 3 železné ingoty, prkna a nástroj stavby.",
+            "Kovář (&eBlacksmith&r) vyrábí nástroje, zbraně a zbroj, takže je už nemusíš kovat sám.",
+            "Výzkum &eHitting Iron!&r stojí kovadlinu a doly musí mít dohromady úroveň aspoň 3. Blok budovy (&eBlacksmith's Hut&r): 3 železné ingoty, prkna a nástroj stavby.",
         ]),
         Q("barracks", "Kasárny", dep=["guards", "university"], items=[("minecolonies:blockhutbarracks", 1)], xp=60, d=[
             "Kasárny (&eBarracks&r) mají až 4 kasárenské věže a v každé až 5 strážných. To je až 20 strážných na malém místě.",
@@ -227,7 +227,7 @@ COL_LIFE = dict(
             "&aTip:&r cibule, česnek a tvrdá pšenice padají v každé krajině. Jiné plodiny jen v určitém podnebí – třeba rýže ve vlhkém, zelí ve studeném.",
         ]),
         Q("kitchen", "Kuchyně šéfkuchaře", dep=["crops"], items=[("minecolonies:blockhutkitchen", 1)], xp=40, d=[
-            "Kdo bydlí v lepším domě, chce i lepší jídlo. Šéfkuchař v kuchyni (&eChef's Kitchen&r) vaří speciální jídla.",
+            "Kdo bydlí v lepším domě, chce i lepší jídlo. Šéfkuchař (&eChef&r) v kuchyni (&eChef's Kitchen&r) vaří speciální jídla.",
             "Blok budovy vyrobíš z prken, udírny a nástroje stavby.",
             "&aTip:&r jídla z MineColonies mají v popisku úroveň (1 až 3). Čím vyšší, tím spokojenější občané.",
         ]),
@@ -237,16 +237,16 @@ COL_LIFE = dict(
             "Když na jídlo najedeš myší, popisek ukáže jeho úroveň a kdo ho umí uvařit.",
         ]),
         Q("baker", "Pekárna", dep=["intro"], items=[("minecolonies:blockhutbaker", 1)], xp=30, d=[
-            "Pekař (&eBakery&r) peče chleba, sušenky, dýňový koláč a dort. Pekař umí i speciální chleby.",
+            "Pekař (&eBaker&r) v pekárně (&eBakery&r) peče chleba, sušenky, dýňový koláč a dort. Pekař umí i speciální chleby.",
             "Blok budovy vyrobíš z prken, pšenice a nástroje stavby. V nastavení pekárny vybereš, co má péct.",
         ]),
         Q("herders1", "Kurník a kravín", dep=["intro"], items=[("minecolonies:blockhutchickenherder", 1), ("minecolonies:blockhutcowboy", 1)], xp=30, d=[
-            "Pastevci chovají zvířata. Kurník (&eChicken Farmer's Hut&r) dává vejce, pírka a maso, kravín (&eCowhand's Hut&r) mléko, kůži a hovězí.",
+            "Pastevci (&eChickenherder&r, &eCowhand&r…) chovají zvířata. Kurník (&eChicken Farmer's Hut&r) dává vejce, pírka a maso, kravín (&eCowhand's Hut&r) mléko, kůži a hovězí.",
             "Bloky budov: prkna, nástroj stavby a vajíčko (kurník) nebo syrový steak (kravín).",
             "&cPastevec začne pracovat, až mu přivedeš aspoň 2 zvířata.&r Potřebuje sekeru a krmení (slepicím semínka, kravám pšenici).",
         ]),
         Q("herders2", "Vepřín a ovčín", dep=["herders1"], items=[("minecolonies:blockhutswineherder", 1), ("minecolonies:blockhutshepherd", 1)], xp=30, d=[
-            "Vepřín (&eSwineherd's Hut&r) dává vepřové, ovčín (&eShepherd's Hut&r) vlnu a skopové.",
+            "Vepřín (&eSwineherd's Hut&r) dává vepřové, ovčín (&eShepherd's Hut&r) vlnu a skopové. Pracují v nich pastevci &eSwineherder&r a &eShepherd&r.",
             "Bloky budov: prkna, nástroj stavby a syrová kotleta (vepřín) nebo nůžky (ovčín).",
             "Prasata se krmí mrkví, ovce pšenicí. Ovčák potřebuje i nůžky. Na každou úroveň budovy chová pastevec 2 zvířata.",
         ]),
@@ -261,22 +261,22 @@ COL_LIFE = dict(
             "Hlídej jídlo, nemoci a bydlení. Nešťastný soused kazí náladu i ostatním.",
         ]),
         Q("composter", "Kompostárna", dep=["pop25", "minecolonies:university"], items=[("minecolonies:blockhutcomposter", 1)], xp=40, d=[
-            "Kompostér (&eComposter's Hut&r) dělá z odpadu (listí, sazenice, jídlo) kompost. Kompost potřebuje farmář a květinářka.",
+            "Kompostér (&eComposter&r) dělá z odpadu (listí, sazenice, jídlo) kompost. Kompost potřebuje farmář a květinářka.",
             "Výzkum &eBiodegradable&r stojí 64 kostní moučky a farmy musí mít dohromady úroveň 3.",
-            "Blok budovy potřebuje kompostovací sud (&eCompost Barrel&r) z prken, hlíny, železného ingotu a nástroje stavby.",
+            "Blok budovy (&eComposter's Hut&r) potřebuje kompostovací sud (&eCompost Barrel&r) z prken, hlíny, železného ingotu a nástroje stavby.",
             "&cV nastavení vyber, co kompostovat. S jídlem opatrně, ať občanům nezbude hlad.&r",
         ]),
         Q("plantation", "Plantáž", dep=["composter"], items=[("minecolonies:blockhutplantation", 1), ("minecolonies:blockhutplantationfield", 1)], xp=40, d=[
-            "Plantážník pěstuje cukrovou třtinu, kaktusy a bambus – to, co farmář neumí.",
+            "Plantážník (&ePlanter&r) pěstuje cukrovou třtinu, kaktusy a bambus – to, co farmář neumí.",
             "Výzkum &eLet It Grow&r stojí 16 kompostu a farmy musí mít dohromady úroveň 3. Plantáž (&ePlantation&r) vyrobíš z prken, kaktusu a nástroje stavby.",
             "Plantážní pole (&ePlantation Field&r) z tyček, železného ingotu, prken a nástroje stavby označí, kde má pracovat.",
         ]),
         Q("florist", "Květinářství", dep=["composter"], optional=True, items=[("minecolonies:blockhutflorist", 1)], xp=30, d=[
-            "Květinářka (&eFlower Shop&r) pěstuje květiny pomocí kompostu.",
+            "Květinářka (&eFlorist&r) v květinářství (&eFlower Shop&r) pěstuje květiny pomocí kompostu.",
             "Výzkum &eFlower Power&r stojí 64 kompostu a kompostárny musí mít dohromady úroveň 3. Blok budovy: prkna, vlčí mák a nástroj stavby.",
         ]),
         Q("beekeeper", "Včelín", dep=["pop25"], optional=True, items=[("minecolonies:blockhutbeekeeper", 1)], xp=30, d=[
-            "Včelař (&eApiary&r) se stará o včely a úly a sbírá med.",
+            "Včelař (&eBeekeeper&r) ve včelíně (&eApiary&r) se stará o včely a úly a sbírá med.",
             "Blok budovy vyrobíš z prken, včelího úlu a nástroje stavby.",
             "Úly mu přiřadíš nástrojem na úly (&eHive Tool&r), který dostaneš v jeho budově.",
         ]),
@@ -285,7 +285,7 @@ COL_LIFE = dict(
             "Výzkum &eKeen&r stojí 3 knihy a domy musí mít dohromady úroveň 3. Blok budovy: prkna, kniha a nástroj stavby.",
         ]),
         Q("graveyard", "Hřbitov", dep=["pop25", "minecolonies:university"], items=[("minecolonies:blockhutgraveyard", 1)], xp=40, d=[
-            "Když občan zemře, zůstane po něm hrob. Hrobník na hřbitově (&eGraveyard&r) hroby sbírá, takže kolonie truchlí kratší dobu.",
+            "Když občan zemře, zůstane po něm hrob. Hrobník (&eUndertaker&r) na hřbitově (&eGraveyard&r) hroby sbírá, takže kolonie truchlí kratší dobu.",
             "Výzkum &eRemembrance&r stojí 8 kostí a radnice musí mít úroveň 2. Blok budovy: kámen, kost a nástroj stavby.",
             "&aTip:&r hrobník může mrtvého občana i oživit. Šanci zvýší vyšší úroveň hřbitova, mystické místo a výzkum.",
         ]),
@@ -349,12 +349,12 @@ COL_CRAFT = dict(
             "Obě vyrobíš z prken, truhel a nástroje stavby. Hodí se k tvému domu nebo dolu.",
         ]),
         Q("smeltery", "Tavírna", dep=["intro", "minecolonies:university"], items=[("minecolonies:blockhutsmeltery", 1)], xp=40, d=[
-            "Tavič v tavírně (&eSmeltery&r) taví rudy na ingoty.",
+            "Tavič (&eSmelter&r) v tavírně (&eSmeltery&r) taví rudy na ingoty.",
             "Výzkum &eHot!&r stojí 4 kbelíky lávy a doly musí mít dohromady úroveň 2. Blok budovy: prkna, železný ingot a nástroj stavby.",
             "Tavírna úrovně 3 dává z rudných bloků víc jako štěstí II, úroveň 5 jako štěstí IV.",
         ]),
         Q("stonesmeltery", "Cihelna", dep=["intro", "minecolonies:stonemason"], items=[("minecolonies:blockhutstonesmeltery", 1)], xp=40, d=[
-            "Cihelna (&eBrick yard&r) vypaluje v peci kamenné bloky (třeba hladký kámen) a dělá dřevěné uhlí pro ostatní řemeslníky.",
+            "Cihlář (&eBrickmaker&r) v cihelně (&eBrick yard&r) vypaluje v peci kamenné bloky (třeba hladký kámen) a dělá dřevěné uhlí pro ostatní řemeslníky.",
             "Výzkum &eThe Flintstones&r stojí 64 cihel a potřebuje kameníka úrovně 1. Blok budovy: prkna, pec, kamenné cihly a nástroj stavby.",
         ]),
         Q("crusher", "Drtič", dep=["intro", "minecolonies:stonemason"], items=[("minecolonies:blockhutcrusher", 1)], xp=40, d=[
@@ -367,33 +367,33 @@ COL_CRAFT = dict(
             "Třídič potřebuje síto (&eMesh&r). Nejdřív síto z vláken, lepší síta se odemknou s vyšší úrovní třídiče.",
         ]),
         Q("fletcher", "Výrobce šípů", dep=["door"], items=[("minecolonies:blockhutfletcher", 1)], xp=30, d=[
-            "Výrobce šípů (&eFletcher's Hut&r) vyrábí věci z vlny, vlákna a kůže, třeba postele a koberce.",
-            "Výzkum &eStringwork&r stojí 16 vláken a potřebuje pilu úrovně 1. Blok budovy: prkna, vlákno a nástroj stavby.",
+            "Výrobce šípů (&eFletcher&r) vyrábí věci z vlny, vlákna a kůže, třeba postele a koberce.",
+            "Výzkum &eStringwork&r stojí 16 vláken a potřebuje pilu úrovně 1. Blok budovy (&eFletcher's Hut&r): prkna, vlákno a nástroj stavby.",
         ]),
         Q("glassblower", "Sklářství", dep=["smeltery"], items=[("minecolonies:blockhutglassblower", 1)], xp=40, d=[
-            "Sklář (&eGlassblower's Hut&r) taví písek na sklo a vyrábí tabulky a další skleněné věci.",
-            "Výzkum &eThose Lungs!&r stojí 64 skla a tavírny musí mít dohromady úroveň 3. Blok budovy: prkna, sklo a nástroj stavby.",
+            "Sklář (&eGlassblower&r) taví písek na sklo a vyrábí tabulky a další skleněné věci.",
+            "Výzkum &eThose Lungs!&r stojí 64 skla a tavírny musí mít dohromady úroveň 3. Blok budovy (&eGlassblower's Hut&r): prkna, sklo a nástroj stavby.",
         ]),
         Q("dyer", "Barvířství", dep=["intro", "mc_life:composter"], optional=True, items=[("minecolonies:blockhutdyer", 1)], xp=30, d=[
-            "Barvíř (&eDyer's Hut&r) vyrábí barviva a barví vlnu, sklo a další bloky.",
-            "Výzkum &eRainbow Heaven&r stojí 64 vlčích máků a kompostárny musí mít dohromady úroveň 3. Blok budovy: prkna, červené barvivo a nástroj stavby.",
+            "Barvíř (&eDyer&r) vyrábí barviva a barví vlnu, sklo a další bloky.",
+            "Výzkum &eRainbow Heaven&r stojí 64 vlčích máků a kompostárny musí mít dohromady úroveň 3. Blok budovy (&eDyer's Hut&r): prkna, červené barvivo a nástroj stavby.",
         ]),
         Q("mechanic", "Mechanik", dep=["intro", "minecolonies:smith"], items=[("minecolonies:blockhutmechanic", 1)], xp=50, shape="hexagon", size=1.5, s="Pokročilý", d=[
-            "Mechanik (&eMechanic's Hut&r) vyrábí věci z redstonu a to, co ostatní řemeslníci neumí.",
-            "Výzkum &eWhat ya Need?&r stojí 64 redstonového prachu a kováři musí mít dohromady úroveň 3. Blok budovy: prkna, redstonový blok a nástroj stavby.",
+            "Mechanik (&eMechanic&r) vyrábí věci z redstonu a to, co ostatní řemeslníci neumí.",
+            "Výzkum &eWhat ya Need?&r stojí 64 redstonového prachu a kováři musí mít dohromady úroveň 3. Blok budovy (&eMechanic's Hut&r): prkna, redstonový blok a nástroj stavby.",
             "S mechanikem kolonie vyrobí skoro všechno, co stavby potřebují.",
         ]),
         Q("concrete", "Betonárna", dep=["crusher"], optional=True, items=[("minecolonies:blockhutconcretemixer", 1)], xp=30, d=[
-            "Betonář (&eConcrete Mixer's Hut&r) vyrábí betonový prášek i hotový beton.",
-            "Výzkum &ePave the Road&r stojí 32 betonu a potřebuje drtič úrovně 1. Blok budovy: prkna, bílý betonový prášek a nástroj stavby.",
+            "Betonář (&eConcrete Mixer&r) vyrábí betonový prášek i hotový beton.",
+            "Výzkum &ePave the Road&r stojí 32 betonu a potřebuje drtič úrovně 1. Blok budovy (&eConcrete Mixer's Hut&r): prkna, bílý betonový prášek a nástroj stavby.",
         ]),
         Q("enchanter", "Věž zaklínače", dep=["intro"], items=[("minecolonies:blockhutenchanter", 1)], xp=50, d=[
-            "Zaklínač (&eEnchanter's Tower&r) sbírá zkušenosti ostatních občanů a vyrábí očarované knihy a kouzelné svitky.",
+            "Zaklínač (&eEnchanter&r) ve své věži (&eEnchanter's Tower&r) sbírá zkušenosti ostatních občanů a vyrábí očarované knihy a kouzelné svitky.",
             "Blok budovy vyrobíš z prken, oltáře očarování a nástroje stavby. Zaklínač potřebuje mytické knihy (&eAncient Tome&r), které padají z nájezdníků.",
         ]),
         Q("quarry", "Lom", dep=["intro"], optional=True, items=[("minecolonies:simplequarry", 1)], xp=40, d=[
             "Lom (&eSimple Quarry&r) je velká jáma, kterou vykope lomař. Je to bezpečnější než důl, ale dává hlavně obyčejný kámen.",
-            "Vyrobíš ho z prken, sudu, železného krumpáče a nástroje stavby. Pak v dole najmi lomaře a přiřaď ho k lomu.",
+            "Vyrobíš ho z prken, sudu, železného krumpáče a nástroje stavby. Pak v dole najmi lomaře (&eQuarrier&r) a přiřaď ho k lomu.",
             "Větší lom (&eMedium Quarry&r) se vyrábí s diamantovým krumpáčem.",
         ]),
         Q("deep_mine", "Až na dno", dep=["intro"], optional=True, icon="minecraft:iron_pickaxe",
@@ -402,12 +402,12 @@ COL_CRAFT = dict(
             "Důl úrovně 1 začne kopat chodby pod výškou 50, úrovně 2 pod výškou 30 a úrovně 3 pod výškou 5.",
         ]),
         Q("netherworker", "Netherový důl", dep=["enchanter", "mechanic", "mc_defense:raid"], items=[("minecolonies:blockhutnetherworker", 1)], xp=80, shape="hexagon", size=1.5, s="Expert", d=[
-            "Netherový horník (&eNether Mine&r) chodí na výpravy do Netheru a nosí odtamtud suroviny. Je to nebezpečná práce.",
+            "Netherový horník (&eNether Miner&r) chodí z budovy &eNether Mine&r na výpravy do Netheru a nosí odtamtud suroviny. Je to nebezpečná práce.",
             "Nejdřív výzkum &eMore Scrolls&r (věž zaklínače úrovně 3, 64 papíru, 1 mytická kniha, 64 lapisu), pak &eOpen the Nether&r (3 pozlacené černé kameny – &eGilded Blackstone&r).",
             "Blok budovy vyrobíš z prken, obsidiánu a nástroje stavby.",
         ]),
         Q("alchemist", "Alchymista", dep=["netherworker"], optional=True, items=[("minecolonies:blockhutalchemist", 1)], xp=60, d=[
-            "Alchymista (&eAlchemist Tower&r) vaří lektvary a pěstuje bradavičník a jmelí.",
+            "Alchymista (&eAlchemist&r) ve své věži (&eAlchemist Tower&r) vaří lektvary a pěstuje bradavičník a jmelí.",
             "Výzkum &eMagic Potions&r (po &eOpen the Nether&r) stojí 16 bradavičníků. Blok budovy: prkna, varný stojan a nástroj stavby.",
         ]),
     ],
@@ -422,8 +422,8 @@ COL_DEF = dict(
     quests=[
         Q("intro", "Ochrana kolonie", dep=["minecolonies:guards"], icon="minecolonies:blockhutguardtower", tasks=[auto()], xp=10, d=[
             "Kolonii ohrožují monstra a nájezdníci. Občané se sami neubrání – potřebují strážné.",
-            "Nájezdy přicházejí v noci. Kolonii napadnou barbaři, piráti, seveřané, amazonky nebo mumie – podle okolí.",
-            "Piráti a seveřané připlouvají na lodi. &cDokud loď nezničíš, útočí dál.&r",
+            "Nájezdy přicházejí v noci. Podle okolí kolonii napadnou nájezdníci &eBarbarian&r, &ePirate&r, &eNorseman&r, &eAmazon&r nebo &eMummy&r.",
+            "Nájezdníci &ePirate&r a &eNorseman&r připlouvají na lodi. &cDokud loď nezničíš, útočí dál.&r",
             "{@pagebreak}",
             "V této kapitole postavíš obranu od první věže po kasárny a výcvik a k tomu se naučíš výzkum na univerzitě.",
             "&aTip:&r Osvětli kolonii pochodněmi. Méně monster = méně zraněných občanů.",
@@ -468,15 +468,15 @@ COL_DEF = dict(
             "Strážní bydlí přímo ve věži, takže nezabírají postele v domech.",
         ]),
         Q("combat_academy", "Bojová akademie", dep=["barracks_tower"], items=[("minecolonies:blockhutcombatacademy", 1)], xp=50, d=[
-            "V bojové akademii (&eCombat Academy&r) se občan cvičí na rytíře bez rizika, že zemře.",
+            "V bojové akademii (&eCombat Academy&r) se občan cvičí na rytíře (&eKnight&r) bez rizika, že zemře.",
             "Výzkum &eImproved Swords&r stojí 6 bloků železa a kasárny musí mít úroveň 3. Blok budovy: prkna, 3 železné meče a nástroj stavby.",
         ]),
         Q("archery", "Lukostřelnice", dep=["barracks_tower"], items=[("minecolonies:blockhutarchery", 1)], xp=50, d=[
-            "Na lukostřelnici (&eArchery&r) se občan cvičí na lučištníka.",
+            "Na lukostřelnici (&eArchery&r) se občan cvičí na lučištníka (&eArcher&r).",
             "Výzkum &eImproved Bows&r stojí 6 bloků železa a kasárny musí mít úroveň 3. Blok budovy: prkna, 3 luky a nástroj stavby.",
         ]),
         Q("stable", "Stáj", dep=["barracks_tower"], optional=True, items=[("minecolonies:blockhutstable", 1)], xp=40, d=[
-            "Ve stáji (&eStable&r) se chovají koně pro jezdce. Jízdní strážný je rychlý a odolný.",
+            "Ve stáji (&eStable&r) se chovají koně pro jezdce. Jízdní strážný (&eCavalry&r) je rychlý a odolný.",
             "Výzkum &eMounted Combat&r stojí sedlo a vodítko. Blok budovy: prkna, zlaté jablko a nástroj stavby.",
         ]),
         Q("gatehouse", "Strážnice u brány", dep=["first_guard"], optional=True, items=[("minecolonies:blockhutgatehouse", 1)], xp=30, d=[
@@ -802,3 +802,10 @@ FURNITURE = dict(
 CHAPTERS = [COLONIES, COL_LIFE, COL_CRAFT, COL_DEF, COL_TOOLS, BUILDING, FURNITURE]
 
 NO_RECIPE = {}
+
+# Přeložená vlastní jména (regex bez ohledu na velikost písmen -> anglický název ze hry)
+PROPER_NAMES_CZ = {
+    r"\bbarbar(?!ian)\w*": "Barbarian",
+    r"seveřan\w*": "Norseman",
+    r"amazonk\w*": "Amazon",
+}

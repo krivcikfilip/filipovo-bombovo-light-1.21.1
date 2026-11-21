@@ -28,7 +28,7 @@ def load(only_area=None):
     cdir = os.path.join(adir, ".cache")
     os.makedirs(cdir, exist_ok=True)
     sys.path.insert(0, adir)
-    chapters, owner, no_recipe = [], {}, {}
+    chapters, owner, no_recipe, proper_cz = [], {}, {}, {}
     for a in AREAS:
         path = os.path.join(adir, a + ".py")
         try:
@@ -47,7 +47,8 @@ def load(only_area=None):
             chapters.append(ch)
             owner[ch["key"]] = a
         no_recipe.update(getattr(m, "NO_RECIPE", {}))
-    return chapters, owner, no_recipe
+        proper_cz.update(getattr(m, "PROPER_NAMES_CZ", {}))
+    return chapters, owner, no_recipe, proper_cz
 
 
 def main():
@@ -56,8 +57,8 @@ def main():
     ap.add_argument("--install", action="store_true")
     ap.add_argument("--area")
     args = ap.parse_args()
-    chapters, owner, no_recipe = load(args.area)
-    errors, warnings = validate.run(chapters, owner, no_recipe, only_area=args.area)
+    chapters, owner, no_recipe, proper_cz = load(args.area)
+    errors, warnings = validate.run(chapters, owner, no_recipe, only_area=args.area, proper_cz=proper_cz)
     for w in warnings:
         print("W", w)
     for e in errors:

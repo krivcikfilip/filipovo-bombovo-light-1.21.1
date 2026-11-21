@@ -19,6 +19,20 @@ tak, aby nemusel hledat tutoriály na YouTube.
   název z JEI zvýrazněný žlutě, např. `mechanický lis (&eMechanical Press&r)`. Přesný anglický název
   ber ze sloupce `en_name` v `tools/registry/item_names.tsv` (ne z hlavy). Dále v textu už stačí česky.
   Vanilla předměty mají ve hře češtinu – u nich stačí český název (ten je ve sloupci `cs_name`, pokud je).
+- **Vlastní jména se NEPŘEKLÁDAJÍ** (rozhodnutí uživatele 2026-11-21). Hra běží anglicky a hráč musí poznat jméno,
+  které vidí ve hře (F3, mapa, JEI, Jade, chat). Anglicky, přesně podle `en_us` lang, zůstávají:
+  názvy modů, **dimenzí** (Overworld, Nether, End, Aether, Twilight Forest, Moon, Mars…), **biomů** (Primordial Caves,
+  Cherry Grove…), **staveb** (Trial Chambers, Ancient City, Woodland Mansion…), **bossů** (Ender Dragon, Wither, Warden,
+  Naga, Lich…) a **mobů z modů** (Vallumraptor, Deep One…), jednotky a zkratky (SU, RPM, FE, mB, AE, ME).
+  Běžní vanilla mobové smí zůstat česky (kráva, zombie, kostlivec, pavouk, vesničan).
+  Předměty zůstávají ve tvaru `český název (&eEnglish Name&r)` (viz níže).
+  Skloňuj jen jednoslovná jména, kde je to v češtině běžné (v Netheru, do Endu, v Aetheru, poraz Wardena).
+  Víceslovná jména neskloňuj, pomoz si českým slovem: „v dimenzi Twilight Forest“, „v biomu Primordial Caves“,
+  „poraz bosse Ender Dragon“, „najdi stavbu Trial Chambers“. Krátké české vysvětlení smíš přidat
+  („Twilight Forest je les věčného soumraku“), ale nikdy jako náhradu jména.
+  Validátor hlídá: úkol biome/dimension/kill (mobové z modů a vanilla bossové) musí mít v textu anglické jméno
+  (`tools/registry/names_en.tsv`) a známé české překlady jmen jsou chyba (`PROPER_NAMES_CZ` ve `validate.py`
+  a v oblasti).
 - Formátovací kódy: `&e` předmět/pojem, `&b` název modu (při prvním výskytu), `&c` varování
   (nebezpečí, ztráta věcí), `&a` tip. **Každé zvýraznění ukonči `&r`.** Holé `&` (např. „Slice & Dice“) je OK.
 - Názvy questů: česky, krátké (ideálně do 25 znaků), podstatné jméno nebo výzva: „Mechanický lis“, „Postav větrný mlýn“.

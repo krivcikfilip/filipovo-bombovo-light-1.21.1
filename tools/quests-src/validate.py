@@ -34,9 +34,46 @@ TASK_FIXES = {
 }
 ALLOWED_TASKS = {"item", "kill", "dimension", "biome", "structure", "advancement", "stat"}
 
+# ---- Vlastní jména se nepřekládají (mody, dimenze, biomy, stavby, bossové a mobové, jednotky).
+# Hra běží anglicky, hráč musí v textu poznat jméno, které vidí ve hře (F3, mapa, JEI, Jade).
+# names_en.tsv: druh, id, anglický název z lang souborů modů (biome/entity/dimension).
+NAMES_EN = defaultdict(dict)
+_ne = os.path.join(REG, "names_en.tsv")
+if os.path.exists(_ne):
+    for _l in open(_ne, encoding="utf-8"):
+        _p = _l.rstrip("\n").split("\t")
+        if len(_p) == 3:
+            NAMES_EN[_p[0]][_p[1]] = _p[2]
+# Bossové z vanilly (ostatní vanilla mobové smí zůstat česky: kráva, zombie, kostlivec…)
+VANILLA_BOSSES = {"minecraft:ender_dragon", "minecraft:wither", "minecraft:warden", "minecraft:elder_guardian"}
+# České překlady vlastních jmen, které se nesmí objevit (regex, bez ohledu na velikost písmen -> anglický název).
+# Další přidávej sem nebo do PROPER_NAMES_CZ ve své oblasti.
+PROPER_NAMES_CZ = {
+    r"soumra[čc]n\w* les": "Twilight Forest",
+    r"pravěk\w* jeskyn": "Primordial Caves",
+    r"toxick\w* jeskyn": "Toxic Caves",
+    r"magnetick\w* jeskyn": "Magnetic Caves",
+    r"cukrov\w* dutin": "Candy Cavity",
+    r"opuštěn\w* dutin": "Forlorn Hollows",
+    r"propastn\w* rokl": "Abyssal Chasm",
+    r"zkušební\w* komnat": "Trial Chambers",
+    r"starověk\w* měst": "Ancient City",
+    r"ender\w* drak|drak\w* z endu": "Ender Dragon",
+}
 
-def run(chapters, owner, no_recipe, only_area=None):
+
+def _name_in(name, text):
+    """Anglický název je v textu (dovolí české koncovky: Aether -> Aetheru, Naga -> Nagu)."""
+    t = text.lower()
+    n = name.lower()
+    if n in t:
+        return True
+    return len(n) >= 4 and n[:-1] in t  # Naga -> Nagu, Lich -> Licha
+
+
+def run(chapters, owner, no_recipe, only_area=None, proper_cz=None):
     errors, warnings = [], []
+    cz_rx = [(re.compile(k, re.I), v) for k, v in {**PROPER_NAMES_CZ, **(proper_cz or {})}.items()]
     group_keys = {g for g, _ in GROUPS}
     keys = {(c["key"], q.k) for c in chapters for q in c["quests"]}
     item_quests = defaultdict(list)
@@ -76,6 +113,10 @@ def run(chapters, owner, no_recipe, only_area=None):
         chk_item(ck, "-", c["icon"], "ikona kapitoly")
         if not CZ.search(c["title"] + " " + c.get("subtitle", "")):
             W(ck, "-", f"název/podnázev kapitoly asi není česky: {c['title']!r}")
+        for rx, en in cz_rx:
+            m = rx.search(c["title"] + " | " + c.get("subtitle", ""))
+            if m:
+                E(ck, "-", f"přeložené vlastní jméno {m.group(0)!r} -> piš {en!r}")
         seen_q = set()
         for q in c["quests"]:
             if q.k in seen_q:
@@ -99,6 +140,21 @@ def run(chapters, owner, no_recipe, only_area=None):
                     W(ck, q.k, f"příliš dlouhý odstavec ({len(s)} znaků) - rozděl ho")
                 if re.search(r"&[0-9a-fk-o]", s) and not re.search(r"&r", s):
                     W(ck, q.k, "barevný kód bez &r na konci zvýraznění")
+            for rx, en in cz_rx:
+                m = rx.search(text)
+                if m:
+                    E(ck, q.k, f"přeložené vlastní jméno {m.group(0)!r} -> piš {en!r}")
+            for t in q.tasks:
+                ty = t.get("type")
+                need = None
+                if ty == "biome" and not t["biome"].startswith("#"):
+                    need = NAMES_EN["biome"].get(t["biome"])
+                elif ty == "dimension":
+                    need = NAMES_EN["dimension"].get(t["dimension"])
+                elif ty == "kill" and (not t["entity"].startswith("minecraft:") or t["entity"] in VANILLA_BOSSES):
+                    need = NAMES_EN["entity"].get(t["entity"])
+                if need and not _name_in(need, text):
+                    E(ck, q.k, f"v názvu ani popisu chybí anglické jméno {need!r} ({ty}) - vlastní jména se nepřekládají")
             if not q.items and not q.tasks:
                 E(ck, q.k, "quest nemá žádný úkol")
             for iid, n in q.items:

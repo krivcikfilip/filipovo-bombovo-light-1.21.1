@@ -11,20 +11,20 @@ ALEXSCAVES = dict(
         # ---------- Začátečník: jak jeskyně najít
         Q("intro", "Alex's Caves", tasks=[auto()], icon="alexscaves:cave_book", xp=10, s="Začátečník", **M, d=[
             "&bAlex's Caves&r přidává vzácné jeskynní biomy hluboko pod zemí.",
-            "V našem světě jich najdeš pět. Šestý, propastná rokle (&eAbyssal Chasm&r), vzniká jen pod hlubokým oceánem, a ten u nás uvnitř hranice světa není.",
+            "V našem světě jich najdeš pět: &eMagnetic Caves&r, &ePrimordial Caves&r, &eToxic Caves&r, &eForlorn Hollows&r a &eCandy Cavity&r. Šestý, &eAbyssal Chasm&r, vzniká jen pod hlubokým oceánem, a ten u nás uvnitř hranice světa není.",
             "Každý biom má vlastní tvory, suroviny, výbavu a bosse. Některé jsou velmi nebezpečné.",
             "Tady se naučíš jeskyně najít, přežít v nich a nakonec porazit jejich bosse.",
-            "&aTip: Začni hledáním podzemní chatky. Jsou v ní kamenné tabulky, které tě k jeskyním dovedou.&r"]),
-        Q("cabin", "Podzemní chatka", dep=["intro"], tasks=[structure("alexscaves:underground_cabin")], icon="minecraft:spruce_door", xp=20, d=[
-            "Podzemní chatky jsou malé dřevěné domky v obyčejných jeskyních.",
-            "Najdeš je při průzkumu jeskyní. Mapu k chatce ti někdy prodá kartograf (vesničan) nebo ji najdeš v truhle v opuštěném dole.",
+            "&aTip: Začni hledáním malé dřevěné stavby Underground Cabin. Jsou v ní kamenné tabulky, které tě k jeskyním dovedou.&r"]),
+        Q("cabin", "Underground Cabin", dep=["intro"], tasks=[structure("alexscaves:underground_cabin")], icon="minecraft:spruce_door", xp=20, d=[
+            "&eUnderground Cabin&r je malý dřevěný domek v obyčejné jeskyni.",
+            "Najdeš ho při průzkumu jeskyní. Mapu k chatce ti někdy prodá kartograf (vesničan) nebo ji najdeš v truhle v dole &eMineshaft&r.",
             "&aV truhlách chatky bývají kamenné tabulky a někdy i kniha jeskyní.&r"]),
         Q("tablet", "Kamenná tabulka", dep=["cabin"], items=[("alexscaves:cave_tablet", 1)], xp=30, d=[
             "Kamenná tabulka (&eCave Tablet&r) je zápis o jednom jeskynním biomu.",
-            "Najdeš ji v truhlách podzemních chatek a v ruinách uvnitř jeskynních biomů.",
+            "Najdeš ji v truhlách stavby &eUnderground Cabin&r a v ruinách uvnitř jeskynních biomů.",
             "Sama ti cestu neukáže. Musíš ji přeložit na stole (&eSpelunkery Table&r)."]),
         Q("spelunkery", "Stůl na překlady", dep=["cabin"], items=[("alexscaves:spelunkery_table", 1)], xp=20, d=[
-            "Stůl na překlady (&eSpelunkery Table&r) nejde vyrobit. Najdeš ho jen v podzemní chatce.",
+            "Stůl na překlady (&eSpelunkery Table&r) nejde vyrobit. Najdeš ho jen ve stavbě &eUnderground Cabin&r.",
             "Vytěž ho a odnes si ho domů."]),
         Q("codex", "Přelož tabulku", dep=["tablet", "spelunkery"], tasks=[adv("alexscaves:alexscaves/cave_codex")], icon="alexscaves:cave_codex", xp=30, d=[
             "Na stůl polož tabulku a papír. Na tabulce se ukážou runy.",
@@ -41,13 +41,13 @@ ALEXSCAVES = dict(
             "&aKaždý kodex ti v ní odemkne víc informací o svém biomu.&r"]),
 
         # ---------- Magnetické jeskyně
-        Q("magnetic_enter", "Magnetické jeskyně", dep=["map"], tasks=[biome("alexscaves:magnetic_caves")], icon="alexscaves:galena", xp=40, d=[
-            "Magnetické jeskyně jsou z šedého kamene galenitu (&eGalena&r) a rostou v nich obří krystaly.",
+        Q("magnetic_enter", "Magnetic Caves", dep=["map"], tasks=[biome("alexscaves:magnetic_caves")], icon="alexscaves:galena", xp=40, d=[
+            "&eMagnetic Caves&r jsou jeskyně z šedého kamene galenitu (&eGalena&r) a rostou v nich obří krystaly.",
             "Rudé neodymové krystaly přitahují kovové věci, modré je odpuzují.",
             "&cŽelezná a netheritová výbava tě tu bude přitahovat i odstrkovat. Lepší je nekovová výbava.&r",
             "&cTeslovy baňky (&eTesla Bulb&r) dávají rány bleskem a při rozbití vybuchují.&r"]),
         Q("magnetic", "Neodym", dep=["magnetic_enter"], items=[("alexscaves:raw_scarlet_neodymium", 1), ("alexscaves:raw_azure_neodymium", 1)], xp=40, d=[
-            "Surový neodym získáš rozbíjením krystalů (sloupů a uzlů) v magnetických jeskyních.",
+            "Surový neodym získáš rozbíjením krystalů (sloupů a uzlů) v biomu &eMagnetic Caves&r.",
             "Padá i z Teletora, létajícího nepřítele se železnou zbraní nad hlavou.",
             "&aTip: Galenit obsahuje železo. Z 9 galenitu je lisovaný galenit (&ePacked Galena&r), který se v peci přetaví na železný nuget.&r"]),
         Q("neodymium_ingot", "Neodymové ingoty", dep=["magnetic"], items=[("alexscaves:scarlet_neodymium_ingot", 1), ("alexscaves:azure_neodymium_ingot", 1)], xp=30, d=[
@@ -68,7 +68,7 @@ ALEXSCAVES = dict(
             "Rukavice ho vystřelí asi 20 bloků daleko. Nástroj zraní moby nebo sám těží bloky, na které je určený.",
             "Vyrobíš ji z lisovaného galenitu, &eTelecore&r, rudého neodymového ingotu a slizu &eFerrouslimeball&r (padá z Ferrouslime)."]),
         Q("magnetron", "Magnetron", dep=["magnetic"], tasks=[kill("alexscaves:magnetron")], icon="alexscaves:heart_of_iron", xp=100, s="Expert", **M, d=[
-            "Teď už nejde o průzkum, ale o boj s bossem. Magnetron je vzácný a silný strážce magnetických jeskyní.",
+            "Teď už nejde o průzkum, ale o boj s bossem. Magnetron je vzácný a silný strážce biomu &eMagnetic Caves&r.",
             "Zpočátku se jen nenápadně kutálí.",
             "Když tě uvidí, postaví si z okolních bloků obří tělo. &cKovadliny a pily v okolí použije jako zbraně.&r",
             "Po smrti se rozpadne a zůstane po něm srdce ze železa (&eHeart of Iron&r)."]),
@@ -82,8 +82,8 @@ ALEXSCAVES = dict(
             "Vytěžené věci vylétají horem z bloku lomu."]),
 
         # ---------- Pravěké jeskyně
-        Q("primordial_enter", "Pravěké jeskyně", dep=["map"], tasks=[biome("alexscaves:primordial_caves")], icon="alexscaves:limestone", xp=40, d=[
-            "Pravěké jeskyně jsou obří jeskyně z vápence (&eLimestone&r). Jantar na stropě je osvětluje jako ve dne, proto se tu nespawnují příšery.",
+        Q("primordial_enter", "Primordial Caves", dep=["map"], tasks=[biome("alexscaves:primordial_caves")], icon="alexscaves:limestone", xp=40, d=[
+            "&ePrimordial Caves&r jsou obří jeskyně z vápence (&eLimestone&r). Jantar na stropě je osvětluje jako ve dne, proto se tu nespawnují příšery.",
             "Žijí tu dinosauři! Býložravci jsou klidní, dokud na ně nezaútočíš.",
             "&cDravci jako Vallumraptor (loví ve smečkách) nebo obří Tremorsaurus útočí i na tebe.&r"]),
         Q("primordial", "Jantar a maso", dep=["primordial_enter"], items=[("alexscaves:amber", 1), ("alexscaves:dinosaur_chop", 1)], xp=40, d=[
@@ -111,19 +111,19 @@ ALEXSCAVES = dict(
         Q("catalyst", "Zlověstný katalyzátor", dep=["club"], items=[("alexscaves:ominous_catalyst", 1)], xp=50, d=[
             "Zlověstný katalyzátor (&eOminous Catalyst&r) vyrobíš z 8 těžkých kostí a jantarové zvláštnosti (&eAmber Curiosity&r).",
             "Jantarová zvláštnost vzácně vypadne při těžbě jantaru (i bez Hedvábného doteku).",
-            "&cKatalyzátor hozený do kráteru sopky v pravěké jeskyni probudí bosse. Připrav se dobře!&r"]),
+            "&cKatalyzátor hozený do kráteru sopky v biomu Primordial Caves probudí bosse Luxtructosaurus. Připrav se dobře!&r"]),
         Q("luxtructosaurus", "Luxtructosaurus", dep=["catalyst"], tasks=[kill("alexscaves:luxtructosaurus")], icon="alexscaves:tectonic_shard", xp=100, s="Expert", **M, d=[
             "Luxtructosaurus je nemrtvý dinosaurus zavřený v sopce. Má 600 bodů zdraví a oheň mu neublíží.",
             "&cDupe, kope a máchá ocasem, který ti vyřadí štít. Když zuří, chrlí oheň. Během boje sopky kolem vybuchují.&r",
             "Po smrti z něj zbudou tektonické úlomky (&eTectonic Shard&r)."]),
         Q("extinction_spear", "Kopí vyhynutí", dep=["luxtructosaurus"], items=[("alexscaves:extinction_spear", 1)], xp=80, d=[
-            "Kopí vyhynutí (&eExtinction Spear&r) je nejsilnější zbraň pravěkých jeskyní.",
+            "Kopí vyhynutí (&eExtinction Spear&r) je nejsilnější zbraň z biomu &ePrimordial Caves&r.",
             "Vyrobíš ho z tektonických úlomků, vápencového kopí (&eLimestone Spear&r), jantarové zvláštnosti a těžké kosti.",
             "Při zásahu zaútočí duch dinosaura. Hozené kopí vybuchne a vrátí se ti do ruky."]),
 
         # ---------- Toxické jeskyně
-        Q("toxic_enter", "Toxické jeskyně", dep=["map"], tasks=[biome("alexscaves:toxic_caves")], icon="alexscaves:radrock", xp=40, d=[
-            "Toxické jeskyně jsou radioaktivní pustina z kamene &eRadrock&r.",
+        Q("toxic_enter", "Toxic Caves", dep=["map"], tasks=[biome("alexscaves:toxic_caves")], icon="alexscaves:radrock", xp=40, d=[
+            "&eToxic Caves&r jsou radioaktivní pustina z kamene &eRadrock&r.",
             "&cJezírka kyseliny ničí brnění a pak i tebe. Radioaktivní věci ti dají efekt ozáření (&eIrradiated&c): zastaví léčení a silnější ozáření tě zraňuje.&r",
             "&aJídlo ze sirného prachu (&eSulfur Dust&r) tě léčí i při ozáření.&r"]),
         Q("toxic", "Uran", dep=["toxic_enter"], items=[("alexscaves:uranium", 1)], xp=40, d=[
@@ -159,9 +159,9 @@ ALEXSCAVES = dict(
             "&aZapálenou bombu ještě zneškodníš: klikni na ni pravým tlačítkem s nůžkami.&r"]),
 
         # ---------- Opuštěné dutiny
-        Q("forlorn_enter", "Opuštěné dutiny", dep=["map"], tasks=[biome("alexscaves:forlorn_hollows")], icon="alexscaves:guanostone", xp=40, d=[
-            "Opuštěné dutiny zahaluje nepřirozená tma. Země je z guanového kamene (&eGuanostone&r) a koprolitu (&eCoprolith&r).",
-            "&cSvětlo přiláká můry (Gloomoth) a za nimi dravce. Kultisté (Underzealot) rozbíjejí pochodně.&r",
+        Q("forlorn_enter", "Forlorn Hollows", dep=["map"], tasks=[biome("alexscaves:forlorn_hollows")], icon="alexscaves:guanostone", xp=40, d=[
+            "&eForlorn Hollows&r zahaluje nepřirozená tma. Země je z guanového kamene (&eGuanostone&r) a koprolitu (&eCoprolith&r).",
+            "&cSvětlo přiláká můry Gloomoth a za nimi dravce. Kultisté Underzealot rozbíjejí pochodně.&r",
             "&aV guanovém kameni je redstonová ruda, v koprolitu uhlí.&r"]),
         Q("moth_ball", "Můří kulička", dep=["forlorn_enter"], items=[("alexscaves:moth_ball", 1)], xp=25, d=[
             "Můří kulička (&eMoth Ball&r) drží můry dál od světel.",
@@ -172,12 +172,12 @@ ALEXSCAVES = dict(
             "Watcher vznikne, když kultisté obětují můru. &cUmí tě posednout: na chvíli vidíš jeho očima a nemůžeš se hýbat.&r",
             "&aZ drahokamu je i totem (&eTotem of Possession&r), kterým na chvíli ovládneš moba.&r"]),
         Q("forsaken", "Forsaken", dep=["forlorn_enter"], tasks=[kill("alexscaves:forsaken")], icon="alexscaves:forsaken_idol", xp=100, s="Expert", **M, d=[
-            "Forsaken je nejsilnější tvor dutin (250 bodů zdraví). Vznikne, když kultisté obětují netopýra Vespera.",
+            "Forsaken je nejsilnější tvor biomu &eForlorn Hollows&r (250 bodů zdraví). Vznikne, když kultisté obětují netopýra Vespera.",
             "&cÚtočí zvukovými vlnami i na dálku. Když je slabý, zčerná a ve tmě se rychle léčí. Bojuj na světle!&r"]),
         Q("forlorn", "Čistá temnota", dep=["forsaken"], items=[("alexscaves:guanostone", 1), ("alexscaves:pure_darkness", 1)], xp=60, d=[
             "Čistá temnota (&ePure Darkness&r) padá jen z Forsakena.",
             "Z ní, temných cárů (&eDark Tatters&r) a můřího prachu vyrobíš stínové hedvábí (&eShadow Silk&r).",
-            "Hedvábí je surovina na nejlepší výbavu dutin."]),
+            "Hedvábí je surovina na nejlepší výbavu z Forlorn Hollows."]),
         Q("dreadbow", "Luk hrůzy", dep=["forlorn"], items=[("alexscaves:dreadbow", 1)], xp=60, d=[
             "Luk hrůzy (&eDreadbow&r) se nabíjí pomaleji, ale na cíl z výšky spadne celá sprška šípů.",
             "Vyrobíš ho z čisté temnoty, stínového hedvábí a křídel Vespera (&eVesper Wing&r)."]),
@@ -187,12 +187,12 @@ ALEXSCAVES = dict(
             "Plný ukazatel ti dovolí 10 sekund velmi rychle létat, ale jen ve tmě."]),
 
         # ---------- Cukrová dutina
-        Q("candy_enter", "Cukrová dutina", dep=["map"], tasks=[biome("alexscaves:candy_cavity")], icon="alexscaves:candy_cane_block", xp=40, d=[
-            "Cukrová dutina je jeskyně ze sladkostí: čokolády, dortu, zmrzliny a lízátek.",
+        Q("candy_enter", "Candy Cavity", dep=["map"], tasks=[biome("alexscaves:candy_cavity")], icon="alexscaves:candy_cane_block", xp=40, d=[
+            "&eCandy Cavity&r je jeskyně ze sladkostí: čokolády, dortu, zmrzliny a lízátek.",
             "Tečou tu řeky fialové limonády a světlo dávají gumová sluníčka (&eSundrop&r).",
-            "&cNe všechno je přátelské. Sladcí tvorové a čarodějnice (Licowitch) tě napadnou.&r"]),
+            "&cNe všechno je přátelské. Sladcí tvorové a čarodějnice Licowitch tě napadnou.&r"]),
         Q("candy", "Sladkosti", dep=["candy_enter"], items=[("alexscaves:candy_cane", 1), ("alexscaves:block_of_chocolate", 1)], xp=40, d=[
-            "Cukrová hůl (&eCandy Cane&r) je běžná surovina dutiny, padá z Caniaců. Blok čokolády (&eBlock of Chocolate&r) vytěžíš ze stěn a země dutiny.",
+            "Cukrová hůl (&eCandy Cane&r) je běžná surovina v &eCandy Cavity&r, padá z Caniaců. Blok čokolády (&eBlock of Chocolate&r) vytěžíš ze stěn a země tohoto biomu.",
             "&aSladké jídlo ti občas dá efekt &eSugar Rush&a – na chvíli se pohybuješ a útočíš rychleji.&r"]),
         Q("candy_hook", "Hák z cukrové hole", dep=["candy"], items=[("alexscaves:candy_cane_hook", 1)], xp=40, d=[
             "Hák (&eCandy Cane Hook&r) vystřelíš a přitáhne tě k místu, kam se zasekne. Můžeš držet dva najednou.",
@@ -205,8 +205,8 @@ ALEXSCAVES = dict(
             "Čarodějnice Licowitch žijí ve věžích na velkých lékořicových stromech. Hází lektvary a vyvolávají sladké tvory.",
             "Po zabití můžou upustit zářivou esenci (&eRadiant Essence&r). Najdeš ji i v truhlách jejich věží.",
             "&aZ esence, želatiny a karamelu jsou gumová sluníčka (&eSundrop&r) a z nich duhové boty (&eRainbounce Boots&r), které ruší pád.&r"]),
-        Q("gum_worm", "Gumový červ", dep=["shot_gum", "candy_hook"], tasks=[kill("alexscaves:gum_worm")], icon="alexscaves:gobthumper", xp=100, s="Expert", **M, d=[
-            "Gumový červ je obr dlouhý desítky bloků. Je neutrální, dokud ho nenaštveš.",
+        Q("gum_worm", "Gum Worm", dep=["shot_gum", "candy_hook"], tasks=[kill("alexscaves:gum_worm")], icon="alexscaves:gobthumper", xp=100, s="Expert", **M, d=[
+            "&eGum Worm&r je obří červ dlouhý desítky bloků. Je neutrální, dokud ho nenaštveš.",
             "Přivoláš ho blokem &eGobthumper&r (želatina, hromádky žvýkaček a nabroušená cukrová hůl).",
             "&aDvěma háky se do něj můžeš zaseknout a jezdit na něm.&r",
             "Po smrti z něj může padnout sladký zub (&eSweet Tooth&r)."]),
@@ -224,7 +224,7 @@ ADASTRA = dict(
     quests=[
         # ---------- Začátečník: příprava na Zemi
         Q("intro", "Ad Astra", tasks=[auto()], icon="ad_astra:tier_1_rocket", xp=10, s="Začátečník", **M, d=[
-            "&bAd Astra&r tě vezme do vesmíru: na Měsíc, Mars, Venuši, Merkur a planetu Glacio v jiné sluneční soustavě.",
+            "&bAd Astra&r tě vezme do vesmíru: na &eMoon&r (Měsíc) a na planety &eMars&r, &eVenus&r, &eMercury&r a &eGlacio&r (ta je v jiné sluneční soustavě).",
             "Cesta: energie → ocel → díly rakety → palivo a kyslík → start. Na každé planetě najdeš rudu na další, silnější raketu.",
             "&aPrůvodce Astrodux vyrobíš z knihy, 4 modrých barviv a 4 železných ingotů.&r"]),
         Q("coal_gen", "Uhelný generátor", dep=["intro"], items=[("ad_astra:coal_generator", 1)], xp=20, d=[
@@ -261,7 +261,7 @@ ADASTRA = dict(
         Q("suit", "Skafandr", dep=["compressor"], items=[("ad_astra:space_helmet", 1), ("ad_astra:space_suit", 1), ("ad_astra:space_pants", 1), ("ad_astra:space_boots", 1)], xp=60, d=[
             "Ve vesmíru a na většině planet není vzduch. Skafandr (&eSpace Helmet&r, &eSpace Suit&r, &eSpace Pants&r, &eSpace Boots&r) drží kyslík, který dýcháš.",
             "Kyslík do něj nabereš v plniči kyslíku.",
-            "&cNa Venuši a Merkuru obyčejný skafandr nestačí. Spálíš se.&r"]),
+            "&cNa planetách Venus a Mercury obyčejný skafandr nestačí. Spálíš se.&r"]),
         Q("oxygen", "Plnič kyslíku", dep=["suit"], items=[("ad_astra:oxygen_loader", 1)], xp=30, d=[
             "Plnič kyslíku (&eOxygen Loader&r) mění vodu na kyslík. Potřebuje energii.",
             "Vodu dej do levé nádrže. Kyslík pak nabereš do skafandru, kbelíku nebo plynové nádrže (&eGas Tank&r).",
@@ -272,28 +272,28 @@ ADASTRA = dict(
 
         # ---------- Pokročilý: Měsíc a Mars
         Q("rocket1", "Raketa 1. stupně", dep=["workbench", "parts", "fuel"], items=[("ad_astra:tier_1_rocket", 1), ("ad_astra:launch_pad", 1)], xp=100, s="Pokročilý", **M, d=[
-            "Doteď jsi stavěl na Zemi. Teď konečně poletíš! Raketa 1. stupně (&eTier 1 Rocket&r) doletí na Měsíc a na oběžnou dráhu Země.",
+            "Doteď jsi stavěl v Overworldu. Teď konečně poletíš! Raketa 1. stupně (&eTier 1 Rocket&r) doletí do dimenzí &eMoon&r a &eEarth Orbit&r.",
             "Postav odpalovací rampu (&eLaunch Pad&r) a raketu polož doprostřed.",
             "Shift + pravé tlačítko na raketu otevře její inventář. Nalij do ní 3 kbelíky paliva.",
             "Nastup (pravé tlačítko) a stiskni mezerník. Nahoře si vybereš, kam poletíš."]),
-        Q("moon", "Měsíc", dep=["rocket1", "oxygen"], tasks=[dim("ad_astra:moon")], icon="ad_astra:moon_sand", xp=100, d=[
-            "&cNež odletíš: do inventáře rakety dej odpalovací rampu a 3 kbelíky paliva na cestu zpět. Jinak na Měsíci uvízneš!&r",
-            "Na Měsíci je −173 °C a není vzduch. Voda zamrzne a pochodně se rozbijí. Vezmi si náhradní kyslík, jídlo a jako světlo pochodně duší nebo světlit.",
+        Q("moon", "Moon", dep=["rocket1", "oxygen"], tasks=[dim("ad_astra:moon")], icon="ad_astra:moon_sand", xp=100, d=[
+            "&cNež odletíš: do inventáře rakety dej odpalovací rampu a 3 kbelíky paliva na cestu zpět. Jinak tam uvízneš!&r",
+            "V dimenzi &eMoon&r je −173 °C a není vzduch. Voda zamrzne a pochodně se rozbijí. Vezmi si náhradní kyslík, jídlo a jako světlo pochodně duší nebo světlit.",
             "Po přistání dej Shift + pravé tlačítko na přistávací modul (&eLander&r) a vezmi si z něj raketu, palivo a rampu. Modul pak rozbij.",
-            "Na Měsíci najdeš rudu desh."]),
-        Q("earth_orbit", "Oběžná dráha", dep=["rocket1", "oxygen"], tasks=[dim("ad_astra:earth_orbit")], icon="ad_astra:gas_tank", xp=40, d=[
-            "Na obrazovce výběru cíle můžeš místo přistání zvolit oběžnou dráhu. Je tam nulová gravitace a vznášíš se.",
-            "Na oběžné dráze si za suroviny postavíš vesmírnou stanici. U Země stojí 64 železných plátů, 32 ocelí, 32 deshových ingotů a 32 deshových plátů.",
-            "&aSolární panely na oběžné dráze Země vyrábějí víc energie než na povrchu Země.&r"]),
+            "Najdeš tu rudu desh."]),
+        Q("earth_orbit", "Earth Orbit", dep=["rocket1", "oxygen"], tasks=[dim("ad_astra:earth_orbit")], icon="ad_astra:gas_tank", xp=40, d=[
+            "Na obrazovce výběru cíle můžeš místo přistání zvolit oběžnou dráhu (&eEarth Orbit&r). Je tam nulová gravitace a vznášíš se.",
+            "Na oběžné dráze si za suroviny postavíš vesmírnou stanici. Na Earth Orbit stojí 64 železných plátů, 32 ocelí, 32 deshových ingotů a 32 deshových plátů.",
+            "&aSolární panely na Earth Orbit vyrábějí víc energie než v Overworldu.&r"]),
         Q("desh", "Desh", dep=["moon"], items=[("ad_astra:desh_ingot", 8)], xp=40, d=[
-            "Desh je ruda z Měsíce. Těž ji pod povrchem a přetav na ingoty (&eDesh Ingot&r).",
+            "Desh je ruda z dimenze Moon. Těž ji pod povrchem a přetav na ingoty (&eDesh Ingot&r).",
             "Z deshe jsou lepší stroje, rychlejší kabely a raketa 2. stupně."]),
         Q("cheese", "Měsíční sýr", dep=["moon"], items=[("ad_astra:cheese", 1)], xp=15, optional=True, d=[
-            "Na Měsíci je i sýrová ruda (&eMoon Cheese Ore&r). Padá z ní sýr (&eCheese&r), který se dá jíst."]),
-        Q("lunarians", "Lunariáni", dep=["moon"], tasks=[structure("ad_astra:lunarian_village")], icon="minecraft:emerald", xp=30, optional=True, d=[
-            "Pod povrchem Měsíce jsou vesnice Lunariánů. Nepotřebují kyslík a obchodují s věcmi pro vesmír, třeba se skafandry.",
+            "V dimenzi Moon je i sýrová ruda (&eMoon Cheese Ore&r). Padá z ní sýr (&eCheese&r), který se dá jíst."]),
+        Q("lunarians", "Lunarian Village", dep=["moon"], tasks=[structure("ad_astra:lunarian_village")], icon="minecraft:emerald", xp=30, optional=True, d=[
+            "Pod povrchem dimenze Moon jsou vesnice &eLunarian Village&r. Jejich obyvatelé &eLunarian&r nepotřebují kyslík a obchodují s věcmi pro vesmír, třeba se skafandry.",
             "&aNa všech planetách chodí i potulný obchodník (&eLunarian Wandering Trader&r). Za smaragdy prodává palivo, kyslík, rampy i vodu.&r"]),
-        Q("base", "Měsíční základna", dep=["desh"], items=[("ad_astra:oxygen_distributor", 1), ("ad_astra:solar_panel", 2)], xp=60, d=[
+        Q("base", "Vesmírná základna", dep=["desh"], items=[("ad_astra:oxygen_distributor", 1), ("ad_astra:solar_panel", 2)], xp=60, d=[
             "Rozdělovač kyslíku (&eOxygen Distributor&r) naplní uzavřenou místnost vzduchem, až 6 000 bloků. Potřebuje vodu a energii.",
             "V jeho okně je tlačítko, které ukáže, kam se kyslík šíří. Když je zvýrazněná celá místnost, je těsná a můžeš sundat helmu.",
             "&cKdyž do místnosti prorazíš díru, vzduch uteče a vysaje všechno ven!&r",
@@ -308,14 +308,14 @@ ADASTRA = dict(
             "Raketa 2. stupně (&eTier 2 Rocket&r) se staví stejně jako první, ale z deshe: 6 bloků deshe, deshové nádrže (&eDesh Tank&r) a deshový motor (&eDesh Engine&r).",
             "Doletí na Mars."]),
         Q("mars", "Mars", dep=["rocket2"], tasks=[dim("ad_astra:mars")], icon="ad_astra:mars_sand", xp=100, d=[
-            "Mars je studený, nemá vzduch a gravitace je slabší než na Zemi. Skafandr nutný!",
+            "&eMars&r je studený, nemá vzduch a gravitace je slabší než v Overworldu. Skafandr nutný!",
             "Těž tu ostrum a ledové střepy (&eIce Shard&r)."]),
         Q("ostrum", "Ostrum", dep=["mars"], items=[("ad_astra:ostrum_ingot", 8)], xp=50, d=[
             "Ostrum je ruda z Marsu. Přetav ji na ingoty (&eOstrum Ingot&r).",
             "Z ostra je netheritový skafandr, kryomrazák, energizér a raketa 3. stupně."]),
         Q("cryo", "Kryopalivo", dep=["ostrum"], items=[("ad_astra:cryo_freezer", 1), ("ad_astra:ice_shard", 4)], xp=50, d=[
             "Kryopalivo je mnohem lepší palivo: na start stačí 1 kbelík místo 3.",
-            "Vyrábí ho kryomrazák (&eCryo Freezer&r) z ledu. Nejvíc ho dá ledový střep (&eIce Shard&r). Jeho ruda je na Měsíci, Marsu a Glaciu.",
+            "Vyrábí ho kryomrazák (&eCryo Freezer&r) z ledu. Nejvíc ho dá ledový střep (&eIce Shard&r). Jeho ruda je v dimenzích Moon, Mars a Glacio.",
             "Jde i obyčejný, zhutněný a modrý led, ale dají méně."]),
         Q("energizer", "Energizér", dep=["ostrum"], items=[("ad_astra:energizer", 1)], xp=40, d=[
             "Energizér (&eEnergizer&r) uloží 2 miliony energie a při rozbití si ji nechá.",
@@ -323,26 +323,26 @@ ADASTRA = dict(
 
         # ---------- Expert: horké planety a jiná soustava
         Q("netherite_suit", "Netheritový skafandr", dep=["ostrum", "nether_end:netherite"], items=[("ad_astra:netherite_space_helmet", 1), ("ad_astra:netherite_space_suit", 1), ("ad_astra:netherite_space_pants", 1), ("ad_astra:netherite_space_boots", 1)], xp=80, d=[
-            "Na Venuši je 464 °C a na Merkuru 167 °C. Obyčejný skafandr tě neochrání.",
+            "Na planetě &eVenus&r je 464 °C a na planetě &eMercury&r 167 °C. Obyčejný skafandr tě neochrání.",
             "Netheritový skafandr má trvalou odolnost proti ohni a lepší ochranu.",
             "Vyrobíš ho z netheritové zbroje, ostrových a deshových plátů."]),
         Q("rocket3", "Raketa 3. stupně", dep=["ostrum"], items=[("ad_astra:tier_3_rocket", 1)], xp=100, s="Expert", **M, d=[
             "Dosud jsi létal na studené planety. Teď míříš do žáru a pak až do jiné sluneční soustavy.",
             "Raketa 3. stupně (&eTier 3 Rocket&r) je z ostra: 6 bloků ostra, ostrové nádrže a ostrový motor.",
-            "Doletí na Venuši a Merkur."]),
-        Q("venus", "Venuše", dep=["rocket3", "netherite_suit"], tasks=[dim("ad_astra:venus")], icon="ad_astra:venus_sand", xp=100, d=[
-            "&cBez netheritového skafandru na Venuši rychle uhoříš!&r",
-            "Venuše je rozpálená a nemá vzduch. Těž tu kalorit."]),
-        Q("mercury", "Merkur", dep=["rocket3", "netherite_suit"], tasks=[dim("ad_astra:mercury")], icon="ad_astra:mercury_stone", xp=60, d=[
-            "Merkur je planeta nejblíž Slunci. &cBez netheritového skafandru uhoříš.&r",
+            "Doletí na planety Venus a Mercury."]),
+        Q("venus", "Venus", dep=["rocket3", "netherite_suit"], tasks=[dim("ad_astra:venus")], icon="ad_astra:venus_sand", xp=100, d=[
+            "&cBez netheritového skafandru na planetě Venus rychle uhoříš!&r",
+            "Planeta &eVenus&r je rozpálená a nemá vzduch. Těž tu kalorit."]),
+        Q("mercury", "Mercury", dep=["rocket3", "netherite_suit"], tasks=[dim("ad_astra:mercury")], icon="ad_astra:mercury_stone", xp=60, d=[
+            "&eMercury&r je planeta nejblíž Slunci. &cBez netheritového skafandru uhoříš.&r",
             "&aSolární panely tu vyrábějí nejvíc energie ze všech planet.&r"]),
         Q("calorite", "Kalorit", dep=["venus"], items=[("ad_astra:calorite_ingot", 8)], xp=60, d=[
-            "Kalorit je ruda z Venuše. Přetav ji na ingoty (&eCalorite Ingot&r).",
+            "Kalorit je ruda z planety Venus. Přetav ji na ingoty (&eCalorite Ingot&r).",
             "Z kaloritu je raketa 4. stupně a jet suit."]),
         Q("rocket4", "Raketa 4. stupně", dep=["calorite"], items=[("ad_astra:tier_4_rocket", 1)], xp=100, d=[
             "Raketa 4. stupně (&eTier 4 Rocket&r) je z kaloritu a doletí do jiné sluneční soustavy, k hvězdě Proxima Centauri."]),
         Q("glacio", "Glacio", dep=["rocket4"], tasks=[dim("ad_astra:glacio")], icon="ad_astra:jet_suit", xp=100, d=[
-            "Glacio je zamrzlá planeta u Proximy Centauri. Má dýchatelný vzduch, takže tu přežiješ i bez skafandru.",
+            "&eGlacio&r je zamrzlá planeta u Proximy Centauri. Má dýchatelný vzduch, takže tu přežiješ i bez skafandru.",
             "&cJe tu ale velká zima.&r Najdeš tu i ledové střepy pro kryopalivo."]),
         Q("jet_suit", "Jet suit", dep=["calorite", "energizer", "netherite_suit"], items=[("ad_astra:jet_suit_helmet", 1), ("ad_astra:jet_suit", 1), ("ad_astra:jet_suit_pants", 1), ("ad_astra:jet_suit_boots", 1)], xp=100, d=[
             "Jet suit je nejlepší skafandr: víc ochrany, víc kyslíku a umí létat.",
@@ -409,14 +409,14 @@ FOSSILS = dict(
             "S bičem (&eWhip&r) v ruce klikni na svého dospělého dinosaura a nasedneš na něj. Jde to jen u druhů, na kterých se dá jezdit.",
             "&aNěkteré neochočené druhy jde bičem i ochočit.&r"]),
         Q("embryos", "Pravěcí savci", dep=["vat"], tasks=[adv("fossil:fossil/embryos")], icon="minecraft:wheat", xp=40, d=[
-            "Z DNA savců (třeba mamuta) kultivátor vyrobí injekci s embryem.",
+            "Z DNA savců (třeba &eMammoth&r) kultivátor vyrobí injekci s embryem.",
             "Injekcí klikni na dospělého savce: krávu, prase, ovci, koně a další. Zvíře za čas porodí pravěké mládě."]),
         Q("frozen_meat", "Zmrzlé maso", dep=["fossil"], items=[("fossil:frozen_meat", 1)], xp=25, d=[
             "Zmrzlé maso (&eFrozen Meat&r) padá z permafrostu (&ePermafrost Block&r). Ten je v hlíně studených biomů.",
-            "V analyzátoru z něj získáš DNA mamuta, šavlozubého tygra, dronte a dalších zvířat doby ledové."]),
+            "V analyzátoru z něj získáš DNA zvířat doby ledové, třeba &eMammoth&r, &eSmilodon&r nebo &eDodo&r."]),
         Q("shale", "Břidlicová fosilie", dep=["fossil"], items=[("fossil:fossil_shale", 1)], xp=25, d=[
             "Břidlicová fosilie (&eShale Fossil&r) padá z bloků fosilií hluboko v hlubinné břidlici.",
-            "Má v sobě DNA nejstarších tvorů, třeba dimetrodona nebo obří vážky."]),
+            "Má v sobě DNA nejstarších tvorů, třeba &eDimetrodon&r nebo &eMeganeura&r (obří vážka)."]),
         Q("tar", "Asfaltová jezírka", dep=["analyzer"], tasks=[adv("fossil:fossil/fossil_tar")], icon="fossil:tar_drop", xp=30, d=[
             "Asfaltová jezírka najdeš na pláních a v savanách, některá i v zasněžené krajině.",
             "Kbelíkem naber asfalt. V pracovním stole z kbelíku asfaltu vzniknou 4 kapky (&eTar Drop&r).",
@@ -435,7 +435,7 @@ FOSSILS = dict(
             "Otevře sarkofág boha Anu a ochočí velké dravce.",
             "&aNa kovářském stole z diamantového nástroje, drahokamu a šablony netheritového vylepšení vznikne skarabeový nástroj.&r"]),
         Q("scarab_tame", "Král zvířat", dep=["scarab_gem", "eggs"], tasks=[adv("fossil:fossil/scarab_tame")], icon="fossil:scarab_sword", xp=60, optional=True, d=[
-            "Velkého dravce (třeba tyranosaura) ochočíš skarabeovým drahokamem.",
+            "Velkého dravce (třeba &eTyrannosaurus&r) ochočíš skarabeovým drahokamem.",
             "Vodní dravce ochočíš vodním drahokamem (&eAquatic Scarab Gem&r) ze skarabeového drahokamu a dominikánského jantaru."]),
 
         # ---------- Archeologie
@@ -451,15 +451,15 @@ FOSSILS = dict(
             "Na otevření portálu k Anu budeš potřebovat 4 figurky (jakékoli)."]),
 
         # ---------- Expert: Anu
-        Q("hell_boat", "Pekelná loď", dep=["figurines"], tasks=[structure("fossil:hell_boat")], icon="fossil:figurine_anu_pristine", xp=60, s="Expert", **M, d=[
+        Q("hell_boat", "Hell Boat", dep=["figurines"], tasks=[structure("fossil:hell_boat")], icon="fossil:figurine_anu_pristine", xp=60, s="Expert", **M, d=[
             "Dosud jsi kopal a pěstoval. Teď tě čeká boj s bohem Anu.",
-            "Začíná to v Netheru: na lávovém moři pluje pekelná loď se sochou Anu (&eAnu Statue&r).",
+            "Začíná to v Netheru: na lávovém moři pluje loď &eHell Boat&r se sochou Anu (&eAnu Statue&r).",
             "&cKdyž sochu rozbiješ, nic z ní nepadne. Rituál proto udělej přímo na lodi.&r",
             "Do 4 rohů kolem sochy (šikmo) dej figurky. Na 4 strany (rovně vedle sochy) dej redstonový prach.",
             "Socha vybuchne a objeví se totem, který otevře portál."]),
-        Q("anu_lair", "Doupě Anu", dep=["hell_boat"], tasks=[dim("fossil:anu_lair")], icon="fossil:ancient_stone_bricks", xp=60, d=[
-            "Projdi portálem do doupěte Anu. Stojí v něm Anuův hrad.",
-            "&cHrad hlídají anubité (Anubite). Vezmi si dobrou zbroj a jídlo.&r"]),
+        Q("anu_lair", "Anu Lair", dep=["hell_boat"], tasks=[dim("fossil:anu_lair")], icon="fossil:ancient_stone_bricks", xp=60, d=[
+            "Projdi portálem do dimenze &eAnu Lair&r. Stojí v ní Anuův hrad.",
+            "&cHrad hlídají mobové Anubite. Vezmi si dobrou zbroj a jídlo.&r"]),
         Q("sarcophagus", "Sarkofág", dep=["anu_lair", "scarab_gem"], tasks=[adv("fossil:fossil/sarcophagus")], icon="fossil:scarab_gem", xp=40, d=[
             "Uvnitř hradu je sarkofág. Klikni na něj skarabeovým drahokamem.",
             "&cTím probudíš Anu! Měj plné zdraví a dobrou výbavu.&r"]),
@@ -468,12 +468,12 @@ FOSSILS = dict(
             "Po smrti upustí starodávný klíč (&eAncient Key&r) a zůstane po něm mrtvé tělo."]),
         Q("key", "Starodávný klíč", dep=["kill_anu"], items=[("fossil:ancient_key", 1)], xp=60, d=[
             "Starodávný klíč (&eAncient Key&r) padá jen z poraženého Anu.",
-            "Otevře starodávnou truhlu (&eAncient Chest&r) v klenotnici."]),
-        Q("treasure_room", "Klenotnice", dep=["kill_anu"], tasks=[dim("fossil:treasure_room")], icon="fossil:ancient_chest", xp=60, d=[
-            "Klikni na mrtvé tělo Anu. Přeneseš se do klenotnice.",
-            "V klenotnici je i portál, kterým se vrátíš domů."]),
+            "Otevře starodávnou truhlu (&eAncient Chest&r) v dimenzi &eTreasure Room&r."]),
+        Q("treasure_room", "Treasure Room", dep=["kill_anu"], tasks=[dim("fossil:treasure_room")], icon="fossil:ancient_chest", xp=60, d=[
+            "Klikni na mrtvé tělo Anu. Přeneseš se do dimenze &eTreasure Room&r (klenotnice s poklady).",
+            "Je v ní i portál, kterým se vrátíš domů."]),
         Q("ancient_clock", "Starodávné hodiny", dep=["key", "treasure_room"], tasks=[adv("fossil:fossil/ancient_clock")], icon="fossil:ancient_clock", xp=100, d=[
-            "V klenotnici otevři starodávnou truhlu klíčem.",
+            "V dimenzi &eTreasure Room&r otevři starodávnou truhlu klíčem.",
             "Uvnitř jsou starodávné hodiny (&eAncient Clock&r), poslední poklad modu. Gratulujeme!"]),
     ],
 )
@@ -484,4 +484,17 @@ CHAPTERS = [ALEXSCAVES, ADASTRA, FOSSILS]
 # Předměty bez receptu/loot table, ověřené v kódu modu
 NO_RECIPE = {
     "fossil:ancient_key": "drop z bosse Anu (AnuBoss.dropCustomDeathLoot -> ModItems.ANCIENT_KEY)",
+}
+
+# Přeložená vlastní jména (dimenze, biomy, stavby, mobové) -> správný anglický název
+PROPER_NAMES_CZ = {
+    r"podzemn\w* chat": "Underground Cabin",
+    r"gumov\w* červ": "Gum Worm",
+    r"\bna měsíc[ie]?\b|\bz měsíce\b|\bpovrch\w* měsíce\b": "Moon",
+    r"\bvenuš\w*": "Venus",
+    r"\bmerkur\w*": "Mercury",
+    r"oběžn\w* dráh\w* země": "Earth Orbit",
+    r"lunarián\w*": "Lunarian",
+    r"pekeln\w* lo[ďd]": "Hell Boat",
+    r"doupě\w* anu": "Anu Lair",
 }

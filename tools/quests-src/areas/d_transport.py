@@ -452,7 +452,8 @@ AERO = dict(
             "Výroba: selenitový střep obklopený železnými nugety."]),
         Q("balloon_find", "Balón v divočině", icon="aeronautics:adjustable_burner", dep=["start"],
           tasks=[structure("morestructures:hotairballoon")], xp=30, optional=True, d=[
-            "Ve světě občas stojí horkovzdušné balóny z modu &bCreate Aeronautics Structures&r. Jsou vzácné. Hledej je na pláních, loukách, v savaně, poušti nebo v badlands.",
+            "Ve světě občas stojí horkovzdušné balóny (stavba &eHot Air Balloon&r) z modu &bCreate Aeronautics Structures&r. Jsou vzácné.",
+            "Hledej je v biomech &ePlains&r, &eMeadow&r, &eCherry Grove&r, &eSavanna&r, &eDesert&r, &eBadlands&r a &eWindswept Hills&r.",
             "Uvnitř je hotový balón: hořáky, obaly i fyzikální sestavovač. Prohlédni si ho – je to dobrá předloha pro tvůj první let."]),
         Q("cloud_disc", "Píseň oblaků", icon="aeronautics:music_disc_cloud_skipper", dep=["balloon"],
           tasks=[adv("aeronautics:song_of_the_sky")], xp=30, optional=True, d=[
@@ -601,3 +602,8 @@ VEHICLES = dict(
 
 # Pořadí kapitol této oblasti v knize questů
 CHAPTERS = [TRAINS, AERO, VEHICLES]
+
+# České překlady vlastních jmen, které se v textech nesmí objevit (regex bez ohledu na velikost písmen -> anglický název).
+# Biomy u balónu (pláně, louky, savana, poušť) sem nepatří: jsou to i běžná slova a chytala by i předměty
+# (např. „savanové hrozny“ = Savanna Grapes).
+PROPER_NAMES_CZ = {}

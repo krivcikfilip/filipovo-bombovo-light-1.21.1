@@ -103,3 +103,6 @@ Viz `tools/quests-src/GUIDE.md`. Shrnutí: zdroj je `tools/quests-src/areas/*.py
 `python3 tools/quests-src/build.py --check` (validace) a `tools/install-quests.sh` (instalace + packwiz refresh).
 Původní questy (`baseline.json`) se nesmí mazat ani měnit jejich úkoly – hráči v nich mají postup (ID se počítá
 z klíče kapitoly a questu). Progression mode je „flexible“.
+**Vlastní jména se nepřekládají** (mody, dimenze, biomy, stavby, bossové, mobové z modů, jednotky) – hra běží anglicky.
+Validátor to hlídá přes `tools/registry/names_en.tsv` (generuje `tools/refdata/names_en.py`) a `PROPER_NAMES_CZ`.
+Terralith, Incendium a některé stavby nemají lang – jejich anglické názvy jsou odvozené z ID.

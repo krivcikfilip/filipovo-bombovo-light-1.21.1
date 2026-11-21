@@ -462,7 +462,7 @@ UTILITY = dict(
         ]),
         Q("quiver", "Toulec", dep=["wrench"], items=[("supplementaries:quiver", 1)], xp=30, d=[
             "Toulec (&eQuiver&r) unese hodně šípů na jednom místě. Klávesou &eV&r vybíráš, který druh šípu z toulce se bude střílet.",
-            "Nedá se vyrobit. Najdeš ho jen v truhlách, třeba v dungeonech, v lesních sídlech nebo v základnách pillagerů.",
+            "Nedá se vyrobit. Najdeš ho jen v truhlách, třeba v dungeonech nebo ve stavbách &eWoodland Mansion&r a &ePillager Outpost&r.",
             "Můžeš ho nosit i ve slotu na doplňky. Ten otevřeš tlačítkem u postavičky v inventáři.",
         ]),
         Q("bomb", "Bomby", dep=["wrench"], items=[("supplementaries:bomb", 4)], xp=20, optional=True, d=[
@@ -481,7 +481,7 @@ UTILITY = dict(
         ]),
         Q("globe", "Glóbus", dep=["altimeter"], items=[("supplementaries:globe", 1)], xp=30, optional=True, d=[
             "Glóbus (&eGlobe&r) je ozdoba s mapou světa. Když ho roztočíš hodně rychle, dostaneš ocenění.",
-            "Najdeš ho v pokladech vraků lodí nebo ho prodává potulný obchodník.",
+            "Najdeš ho v pokladech stavby &eShipwreck&r nebo ho prodává potulný obchodník.",
         ]),
         # --- Amendments
         Q("lantern", "Lucerna na zdi", dep=["start"], items=[("minecraft:lantern", 4)], xp=10, d=[
@@ -517,13 +517,13 @@ UTILITY = dict(
         # --- Apothic Spawners
         Q("spawner_mod", "Upravený spawner", dep=["start", "exploration:spawner"], tasks=[adv("apothic_spawners:modifier")],
           icon="minecraft:sugar", xp=40, s="Pokročilý", d=[
-            "S modem &bApothic Spawners&r vykopeš spawner krumpáčem s očarováním Hedvábný dotek (Silk Touch).",
+            "S modem &bApothic Spawners&r vykopeš spawner krumpáčem s očarováním &eSilk Touch&r.",
             "Spawner pak můžeš vylepšit: drž předmět v ruce a klikni na spawner pravým tlačítkem. Co který předmět dělá, ukáže JEI.",
             "Úkol: uprav spawner. Třeba cukr zkrátí čekání mezi příšerami.",
         ]),
         Q("capturing", "Vajíčko z příšery", dep=["spawner_mod"], tasks=[adv("apothic_spawners:capturing")],
           icon="minecraft:zombie_spawn_egg", xp=40, optional=True, d=[
-            "Očarování &eCapturing&r (Apothic Spawners) a &eReplication&r (Replication Enchantment) dávají šanci, že příšera upustí svoje spawnovací vajíčko.",
+            "Očarování &eCapturing&r (&bApothic Spawners&r) a &eReplication&r (&bReplication Enchantment&r) dávají šanci, že příšera upustí svoje spawnovací vajíčko.",
             "Vajíčkem pak změníš, jaká příšera ze spawneru leze: klikni s ním na spawner.",
             "Úkol: získej vajíčko pomocí očarování Capturing.",
         ]),
@@ -613,7 +613,7 @@ QUARK = dict(
             "Začne poskakovat, když jsi ve slizovém chunku – tam se slizouni objevují.",
         ]),
         Q("crab", "Krab", dep=["slime"], tasks=[adv("quark:content/crab_in_a_bucket")], icon="minecraft:bucket", xp=20, optional=True, d=[
-            "Kraby najdeš na plážích. Chovat je můžeš pšenicí, kuřecím masem nebo rybou.",
+            "Kraby (&eCrab&r) najdeš na plážích. Chovat je můžeš pšenicí, kuřecím masem nebo rybou.",
             "Úkol: chyť kraba do kbelíku s vodou.",
         ]),
         # --- automatizace
@@ -669,17 +669,17 @@ QUARK = dict(
             "Koupíš ho od kartografa ve vesnici nebo od potulného obchodníka.",
         ]),
         Q("soul_bead", "Duševní korálek", dep=["quill"], items=[("quark:soul_bead", 1)], xp=40, optional=True, d=[
-            "Duševní korálek (&eSoul Bead&r) padá z přízraků (&eWraith&r) v údolí duší v Netheru.",
-            "Když ho použiješ, poletí směrem k nejbližší netherové pevnosti.",
+            "Duševní korálek (&eSoul Bead&r) padá z tvora &eWraith&r v biomu &eSoul Sand Valley&r v Netheru.",
+            "Když ho použiješ, poletí směrem k nejbližší stavbě &eNether Fortress&r.",
         ]),
-        Q("forgotten_hat", "Klobouk Zapomenutého", dep=["heart"], items=[("quark:forgotten_hat", 1)], xp=60, optional=True, d=[
-            "Klobouk (&eForgotten Hat&r) padá ze Zapomenutého (&eForgotten&r). Ten žije hluboko pod zemí.",
+        Q("forgotten_hat", "Klobouk Forgottena", dep=["heart"], items=[("quark:forgotten_hat", 1)], xp=60, optional=True, d=[
+            "Klobouk (&eForgotten Hat&r) padá z tvora &eForgotten&r. Ten žije hluboko pod zemí.",
             "&cPozor:&r má silnou výbavu a umí bojovat zblízka i na dálku.",
         ]),
         # --- očarování
         Q("tome", "Prastarý svazek", dep=["start"], items=[("quark:ancient_tome", 1)], xp=60, d=[
             "Prastarý svazek (&eAncient Tome&r) zvýší očarování o jednu úroveň – až o jednu nad normální maximum.",
-            "Najdeš ho v truhlách: v knihovnách pevností (stronghold), v dungeonech, v pokladech bastionů, v lesních sídlech a v prastarých městech.",
+            "Najdeš ho v truhlách: v knihovnách stavby &eStronghold&r, v dungeonech, v pokladech stavby &eBastion Remnant&r a ve stavbách &eWoodland Mansion&r a &eAncient City&r.",
             "Spoj ho na kovadlině s předmětem nebo knihou, která má stejné očarování na maximu.",
         ]),
         Q("overlevel", "Nad maximum", dep=["tome"], tasks=[adv("quark:content/overlevel_enchant")], icon="minecraft:enchanted_book",
@@ -776,7 +776,7 @@ GEAR = dict(
         Q("trim_all", "Sběratel vzorů", dep=["trim"], tasks=[adv("minecraft:adventure/trim_with_all_exclusive_armor_patterns")],
           icon="minecraft:silence_armor_trim_smithing_template", xp=150, optional=True, d=[
             "Úkol pro experty: použij na kovářském stole každou ze vzácných šablon: Spire, Snout, Rib, Ward, Silence, Vex, Tide a Wayfinder.",
-            "Většinou jsou v truhlách v End City, v bastionech, v pevnostech v Netheru, v prastarých městech a v lesních sídlech. Tide padá z Elder Guardiana a Wayfinder najdeš v ruinách (Trail Ruins).",
+            "Většinou jsou v truhlách staveb &eEnd City&r, &eBastion Remnant&r, &eNether Fortress&r, &eAncient City&r a &eWoodland Mansion&r. Tide padá z bosse &eElder Guardian&r a Wayfinder najdeš ve stavbě &eTrail Ruins&r.",
         ]),
         # --- netherit
         Q("netherite", "Netherit", dep=["shiny"], items=[("minecraft:netherite_ingot", 1)], xp=40, d=[
@@ -788,13 +788,13 @@ GEAR = dict(
           icon="minecraft:netherite_chestplate", xp=100, s="Expert", shape="hexagon", size=1.5, d=[
             "Úkol: získej celou sadu netheritového brnění (všechny 4 kusy).",
             "Na kovářském stole dej šablonu netheritového vylepšení, diamantový kus brnění a netheritový ingot. Očarování zůstanou.",
-            "Šablonu najdeš v truhlách bastionů v Netheru. Nevyhazuj ji – z ní, 7 diamantů a 1 netherracku (&eNetherrack&r) vyrobíš 2 šablony.",
+            "Šablonu najdeš v truhlách stavby &eBastion Remnant&r v Netheru. Nevyhazuj ji – z ní, 7 diamantů a 1 netherracku (&eNetherrack&r) vyrobíš 2 šablony.",
             "Netheritové věci neshoří v lávě.",
         ]),
         # --- Advanced Netherite
         Q("an_iron", "Netherit-železo", dep=["netherite"], items=[("advancednetherite:netherite_iron_ingot", 1)], xp=60, d=[
             "Ingot &eNetherite-Iron Ingot&r vyrobíš z netheritového ingotu a 4 železných ingotů.",
-            "Každý stupeň Advanced Netherite je silnější než ten předchozí a má vlastní bonusy. Podrž Shift nad předmětem a uvidíš je.",
+            "Každý stupeň &bAdvanced Netherite&r je silnější než ten předchozí a má vlastní bonusy. Podrž Shift nad předmětem a uvidíš je.",
             "Bonusy jsou třeba víc surovin z rud, víc kořisti z příšer nebo to, že tě některé příšery nechají na pokoji.",
         ]),
         Q("an_tools", "Lepší nástroje", dep=["an_iron"], items=[("advancednetherite:netherite_iron_pickaxe", 1)], xp=60, d=[
@@ -820,22 +820,22 @@ GEAR = dict(
         Q("totem", "Totem nesmrtelnosti", dep=["shiny"], tasks=[adv("minecraft:adventure/totem_of_undying")], icon="minecraft:totem_of_undying",
           xp=60, optional=True, d=[
             "Totem nesmrtelnosti tě jednou zachrání před smrtí, když ho držíš v ruce. Pak zmizí.",
-            "Padá z vyvolávačů (Evoker) v lesních sídlech a při nájezdech na vesnici.",
+            "Padá z vyvolávačů (&eEvoker&r) ve stavbě &eWoodland Mansion&r a při nájezdech na vesnici.",
             "Úkol: přežij smrt díky totemu.",
         ]),
         Q("mace", "Palcát", dep=["netherite_armor"], items=[("minecraft:mace", 1)], xp=100, optional=True, d=[
             "Palcát je silná zbraň: čím z větší výšky na nepřítele skočíš, tím silněji udeříš.",
-            "Vyrobíš ho z těžkého jádra (&eHeavy Core&r) a větrné tyče (&eBreeze Rod&r). Obojí najdeš ve zkušebních komnatách (Trial Chambers).",
+            "Vyrobíš ho z těžkého jádra (&eHeavy Core&r) a větrné tyče (&eBreeze Rod&r). Obojí najdeš ve stavbě &eTrial Chambers&r.",
         ]),
         Q("elytra", "Křídla a slot", dep=["netherite_armor"], tasks=[adv("minecraft:end/elytra")], icon="minecraft:elytra", xp=60, optional=True, d=[
-            "Krovky (elytra) najdeš na lodích u měst v Endu.",
+            "Krovky (elytra) najdeš na lodích u stavby &eEnd City&r v Endu.",
             "Díky modu &bElytra Slot&r je můžeš dát do slotu na záda. Na hrudi pak dál nosíš brnění. Sloty otevřeš tlačítkem u postavičky v inventáři.",
             "Do slotu na záda patří i batoh, takže si možná budeš muset vybrat.",
         ]),
         # --- materiály z modů
         Q("brass", "Mosazné brnění", dep=["start", "create:brass"], items=[("create_sa:brass_chestplate", 1)], xp=30, d=[
             "Mod &bCreate Stuff & Additions&r přidává brnění z mosazi. Kyrys (&eBrass Chestplate&r) vyrobíš z 8 mosazných ingotů.",
-            "Mosaz se vyrábí v míchačce z modu Create (viz kapitoly Create).",
+            "Mosaz se vyrábí v míchačce z modu &bCreate&r (viz kapitoly Create).",
         ]),
         Q("kiwano", "Kiwano brnění", dep=["start", "nether_end:exotics"], items=[("netherexotics:kiwano_chestplate", 1)], xp=40, d=[
             "Mod &bNether Exotics&r přidává brnění a nástroje z ovoce z Netheru.",
@@ -861,4 +861,16 @@ CHAPTERS = [WELCOME, VANILLA, BACKPACKS, UTILITY, QUARK, GEAR]
 NO_RECIPE = {
     "quark:ancient_tome": "Quark přidává do truhel kódem (config tools.ancient_tomes: stronghold_library, simple_dungeon, bastion_treasure, woodland_mansion, ancient_city, monster_box) + výměna u mistra knihovníka",
     "etched:etched_music_disc": "vyrábí se na Etching Table z Blank Music Disc + Music Label a URL (GUI, ne recept)",
+}
+
+# Přeložená vlastní jména (stavby, biomy, mobové z modů) - v textu musí být anglicky
+PROPER_NAMES_CZ = {
+    r"lesn\w* sídl": "Woodland Mansion",
+    r"základn\w* pillager|pillager\w* základn": "Pillager Outpost",
+    r"vrak\w* lod": "Shipwreck",
+    r"údol\w* duší": "Soul Sand Valley",
+    r"netherov\w* pevnost|pevnost\w* v netheru": "Nether Fortress",
+    r"prastar\w* měst": "Ancient City",
+    r"měst\w* v endu|endov\w* měst": "End City",
+    r"zapomenutého \(|klobouk\w* zapomenut": "Forgotten",
 }
