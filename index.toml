@@ -356,6 +356,10 @@ file = "kubejs/server_scripts/recipe_conflicts.js"
 hash = "48a2b97c3b97f55fa82cfe3f073682883357bdbb380d5fd5e2e92c6ca83db021"
 
 [[files]]
+file = "kubejs/server_scripts/storage_duplicates.js"
+hash = "f752f04256668295c6f16fdc655b0fb5dcde78e54fe87b5174a04401a663d142"
+
+[[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "2dc498bd8a43a8e02fc9d08fe5846ac17f6eabbecbf38ae39aa7b1f23fe100b0"
 metafile = true

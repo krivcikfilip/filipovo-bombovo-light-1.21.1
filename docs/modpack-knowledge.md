@@ -70,7 +70,10 @@ Na serveru nejsou žádné KubeJS skripty ani datapacky kromě těch v repu (`ku
 - **Kolize receptů**: `kubejs/server_scripts/recipe_conflicts.js` opravuje ~95 kolizí mimo pracovní stůl (pec, udírna,
   táborák, prkénko, hrnec, odšťavňovač, stroje Create). Pracovní stůl řeší Polymorph (306 kolizí, výběr šipkami).
   **FastFurnace** si v peci pamatuje první recept a výběr Polymorphu ignoruje → kolize v peci musí řešit skript.
-  Neřešené: kolize v mechanickém crafteru a auto-compactingu Create (seznam v `tools/refdata/crafting_conflicts.tsv`).
+  Duplicitní úložné bedny/pytle (auto-compacting Create): `kubejs/server_scripts/storage_duplicates.js` – zůstává bedna
+  z Farmer's Delight / Fruits Delight / Ender's Delight / Mekanism, ostatním odebrán jen recept na výrobu (rozbalení zůstává);
+  kukuřice, chilli a káva berou jen surovinu svého modu. Ostatní kolize v mechanickém crafteru (hlavně dekorace) neřešené,
+  seznam v `tools/refdata/crafting_conflicts.tsv`.
 - Stůl z Handcrafted a Another Furniture mají stejný tvar (`###|/ /`) – řeší Polymorph.
 - **Just In Nether**: kruorit a devourit nemají v packu využití (modulární zbraně dělá mod Just In Blacksmith, který chybí).
 - **Luminous**: Luminous Overworld vypíná spawn motýlů z Luminous Butterflies; netherové bestie Luminous Nether se
