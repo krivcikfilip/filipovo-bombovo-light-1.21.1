@@ -45,7 +45,8 @@ ALEXSCAVES = dict(
             "&eMagnetic Caves&r jsou jeskyně z šedého kamene galenitu (&eGalena&r) a rostou v nich obří krystaly.",
             "Rudé neodymové krystaly přitahují kovové věci, modré je odpuzují.",
             "&cŽelezná a netheritová výbava tě tu bude přitahovat i odstrkovat. Lepší je nekovová výbava.&r",
-            "&cTeslovy baňky (&eTesla Bulb&r) dávají rány bleskem a při rozbití vybuchují.&r"]),
+            "&cTeslovy baňky (&eTesla Bulb&r) dávají rány bleskem a při rozbití vybuchují.&r",
+            "&aKde hledat:&r nejbližší je asi 2 400 bloků od spawnu, kolem X 4005, Z 180, hluboko pod zemí (kolem výšky Y 0)."]),
         Q("magnetic", "Neodym", dep=["magnetic_enter"], items=[("alexscaves:raw_scarlet_neodymium", 1), ("alexscaves:raw_azure_neodymium", 1)], xp=40, d=[
             "Surový neodym získáš rozbíjením krystalů (sloupů a uzlů) v biomu &eMagnetic Caves&r.",
             "Padá i z Teletora, létajícího nepřítele se železnou zbraní nad hlavou.",
@@ -85,7 +86,8 @@ ALEXSCAVES = dict(
         Q("primordial_enter", "Primordial Caves", dep=["map"], tasks=[biome("alexscaves:primordial_caves")], icon="alexscaves:limestone", xp=40, d=[
             "&ePrimordial Caves&r jsou obří jeskyně z vápence (&eLimestone&r). Jantar na stropě je osvětluje jako ve dne, proto se tu nespawnují příšery.",
             "Žijí tu dinosauři! Býložravci jsou klidní, dokud na ně nezaútočíš.",
-            "&cDravci jako Vallumraptor (loví ve smečkách) nebo obří Tremorsaurus útočí i na tebe.&r"]),
+            "&cDravci jako Vallumraptor (loví ve smečkách) nebo obří Tremorsaurus útočí i na tebe.&r",
+            "&aKde hledat:&r nejbližší je kolem X 200, Z -3880, další kolem X 2210, Z -4610. Je hluboko pod zemí (kolem výšky Y 0)."]),
         Q("primordial", "Jantar a maso", dep=["primordial_enter"], items=[("alexscaves:amber", 1), ("alexscaves:dinosaur_chop", 1)], xp=40, d=[
             "Jantar (&eAmber&r) visí ze stropu jeskyně. Vytěžíš ho jen krumpáčem s očarováním &eSilk Touch&r, jinak z něj nic nepadne. Dinosauří maso (&eDinosaur Chop&r) padá z velkých dinosaurů.",
             "Maso si opeč. &aZ opečeného masa vyrobíš 12 dinosauřích nugetek (&eDinosaur Nugget&r).&r"]),
@@ -125,7 +127,8 @@ ALEXSCAVES = dict(
         Q("toxic_enter", "Toxic Caves", dep=["map"], tasks=[biome("alexscaves:toxic_caves")], icon="alexscaves:radrock", xp=40, d=[
             "&eToxic Caves&r jsou radioaktivní pustina z kamene &eRadrock&r.",
             "&cJezírka kyseliny ničí brnění a pak i tebe. Radioaktivní věci ti dají efekt ozáření (&eIrradiated&c): zastaví léčení a silnější ozáření tě zraňuje.&r",
-            "&aJídlo ze sirného prachu (&eSulfur Dust&r) tě léčí i při ozáření.&r"]),
+            "&aJídlo ze sirného prachu (&eSulfur Dust&r) tě léčí i při ozáření.&r",
+            "&aKde hledat:&r nejbližší je kolem X 2470, Z 2350, další kolem X -2100, Z -1870. Je hluboko pod zemí (kolem výšky Y 0)."]),
         Q("toxic", "Uran", dep=["toxic_enter"], items=[("alexscaves:uranium", 1)], xp=40, d=[
             "Uran (&eUranium&r) získáš z uranové rudy (&eRadrock Uranium Ore&r), která je v radrocku.",
             "Uran je palivo a surovina pro všechny jaderné věci tohoto biomu."]),
@@ -162,7 +165,8 @@ ALEXSCAVES = dict(
         Q("forlorn_enter", "Forlorn Hollows", dep=["map"], tasks=[biome("alexscaves:forlorn_hollows")], icon="alexscaves:guanostone", xp=40, d=[
             "&eForlorn Hollows&r zahaluje nepřirozená tma. Země je z guanového kamene (&eGuanostone&r) a koprolitu (&eCoprolith&r).",
             "&cSvětlo přiláká můry Gloomoth a za nimi dravce. Kultisté Underzealot rozbíjejí pochodně.&r",
-            "&aV guanovém kameni je redstonová ruda, v koprolitu uhlí.&r"]),
+            "&aV guanovém kameni je redstonová ruda, v koprolitu uhlí.&r",
+            "&aKde hledat:&r nejbližší je kousek od spawnu, kolem X 2085, Z -396, hluboko pod zemí (kolem výšky Y 0)."]),
         Q("moth_ball", "Můří kulička", dep=["forlorn_enter"], items=[("alexscaves:moth_ball", 1)], xp=25, d=[
             "Můří kulička (&eMoth Ball&r) drží můry dál od světel.",
             "Recept: můří prach (&eMoth Dust&r, padá z můr), guáno (&eGuano&r) a 2 provázky.",
@@ -190,7 +194,8 @@ ALEXSCAVES = dict(
         Q("candy_enter", "Candy Cavity", dep=["map"], tasks=[biome("alexscaves:candy_cavity")], icon="alexscaves:candy_cane_block", xp=40, d=[
             "&eCandy Cavity&r je jeskyně ze sladkostí: čokolády, dortu, zmrzliny a lízátek.",
             "Tečou tu řeky fialové limonády a světlo dávají gumová sluníčka (&eSundrop&r).",
-            "&cNe všechno je přátelské. Sladcí tvorové a čarodějnice Licowitch tě napadnou.&r"]),
+            "&cNe všechno je přátelské. Sladcí tvorové a čarodějnice Licowitch tě napadnou.&r",
+            "&aKde hledat:&r nejbližší je kolem X -510, Z -2210, další kolem X -1840, Z 4490. Je hluboko pod zemí (kolem výšky Y 0)."]),
         Q("candy", "Sladkosti", dep=["candy_enter"], items=[("alexscaves:candy_cane", 1), ("alexscaves:block_of_chocolate", 1)], xp=40, d=[
             "Cukrová hůl (&eCandy Cane&r) je běžná surovina v &eCandy Cavity&r, padá z Caniaců. Blok čokolády (&eBlock of Chocolate&r) vytěžíš ze stěn a země tohoto biomu.",
             "&aSladké jídlo ti občas dá efekt &eSugar Rush&a – na chvíli se pohybuješ a útočíš rychleji.&r"]),

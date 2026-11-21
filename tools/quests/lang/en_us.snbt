@@ -315,6 +315,7 @@
 		"Rudé neodymové krystaly přitahují kovové věci, modré je odpuzují."
 		"&cŽelezná a netheritová výbava tě tu bude přitahovat i odstrkovat. Lepší je nekovová výbava.&r"
 		"&cTeslovy baňky (&eTesla Bulb&r) dávají rány bleskem a při rozbití vybuchují.&r"
+		"&aKde hledat:&r nejbližší je asi 2 400 bloků od spawnu, kolem X 4005, Z 180, hluboko pod zemí (kolem výšky Y 0)."
 	]
 	quest.028A67D144062F9C.title: "Magnetic Caves"
 	quest.02914B43DFA290FD.quest_desc: [
@@ -2428,10 +2429,10 @@
 	quest.1DC954F94CC95321.title: "Ovládání udělátka"
 	quest.1DD3E07AE2357B51.quest_desc: [
 		"&eTrial Chambers&r je podzemní komplex z mědi a tufu. Najdeš ho hluboko pod zemí."
-		"&cHledej dál od spawnu, v nově objevené krajině.&r Ve starší části světa se Trial Chambers negenerovaly."
-		"&eLíheň klání&r posílá vlny příšer. Když je porazíš, dostaneš &eKlíč klání&r. Tím odemkneš &ePokladnici&r s odměnou."
+		"&aKde hledat:&r nejbližší je kolem X 240, Z -2690. V nejstarší části světa kolem vašich základen (asi do 1 500 bloků od spawnu) nejsou."
+		"Líheň klání (&eTrial Spawner&r) posílá vlny příšer. Když je porazíš, dostaneš klíč klání (&eTrial Key&r). Tím odemkneš trezor (&eVault&r) s odměnou."
 		""
-		"&cPozor na fičáky&r – střílí větrné náboje, které tě odhodí."
+		"&cPozor na fičáky (&eBreeze&c) – střílí větrné náboje, které tě odhodí.&r"
 	]
 	quest.1DD3E07AE2357B51.title: "Trial Chambers"
 	quest.1DDEEAB4023C18AF.quest_desc: [
@@ -2698,6 +2699,7 @@
 		"&eCandy Cavity&r je jeskyně ze sladkostí: čokolády, dortu, zmrzliny a lízátek."
 		"Tečou tu řeky fialové limonády a světlo dávají gumová sluníčka (&eSundrop&r)."
 		"&cNe všechno je přátelské. Sladcí tvorové a čarodějnice Licowitch tě napadnou.&r"
+		"&aKde hledat:&r nejbližší je kolem X -510, Z -2210, další kolem X -1840, Z 4490. Je hluboko pod zemí (kolem výšky Y 0)."
 	]
 	quest.2182B3E8FC048E0F.title: "Candy Cavity"
 	quest.218C0CAE470E19F4.quest_desc: [
@@ -3565,6 +3567,7 @@
 		"&eToxic Caves&r jsou radioaktivní pustina z kamene &eRadrock&r."
 		"&cJezírka kyseliny ničí brnění a pak i tebe. Radioaktivní věci ti dají efekt ozáření (&eIrradiated&c): zastaví léčení a silnější ozáření tě zraňuje.&r"
 		"&aJídlo ze sirného prachu (&eSulfur Dust&r) tě léčí i při ozáření.&r"
+		"&aKde hledat:&r nejbližší je kolem X 2470, Z 2350, další kolem X -2100, Z -1870. Je hluboko pod zemí (kolem výšky Y 0)."
 	]
 	quest.2CBC7475AE21C488.title: "Toxic Caves"
 	quest.2CBF7FF3B2F783CD.quest_desc: [
@@ -6356,6 +6359,7 @@
 		"&eForlorn Hollows&r zahaluje nepřirozená tma. Země je z guanového kamene (&eGuanostone&r) a koprolitu (&eCoprolith&r)."
 		"&cSvětlo přiláká můry Gloomoth a za nimi dravce. Kultisté Underzealot rozbíjejí pochodně.&r"
 		"&aV guanovém kameni je redstonová ruda, v koprolitu uhlí.&r"
+		"&aKde hledat:&r nejbližší je kousek od spawnu, kolem X 2085, Z -396, hluboko pod zemí (kolem výšky Y 0)."
 	]
 	quest.4D70347F5FCEE26B.title: "Forlorn Hollows"
 	quest.4D75DCB9FCD429F5.quest_desc: [
@@ -10121,6 +10125,7 @@
 		"&ePrimordial Caves&r jsou obří jeskyně z vápence (&eLimestone&r). Jantar na stropě je osvětluje jako ve dne, proto se tu nespawnují příšery."
 		"Žijí tu dinosauři! Býložravci jsou klidní, dokud na ně nezaútočíš."
 		"&cDravci jako Vallumraptor (loví ve smečkách) nebo obří Tremorsaurus útočí i na tebe.&r"
+		"&aKde hledat:&r nejbližší je kolem X 200, Z -3880, další kolem X 2210, Z -4610. Je hluboko pod zemí (kolem výšky Y 0)."
 	]
 	quest.7CE9B90F160FDF61.title: "Primordial Caves"
 	quest.7D04401B64A23881.quest_desc: [

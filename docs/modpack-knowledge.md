@@ -25,7 +25,9 @@ Na serveru nejsou žádné KubeJS skripty ani datapacky kromě těch v repu (`ku
 - Overworld předgenerovaný Chunky: čtverec kolem spawnu, poloměr 5000 (hotovo 16.11.).
 - **Přegenerování (schváleno 21.11.):** ponechávají se jen regiony `r.0..6 × r.-5..1` (bloky X 0..3583, Z -2560..1023),
   kde mají hráči všechny základny (hlavní oblast X 672..3023, Z -1040..879). Zbytek overworldu (region, entities, poi)
-  se po záloze smaže a znovu předgeneruje do 6000. Pak Nether 2500 kolem 213/-78, Twilight 3000, Aether 3000, End 3000.
+  se po záloze smaže a znovu předgeneruje do 6000. **Overworld hotový 21.11. 10:02** (564 001 chunků, 9 h 25 min,
+  ~16,6 cps, TPS 20; stav v `tools/registry/pregen_status.txt`). Nether 2500 kolem 213/-78, Twilight 3000, Aether 3000
+  a End 3000 čekají na večer. Záloha před regenerací: `backups/world-pre-regen-2026-11-21_0034` na serveru.
   Nether se nepřegenerovává (hráči v něm mají věci do ~560 bloků, portál u základny: OW [2288,-776] ↔ N [288,-96]).
 - Plán: světová hranice `/worldborder center 1701 -620`, `/worldborder set 12000`. Hranice má ve všech dimenzích
   **stejnou velikost**, posouvá se jen střed podle `coordinate_scale` dimenze (Nether střed /8, Twilight ×8).
@@ -41,7 +43,10 @@ Na serveru nejsou žádné KubeJS skripty ani datapacky kromě těch v repu (`ku
 - **Alex's Caves s Tectonic/Terralith**: Toxic Caves, Primordial Caves a Candy Cavity potřebují extrémní kontinentálnost,
   která se skoro negeneruje. Config v packu (`config/alexscaves_biome_generation/*.json`) podmínky uvolňuje → objevují se
   v chuncích generovaných po změně (b4ff20b). V chuncích vygenerovaných dřív jsou jen Magnetic Caves a Forlorn Hollows;
-  `/locate` a mapy jeskyní (Cave Map) tam hlásí i biomy, které tam ve skutečnosti nejsou („duchové“).
+  `/locate` a mapy jeskyní (Cave Map) tam hlásí i biomy, které tam ve skutečnosti nejsou („duchové“). Po regeneraci
+  se v kole 5 (locate z 9 bodů) žádný duch v ponechané oblasti neobjevil. Ověřené výskyty (offline v .mca) jsou
+  v `tools/registry/locate_results.txt` (kolo 5) a v popisech questů Alex's Caves.
+- Kolo 5: všechny cíle questů v overworldu jsou do 6000 od spawnu (nejdál Desert Oasis 5728, Haunted Manor 5364).
 - **Abyssal Chasm v našem světě není.** Port Alex's Caves 2.0.10 má v `MultiNoiseBiomeSourceMixin` natvrdo podmínku
   continentalness ≤ -0.5 (jen pod hlubokým oceánem), config ji neobejde. V oblasti ~20000×20000 je jediný výskyt
   kolem [-2300, -8300], mimo hranici. Questy větve Abyssal a Tremorzilla (vejce potřebuje Immortal Embryo, padá jen

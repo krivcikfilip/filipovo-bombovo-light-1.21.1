@@ -81,10 +81,10 @@ EXPLORE = dict(
             "&cPozor:&r některé truhly jsou s nástrahou."]),
         Q("trial", "Trial Chambers", dep=["dungeon"], tasks=[structure("minecraft:trial_chambers")], icon="minecraft:trial_key", xp=50, d=[
             "&eTrial Chambers&r je podzemní komplex z mědi a tufu. Najdeš ho hluboko pod zemí.",
-            "&cHledej dál od spawnu, v nově objevené krajině.&r Ve starší části světa se Trial Chambers negenerovaly.",
-            "&eLíheň klání&r posílá vlny příšer. Když je porazíš, dostaneš &eKlíč klání&r. Tím odemkneš &ePokladnici&r s odměnou.",
+            "&aKde hledat:&r nejbližší je kolem X 240, Z -2690. V nejstarší části světa kolem vašich základen (asi do 1 500 bloků od spawnu) nejsou.",
+            "Líheň klání (&eTrial Spawner&r) posílá vlny příšer. Když je porazíš, dostaneš klíč klání (&eTrial Key&r). Tím odemkneš trezor (&eVault&r) s odměnou.",
             "",
-            "&cPozor na fičáky&r – střílí větrné náboje, které tě odhodí."]),
+            "&cPozor na fičáky (&eBreeze&c) – střílí větrné náboje, které tě odhodí.&r"]),
         Q("vault", "Pokladnice", dep=["trial"], tasks=[adv("minecraft:adventure/under_lock_and_key")], icon="minecraft:vault", xp=40, d=[
             "Odemkni &ePokladnici&r ve stavbě &eTrial Chambers&r &eKlíčem klání&r.",
             "Každý hráč může každou pokladnici otevřít jen jednou."]),
