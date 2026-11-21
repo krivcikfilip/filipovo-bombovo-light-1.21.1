@@ -65,7 +65,7 @@ Okamžité rychlosti kolísaly 7–44 cps (nejpomaleji 01:00–02:30, ~8–20 cp
       6  jiné dimenze
   Hráčský mrtvý jen "nvm" [3971,65,-3836] (blok chybí). Ostatní mrtvé jsou VILLAGE/WILDERNESS.
 - Waystones 21.1.46: příkazy jen list/activate/forget/count/cooldown/twinbound – žádné odebrání záznamu z databáze.
-  Teleport na mrtvý záznam -> chyba "waystone_missing" (MissingWaystone); hráč si ho může odebrat ze svého seznamu v GUI (RemoveWaystoneMessage -> removeKnownWaystone, jen pro sebe).
+  Teleport na mrtvý záznam -> pravděpodobně chyba "waystone_missing" (MissingWaystone; neověřeno ve hře); hráč si ho může odebrat ze svého seznamu v GUI (RemoveWaystoneMessage -> removeKnownWaystone, jen pro sebe).
 - Návrh: (a) nechat být – mrtvé záznamy vidí jen hráči, kteří je měli aktivované, teleport selže s hláškou; nebo
   (b) offline při zastaveném serveru odebrat 124 mrtvých záznamů (staré UUID, jejichž blok chybí / má jiné UUID) z data/waystones.dat (po záloze);
-      aktivace u hráčů na neexistující UUID se pak ignorují. Nové vygenerované waystony na stejných místech zůstanou.
+      NEOVĚŘENO: jak Waystones naloží s aktivacemi hráčů na odebraná UUID – před (b) vyzkoušet na kopii. Nové vygenerované waystony na stejných místech zůstanou.
