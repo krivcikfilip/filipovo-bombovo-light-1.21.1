@@ -274,7 +274,7 @@ hash = "924501ae5f216db190474f6b169e677a87ad921d16b22235b3ac00abb644ac28"
 
 [[files]]
 file = "config/iris.properties"
-hash = "b0f7590c6ff72369c25282d42c50bfebc7a58b43ad894d5352fed829a401f939"
+hash = "11a6d980f2ce87ffc3898b3f2e96d449e07d05fd6d46b53bce389e25a8b2a0d7"
 preserve = true
 
 [[files]]
@@ -1894,11 +1894,10 @@ hash = "033cdaaa7f30fb0def3dc107c37bc4d20eee8194d82120f4cbdf9d13ed2dc48f"
 preserve = true
 
 [[files]]
-file = "shaderpacks/ComplementaryUnbound_r5.9.3.zip.txt"
+file = "shaderpacks/ComplementaryUnbound_r5.10.zip.txt"
 hash = "c4f5ef0201b12e413851fd020d4254ab72e80934e44d19531f3babe47b94785c"
-preserve = true
 
 [[files]]
 file = "shaderpacks/complementary-unbound.pw.toml"
-hash = "d28a3f3e991a4d65cda9d18b37bc3672bc87f3e04aeeaf47b59d7e63581e3c3f"
+hash = "71ef38dd4b5a0a9b3dda3770150e94b849ba3160010d0d023511e6941aa79e3e"
 metafile = true
