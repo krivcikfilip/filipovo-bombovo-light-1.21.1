@@ -49,7 +49,8 @@ tak, aby nemusel hledat tutoriály na YouTube.
 - **Almost Unified** sjednocuje kovy: priorita `minecraft > create > mekanism`. Skryté předměty jsou
   v `tools/registry/almostunified_hidden.txt` – ty nikdy nedávej jako úkol (validátor to hlídá).
   Např. ocel je `mekanism:ingot_steel`, ne ocel z Ad Astra nebo Big Cannons.
-- Na serveru nejsou žádné KubeJS skripty ani datapacky měnící recepty – platí recepty z jarů.
+- Recepty platí z jarů, KROMĚ úprav v `kubejs/` (server_scripts: kolize receptů, duplicitní bedny; data: žíla platiny,
+  zkušební komnaty). Validátor KubeJS nevidí – před psaním o receptu zkontroluj, jestli ho `kubejs/` nemění.
 - Configy v repu, které mění hru: `config/quark-common.toml` (vypnuté funkce Quarku), `config/simulated-server.toml`.
 
 ## 3. Návrh questů

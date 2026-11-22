@@ -88,6 +88,17 @@ entity/bloku je v packu **Neruina** (přidána 21.11.; chybnou věc pozastaví a
   nespawnují, když je nainstalovaný Luminous Beasts (jsou jen jejich verze); Gilded Piglin trofej nejde získat.
 - Nesbíratelné předměty: levitit (Create Aeronautics, zmizí při rozbití), ponorka z Alex's Caves (jen creative),
   aerolit (padá jako větvičky), `interiors:wall_mounted_table` (recept ve staré cestě `recipes/`, nenačte se).
+- **Create Propulsion: Simulated** (přidán 22.11.): trysky a křídla působí jen na sestaveném fyzikálním stroji (Sable).
+  Platinová ruda se v předgenerovaném světě negeneruje → **platinová žíla Create Ore Excavation** v
+  `kubejs/data/bombovo/recipe/{ore_vein_type,drilling}/platinum.json` (vzácnost jako zlato; `/coe locate` ověřeno:
+  nejbližší ke spawnu ~X 168, Z -824). Vedlejší zdroj: 5 % platinový nuget z praní rozdrceného zlata (Propulsion přepisuje
+  recept Create). Pryskyřice (terpentýn) jen v **mlýnku** – drcení smrku kolidovalo se štěpkou Diesel Generators
+  (`recipe_conflicts.js`; Create 6 čte `processing_time`, ne `processingTime` – s 0 se mlýnek zacyklí). Paliva trysek
+  v packu: terpentýn, láva, CDG paliva, biopalivo a seed oil (Crafts & Additions), tekutý vodík a bioetanol (Mekanism).
+  Config modu v repu není (výchozí hodnoty). Questy: kapitola Létající stroje, klíče `p_*`.
+- **Create Aeronautics: Compatibility** (22.11.): opravuje na lodích Alex's Mobs/Caves (pathfinding → OOM pád klienta),
+  Storage Drawers (pád), Etched, Another Furniture, Immersive Paintings, Bits 'n' Bobs. **Carry On + Aeronautics Compat
+  nepřidávat** – oprava je v Carry On od 2.2.6 a mod by s ním padal.
 
 ## Configy packu (rozhodnutí)
 - Quark: Totem of Holding vypnutý (po smrti jen tělo z Corpse). Automatic Tool Restock a Variant Selector vypnuté.

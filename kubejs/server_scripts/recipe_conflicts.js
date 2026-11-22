@@ -195,4 +195,11 @@ ServerEvents.recipes(event => {
   // Olejnatá semínka: bez kukuřičných zrn (-> kukuřičná mouka) a kávy (-> mletá káva).
   event.remove({ id: 'extradelight:mortar/oil_seeds' })
   event.custom({"type": "extradelight:mortar", "fluidOut": {"amount": 100, "id": "extradelight:oil_fluid"}, "grinds": 4, "ingredient": {"type": "neoforge:difference", "base": {"tag": "c:seeds"}, "subtracted": [{"item": "minecraft:wheat_seeds"}, {"item": "extradelight:corn_seeds"}, {"item": "extradelight:soybeans"}, {"item": "extradelight:sunflower_seeds"}, {"tag": "c:seeds/corn"}, {"tag": "c:crops/coffee/cooked"}]}, "result": {"count": 1, "id": "minecraft:bone_meal"}}).id('kubejs:recipe_conflicts/extradelight/mortar/oil_seeds')
+
+  // ===== Drcení (create:crushing) =====
+  // Smrkový kmen: Create Propulsion (pryskyřice -> terpentýn) koliduje s Create Diesel Generators (#minecraft:logs -> štěpka).
+  // Pryskyřice se přesouvá do mlýnku (create:milling). Drticí kola berou nejdřív drcení, mlýnský recept jen když drcení
+  // neexistuje (Create CrushingWheelControllerBlockEntity.findRecipe) -> kola dál dělají štěpku, mlýnek pryskyřici.
+  event.remove({ id: 'createpropulsion:crushing/spruce_log' })
+  event.custom({"type": "create:milling", "ingredients": [{"item": "minecraft:spruce_log"}], "processing_time": 150, "results": [{"chance": 0.6, "id": "createpropulsion:pine_resin"}]}).id('kubejs:recipe_conflicts/createpropulsion/milling/spruce_log')
 })

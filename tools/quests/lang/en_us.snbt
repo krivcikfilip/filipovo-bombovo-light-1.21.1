@@ -2443,7 +2443,7 @@
 	quest.1DDEEAB4023C18AF.title: "Plantáž"
 	quest.1DF14DEAF5C79808.quest_desc: [
 		"&bCreate Aeronautics&r udělá ze staveb z Create skutečné fyzikální stroje. Mají váhu, padají, plavou a létají. Fyziku počítají mody &bSimulated&r a &bSable&r."
-		"V kapitole postavíš nejdřív balón, pak loď s vrtulemi a řízením, auto na kolech a nakonec loď, která se řídí sama."
+		"V kapitole postavíš nejdřív balón, pak loď s vrtulemi a řízením, auto na kolech a nakonec loď, která se řídí sama. Na konci jsou trysky a kovová křídla z &bCreate Propulsion: Simulated&r."
 		"&aPotřebuješ základy Create: hřídele, ložiska a vteřinové lepidlo.&r Server dovoluje létání, takže tě za let na lodi nevyhodí."
 		"&cNa tomto serveru jde najednou sestavit nejvýš 8192 bloků.&r"
 	]
@@ -3245,6 +3245,12 @@
 		"Výzkum &eFlower Power&r stojí 64 kompostu a kompostárny musí mít dohromady úroveň 3. Blok budovy: prkna, vlčí mák a nástroj stavby."
 	]
 	quest.28E70663009E1387.title: "Květinářství"
+	quest.2919B813AAF14A6E.quest_desc: [
+		"Imitační křídlo (&eCopycat Wing&r) převezme vzhled jiného bloku. Polož ho a klikni na něj blokem, jehož vzhled chceš."
+		"Řezačka kamene udělá z 1 křídla 4 imitační křídla, mechanická pila jen 1."
+		"&aKlikni dalším imitačním křídlem na položené a rozšíříš ho na širší (&eCopycat Wing (8m)&a), pak na nejširší (&eCopycat Wing (12m)&a). Širší křídlo víc nadnáší.&r"
+	]
+	quest.2919B813AAF14A6E.title: "Imitační křídlo"
 	quest.292AE2FBE9208159.quest_desc: [
 		"&ePiglin Executioner&r žije v biomu &eNether Wastes&r."
 		"&cKdyž prohrává, volá si na pomoc pigliny.&r Může z něj padnout &eExecutioner Cowl&r."
@@ -4339,6 +4345,17 @@
 	quest.370357136636F139.quest_desc: ["Ingot &eNetherite-Diamond Ingot&r je nejlepší stupeň. Vyrobíš ho z ingotu &eNetherite-Emerald Ingot&r a 4 diamantů."]
 	quest.370357136636F139.quest_subtitle: "Expert"
 	quest.370357136636F139.title: "Netherit-diamant"
+	quest.3711C1B68CF89B15.quest_desc: [
+		"Raketová tryska (&eThruster&r) pálí tekuté palivo. Už s terpentýnem táhne víc než tryska na tuhé palivo s uhlím."
+		"Výroba: 4 železné pláty, potrubí, 2 mechanická čerpadla, mosazné pouzdro a měděný plát."
+		"Palivo přiveď potrubím zezadu, nebo na trysku klikni kbelíkem. Tah řídí síla redstonového signálu od 0 do 15. Bez signálu tryska netáhne. &aNa to se hodí plynová páka (&eThrottle Lever&a).&r"
+		"{@pagebreak}"
+		"Paliva: terpentýn (&eTurpentine&r, viz další quest) a láva. Fungují i nafta, benzín, bionafta, etanol a rostlinný olej z kapitoly Ropa a palivo."
+		"Z modu &bCreate Crafts \\& Additions&r hoří biopalivo (&eBiofuel&r) a olej ze semínek (&eSeed Oil&r). Z modu &bMekanism&r hoří tekutý vodík (&eLiquid Hydrogen&r) a bioetanol (&eBioethanol&r)."
+		"&aShift nad kbelíkem paliva ukáže souhrn (&eRocket Fuel Summary&a): jaký tah palivo dává a jak rychle ubývá.&r"
+		"Na rozdíl od vrtulí táhne tryska stejně v každé výšce. Za tryskou nech volno. Když jí něco překáží, brýle ukážou &eObstructed&r."
+	]
+	quest.3711C1B68CF89B15.title: "Raketová tryska"
 	quest.371AE69B18B23F12.quest_desc: [
 		"Vlaková stanice (&eTrain Station&r) je zastávka a zároveň místo, kde se vlak staví a rozebírá."
 		"Výroba: vlakové pouzdro a kompas dají 2 stanice."
@@ -4996,6 +5013,17 @@
 	]
 	quest.3D8A84366753A8E9.quest_subtitle: "Create: Bits 'n' Bobs"
 	quest.3D8A84366753A8E9.title: "Bits 'n' Bobs"
+	quest.3D93DEA6DABB0726.quest_desc: [
+		"&bCreate Propulsion: Simulated&r přidává trysky a křídla pro létající stroje. Tryska tlačí stroj plamenem, nepotřebuje rotaci ani vrtuli."
+		"&cTrysky i křídla fungují jen na sestaveném fyzikálním stroji.&r Mimo něj tryska palivo spálí, ale nic neposune."
+		"Tryska na tuhé palivo (&eSolid Fuel Thruster&r) je nejjednodušší a má nejslabší tah. Nepotřebuje mosaz. Výroba: 2 měděné pláty, 3 železné pláty, 2 andezitové slitiny, šachta a potrubí."
+		"{@pagebreak}"
+		"Palivo jde do trysky zezadu: uhlí, blok uhlí, dřevěné uhlí, kmeny, prkna a další dřevo, které hoří v peci. S ohňodortem (&eBlaze Cake&r) táhne asi 3× silněji než s uhlím."
+		"Redstonový signál ji jen zapíná a vypíná. &aMontážním klíčem otevřeš poklop. Tryska si pak sama bere palivo z truhly nebo jiného kontejneru za sebou.&r"
+		"&cPlamen trysky zraňuje každého, kdo stojí za ní.&r"
+	]
+	quest.3D93DEA6DABB0726.quest_subtitle: "Trysky a křídla"
+	quest.3D93DEA6DABB0726.title: "Tryska na tuhé palivo"
 	quest.3DA45EB6B80015CC.quest_desc: [
 		"Procesor má tři vrstvy. Nejdřív v razítkovači vyraž plošné spoje: lis nahoru, materiál doprostřed."
 		"Logický lis + zlatý ingot, výpočetní lis + certusový krystal, inženýrský lis + diamant, křemíkový lis + křemík (&eSilicon&r)."
@@ -5600,6 +5628,13 @@
 	]
 	quest.4462D33F7C0BE602.quest_subtitle: "Expert"
 	quest.4462D33F7C0BE602.title: "Netherový důl"
+	quest.446FB990DE1F458D.quest_desc: [
+		"Natáčecí adaptér (&eTilt Adapter&r) natočí výstupní hřídel o úhel podle redstonu. Hodí se třeba na kormidlo nebo na natáčení vrtule přes ložisko."
+		"Rozhoduje rozdíl signálů zleva a zprava, nejvýš 45° na každou stranu. Stejné signály vrátí adaptér na střed."
+		"Výroba: železný plát, 2 hřídele portálového jeřábu, ozubené kolečko, 2 redstony a andezitové pouzdro."
+		"&aPokročilý adaptér (&eAdvanced Tilt Adapter&a) s precizním strojkem má limit úhlu nastavitelný pro každou stranu zvlášť, až 90°.&r"
+	]
+	quest.446FB990DE1F458D.title: "Natáčecí adaptér"
 	quest.447F921BFB5DCF99.quest_desc: [
 		"Řetězová kladka (&eChain Pulley&r) funguje jako lanová kladka (&eRope Pulley&r) z Create. Zvedá a spouští bloky, jen místo lana visí řetěz."
 		""
@@ -6920,6 +6955,13 @@
 		"&aTip: Hodí se na převoz paliva k motoru, který stojí daleko od základny.&r"
 	]
 	quest.552866F163FA9C3B.title: "Kanystr"
+	quest.554B7A38B5B48992.quest_desc: [
+		"Křídlo (&eWing&r) nadnáší letící fyzikální stroj. Je to kovová obdoba plachet z questu Křídla a kormidla."
+		"Výroba: 4 železné pláty, 4 železné nugety a andezitová slitina dají 4 křídla."
+		"&aKřídlo poslouží i jako plachta větrného mlýna z Create.&r"
+		"V peci z něj vypálíš kalené křídlo (&eTempered Wing&r). Funguje úplně stejně, jen jinak vypadá."
+	]
+	quest.554B7A38B5B48992.title: "Kovová křídla"
 	quest.5559129869F55350.quest_desc: [
 		"Tryska (&eNozzle&r) na zapouzdřeném větráku odtlačuje fyzikální stroj od blízkých povrchů – od země, stěn i vody."
 		"&aVětráky s tryskami pod strojem udělají vznášedlo, které se drží nad zemí nebo nad vodou.&r"
@@ -8125,6 +8167,15 @@
 		"Redstone signál spustí celou sekvenci. Hodí se na brány, plošiny a stroje, které mají udělat přesný pohyb."
 	]
 	quest.6520DBDDA01DCCF8.title: "Sekvenční řadící páka"
+	quest.652D3893B89FB5CE.quest_desc: [
+		"Z 8 raketových trysek postav krychli 2×2×2. Spojí se ve velkou trysku. Krychle 3×3×3 z 27 trysek je ještě větší."
+		"Velká tryska táhne silněji a palivo využije lépe."
+		"&cPalivo přijímá jen zadní vrstva krychle.&r Přiveď potrubí zezadu a dej trysce redstonový signál."
+		"{@pagebreak}"
+		"Bonus: okysličovadlo (&eOxidizer&r) přidá velké trysce ještě víc tahu. Není povinné. Když chybí, brýle ukážou &eMissing Oxidizer&r."
+		"Okysličovadlo vyrobíš v míchačce nad přehřátým ohňohořákem: pekelná bradavice, železný plát a 1000 mB vody dají 1000 mB okysličovadla."
+	]
+	quest.652D3893B89FB5CE.title: "Velká tryska"
 	quest.653B9B3580F4712E.quest_desc: [
 		"Čelenka s parohy (&eAntler Headdress&r) zvýší, jak daleko odhodíš nepřítele úderem."
 		"Vyrob ji ze 2 losích parohů (&eMoose Antler&r), železného ingotu a 2 vláken."
@@ -8795,6 +8846,12 @@
 	quest.6CAD7393A0ABE08F.title: "Zásobovací tábor"
 	quest.6CDD46E3C0D99532.quest_desc: ["Kyj se žraločími zuby (&eShark Tooth Club&r). Vyrob ho ze 4 žraločích zubů, 2 prken a tyčky."]
 	quest.6CDD46E3C0D99532.title: "Žraločí kyj"
+	quest.6CEC76E251FD0948.quest_desc: [
+		"Elektrická vektorová tryska (&eVector Thruster&r) táhne elektřinou jako iontová tryska a natáčí se jako vektorová tryska na palivo."
+		"Výroba: iontová tryska, senzor náklonu, 2 platinové pláty a 2 platinové nugety."
+		"Elektřinu (FE) jí můžeš přivést i zespodu. Natáčí se stejně: frekvencemi redstonových vysílačů na bocích. Tah řídí redstonový signál od 0 do 15."
+	]
+	quest.6CEC76E251FD0948.title: "Elektrická vektorová tryska"
 	quest.6CEF27F130DEC054.quest_desc: [
 		"Gyroskopický mechanismus (&eGyroscopic Mechanism&r) je díl pro chytré vrtule a senzor náklonu."
 		"Vyrábí se sekvenční montáží jako precizní strojek: na železný plát pokladače přidají ozubené kolečko, hřídel a mosazný nuget. Postup se opakuje 5×."
@@ -9065,6 +9122,16 @@
 		"&aTip:&r Vylepšení prázdnoty (&eVoid Upgrade&r) maže, co se už nevejde – hodí se k farmám."
 	]
 	quest.6FE1B7AF17E70C1C.title: "Větší šuplíky"
+	quest.6FEC66340DC26C7B.quest_desc: [
+		"Platina je kov pro nejlepší trysku. &cPlatinová ruda se v našem světě negeneruje.&r"
+		"Hlavní zdroj je platinová žíla. Těží ji vrtná souprava (&eDrilling Machine&r) z &bCreate Ore Excavation&r. Žílu najdeš hledačem žil (&eOre Vein Finder&r) stejně jako jiné žíly. Je vzácná asi jako zlatá žíla."
+		"&aObčas padne platinový nuget i při praní rozdrcené zlaté rudy.&r"
+		"{@pagebreak}"
+		"Surovou platinu (&eRaw Platinum&r) přetav v peci na ingot. Nebo ji rozdrť v drtících kolech a vyper větrákem s vodou – dostaneš 9 platinových nugetů a někdy i zlatý nuget."
+		"Mechanický lis udělá z ingotu platinový plát (&ePlatinum Sheet&r)."
+		"&aPlatina se hodí i na další věci z modu, třeba na platinovou nádrž (&ePlatinum Fluid Tank&a) s dvojnásobnou kapacitou.&r"
+	]
+	quest.6FEC66340DC26C7B.title: "Platina"
 	quest.703AF89C4077863C.quest_desc: [
 		"Guláš (&eBass Stew&r) uvaříš v hrnci z okounka nebo okouna, zelí a houby. Servíruje se do misky."
 		"&aTip:&r Z křupavého okouna, pečené brambory a rajčatové omáčky složíš rybu s hranolky (&eFish and Chips&r)."
@@ -9196,6 +9263,15 @@
 		"Celý postup od kakaových bobů po čokoládu ukáže JEI."
 	]
 	quest.71921454BEAD66FB.title: "Čokoládová tabulka"
+	quest.71A5437305746DC5.quest_desc: [
+		"Stirlingův motor (&eStirling Engine&r) mění teplo na rotaci. Na lodi je to zdroj rotace, podobně jako přenosný motor. Točí se, jen když ho zespodu něco hřeje."
+		"Výroba: 5 měděných plátů, hřídel, 2 andezitové slitiny a ozubené kolečko. Rychlost nastavíš na jeho panelu."
+		"Teplo dá hořák na tuhá paliva (&eSolid Burner&r) pod motorem. Pálí totéž co pec a hřeje blok nad sebou. Výroba: 3 měděné pláty, 2 železné pláty a vysoká pec."
+		"{@pagebreak}"
+		"Kapalinový hořák (&eLiquid Burner&r) pálí stejná paliva jako raketová tryska. Kapalinu přitom pouští dál jako potrubí."
+		"&aHořáky ohřejí i tyglík míchačky a kotel parního motoru, stejně jako ohňohořák. Mosaz tak vyrobíš i bez Netheru.&r"
+	]
+	quest.71A5437305746DC5.title: "Stirlingův motor"
 	quest.71ACF51C11C5757C.quest_desc: [
 		"Truhly ve stavbách jsou z modu &bLootr&r. Každý hráč v nich najde svůj vlastní poklad."
 		"Otevři vozík s truhlou (nákladní vozík) v dole &eMineshaft&r."
@@ -9485,6 +9561,13 @@
 		"Spolu s dávkovačem přeléváš tekutiny mezi kbelíky a nádržemi."
 	]
 	quest.74EA9CB718A07447.title: "Cedník"
+	quest.74F296E653D42ABC.quest_desc: [
+		"Terpentýn (&eTurpentine&r) je palivo pro trysky. Vyrobíš ho bez Netheru a bez ropy."
+		"1. Dej smrkové kmeny do mlýnského kamene. Z kmene vypadne smrková pryskyřice (&ePine Resin&r), ale jen v 6 případech z 10. &cDrtící kola pryskyřici nedělají, jen mlýnský kámen.&r"
+		"2. V míchačce smíchej pryskyřici s vodou. Ohřev není potřeba. Z 1 pryskyřice a 250 mB vody vznikne 250 mB terpentýnu."
+		"&aKbelík naplníš, když na nádrž s terpentýnem klikneš prázdným kbelíkem. Na lodi je pohodlnější vést terpentýn z nádrže potrubím rovnou do trysek.&r"
+	]
+	quest.74F296E653D42ABC.title: "Terpentýn"
 	quest.74FE0680D74B8599.quest_desc: [
 		"Stormfish (&eRaw Stormfish&r) se objevuje hlavně v oceánech a jen za deště nebo bouřky. Když prší, vyraz k moři."
 		"Teď už chytáš ryby, které mají zvláštní podmínky – sleduj počasí a stavby."
@@ -9822,6 +9905,14 @@
 		"Quest se splní, až vstoupíš do kteréhokoli jeho biomu. Mezi skalami se snadno ztratíš – měj u sebe souřadnice brány."
 	]
 	quest.79A51C9A2BDF1411.title: "Pustina"
+	quest.79A81ED43AFAD6F6.quest_desc: [
+		"Vektorová tryska (&eLiquid Vector Thruster&r) se umí natáčet. Její tah tak může mířit i do stran."
+		"Výroba: raketová tryska, senzor náklonu, 2 měděné pláty a 2 měděné nugety. Palivo jí přiveď potrubím zezadu, na stranu naproti trysce."
+		"Natáčení: každý ze 4 boků má 2 sloty pro frekvenci, stejně jako redstonový vysílač (&eRedstone Link&r). Čím silnější signál na frekvenci daného boku, tím víc se tryska natočí k té straně."
+		"Tah řídíš redstonovým signálem od 0 do 15 jako u raketové trysky. Do velké trysky se spojit nedá."
+		"&aPsací stroj (&eLinked Typewriter&a) z questu Dálkové ovládání umí vysílat frekvence z klávesnice.&r"
+	]
+	quest.79A81ED43AFAD6F6.title: "Vektorová tryska"
 	quest.79B73F428EA115DA.quest_desc: [
 		"&eFrostfire Caves&r je mrazivá jeskyně pod zemí. Na stropě a na zemi je &eModrý led&r a na zemi hoří modrý &eOheň duší&r."
 		"Z příšer tu žijí jen kostlivci a tuláci. Ukrývá se tu ledový dungeon z Terralithu."
@@ -9959,6 +10050,18 @@
 		"&bTwilight's Flavor \\& Delight&r má i další nože: z ocelového listí, rytířského kovu, ohnivý a ledový."
 	]
 	quest.7B01D03AEBD5BDEA.title: "Nůž ze železného dřeva"
+	quest.7B2267C1989E8C97.quest_desc: [
+		"Iontová tryska (&eIon Thruster&r) nepálí palivo, ale elektřinu (FE). Táhne silněji než raketová tryska na terpentýn."
+		"Výroba: redstonový akumulátor (&eRedstone Accumulator&r), redstonový induktor (&eRedstone Inductor&r), mosazný plát, 4 robustní pláty, precizní strojek a šachta."
+		"Akumulátor i induktor vyrobíš z mosazného plátu, redstonu, redstonové pochodně a kamene. Akumulátor potřebuje navíc leštěný růženín, induktor měděný plát."
+		"{@pagebreak}"
+		"Elektřinu přiveď do trysky z kterékoli strany. Tryska má malou vlastní zásobu energie. Tah řídí redstonový signál od 0 do 15."
+		"&cKabel k letící lodi nevede. Zdroj nebo zásobník elektřiny musí být přímo na palubě.&r"
+		"&aElektřinu vyrobí třeba alternátor z kapitoly Elektřina nebo generátory z kapitoly Mekanism.&r"
+		"Iontové trysky jdou taky spojit do velké trysky 2×2×2 nebo 3×3×3."
+	]
+	quest.7B2267C1989E8C97.quest_subtitle: "Expert"
+	quest.7B2267C1989E8C97.title: "Iontová tryska"
 	quest.7B400666C2BE7F7A.quest_desc: [
 		"Železný věžový štít (&eIron Tower Shield&r) vyrobíš z dřevěného věžového štítu a 6 železných ingotů."
 		"Porovnej popisky malého a věžového štítu a vyber si, co ti víc vyhovuje."

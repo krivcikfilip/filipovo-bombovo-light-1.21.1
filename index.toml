@@ -38,7 +38,7 @@ hash = "9f12a7c0297a1388dab66f7667275db8efb352cdabb31265432e4afd1450ecec"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/aeronautics.snbt"
-hash = "411cf8ade53e476b567571e3f1fb96b83ebd5d8613acae180eee246e472e8603"
+hash = "86c10b1d79ace42a81be11d433f14b717a9e98b15d91437f1d5f85ed17490f6f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/aether.snbt"
@@ -266,7 +266,7 @@ hash = "adf903a7caf4a65cf85964d76683a7814b6290bcc46146a060b45621ad1e337c"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "346535f21aa94f61422b798611d278e8737dc37b44732499a4678a4ea42d5e12"
+hash = "8152e27d1edc06f09832cd54b9640f034fabfb77dc0b0d07407a447a00043aba"
 
 [[files]]
 file = "config/inventoryhud-client.toml"
@@ -341,7 +341,7 @@ preserve = true
 
 [[files]]
 file = "kubejs/data/README.txt"
-hash = "5d87beea8201ef1492b9693bd5998fac5de8f10fe971ad11af826c64e31a4282"
+hash = "7cd949813c0ec7f69d448f15b7a3bc402776189c1f796cac7f3a332c9981af85"
 
 [[files]]
 file = "kubejs/data/bombovo/recipe/drilling/platinum.json"
@@ -361,7 +361,7 @@ hash = "77888adea206aaacbfd4ae25c0a1e73f8e17b2430d66b16aed1d05eddc36f724"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_conflicts.js"
-hash = "48a2b97c3b97f55fa82cfe3f073682883357bdbb380d5fd5e2e92c6ca83db021"
+hash = "83ed579af344c5920e2a02cdaffe1878b77e673fd89bf374fd9119047bfc528b"
 
 [[files]]
 file = "kubejs/server_scripts/storage_duplicates.js"

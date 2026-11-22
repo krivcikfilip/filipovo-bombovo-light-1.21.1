@@ -241,7 +241,7 @@ AERO = dict(
         Q("start", "Fyzika!", s="Začátečník", icon="simulated:physics_assembler", tasks=[auto()], xp=10,
           shape="hexagon", size=1.5, d=[
             "&bCreate Aeronautics&r udělá ze staveb z Create skutečné fyzikální stroje. Mají váhu, padají, plavou a létají. Fyziku počítají mody &bSimulated&r a &bSable&r.",
-            "V kapitole postavíš nejdřív balón, pak loď s vrtulemi a řízením, auto na kolech a nakonec loď, která se řídí sama.",
+            "V kapitole postavíš nejdřív balón, pak loď s vrtulemi a řízením, auto na kolech a nakonec loď, která se řídí sama. Na konci jsou trysky a kovová křídla z &bCreate Propulsion: Simulated&r.",
             "&aPotřebuješ základy Create: hřídele, ložiska a vteřinové lepidlo.&r Server dovoluje létání, takže tě za let na lodi nevyhodí.",
             "&cNa tomto serveru jde najednou sestavit nejvýš 8192 bloků.&r"]),
         Q("assembler", "Fyzikální sestavovač", dep=["start", "create:bearing"],
@@ -458,6 +458,96 @@ AERO = dict(
         Q("cloud_disc", "Píseň oblaků", icon="aeronautics:music_disc_cloud_skipper", dep=["balloon"],
           tasks=[adv("aeronautics:song_of_the_sky")], xp=30, optional=True, d=[
             "Vyleť až do mraků, třeba svým létajícím strojem, a vyhoď tam hudební disk. Promění se v nový disk s písní &eCloud Skipper&r."]),
+        # ---------- Create Propulsion: trysky a křídla ----------
+        Q("p_solid", "Tryska na tuhé palivo", s="Trysky a křídla", dep=["assembler", "create:fluids"],
+          items=[("createpropulsion:solid_fuel_thruster", 1)], xp=30, d=[
+            "&bCreate Propulsion: Simulated&r přidává trysky a křídla pro létající stroje. Tryska tlačí stroj plamenem, nepotřebuje rotaci ani vrtuli.",
+            "&cTrysky i křídla fungují jen na sestaveném fyzikálním stroji.&r Mimo něj tryska palivo spálí, ale nic neposune.",
+            "Tryska na tuhé palivo (&eSolid Fuel Thruster&r) je nejjednodušší a má nejslabší tah. Nepotřebuje mosaz. Výroba: 2 měděné pláty, 3 železné pláty, 2 andezitové slitiny, šachta a potrubí.",
+            "{@pagebreak}",
+            "Palivo jde do trysky zezadu: uhlí, blok uhlí, dřevěné uhlí, kmeny, prkna a další dřevo, které hoří v peci. S ohňodortem (&eBlaze Cake&r) táhne asi 3× silněji než s uhlím.",
+            "Redstonový signál ji jen zapíná a vypíná. &aMontážním klíčem otevřeš poklop. Tryska si pak sama bere palivo z truhly nebo jiného kontejneru za sebou.&r",
+            "&cPlamen trysky zraňuje každého, kdo stojí za ní.&r"]),
+        Q("p_thruster", "Raketová tryska", dep=["p_solid", "create:brass"],
+          items=[("createpropulsion:thruster", 1)], xp=50, shape="hexagon", size=1.5, d=[
+            "Raketová tryska (&eThruster&r) pálí tekuté palivo. Už s terpentýnem táhne víc než tryska na tuhé palivo s uhlím.",
+            "Výroba: 4 železné pláty, potrubí, 2 mechanická čerpadla, mosazné pouzdro a měděný plát.",
+            "Palivo přiveď potrubím zezadu, nebo na trysku klikni kbelíkem. Tah řídí síla redstonového signálu od 0 do 15. Bez signálu tryska netáhne. &aNa to se hodí plynová páka (&eThrottle Lever&a).&r",
+            "{@pagebreak}",
+            "Paliva: terpentýn (&eTurpentine&r, viz další quest) a láva. Fungují i nafta, benzín, bionafta, etanol a rostlinný olej z kapitoly Ropa a palivo.",
+            "Z modu &bCreate Crafts & Additions&r hoří biopalivo (&eBiofuel&r) a olej ze semínek (&eSeed Oil&r). Z modu &bMekanism&r hoří tekutý vodík (&eLiquid Hydrogen&r) a bioetanol (&eBioethanol&r).",
+            "&aShift nad kbelíkem paliva ukáže souhrn (&eRocket Fuel Summary&a): jaký tah palivo dává a jak rychle ubývá.&r",
+            "Na rozdíl od vrtulí táhne tryska stejně v každé výšce. Za tryskou nech volno. Když jí něco překáží, brýle ukážou &eObstructed&r."]),
+        Q("p_turpentine", "Terpentýn", dep=["p_thruster", "create:millstone", "create:mixer"],
+          items=[("createpropulsion:turpentine_bucket", 1)], xp=30, d=[
+            "Terpentýn (&eTurpentine&r) je palivo pro trysky. Vyrobíš ho bez Netheru a bez ropy.",
+            "1. Dej smrkové kmeny do mlýnského kamene. Z kmene vypadne smrková pryskyřice (&ePine Resin&r), ale jen v 6 případech z 10. &cDrtící kola pryskyřici nedělají, jen mlýnský kámen.&r",
+            "2. V míchačce smíchej pryskyřici s vodou. Ohřev není potřeba. Z 1 pryskyřice a 250 mB vody vznikne 250 mB terpentýnu.",
+            "&aKbelík naplníš, když na nádrž s terpentýnem klikneš prázdným kbelíkem. Na lodi je pohodlnější vést terpentýn z nádrže potrubím rovnou do trysek.&r"]),
+        Q("p_wing", "Kovová křídla", dep=["p_solid"], items=[("createpropulsion:wing", 4)], xp=30, d=[
+            "Křídlo (&eWing&r) nadnáší letící fyzikální stroj. Je to kovová obdoba plachet z questu Křídla a kormidla.",
+            "Výroba: 4 železné pláty, 4 železné nugety a andezitová slitina dají 4 křídla.",
+            "&aKřídlo poslouží i jako plachta větrného mlýna z Create.&r",
+            "V peci z něj vypálíš kalené křídlo (&eTempered Wing&r). Funguje úplně stejně, jen jinak vypadá."]),
+        Q("p_copycat", "Imitační křídlo", dep=["p_wing"], items=[("createpropulsion:copycat_wing", 1)], xp=10,
+          optional=True, d=[
+            "Imitační křídlo (&eCopycat Wing&r) převezme vzhled jiného bloku. Polož ho a klikni na něj blokem, jehož vzhled chceš.",
+            "Řezačka kamene udělá z 1 křídla 4 imitační křídla, mechanická pila jen 1.",
+            "&aKlikni dalším imitačním křídlem na položené a rozšíříš ho na širší (&eCopycat Wing (8m)&a), pak na nejširší (&eCopycat Wing (12m)&a). Širší křídlo víc nadnáší.&r"]),
+        Q("p_vector", "Vektorová tryska", dep=["p_thruster", "gimbal"],
+          items=[("createpropulsion:liquid_vector_thruster", 1)], xp=50, d=[
+            "Vektorová tryska (&eLiquid Vector Thruster&r) se umí natáčet. Její tah tak může mířit i do stran.",
+            "Výroba: raketová tryska, senzor náklonu, 2 měděné pláty a 2 měděné nugety. Palivo jí přiveď potrubím zezadu, na stranu naproti trysce.",
+            "Natáčení: každý ze 4 boků má 2 sloty pro frekvenci, stejně jako redstonový vysílač (&eRedstone Link&r). Čím silnější signál na frekvenci daného boku, tím víc se tryska natočí k té straně.",
+            "Tah řídíš redstonovým signálem od 0 do 15 jako u raketové trysky. Do velké trysky se spojit nedá.",
+            "&aPsací stroj (&eLinked Typewriter&a) z questu Dálkové ovládání umí vysílat frekvence z klávesnice.&r"]),
+        Q("p_ion", "Iontová tryska", s="Expert", dep=["p_thruster", "trains:sturdy", "create:precision", "create_addons:alternator"],
+          items=[("createpropulsion:ion_thruster", 1)], xp=60, d=[
+            "Iontová tryska (&eIon Thruster&r) nepálí palivo, ale elektřinu (FE). Táhne silněji než raketová tryska na terpentýn.",
+            "Výroba: redstonový akumulátor (&eRedstone Accumulator&r), redstonový induktor (&eRedstone Inductor&r), mosazný plát, 4 robustní pláty, precizní strojek a šachta.",
+            "Akumulátor i induktor vyrobíš z mosazného plátu, redstonu, redstonové pochodně a kamene. Akumulátor potřebuje navíc leštěný růženín, induktor měděný plát.",
+            "{@pagebreak}",
+            "Elektřinu přiveď do trysky z kterékoli strany. Tryska má malou vlastní zásobu energie. Tah řídí redstonový signál od 0 do 15.",
+            "&cKabel k letící lodi nevede. Zdroj nebo zásobník elektřiny musí být přímo na palubě.&r",
+            "&aElektřinu vyrobí třeba alternátor z kapitoly Elektřina nebo generátory z kapitoly Mekanism.&r",
+            "Iontové trysky jdou taky spojit do velké trysky 2×2×2 nebo 3×3×3."]),
+        Q("p_big", "Velká tryska", dep=["p_turpentine"],
+          items=[("createpropulsion:thruster", 8)], xp=60, shape="hexagon", size=1.5, d=[
+            "Z 8 raketových trysek postav krychli 2×2×2. Spojí se ve velkou trysku. Krychle 3×3×3 z 27 trysek je ještě větší.",
+            "Velká tryska táhne silněji a palivo využije lépe.",
+            "&cPalivo přijímá jen zadní vrstva krychle.&r Přiveď potrubí zezadu a dej trysce redstonový signál.",
+            "{@pagebreak}",
+            "Bonus: okysličovadlo (&eOxidizer&r) přidá velké trysce ještě víc tahu. Není povinné. Když chybí, brýle ukážou &eMissing Oxidizer&r.",
+            "Okysličovadlo vyrobíš v míchačce nad přehřátým ohňohořákem: pekelná bradavice, železný plát a 1000 mB vody dají 1000 mB okysličovadla."]),
+        Q("p_platinum", "Platina", dep=["p_ion", "create_addons:excavation"],
+          items=[("createpropulsion:platinum_sheet", 2)], xp=50, d=[
+            "Platina je kov pro nejlepší trysku. &cPlatinová ruda se v našem světě negeneruje.&r",
+            "Hlavní zdroj je platinová žíla. Těží ji vrtná souprava (&eDrilling Machine&r) z &bCreate Ore Excavation&r. Žílu najdeš hledačem žil (&eOre Vein Finder&r) stejně jako jiné žíly. Je vzácná asi jako zlatá žíla.",
+            "&aObčas padne platinový nuget i při praní rozdrcené zlaté rudy.&r",
+            "{@pagebreak}",
+            "Surovou platinu (&eRaw Platinum&r) přetav v peci na ingot. Nebo ji rozdrť v drtících kolech a vyper větrákem s vodou – dostaneš 9 platinových nugetů a někdy i zlatý nuget.",
+            "Mechanický lis udělá z ingotu platinový plát (&ePlatinum Sheet&r).",
+            "&aPlatina se hodí i na další věci z modu, třeba na platinovou nádrž (&ePlatinum Fluid Tank&a) s dvojnásobnou kapacitou.&r"]),
+        Q("p_vector_fe", "Elektrická vektorová tryska", dep=["p_platinum", "p_vector"],
+          items=[("createpropulsion:vector_thruster", 1)], xp=60, shape="hexagon", size=1.5, d=[
+            "Elektrická vektorová tryska (&eVector Thruster&r) táhne elektřinou jako iontová tryska a natáčí se jako vektorová tryska na palivo.",
+            "Výroba: iontová tryska, senzor náklonu, 2 platinové pláty a 2 platinové nugety.",
+            "Elektřinu (FE) jí můžeš přivést i zespodu. Natáčí se stejně: frekvencemi redstonových vysílačů na bocích. Tah řídí redstonový signál od 0 do 15."]),
+        Q("p_stirling", "Stirlingův motor", dep=["portable"],
+          items=[("createpropulsion:stirling_engine", 1), ("createpropulsion:solid_burner", 1)], xp=30,
+          optional=True, d=[
+            "Stirlingův motor (&eStirling Engine&r) mění teplo na rotaci. Na lodi je to zdroj rotace, podobně jako přenosný motor. Točí se, jen když ho zespodu něco hřeje.",
+            "Výroba: 5 měděných plátů, hřídel, 2 andezitové slitiny a ozubené kolečko. Rychlost nastavíš na jeho panelu.",
+            "Teplo dá hořák na tuhá paliva (&eSolid Burner&r) pod motorem. Pálí totéž co pec a hřeje blok nad sebou. Výroba: 3 měděné pláty, 2 železné pláty a vysoká pec.",
+            "{@pagebreak}",
+            "Kapalinový hořák (&eLiquid Burner&r) pálí stejná paliva jako raketová tryska. Kapalinu přitom pouští dál jako potrubí.",
+            "&aHořáky ohřejí i tyglík míchačky a kotel parního motoru, stejně jako ohňohořák. Mosaz tak vyrobíš i bez Netheru.&r"]),
+        Q("p_tilt", "Natáčecí adaptér", dep=["steering"], items=[("createpropulsion:tilt_adapter", 1)], xp=30,
+          optional=True, d=[
+            "Natáčecí adaptér (&eTilt Adapter&r) natočí výstupní hřídel o úhel podle redstonu. Hodí se třeba na kormidlo nebo na natáčení vrtule přes ložisko.",
+            "Rozhoduje rozdíl signálů zleva a zprava, nejvýš 45° na každou stranu. Stejné signály vrátí adaptér na střed.",
+            "Výroba: železný plát, 2 hřídele portálového jeřábu, ozubené kolečko, 2 redstony a andezitové pouzdro.",
+            "&aPokročilý adaptér (&eAdvanced Tilt Adapter&a) s precizním strojkem má limit úhlu nastavitelný pro každou stranu zvlášť, až 90°.&r"]),
     ],
 )
 
@@ -607,3 +697,7 @@ CHAPTERS = [TRAINS, AERO, VEHICLES]
 # Biomy u balónu (pláně, louky, savana, poušť) sem nepatří: jsou to i běžná slova a chytala by i předměty
 # (např. „savanové hrozny“ = Savanna Grapes).
 PROPER_NAMES_CZ = {}
+
+NO_RECIPE = {
+    "createpropulsion:turpentine_bucket": "Prázdný kbelík naplní terpentýnem nádrž nebo dávkovač (Spout) z Create, kapalinu vyrobí míchačka (createpropulsion:mixing/turpentine).",
+}

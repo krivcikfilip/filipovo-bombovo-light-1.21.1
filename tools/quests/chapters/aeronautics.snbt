@@ -33,7 +33,7 @@
 				}
 			]
 			x: 0.0d
-			y: 11.98d
+			y: 12.855d
 		}
 		{
 			dependencies: [
@@ -56,7 +56,7 @@
 				}
 			]
 			x: 1.913d
-			y: 10.23d
+			y: 11.105d
 		}
 		{
 			dependencies: [
@@ -78,8 +78,8 @@
 					type: "item"
 				}
 			]
-			x: 5.656d
-			y: 0.75d
+			x: 5.912d
+			y: 0.78d
 		}
 		{
 			dependencies: ["79E7751F5A52DEBD"]
@@ -98,8 +98,8 @@
 					type: "item"
 				}
 			]
-			x: 5.656d
-			y: 4.25d
+			x: 5.912d
+			y: 4.28d
 		}
 		{
 			dependencies: ["79E7751F5A52DEBD"]
@@ -119,8 +119,8 @@
 					type: "item"
 				}
 			]
-			x: 5.656d
-			y: 7.25d
+			x: 5.912d
+			y: 7.28d
 		}
 		{
 			dependencies: ["79E7751F5A52DEBD"]
@@ -140,8 +140,8 @@
 					type: "item"
 				}
 			]
-			x: 5.656d
-			y: 14.25d
+			x: 5.912d
+			y: 10.28d
 		}
 		{
 			dependencies: ["1DF14DEAF5C79808"]
@@ -162,7 +162,7 @@
 				}
 			]
 			x: 1.913d
-			y: 13.23d
+			y: 14.105d
 		}
 		{
 			dependencies: ["4043B5F303D667BA"]
@@ -181,8 +181,8 @@
 					type: "item"
 				}
 			]
-			x: 5.656d
-			y: 15.75d
+			x: 5.912d
+			y: 17.28d
 		}
 		{
 			dependencies: [
@@ -210,8 +210,8 @@
 					type: "advancement"
 				}
 			]
-			x: 7.406d
-			y: 14.55d
+			x: 7.662d
+			y: 16.44d
 		}
 		{
 			dependencies: [
@@ -234,8 +234,8 @@
 					type: "item"
 				}
 			]
-			x: 9.155d
-			y: 13.8d
+			x: 10.446d
+			y: 18.4d
 		}
 		{
 			dependencies: ["79E7751F5A52DEBD"]
@@ -254,8 +254,8 @@
 					type: "item"
 				}
 			]
-			x: 5.656d
-			y: 2.75d
+			x: 5.912d
+			y: 2.78d
 		}
 		{
 			dependencies: [
@@ -282,8 +282,8 @@
 					type: "item"
 				}
 			]
-			x: 7.406d
-			y: 1.5d
+			x: 7.662d
+			y: 1.53d
 		}
 		{
 			dependencies: ["6117A72CBB15361C"]
@@ -302,7 +302,7 @@
 					type: "item"
 				}
 			]
-			x: 9.155d
+			x: 10.446d
 			y: 0.0d
 		}
 		{
@@ -325,7 +325,7 @@
 					type: "item"
 				}
 			]
-			x: 9.155d
+			x: 10.446d
 			y: 1.5d
 		}
 		{
@@ -345,8 +345,8 @@
 					type: "item"
 				}
 			]
-			x: 10.905d
-			y: 1.92d
+			x: 12.196d
+			y: 0.525d
 		}
 		{
 			dependencies: ["6CEF27F130DEC054"]
@@ -365,8 +365,8 @@
 					type: "item"
 				}
 			]
-			x: 10.905d
-			y: 4.92d
+			x: 12.196d
+			y: 3.825d
 		}
 		{
 			dependencies: ["6117A72CBB15361C"]
@@ -386,7 +386,7 @@
 					type: "item"
 				}
 			]
-			x: 9.155d
+			x: 10.446d
 			y: 3.0d
 		}
 		{
@@ -407,8 +407,8 @@
 					type: "item"
 				}
 			]
-			x: 7.406d
-			y: 3.0d
+			x: 7.662d
+			y: 3.03d
 		}
 		{
 			dependencies: [
@@ -430,8 +430,8 @@
 					type: "item"
 				}
 			]
-			x: 5.656d
-			y: 5.75d
+			x: 5.912d
+			y: 8.78d
 		}
 		{
 			dependencies: ["502BF10FD13C4EA5"]
@@ -450,8 +450,8 @@
 					type: "item"
 				}
 			]
-			x: 7.406d
-			y: 5.25d
+			x: 7.662d
+			y: 8.28d
 		}
 		{
 			dependencies: ["1C4648E68A43F12A"]
@@ -475,8 +475,8 @@
 					type: "item"
 				}
 			]
-			x: 9.155d
-			y: 5.25d
+			x: 10.446d
+			y: 10.9d
 		}
 		{
 			dependencies: ["39B8F8A441598265"]
@@ -495,8 +495,8 @@
 					type: "item"
 				}
 			]
-			x: 10.905d
-			y: 6.42d
+			x: 12.196d
+			y: 10.775d
 		}
 		{
 			dependencies: ["39B8F8A441598265"]
@@ -522,8 +522,8 @@
 					type: "item"
 				}
 			]
-			x: 10.905d
-			y: 3.42d
+			x: 12.196d
+			y: 7.775d
 		}
 		{
 			dependencies: [
@@ -545,8 +545,8 @@
 					type: "item"
 				}
 			]
-			x: 12.655d
-			y: 0.42d
+			x: 14.306d
+			y: 2.963d
 		}
 		{
 			dependencies: [
@@ -568,8 +568,8 @@
 					type: "item"
 				}
 			]
-			x: 12.655d
-			y: 1.92d
+			x: 14.306d
+			y: 6.275d
 		}
 		{
 			dependencies: ["548067B1AEEA6446"]
@@ -589,8 +589,8 @@
 					type: "item"
 				}
 			]
-			x: 12.655d
-			y: 3.42d
+			x: 14.306d
+			y: 8.675d
 		}
 		{
 			dependencies: [
@@ -613,8 +613,8 @@
 					type: "item"
 				}
 			]
-			x: 12.655d
-			y: 4.92d
+			x: 14.306d
+			y: 10.175d
 		}
 		{
 			dependencies: ["79E7751F5A52DEBD"]
@@ -634,8 +634,8 @@
 					type: "item"
 				}
 			]
-			x: 5.656d
-			y: 8.75d
+			x: 5.912d
+			y: 11.78d
 		}
 		{
 			dependencies: ["45140F34F58E6FF4"]
@@ -661,8 +661,8 @@
 					type: "item"
 				}
 			]
-			x: 7.406d
-			y: 9.0d
+			x: 7.662d
+			y: 11.94d
 		}
 		{
 			dependencies: ["300293F855AB765B"]
@@ -682,8 +682,8 @@
 					type: "item"
 				}
 			]
-			x: 9.155d
-			y: 8.0d
+			x: 10.446d
+			y: 12.4d
 		}
 		{
 			dependencies: [
@@ -710,8 +710,8 @@
 					type: "item"
 				}
 			]
-			x: 9.155d
-			y: 9.5d
+			x: 10.446d
+			y: 13.9d
 		}
 		{
 			dependencies: ["79E7751F5A52DEBD"]
@@ -731,8 +731,8 @@
 					type: "item"
 				}
 			]
-			x: 5.656d
-			y: 10.25d
+			x: 5.912d
+			y: 5.78d
 		}
 		{
 			dependencies: ["66F685B21AF865ED"]
@@ -757,8 +757,8 @@
 					type: "item"
 				}
 			]
-			x: 7.406d
-			y: 10.5d
+			x: 7.662d
+			y: 6.03d
 		}
 		{
 			dependencies: [
@@ -781,8 +781,8 @@
 					type: "item"
 				}
 			]
-			x: 9.155d
-			y: 11.0d
+			x: 10.446d
+			y: 5.4d
 		}
 		{
 			dependencies: [
@@ -806,8 +806,8 @@
 					type: "item"
 				}
 			]
-			x: 7.406d
-			y: 7.5d
+			x: 7.662d
+			y: 4.53d
 		}
 		{
 			dependencies: [
@@ -832,7 +832,7 @@
 				}
 			]
 			x: 1.913d
-			y: 11.73d
+			y: 12.605d
 		}
 		{
 			dependencies: ["567A11584CD52916"]
@@ -855,8 +855,8 @@
 					type: "advancement"
 				}
 			]
-			x: 5.656d
-			y: 11.75d
+			x: 5.912d
+			y: 15.78d
 		}
 		{
 			dependencies: ["737BE59B311EAF17"]
@@ -880,8 +880,8 @@
 					type: "advancement"
 				}
 			]
-			x: 7.406d
-			y: 12.0d
+			x: 7.662d
+			y: 13.44d
 		}
 		{
 			dependencies: [
@@ -903,8 +903,8 @@
 					type: "item"
 				}
 			]
-			x: 5.656d
-			y: 17.25d
+			x: 5.912d
+			y: 18.78d
 		}
 		{
 			dependencies: ["1DF14DEAF5C79808"]
@@ -926,7 +926,7 @@
 				}
 			]
 			x: 1.913d
-			y: 14.73d
+			y: 15.605d
 		}
 		{
 			dependencies: ["1ECB4E0543C0EAFE"]
@@ -946,8 +946,8 @@
 					type: "item"
 				}
 			]
-			x: 5.656d
-			y: 18.75d
+			x: 5.912d
+			y: 20.28d
 		}
 		{
 			dependencies: ["1ECB4E0543C0EAFE"]
@@ -967,8 +967,8 @@
 					type: "item"
 				}
 			]
-			x: 5.656d
-			y: 20.25d
+			x: 5.912d
+			y: 21.78d
 		}
 		{
 			dependencies: ["1DF14DEAF5C79808"]
@@ -990,7 +990,7 @@
 				}
 			]
 			x: 1.913d
-			y: 16.73d
+			y: 17.605d
 		}
 		{
 			dependencies: ["45EEA4B3F17F2BD3"]
@@ -1010,8 +1010,8 @@
 					type: "item"
 				}
 			]
-			x: 5.656d
-			y: 21.75d
+			x: 5.912d
+			y: 23.28d
 		}
 		{
 			dependencies: ["1DF14DEAF5C79808"]
@@ -1035,7 +1035,7 @@
 				}
 			]
 			x: 1.913d
-			y: 8.23d
+			y: 9.105d
 		}
 		{
 			dependencies: ["07DA2662E05632A0"]
@@ -1059,8 +1059,289 @@
 					type: "advancement"
 				}
 			]
-			x: 9.155d
-			y: 15.3d
+			x: 10.446d
+			y: 19.9d
+		}
+		{
+			dependencies: [
+				"79E7751F5A52DEBD"
+				"55625BFA5DD44551"
+			]
+			id: "3D93DEA6DABB0726"
+			rewards: [
+				{
+					id: "7B9CCFC645AE6380"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "765A7EB78B950D5B"
+					item: { count: 1, id: "createpropulsion:solid_fuel_thruster" }
+					type: "item"
+				}
+			]
+			x: 5.912d
+			y: 13.28d
+		}
+		{
+			dependencies: [
+				"3D93DEA6DABB0726"
+				"532780D9DB293403"
+			]
+			id: "3711C1B68CF89B15"
+			rewards: [
+				{
+					id: "4C0C784BCAB9B297"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "5228EBDBD8528C17"
+					item: { count: 1, id: "createpropulsion:thruster" }
+					type: "item"
+				}
+			]
+			x: 7.662d
+			y: 10.44d
+		}
+		{
+			dependencies: [
+				"3711C1B68CF89B15"
+				"4978B86F57E43FCE"
+				"35E7FB9BFAB4A8C0"
+			]
+			id: "74F296E653D42ABC"
+			rewards: [
+				{
+					id: "192DE20806E1C100"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "4F62BCBE5FD18994"
+					item: { count: 1, id: "createpropulsion:turpentine_bucket" }
+					type: "item"
+				}
+			]
+			x: 10.446d
+			y: 15.4d
+		}
+		{
+			dependencies: ["3D93DEA6DABB0726"]
+			id: "554B7A38B5B48992"
+			rewards: [
+				{
+					id: "32073CFB1D8C5E6B"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "0ACC97D171B95C21"
+					item: { count: 1, id: "createpropulsion:wing" }
+					type: "item"
+				}
+			]
+			x: 7.662d
+			y: 14.94d
+		}
+		{
+			dependencies: ["554B7A38B5B48992"]
+			id: "2919B813AAF14A6E"
+			optional: true
+			rewards: [
+				{
+					id: "5D51E730262AAEE8"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "196AE10960A861CA"
+					item: { count: 1, id: "createpropulsion:copycat_wing" }
+					type: "item"
+				}
+			]
+			x: 10.446d
+			y: 16.9d
+		}
+		{
+			dependencies: [
+				"3711C1B68CF89B15"
+				"1471BC58B5F70561"
+			]
+			id: "79A81ED43AFAD6F6"
+			rewards: [
+				{
+					id: "6363A3E421C313CE"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "10A83202D3DFCE2A"
+					item: { count: 1, id: "createpropulsion:liquid_vector_thruster" }
+					type: "item"
+				}
+			]
+			x: 16.056d
+			y: 3.563d
+		}
+		{
+			dependencies: [
+				"3711C1B68CF89B15"
+				"01A9066153305CB7"
+				"5F71DBB1A5D94585"
+				"3CFD936F658EFFBC"
+			]
+			id: "7B2267C1989E8C97"
+			rewards: [
+				{
+					id: "0D637D5AA45D131B"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					id: "61AF93BBBFF8CA54"
+					item: { count: 1, id: "createpropulsion:ion_thruster" }
+					type: "item"
+				}
+			]
+			x: 10.446d
+			y: 9.4d
+		}
+		{
+			dependencies: ["74F296E653D42ABC"]
+			id: "652D3893B89FB5CE"
+			rewards: [
+				{
+					id: "675B0C6F17610732"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					count: 8L
+					id: "157A812254B5680D"
+					item: { count: 1, id: "createpropulsion:thruster" }
+					type: "item"
+				}
+			]
+			x: 12.196d
+			y: 14.4d
+		}
+		{
+			dependencies: [
+				"7B2267C1989E8C97"
+				"5CD64687DC1F0763"
+			]
+			id: "6FEC66340DC26C7B"
+			rewards: [
+				{
+					id: "592D30EA7CC3EC88"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "403C31B87E17DE48"
+					item: { count: 1, id: "createpropulsion:platinum_sheet" }
+					type: "item"
+				}
+			]
+			x: 12.196d
+			y: 9.275d
+		}
+		{
+			dependencies: [
+				"6FEC66340DC26C7B"
+				"79A81ED43AFAD6F6"
+			]
+			id: "6CEC76E251FD0948"
+			rewards: [
+				{
+					id: "31651B6BB6447A50"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "44F0058264DFACC2"
+					item: { count: 1, id: "createpropulsion:vector_thruster" }
+					type: "item"
+				}
+			]
+			x: 17.806d
+			y: 5.269d
+		}
+		{
+			dependencies: ["1C4648E68A43F12A"]
+			id: "71A5437305746DC5"
+			optional: true
+			rewards: [
+				{
+					id: "565F59CE63334F46"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "5B7F47AD09CCF444"
+					item: { count: 1, id: "createpropulsion:stirling_engine" }
+					type: "item"
+				}
+				{
+					id: "4E69807714153F75"
+					item: { count: 1, id: "createpropulsion:solid_burner" }
+					type: "item"
+				}
+			]
+			x: 10.446d
+			y: 6.9d
+		}
+		{
+			dependencies: ["39B8F8A441598265"]
+			id: "446FB990DE1F458D"
+			optional: true
+			rewards: [
+				{
+					id: "0A4DAD5F809FFF47"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "63C6546F77E2EE48"
+					item: { count: 1, id: "createpropulsion:tilt_adapter" }
+					type: "item"
+				}
+			]
+			x: 12.196d
+			y: 12.275d
 		}
 	]
 }
