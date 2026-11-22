@@ -341,7 +341,15 @@ preserve = true
 
 [[files]]
 file = "kubejs/data/README.txt"
-hash = "587650f2e1ab4d9b27bf7c9e617385c8aa9750efb612be76281427afc400466b"
+hash = "5d87beea8201ef1492b9693bd5998fac5de8f10fe971ad11af826c64e31a4282"
+
+[[files]]
+file = "kubejs/data/bombovo/recipe/drilling/platinum.json"
+hash = "21dde55fbc1bf8c2abff03b896e2de3d970958858711500fee07c48c16758665"
+
+[[files]]
+file = "kubejs/data/bombovo/recipe/ore_vein_type/platinum.json"
+hash = "2bd7d9599c00cd65d7943ee3cae6752b49dbce6885161b5704bf6a9a943d95da"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/structure/trial_chambers.json"
@@ -650,6 +658,11 @@ hash = "89340330d49ebf646a46af0da4cd457c98e0dca4337490981421d86bfcd2fd94"
 metafile = true
 
 [[files]]
+file = "mods/controlling.pw.toml"
+hash = "65c8086d2ec3d39acc7bd36c7a0306ccc43b602b38fa07d13291bc478ef7dfff"
+metafile = true
+
+[[files]]
 file = "mods/copycats.pw.toml"
 hash = "b6b702e432d0a9089ab5ccbf0c83951f6afe1315822c668659b8b04e4f3b99f7"
 metafile = true
@@ -672,6 +685,11 @@ metafile = true
 [[files]]
 file = "mods/create-aeronautics-climbable-rope.pw.toml"
 hash = "74458a17668530918172dce94e2e2066f9e6dd128131d85c417e32ff892e1b62"
+metafile = true
+
+[[files]]
+file = "mods/create-aeronautics-compatability.pw.toml"
+hash = "d66f3ca71587c7ab8076f4a0154b0d3aa2f043c29c6373f2b8b2e5d6c3c3e91f"
 metafile = true
 
 [[files]]
@@ -777,6 +795,11 @@ metafile = true
 [[files]]
 file = "mods/create-power-loader.pw.toml"
 hash = "d1a7402cc94a8a857d380f68bb9a19d8981a2b3223068a53d9054e97232f4167"
+metafile = true
+
+[[files]]
+file = "mods/create-propulsion-simulated.pw.toml"
+hash = "f82cdd570cb4f6bd9b87a6a30c5e5ecc23125dfcecc715d4950a17301de8c58a"
 metafile = true
 
 [[files]]
