@@ -1767,6 +1767,34 @@ createdeco:brown_placard	Brown Placard
 createdeco:green_placard	Green Placard	
 createdeco:red_placard	Red Placard	
 createdeco:black_placard	Black Placard	
+createdeco:verdant_bricks	Verdant Bricks	
+createdeco:short_verdant_bricks	Short Verdant Bricks	
+createdeco:tiled_verdant_bricks	Tiled Verdant Bricks	
+createdeco:long_verdant_bricks	Long Verdant Bricks	
+createdeco:corner_verdant_bricks	Corner Verdant Bricks	
+createdeco:cracked_verdant_bricks	Cracked Verdant Bricks	
+createdeco:mossy_verdant_bricks	Mossy Verdant Bricks	
+createdeco:verdant_brick_stairs	Verdant Brick Stairs	
+createdeco:short_verdant_brick_stairs	Short Verdant Brick Stairs	
+createdeco:tiled_verdant_brick_stairs	Tiled Verdant Brick Stairs	
+createdeco:long_verdant_brick_stairs	Long Verdant Brick Stairs	
+createdeco:corner_verdant_brick_stairs	Corner Verdant Brick Stairs	
+createdeco:cracked_verdant_brick_stairs	Cracked Verdant Brick Stairs	
+createdeco:mossy_verdant_brick_stairs	Mossy Verdant Brick Stairs	
+createdeco:verdant_brick_slab	Verdant Brick Slab	
+createdeco:short_verdant_brick_slab	Short Verdant Brick Slab	
+createdeco:tiled_verdant_brick_slab	Tiled Verdant Brick Slab	
+createdeco:long_verdant_brick_slab	Long Verdant Brick Slab	
+createdeco:corner_verdant_brick_slab	Corner Verdant Brick Slab	
+createdeco:cracked_verdant_brick_slab	Cracked Verdant Brick Slab	
+createdeco:mossy_verdant_brick_slab	Mossy Verdant Brick Slab	
+createdeco:verdant_brick_wall	Verdant Brick Wall	
+createdeco:short_verdant_brick_wall	Short Verdant Brick Wall	
+createdeco:tiled_verdant_brick_wall	Tiled Verdant Brick Wall	
+createdeco:long_verdant_brick_wall	Long Verdant Brick Wall	
+createdeco:corner_verdant_brick_wall	Corner Verdant Brick Wall	
+createdeco:cracked_verdant_brick_wall	Cracked Verdant Brick Wall	
+createdeco:mossy_verdant_brick_wall	Mossy Verdant Brick Wall	
 createdeco:short_red_bricks	Short Red Bricks	
 createdeco:tiled_red_bricks	Tiled Red Bricks	
 createdeco:long_red_bricks	Long Red Bricks	
@@ -1931,34 +1959,6 @@ createdeco:long_umber_brick_wall	Long Umber Brick Wall
 createdeco:corner_umber_brick_wall	Corner Umber Brick Wall	
 createdeco:cracked_umber_brick_wall	Cracked Umber Brick Wall	
 createdeco:mossy_umber_brick_wall	Mossy Umber Brick Wall	
-createdeco:verdant_bricks	Verdant Bricks	
-createdeco:short_verdant_bricks	Short Verdant Bricks	
-createdeco:tiled_verdant_bricks	Tiled Verdant Bricks	
-createdeco:long_verdant_bricks	Long Verdant Bricks	
-createdeco:corner_verdant_bricks	Corner Verdant Bricks	
-createdeco:cracked_verdant_bricks	Cracked Verdant Bricks	
-createdeco:mossy_verdant_bricks	Mossy Verdant Bricks	
-createdeco:verdant_brick_stairs	Verdant Brick Stairs	
-createdeco:short_verdant_brick_stairs	Short Verdant Brick Stairs	
-createdeco:tiled_verdant_brick_stairs	Tiled Verdant Brick Stairs	
-createdeco:long_verdant_brick_stairs	Long Verdant Brick Stairs	
-createdeco:corner_verdant_brick_stairs	Corner Verdant Brick Stairs	
-createdeco:cracked_verdant_brick_stairs	Cracked Verdant Brick Stairs	
-createdeco:mossy_verdant_brick_stairs	Mossy Verdant Brick Stairs	
-createdeco:verdant_brick_slab	Verdant Brick Slab	
-createdeco:short_verdant_brick_slab	Short Verdant Brick Slab	
-createdeco:tiled_verdant_brick_slab	Tiled Verdant Brick Slab	
-createdeco:long_verdant_brick_slab	Long Verdant Brick Slab	
-createdeco:corner_verdant_brick_slab	Corner Verdant Brick Slab	
-createdeco:cracked_verdant_brick_slab	Cracked Verdant Brick Slab	
-createdeco:mossy_verdant_brick_slab	Mossy Verdant Brick Slab	
-createdeco:verdant_brick_wall	Verdant Brick Wall	
-createdeco:short_verdant_brick_wall	Short Verdant Brick Wall	
-createdeco:tiled_verdant_brick_wall	Tiled Verdant Brick Wall	
-createdeco:long_verdant_brick_wall	Long Verdant Brick Wall	
-createdeco:corner_verdant_brick_wall	Corner Verdant Brick Wall	
-createdeco:cracked_verdant_brick_wall	Cracked Verdant Brick Wall	
-createdeco:mossy_verdant_brick_wall	Mossy Verdant Brick Wall	
 createdeco:pearl_bricks	Pearl Bricks	
 createdeco:short_pearl_bricks	Short Pearl Bricks	
 createdeco:tiled_pearl_bricks	Tiled Pearl Bricks	
@@ -28115,6 +28115,49 @@ createmechanicalcompanion:quantum_drive	Quantum Drive
 createmechanicalcompanion:regenerative_casing	Regenerative Casing	
 createmechanicalcompanion:mounted_light	Mounted Light	
 createmechanicalcompanion:mob_radar	Mob Radar	
+createpropulsion:thruster	Thruster	
+createpropulsion:creative_thruster	Creative Thruster	
+createpropulsion:ion_thruster	Ion Thruster	
+createpropulsion:vector_thruster	Vector Thruster	
+createpropulsion:liquid_vector_thruster	Liquid Vector Thruster	
+createpropulsion:solid_fuel_thruster	Solid Fuel Thruster	
+createpropulsion:creative_vector_thruster	Creative Vector Thruster	
+createpropulsion:redstone_converter	Redstone Converter	
+createpropulsion:redstone_transmission	Redstone Transmission	
+createpropulsion:solid_burner	Solid Burner	
+createpropulsion:liquid_burner	Liquid Burner	
+createpropulsion:stirling_engine	Stirling Engine	
+createpropulsion:tilt_adapter	Tilt Adapter	
+createpropulsion:advanced_tilt_adapter	Advanced Tilt Adapter	
+createpropulsion:wing	Wing	
+createpropulsion:tempered_wing	Tempered Wing	
+createpropulsion:copycat_wing	Copycat Wing	
+createpropulsion:copycat_wing_8	Copycat Wing (8m)	
+createpropulsion:copycat_wing_12	Copycat Wing (12m)	
+createpropulsion:platinum_ore	Platinum Ore	
+createpropulsion:deepslate_platinum_ore	Deepslate Platinum Ore	
+createpropulsion:platinum_block	Block of Platinum	
+createpropulsion:raw_platinum_block	Block of Raw Platinum	
+createpropulsion:platinum_casing	Platinum Casing	
+createpropulsion:platinum_fluid_tank	Platinum Fluid Tank	
+createpropulsion:platinum_fluid_vessel	Platinum Fluid Vessel	
+createpropulsion:coral_generator	Coral Generator	
+createpropulsion:cable	Cable	
+createpropulsion:cable_hub	Cable Hub	
+createpropulsion:cable_relay	Cable Relay	
+createpropulsion:pine_resin	Pine Resin	
+createpropulsion:turpentine_bucket	Turpentine Bucket	
+createpropulsion:coral_bucket	Coral Bucket	
+createpropulsion:oxidizer_bucket	Oxidizer Bucket	
+createpropulsion:platinum_ingot	Platinum Ingot	
+createpropulsion:platinum_nugget	Platinum Nugget	
+createpropulsion:platinum_sheet	Platinum Sheet	
+createpropulsion:raw_platinum	Raw Platinum	
+createpropulsion:assembler_stick	Auto Assembly	
+createpropulsion:auto_glue	Auto Glue	
+createpropulsion:glued_contraption_mover	Contraption Mover	
+createpropulsion:glued_contraption_cloner	Contraption Cloner	
+createpropulsion:contraption_remover	Contraption Remover	
 interiors:seatwood_planks	Seatwood Planks	
 interiors:wall_mounted_table	Wall Mounted Table	
 interiors:white_floor_chair	White Floor Chair	
@@ -28255,37 +28298,21 @@ decorative_blocks:lattice	Lattice
 decorative_blocks:chain	Big Chain	
 decorative_blocks:stone_pillar	Stone Pillar	
 decorative_blocks:rocky_dirt	Rocky Dirt	
-decorative_blocks:jungle_beam	Jungle Beam	
-decorative_blocks:jungle_seat	Jungle Seat	
-decorative_blocks:jungle_support	Jungle Support	
-decorative_blocks:jungle_palisade	Jungle Palisade	
-decorative_blocks:crimson_beam	Crimson Beam	
-decorative_blocks:crimson_seat	Crimson Seat	
-decorative_blocks:crimson_support	Crimson Support	
-decorative_blocks:crimson_palisade	Crimson Palisade	
-decorative_blocks:dark_oak_beam	Dark Oak Beam	
-decorative_blocks:dark_oak_seat	Dark Oak Seat	
-decorative_blocks:dark_oak_support	Dark Oak Support	
-decorative_blocks:dark_oak_palisade	Dark Oak Palisade	
-decorative_blocks:bamboo_seat	Bamboo Seat	
-decorative_blocks:bamboo_support	Bamboo Support	
-decorative_blocks:bamboo_palisade	Bamboo Palisade	
+decorative_blocks:cherry_beam	Cherry Beam	
+decorative_blocks:cherry_seat	Cherry Seat	
+decorative_blocks:cherry_support	Cherry Support	
+decorative_blocks:cherry_palisade	Cherry Palisade	
 decorative_blocks:warped_beam	Warped Beam	
 decorative_blocks:warped_seat	Warped Seat	
 decorative_blocks:warped_support	Warped Support	
 decorative_blocks:warped_palisade	Warped Palisade	
-decorative_blocks:oak_beam	Oak Beam	
-decorative_blocks:oak_seat	Oak Seat	
-decorative_blocks:oak_support	Oak Support	
-decorative_blocks:oak_palisade	Oak Palisade	
-decorative_blocks:mangrove_beam	Mangrove Beam	
-decorative_blocks:mangrove_seat	Mangrove Seat	
-decorative_blocks:mangrove_support	Mangrove Support	
-decorative_blocks:mangrove_palisade	Mangrove Palisade	
 decorative_blocks:spruce_beam	Spruce Beam	
 decorative_blocks:spruce_seat	Spruce Seat	
 decorative_blocks:spruce_support	Spruce Support	
 decorative_blocks:spruce_palisade	Spruce Palisade	
+decorative_blocks:bamboo_seat	Bamboo Seat	
+decorative_blocks:bamboo_support	Bamboo Support	
+decorative_blocks:bamboo_palisade	Bamboo Palisade	
 decorative_blocks:birch_beam	Birch Beam	
 decorative_blocks:birch_seat	Birch Seat	
 decorative_blocks:birch_support	Birch Support	
@@ -28294,10 +28321,26 @@ decorative_blocks:acacia_beam	Acacia Beam
 decorative_blocks:acacia_seat	Acacia Seat	
 decorative_blocks:acacia_support	Acacia Support	
 decorative_blocks:acacia_palisade	Acacia Palisade	
-decorative_blocks:cherry_beam	Cherry Beam	
-decorative_blocks:cherry_seat	Cherry Seat	
-decorative_blocks:cherry_support	Cherry Support	
-decorative_blocks:cherry_palisade	Cherry Palisade	
+decorative_blocks:jungle_beam	Jungle Beam	
+decorative_blocks:jungle_seat	Jungle Seat	
+decorative_blocks:jungle_support	Jungle Support	
+decorative_blocks:jungle_palisade	Jungle Palisade	
+decorative_blocks:dark_oak_beam	Dark Oak Beam	
+decorative_blocks:dark_oak_seat	Dark Oak Seat	
+decorative_blocks:dark_oak_support	Dark Oak Support	
+decorative_blocks:dark_oak_palisade	Dark Oak Palisade	
+decorative_blocks:crimson_beam	Crimson Beam	
+decorative_blocks:crimson_seat	Crimson Seat	
+decorative_blocks:crimson_support	Crimson Support	
+decorative_blocks:crimson_palisade	Crimson Palisade	
+decorative_blocks:mangrove_beam	Mangrove Beam	
+decorative_blocks:mangrove_seat	Mangrove Seat	
+decorative_blocks:mangrove_support	Mangrove Support	
+decorative_blocks:mangrove_palisade	Mangrove Palisade	
+decorative_blocks:oak_beam	Oak Beam	
+decorative_blocks:oak_seat	Oak Seat	
+decorative_blocks:oak_support	Oak Support	
+decorative_blocks:oak_palisade	Oak Palisade	
 create_confectionery:cocoa_powder	Cocoa Powder	
 create_confectionery:cocoa_butter	Cocoa Butter	
 create_confectionery:black_chocolate_bucket	Black Chocolate Bucket	
